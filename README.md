@@ -47,7 +47,7 @@ debate-benchmark/
 ### 2. Installation
 1. First, clone the repository:
 ```
-git clone [https://github.com/your-lab/debate-benchmark.git](https://github.com/your-lab/debate-benchmark.git)
+git clone https://github.com/HeyyDario/debate-benchmark.git
 cd debate-benchmark
 ```
 
