@@ -18,6 +18,13 @@ export default function HeroNav() {
         </Button>
       </Link>
 
+      {/* Internal Link to Conversation Explorer */}
+      <Link href="/conversation-explorer">
+        <Button size="large" icon={<TableOutlined />} className="hover:scale-105 transition-transform">
+          Conversation Explorer
+        </Button>
+      </Link>
+
       {/* External Links */}
       <Button 
         size="large" 
