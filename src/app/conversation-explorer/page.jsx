@@ -45,6 +45,8 @@ export default function ConversationExplorer() {
     }
   }, [selectedDataPrefix, selectedModel, selectedVersion]);
 
+  const event_filter = 'message_sent';
+
   const loadCsvData = async () => {
     setLoading(true);
     try {
@@ -95,61 +97,88 @@ export default function ConversationExplorer() {
       // Filter for Round 1 data
       const round1 = parsed.filter(
         (row) => row.chat_round_order === "1.0" && 
-                 (row.event_type === "tweet" || row.event_type === "message_sent")
+                 (row.event_type === "tweet" || row.event_type === event_filter)
       );
       
-      console.log("Total Round 1 messages:", round1.length);
-      console.log("Sample Round 1 row:", round1[0]);
+      // Identify pairs based on sender_id and recipient_id
+      const round1Pairs = new Map(); // Map of pair key to worker IDs
+      round1.forEach(row => {
+        if (row.sender_id && row.recipient_id) {
+          const pairKey = [row.sender_id, row.recipient_id].sort().join('-');
+          if (!round1Pairs.has(pairKey)) {
+            round1Pairs.set(pairKey, new Set([row.sender_id, row.recipient_id]));
+          }
+        }
+      });
       
-      // Get unique worker_ids in round 1
-      const round1Workers = [...new Set(round1.map(r => r.worker_id))];
-      console.log("Round 1 workers:", round1Workers);
-      
-      // Split workers into 2 pairs (first 2 and last 2)
-      const pair1Workers = round1Workers.slice(0, 2);
-      const pair2Workers = round1Workers.slice(2, 4);
-      
-      console.log("Pair 1 workers:", pair1Workers);
-      console.log("Pair 2 workers:", pair2Workers);
+      const round1PairArrays = Array.from(round1Pairs.values()).map(set => Array.from(set));
+      const pair1Workers = round1PairArrays[0] || [];
+      const pair2Workers = round1PairArrays[1] || [];
       
       // Filter messages for each pair, then sort by time
       const pair1Messages = round1
-        .filter(row => pair1Workers.includes(row.worker_id))
+        .filter(row => pair1Workers.includes(row.sender_id) || pair1Workers.includes(row.recipient_id))
         .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
       
       const pair2Messages = round1
-        .filter(row => pair2Workers.includes(row.worker_id))
+        .filter(row => pair2Workers.includes(row.sender_id) || pair2Workers.includes(row.recipient_id))
         .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
-      
 
-    console.log("Pair 1 messages:", pair1Messages);
       setRound1Data({ pair1: pair1Messages, pair2: pair2Messages });
 
       // Filter for Round 2 data
       const round2 = parsed.filter(
         (row) => row.chat_round_order === "2.0" && 
-                 (row.event_type === "tweet" || row.event_type === "message_sent")
+                 (row.event_type === "tweet" || row.event_type === event_filter)
       );
-      const round2Workers = [...new Set(round2.map(r => r.worker_id))];
+      
+      const round2Pairs = new Map();
+      round2.forEach(row => {
+        if (row.sender_id && row.recipient_id) {
+          const pairKey = [row.sender_id, row.recipient_id].sort().join('-');
+          if (!round2Pairs.has(pairKey)) {
+            round2Pairs.set(pairKey, new Set([row.sender_id, row.recipient_id]));
+          }
+        }
+      });
+      
+      const round2PairArrays = Array.from(round2Pairs.values()).map(set => Array.from(set));
+      const round2Pair1Workers = round2PairArrays[0] || [];
+      const round2Pair2Workers = round2PairArrays[1] || [];
+      
       const round2Pair1 = round2
-        .filter(row => round2Workers.slice(0, 2).includes(row.worker_id))
+        .filter(row => round2Pair1Workers.includes(row.sender_id) || round2Pair1Workers.includes(row.recipient_id))
         .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
       const round2Pair2 = round2
-        .filter(row => round2Workers.slice(2, 4).includes(row.worker_id))
+        .filter(row => round2Pair2Workers.includes(row.sender_id) || round2Pair2Workers.includes(row.recipient_id))
         .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
       setRound2Data({ pair1: round2Pair1, pair2: round2Pair2 });
 
       // Filter for Round 3 data
       const round3 = parsed.filter(
         (row) => row.chat_round_order === "3.0" && 
-                 (row.event_type === "tweet" || row.event_type === "message_sent")
+                 (row.event_type === "tweet" || row.event_type === event_filter)
       );
-      const round3Workers = [...new Set(round3.map(r => r.worker_id))];
+      
+      const round3Pairs = new Map();
+      round3.forEach(row => {
+        if (row.sender_id && row.recipient_id) {
+          const pairKey = [row.sender_id, row.recipient_id].sort().join('-');
+          if (!round3Pairs.has(pairKey)) {
+            round3Pairs.set(pairKey, new Set([row.sender_id, row.recipient_id]));
+          }
+        }
+      });
+      
+      const round3PairArrays = Array.from(round3Pairs.values()).map(set => Array.from(set));
+      const round3Pair1Workers = round3PairArrays[0] || [];
+      const round3Pair2Workers = round3PairArrays[1] || [];
+      
       const round3Pair1 = round3
-        .filter(row => round3Workers.slice(0, 2).includes(row.worker_id))
+        .filter(row => round3Pair1Workers.includes(row.sender_id) || round3Pair1Workers.includes(row.recipient_id))
         .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
       const round3Pair2 = round3
-        .filter(row => round3Workers.slice(2, 4).includes(row.worker_id))
+        .filter(row => round3Pair2Workers.includes(row.sender_id) || round3Pair2Workers.includes(row.recipient_id))
         .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
       setRound3Data({ pair1: round3Pair1, pair2: round3Pair2 });
     } catch (error) {
@@ -272,11 +301,11 @@ export default function ConversationExplorer() {
                     Round 1 Debate
                   </Title>
                   
-                  {/* Subround 1: First Pair */}
+                  {/* Chatroom 1: First Pair */}
                   {round1Data.pair1.length > 0 && (
                     <div style={{ marginBottom: 24 }}>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Subround 1
+                        Chatroom 1
                       </Title>
                       <div
                         style={{
@@ -292,11 +321,11 @@ export default function ConversationExplorer() {
                     </div>
                   )}
 
-                  {/* Subround 2: Second Pair */}
+                  {/* Chatroom 2: Second Pair */}
                   {round1Data.pair2.length > 0 && (
                     <div>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Subround 2
+                        Chatroom 2
                       </Title>
                       <div
                         style={{
@@ -321,11 +350,11 @@ export default function ConversationExplorer() {
                     Round 2 Debate
                   </Title>
                   
-                  {/* Subround 1: First Pair */}
+                  {/* Chatroom 1: First Pair */}
                   {round2Data.pair1.length > 0 && (
                     <div style={{ marginBottom: 24 }}>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Subround 1
+                        Chatroom 1
                       </Title>
                       <div
                         style={{
@@ -341,11 +370,11 @@ export default function ConversationExplorer() {
                     </div>
                   )}
 
-                  {/* Subround 2: Second Pair */}
+                  {/* Chatroom 2: Second Pair */}
                   {round2Data.pair2.length > 0 && (
                     <div>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Subround 2
+                        Chatroom 2
                       </Title>
                       <div
                         style={{
@@ -370,11 +399,11 @@ export default function ConversationExplorer() {
                     Round 3 Debate
                   </Title>
                   
-                  {/* Subround 1: First Pair */}
+                  {/* Chatroom 1: First Pair */}
                   {round3Data.pair1.length > 0 && (
                     <div style={{ marginBottom: 24 }}>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Subround 1
+                        Chatroom 1
                       </Title>
                       <div
                         style={{
@@ -390,11 +419,11 @@ export default function ConversationExplorer() {
                     </div>
                   )}
 
-                  {/* Subround 2: Second Pair */}
+                  {/* Chatroom 2: Second Pair */}
                   {round3Data.pair2.length > 0 && (
                     <div>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Subround 2
+                        Chatroom 2
                       </Title>
                       <div
                         style={{

@@ -21,13 +21,27 @@ export default function ChatDisplay({ messages, workerColorMap: externalColorMap
     );
   }
 
+  // Filter out messages with blank text content
+  const filteredMessages = messages.filter(msg => {
+    const text = msg.llm_text || msg.text || "";
+    return text.trim().length > 0;
+  });
+
+  if (filteredMessages.length === 0) {
+    return (
+      <div className="text-center py-12 text-gray-400">
+        No messages to display
+      </div>
+    );
+  }
+
   // Use external maps if provided, otherwise create local maps
   let workerColorMap = externalColorMap;
   let workerAlignmentMap = externalAlignmentMap;
   
   if (!externalColorMap || !externalAlignmentMap) {
     // Fallback: create local maps
-    const workerIds = [...new Set(messages.map((m) => m.worker_id))];
+    const workerIds = [...new Set(filteredMessages.map((m) => m.worker_id))];
     workerColorMap = {};
     workerAlignmentMap = {};
     workerIds.forEach((id, idx) => {
@@ -38,7 +52,7 @@ export default function ChatDisplay({ messages, workerColorMap: externalColorMap
 
   // If staggered mode, create local alignment map for this subround
   if (staggered) {
-    const localWorkerIds = [...new Set(messages.map((m) => m.worker_id))];
+    const localWorkerIds = [...new Set(filteredMessages.map((m) => m.worker_id))];
     workerAlignmentMap = {};
     localWorkerIds.forEach((id, idx) => {
       workerAlignmentMap[id] = idx % 2 === 0 ? "left" : "right";
@@ -47,7 +61,7 @@ export default function ChatDisplay({ messages, workerColorMap: externalColorMap
 
   return (
     <div className="space-y-4">
-      {messages.map((message, idx) => {
+      {filteredMessages.map((message, idx) => {
         const bgColor = workerColorMap[message.worker_id] || "#F0F0F0";
         const alignment = workerAlignmentMap[message.worker_id] || "left";
         const isRight = alignment === "right";
