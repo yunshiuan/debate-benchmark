@@ -3,7 +3,6 @@ import HeroNav from '@/components/HeroNav';
 import Citation from '@/components/Citation';
 import { Typography, Space, Tag } from 'antd';
 import { MailOutlined } from '@ant-design/icons';
-
 const { Title, Paragraph, Text } = Typography;
 
 const SectionHeader = ({ icon, title }) => (
@@ -81,10 +80,16 @@ export default function Home() {
 
           <SectionHeader icon="✨" title="Abstract" />
           
-          <div className="border-2 border-dashed border-gray-200 rounded-2xl h-80 flex items-center justify-center my-10 bg-gray-50 transition-all hover:bg-gray-100 group">
-             <Text type="secondary" className="italic font-light text-gray-400 group-hover:text-gray-500">
-               [Insert Benchmark Architecture Diagram Here]
-             </Text>
+          <div className="border-2 border-dashed border-gray-200 rounded-2xl my-10 bg-gray-50 overflow-hidden">
+            <div className="p-4">
+              <div className="w-full">
+                <img
+                  src="/exp_diagram_fig.png"
+                  alt="Benchmark architecture diagram"
+                  className="w-full h-auto rounded-xl border border-gray-200 bg-white"
+                />
+              </div>
+            </div>
           </div>
 
           <div className="space-y-6">

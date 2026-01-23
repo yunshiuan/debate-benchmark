@@ -4,7 +4,9 @@ import {
   TableOutlined, 
   GithubOutlined, 
   FilePdfOutlined, 
-  FileImageOutlined 
+  FileImageOutlined,
+  UserOutlined,
+  TagsOutlined
 } from '@ant-design/icons';
 import Link from 'next/link';
 
@@ -22,6 +24,18 @@ export default function HeroNav() {
       <Link href="/conversation-explorer">
         <Button size="large" icon={<TableOutlined />} className="hover:scale-105 transition-transform">
           Conversation Explorer
+        </Button>
+      </Link>
+
+      <Link href="/persona-explorer">
+        <Button size="large" icon={<UserOutlined />} className="hover:scale-105 transition-transform">
+          Persona Explorer
+        </Button>
+      </Link>
+
+      <Link href="/topic-explorer">
+        <Button size="large" icon={<TagsOutlined />} className="hover:scale-105 transition-transform">
+          Topic Explorer
         </Button>
       </Link>
 

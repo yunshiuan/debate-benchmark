@@ -1,35 +1,21 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Typography, Spin, Tabs } from "antd";
+import { Typography, Spin } from "antd";
+import { useSearchParams } from "next/navigation";
 import ConversationExplorerHeader from "../../components/ConversationExplorerHeader";
 import ConversationFilters from "../../components/ConversationFilters";
 import ChatDisplay from "../../components/ChatDisplay";
+import { dataPrefixes, models, versions } from "../../lib/explorerOptions";
 
 const { Title } = Typography;
 
-// Available options - customize these based on your data
-const dataPrefixes = [
-  '20250307_012440_A_"body_cleanse,"_in_which_you_consume_only_particular_kinds_of_nutrients_over_1-3_days,_helps_your_body_to_eliminate_toxins_01JNQ1111QV26WKRF8M8GPVRJZ',
-  "20250307_013238_Regular_fasting_will_improve_your_health_01JNQ1NDBZDSN1FMS20MZGSZF0",
-  "20250330_032118_Angels_are_real_01JQJFH2BS7DSH4TZ9CR6C7H91",
-  "20250411_023437_The_position_of_the_planets_at_the_time_of_your_birth_can_influence_your_personality_01JRH95VHB1MXGP96QMB69XKQW",
-  "20250419_025125_The_US_deficit_increased_after_President_Obama_was_elected_01JS5W9QG0PC5KRJRM42S2JDJS",
-];
-const models = [
-  "gpt-4o-mini-2024-07-18",
-  "Llama-3.1-Tulu-3-8B-SFT",
-  "Llama-3.1-8B-Instruct",
-  "Llama-3.1-70B-Instruct",
-  "Mistral-7B-Instruct-v0.3",
-  "Qwen2.5-32B-Instruct",
-];
-const versions = ["v0", "v1", "v2"];
-
 export default function ConversationExplorer() {
+  const searchParams = useSearchParams();
   const [selectedDataPrefix, setSelectedDataPrefix] = useState(dataPrefixes[0]);
   const [selectedModel, setSelectedModel] = useState(models[0]);
   const [selectedVersion, setSelectedVersion] = useState(versions[0]);
+  const [hasAppliedQuery, setHasAppliedQuery] = useState(false);
   const [rawData, setRawData] = useState([]);
   const [initialOpinions, setInitialOpinions] = useState([]);
   const [round1Data, setRound1Data] = useState({ pair1: [], pair2: [] });
@@ -44,6 +30,27 @@ export default function ConversationExplorer() {
       loadCsvData();
     }
   }, [selectedDataPrefix, selectedModel, selectedVersion]);
+
+  useEffect(() => {
+    if (hasAppliedQuery) return;
+    const topicParam = searchParams.get("topic");
+    const modelParam = searchParams.get("model");
+    const versionParam = searchParams.get("version");
+
+    if (topicParam && dataPrefixes.includes(topicParam)) {
+      setSelectedDataPrefix(topicParam);
+    }
+    if (modelParam && models.includes(modelParam)) {
+      setSelectedModel(modelParam);
+    }
+    if (versionParam && versions.includes(versionParam)) {
+      setSelectedVersion(versionParam);
+    }
+
+    if (topicParam || modelParam || versionParam) {
+      setHasAppliedQuery(true);
+    }
+  }, [hasAppliedQuery, searchParams]);
 
   const event_filter = 'message_sent';
 
