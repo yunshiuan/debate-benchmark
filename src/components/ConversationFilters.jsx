@@ -1,7 +1,7 @@
 "use client";
 
 import { Select, Space, Typography } from "antd";
-import { topicLabelsByPrefix } from "../lib/explorerOptions";
+import { topicLabelsByPrefix } from "@/lib/explorerOptions";
 
 const { Text } = Typography;
 
