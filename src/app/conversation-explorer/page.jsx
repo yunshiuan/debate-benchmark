@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { Typography, Spin } from "antd";
 import { useSearchParams } from "next/navigation";
 import ConversationExplorerHeader from "../../components/ConversationExplorerHeader";
@@ -10,7 +10,7 @@ import { dataPrefixes, models, versions } from "../../lib/explorerOptions";
 
 const { Title } = Typography;
 
-export default function ConversationExplorer() {
+function ConversationExplorerContent() {
   const searchParams = useSearchParams();
   const [selectedDataPrefix, setSelectedDataPrefix] = useState(dataPrefixes[0]);
   const [selectedModel, setSelectedModel] = useState(models[0]);
@@ -460,5 +460,24 @@ export default function ConversationExplorer() {
         </div>
       </div>
     </main>
+  );
+}
+
+export default function ConversationExplorer() {
+  return (
+    <Suspense fallback={
+      <main className="min-h-screen bg-gray-50 font-sans">
+        <ConversationExplorerHeader />
+        <div className="max-w-7xl mx-auto px-4 py-8">
+          <div className="bg-white rounded-lg shadow p-6">
+            <div className="text-center py-12">
+              <Spin size="large" />
+            </div>
+          </div>
+        </div>
+      </main>
+    }>
+      <ConversationExplorerContent />
+    </Suspense>
   );
 }
