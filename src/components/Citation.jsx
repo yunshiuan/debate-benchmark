@@ -8,7 +8,7 @@ const { Title } = Typography;
 export default function Citation() {
   const bibtex = `@misc{chuang2025debatelargescalebenchmarkroleplaying,
       title={DEBATE: A Large-Scale Benchmark for Role-Playing LLM Agents in Multi-Agent, Long-Form Debates}, 
-      author={Yun-Shiuan Chuang and Ruixuan Tu and Chengtao Dai and Smit Vasani and Binwei Yao and Michael Henry Tessler and Sijia Yang and Dhavan Shah and Robert Hawkins and Junjie Hu and Timothy T. Rogers},
+      author={Yun-Shiuan Chuang and Ruixuan Tu and Chengtao Dai and Smit Vasani and You Li and Binwei Yao and Michael Henry Tessler and Sijia Yang and Dhavan Shah and Robert Hawkins and Junjie Hu and Timothy T. Rogers},
       year={2025},
       eprint={2510.25110},
       archivePrefix={arXiv},

@@ -20,7 +20,7 @@ export default function ChatDisplay({ messages, workerColorMap: externalColorMap
       </div>
     );
   }
-
+ 
   // Filter out messages with blank text content
   const filteredMessages = messages.filter(msg => {
     const text = msg.llm_text || msg.text || "";

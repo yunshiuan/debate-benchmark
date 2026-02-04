@@ -32,7 +32,7 @@ export default function Home() {
           
           {/* Authors List */}
           <Paragraph style={{ color: 'white', fontSize: '1rem', fontWeight: '400', maxWidth: '900px', margin: '0 auto 16px auto', lineHeight: '1.6', opacity: 0.95 }}>
-            Yun-Shiuan Chuang, Ruixuan Tu, Chengtao Dai, Smit Vasani, Binwei Yao, Michael Henry Tessler, <br />
+            Yun-Shiuan Chuang, Ruixuan Tu, Chengtao Dai, Smit Vasani, You Li, Binwei Yao, Michael Henry Tessler, <br />
             Sijia Yang, Dhavan V. Shah, Robert D. Hawkins, Junjie Hu, Timothy T. Rogers
           </Paragraph>
 
