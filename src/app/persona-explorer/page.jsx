@@ -292,8 +292,10 @@ export default function PersonaExplorer() {
   const [selectedPersona, setSelectedPersona] = useState(null);
   const [selectedDataPrefix, setSelectedDataPrefix] = useState(null);
   const [rawData, setRawData] = useState([]);
+  const [rawHumanData, setRawHumanData] = useState([]);
   const [loadingDemographics, setLoadingDemographics] = useState(false);
   const [loadingConversation, setLoadingConversation] = useState(false);
+  const [loadingHumanConversation, setLoadingHumanConversation] = useState(false);
 
   const [ageValue, setAgeValue] = useState(null);
   const [gender, setGender] = useState(null);
@@ -367,6 +369,34 @@ export default function PersonaExplorer() {
 
     loadCsvData();
   }, [selectedDataPrefix, selectedModel, selectedVersion]);
+
+  useEffect(() => {
+    if (!selectedDataPrefix) return;
+    const loadHumanCsvData = async () => {
+      setLoadingHumanConversation(true);
+      try {
+        const csvPath = `/api/conversation-human?dataPrefix=${selectedDataPrefix}`;
+        const response = await fetch(csvPath);
+
+        if (!response.ok) {
+          console.error("Failed to load human CSV:", csvPath);
+          setRawHumanData([]);
+          setLoadingHumanConversation(false);
+          return;
+        }
+
+        const csvText = await response.text();
+        const parsed = parseCsv(csvText);
+        setRawHumanData(parsed);
+      } catch (error) {
+        console.error("Error loading human CSV:", error);
+        setRawHumanData([]);
+      }
+      setLoadingHumanConversation(false);
+    };
+
+    loadHumanCsvData();
+  }, [selectedDataPrefix]);
 
   const parseCsv = (text) => {
     if (!text) return [];
@@ -528,6 +558,17 @@ export default function PersonaExplorer() {
     return { colorMap, alignmentMap };
   }, [rawData]);
 
+  const workerMapsHuman = useMemo(() => {
+    const workerIds = [...new Set(rawHumanData.map((row) => row.worker_id).filter(Boolean))];
+    const colorMap = {};
+    const alignmentMap = {};
+    workerIds.forEach((id, idx) => {
+      colorMap[id] = workerColors[idx % workerColors.length];
+      alignmentMap[id] = idx % 2 === 0 ? "left" : "right";
+    });
+    return { colorMap, alignmentMap };
+  }, [rawHumanData]);
+
   const initialOpinions = useMemo(() => {
     return personaMessages
       .filter((row) => row.event_type === "Initial Opinion")
@@ -593,6 +634,44 @@ export default function PersonaExplorer() {
       round3: buildRound("3.0"),
     };
   }, [eventFilter, rawData, selectedPersona]);
+
+  const fullRoundDataHuman = useMemo(() => {
+    const buildRound = (round) => {
+      if (!selectedPersona) return [];
+      const roundRows = rawHumanData
+        .filter(
+          (row) =>
+            row.chat_round_order === round &&
+            (row.event_type === "tweet" || row.event_type === eventFilter)
+        )
+        .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
+
+      if (roundRows.length === 0) return [];
+
+      let pairWorkers = null;
+      for (const row of roundRows) {
+        if (!row.sender_id || !row.recipient_id) continue;
+        if (row.sender_id === selectedPersona || row.recipient_id === selectedPersona) {
+          pairWorkers = new Set([row.sender_id, row.recipient_id]);
+          break;
+        }
+      }
+
+      if (!pairWorkers) return [];
+      return roundRows.filter(
+        (row) =>
+          pairWorkers.has(row.sender_id) ||
+          pairWorkers.has(row.recipient_id) ||
+          pairWorkers.has(row.worker_id)
+      );
+    };
+
+    return {
+      round1: buildRound("1.0"),
+      round2: buildRound("2.0"),
+      round3: buildRound("3.0"),
+    };
+  }, [eventFilter, rawHumanData, selectedPersona]);
 
   const messageCount = useMemo(() => {
     return personaMessages.filter(
@@ -904,7 +983,7 @@ export default function PersonaExplorer() {
             </Space>
           </Space>
 
-          {loadingConversation ? (
+          {loadingConversation || loadingHumanConversation ? (
             <div className="text-center py-12">
               <Spin size="large" />
             </div>
@@ -1012,21 +1091,47 @@ export default function PersonaExplorer() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Round 1
                       </Title>
-                      <div
-                        style={{
-                          backgroundColor: "#F5F5F5",
-                          padding: "20px",
-                          borderRadius: "8px",
-                          maxHeight: "60vh",
-                          overflowY: "auto",
-                        }}
-                      >
-                        <ChatDisplay
-                          messages={fullRoundData.round1}
-                          workerColorMap={workerMaps.colorMap}
-                          workerAlignmentMap={workerMaps.alignmentMap}
-                          staggered
-                        />
+                      <div className="flex flex-col gap-4 lg:flex-row">
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Human
+                          </Title>
+                          <ChatDisplay
+                            messages={fullRoundDataHuman.round1}
+                            workerColorMap={workerMapsHuman.colorMap}
+                            workerAlignmentMap={workerMapsHuman.alignmentMap}
+                            staggered
+                          />
+                        </div>
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Model
+                          </Title>
+                          <ChatDisplay
+                            messages={fullRoundData.round1}
+                            workerColorMap={workerMaps.colorMap}
+                            workerAlignmentMap={workerMaps.alignmentMap}
+                            staggered
+                          />
+                        </div>
                       </div>
                     </div>
                   )}
@@ -1036,21 +1141,47 @@ export default function PersonaExplorer() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Round 2
                       </Title>
-                      <div
-                        style={{
-                          backgroundColor: "#F5F5F5",
-                          padding: "20px",
-                          borderRadius: "8px",
-                          maxHeight: "60vh",
-                          overflowY: "auto",
-                        }}
-                      >
-                        <ChatDisplay
-                          messages={fullRoundData.round2}
-                          workerColorMap={workerMaps.colorMap}
-                          workerAlignmentMap={workerMaps.alignmentMap}
-                          staggered
-                        />
+                      <div className="flex flex-col gap-4 lg:flex-row">
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Human
+                          </Title>
+                          <ChatDisplay
+                            messages={fullRoundDataHuman.round2}
+                            workerColorMap={workerMapsHuman.colorMap}
+                            workerAlignmentMap={workerMapsHuman.alignmentMap}
+                            staggered
+                          />
+                        </div>
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Model
+                          </Title>
+                          <ChatDisplay
+                            messages={fullRoundData.round2}
+                            workerColorMap={workerMaps.colorMap}
+                            workerAlignmentMap={workerMaps.alignmentMap}
+                            staggered
+                          />
+                        </div>
                       </div>
                     </div>
                   )}
@@ -1060,21 +1191,47 @@ export default function PersonaExplorer() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Round 3
                       </Title>
-                      <div
-                        style={{
-                          backgroundColor: "#F5F5F5",
-                          padding: "20px",
-                          borderRadius: "8px",
-                          maxHeight: "60vh",
-                          overflowY: "auto",
-                        }}
-                      >
-                        <ChatDisplay
-                          messages={fullRoundData.round3}
-                          workerColorMap={workerMaps.colorMap}
-                          workerAlignmentMap={workerMaps.alignmentMap}
-                          staggered
-                        />
+                      <div className="flex flex-col gap-4 lg:flex-row">
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Human
+                          </Title>
+                          <ChatDisplay
+                            messages={fullRoundDataHuman.round3}
+                            workerColorMap={workerMapsHuman.colorMap}
+                            workerAlignmentMap={workerMapsHuman.alignmentMap}
+                            staggered
+                          />
+                        </div>
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Model
+                          </Title>
+                          <ChatDisplay
+                            messages={fullRoundData.round3}
+                            workerColorMap={workerMaps.colorMap}
+                            workerAlignmentMap={workerMaps.alignmentMap}
+                            staggered
+                          />
+                        </div>
                       </div>
                     </div>
                   )}
