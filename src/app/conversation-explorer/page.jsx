@@ -17,11 +17,18 @@ function ConversationExplorerContent() {
   const [selectedVersion, setSelectedVersion] = useState(versions[0]);
   const [hasAppliedQuery, setHasAppliedQuery] = useState(false);
   const [rawData, setRawData] = useState([]);
+  const [rawHumanData, setRawHumanData] = useState([]);
   const [initialOpinions, setInitialOpinions] = useState([]);
+  const [postOpinions, setPostOpinions] = useState([]);
+  const [postHumanOpinions, setPostHumanOpinions] = useState([]);
   const [round1Data, setRound1Data] = useState({ pair1: [], pair2: [] });
   const [round2Data, setRound2Data] = useState({ pair1: [], pair2: [] });
   const [round3Data, setRound3Data] = useState({ pair1: [], pair2: [] });
+  const [round1HumanData, setRound1HumanData] = useState({ pair1: [], pair2: [] });
+  const [round2HumanData, setRound2HumanData] = useState({ pair1: [], pair2: [] });
+  const [round3HumanData, setRound3HumanData] = useState({ pair1: [], pair2: [] });
   const [loading, setLoading] = useState(false);
+  const [loadingHuman, setLoadingHuman] = useState(false);
   const [workerColorMap, setWorkerColorMap] = useState({});
   const [workerAlignmentMap, setWorkerAlignmentMap] = useState({});
 
@@ -53,6 +60,48 @@ function ConversationExplorerContent() {
   }, [hasAppliedQuery, searchParams]);
 
   const event_filter = 'message_sent';
+
+  const buildRoundData = (parsed, roundOrder) => {
+    const roundRows = parsed.filter(
+      (row) =>
+        row.chat_round_order === roundOrder &&
+        (row.event_type === "tweet" || row.event_type === event_filter)
+    );
+
+    const roundPairs = new Map();
+    roundRows.forEach((row) => {
+      if (row.sender_id && row.recipient_id) {
+        const pairKey = [row.sender_id, row.recipient_id].sort().join("-");
+        if (!roundPairs.has(pairKey)) {
+          roundPairs.set(pairKey, new Set([row.sender_id, row.recipient_id]));
+        }
+      }
+    });
+
+    const roundPairArrays = Array.from(roundPairs.values()).map((set) =>
+      Array.from(set)
+    );
+    const pair1Workers = roundPairArrays[0] || [];
+    const pair2Workers = roundPairArrays[1] || [];
+
+    const pair1Messages = roundRows
+      .filter(
+        (row) =>
+          pair1Workers.includes(row.sender_id) ||
+          pair1Workers.includes(row.recipient_id)
+      )
+      .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
+
+    const pair2Messages = roundRows
+      .filter(
+        (row) =>
+          pair2Workers.includes(row.sender_id) ||
+          pair2Workers.includes(row.recipient_id)
+      )
+      .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
+
+    return { pair1: pair1Messages, pair2: pair2Messages };
+  };
 
   const loadCsvData = async () => {
     setLoading(true);
@@ -101,93 +150,14 @@ function ConversationExplorerContent() {
       ).sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
       setInitialOpinions(initialOps);
 
-      // Filter for Round 1 data
-      const round1 = parsed.filter(
-        (row) => row.chat_round_order === "1.0" && 
-                 (row.event_type === "tweet" || row.event_type === event_filter)
-      );
-      
-      // Identify pairs based on sender_id and recipient_id
-      const round1Pairs = new Map(); // Map of pair key to worker IDs
-      round1.forEach(row => {
-        if (row.sender_id && row.recipient_id) {
-          const pairKey = [row.sender_id, row.recipient_id].sort().join('-');
-          if (!round1Pairs.has(pairKey)) {
-            round1Pairs.set(pairKey, new Set([row.sender_id, row.recipient_id]));
-          }
-        }
-      });
-      
-      const round1PairArrays = Array.from(round1Pairs.values()).map(set => Array.from(set));
-      const pair1Workers = round1PairArrays[0] || [];
-      const pair2Workers = round1PairArrays[1] || [];
-      
-      // Filter messages for each pair, then sort by time
-      const pair1Messages = round1
-        .filter(row => pair1Workers.includes(row.sender_id) || pair1Workers.includes(row.recipient_id))
+      const postOps = parsed
+        .filter((row) => row.event_type === "Post Opinion")
         .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
-      
-      const pair2Messages = round1
-        .filter(row => pair2Workers.includes(row.sender_id) || pair2Workers.includes(row.recipient_id))
-        .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
+      setPostOpinions(postOps);
 
-      setRound1Data({ pair1: pair1Messages, pair2: pair2Messages });
-
-      // Filter for Round 2 data
-      const round2 = parsed.filter(
-        (row) => row.chat_round_order === "2.0" && 
-                 (row.event_type === "tweet" || row.event_type === event_filter)
-      );
-      
-      const round2Pairs = new Map();
-      round2.forEach(row => {
-        if (row.sender_id && row.recipient_id) {
-          const pairKey = [row.sender_id, row.recipient_id].sort().join('-');
-          if (!round2Pairs.has(pairKey)) {
-            round2Pairs.set(pairKey, new Set([row.sender_id, row.recipient_id]));
-          }
-        }
-      });
-      
-      const round2PairArrays = Array.from(round2Pairs.values()).map(set => Array.from(set));
-      const round2Pair1Workers = round2PairArrays[0] || [];
-      const round2Pair2Workers = round2PairArrays[1] || [];
-      
-      const round2Pair1 = round2
-        .filter(row => round2Pair1Workers.includes(row.sender_id) || round2Pair1Workers.includes(row.recipient_id))
-        .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
-      const round2Pair2 = round2
-        .filter(row => round2Pair2Workers.includes(row.sender_id) || round2Pair2Workers.includes(row.recipient_id))
-        .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
-      setRound2Data({ pair1: round2Pair1, pair2: round2Pair2 });
-
-      // Filter for Round 3 data
-      const round3 = parsed.filter(
-        (row) => row.chat_round_order === "3.0" && 
-                 (row.event_type === "tweet" || row.event_type === event_filter)
-      );
-      
-      const round3Pairs = new Map();
-      round3.forEach(row => {
-        if (row.sender_id && row.recipient_id) {
-          const pairKey = [row.sender_id, row.recipient_id].sort().join('-');
-          if (!round3Pairs.has(pairKey)) {
-            round3Pairs.set(pairKey, new Set([row.sender_id, row.recipient_id]));
-          }
-        }
-      });
-      
-      const round3PairArrays = Array.from(round3Pairs.values()).map(set => Array.from(set));
-      const round3Pair1Workers = round3PairArrays[0] || [];
-      const round3Pair2Workers = round3PairArrays[1] || [];
-      
-      const round3Pair1 = round3
-        .filter(row => round3Pair1Workers.includes(row.sender_id) || round3Pair1Workers.includes(row.recipient_id))
-        .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
-      const round3Pair2 = round3
-        .filter(row => round3Pair2Workers.includes(row.sender_id) || round3Pair2Workers.includes(row.recipient_id))
-        .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
-      setRound3Data({ pair1: round3Pair1, pair2: round3Pair2 });
+      setRound1Data(buildRoundData(parsed, "1.0"));
+      setRound2Data(buildRoundData(parsed, "2.0"));
+      setRound3Data(buildRoundData(parsed, "3.0"));
     } catch (error) {
       console.error("Error loading CSV:", error);
       setRawData([]);
@@ -195,8 +165,44 @@ function ConversationExplorerContent() {
       setRound1Data({ pair1: [], pair2: [] });
       setRound2Data({ pair1: [], pair2: [] });
       setRound3Data({ pair1: [], pair2: [] });
+      setPostOpinions([]);
     }
     setLoading(false);
+  };
+
+  const loadHumanCsvData = async () => {
+    setLoadingHuman(true);
+    try {
+      const csvPath = `/api/conversation-human?dataPrefix=${selectedDataPrefix}`;
+      const response = await fetch(csvPath);
+
+      if (!response.ok) {
+        console.error("Failed to load human CSV:", csvPath);
+        setRound1HumanData({ pair1: [], pair2: [] });
+        setRound2HumanData({ pair1: [], pair2: [] });
+        setRound3HumanData({ pair1: [], pair2: [] });
+        setLoadingHuman(false);
+        return;
+      }
+
+      const csvText = await response.text();
+      const parsed = parseCsv(csvText);
+      setRawHumanData(parsed);
+      setRound1HumanData(buildRoundData(parsed, "1.0"));
+      setRound2HumanData(buildRoundData(parsed, "2.0"));
+      setRound3HumanData(buildRoundData(parsed, "3.0"));
+      const postOps = parsed
+        .filter((row) => row.event_type === "Post Opinion")
+        .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
+      setPostHumanOpinions(postOps);
+    } catch (error) {
+      console.error("Error loading human CSV:", error);
+      setRound1HumanData({ pair1: [], pair2: [] });
+      setRound2HumanData({ pair1: [], pair2: [] });
+      setRound3HumanData({ pair1: [], pair2: [] });
+      setPostHumanOpinions([]);
+    }
+    setLoadingHuman(false);
   };
 
   const parseCsv = (text) => {
@@ -262,6 +268,12 @@ function ConversationExplorerContent() {
     return data;
   };
 
+  useEffect(() => {
+    if (selectedDataPrefix) {
+      loadHumanCsvData();
+    }
+  }, [selectedDataPrefix]);
+
   return (
     <main className="min-h-screen bg-gray-50 font-sans">
       <ConversationExplorerHeader />
@@ -280,7 +292,7 @@ function ConversationExplorerContent() {
         />
 
         <div className="bg-white rounded-lg shadow p-6">
-          {loading ? (
+          {loading || loadingHuman ? (
             <div className="text-center py-12">
               <Spin size="large" />
             </div>
@@ -314,16 +326,37 @@ function ConversationExplorerContent() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Chatroom 1
                       </Title>
-                      <div
-                        style={{
-                          backgroundColor: "#F5F5F5",
-                          padding: "20px",
-                          borderRadius: "8px",
-                          maxHeight: "60vh",
-                          overflowY: "auto",
-                        }}
-                      >
-                        <ChatDisplay messages={round1Data.pair1} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                      <div className="flex flex-col gap-4 lg:flex-row">
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Human
+                          </Title>
+                          <ChatDisplay messages={round1HumanData.pair1} staggered />
+                        </div>
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Model
+                          </Title>
+                          <ChatDisplay messages={round1Data.pair1} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                        </div>
                       </div>
                     </div>
                   )}
@@ -334,16 +367,37 @@ function ConversationExplorerContent() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Chatroom 2
                       </Title>
-                      <div
-                        style={{
-                          backgroundColor: "#F5F5F5",
-                          padding: "20px",
-                          borderRadius: "8px",
-                          maxHeight: "60vh",
-                          overflowY: "auto",
-                        }}
-                      >
-                        <ChatDisplay messages={round1Data.pair2} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                      <div className="flex flex-col gap-4 lg:flex-row">
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Human
+                          </Title>
+                          <ChatDisplay messages={round1HumanData.pair2} staggered />
+                        </div>
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Model
+                          </Title>
+                          <ChatDisplay messages={round1Data.pair2} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                        </div>
                       </div>
                     </div>
                   )}
@@ -363,16 +417,37 @@ function ConversationExplorerContent() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Chatroom 1
                       </Title>
-                      <div
-                        style={{
-                          backgroundColor: "#F5F5F5",
-                          padding: "20px",
-                          borderRadius: "8px",
-                          maxHeight: "60vh",
-                          overflowY: "auto",
-                        }}
-                      >
-                        <ChatDisplay messages={round2Data.pair1} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                      <div className="flex flex-col gap-4 lg:flex-row">
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Human
+                          </Title>
+                          <ChatDisplay messages={round2HumanData.pair1} staggered />
+                        </div>
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Model
+                          </Title>
+                          <ChatDisplay messages={round2Data.pair1} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                        </div>
                       </div>
                     </div>
                   )}
@@ -383,16 +458,37 @@ function ConversationExplorerContent() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Chatroom 2
                       </Title>
-                      <div
-                        style={{
-                          backgroundColor: "#F5F5F5",
-                          padding: "20px",
-                          borderRadius: "8px",
-                          maxHeight: "60vh",
-                          overflowY: "auto",
-                        }}
-                      >
-                        <ChatDisplay messages={round2Data.pair2} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                      <div className="flex flex-col gap-4 lg:flex-row">
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Human
+                          </Title>
+                          <ChatDisplay messages={round2HumanData.pair2} staggered />
+                        </div>
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Model
+                          </Title>
+                          <ChatDisplay messages={round2Data.pair2} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                        </div>
                       </div>
                     </div>
                   )}
@@ -412,16 +508,37 @@ function ConversationExplorerContent() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Chatroom 1
                       </Title>
-                      <div
-                        style={{
-                          backgroundColor: "#F5F5F5",
-                          padding: "20px",
-                          borderRadius: "8px",
-                          maxHeight: "60vh",
-                          overflowY: "auto",
-                        }}
-                      >
-                        <ChatDisplay messages={round3Data.pair1} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                      <div className="flex flex-col gap-4 lg:flex-row">
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Human
+                          </Title>
+                          <ChatDisplay messages={round3HumanData.pair1} staggered />
+                        </div>
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Model
+                          </Title>
+                          <ChatDisplay messages={round3Data.pair1} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                        </div>
                       </div>
                     </div>
                   )}
@@ -432,19 +549,84 @@ function ConversationExplorerContent() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Chatroom 2
                       </Title>
-                      <div
-                        style={{
-                          backgroundColor: "#F5F5F5",
-                          padding: "20px",
-                          borderRadius: "8px",
-                          maxHeight: "60vh",
-                          overflowY: "auto",
-                        }}
-                      >
-                        <ChatDisplay messages={round3Data.pair2} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                      <div className="flex flex-col gap-4 lg:flex-row">
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Human
+                          </Title>
+                          <ChatDisplay messages={round3HumanData.pair2} staggered />
+                        </div>
+                        <div
+                          style={{
+                            backgroundColor: "#F5F5F5",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            maxHeight: "60vh",
+                            overflowY: "auto",
+                            flex: 1,
+                          }}
+                        >
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Model
+                          </Title>
+                          <ChatDisplay messages={round3Data.pair2} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                        </div>
                       </div>
                     </div>
                   )}
+                </div>
+              )}
+
+              {(postOpinions.length > 0 || postHumanOpinions.length > 0) && (
+                <div style={{ marginTop: 32 }}>
+                  <Title level={4} style={{ marginBottom: 16 }}>
+                    Post Opinions
+                  </Title>
+                  <div className="flex flex-col gap-4 lg:flex-row">
+                    <div
+                      style={{
+                        backgroundColor: "#F5F5F5",
+                        padding: "20px",
+                        borderRadius: "8px",
+                        maxHeight: "60vh",
+                        overflowY: "auto",
+                        flex: 1,
+                      }}
+                    >
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Human
+                      </Title>
+                      <ChatDisplay messages={postHumanOpinions} />
+                    </div>
+                    <div
+                      style={{
+                        backgroundColor: "#F5F5F5",
+                        padding: "20px",
+                        borderRadius: "8px",
+                        maxHeight: "60vh",
+                        overflowY: "auto",
+                        flex: 1,
+                      }}
+                    >
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Model
+                      </Title>
+                      <ChatDisplay
+                        messages={postOpinions}
+                        workerColorMap={workerColorMap}
+                        workerAlignmentMap={workerAlignmentMap}
+                      />
+                    </div>
+                  </div>
                 </div>
               )}
             </>
