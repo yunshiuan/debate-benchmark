@@ -103,6 +103,56 @@ function ConversationExplorerContent() {
     return { pair1: pair1Messages, pair2: pair2Messages };
   };
 
+  const isTweet = (row) => row.event_type === "tweet";
+
+  const mergeAndDedupeMessages = (messagesA, messagesB) => {
+    const merged = [...messagesA, ...messagesB];
+    const seen = new Set();
+    const deduped = [];
+    for (const msg of merged) {
+      const key = [
+        msg.worker_id || "",
+        msg.time || "",
+        msg.llm_text || msg.text || "",
+        msg.event_type || "",
+      ].join("|");
+      if (seen.has(key)) continue;
+      seen.add(key);
+      deduped.push(msg);
+    }
+    return deduped.sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
+  };
+
+  const buildWorkerMaps = (modelRows, humanRows) => {
+    const allWorkerIds = [
+      ...new Set(
+        [...modelRows, ...humanRows]
+          .map((r) => r.worker_id)
+          .filter(Boolean)
+      ),
+    ].sort();
+    const colors = [
+      "#DCF8C6", // Light green
+      "#E3F2FD", // Light blue
+      "#FFF9C4", // Light yellow
+      "#F3E5F5", // Light purple
+    ];
+    const colorMap = {};
+    const alignmentMap = {};
+    allWorkerIds.forEach((id, idx) => {
+      colorMap[id] = colors[idx % colors.length];
+      alignmentMap[id] = idx % 2 === 0 ? "left" : "right";
+    });
+    setWorkerColorMap(colorMap);
+    setWorkerAlignmentMap(alignmentMap);
+  };
+
+  useEffect(() => {
+    if (rawData.length > 0 || rawHumanData.length > 0) {
+      buildWorkerMaps(rawData, rawHumanData);
+    }
+  }, [rawData, rawHumanData]);
+
   const loadCsvData = async () => {
     setLoading(true);
     try {
@@ -120,23 +170,6 @@ function ConversationExplorerContent() {
       const csvText = await response.text();
       const parsed = parseCsv(csvText);
       setRawData(parsed);
-      
-      // Create global worker color/alignment maps
-      const allWorkerIds = [...new Set(parsed.map(r => r.worker_id).filter(Boolean))];
-      const colors = [
-        "#DCF8C6", // Light green
-        "#E3F2FD", // Light blue
-        "#FFF9C4", // Light yellow
-        "#F3E5F5", // Light purple
-      ];
-      const colorMap = {};
-      const alignmentMap = {};
-      allWorkerIds.forEach((id, idx) => {
-        colorMap[id] = colors[idx % colors.length];
-        alignmentMap[id] = idx % 2 === 0 ? "left" : "right";
-      });
-      setWorkerColorMap(colorMap);
-      setWorkerAlignmentMap(alignmentMap);
       
       // Debug: Check what columns and values we have
       console.log("First parsed row:", parsed[0]);
@@ -326,6 +359,35 @@ function ConversationExplorerContent() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Chatroom 1
                       </Title>
+                      {mergeAndDedupeMessages(
+                        round1HumanData.pair1.filter(isTweet),
+                        round1Data.pair1.filter(isTweet)
+                      ).length > 0 && (
+                        <div style={{ marginBottom: 16 }}>
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Tweets
+                          </Title>
+                          <div
+                            style={{
+                              backgroundColor: "#F5F5F5",
+                              padding: "20px",
+                              borderRadius: "8px",
+                              maxHeight: "60vh",
+                              overflowY: "auto",
+                            }}
+                          >
+                            <ChatDisplay
+                              messages={mergeAndDedupeMessages(
+                                round1HumanData.pair1.filter(isTweet),
+                                round1Data.pair1.filter(isTweet)
+                              )}
+                              workerColorMap={workerColorMap}
+                              workerAlignmentMap={workerAlignmentMap}
+                              staggered
+                            />
+                          </div>
+                        </div>
+                      )}
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
                           style={{
@@ -340,7 +402,12 @@ function ConversationExplorerContent() {
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                             Human
                           </Title>
-                          <ChatDisplay messages={round1HumanData.pair1} staggered />
+                          <ChatDisplay
+                            messages={round1HumanData.pair1.filter((row) => !isTweet(row))}
+                            workerColorMap={workerColorMap}
+                            workerAlignmentMap={workerAlignmentMap}
+                            staggered
+                          />
                         </div>
                         <div
                           style={{
@@ -355,7 +422,12 @@ function ConversationExplorerContent() {
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                             Model
                           </Title>
-                          <ChatDisplay messages={round1Data.pair1} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                          <ChatDisplay
+                            messages={round1Data.pair1.filter((row) => !isTweet(row))}
+                            workerColorMap={workerColorMap}
+                            workerAlignmentMap={workerAlignmentMap}
+                            staggered
+                          />
                         </div>
                       </div>
                     </div>
@@ -367,6 +439,35 @@ function ConversationExplorerContent() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Chatroom 2
                       </Title>
+                      {mergeAndDedupeMessages(
+                        round1HumanData.pair2.filter(isTweet),
+                        round1Data.pair2.filter(isTweet)
+                      ).length > 0 && (
+                        <div style={{ marginBottom: 16 }}>
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Tweets
+                          </Title>
+                          <div
+                            style={{
+                              backgroundColor: "#F5F5F5",
+                              padding: "20px",
+                              borderRadius: "8px",
+                              maxHeight: "60vh",
+                              overflowY: "auto",
+                            }}
+                          >
+                            <ChatDisplay
+                              messages={mergeAndDedupeMessages(
+                                round1HumanData.pair2.filter(isTweet),
+                                round1Data.pair2.filter(isTweet)
+                              )}
+                              workerColorMap={workerColorMap}
+                              workerAlignmentMap={workerAlignmentMap}
+                              staggered
+                            />
+                          </div>
+                        </div>
+                      )}
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
                           style={{
@@ -381,7 +482,12 @@ function ConversationExplorerContent() {
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                             Human
                           </Title>
-                          <ChatDisplay messages={round1HumanData.pair2} staggered />
+                          <ChatDisplay
+                            messages={round1HumanData.pair2.filter((row) => !isTweet(row))}
+                            workerColorMap={workerColorMap}
+                            workerAlignmentMap={workerAlignmentMap}
+                            staggered
+                          />
                         </div>
                         <div
                           style={{
@@ -396,7 +502,12 @@ function ConversationExplorerContent() {
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                             Model
                           </Title>
-                          <ChatDisplay messages={round1Data.pair2} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                          <ChatDisplay
+                            messages={round1Data.pair2.filter((row) => !isTweet(row))}
+                            workerColorMap={workerColorMap}
+                            workerAlignmentMap={workerAlignmentMap}
+                            staggered
+                          />
                         </div>
                       </div>
                     </div>
@@ -431,7 +542,12 @@ function ConversationExplorerContent() {
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                             Human
                           </Title>
-                          <ChatDisplay messages={round2HumanData.pair1} staggered />
+                          <ChatDisplay
+                            messages={round2HumanData.pair1}
+                            workerColorMap={workerColorMap}
+                            workerAlignmentMap={workerAlignmentMap}
+                            staggered
+                          />
                         </div>
                         <div
                           style={{
@@ -472,7 +588,12 @@ function ConversationExplorerContent() {
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                             Human
                           </Title>
-                          <ChatDisplay messages={round2HumanData.pair2} staggered />
+                          <ChatDisplay
+                            messages={round2HumanData.pair2}
+                            workerColorMap={workerColorMap}
+                            workerAlignmentMap={workerAlignmentMap}
+                            staggered
+                          />
                         </div>
                         <div
                           style={{
@@ -522,7 +643,12 @@ function ConversationExplorerContent() {
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                             Human
                           </Title>
-                          <ChatDisplay messages={round3HumanData.pair1} staggered />
+                          <ChatDisplay
+                            messages={round3HumanData.pair1}
+                            workerColorMap={workerColorMap}
+                            workerAlignmentMap={workerAlignmentMap}
+                            staggered
+                          />
                         </div>
                         <div
                           style={{
@@ -563,7 +689,12 @@ function ConversationExplorerContent() {
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                             Human
                           </Title>
-                          <ChatDisplay messages={round3HumanData.pair2} staggered />
+                          <ChatDisplay
+                            messages={round3HumanData.pair2}
+                            workerColorMap={workerColorMap}
+                            workerAlignmentMap={workerAlignmentMap}
+                            staggered
+                          />
                         </div>
                         <div
                           style={{
@@ -605,7 +736,11 @@ function ConversationExplorerContent() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Human
                       </Title>
-                      <ChatDisplay messages={postHumanOpinions} />
+                      <ChatDisplay
+                        messages={postHumanOpinions}
+                        workerColorMap={workerColorMap}
+                        workerAlignmentMap={workerAlignmentMap}
+                      />
                     </div>
                     <div
                       style={{
