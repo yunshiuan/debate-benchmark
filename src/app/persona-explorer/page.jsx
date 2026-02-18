@@ -25,20 +25,22 @@ const GENDER_OPTIONS = [
   "prefer not to answer",
 ];
 
-const RESIDENCY_OPTIONS = [
-  "Albania",
-  "American Samoa",
-  "Andorra",
-  "Anguilla",
-  "Georgia",
-  "Other",
-  "Prefer not to answer",
-  "United Arab Emirates",
-  "United Kingdom of Great Britain and Northern Ireland",
-  "United States Minor Outlying Islands",
-  "United States of America",
-  "Viet Nam",
-];
+// const RESIDENCY_OPTIONS = [
+//   "Albania",
+//   "American Samoa",
+//   "Andorra",
+//   "Anguilla",
+//   "Georgia",
+//   "Other",
+//   "Prefer not to answer",
+//   "United Arab Emirates",
+//   "United Kingdom of Great Britain and Northern Ireland",
+//   "United States Minor Outlying Islands",
+//   "United States of America",
+//   "Viet Nam",
+// ];
+
+const RESIDENCY_OPTIONS = ["United States of America"];
 
 const ORIGIN_OPTIONS = [
   "American Samoa",
@@ -317,6 +319,15 @@ export default function PersonaExplorer() {
   const eventFilter = "message_sent";
   const workerColors = ["#DCF8C6", "#E3F2FD", "#FFF9C4", "#F3E5F5"];
 
+  const parseDataPrefix = (prefix) => {
+    const parts = String(prefix || "").split("_");
+    if (parts.length < 4) {
+      return { topicLabel: prefix || "" };
+    }
+    const topicParts = parts.slice(2, -1);
+    return { topicLabel: topicParts.join(" ") };
+  };
+
   useEffect(() => {
     const loadDemographics = async () => {
       setLoadingDemographics(true);
@@ -458,7 +469,6 @@ export default function PersonaExplorer() {
       .filter((row) => {
         if (ageValue !== null && Number(row.age) !== ageValue) return false;
         if (gender && row.gender !== gender) return false;
-        if (residency && row.residency !== residency) return false;
         if (origin && row.origin !== origin) return false;
         if (education && row.education !== education) return false;
         if (politicalViews && row.politicalViews !== politicalViews) return false;
@@ -498,7 +508,6 @@ export default function PersonaExplorer() {
     ageValue,
     demographics,
     gender,
-    residency,
     origin,
     education,
     politicalViews,
@@ -979,7 +988,9 @@ export default function PersonaExplorer() {
               <Tag color="blue">Filtered personas: {personaOptions.length}</Tag>
               <Tag color="green">Messages: {messageCount}</Tag>
               <Tag color="purple">Initial Opinions: {initialOpinions.length}</Tag>
-              <Tag color="geekblue">Topic: {selectedDataPrefix ?? "None"}</Tag>
+              <Tag color="geekblue">
+                Topic: {selectedDataPrefix ? parseDataPrefix(selectedDataPrefix).topicLabel : "None"}
+              </Tag>
             </Space>
           </Space>
 
