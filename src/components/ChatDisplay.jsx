@@ -71,6 +71,7 @@ export default function ChatDisplay({ messages, workerColorMap: externalColorMap
         const bgColor = workerColorMap[message.worker_id] || "#F0F0F0";
         const alignment = workerAlignmentMap[message.worker_id] || "left";
         const isRight = alignment === "right";
+        const isTweet = message.event_type === "tweet";
         
         return (
           <div
@@ -97,19 +98,34 @@ export default function ChatDisplay({ messages, workerColorMap: externalColorMap
               <div
                 style={{
                   backgroundColor: bgColor,
-                  padding: "12px 16px",
-                  borderRadius: "8px",
+                  padding: isTweet ? "16px 18px" : "12px 16px",
+                  borderRadius: isTweet ? "12px" : "8px",
                   maxWidth: "80%",
-                  boxShadow: "0 1px 2px rgba(0,0,0,0.1)",
+                  boxShadow: isTweet ? "0 2px 6px rgba(0,0,0,0.1)" : "0 1px 2px rgba(0,0,0,0.1)",
+                  border: isTweet ? "3px solid #C5050C" : "none",
+                  position: isTweet ? "relative" : "static",
                 }}
               >
-                <Text strong style={{ display: "block", marginBottom: 4, fontSize: "13px" }}>
+                {isTweet && (
+                  <img
+                    src="/uw-crest-color-web-digital.svg"
+                    alt="UW Crest"
+                    width={24}
+                    height={24}
+                    style={{
+                      position: "absolute",
+                      top: 8,
+                      right: 8,
+                    }}
+                  />
+                )}
+                <Text strong style={{ display: "block", marginBottom: 4, fontSize: isTweet ? "14px" : "13px" }}>
                   Worker {message.worker_id}
                 </Text>
                 <Text style={{ whiteSpace: "pre-wrap", lineHeight: "1.5" }}>
                   {message.llm_text || message.text}
                 </Text>
-                {message.event_type && (
+                {!isTweet && message.event_type && message.event_type !== "message_sent" && (
                   <Text
                     type="secondary"
                     style={{
