@@ -12,6 +12,12 @@ const workerColors = [
   "#F3E5F5", // Light purple
 ];
 
+const getAvatarUrl = (workerId) => {
+  if (!workerId) return null;
+  const seed = encodeURIComponent(workerId);
+  return `https://robohash.org/${seed}?set=set2`;
+};
+
 export default function ChatDisplay({ messages, workerColorMap: externalColorMap, workerAlignmentMap: externalAlignmentMap, staggered = false }) {
   if (!messages || messages.length === 0) {
     return (
@@ -75,6 +81,7 @@ export default function ChatDisplay({ messages, workerColorMap: externalColorMap
             }}
           >
             <Avatar
+              src={getAvatarUrl(message.worker_id)}
               style={{
                 backgroundColor: bgColor,
                 color: "#333",
