@@ -2,15 +2,23 @@
 import { Button, Space } from 'antd';
 import { 
   TableOutlined, 
-  GithubOutlined, 
   FilePdfOutlined, 
-  FileImageOutlined,
   UserOutlined,
   TagsOutlined
 } from '@ant-design/icons';
 import Link from 'next/link';
 
 export default function HeroNav() {
+  const hfIcon = (
+    <img
+      src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/huggingface-color.svg"
+      alt="Hugging Face"
+      width={18}
+      height={18}
+      style={{ display: "block" }}
+    />
+  );
+
   return (
     <div className="flex flex-wrap justify-center gap-3 my-8">
       {/* Internal Link to Leaderboard */}
@@ -42,11 +50,11 @@ export default function HeroNav() {
       {/* External Links */}
       <Button 
         size="large" 
-        icon={<GithubOutlined />} 
-        href="https://github.com/your-repo" 
+        icon={hfIcon} 
+        href="https://huggingface.co/datasets/seantw/DEBATE_LLM" 
         target="_blank"
       >
-        Code
+        Dataset
       </Button>
 
       <Button 
@@ -57,13 +65,6 @@ export default function HeroNav() {
         Paper
       </Button>
 
-      <Button 
-        size="large" 
-        icon={<FileImageOutlined />} 
-        href="/poster.pdf"
-      >
-        Poster
-      </Button>
     </div>
   );
 }
