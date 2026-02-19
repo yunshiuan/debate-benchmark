@@ -368,9 +368,9 @@ export default function PersonaExplorer() {
     const loadCsvData = async () => {
       setLoadingConversation(true);
       try {
-        const csvPath = `/api/conversation-csv?dataPrefix=${selectedDataPrefix}&model=${encodeURIComponent(
-          selectedModel
-        )}&version=${selectedVersion}`;
+        const encodedPrefix = encodeURIComponent(selectedDataPrefix);
+        const encodedModel = encodeURIComponent(selectedModel);
+        const csvPath = `/result/eval_v3/validity/${encodedPrefix}/${encodedModel}/simulation-llm-${selectedVersion}.csv`;
         const response = await fetch(csvPath);
 
         if (!response.ok) {
@@ -398,7 +398,8 @@ export default function PersonaExplorer() {
     const loadHumanCsvData = async () => {
       setLoadingHumanConversation(true);
       try {
-        const csvPath = `/api/conversation-human?dataPrefix=${selectedDataPrefix}`;
+        const encodedPrefix = encodeURIComponent(selectedDataPrefix);
+        const csvPath = `/result/eval_v3/validity/${encodedPrefix}/simulation-human.csv`;
         const response = await fetch(csvPath);
 
         if (!response.ok) {
