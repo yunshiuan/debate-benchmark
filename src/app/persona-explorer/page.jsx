@@ -18,6 +18,12 @@ import { dataPrefixes, models, versions } from "../../lib/explorerOptions";
 const { Title, Text } = Typography;
 const { CheckableTag } = Tag;
 
+const VERSION_LABELS = {
+  v0: "Full Conversation Simulation",
+  v1: "Tweet-guided Conversation Simulation",
+  v2: "Next Message Prediction",
+};
+
 const GENDER_OPTIONS = [
   "female",
   "male",
@@ -40,7 +46,6 @@ const GENDER_OPTIONS = [
 //   "Viet Nam",
 // ];
 
-const RESIDENCY_OPTIONS = ["United States of America"];
 
 const ORIGIN_OPTIONS = [
   "American Samoa",
@@ -146,7 +151,15 @@ const POLITICAL_VIEWS_OPTIONS = [
   "very-liberal",
 ];
 
-const LEANING_OPTIONS = ["democratic", "neither", "republican"];
+const POLITICAL_IDENTITY_OPTIONS = [
+  "strong-republican",
+  "republican",
+  "independent",
+  "democrat",
+  "strong-democrat",
+  "other",
+  "prefer not to answer",
+];
 
 const MARITAL_OPTIONS = [
   "divorced",
@@ -301,13 +314,12 @@ export default function PersonaExplorer() {
 
   const [ageValue, setAgeValue] = useState(null);
   const [gender, setGender] = useState(null);
-  const [residency, setResidency] = useState(null);
   const [origin, setOrigin] = useState(null);
   const [education, setEducation] = useState(null);
   const [raceSelections, setRaceSelections] = useState([]);
   const [incomeValue, setIncomeValue] = useState(null);
   const [politicalViews, setPoliticalViews] = useState(null);
-  const [leaning, setLeaning] = useState(null);
+  const [politicalIdentity, setPoliticalIdentity] = useState(null);
   const [maritalStatus, setMaritalStatus] = useState(null);
   const [childrenSchoolSelections, setChildrenSchoolSelections] = useState([]);
   const [residence, setResidence] = useState(null);
@@ -317,7 +329,7 @@ export default function PersonaExplorer() {
   const [occupation, setOccupation] = useState(null);
 
   const eventFilter = "message_sent";
-  const workerColors = ["#DCF8C6", "#E3F2FD", "#FFF9C4", "#F3E5F5"];
+  const getWorkerColor = (idx) => `hsl(${(idx * 137) % 360}, 70%, 88%)`;
 
   const parseDataPrefix = (prefix) => {
     const parts = String(prefix || "").split("_");
@@ -472,7 +484,7 @@ export default function PersonaExplorer() {
         if (origin && row.origin !== origin) return false;
         if (education && row.education !== education) return false;
         if (politicalViews && row.politicalViews !== politicalViews) return false;
-        if (leaning && row.leaning !== leaning) return false;
+        if (politicalIdentity && row.politicalIdentity !== politicalIdentity) return false;
         if (maritalStatus && row.maritalStatus !== maritalStatus) return false;
         if (residence && row.residence !== residence) return false;
         if (bibleBelief && row.bibleBelief !== bibleBelief) return false;
@@ -511,7 +523,7 @@ export default function PersonaExplorer() {
     origin,
     education,
     politicalViews,
-    leaning,
+    politicalIdentity,
     maritalStatus,
     residence,
     bibleBelief,
@@ -561,7 +573,7 @@ export default function PersonaExplorer() {
     const colorMap = {};
     const alignmentMap = {};
     workerIds.forEach((id, idx) => {
-      colorMap[id] = workerColors[idx % workerColors.length];
+      colorMap[id] = getWorkerColor(idx);
       alignmentMap[id] = idx % 2 === 0 ? "left" : "right";
     });
     return { colorMap, alignmentMap };
@@ -572,7 +584,7 @@ export default function PersonaExplorer() {
     const colorMap = {};
     const alignmentMap = {};
     workerIds.forEach((id, idx) => {
-      colorMap[id] = workerColors[idx % workerColors.length];
+      colorMap[id] = getWorkerColor(idx);
       alignmentMap[id] = idx % 2 === 0 ? "left" : "right";
     });
     return { colorMap, alignmentMap };
@@ -589,6 +601,17 @@ export default function PersonaExplorer() {
       .filter((row) => row.event_type === "Post Opinion")
       .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
   }, [personaMessages]);
+
+  const postHumanOpinions = useMemo(() => {
+    if (!selectedPersona) return [];
+    return rawHumanData
+      .filter(
+        (row) =>
+          row.event_type === "Post Opinion" &&
+          (row.sender_id === selectedPersona || row.worker_id === selectedPersona)
+      )
+      .sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
+  }, [rawHumanData, selectedPersona]);
 
   const roundMessages = useMemo(() => {
     const filterRound = (round) =>
@@ -682,6 +705,26 @@ export default function PersonaExplorer() {
     };
   }, [eventFilter, rawHumanData, selectedPersona]);
 
+  const isTweet = (row) => row.event_type === "tweet";
+
+  const mergeAndDedupeMessages = (messagesA, messagesB) => {
+    const merged = [...messagesA, ...messagesB];
+    const seen = new Set();
+    const deduped = [];
+    for (const msg of merged) {
+      const key = [
+        msg.worker_id || "",
+        msg.time || "",
+        msg.llm_text || msg.text || "",
+        msg.event_type || "",
+      ].join("|");
+      if (seen.has(key)) continue;
+      seen.add(key);
+      deduped.push(msg);
+    }
+    return deduped.sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
+  };
+
   const messageCount = useMemo(() => {
     return personaMessages.filter(
       (row) => row.event_type === "tweet" || row.event_type === eventFilter
@@ -710,12 +753,18 @@ export default function PersonaExplorer() {
                   value={ageValue ?? 0}
                   onChange={setAgeValue}
                   style={{ width: 280 }}
+                  marks={{ 0: "0", 37: "37", 84: "84" }}
                 />
                 <Text type="secondary">{ageValue === null ? "Any" : ageValue}</Text>
                 <Button size="small" onClick={() => setAgeValue(null)} disabled={ageValue === null}>
                   Clear
                 </Button>
               </div>
+              <img
+                src="/demo_age_fig.svg"
+                alt="Age distribution"
+                style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+              />
 
               <div>
                 <Text strong>Gender</Text>
@@ -726,27 +775,11 @@ export default function PersonaExplorer() {
                     onChange={setGender}
                   />
                 </div>
-              </div>
-
-              <div>
-                <Text strong>Country/Region of Residency</Text>
-                <div style={{ marginTop: 8 }}>
-                  <Select
-                    style={{ width: "100%", maxWidth: 520 }}
-                    placeholder="Select residency"
-                    value={residency}
-                    onChange={setResidency}
-                    allowClear
-                    showSearch
-                    options={RESIDENCY_OPTIONS.map((option) => ({
-                      label: option,
-                      value: option,
-                    }))}
-                    filterOption={(input, option) =>
-                      (option?.label ?? "").toLowerCase().includes(input.toLowerCase())
-                    }
-                  />
-                </div>
+                <img
+                  src="/demo_gender_fig.svg"
+                  alt="Gender distribution"
+                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+                />
               </div>
 
               <div>
@@ -768,6 +801,11 @@ export default function PersonaExplorer() {
                     }
                   />
                 </div>
+                <img
+                  src="/demo_origin_fig.svg"
+                  alt="Country/Region of Origin distribution"
+                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+                />
               </div>
 
               <div>
@@ -779,6 +817,11 @@ export default function PersonaExplorer() {
                     onChange={setEducation}
                   />
                 </div>
+                <img
+                  src="/demo_education_fig.svg"
+                  alt="Education distribution"
+                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+                />
               </div>
 
               <div>
@@ -790,6 +833,11 @@ export default function PersonaExplorer() {
                     onChange={setRaceSelections}
                   />
                 </div>
+                <img
+                  src="/demo_ethnicity_fig.svg"
+                  alt="Race/Ethnicity distribution"
+                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+                />
               </div>
 
               <div className="flex flex-wrap items-center gap-3">
@@ -817,6 +865,11 @@ export default function PersonaExplorer() {
                   Clear
                 </Button>
               </div>
+              <img
+                src="/demo_income_fig.svg"
+                alt="Household income distribution"
+                style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+              />
 
               <div>
                 <Text strong>Political Views</Text>
@@ -827,17 +880,27 @@ export default function PersonaExplorer() {
                     onChange={setPoliticalViews}
                   />
                 </div>
+                <img
+                  src="/demo_political_view_fig.svg"
+                  alt="Political views distribution"
+                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+                />
               </div>
 
               <div>
-                <Text strong>Leaning</Text>
+                <Text strong>Political Identity</Text>
                 <div style={{ marginTop: 8 }}>
                   <SingleBrickSelect
-                    options={LEANING_OPTIONS}
-                    value={leaning}
-                    onChange={setLeaning}
+                    options={POLITICAL_IDENTITY_OPTIONS}
+                    value={politicalIdentity}
+                    onChange={setPoliticalIdentity}
                   />
                 </div>
+                <img
+                  src="/demo_political_party_fig.svg"
+                  alt="Political identity distribution"
+                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+                />
               </div>
 
               <div>
@@ -849,6 +912,11 @@ export default function PersonaExplorer() {
                     onChange={setMaritalStatus}
                   />
                 </div>
+                <img
+                  src="/demo_marriage_fig.svg"
+                  alt="Marital status distribution"
+                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+                />
               </div>
 
               <div>
@@ -860,6 +928,11 @@ export default function PersonaExplorer() {
                     onChange={setChildrenSchoolSelections}
                   />
                 </div>
+                <img
+                  src="/demo_children_fig.svg"
+                  alt="Children school distribution"
+                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+                />
               </div>
 
               <div>
@@ -871,6 +944,11 @@ export default function PersonaExplorer() {
                     onChange={setResidence}
                   />
                 </div>
+                <img
+                  src="/demo_residence_fig.svg"
+                  alt="Residence distribution"
+                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+                />
               </div>
 
               <div>
@@ -882,6 +960,11 @@ export default function PersonaExplorer() {
                     onChange={setBibleBelief}
                   />
                 </div>
+                <img
+                  src="/demo_bible_fig.svg"
+                  alt="Bible belief distribution"
+                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+                />
               </div>
 
               <div>
@@ -893,6 +976,11 @@ export default function PersonaExplorer() {
                     onChange={setEvangelical}
                   />
                 </div>
+                <img
+                  src="/demo_evangelical_fig.svg"
+                  alt="Evangelical distribution"
+                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+                />
               </div>
 
               <div>
@@ -904,6 +992,11 @@ export default function PersonaExplorer() {
                     onChange={setReligion}
                   />
                 </div>
+                <img
+                  src="/demo_religion_fig.svg"
+                  alt="Religion distribution"
+                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+                />
               </div>
 
               <div>
@@ -925,6 +1018,11 @@ export default function PersonaExplorer() {
                     }
                   />
                 </div>
+                <img
+                  src="/demo_occupuation_fig.svg"
+                  alt="Occupation distribution"
+                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
+                />
               </div>
             </Space>
           )}
@@ -972,16 +1070,22 @@ export default function PersonaExplorer() {
               <Text strong style={{ display: "block", marginBottom: 8 }}>
                 Version
               </Text>
-              <Select
-                style={{ width: "100%", maxWidth: 400 }}
-                placeholder="Select version"
-                value={selectedVersion}
-                onChange={setSelectedVersion}
-                options={versions.map((version) => ({
-                  label: version,
-                  value: version,
-                }))}
-              />
+              {versions.length <= 1 ? (
+                <Text>
+                  {VERSION_LABELS[selectedVersion] ?? selectedVersion ?? "Full Conversation Simulation"}
+                </Text>
+              ) : (
+                <Select
+                  style={{ width: "100%", maxWidth: 400 }}
+                  placeholder="Select version"
+                  value={selectedVersion}
+                  onChange={setSelectedVersion}
+                  options={versions.map((version) => ({
+                    label: VERSION_LABELS[version] ?? version,
+                    value: version,
+                  }))}
+                />
+              )}
             </div>
 
             <Space size="small" wrap>
@@ -1017,6 +1121,7 @@ export default function PersonaExplorer() {
                   messages={initialOpinions}
                   workerColorMap={workerMaps.colorMap}
                   workerAlignmentMap={workerMaps.alignmentMap}
+                  sourceType="model"
                 />
               </div>
 
@@ -1043,7 +1148,7 @@ export default function PersonaExplorer() {
                             overflowY: "auto",
                           }}
                         >
-                          <ChatDisplay messages={roundMessages.round1} />
+                          <ChatDisplay messages={roundMessages.round1} sourceType="model" />
                         </div>
                       </div>
                     )}
@@ -1062,7 +1167,7 @@ export default function PersonaExplorer() {
                             overflowY: "auto",
                           }}
                         >
-                          <ChatDisplay messages={roundMessages.round2} />
+                          <ChatDisplay messages={roundMessages.round2} sourceType="model" />
                         </div>
                       </div>
                     )}
@@ -1081,7 +1186,7 @@ export default function PersonaExplorer() {
                             overflowY: "auto",
                           }}
                         >
-                          <ChatDisplay messages={roundMessages.round3} />
+                          <ChatDisplay messages={roundMessages.round3} sourceType="model" />
                         </div>
                       </div>
                     )}
@@ -1102,6 +1207,35 @@ export default function PersonaExplorer() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Round 1
                       </Title>
+                      {mergeAndDedupeMessages(
+                        fullRoundDataHuman.round1.filter(isTweet).map((m) => ({ ...m, _source: "human" })),
+                        fullRoundData.round1.filter(isTweet).map((m) => ({ ...m, _source: "model" }))
+                      ).length > 0 && (
+                        <div style={{ marginBottom: 16 }}>
+                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                            Tweets
+                          </Title>
+                          <div
+                            style={{
+                              backgroundColor: "#F5F5F5",
+                              padding: "20px",
+                              borderRadius: "8px",
+                              maxHeight: "60vh",
+                              overflowY: "auto",
+                            }}
+                          >
+                            <ChatDisplay
+                              messages={mergeAndDedupeMessages(
+                                fullRoundDataHuman.round1.filter(isTweet).map((m) => ({ ...m, _source: "human" })),
+                                fullRoundData.round1.filter(isTweet).map((m) => ({ ...m, _source: "model" }))
+                              )}
+                              workerColorMap={workerMaps.colorMap}
+                              workerAlignmentMap={workerMaps.alignmentMap}
+                              staggered
+                            />
+                          </div>
+                        </div>
+                      )}
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
                           style={{
@@ -1117,9 +1251,10 @@ export default function PersonaExplorer() {
                             Human
                           </Title>
                           <ChatDisplay
-                            messages={fullRoundDataHuman.round1}
+                            messages={fullRoundDataHuman.round1.filter((row) => !isTweet(row))}
                             workerColorMap={workerMapsHuman.colorMap}
                             workerAlignmentMap={workerMapsHuman.alignmentMap}
+                            sourceType="human"
                             staggered
                           />
                         </div>
@@ -1137,9 +1272,10 @@ export default function PersonaExplorer() {
                             Model
                           </Title>
                           <ChatDisplay
-                            messages={fullRoundData.round1}
+                            messages={fullRoundData.round1.filter((row) => !isTweet(row))}
                             workerColorMap={workerMaps.colorMap}
                             workerAlignmentMap={workerMaps.alignmentMap}
+                            sourceType="model"
                             staggered
                           />
                         </div>
@@ -1170,6 +1306,7 @@ export default function PersonaExplorer() {
                             messages={fullRoundDataHuman.round2}
                             workerColorMap={workerMapsHuman.colorMap}
                             workerAlignmentMap={workerMapsHuman.alignmentMap}
+                            sourceType="human"
                             staggered
                           />
                         </div>
@@ -1190,6 +1327,7 @@ export default function PersonaExplorer() {
                             messages={fullRoundData.round2}
                             workerColorMap={workerMaps.colorMap}
                             workerAlignmentMap={workerMaps.alignmentMap}
+                            sourceType="model"
                             staggered
                           />
                         </div>
@@ -1220,6 +1358,7 @@ export default function PersonaExplorer() {
                             messages={fullRoundDataHuman.round3}
                             workerColorMap={workerMapsHuman.colorMap}
                             workerAlignmentMap={workerMapsHuman.alignmentMap}
+                            sourceType="human"
                             staggered
                           />
                         </div>
@@ -1240,6 +1379,7 @@ export default function PersonaExplorer() {
                             messages={fullRoundData.round3}
                             workerColorMap={workerMaps.colorMap}
                             workerAlignmentMap={workerMaps.alignmentMap}
+                            sourceType="model"
                             staggered
                           />
                         </div>
@@ -1249,26 +1389,52 @@ export default function PersonaExplorer() {
                 </>
               )}
 
-              {postOpinions.length > 0 && (
+              {(postOpinions.length > 0 || postHumanOpinions.length > 0) && (
                 <>
                   <Title level={4} style={{ marginBottom: 16 }}>
                     Post Opinion
                   </Title>
-                  <div
-                    style={{
-                      backgroundColor: "#F5F5F5",
-                      padding: "20px",
-                      borderRadius: "8px",
-                      maxHeight: "50vh",
-                      overflowY: "auto",
-                      marginBottom: 24,
-                    }}
-                  >
-                    <ChatDisplay
-                      messages={postOpinions}
-                      workerColorMap={workerMaps.colorMap}
-                      workerAlignmentMap={workerMaps.alignmentMap}
-                    />
+                  <div className="flex flex-col gap-4 lg:flex-row" style={{ marginBottom: 24 }}>
+                    <div
+                      style={{
+                        backgroundColor: "#F5F5F5",
+                        padding: "20px",
+                        borderRadius: "8px",
+                        maxHeight: "50vh",
+                        overflowY: "auto",
+                        flex: 1,
+                      }}
+                    >
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Human
+                      </Title>
+                      <ChatDisplay
+                        messages={postHumanOpinions}
+                        workerColorMap={workerMapsHuman.colorMap}
+                        workerAlignmentMap={workerMapsHuman.alignmentMap}
+                        sourceType="human"
+                      />
+                    </div>
+                    <div
+                      style={{
+                        backgroundColor: "#F5F5F5",
+                        padding: "20px",
+                        borderRadius: "8px",
+                        maxHeight: "50vh",
+                        overflowY: "auto",
+                        flex: 1,
+                      }}
+                    >
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Model
+                      </Title>
+                      <ChatDisplay
+                        messages={postOpinions}
+                        workerColorMap={workerMaps.colorMap}
+                        workerAlignmentMap={workerMaps.alignmentMap}
+                        sourceType="model"
+                      />
+                    </div>
                   </div>
                 </>
               )}

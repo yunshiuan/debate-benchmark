@@ -225,16 +225,11 @@ function ConversationExplorerContent() {
           .filter(Boolean)
       ),
     ].sort();
-    const colors = [
-      "#DCF8C6", // Light green
-      "#E3F2FD", // Light blue
-      "#FFF9C4", // Light yellow
-      "#F3E5F5", // Light purple
-    ];
+    const getWorkerColor = (idx) => `hsl(${(idx * 137) % 360}, 70%, 88%)`;
     const colorMap = {};
     const alignmentMap = {};
     allWorkerIds.forEach((id, idx) => {
-      colorMap[id] = colors[idx % colors.length];
+      colorMap[id] = getWorkerColor(idx);
       alignmentMap[id] = idx % 2 === 0 ? "left" : "right";
     });
     setWorkerColorMap(colorMap);
@@ -469,7 +464,12 @@ function ConversationExplorerContent() {
                   overflowY: "auto",
                 }}
               >
-                <ChatDisplay messages={initialOpinions} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} />
+                <ChatDisplay
+                  messages={initialOpinions}
+                  workerColorMap={workerColorMap}
+                  workerAlignmentMap={workerAlignmentMap}
+                  sourceType="model"
+                />
               </div>
 
               {/* Round 1 Data */}
@@ -504,8 +504,8 @@ function ConversationExplorerContent() {
                           >
                             <ChatDisplay
                               messages={mergeAndDedupeMessages(
-                                round1HumanData.pair1.filter(isTweet),
-                                round1Data.pair1.filter(isTweet)
+                                round1HumanData.pair1.filter(isTweet).map((m) => ({ ...m, _source: "human" })),
+                                round1Data.pair1.filter(isTweet).map((m) => ({ ...m, _source: "model" }))
                               )}
                               workerColorMap={workerColorMap}
                               workerAlignmentMap={workerAlignmentMap}
@@ -532,6 +532,7 @@ function ConversationExplorerContent() {
                             messages={round1HumanData.pair1.filter((row) => !isTweet(row))}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            sourceType="human"
                             staggered
                           />
                         </div>
@@ -552,6 +553,7 @@ function ConversationExplorerContent() {
                             messages={round1Data.pair1.filter((row) => !isTweet(row))}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            sourceType="model"
                             staggered
                           />
                         </div>
@@ -584,8 +586,8 @@ function ConversationExplorerContent() {
                           >
                             <ChatDisplay
                               messages={mergeAndDedupeMessages(
-                                round1HumanData.pair2.filter(isTweet),
-                                round1Data.pair2.filter(isTweet)
+                                round1HumanData.pair2.filter(isTweet).map((m) => ({ ...m, _source: "human" })),
+                                round1Data.pair2.filter(isTweet).map((m) => ({ ...m, _source: "model" }))
                               )}
                               workerColorMap={workerColorMap}
                               workerAlignmentMap={workerAlignmentMap}
@@ -612,6 +614,7 @@ function ConversationExplorerContent() {
                             messages={round1HumanData.pair2.filter((row) => !isTweet(row))}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            sourceType="human"
                             staggered
                           />
                         </div>
@@ -632,6 +635,7 @@ function ConversationExplorerContent() {
                             messages={round1Data.pair2.filter((row) => !isTweet(row))}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            sourceType="model"
                             staggered
                           />
                         </div>
@@ -672,6 +676,7 @@ function ConversationExplorerContent() {
                             messages={round2HumanData.pair1}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            sourceType="human"
                             staggered
                           />
                         </div>
@@ -688,7 +693,13 @@ function ConversationExplorerContent() {
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                             Model
                           </Title>
-                          <ChatDisplay messages={round2Data.pair1} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                          <ChatDisplay
+                            messages={round2Data.pair1}
+                            workerColorMap={workerColorMap}
+                            workerAlignmentMap={workerAlignmentMap}
+                            sourceType="model"
+                            staggered
+                          />
                         </div>
                       </div>
                     </div>
@@ -718,6 +729,7 @@ function ConversationExplorerContent() {
                             messages={round2HumanData.pair2}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            sourceType="human"
                             staggered
                           />
                         </div>
@@ -734,7 +746,13 @@ function ConversationExplorerContent() {
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                             Model
                           </Title>
-                          <ChatDisplay messages={round2Data.pair2} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                          <ChatDisplay
+                            messages={round2Data.pair2}
+                            workerColorMap={workerColorMap}
+                            workerAlignmentMap={workerAlignmentMap}
+                            sourceType="model"
+                            staggered
+                          />
                         </div>
                       </div>
                     </div>
@@ -773,6 +791,7 @@ function ConversationExplorerContent() {
                             messages={round3HumanData.pair1}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            sourceType="human"
                             staggered
                           />
                         </div>
@@ -789,7 +808,13 @@ function ConversationExplorerContent() {
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                             Model
                           </Title>
-                          <ChatDisplay messages={round3Data.pair1} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                          <ChatDisplay
+                            messages={round3Data.pair1}
+                            workerColorMap={workerColorMap}
+                            workerAlignmentMap={workerAlignmentMap}
+                            sourceType="model"
+                            staggered
+                          />
                         </div>
                       </div>
                     </div>
@@ -819,6 +844,7 @@ function ConversationExplorerContent() {
                             messages={round3HumanData.pair2}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            sourceType="human"
                             staggered
                           />
                         </div>
@@ -835,7 +861,13 @@ function ConversationExplorerContent() {
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                             Model
                           </Title>
-                          <ChatDisplay messages={round3Data.pair2} workerColorMap={workerColorMap} workerAlignmentMap={workerAlignmentMap} staggered />
+                          <ChatDisplay
+                            messages={round3Data.pair2}
+                            workerColorMap={workerColorMap}
+                            workerAlignmentMap={workerAlignmentMap}
+                            sourceType="model"
+                            staggered
+                          />
                         </div>
                       </div>
                     </div>
@@ -866,6 +898,7 @@ function ConversationExplorerContent() {
                         messages={postHumanOpinions}
                         workerColorMap={workerColorMap}
                         workerAlignmentMap={workerAlignmentMap}
+                        sourceType="human"
                       />
                     </div>
                     <div
@@ -885,6 +918,7 @@ function ConversationExplorerContent() {
                         messages={postOpinions}
                         workerColorMap={workerColorMap}
                         workerAlignmentMap={workerAlignmentMap}
+                        sourceType="model"
                       />
                     </div>
                   </div>

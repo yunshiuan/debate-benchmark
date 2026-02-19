@@ -4,21 +4,22 @@ import { Typography, Avatar } from "antd";
 
 const { Text } = Typography;
 
-// Color palette for different workers
-const workerColors = [
-  "#DCF8C6", // Light green (WhatsApp sender)
-  "#E3F2FD", // Light blue
-  "#FFF9C4", // Light yellow
-  "#F3E5F5", // Light purple
-];
+const getWorkerColor = (idx) => `hsl(${(idx * 137) % 360}, 70%, 88%)`;
 
-const getAvatarUrl = (workerId) => {
-  if (!workerId) return null;
-  const seed = encodeURIComponent(workerId);
-  return `https://robohash.org/${seed}?set=set2`;
+const AVATAR_COUNT = 5;
+
+const getAvatarUrl = (avatarIndex) => {
+  if (!avatarIndex) return null;
+  return `/avatars/${avatarIndex}.png`;
 };
 
-export default function ChatDisplay({ messages, workerColorMap: externalColorMap, workerAlignmentMap: externalAlignmentMap, staggered = false }) {
+export default function ChatDisplay({
+  messages,
+  workerColorMap: externalColorMap,
+  workerAlignmentMap: externalAlignmentMap,
+  staggered = false,
+  sourceType = "model",
+}) {
   if (!messages || messages.length === 0) {
     return (
       <div className="text-center py-12 text-gray-400">
@@ -44,6 +45,7 @@ export default function ChatDisplay({ messages, workerColorMap: externalColorMap
   // Use external maps if provided, otherwise create local maps
   let workerColorMap = externalColorMap;
   let workerAlignmentMap = externalAlignmentMap;
+  let workerAvatarMap = null;
   
   if (!externalColorMap || !externalAlignmentMap) {
     // Fallback: create local maps
@@ -51,8 +53,17 @@ export default function ChatDisplay({ messages, workerColorMap: externalColorMap
     workerColorMap = {};
     workerAlignmentMap = {};
     workerIds.forEach((id, idx) => {
-      workerColorMap[id] = workerColors[idx % workerColors.length];
+      workerColorMap[id] = getWorkerColor(idx);
       workerAlignmentMap[id] = idx % 2 === 0 ? "left" : "right";
+    });
+  }
+
+  if (!workerAvatarMap) {
+    const workerIds = [...new Set(filteredMessages.map((m) => m.worker_id).filter(Boolean))];
+    workerAvatarMap = {};
+    workerIds.forEach((id, idx) => {
+      const avatarIndex = (idx % AVATAR_COUNT) + 1;
+      workerAvatarMap[id] = avatarIndex;
     });
   }
 
@@ -72,6 +83,11 @@ export default function ChatDisplay({ messages, workerColorMap: externalColorMap
         const alignment = workerAlignmentMap[message.worker_id] || "left";
         const isRight = alignment === "right";
         const isTweet = message.event_type === "tweet";
+        const messageSource = message._source || sourceType;
+        const avatarBorderStyle =
+          messageSource === "human"
+            ? `3px solid ${bgColor}`
+            : `3px dashed ${bgColor}`;
         
         return (
           <div
@@ -82,12 +98,12 @@ export default function ChatDisplay({ messages, workerColorMap: externalColorMap
             }}
           >
             <Avatar
-              src={getAvatarUrl(message.worker_id)}
+              src={getAvatarUrl(workerAvatarMap[message.worker_id])}
               style={{
                 backgroundColor: bgColor,
                 color: "#333",
                 fontWeight: "600",
-                border: "2px solid #ddd",
+                border: avatarBorderStyle,
                 flexShrink: 0,
               }}
             >
@@ -108,8 +124,8 @@ export default function ChatDisplay({ messages, workerColorMap: externalColorMap
               >
                 {isTweet && (
                   <img
-                    src="/uw-crest-color-web-digital.svg"
-                    alt="UW Crest"
+                    src="/bookmark.png"
+                    alt="Bookmark"
                     width={24}
                     height={24}
                     style={{

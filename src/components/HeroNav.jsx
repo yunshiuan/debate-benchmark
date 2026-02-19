@@ -60,7 +60,8 @@ export default function HeroNav() {
       <Button 
         size="large" 
         icon={<FilePdfOutlined />} 
-        href="/paper.pdf"
+        href="https://arxiv.org/abs/2510.25110"
+        target="_blank"
       >
         Paper
       </Button>

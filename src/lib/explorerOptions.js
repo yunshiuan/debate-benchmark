@@ -282,9 +282,10 @@ export const models = [
   "Llama-3.1-70B-Instruct",
   "Mistral-7B-Instruct-v0.3",
   "Qwen2.5-32B-Instruct",
+  "gemini-2.5-flash-lite",
 ];
 
-export const versions = ["v0", "v2"];
+export const versions = ["v0"];
 
 export const topicLabelsByPrefix = {
   '20250307_012440_A_"body_cleanse,"_in_which_you_consume_only_particular_kinds_of_nutrients_over_1-3_days,_helps_your_body_to_eliminate_toxins_01JNQ1111QV26WKRF8M8GPVRJZ':

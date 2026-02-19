@@ -24,12 +24,19 @@ export default function ConversationFilters({
   onModelChange,
   onVersionChange,
 }) {
+  const versionLabels = {
+    v0: "Full Conversation Simulation",
+    v1: "Tweet-guided Conversation Simulation",
+    v2: "Next Message Prediction",
+  };
+
   return (
     <div className="bg-white rounded-lg shadow p-6 mb-6">
       <Space direction="vertical" size="middle" style={{ width: "100%" }}>
         <div>
-          <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="flex flex-wrap items-center gap-3">
             <Text strong>Topic:</Text>
+            <Text type="secondary">Topic Category:</Text>
             <div className="inline-flex rounded-lg border border-gray-200 bg-white p-1 shadow-sm">
               {[
                 { value: "all", label: "All" },
@@ -100,16 +107,20 @@ export default function ConversationFilters({
           <Text strong style={{ display: "block", marginBottom: 8 }}>
             Version:
           </Text>
-          <Select
-            style={{ width: "100%", maxWidth: 400 }}
-            placeholder="Select version"
-            value={selectedVersion}
-            onChange={onVersionChange}
-            options={versions.map((version) => ({
-              label: version,
-              value: version,
-            }))}
-          />
+          {versions.length <= 1 ? (
+            <Text>{versionLabels[selectedVersion] ?? selectedVersion ?? "Full Conversation Simulation"}</Text>
+          ) : (
+            <Select
+              style={{ width: "100%", maxWidth: 400 }}
+              placeholder="Select version"
+              value={selectedVersion}
+              onChange={onVersionChange}
+              options={versions.map((version) => ({
+                label: versionLabels[version] ?? version,
+                value: version,
+              }))}
+            />
+          )}
         </div>
       </Space>
     </div>
