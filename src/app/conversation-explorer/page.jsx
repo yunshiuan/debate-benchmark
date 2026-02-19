@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, Suspense } from "react";
 import { Typography, Spin } from "antd";
 import { useSearchParams } from "next/navigation";
 import ConversationExplorerHeader from "../../components/ConversationExplorerHeader";

@@ -1,10 +1,6 @@
 "use client";
 
 import { Select, Space, Typography } from "antd";
-<<<<<<< HEAD
-import { topicLabelsByPrefix } from "@/lib/explorerOptions";
-=======
->>>>>>> ce80d8b7 (Polished conversation explorer.)
 
 const { Text } = Typography;
 
