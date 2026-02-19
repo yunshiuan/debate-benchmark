@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { Typography, Spin } from "antd";
 import { useSearchParams } from "next/navigation";
 import ConversationExplorerHeader from "../../components/ConversationExplorerHeader";
@@ -13,6 +13,9 @@ const { Title } = Typography;
 function ConversationExplorerContent() {
   const searchParams = useSearchParams();
   const [selectedDataPrefix, setSelectedDataPrefix] = useState(dataPrefixes[0]);
+  const [selectedTopic, setSelectedTopic] = useState("");
+  const [selectedTimestamp, setSelectedTimestamp] = useState("");
+  const [selectedTopicType, setSelectedTopicType] = useState("all");
   const [selectedModel, setSelectedModel] = useState(models[0]);
   const [selectedVersion, setSelectedVersion] = useState(versions[0]);
   const [hasAppliedQuery, setHasAppliedQuery] = useState(false);
@@ -32,6 +35,82 @@ function ConversationExplorerContent() {
   const [workerColorMap, setWorkerColorMap] = useState({});
   const [workerAlignmentMap, setWorkerAlignmentMap] = useState({});
 
+  const parseDataPrefix = (prefix) => {
+    const parts = String(prefix || "").split("_");
+    if (parts.length < 4) {
+      return { timestamp: "", topicKey: prefix || "", topicLabel: prefix || "", prefix };
+    }
+    const timestamp = `${parts[0]}_${parts[1]}`;
+    const topicParts = parts.slice(2, -1);
+    const topicKey = topicParts.join("_");
+    const topicLabel = topicParts.join(" ");
+    return { timestamp, topicKey, topicLabel, prefix };
+  };
+
+  const normalizeTopicLabel = (label) =>
+    String(label || "")
+      .toLowerCase()
+      .replace(/["“”]/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+
+  const depthTopicSet = new Set(
+    [
+      'A "body cleanse," in which you consume only particular kinds of nutrients over 1-3 days, helps your body to eliminate toxins',
+      "Angels are real",
+      "Everything that happens can eventually be explained by science",
+      "Regular fasting will improve your health",
+      "The US deficit increased after President Obama was elected",
+      "The United States has the highest federal income tax rate of any Western country",
+      "The position of the planets at the time of your birth can influence your personality",
+    ].map(normalizeTopicLabel)
+  );
+
+  const { topicOptions, timestampsByTopic } = useMemo(() => {
+    const byTopic = new Map();
+    dataPrefixes.forEach((prefix) => {
+      const { timestamp, topicKey, topicLabel } = parseDataPrefix(prefix);
+      if (!topicKey) return;
+      if (!byTopic.has(topicKey)) {
+        byTopic.set(topicKey, { label: topicLabel || topicKey, timestamps: [] });
+      }
+      byTopic.get(topicKey).timestamps.push({ value: timestamp, label: timestamp, prefix });
+    });
+
+    const topicOptions = Array.from(byTopic.entries())
+      .map(([value, info]) => ({
+        value,
+        label: info.label,
+        topicType: depthTopicSet.has(normalizeTopicLabel(info.label)) ? "depth" : "breadth",
+      }))
+      .sort((a, b) => a.label.localeCompare(b.label));
+
+    const timestampsByTopic = {};
+    byTopic.forEach((info, key) => {
+      const sorted = info.timestamps
+        .sort((a, b) => b.value.localeCompare(a.value))
+        .map(({ value, label, prefix }) => ({ value, label, prefix }));
+      timestampsByTopic[key] = sorted;
+    });
+
+    return { topicOptions, timestampsByTopic };
+  }, []);
+
+  const filteredTopicOptions = useMemo(() => {
+    if (selectedTopicType === "all") return topicOptions;
+    return topicOptions.filter((option) => option.topicType === selectedTopicType);
+  }, [selectedTopicType, topicOptions]);
+
+  useEffect(() => {
+    if (!selectedTopic && filteredTopicOptions.length > 0) {
+      const { topicKey, timestamp } = parseDataPrefix(
+        dataPrefixes.find((prefix) => parseDataPrefix(prefix).topicKey === filteredTopicOptions[0].value)
+      );
+      setSelectedTopic(topicKey);
+      setSelectedTimestamp(timestamp);
+    }
+  }, [selectedTopic, filteredTopicOptions]);
+
   useEffect(() => {
     if (selectedDataPrefix && selectedModel && selectedVersion) {
       loadCsvData();
@@ -41,11 +120,26 @@ function ConversationExplorerContent() {
   useEffect(() => {
     if (hasAppliedQuery) return;
     const topicParam = searchParams.get("topic");
+    const timestampParam = searchParams.get("timestamp");
     const modelParam = searchParams.get("model");
     const versionParam = searchParams.get("version");
 
-    if (topicParam && dataPrefixes.includes(topicParam)) {
-      setSelectedDataPrefix(topicParam);
+    if (topicParam) {
+      if (dataPrefixes.includes(topicParam)) {
+        const { topicKey, timestamp } = parseDataPrefix(topicParam);
+        setSelectedTopic(topicKey);
+        setSelectedTimestamp(timestamp);
+        setSelectedDataPrefix(topicParam);
+      } else if (timestampsByTopic[topicParam]) {
+        setSelectedTopic(topicParam);
+        if (timestampParam) {
+          const match = timestampsByTopic[topicParam].find((t) => t.value === timestampParam);
+          if (match) {
+            setSelectedTimestamp(match.value);
+            setSelectedDataPrefix(match.prefix);
+          }
+        }
+      }
     }
     if (modelParam && models.includes(modelParam)) {
       setSelectedModel(modelParam);
@@ -54,7 +148,7 @@ function ConversationExplorerContent() {
       setSelectedVersion(versionParam);
     }
 
-    if (topicParam || modelParam || versionParam) {
+    if (topicParam || timestampParam || modelParam || versionParam) {
       setHasAppliedQuery(true);
     }
   }, [hasAppliedQuery, searchParams]);
@@ -307,19 +401,51 @@ function ConversationExplorerContent() {
     }
   }, [selectedDataPrefix]);
 
+  useEffect(() => {
+    if (!selectedTopic) return;
+    const timestamps = timestampsByTopic[selectedTopic] || [];
+    if (!timestamps.length) return;
+    const nextTimestamp = selectedTimestamp || timestamps[0].value;
+    const match = timestamps.find((t) => t.value === nextTimestamp) || timestamps[0];
+    if (match && match.prefix !== selectedDataPrefix) {
+      setSelectedTimestamp(match.value);
+      setSelectedDataPrefix(match.prefix);
+    }
+  }, [selectedTopic, selectedTimestamp, selectedDataPrefix, timestampsByTopic]);
+
+  useEffect(() => {
+    if (selectedTopicType === "all") return;
+    const stillVisible = filteredTopicOptions.some((option) => option.value === selectedTopic);
+    if (!stillVisible) {
+      const next = filteredTopicOptions[0];
+      if (next) {
+        setSelectedTopic(next.value);
+        setSelectedTimestamp("");
+      }
+    }
+  }, [selectedTopicType, filteredTopicOptions, selectedTopic]);
+
   return (
     <main className="min-h-screen bg-gray-50 font-sans">
       <ConversationExplorerHeader />
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <ConversationFilters
-          dataPrefixes={dataPrefixes}
+          topics={filteredTopicOptions}
+          timestamps={timestampsByTopic[selectedTopic] || []}
+          selectedTopic={selectedTopic}
+          selectedTimestamp={selectedTimestamp}
+          selectedTopicType={selectedTopicType}
           models={models}
           versions={versions}
-          selectedDataPrefix={selectedDataPrefix}
           selectedModel={selectedModel}
           selectedVersion={selectedVersion}
-          onDataPrefixChange={setSelectedDataPrefix}
+          onTopicChange={(value) => {
+            setSelectedTopic(value);
+            setSelectedTimestamp("");
+          }}
+          onTimestampChange={(value) => setSelectedTimestamp(value)}
+          onTopicTypeChange={setSelectedTopicType}
           onModelChange={setSelectedModel}
           onVersionChange={setSelectedVersion}
         />
