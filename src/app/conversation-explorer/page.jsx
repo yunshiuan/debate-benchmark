@@ -528,6 +528,9 @@ function ConversationExplorerContent() {
                           </div>
                         </div>
                       )}
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Discussion
+                      </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
                           style={{
@@ -610,6 +613,9 @@ function ConversationExplorerContent() {
                           </div>
                         </div>
                       )}
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Discussion
+                      </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
                           style={{
@@ -672,6 +678,9 @@ function ConversationExplorerContent() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Chatroom 1
                       </Title>
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Tweets & Conversation
+                      </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
                           style={{
@@ -724,6 +733,9 @@ function ConversationExplorerContent() {
                     <div>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Chatroom 2
+                      </Title>
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Tweets & Conversation
                       </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
@@ -787,6 +799,9 @@ function ConversationExplorerContent() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Chatroom 1
                       </Title>
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Tweets & Conversation
+                      </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
                           style={{
@@ -839,6 +854,9 @@ function ConversationExplorerContent() {
                     <div>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Chatroom 2
+                      </Title>
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Tweets & Conversation
                       </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div

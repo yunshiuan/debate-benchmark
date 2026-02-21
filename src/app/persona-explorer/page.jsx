@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   Button,
   Radio,
@@ -306,11 +306,14 @@ export default function PersonaExplorer() {
   const [demographics, setDemographics] = useState([]);
   const [selectedPersona, setSelectedPersona] = useState(null);
   const [selectedDataPrefix, setSelectedDataPrefix] = useState(null);
+  const [selectedInitialOpinion, setSelectedInitialOpinion] = useState(null);
   const [rawData, setRawData] = useState([]);
   const [rawHumanData, setRawHumanData] = useState([]);
   const [loadingDemographics, setLoadingDemographics] = useState(false);
   const [loadingConversation, setLoadingConversation] = useState(false);
   const [loadingHumanConversation, setLoadingHumanConversation] = useState(false);
+  const [loadingInitialOpinions, setLoadingInitialOpinions] = useState(false);
+  const [initialOpinionOptions, setInitialOpinionOptions] = useState([]);
 
   const [ageValue, setAgeValue] = useState(null);
   const [gender, setGender] = useState(null);
@@ -330,6 +333,8 @@ export default function PersonaExplorer() {
 
   const eventFilter = "message_sent";
   const getWorkerColor = (idx) => `hsl(${(idx * 137) % 360}, 70%, 88%)`;
+  const initialOpinionIndexRef = useRef(new Map());
+  const initialOpinionCacheRef = useRef(new Map());
 
   const parseDataPrefix = (prefix) => {
     const parts = String(prefix || "").split("_");
@@ -555,6 +560,136 @@ export default function PersonaExplorer() {
     return Array.from(ids).sort();
   }, [filteredDemographics]);
 
+  const ageBounds = useMemo(() => {
+    const ages = demographics
+      .map((row) => Number(row.age))
+      .filter((value) => Number.isFinite(value));
+    if (ages.length === 0) {
+      return { min: 0, max: 100 };
+    }
+    return { min: Math.min(...ages), max: Math.max(...ages) };
+  }, [demographics]);
+
+  const clampAge = (value) => {
+    if (value === null || value === undefined) return value;
+    const numeric = Number(value);
+    if (Number.isNaN(numeric)) return value;
+    return Math.min(ageBounds.max, Math.max(ageBounds.min, numeric));
+  };
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const loadInitialOpinions = async () => {
+      const prefixes = [
+        ...new Set(
+          filteredDemographics.map((row) => row.data_prefix).filter(Boolean)
+        ),
+      ];
+
+      if (prefixes.length === 0 || !selectedModel || !selectedVersion) {
+        setInitialOpinionOptions([]);
+        initialOpinionIndexRef.current = new Map();
+        setLoadingInitialOpinions(false);
+        return;
+      }
+
+      setLoadingInitialOpinions(true);
+      const options = [];
+      const index = new Map();
+
+      for (const prefix of prefixes) {
+        const cacheKey = `${prefix}::${selectedModel}::${selectedVersion}`;
+        let cacheEntry = initialOpinionCacheRef.current.get(cacheKey);
+
+        if (!cacheEntry) {
+          try {
+            const encodedPrefix = encodeURIComponent(prefix);
+            const encodedModel = encodeURIComponent(selectedModel);
+            const csvPath = `/result/eval_v3/validity/${encodedPrefix}/${encodedModel}/simulation-llm-${selectedVersion}.csv`;
+            const response = await fetch(csvPath);
+            if (!response.ok) {
+              console.error("Failed to load CSV for initial opinions:", csvPath);
+              continue;
+            }
+            const csvText = await response.text();
+            const rows = normalizeRowsForSource(parseCsv(csvText), "model");
+            const initialOpinionByWorker = new Map();
+            rows.forEach((row) => {
+              if (row.event_type !== "Initial Opinion") return;
+              const workerId = row.worker_id || row.sender_id;
+              if (!workerId) return;
+              const existing = initialOpinionByWorker.get(workerId);
+              if (!existing || new Date(row.time) < new Date(existing.time)) {
+                initialOpinionByWorker.set(workerId, row);
+              }
+            });
+            cacheEntry = { initialOpinionByWorker };
+            initialOpinionCacheRef.current.set(cacheKey, cacheEntry);
+          } catch (error) {
+            console.error("Error loading initial opinions:", error);
+            continue;
+          }
+        }
+
+        const initialOpinionByWorker = cacheEntry.initialOpinionByWorker || new Map();
+        const demographicRows = filteredDemographics.filter(
+          (row) => row.data_prefix === prefix
+        );
+        const topicLabel = parseDataPrefix(prefix).topicLabel;
+
+        demographicRows.forEach((row) => {
+          const workerId = row.worker_id;
+          if (!workerId) return;
+          const opinionRow = initialOpinionByWorker.get(workerId);
+          if (!opinionRow) return;
+          const rawText = (opinionRow.llm_text || opinionRow.text || "").replace(/\s+/g, " ").trim();
+          if (!rawText) return;
+          const snippet = rawText.length > 140 ? `${rawText.slice(0, 137)}...` : rawText;
+          const label = `${workerId}: ${snippet}${topicLabel ? ` (${topicLabel})` : ""}`;
+          const value = `${prefix}::${workerId}`;
+          options.push({ label, value });
+          index.set(value, { workerId, dataPrefix: prefix });
+        });
+      }
+
+      if (cancelled) return;
+      options.sort((a, b) => a.label.localeCompare(b.label));
+      setInitialOpinionOptions(options);
+      initialOpinionIndexRef.current = index;
+      setLoadingInitialOpinions(false);
+    };
+
+    loadInitialOpinions();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [filteredDemographics, selectedModel, selectedVersion]);
+
+  useEffect(() => {
+    if (!selectedInitialOpinion) return;
+    if (!initialOpinionIndexRef.current.has(selectedInitialOpinion)) {
+      setSelectedInitialOpinion(null);
+      setSelectedPersona(null);
+      setSelectedDataPrefix(null);
+      setRawData([]);
+      setRawHumanData([]);
+    }
+  }, [initialOpinionOptions, selectedInitialOpinion]);
+
+  useEffect(() => {
+    if (selectedInitialOpinion) return;
+    if (initialOpinionOptions.length === 0) return;
+    const first = initialOpinionOptions[0];
+    setSelectedInitialOpinion(first.value);
+    const info = initialOpinionIndexRef.current.get(first.value);
+    if (info) {
+      setSelectedPersona(info.workerId);
+      setSelectedDataPrefix(info.dataPrefix);
+    }
+  }, [initialOpinionOptions, selectedInitialOpinion]);
+
   useEffect(() => {
     if (!selectedPersona) return;
     if (!personaOptions.includes(selectedPersona)) {
@@ -565,6 +700,14 @@ export default function PersonaExplorer() {
   }, [personaOptions, selectedPersona]);
 
   useEffect(() => {
+    if (ageValue === null) return;
+    const clamped = clampAge(ageValue);
+    if (clamped !== ageValue) {
+      setAgeValue(clamped);
+    }
+  }, [ageBounds, ageValue]);
+
+  useEffect(() => {
     if (!selectedPersona) {
       setSelectedDataPrefix(null);
       return;
@@ -572,6 +715,43 @@ export default function PersonaExplorer() {
     const row = demographics.find((item) => item.worker_id === selectedPersona);
     setSelectedDataPrefix(row?.data_prefix ?? null);
   }, [demographics, selectedPersona]);
+
+  const selectedPersonaRow = useMemo(() => {
+    if (!selectedPersona) return null;
+    return demographics.find((item) => item.worker_id === selectedPersona) || null;
+  }, [demographics, selectedPersona]);
+
+  const selectedPersonaSummary = useMemo(() => {
+    if (!selectedPersonaRow) return "";
+    const fields = [
+      { key: "age", label: "Age" },
+      { key: "gender", label: "Gender" },
+      { key: "ethnicity", label: "Ethnicity" },
+      { key: "education", label: "Education" },
+      { key: "income", label: "Income" },
+      { key: "politicalViews", label: "Political Views" },
+      { key: "politicalIdentity", label: "Political Identity" },
+      { key: "maritalStatus", label: "Marital Status" },
+      { key: "childrenSchool", label: "Children School" },
+      { key: "residence", label: "Residence" },
+      { key: "bibleBelief", label: "Bible Belief" },
+      { key: "evangelical", label: "Evangelical" },
+      { key: "religion", label: "Religion" },
+      { key: "occupation", label: "Occupation" },
+      { key: "occupation-other", label: "Occupation Other" },
+      { key: "origin", label: "Origin" },
+      { key: "leaning", label: "Leaning" },
+      { key: "residency", label: "Residency" },
+    ];
+    const parts = fields
+      .map(({ key, label }) => {
+        const value = selectedPersonaRow[key];
+        if (!value || !String(value).trim()) return null;
+        return `${label} = ${value}`;
+      })
+      .filter(Boolean);
+    return parts.join(", ");
+  }, [selectedPersonaRow]);
 
   const personaMessages = useMemo(() => {
     if (!selectedPersona) return [];
@@ -760,12 +940,12 @@ export default function PersonaExplorer() {
                   Age
                 </Text>
                 <Slider
-                  min={0}
-                  max={100}
-                  value={ageValue ?? 0}
-                  onChange={setAgeValue}
+                  min={ageBounds.min}
+                  max={ageBounds.max}
+                  value={ageValue ?? ageBounds.min}
+                  onChange={(value) => setAgeValue(clampAge(value))}
                   style={{ width: 280 }}
-                  marks={{ 0: "0", 37: "37", 84: "84" }}
+                  marks={{ [ageBounds.min]: String(ageBounds.min), [ageBounds.max]: String(ageBounds.max) }}
                 />
                 <Text type="secondary">{ageValue === null ? "Any" : ageValue}</Text>
                 <Button size="small" onClick={() => setAgeValue(null)} disabled={ageValue === null}>
@@ -1044,28 +1224,42 @@ export default function PersonaExplorer() {
           <Space direction="vertical" size="middle" style={{ width: "100%", marginBottom: 20 }}>
             <div>
               <Text strong style={{ display: "block", marginBottom: 8 }}>
-                Persona (worker_id)
+                Persona & Initial Opinion
               </Text>
               <Select
-                style={{ width: "100%", maxWidth: 400 }}
-                placeholder="Select persona"
-                value={selectedPersona}
-                onChange={setSelectedPersona}
-                options={personaOptions.map((persona) => ({
-                  label: persona,
-                  value: persona,
-                }))}
+                style={{ width: "100%", maxWidth: 600 }}
+                placeholder="Select initial opinion"
+                value={selectedInitialOpinion}
+                onChange={(value) => {
+                  setSelectedInitialOpinion(value);
+                  if (!value) {
+                    setSelectedPersona(null);
+                    setSelectedDataPrefix(null);
+                    return;
+                  }
+                  const info = initialOpinionIndexRef.current.get(value);
+                  if (info) {
+                    setSelectedPersona(info.workerId);
+                    setSelectedDataPrefix(info.dataPrefix);
+                  }
+                }}
+                options={initialOpinionOptions}
+                loading={loadingInitialOpinions}
+                allowClear
                 showSearch
                 filterOption={(input, option) =>
                   (option?.label ?? "").toLowerCase().includes(input.toLowerCase())
                 }
               />
+              {selectedPersonaSummary && (
+                <Text type="secondary" style={{ display: "block", marginTop: 8 }}>
+                  The persona you selected: {selectedPersonaSummary}
+                </Text>
+              )}
             </div>
 
-            <div>
-              <Text strong style={{ display: "block", marginBottom: 8 }}>
-                Model
-              </Text>
+            <div className="flex flex-wrap items-center gap-3">
+              <Text strong>Human v.s. Model:</Text>
               <Select
                 style={{ width: "100%", maxWidth: 400 }}
                 placeholder="Select model"
@@ -1078,10 +1272,8 @@ export default function PersonaExplorer() {
               />
             </div>
 
-            <div>
-              <Text strong style={{ display: "block", marginBottom: 8 }}>
-                Version
-              </Text>
+            <div className="flex flex-wrap items-center gap-3">
+              <Text strong>Version:</Text>
               {versions.length <= 1 ? (
                 <Text>
                   {VERSION_LABELS[selectedVersion] ?? selectedVersion ?? "Full Conversation Simulation"}
@@ -1103,7 +1295,7 @@ export default function PersonaExplorer() {
             <Space size="small" wrap>
               <Tag color="blue">Filtered personas: {personaOptions.length}</Tag>
               <Tag color="green">Messages: {messageCount}</Tag>
-              <Tag color="purple">Initial Opinions: {initialOpinions.length}</Tag>
+              <Tag color="purple">Initial Opinions: {initialOpinionOptions.length}</Tag>
               <Tag color="geekblue">
                 Topic: {selectedDataPrefix ? parseDataPrefix(selectedDataPrefix).topicLabel : "None"}
               </Tag>
@@ -1248,6 +1440,9 @@ export default function PersonaExplorer() {
                           </div>
                         </div>
                       )}
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Discussion
+                      </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
                           style={{
@@ -1300,6 +1495,9 @@ export default function PersonaExplorer() {
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Round 2
                       </Title>
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Tweets & Conversation
+                      </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
                           style={{
@@ -1351,6 +1549,9 @@ export default function PersonaExplorer() {
                     <div>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
                         Round 3
+                      </Title>
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Tweets & Conversation
                       </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
