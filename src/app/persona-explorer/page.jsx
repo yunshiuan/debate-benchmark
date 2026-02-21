@@ -340,6 +340,17 @@ export default function PersonaExplorer() {
     return { topicLabel: topicParts.join(" ") };
   };
 
+  const normalizeRowsForSource = (rows, source) => {
+    return rows.map((row) => {
+      if (source === "human") {
+        const preferredText = row.text || row.llm_text || "";
+        return { ...row, text: preferredText, llm_text: "" };
+      }
+      const preferredText = row.llm_text || row.text || "";
+      return { ...row, llm_text: preferredText };
+    });
+  };
+
   useEffect(() => {
     const loadDemographics = async () => {
       setLoadingDemographics(true);
@@ -381,7 +392,7 @@ export default function PersonaExplorer() {
         }
 
         const csvText = await response.text();
-        const parsed = parseCsv(csvText);
+        const parsed = normalizeRowsForSource(parseCsv(csvText), "model");
         setRawData(parsed);
       } catch (error) {
         console.error("Error loading CSV:", error);
@@ -410,7 +421,7 @@ export default function PersonaExplorer() {
         }
 
         const csvText = await response.text();
-        const parsed = parseCsv(csvText);
+        const parsed = normalizeRowsForSource(parseCsv(csvText), "human");
         setRawHumanData(parsed);
       } catch (error) {
         console.error("Error loading human CSV:", error);

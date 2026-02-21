@@ -242,6 +242,17 @@ function ConversationExplorerContent() {
     }
   }, [rawData, rawHumanData]);
 
+  const normalizeRowsForSource = (rows, source) => {
+    return rows.map((row) => {
+      if (source === "human") {
+        const preferredText = row.text || row.llm_text || "";
+        return { ...row, text: preferredText, llm_text: "" };
+      }
+      const preferredText = row.llm_text || row.text || "";
+      return { ...row, llm_text: preferredText };
+    });
+  };
+
   const loadCsvData = async () => {
     setLoading(true);
     try {
@@ -259,7 +270,7 @@ function ConversationExplorerContent() {
       }
 
       const csvText = await response.text();
-      const parsed = parseCsv(csvText);
+      const parsed = normalizeRowsForSource(parseCsv(csvText), "model");
       setRawData(parsed);
       
       // Debug: Check what columns and values we have
@@ -311,7 +322,7 @@ function ConversationExplorerContent() {
       }
 
       const csvText = await response.text();
-      const parsed = parseCsv(csvText);
+      const parsed = normalizeRowsForSource(parseCsv(csvText), "human");
       setRawHumanData(parsed);
       setRound1HumanData(buildRoundData(parsed, "1.0"));
       setRound2HumanData(buildRoundData(parsed, "2.0"));

@@ -70,10 +70,8 @@ export default function ConversationFilters({
           />
         </div>
 
-        <div>
-          <Text strong style={{ display: "block", marginBottom: 8 }}>
-            Group ID:
-          </Text>
+        <div className="flex flex-wrap items-center gap-3">
+          <Text strong>Group ID:</Text>
           <Select
             style={{ width: "100%", maxWidth: 400 }}
             placeholder="Select run timestamp"
@@ -83,10 +81,8 @@ export default function ConversationFilters({
           />
         </div>
 
-        <div>
-          <Text strong style={{ display: "block", marginBottom: 8 }}>
-            Model:
-          </Text>
+        <div className="flex flex-wrap items-center gap-3">
+          <Text strong>Human v.s. Model:</Text>
           <Select
             style={{ width: "100%", maxWidth: 400 }}
             placeholder="Select model"
@@ -99,10 +95,8 @@ export default function ConversationFilters({
           />
         </div>
 
-        <div>
-          <Text strong style={{ display: "block", marginBottom: 8 }}>
-            Version:
-          </Text>
+        <div className="flex flex-wrap items-center gap-3">
+          <Text strong>Version:</Text>
           {versions.length <= 1 ? (
             <Text>{versionLabels[selectedVersion] ?? selectedVersion ?? "Full Conversation Simulation"}</Text>
           ) : (
