@@ -89,8 +89,8 @@ export default function TopicExplorer() {
         <div className="bg-white rounded-lg shadow p-6">
           <Space direction="vertical" size="middle" style={{ width: "100%" }}>
             <div>
-              <div className="flex flex-wrap items-center justify-between gap-3">
-                <Text strong>Search topics</Text>
+              <div className="flex flex-wrap items-center gap-3">
+                <Text strong>Topic Set:</Text>
                 <div className="inline-flex rounded-lg border border-gray-200 bg-white p-1 shadow-sm">
                   {[
                     { value: "all", label: "All" },
@@ -115,6 +115,9 @@ export default function TopicExplorer() {
                   })}
                 </div>
               </div>
+              <Text strong style={{ display: "block", marginTop: 12 }}>
+                Search topics
+              </Text>
               <Input
                 placeholder="Search by topic text or prefix"
                 value={query}
