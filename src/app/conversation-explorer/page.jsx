@@ -1,14 +1,14 @@
 "use client";
 
 import { useState, useEffect, useMemo, Suspense } from "react";
-import { Typography, Spin } from "antd";
+import { Typography, Spin, Tag } from "antd";
 import { useSearchParams } from "next/navigation";
 import ConversationExplorerHeader from "../../components/ConversationExplorerHeader";
 import ConversationFilters from "../../components/ConversationFilters";
 import ChatDisplay from "../../components/ChatDisplay";
 import { dataPrefixes, models, versions } from "../../lib/explorerOptions";
 
-const { Title } = Typography;
+const { Title, Text } = Typography;
 
 function ConversationExplorerContent() {
   const searchParams = useSearchParams();
@@ -464,6 +464,14 @@ function ConversationExplorerContent() {
         />
 
         <div className="bg-white rounded-lg shadow p-6">
+          <Tag
+            color="geekblue"
+            style={{ alignSelf: "flex-start", marginBottom: 16, maxWidth: "100%", whiteSpace: "normal" }}
+          >
+            <Text strong style={{ fontSize: 18, whiteSpace: "normal" }}>
+              Topic: {selectedDataPrefix ? parseDataPrefix(selectedDataPrefix).topicLabel : "None"}
+            </Text>
+          </Tag>
           {loading || loadingHuman ? (
             <div className="text-center py-12">
               <Spin size="large" />
@@ -471,7 +479,7 @@ function ConversationExplorerContent() {
           ) : initialOpinions.length > 0 ? (
             <>
               <Title level={4} style={{ marginBottom: 16 }}>
-                Initial Opinions
+                Initial Private Opinions
               </Title>
               <div
                 style={{
@@ -510,7 +518,7 @@ function ConversationExplorerContent() {
                       ).length > 0 && (
                         <div style={{ marginBottom: 16 }}>
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Tweets
+                            Public Tweet-like Posts
                           </Title>
                           <div
                             style={{
@@ -620,7 +628,7 @@ function ConversationExplorerContent() {
                       ).length > 0 && (
                         <div style={{ marginBottom: 16 }}>
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Tweets
+                            Public Tweet-like Posts
                           </Title>
                           <div
                             style={{
@@ -734,7 +742,7 @@ function ConversationExplorerContent() {
                         Chatroom 1
                       </Title>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Tweets & Conversation
+                        Public Tweet-like Posts & Conversation
                       </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
@@ -814,7 +822,7 @@ function ConversationExplorerContent() {
                         Chatroom 2
                       </Title>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Tweets & Conversation
+                        Public Tweet-like Posts & Conversation
                       </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
@@ -903,7 +911,7 @@ function ConversationExplorerContent() {
                         Chatroom 1
                       </Title>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Tweets & Conversation
+                        Public Tweet-like Posts & Conversation
                       </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
@@ -983,7 +991,7 @@ function ConversationExplorerContent() {
                         Chatroom 2
                       </Title>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Tweets & Conversation
+                        Public Tweet-like Posts & Conversation
                       </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
@@ -1039,7 +1047,7 @@ function ConversationExplorerContent() {
               {(postOpinions.length > 0 || postHumanOpinions.length > 0) && (
                 <div style={{ marginTop: 32 }}>
                   <Title level={4} style={{ marginBottom: 16 }}>
-                    Post Opinions
+                    Post-discussion Private Opinions
                   </Title>
                   <div className="flex flex-col gap-4 lg:flex-row">
                     <div

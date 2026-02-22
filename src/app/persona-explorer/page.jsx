@@ -1349,7 +1349,7 @@ export default function PersonaExplorer() {
           ) : selectedPersona && rawData.length > 0 ? (
             <>
               <Title level={4} style={{ marginBottom: 16 }}>
-                Initial Opinion of the person you chose (ID={selectedPersona})
+                Initial Private Opinion of the person you chose (ID={selectedPersona})
               </Title>
               <div
                 style={{
@@ -1458,7 +1458,7 @@ export default function PersonaExplorer() {
                       ).length > 0 && (
                         <div style={{ marginBottom: 16 }}>
                           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Tweets
+                            Public Tweet-like Posts
                           </Title>
                           <div
                             style={{
@@ -1496,8 +1496,19 @@ export default function PersonaExplorer() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Human
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            Human Discussion
                           </Title>
                           <ChatDisplay
                             messages={fullRoundDataHuman.round1.filter((row) => !isTweet(row))}
@@ -1518,8 +1529,19 @@ export default function PersonaExplorer() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Model
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            LLM Discussion
                           </Title>
                           <ChatDisplay
                             messages={fullRoundData.round1.filter((row) => !isTweet(row))}
@@ -1540,7 +1562,7 @@ export default function PersonaExplorer() {
                         Round 2
                       </Title>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Tweets & Conversation
+                        Public Tweet-like Posts & Conversation
                       </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
@@ -1553,8 +1575,19 @@ export default function PersonaExplorer() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Human
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            Human Discussion
                           </Title>
                           <ChatDisplay
                             messages={fullRoundDataHuman.round2}
@@ -1575,8 +1608,19 @@ export default function PersonaExplorer() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Model
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            LLM Discussion
                           </Title>
                           <ChatDisplay
                             messages={fullRoundData.round2}
@@ -1597,7 +1641,7 @@ export default function PersonaExplorer() {
                         Round 3
                       </Title>
                       <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Tweets & Conversation
+                        Public Tweet-like Posts & Conversation
                       </Title>
                       <div className="flex flex-col gap-4 lg:flex-row">
                         <div
@@ -1610,8 +1654,19 @@ export default function PersonaExplorer() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Human
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            Human Discussion
                           </Title>
                           <ChatDisplay
                             messages={fullRoundDataHuman.round3}
@@ -1632,8 +1687,19 @@ export default function PersonaExplorer() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Model
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            LLM Discussion
                           </Title>
                           <ChatDisplay
                             messages={fullRoundData.round3}
@@ -1653,7 +1719,7 @@ export default function PersonaExplorer() {
               {(postOpinions.length > 0 || postHumanOpinions.length > 0) && (
                 <>
                   <Title level={4} style={{ marginBottom: 16 }}>
-                    Post Opinion
+                    Post-discussion Private Opinion
                   </Title>
                   <div className="flex flex-col gap-4 lg:flex-row" style={{ marginBottom: 24 }}>
                     <div
@@ -1666,8 +1732,19 @@ export default function PersonaExplorer() {
                         flex: 1,
                       }}
                     >
-                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Human
+                      <Title
+                        level={5}
+                        style={{
+                          marginBottom: 12,
+                          color: "#666",
+                          position: "sticky",
+                          top: 0,
+                          background: "#F5F5F5",
+                          zIndex: 1,
+                          paddingTop: 4,
+                        }}
+                      >
+                        Human Discussion
                       </Title>
                       <ChatDisplay
                         messages={postHumanOpinions}
@@ -1687,8 +1764,19 @@ export default function PersonaExplorer() {
                         flex: 1,
                       }}
                     >
-                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Model
+                      <Title
+                        level={5}
+                        style={{
+                          marginBottom: 12,
+                          color: "#666",
+                          position: "sticky",
+                          top: 0,
+                          background: "#F5F5F5",
+                          zIndex: 1,
+                          paddingTop: 4,
+                        }}
+                      >
+                        LLM Discussion
                       </Title>
                       <ChatDisplay
                         messages={postOpinions}
