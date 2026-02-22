@@ -17,6 +17,7 @@ export default function ChatDisplay({
   messages,
   workerColorMap: externalColorMap,
   workerAlignmentMap: externalAlignmentMap,
+  workerAvatarMap: externalAvatarMap,
   staggered = false,
   sourceType = "model",
 }) {
@@ -45,7 +46,7 @@ export default function ChatDisplay({
   // Use external maps if provided, otherwise create local maps
   let workerColorMap = externalColorMap;
   let workerAlignmentMap = externalAlignmentMap;
-  let workerAvatarMap = null;
+  let workerAvatarMap = externalAvatarMap || null;
   
   if (!externalColorMap || !externalAlignmentMap) {
     // Fallback: create local maps

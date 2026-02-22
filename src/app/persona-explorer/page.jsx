@@ -761,26 +761,21 @@ export default function PersonaExplorer() {
   }, [rawData, selectedPersona]);
 
   const workerMaps = useMemo(() => {
-    const workerIds = [...new Set(rawData.map((row) => row.worker_id).filter(Boolean))];
+    const workerIds = [
+      ...new Set(
+        [...rawData, ...rawHumanData].map((row) => row.worker_id).filter(Boolean)
+      ),
+    ];
     const colorMap = {};
     const alignmentMap = {};
+    const avatarMap = {};
     workerIds.forEach((id, idx) => {
       colorMap[id] = getWorkerColor(idx);
       alignmentMap[id] = idx % 2 === 0 ? "left" : "right";
+      avatarMap[id] = (idx % 5) + 1;
     });
-    return { colorMap, alignmentMap };
-  }, [rawData]);
-
-  const workerMapsHuman = useMemo(() => {
-    const workerIds = [...new Set(rawHumanData.map((row) => row.worker_id).filter(Boolean))];
-    const colorMap = {};
-    const alignmentMap = {};
-    workerIds.forEach((id, idx) => {
-      colorMap[id] = getWorkerColor(idx);
-      alignmentMap[id] = idx % 2 === 0 ? "left" : "right";
-    });
-    return { colorMap, alignmentMap };
-  }, [rawHumanData]);
+    return { colorMap, alignmentMap, avatarMap };
+  }, [rawData, rawHumanData]);
 
   const initialOpinions = useMemo(() => {
     return personaMessages
@@ -1325,6 +1320,7 @@ export default function PersonaExplorer() {
                   messages={initialOpinions}
                   workerColorMap={workerMaps.colorMap}
                   workerAlignmentMap={workerMaps.alignmentMap}
+                  workerAvatarMap={workerMaps.avatarMap}
                   sourceType="model"
                 />
               </div>
@@ -1435,6 +1431,7 @@ export default function PersonaExplorer() {
                               )}
                               workerColorMap={workerMaps.colorMap}
                               workerAlignmentMap={workerMaps.alignmentMap}
+                              workerAvatarMap={workerMaps.avatarMap}
                               staggered
                             />
                           </div>
@@ -1459,8 +1456,9 @@ export default function PersonaExplorer() {
                           </Title>
                           <ChatDisplay
                             messages={fullRoundDataHuman.round1.filter((row) => !isTweet(row))}
-                            workerColorMap={workerMapsHuman.colorMap}
-                            workerAlignmentMap={workerMapsHuman.alignmentMap}
+                            workerColorMap={workerMaps.colorMap}
+                            workerAlignmentMap={workerMaps.alignmentMap}
+                            workerAvatarMap={workerMaps.avatarMap}
                             sourceType="human"
                             staggered
                           />
@@ -1482,6 +1480,7 @@ export default function PersonaExplorer() {
                             messages={fullRoundData.round1.filter((row) => !isTweet(row))}
                             workerColorMap={workerMaps.colorMap}
                             workerAlignmentMap={workerMaps.alignmentMap}
+                            workerAvatarMap={workerMaps.avatarMap}
                             sourceType="model"
                             staggered
                           />
@@ -1514,8 +1513,9 @@ export default function PersonaExplorer() {
                           </Title>
                           <ChatDisplay
                             messages={fullRoundDataHuman.round2}
-                            workerColorMap={workerMapsHuman.colorMap}
-                            workerAlignmentMap={workerMapsHuman.alignmentMap}
+                            workerColorMap={workerMaps.colorMap}
+                            workerAlignmentMap={workerMaps.alignmentMap}
+                            workerAvatarMap={workerMaps.avatarMap}
                             sourceType="human"
                             staggered
                           />
@@ -1537,6 +1537,7 @@ export default function PersonaExplorer() {
                             messages={fullRoundData.round2}
                             workerColorMap={workerMaps.colorMap}
                             workerAlignmentMap={workerMaps.alignmentMap}
+                            workerAvatarMap={workerMaps.avatarMap}
                             sourceType="model"
                             staggered
                           />
@@ -1569,8 +1570,9 @@ export default function PersonaExplorer() {
                           </Title>
                           <ChatDisplay
                             messages={fullRoundDataHuman.round3}
-                            workerColorMap={workerMapsHuman.colorMap}
-                            workerAlignmentMap={workerMapsHuman.alignmentMap}
+                            workerColorMap={workerMaps.colorMap}
+                            workerAlignmentMap={workerMaps.alignmentMap}
+                            workerAvatarMap={workerMaps.avatarMap}
                             sourceType="human"
                             staggered
                           />
@@ -1592,6 +1594,7 @@ export default function PersonaExplorer() {
                             messages={fullRoundData.round3}
                             workerColorMap={workerMaps.colorMap}
                             workerAlignmentMap={workerMaps.alignmentMap}
+                            workerAvatarMap={workerMaps.avatarMap}
                             sourceType="model"
                             staggered
                           />
@@ -1623,8 +1626,9 @@ export default function PersonaExplorer() {
                       </Title>
                       <ChatDisplay
                         messages={postHumanOpinions}
-                        workerColorMap={workerMapsHuman.colorMap}
-                        workerAlignmentMap={workerMapsHuman.alignmentMap}
+                        workerColorMap={workerMaps.colorMap}
+                        workerAlignmentMap={workerMaps.alignmentMap}
+                        workerAvatarMap={workerMaps.avatarMap}
                         sourceType="human"
                       />
                     </div>
@@ -1645,6 +1649,7 @@ export default function PersonaExplorer() {
                         messages={postOpinions}
                         workerColorMap={workerMaps.colorMap}
                         workerAlignmentMap={workerMaps.alignmentMap}
+                        workerAvatarMap={workerMaps.avatarMap}
                         sourceType="model"
                       />
                     </div>

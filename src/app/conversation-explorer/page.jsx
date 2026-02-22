@@ -34,6 +34,7 @@ function ConversationExplorerContent() {
   const [loadingHuman, setLoadingHuman] = useState(false);
   const [workerColorMap, setWorkerColorMap] = useState({});
   const [workerAlignmentMap, setWorkerAlignmentMap] = useState({});
+  const [workerAvatarMap, setWorkerAvatarMap] = useState({});
 
   const parseDataPrefix = (prefix) => {
     const parts = String(prefix || "").split("_");
@@ -228,12 +229,15 @@ function ConversationExplorerContent() {
     const getWorkerColor = (idx) => `hsl(${(idx * 137) % 360}, 70%, 88%)`;
     const colorMap = {};
     const alignmentMap = {};
+    const avatarMap = {};
     allWorkerIds.forEach((id, idx) => {
       colorMap[id] = getWorkerColor(idx);
       alignmentMap[id] = idx % 2 === 0 ? "left" : "right";
+      avatarMap[id] = (idx % 5) + 1;
     });
     setWorkerColorMap(colorMap);
     setWorkerAlignmentMap(alignmentMap);
+    setWorkerAvatarMap(avatarMap);
   };
 
   useEffect(() => {
@@ -482,6 +486,7 @@ function ConversationExplorerContent() {
                   messages={initialOpinions}
                   workerColorMap={workerColorMap}
                   workerAlignmentMap={workerAlignmentMap}
+                  workerAvatarMap={workerAvatarMap}
                   sourceType="model"
                 />
               </div>
@@ -523,6 +528,7 @@ function ConversationExplorerContent() {
                               )}
                               workerColorMap={workerColorMap}
                               workerAlignmentMap={workerAlignmentMap}
+                              workerAvatarMap={workerAvatarMap}
                               staggered
                             />
                           </div>
@@ -542,13 +548,25 @@ function ConversationExplorerContent() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Human
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            Human Discussion
                           </Title>
                           <ChatDisplay
                             messages={round1HumanData.pair1.filter((row) => !isTweet(row))}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            workerAvatarMap={workerAvatarMap}
                             sourceType="human"
                             staggered
                           />
@@ -563,13 +581,25 @@ function ConversationExplorerContent() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Model
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            LLM Discussion
                           </Title>
                           <ChatDisplay
                             messages={round1Data.pair1.filter((row) => !isTweet(row))}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            workerAvatarMap={workerAvatarMap}
                             sourceType="model"
                             staggered
                           />
@@ -608,6 +638,7 @@ function ConversationExplorerContent() {
                               )}
                               workerColorMap={workerColorMap}
                               workerAlignmentMap={workerAlignmentMap}
+                              workerAvatarMap={workerAvatarMap}
                               staggered
                             />
                           </div>
@@ -627,13 +658,25 @@ function ConversationExplorerContent() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Human
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            Human Discussion
                           </Title>
                           <ChatDisplay
                             messages={round1HumanData.pair2.filter((row) => !isTweet(row))}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            workerAvatarMap={workerAvatarMap}
                             sourceType="human"
                             staggered
                           />
@@ -648,13 +691,25 @@ function ConversationExplorerContent() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Model
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            LLM Discussion
                           </Title>
                           <ChatDisplay
                             messages={round1Data.pair2.filter((row) => !isTweet(row))}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            workerAvatarMap={workerAvatarMap}
                             sourceType="model"
                             staggered
                           />
@@ -692,13 +747,25 @@ function ConversationExplorerContent() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Human
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            Human Discussion
                           </Title>
                           <ChatDisplay
                             messages={round2HumanData.pair1}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            workerAvatarMap={workerAvatarMap}
                             sourceType="human"
                             staggered
                           />
@@ -713,13 +780,25 @@ function ConversationExplorerContent() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Model
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            LLM Discussion
                           </Title>
                           <ChatDisplay
                             messages={round2Data.pair1}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            workerAvatarMap={workerAvatarMap}
                             sourceType="model"
                             staggered
                           />
@@ -748,13 +827,25 @@ function ConversationExplorerContent() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Human
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            Human Discussion
                           </Title>
                           <ChatDisplay
                             messages={round2HumanData.pair2}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            workerAvatarMap={workerAvatarMap}
                             sourceType="human"
                             staggered
                           />
@@ -769,13 +860,25 @@ function ConversationExplorerContent() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Model
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            LLM Discussion
                           </Title>
                           <ChatDisplay
                             messages={round2Data.pair2}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            workerAvatarMap={workerAvatarMap}
                             sourceType="model"
                             staggered
                           />
@@ -813,13 +916,25 @@ function ConversationExplorerContent() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Human
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            Human Discussion
                           </Title>
                           <ChatDisplay
                             messages={round3HumanData.pair1}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            workerAvatarMap={workerAvatarMap}
                             sourceType="human"
                             staggered
                           />
@@ -834,13 +949,25 @@ function ConversationExplorerContent() {
                             flex: 1,
                           }}
                         >
-                          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                            Model
+                          <Title
+                            level={5}
+                            style={{
+                              marginBottom: 12,
+                              color: "#666",
+                              position: "sticky",
+                              top: 0,
+                              background: "#F5F5F5",
+                              zIndex: 1,
+                              paddingTop: 4,
+                            }}
+                          >
+                            LLM Discussion
                           </Title>
                           <ChatDisplay
                             messages={round3Data.pair1}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            workerAvatarMap={workerAvatarMap}
                             sourceType="model"
                             staggered
                           />
@@ -876,6 +1003,7 @@ function ConversationExplorerContent() {
                             messages={round3HumanData.pair2}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            workerAvatarMap={workerAvatarMap}
                             sourceType="human"
                             staggered
                           />
@@ -897,6 +1025,7 @@ function ConversationExplorerContent() {
                             messages={round3Data.pair2}
                             workerColorMap={workerColorMap}
                             workerAlignmentMap={workerAlignmentMap}
+                            workerAvatarMap={workerAvatarMap}
                             sourceType="model"
                             staggered
                           />
@@ -923,13 +1052,25 @@ function ConversationExplorerContent() {
                         flex: 1,
                       }}
                     >
-                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Human
+                      <Title
+                        level={5}
+                        style={{
+                          marginBottom: 12,
+                          color: "#666",
+                          position: "sticky",
+                          top: 0,
+                          background: "#F5F5F5",
+                          zIndex: 1,
+                          paddingTop: 4,
+                        }}
+                      >
+                        Human Discussion
                       </Title>
                       <ChatDisplay
                         messages={postHumanOpinions}
                         workerColorMap={workerColorMap}
                         workerAlignmentMap={workerAlignmentMap}
+                        workerAvatarMap={workerAvatarMap}
                         sourceType="human"
                       />
                     </div>
@@ -943,13 +1084,25 @@ function ConversationExplorerContent() {
                         flex: 1,
                       }}
                     >
-                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                        Model
+                      <Title
+                        level={5}
+                        style={{
+                          marginBottom: 12,
+                          color: "#666",
+                          position: "sticky",
+                          top: 0,
+                          background: "#F5F5F5",
+                          zIndex: 1,
+                          paddingTop: 4,
+                        }}
+                      >
+                        LLM Discussion
                       </Title>
                       <ChatDisplay
                         messages={postOpinions}
                         workerColorMap={workerColorMap}
                         workerAlignmentMap={workerAlignmentMap}
+                        workerAvatarMap={workerAvatarMap}
                         sourceType="model"
                       />
                     </div>
