@@ -493,11 +493,10 @@ export default function PersonaExplorer() {
     });
   };
 
-  const filteredDemographics = useMemo(() => {
+  const filteredDemographicsBase = useMemo(() => {
     return demographics
       .filter((row) => dataPrefixes.includes(row.data_prefix))
       .filter((row) => {
-        if (ageValue !== null && Number(row.age) !== ageValue) return false;
         if (gender && row.gender !== gender) return false;
         if (origin && row.origin !== origin) return false;
         if (education && row.education !== education) return false;
@@ -535,7 +534,6 @@ export default function PersonaExplorer() {
         return true;
       });
   }, [
-    ageValue,
     demographics,
     gender,
     origin,
@@ -553,6 +551,13 @@ export default function PersonaExplorer() {
     incomeValue,
   ]);
 
+  const filteredDemographics = useMemo(() => {
+    if (ageValue === null) return filteredDemographicsBase;
+    return filteredDemographicsBase.filter(
+      (row) => Number(row.age) === ageValue
+    );
+  }, [ageValue, filteredDemographicsBase]);
+
   const personaOptions = useMemo(() => {
     const ids = new Set();
     filteredDemographics.forEach((row) => {
@@ -562,14 +567,25 @@ export default function PersonaExplorer() {
   }, [filteredDemographics]);
 
   const ageBounds = useMemo(() => {
-    const ages = demographics
+    const ages = filteredDemographicsBase
       .map((row) => Number(row.age))
-      .filter((value) => Number.isFinite(value));
+      .filter((value) => Number.isFinite(value) && value > 0);
     if (ages.length === 0) {
       return { min: 0, max: 100 };
     }
     return { min: Math.min(...ages), max: Math.max(...ages) };
-  }, [demographics]);
+  }, [filteredDemographicsBase]);
+
+  const ageMedian = useMemo(() => {
+    const ages = filteredDemographicsBase
+      .map((row) => Number(row.age))
+      .filter((value) => Number.isFinite(value) && value > 0)
+      .sort((a, b) => a - b);
+    if (ages.length === 0) return null;
+    const mid = Math.floor(ages.length / 2);
+    if (ages.length % 2 === 1) return ages[mid];
+    return Math.round((ages[mid - 1] + ages[mid]) / 2);
+  }, [filteredDemographicsBase]);
 
   const clampAge = (value) => {
     if (value === null || value === undefined) return value;
@@ -925,6 +941,23 @@ export default function PersonaExplorer() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="bg-white rounded-lg shadow p-6 mb-6">
+          <style jsx global>{`
+            .persona-initial-opinion-select .ant-select-item-option-content,
+            .persona-initial-opinion-select .ant-select-selection-item {
+              white-space: normal;
+              word-break: break-word;
+            }
+            .persona-initial-opinion-select.ant-select-single .ant-select-selector {
+              height: auto;
+              min-height: 32px;
+            }
+            .persona-initial-opinion-select.ant-select-single .ant-select-selector .ant-select-selection-item {
+              height: auto;
+              line-height: 1.3;
+              padding: 4px 0;
+              white-space: normal;
+            }
+          `}</style>
           {loadingDemographics ? (
             <div className="text-center py-12">
               <Spin size="large" />
@@ -941,7 +974,11 @@ export default function PersonaExplorer() {
                       value={ageValue ?? ageBounds.min}
                       onChange={(value) => setAgeValue(clampAge(value))}
                       style={{ flex: "1 1 160px" }}
-                      marks={{ [ageBounds.min]: String(ageBounds.min), [ageBounds.max]: String(ageBounds.max) }}
+                      marks={{
+                        [ageBounds.min]: String(ageBounds.min),
+                        ...(ageMedian !== null ? { [ageMedian]: "Median" } : {}),
+                        [ageBounds.max]: String(ageBounds.max),
+                      }}
                     />
                     <Text type="secondary">{ageValue === null ? "Any" : ageValue}</Text>
                     <Button size="small" onClick={() => setAgeValue(null)} disabled={ageValue === null}>
@@ -1227,6 +1264,7 @@ export default function PersonaExplorer() {
                 Persona & Initial Opinion
               </Text>
               <Select
+                className="persona-initial-opinion-select"
                 style={{ width: "100%", maxWidth: 600 }}
                 placeholder="Select initial opinion"
                 value={selectedInitialOpinion}
@@ -1296,10 +1334,12 @@ export default function PersonaExplorer() {
               <Tag color="blue">Filtered personas: {personaOptions.length}</Tag>
               <Tag color="green">Messages: {messageCount}</Tag>
               <Tag color="purple">Initial Opinions: {initialOpinionOptions.length}</Tag>
-              <Tag color="geekblue">
-                Topic: {selectedDataPrefix ? parseDataPrefix(selectedDataPrefix).topicLabel : "None"}
-              </Tag>
             </Space>
+            <Tag color="geekblue" style={{ alignSelf: "flex-start" }}>
+              <Text strong style={{ fontSize: 20 }}>
+                Topic: {selectedDataPrefix ? parseDataPrefix(selectedDataPrefix).topicLabel : "None"}
+              </Text>
+            </Tag>
           </Space>
 
           {loadingConversation || loadingHumanConversation ? (
@@ -1309,7 +1349,7 @@ export default function PersonaExplorer() {
           ) : selectedPersona && rawData.length > 0 ? (
             <>
               <Title level={4} style={{ marginBottom: 16 }}>
-                Initial Opinion
+                Initial Opinion of the person you chose (ID={selectedPersona})
               </Title>
               <div
                 style={{
