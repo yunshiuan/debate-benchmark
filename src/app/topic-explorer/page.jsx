@@ -78,6 +78,12 @@ export default function TopicExplorer() {
   return (
     <main className="min-h-screen bg-gray-50 font-sans">
       <TopicExplorerHeader />
+      <style jsx global>{`
+        .topic-card .ant-card-head-title {
+          white-space: normal;
+          word-break: break-word;
+        }
+      `}</style>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="bg-white rounded-lg shadow p-6">
@@ -126,7 +132,7 @@ export default function TopicExplorer() {
             {filteredTopics.map((topic) => (
               <Card
                 key={topic.topicKey}
-                className="shadow-sm"
+                className="shadow-sm topic-card"
                 title={<Title level={5} style={{ marginBottom: 0 }}>{topic.label}</Title>}
               >
                 <Text type="secondary" style={{ display: "block", marginBottom: 12 }}>
