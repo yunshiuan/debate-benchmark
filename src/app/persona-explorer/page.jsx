@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   Button,
+  Card,
   Radio,
   Select,
   Slider,
@@ -929,51 +930,53 @@ export default function PersonaExplorer() {
               <Spin size="large" />
             </div>
           ) : (
-            <Space direction="vertical" size="large" style={{ width: "100%" }}>
-              <div className="flex flex-wrap items-center gap-3">
-                <Text strong className="min-w-[120px]">
-                  Age
-                </Text>
-                <Slider
-                  min={ageBounds.min}
-                  max={ageBounds.max}
-                  value={ageValue ?? ageBounds.min}
-                  onChange={(value) => setAgeValue(clampAge(value))}
-                  style={{ width: 280 }}
-                  marks={{ [ageBounds.min]: String(ageBounds.min), [ageBounds.max]: String(ageBounds.max) }}
-                />
-                <Text type="secondary">{ageValue === null ? "Any" : ageValue}</Text>
-                <Button size="small" onClick={() => setAgeValue(null)} disabled={ageValue === null}>
-                  Clear
-                </Button>
-              </div>
-              <img
-                src="/demo_age_fig.svg"
-                alt="Age distribution"
-                style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-              />
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Age</Text>
+                  <div className="flex flex-wrap items-center gap-3">
+                    <Slider
+                      min={ageBounds.min}
+                      max={ageBounds.max}
+                      value={ageValue ?? ageBounds.min}
+                      onChange={(value) => setAgeValue(clampAge(value))}
+                      style={{ flex: "1 1 160px" }}
+                      marks={{ [ageBounds.min]: String(ageBounds.min), [ageBounds.max]: String(ageBounds.max) }}
+                    />
+                    <Text type="secondary">{ageValue === null ? "Any" : ageValue}</Text>
+                    <Button size="small" onClick={() => setAgeValue(null)} disabled={ageValue === null}>
+                      Clear
+                    </Button>
+                  </div>
+                  <img
+                    src="/demo_age_fig.svg"
+                    alt="Age distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
+                </div>
+              </Card>
 
-              <div>
-                <Text strong>Gender</Text>
-                <div style={{ marginTop: 8 }}>
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Gender</Text>
                   <SingleBrickSelect
                     options={GENDER_OPTIONS}
                     value={gender}
                     onChange={setGender}
                   />
+                  <img
+                    src="/demo_gender_fig.svg"
+                    alt="Gender distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
                 </div>
-                <img
-                  src="/demo_gender_fig.svg"
-                  alt="Gender distribution"
-                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-                />
-              </div>
+              </Card>
 
-              <div>
-                <Text strong>Country/Region of Origin</Text>
-                <div style={{ marginTop: 8 }}>
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Country/Region of Origin</Text>
                   <Select
-                    style={{ width: "100%", maxWidth: 520 }}
+                    style={{ width: "100%" }}
                     placeholder="Select origin"
                     value={origin}
                     onChange={setOrigin}
@@ -987,210 +990,212 @@ export default function PersonaExplorer() {
                       (option?.label ?? "").toLowerCase().includes(input.toLowerCase())
                     }
                   />
+                  <img
+                    src="/demo_origin_fig.svg"
+                    alt="Country/Region of Origin distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
                 </div>
-                <img
-                  src="/demo_origin_fig.svg"
-                  alt="Country/Region of Origin distribution"
-                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-                />
-              </div>
+              </Card>
 
-              <div>
-                <Text strong>Highest Level of Education Completed</Text>
-                <div style={{ marginTop: 8 }}>
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Highest Level of Education Completed</Text>
                   <SingleBrickSelect
                     options={EDUCATION_OPTIONS}
                     value={education}
                     onChange={setEducation}
                   />
+                  <img
+                    src="/demo_education_fig.svg"
+                    alt="Education distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
                 </div>
-                <img
-                  src="/demo_education_fig.svg"
-                  alt="Education distribution"
-                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-                />
-              </div>
+              </Card>
 
-              <div>
-                <Text strong>Race/Ethnicity</Text>
-                <div style={{ marginTop: 8 }}>
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Race/Ethnicity</Text>
                   <MultiTagSelect
                     options={RACE_OPTIONS}
                     value={raceSelections}
                     onChange={setRaceSelections}
                   />
+                  <img
+                    src="/demo_ethnicity_fig.svg"
+                    alt="Race/Ethnicity distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
                 </div>
-                <img
-                  src="/demo_ethnicity_fig.svg"
-                  alt="Race/Ethnicity distribution"
-                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-                />
-              </div>
+              </Card>
 
-              <div className="flex flex-wrap items-center gap-3">
-                <Text strong className="min-w-[200px]">
-                  Household Annual Income
-                </Text>
-                <Slider
-                  min={0}
-                  max={250000}
-                  step={25000}
-                  dots
-                  marks={INCOME_MARKS}
-                  value={incomeValue ?? 0}
-                  onChange={setIncomeValue}
-                  style={{ width: 360 }}
-                />
-                <Text type="secondary">
-                  {incomeValue === null ? "Any" : `$${incomeValue.toLocaleString()}`}
-                </Text>
-                <Button
-                  size="small"
-                  onClick={() => setIncomeValue(null)}
-                  disabled={incomeValue === null}
-                >
-                  Clear
-                </Button>
-              </div>
-              <img
-                src="/demo_income_fig.svg"
-                alt="Household income distribution"
-                style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-              />
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Household Annual Income</Text>
+                  <div className="flex flex-wrap items-center gap-3">
+                    <Slider
+                      min={0}
+                      max={250000}
+                      step={25000}
+                      dots
+                      marks={INCOME_MARKS}
+                      value={incomeValue ?? 0}
+                      onChange={setIncomeValue}
+                      style={{ flex: "1 1 200px" }}
+                    />
+                    <Text type="secondary">
+                      {incomeValue === null ? "Any" : `$${incomeValue.toLocaleString()}`}
+                    </Text>
+                    <Button
+                      size="small"
+                      onClick={() => setIncomeValue(null)}
+                      disabled={incomeValue === null}
+                    >
+                      Clear
+                    </Button>
+                  </div>
+                  <img
+                    src="/demo_income_fig.svg"
+                    alt="Household income distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
+                </div>
+              </Card>
 
-              <div>
-                <Text strong>Political Views</Text>
-                <div style={{ marginTop: 8 }}>
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Political Views</Text>
                   <SingleBrickSelect
                     options={POLITICAL_VIEWS_OPTIONS}
                     value={politicalViews}
                     onChange={setPoliticalViews}
                   />
+                  <img
+                    src="/demo_political_view_fig.svg"
+                    alt="Political views distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
                 </div>
-                <img
-                  src="/demo_political_view_fig.svg"
-                  alt="Political views distribution"
-                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-                />
-              </div>
+              </Card>
 
-              <div>
-                <Text strong>Political Identity</Text>
-                <div style={{ marginTop: 8 }}>
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Political Identity</Text>
                   <SingleBrickSelect
                     options={POLITICAL_IDENTITY_OPTIONS}
                     value={politicalIdentity}
                     onChange={setPoliticalIdentity}
                   />
+                  <img
+                    src="/demo_political_party_fig.svg"
+                    alt="Political identity distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
                 </div>
-                <img
-                  src="/demo_political_party_fig.svg"
-                  alt="Political identity distribution"
-                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-                />
-              </div>
+              </Card>
 
-              <div>
-                <Text strong>Marital Status</Text>
-                <div style={{ marginTop: 8 }}>
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Marital Status</Text>
                   <SingleBrickSelect
                     options={MARITAL_OPTIONS}
                     value={maritalStatus}
                     onChange={setMaritalStatus}
                   />
+                  <img
+                    src="/demo_marriage_fig.svg"
+                    alt="Marital status distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
                 </div>
-                <img
-                  src="/demo_marriage_fig.svg"
-                  alt="Marital status distribution"
-                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-                />
-              </div>
+              </Card>
 
-              <div>
-                <Text strong>Children School</Text>
-                <div style={{ marginTop: 8 }}>
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Children School</Text>
                   <MultiTagSelect
                     options={CHILDREN_SCHOOL_OPTIONS}
                     value={childrenSchoolSelections}
                     onChange={setChildrenSchoolSelections}
                   />
+                  <img
+                    src="/demo_children_fig.svg"
+                    alt="Children school distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
                 </div>
-                <img
-                  src="/demo_children_fig.svg"
-                  alt="Children school distribution"
-                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-                />
-              </div>
+              </Card>
 
-              <div>
-                <Text strong>Residence</Text>
-                <div style={{ marginTop: 8 }}>
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Residence</Text>
                   <SingleBrickSelect
                     options={RESIDENCE_OPTIONS}
                     value={residence}
                     onChange={setResidence}
                   />
+                  <img
+                    src="/demo_residence_fig.svg"
+                    alt="Residence distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
                 </div>
-                <img
-                  src="/demo_residence_fig.svg"
-                  alt="Residence distribution"
-                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-                />
-              </div>
+              </Card>
 
-              <div>
-                <Text strong>Bible Belief</Text>
-                <div style={{ marginTop: 8 }}>
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Bible Belief</Text>
                   <SingleBrickSelect
                     options={BIBLE_BELIEF_OPTIONS}
                     value={bibleBelief}
                     onChange={setBibleBelief}
                   />
+                  <img
+                    src="/demo_bible_fig.svg"
+                    alt="Bible belief distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
                 </div>
-                <img
-                  src="/demo_bible_fig.svg"
-                  alt="Bible belief distribution"
-                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-                />
-              </div>
+              </Card>
 
-              <div>
-                <Text strong>Evangelical</Text>
-                <div style={{ marginTop: 8 }}>
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Evangelical</Text>
                   <SingleBrickSelect
                     options={EVANGELICAL_OPTIONS}
                     value={evangelical}
                     onChange={setEvangelical}
                   />
+                  <img
+                    src="/demo_evangelical_fig.svg"
+                    alt="Evangelical distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
                 </div>
-                <img
-                  src="/demo_evangelical_fig.svg"
-                  alt="Evangelical distribution"
-                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-                />
-              </div>
+              </Card>
 
-              <div>
-                <Text strong>Religion</Text>
-                <div style={{ marginTop: 8 }}>
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Religion</Text>
                   <SingleBrickSelect
                     options={RELIGION_OPTIONS}
                     value={religion}
                     onChange={setReligion}
                   />
+                  <img
+                    src="/demo_religion_fig.svg"
+                    alt="Religion distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
                 </div>
-                <img
-                  src="/demo_religion_fig.svg"
-                  alt="Religion distribution"
-                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-                />
-              </div>
+              </Card>
 
-              <div>
-                <Text strong>Occupation</Text>
-                <div style={{ marginTop: 8 }}>
+              <Card className="shadow-sm" size="small">
+                <div className="flex flex-col gap-3">
+                  <Text strong>Occupation</Text>
                   <Select
-                    style={{ width: "100%", maxWidth: 520 }}
+                    style={{ width: "100%" }}
                     placeholder="Select occupation"
                     value={occupation}
                     onChange={setOccupation}
@@ -1204,14 +1209,14 @@ export default function PersonaExplorer() {
                       (option?.label ?? "").toLowerCase().includes(input.toLowerCase())
                     }
                   />
+                  <img
+                    src="/demo_occupuation_fig.svg"
+                    alt="Occupation distribution"
+                    style={{ width: "100%", display: "block" }}
+                  />
                 </div>
-                <img
-                  src="/demo_occupuation_fig.svg"
-                  alt="Occupation distribution"
-                  style={{ marginTop: 8, width: "100%", maxWidth: 520, display: "block" }}
-                />
-              </div>
-            </Space>
+              </Card>
+            </div>
           )}
         </div>
 
