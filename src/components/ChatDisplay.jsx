@@ -127,8 +127,8 @@ export default function ChatDisplay({
                   <img
                     src="/bookmark.png"
                     alt="Bookmark"
-                    width={24}
-                    height={24}
+                    width={40}
+                    height={40}
                     style={{
                       position: "absolute",
                       top: 8,

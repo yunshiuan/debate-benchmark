@@ -1027,6 +1027,11 @@ export default function PersonaExplorer() {
                       (option?.label ?? "").toLowerCase().includes(input.toLowerCase())
                     }
                   />
+                  <div className="flex justify-end">
+                    <Button size="small" onClick={() => setOrigin(null)} disabled={origin === null}>
+                      Clear
+                    </Button>
+                  </div>
                   <img
                     src="/demo_origin_fig.svg"
                     alt="Country/Region of Origin distribution"
@@ -1059,6 +1064,15 @@ export default function PersonaExplorer() {
                     value={raceSelections}
                     onChange={setRaceSelections}
                   />
+                  <div className="flex justify-end">
+                    <Button
+                      size="small"
+                      onClick={() => setRaceSelections([])}
+                      disabled={raceSelections.length === 0}
+                    >
+                      Clear
+                    </Button>
+                  </div>
                   <img
                     src="/demo_ethnicity_fig.svg"
                     alt="Race/Ethnicity distribution"
@@ -1156,6 +1170,15 @@ export default function PersonaExplorer() {
                     value={childrenSchoolSelections}
                     onChange={setChildrenSchoolSelections}
                   />
+                  <div className="flex justify-end">
+                    <Button
+                      size="small"
+                      onClick={() => setChildrenSchoolSelections([])}
+                      disabled={childrenSchoolSelections.length === 0}
+                    >
+                      Clear
+                    </Button>
+                  </div>
                   <img
                     src="/demo_children_fig.svg"
                     alt="Children school distribution"
@@ -1246,6 +1269,11 @@ export default function PersonaExplorer() {
                       (option?.label ?? "").toLowerCase().includes(input.toLowerCase())
                     }
                   />
+                  <div className="flex justify-end">
+                    <Button size="small" onClick={() => setOccupation(null)} disabled={occupation === null}>
+                      Clear
+                    </Button>
+                  </div>
                   <img
                     src="/demo_occupuation_fig.svg"
                     alt="Occupation distribution"
