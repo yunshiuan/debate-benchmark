@@ -58,7 +58,7 @@ export default function ConversationFilters({
             </div>
           </div>
           <Select
-            style={{ width: "100%", maxWidth: 600, marginTop: 8 }}
+            style={{ width: "100%", marginTop: 8 }}
             placeholder="Select topic"
             value={selectedTopic}
             onChange={onTopicChange}
