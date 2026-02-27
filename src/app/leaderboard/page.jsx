@@ -75,12 +75,12 @@ function buildSections() {
   return [
     {
       id: "depth",
-      levelLabel: "Depth Topics",
+      levelLabel: "Utterance-level Alignment: LLM vs. Human (Depth Topics)",
       subsections: depthSections,
     },
     {
       id: "breadth",
-      levelLabel: "Breadth Topics",
+      levelLabel: "Utterance-level Alignment: LLM vs. Human (Breadth Topics)",
       subsections: breadthSections,
     },
   ];
@@ -101,8 +101,12 @@ export default function Leaderboard() {
 
         <div className="bg-white rounded-lg shadow p-6 mt-6">
           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-            Depth Topics - Avg Stance Δ (Simulation Mode 2)
+            Depth Topics - Avg Stance Δ (Full Conversation Simulation)
           </Title>
+          <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
+            Average stance change for Depth topics in Full Conversation Simulation. Bars are sorted in
+            ascending order; lower values indicate smaller shifts in stance magnitude.
+          </p>
           <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
             <img
               src="/leaderboard/avg_stance_delta_depth_mode2.svg"
@@ -116,8 +120,12 @@ export default function Leaderboard() {
 
         <div className="bg-white rounded-lg shadow p-6 mt-6">
           <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-            Breadth Topics - Avg Stance Δ (Simulation Mode 2)
+            Breadth Topics - Avg Stance Δ (Full Conversation Simulation)
           </Title>
+          <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
+            Average stance change for Breadth topics in Full Conversation Simulation. Bars are sorted in
+            ascending order; lower values indicate smaller shifts in stance magnitude.
+          </p>
           <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
             <img
               src="/leaderboard/avg_stance_delta_breadth_mode2.svg"
@@ -129,7 +137,7 @@ export default function Leaderboard() {
 
         <div className="bg-white rounded-lg shadow p-6 mt-10">
           <Title level={3} style={{ margin: 0, marginBottom: 12 }}>
-            Change in Within-Group Opinion Diversity (Depth Topics)
+            Group-Level Alignment in Opinion Dynamics: LLM Groups vs. Human Groups (Depth Topics)
           </Title>
           <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
             Change in within-group opinion diversity for humans and RPLA simulations on Depth
