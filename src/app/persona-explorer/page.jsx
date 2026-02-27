@@ -332,10 +332,45 @@ export default function PersonaExplorer() {
   const [religion, setReligion] = useState(null);
   const [occupation, setOccupation] = useState(null);
 
+  const hasDemographicFilters =
+    ageValue !== null ||
+    gender ||
+    origin ||
+    education ||
+    raceSelections.length > 0 ||
+    incomeValue !== null ||
+    politicalViews ||
+    politicalIdentity ||
+    maritalStatus ||
+    childrenSchoolSelections.length > 0 ||
+    residence ||
+    bibleBelief ||
+    evangelical ||
+    religion ||
+    occupation;
+
   const eventFilter = "message_sent";
   const getWorkerColor = (idx) => `hsl(${(idx * 137) % 360}, 70%, 88%)`;
   const initialOpinionIndexRef = useRef(new Map());
   const initialOpinionCacheRef = useRef(new Map());
+
+  const clearDemographicFilters = () => {
+    setAgeValue(null);
+    setGender(null);
+    setOrigin(null);
+    setEducation(null);
+    setRaceSelections([]);
+    setIncomeValue(null);
+    setPoliticalViews(null);
+    setPoliticalIdentity(null);
+    setMaritalStatus(null);
+    setChildrenSchoolSelections([]);
+    setResidence(null);
+    setBibleBelief(null);
+    setEvangelical(null);
+    setReligion(null);
+    setOccupation(null);
+  };
 
   const parseDataPrefix = (prefix) => {
     const parts = String(prefix || "").split("_");
@@ -666,7 +701,7 @@ export default function PersonaExplorer() {
           const label = `${workerId}: ${snippet}${topicLabel ? ` (${topicLabel})` : ""}`;
           const value = `${prefix}::${workerId}`;
           options.push({ label, value });
-          index.set(value, { workerId, dataPrefix: prefix });
+          index.set(value, { workerId, dataPrefix: prefix, fullText: rawText, label });
         });
       }
 
@@ -737,6 +772,20 @@ export default function PersonaExplorer() {
     if (!selectedPersona) return null;
     return demographics.find((item) => item.worker_id === selectedPersona) || null;
   }, [demographics, selectedPersona]);
+
+  const selectedInitialOpinionText = useMemo(() => {
+    if (!selectedInitialOpinion) return "";
+    const info = initialOpinionIndexRef.current.get(selectedInitialOpinion);
+    return info?.fullText || "";
+  }, [selectedInitialOpinion]);
+
+  const initialOpinionDisplay = useMemo(() => {
+    if (loadingInitialOpinions) return "Loading...";
+    if (selectedInitialOpinionText) return selectedInitialOpinionText;
+    if (!selectedInitialOpinion) return "None";
+    const info = initialOpinionIndexRef.current.get(selectedInitialOpinion);
+    return info?.label || "None";
+  }, [loadingInitialOpinions, selectedInitialOpinion, selectedInitialOpinionText]);
 
   const selectedPersonaSummary = useMemo(() => {
     if (!selectedPersonaRow) return "";
@@ -940,24 +989,140 @@ export default function PersonaExplorer() {
       <PersonaExplorerHeader />
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+        <style jsx global>{`
+          .persona-initial-opinion-select .ant-select-item-option-content,
+          .persona-initial-opinion-select .ant-select-selection-item {
+            white-space: normal;
+            word-break: break-word;
+          }
+          .persona-initial-opinion-select.ant-select-single .ant-select-selector {
+            height: auto;
+            min-height: 32px;
+          }
+          .persona-initial-opinion-select.ant-select-single .ant-select-selector .ant-select-selection-item {
+            height: auto;
+            line-height: 1.3;
+            padding: 4px 0;
+            white-space: normal;
+          }
+        `}</style>
+
         <div className="bg-white rounded-lg shadow p-6 mb-6">
-          <style jsx global>{`
-            .persona-initial-opinion-select .ant-select-item-option-content,
-            .persona-initial-opinion-select .ant-select-selection-item {
-              white-space: normal;
-              word-break: break-word;
-            }
-            .persona-initial-opinion-select.ant-select-single .ant-select-selector {
-              height: auto;
-              min-height: 32px;
-            }
-            .persona-initial-opinion-select.ant-select-single .ant-select-selector .ant-select-selection-item {
-              height: auto;
-              line-height: 1.3;
-              padding: 4px 0;
-              white-space: normal;
-            }
-          `}</style>
+          <Space orientation="vertical" size="middle" style={{ width: "100%", marginBottom: 20 }}>
+            <div>
+              <Text strong style={{ display: "block", marginBottom: 8 }}>
+                Persona & Initial Opinion
+              </Text>
+              <Select
+                className="persona-initial-opinion-select"
+                style={{ width: "100%", maxWidth: 600 }}
+                placeholder="Select initial opinion"
+                value={selectedInitialOpinion}
+                onChange={(value) => {
+                  setSelectedInitialOpinion(value);
+                  if (!value) {
+                    setSelectedPersona(null);
+                    setSelectedDataPrefix(null);
+                    return;
+                  }
+                  const info = initialOpinionIndexRef.current.get(value);
+                  if (info) {
+                    setSelectedPersona(info.workerId);
+                    setSelectedDataPrefix(info.dataPrefix);
+                  }
+                }}
+                options={initialOpinionOptions}
+                loading={loadingInitialOpinions}
+                allowClear
+                showSearch
+                filterOption={(input, option) =>
+                  (option?.label ?? "").toLowerCase().includes(input.toLowerCase())
+                }
+              />
+              {selectedPersonaSummary && (
+                <Text type="secondary" style={{ display: "block", marginTop: 8 }}>
+                  The persona you selected: {selectedPersonaSummary}
+                </Text>
+              )}
+            </div>
+
+            <div className="flex flex-wrap items-center gap-3">
+              <Text strong>Human v.s. Model:</Text>
+              <Select
+                style={{ width: "100%", maxWidth: 400 }}
+                placeholder="Select model"
+                value={selectedModel}
+                onChange={setSelectedModel}
+                options={models.map((model) => ({
+                  label: model,
+                  value: model,
+                }))}
+              />
+            </div>
+
+            <div className="flex flex-wrap items-center gap-3">
+              <Text strong>Version:</Text>
+              {versions.length <= 1 ? (
+                <Text>
+                  {VERSION_LABELS[selectedVersion] ?? selectedVersion ?? "Full Conversation Simulation"}
+                </Text>
+              ) : (
+                <Select
+                  style={{ width: "100%", maxWidth: 400 }}
+                  placeholder="Select version"
+                  value={selectedVersion}
+                  onChange={setSelectedVersion}
+                  options={versions.map((version) => ({
+                    label: VERSION_LABELS[version] ?? version,
+                    value: version,
+                  }))}
+                />
+              )}
+            </div>
+
+            <Space size="small" wrap>
+              <Tag color="blue">Filtered personas: {personaOptions.length}</Tag>
+              <Tag color="green">Messages: {messageCount}</Tag>
+              <Tag color="purple">Initial Opinions: {initialOpinionOptions.length}</Tag>
+            </Space>
+            <Tag color="geekblue" style={{ alignSelf: "flex-start" }}>
+              <Text strong style={{ fontSize: 20 }}>
+                Topic: {selectedDataPrefix ? parseDataPrefix(selectedDataPrefix).topicLabel : "None"}
+              </Text>
+            </Tag>
+            <Tag color="geekblue" style={{ alignSelf: "flex-start" }}>
+              <Text
+                strong
+                style={{ fontSize: 16, display: "block", whiteSpace: "normal", wordBreak: "break-word" }}
+              >
+                {(selectedPersona || "Unknown")}&apos;s Initial Private Opinion: {initialOpinionDisplay}
+              </Text>
+            </Tag>
+            <div className="flex flex-wrap items-center gap-3">
+              <Text type="secondary">Scroll down below to see full conversation.</Text>
+              <Button
+                size="small"
+                type="primary"
+                onClick={() => {
+                  const target = document.getElementById("persona-conversation-section");
+                  if (target) {
+                    target.scrollIntoView({ behavior: "smooth", block: "start" });
+                  }
+                }}
+              >
+                Scroll to Conversation
+              </Button>
+            </div>
+          </Space>
+        </div>
+
+        <div className="bg-white rounded-lg shadow p-6 mb-6">
+          <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+            <Text strong>Demographics Filters</Text>
+            <Button size="small" onClick={clearDemographicFilters} disabled={!hasDemographicFilters}>
+              Clear all
+            </Button>
+          </div>
           {loadingDemographics ? (
             <div className="text-center py-12">
               <Spin size="large" />
@@ -1286,90 +1451,6 @@ export default function PersonaExplorer() {
         </div>
 
         <div className="bg-white rounded-lg shadow p-6">
-          <Space direction="vertical" size="middle" style={{ width: "100%", marginBottom: 20 }}>
-            <div>
-              <Text strong style={{ display: "block", marginBottom: 8 }}>
-                Persona & Initial Opinion
-              </Text>
-              <Select
-                className="persona-initial-opinion-select"
-                style={{ width: "100%", maxWidth: 600 }}
-                placeholder="Select initial opinion"
-                value={selectedInitialOpinion}
-                onChange={(value) => {
-                  setSelectedInitialOpinion(value);
-                  if (!value) {
-                    setSelectedPersona(null);
-                    setSelectedDataPrefix(null);
-                    return;
-                  }
-                  const info = initialOpinionIndexRef.current.get(value);
-                  if (info) {
-                    setSelectedPersona(info.workerId);
-                    setSelectedDataPrefix(info.dataPrefix);
-                  }
-                }}
-                options={initialOpinionOptions}
-                loading={loadingInitialOpinions}
-                allowClear
-                showSearch
-                filterOption={(input, option) =>
-                  (option?.label ?? "").toLowerCase().includes(input.toLowerCase())
-                }
-              />
-              {selectedPersonaSummary && (
-                <Text type="secondary" style={{ display: "block", marginTop: 8 }}>
-                  The persona you selected: {selectedPersonaSummary}
-                </Text>
-              )}
-            </div>
-
-            <div className="flex flex-wrap items-center gap-3">
-              <Text strong>Human v.s. Model:</Text>
-              <Select
-                style={{ width: "100%", maxWidth: 400 }}
-                placeholder="Select model"
-                value={selectedModel}
-                onChange={setSelectedModel}
-                options={models.map((model) => ({
-                  label: model,
-                  value: model,
-                }))}
-              />
-            </div>
-
-            <div className="flex flex-wrap items-center gap-3">
-              <Text strong>Version:</Text>
-              {versions.length <= 1 ? (
-                <Text>
-                  {VERSION_LABELS[selectedVersion] ?? selectedVersion ?? "Full Conversation Simulation"}
-                </Text>
-              ) : (
-                <Select
-                  style={{ width: "100%", maxWidth: 400 }}
-                  placeholder="Select version"
-                  value={selectedVersion}
-                  onChange={setSelectedVersion}
-                  options={versions.map((version) => ({
-                    label: VERSION_LABELS[version] ?? version,
-                    value: version,
-                  }))}
-                />
-              )}
-            </div>
-
-            <Space size="small" wrap>
-              <Tag color="blue">Filtered personas: {personaOptions.length}</Tag>
-              <Tag color="green">Messages: {messageCount}</Tag>
-              <Tag color="purple">Initial Opinions: {initialOpinionOptions.length}</Tag>
-            </Space>
-            <Tag color="geekblue" style={{ alignSelf: "flex-start" }}>
-              <Text strong style={{ fontSize: 20 }}>
-                Topic: {selectedDataPrefix ? parseDataPrefix(selectedDataPrefix).topicLabel : "None"}
-              </Text>
-            </Tag>
-          </Space>
-
           {loadingConversation || loadingHumanConversation ? (
             <div className="text-center py-12">
               <Spin size="large" />
@@ -1470,7 +1551,7 @@ export default function PersonaExplorer() {
               {(fullRoundData.round1.length > 0 ||
                 fullRoundData.round2.length > 0 ||
                 fullRoundData.round3.length > 0) && (
-                <>
+                <div id="persona-conversation-section">
                   <Title level={4} style={{ marginBottom: 16 }}>
                     {selectedPersona}&apos;s Chatroom Conversation
                   </Title>
@@ -1741,7 +1822,7 @@ export default function PersonaExplorer() {
                       </div>
                     </div>
                   )}
-                </>
+                </div>
               )}
 
               {(postOpinions.length > 0 || postHumanOpinions.length > 0) && (
