@@ -588,9 +588,13 @@ export default function PersonaExplorer() {
 
   const filteredDemographics = useMemo(() => {
     if (ageValue === null) return filteredDemographicsBase;
-    return filteredDemographicsBase.filter(
-      (row) => Number(row.age) === ageValue
-    );
+    if (!Array.isArray(ageValue)) return filteredDemographicsBase;
+    const [minAge, maxAge] = ageValue;
+    return filteredDemographicsBase.filter((row) => {
+      const age = Number(row.age);
+      if (!Number.isFinite(age)) return false;
+      return age >= minAge && age <= maxAge;
+    });
   }, [ageValue, filteredDemographicsBase]);
 
   const personaOptions = useMemo(() => {
@@ -627,6 +631,16 @@ export default function PersonaExplorer() {
     const numeric = Number(value);
     if (Number.isNaN(numeric)) return value;
     return Math.min(ageBounds.max, Math.max(ageBounds.min, numeric));
+  };
+
+  const clampAgeRange = (range) => {
+    if (!Array.isArray(range) || range.length !== 2) return range;
+    const start = clampAge(range[0]);
+    const end = clampAge(range[1]);
+    if (start === null || end === null) return range;
+    const min = Math.min(start, end);
+    const max = Math.max(start, end);
+    return [min, max];
   };
 
   useEffect(() => {
@@ -753,8 +767,10 @@ export default function PersonaExplorer() {
 
   useEffect(() => {
     if (ageValue === null) return;
-    const clamped = clampAge(ageValue);
-    if (clamped !== ageValue) {
+    if (!Array.isArray(ageValue)) return;
+    const clamped = clampAgeRange(ageValue);
+    if (!Array.isArray(clamped)) return;
+    if (clamped[0] !== ageValue[0] || clamped[1] !== ageValue[1]) {
       setAgeValue(clamped);
     }
   }, [ageBounds, ageValue]);
@@ -1136,8 +1152,9 @@ export default function PersonaExplorer() {
                     <Slider
                       min={ageBounds.min}
                       max={ageBounds.max}
-                      value={ageValue ?? ageBounds.min}
-                      onChange={(value) => setAgeValue(clampAge(value))}
+                      range
+                      value={ageValue ?? [ageBounds.min, ageBounds.max]}
+                      onChange={(value) => setAgeValue(clampAgeRange(value))}
                       style={{ flex: "1 1 160px" }}
                       marks={{
                         [ageBounds.min]: String(ageBounds.min),
@@ -1145,7 +1162,11 @@ export default function PersonaExplorer() {
                         [ageBounds.max]: String(ageBounds.max),
                       }}
                     />
-                    <Text type="secondary">{ageValue === null ? "Any" : ageValue}</Text>
+                    <Text type="secondary">
+                      {ageValue === null
+                        ? "Any"
+                        : `${ageValue[0]} - ${ageValue[1]}`}
+                    </Text>
                     <Button size="small" onClick={() => setAgeValue(null)} disabled={ageValue === null}>
                       Clear
                     </Button>
