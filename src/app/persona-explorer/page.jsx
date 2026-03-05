@@ -1031,7 +1031,7 @@ export default function PersonaExplorer() {
               </Text>
               <Select
                 className="persona-initial-opinion-select"
-                style={{ width: "100%", maxWidth: 600 }}
+                style={{ width: "100%" }}
                 placeholder="Select initial opinion"
                 value={selectedInitialOpinion}
                 onChange={(value) => {
