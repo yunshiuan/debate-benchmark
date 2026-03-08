@@ -618,7 +618,7 @@ export default function PersonaExplorer() {
           try {
             const encodedPrefix = encodeURIComponent(prefix);
             const encodedModel = encodeURIComponent(selectedModel);
-            const apiPath = `/api/conversation-csv?dataPrefix=${encodedPrefix}&model=${encodedModel}&version=${selectedVersion}`;
+            const apiPath = `/api/initial-opinions?dataPrefix=${encodedPrefix}&model=${encodedModel}&version=${selectedVersion}`;
             const response = await fetch(apiPath);
             if (!response.ok) {
               console.error("Failed to load initial opinions:", apiPath);
@@ -631,13 +631,9 @@ export default function PersonaExplorer() {
             );
             const initialOpinionByWorker = new Map();
             rows.forEach((row) => {
-              if (row.event_type !== "Initial Opinion") return;
               const workerId = row.worker_id || row.sender_id;
               if (!workerId) return;
-              const existing = initialOpinionByWorker.get(workerId);
-              if (!existing || new Date(row.time) < new Date(existing.time)) {
-                initialOpinionByWorker.set(workerId, row);
-              }
+              initialOpinionByWorker.set(workerId, row);
             });
             cacheEntry = { initialOpinionByWorker };
             initialOpinionCacheRef.current.set(cacheKey, cacheEntry);
