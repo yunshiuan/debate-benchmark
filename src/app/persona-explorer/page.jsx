@@ -308,6 +308,7 @@ export default function PersonaExplorer() {
   const [selectedPersona, setSelectedPersona] = useState(null);
   const [selectedDataPrefix, setSelectedDataPrefix] = useState(null);
   const [selectedInitialOpinion, setSelectedInitialOpinion] = useState(null);
+  const [selectedTopicKey, setSelectedTopicKey] = useState(null);
   const [rawData, setRawData] = useState([]);
   const [rawHumanData, setRawHumanData] = useState([]);
   const [loadingDemographics, setLoadingDemographics] = useState(false);
@@ -375,10 +376,12 @@ export default function PersonaExplorer() {
   const parseDataPrefix = (prefix) => {
     const parts = String(prefix || "").split("_");
     if (parts.length < 4) {
-      return { topicLabel: prefix || "" };
+      return { topicKey: prefix || "", topicLabel: prefix || "", timestamp: "" };
     }
+    const timestamp = `${parts[0]}_${parts[1]}`;
     const topicParts = parts.slice(2, -1);
-    return { topicLabel: topicParts.join(" ") };
+    const topicKey = topicParts.join("_");
+    return { topicKey, topicLabel: topicParts.join(" "), timestamp };
   };
 
   const normalizeRowsForSource = (rows, source) => {
@@ -598,8 +601,13 @@ export default function PersonaExplorer() {
           filteredDemographics.map((row) => row.data_prefix).filter(Boolean)
         ),
       ];
+      const scopedPrefixes = selectedTopicKey
+        ? prefixes.filter(
+            (prefix) => parseDataPrefix(prefix).topicKey === selectedTopicKey
+          )
+        : prefixes;
 
-      if (prefixes.length === 0 || !selectedModel || !selectedVersion) {
+      if (scopedPrefixes.length === 0 || !selectedModel || !selectedVersion) {
         setInitialOpinionOptions([]);
         initialOpinionIndexRef.current = new Map();
         setLoadingInitialOpinions(false);
@@ -613,7 +621,7 @@ export default function PersonaExplorer() {
       const cacheKeySuffix = `${selectedModel}::${selectedVersion}`;
       const prefixesToFetch = [];
 
-      for (const prefix of prefixes) {
+      for (const prefix of scopedPrefixes) {
         const cacheKey = `${prefix}::${selectedModel}::${selectedVersion}`;
         let cacheEntry = initialOpinionCacheRef.current.get(cacheKey);
 
@@ -658,7 +666,7 @@ export default function PersonaExplorer() {
         }
       }
 
-      for (const prefix of prefixes) {
+      for (const prefix of scopedPrefixes) {
         const cacheKey = `${prefix}::${cacheKeySuffix}`;
         const cacheEntry = initialOpinionCacheRef.current.get(cacheKey);
         if (!cacheEntry) continue;
@@ -667,8 +675,6 @@ export default function PersonaExplorer() {
         const demographicRows = filteredDemographics.filter(
           (row) => row.data_prefix === prefix
         );
-        const topicLabel = parseDataPrefix(prefix).topicLabel;
-
         demographicRows.forEach((row) => {
           const workerId = row.worker_id;
           if (!workerId) return;
@@ -682,15 +688,21 @@ export default function PersonaExplorer() {
             opinionRow.human_label_pred ??
             "";
           const labelPred = String(labelPredRaw).trim() || "Unknown";
-          const label = `${workerId}: ${labelPred} - ${topicLabel || "Unknown topic"}`;
+          const snippet = rawText.length > 140 ? `${rawText.slice(0, 137)}...` : rawText;
+          const label = `ID=${workerId}: [Stance label = ${labelPred}] ${snippet}`;
           const value = `${prefix}::${workerId}`;
-          options.push({ label, value });
+          options.push({ label, value, labelPred });
           index.set(value, { workerId, dataPrefix: prefix, fullText: rawText, label, labelPred });
         });
       }
 
       if (cancelled) return;
-      options.sort((a, b) => a.label.localeCompare(b.label));
+      options.sort((a, b) => {
+        const aPred = String(a.labelPred || "").toLowerCase();
+        const bPred = String(b.labelPred || "").toLowerCase();
+        if (aPred !== bPred) return aPred.localeCompare(bPred);
+        return String(a.label || "").localeCompare(String(b.label || ""));
+      });
       setInitialOpinionOptions(options);
       initialOpinionIndexRef.current = index;
       setLoadingInitialOpinions(false);
@@ -701,7 +713,7 @@ export default function PersonaExplorer() {
     return () => {
       cancelled = true;
     };
-  }, [filteredDemographics, selectedModel, selectedVersion]);
+  }, [filteredDemographics, selectedModel, selectedVersion, selectedTopicKey]);
 
   useEffect(() => {
     if (!selectedInitialOpinion) return;
@@ -752,6 +764,9 @@ export default function PersonaExplorer() {
     }
     const row = demographics.find((item) => item.worker_id === selectedPersona);
     setSelectedDataPrefix(row?.data_prefix ?? null);
+    if (row?.data_prefix) {
+      setSelectedTopicKey(parseDataPrefix(row.data_prefix).topicKey || null);
+    }
   }, [demographics, selectedPersona]);
 
   const selectedPersonaRow = useMemo(() => {
@@ -778,6 +793,36 @@ export default function PersonaExplorer() {
     const info = initialOpinionIndexRef.current.get(selectedInitialOpinion);
     return info?.label || "None";
   }, [loadingInitialOpinions, selectedInitialOpinion, selectedInitialOpinionText]);
+
+  const topicOptions = useMemo(() => {
+    const byTopic = new Map();
+    dataPrefixes.forEach((prefix) => {
+      const { topicKey, topicLabel, timestamp } = parseDataPrefix(prefix);
+      const label = topicLabel || topicKey || prefix;
+      if (!topicKey) return;
+      const existing = byTopic.get(topicKey);
+      if (!existing || timestamp.localeCompare(existing.timestamp) > 0) {
+        byTopic.set(topicKey, { value: topicKey, label, timestamp });
+      }
+    });
+    return Array.from(byTopic.values())
+      .map(({ value, label }) => ({ value, label }))
+      .sort((a, b) => a.label.localeCompare(b.label));
+  }, []);
+
+  const selectedTopicLabel = useMemo(() => {
+    if (!selectedTopicKey) return "None";
+    const match = dataPrefixes.find(
+      (prefix) => parseDataPrefix(prefix).topicKey === selectedTopicKey
+    );
+    return match ? parseDataPrefix(match).topicLabel : "None";
+  }, [selectedTopicKey]);
+
+  useEffect(() => {
+    if (selectedTopicKey) return;
+    if (topicOptions.length === 0) return;
+    setSelectedTopicKey(topicOptions[0].value);
+  }, [selectedTopicKey, topicOptions]);
 
   const selectedPersonaSummary = useMemo(() => {
     if (!selectedPersonaRow) return "";
@@ -1003,7 +1048,32 @@ export default function PersonaExplorer() {
           <Space orientation="vertical" size="middle" style={{ width: "100%", marginBottom: 20 }}>
             <div>
               <Text strong style={{ display: "block", marginBottom: 8 }}>
-                Persona & Initial Opinion
+                Topic
+              </Text>
+              <Select
+                style={{ width: "100%" }}
+                placeholder="Select topic"
+                value={selectedTopicKey}
+                onChange={(value) => {
+                  setSelectedTopicKey(value || null);
+                  setSelectedInitialOpinion(null);
+                  setSelectedPersona(null);
+                  setSelectedDataPrefix(null);
+                  setInitialOpinionOptions([]);
+                  initialOpinionIndexRef.current = new Map();
+                }}
+                options={topicOptions}
+                allowClear
+                showSearch
+                filterOption={(input, option) =>
+                  (option?.label ?? "").toLowerCase().includes(input.toLowerCase())
+                }
+              />
+            </div>
+
+            <div>
+              <Text strong style={{ display: "block", marginBottom: 8 }}>
+                Initial Opinion of the Persona you Selected
               </Text>
               <Select
                 className="persona-initial-opinion-select"
@@ -1021,9 +1091,10 @@ export default function PersonaExplorer() {
                   if (info) {
                     setSelectedPersona(info.workerId);
                     setSelectedDataPrefix(info.dataPrefix);
+                    setSelectedTopicKey(parseDataPrefix(info.dataPrefix).topicKey || null);
                   }
                 }}
-                options={initialOpinionOptions}
+                options={initialOpinionOptions.map(({ label, value }) => ({ label, value }))}
                 loading={loadingInitialOpinions}
                 allowClear
                 showSearch
@@ -1031,11 +1102,54 @@ export default function PersonaExplorer() {
                   (option?.label ?? "").toLowerCase().includes(input.toLowerCase())
                 }
               />
-              {selectedPersonaSummary && (
-                <Text type="secondary" style={{ display: "block", marginTop: 8 }}>
-                  The persona you selected: {selectedPersonaSummary}
+            </div>
+
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 space-y-3">
+              <Text strong style={{ fontSize: 18, whiteSpace: "normal", display: "block" }}>
+                Topic you Selected:{" "}
+                <span style={{ fontStyle: "italic", textDecoration: "underline" }}>
+                  {selectedTopicLabel}
+                </span>
+              </Text>
+
+              <div>
+                <Text strong style={{ display: "block", marginBottom: 4 }}>
+                  Persona info
                 </Text>
-              )}
+                <Text type="secondary">
+                  {selectedPersonaSummary || "No persona selected."}
+                </Text>
+              </div>
+
+              <Text
+                strong
+                style={{ fontSize: 16, display: "block", whiteSpace: "normal", wordBreak: "break-word" }}
+              >
+                Initial Private Opinion of the Persona you Selected{" "}
+                <span style={{ fontSize: 12 }}>
+                  (ID={selectedPersona || "Unknown"})
+                </span>
+                {" "}
+                [
+                <span
+                  style={{
+                    backgroundColor: "#FEF3C7",
+                    color: "#92400E",
+                    padding: "0 6px",
+                    borderRadius: 6,
+                    marginLeft: 2,
+                    marginRight: 2,
+                    display: "inline-block",
+                    fontSize: 12,
+                  }}
+                >
+                  Stance label = {selectedInitialOpinionLabelPred}
+                </span>
+                ]:{" "}
+                <span style={{ fontStyle: "italic", textDecoration: "underline" }}>
+                  {initialOpinionDisplay}
+                </span>
+              </Text>
             </div>
 
             <div className="flex flex-wrap items-center gap-3">
@@ -1052,53 +1166,19 @@ export default function PersonaExplorer() {
               />
             </div>
 
-            <div className="flex flex-wrap items-center gap-3">
-              <Text strong>Version:</Text>
-              {versions.length <= 1 ? (
-                <Text>
-                  {VERSION_LABELS[selectedVersion] ?? selectedVersion ?? "Full Conversation Simulation"}
-                </Text>
-              ) : (
-                <Select
-                  style={{ width: "100%", maxWidth: 400 }}
-                  placeholder="Select version"
-                  value={selectedVersion}
-                  onChange={setSelectedVersion}
-                  options={versions.map((version) => ({
-                    label: VERSION_LABELS[version] ?? version,
-                    value: version,
-                  }))}
-                />
-              )}
-            </div>
+            <Text type="secondary">
+              <span style={{ color: "#000000" }}>Note:</span>{" "}
+              <span style={{ color: "#000000" }}>
+                Simulation Version is Full Conversation Simulation as described in the paper.
+              </span>
+            </Text>
 
-            <Tag color="geekblue" style={{ alignSelf: "flex-start" }}>
-              <Text strong style={{ fontSize: 20 }}>
-                Topic: {selectedDataPrefix ? parseDataPrefix(selectedDataPrefix).topicLabel : "None"}
-              </Text>
-            </Tag>
-            <Tag color="geekblue" style={{ alignSelf: "flex-start" }}>
-              <Text
-                strong
-                style={{ fontSize: 16, display: "block", whiteSpace: "normal", wordBreak: "break-word" }}
-              >
-                {(selectedPersona || "Unknown")}&apos;s Initial Private Opinion[
-                <span
-                  style={{
-                    backgroundColor: "#FEF3C7",
-                    color: "#92400E",
-                    padding: "0 6px",
-                    borderRadius: 6,
-                    marginLeft: 2,
-                    marginRight: 2,
-                    display: "inline-block",
-                  }}
-                >
-                  {selectedInitialOpinionLabelPred}
-                </span>
-                ]: {initialOpinionDisplay}
-              </Text>
-            </Tag>
+            <Text type="secondary" style={{ display: "block" }}>
+              The stance labels are based classification onto a 6-point scale:{" "}
+              {`{Certainly disagree (-2.5), Probably disagree (-1.5), Lean disagree (−0.5), Lean agree (+0.5), Probably agree (+1.5), Certainly agree (+2.5)}`}{" "}
+              (see paper for details).
+            </Text>
+
             <div className="flex flex-wrap items-center gap-3">
               <Text type="secondary">Scroll down below to see full conversation.</Text>
               <Button
@@ -1129,9 +1209,13 @@ export default function PersonaExplorer() {
               paddingBottom: 4,
             }}
           >
-            <div className="flex flex-wrap items-center gap-2">
-              <Text strong>Demographics Filters</Text>
-              <Tag color="blue">Filtered personas: {personaOptions.length}</Tag>
+            <div className="flex flex-wrap items-center gap-3">
+              <Text strong style={{ fontSize: 20 }}>
+                Demographics Filters
+              </Text>
+              <Tag color="blue" style={{ fontSize: 16, padding: "4px 10px" }}>
+                Filtered personas: {personaOptions.length}
+              </Tag>
             </div>
             <Button size="small" onClick={clearDemographicFilters} disabled={!hasDemographicFilters}>
               Clear all
