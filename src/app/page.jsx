@@ -94,22 +94,26 @@ export default function Home() {
 
           <div className="space-y-6">
             <Paragraph className="text-lg text-gray-700 leading-relaxed text-justify">
-              Accurately modeling opinion change through social interactions is crucial for understanding and 
-              mitigating polarization, misinformation, and societal conflict. Recent work explores simulating 
-              opinion dynamics with role-playing LLM agents (RPLAs)—language models assigned human-like personas 
-              that engage in multi-turn, multi-agent opinion exchange. However, existing RPLA simulations often 
-              produce unnatural group behaviors (e.g., premature consensus) and lack empirical benchmarks for 
-              evaluating alignment with real human interactions. 
+              Accurately modeling opinion change through social interactions is crucial for understanding and
+              mitigating polarization, misinformation, and societal conflict. Recent work simulates opinion
+              dynamics with role-playing LLM agents (RPLAs), but multi-agent simulations often display unnatural
+              group behavior (e.g., premature convergence) and lack empirical benchmarks for assessing alignment
+              with real human group interactions.
             </Paragraph>
             <Paragraph className="text-lg text-gray-700 leading-relaxed text-justify">
-              We introduce DEBATE, the first large-scale benchmark for evaluating the authenticity of opinion 
-              dynamics in multi-agent RPLA simulations. DEBATE contains 37,357 messages from 2,792 U.S.-based 
-              participants who engaged in multi-player, multi-round conversations across 107 controversial topics, 
-              reporting both public messages and private beliefs. We simulate these conversations using various 
-              LLMs and introduce multi-level evaluation metrics to assess behavioral alignment between humans and RPLAs. 
-              Our analyses reveal key behavioral gaps: RPLA groups exhibit stronger opinion convergence and belief 
-              drift than humans, and individual agents show more systematic shifts in response to social influence. 
-              The dataset and codebase will be publicly released.
+              We introduce DEBATE, a large-scale benchmark for evaluating the authenticity of opinion dynamics in
+              multi-agent RPLA simulations. DEBATE contains 30,707 messages from 2,832 U.S.-based participants
+              across 708 groups and 107 topics, with both public messages and private Likert-scale beliefs,
+              enabling evaluation at the utterance and group levels (and supporting future individual-level
+              analyses). We instantiate “digital twin” RPLAs with seven LLMs and evaluate across two settings:
+              next-message prediction and full conversation rollout, using stance-alignment and
+              opinion-convergence metrics. In zero-shot settings, RPLA groups exhibit strong opinion convergence
+              relative to human groups. Post-training via supervised fine-tuning (SFT) and Direct Preference
+              Optimization (DPO) improves stance alignment and brings group-level convergence closer to human
+              behavior, though discrepancies in opinion change and belief updating remain. DEBATE enables
+              rigorous benchmarking of simulated opinion dynamics and supports future research on aligning
+              multi-agent RPLAs with realistic human interactions. The dataset and codebase will be publicly
+              released.
             </Paragraph>
           </div>
         </section>
