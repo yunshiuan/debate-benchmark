@@ -422,21 +422,21 @@ export default function PersonaExplorer() {
       try {
         const encodedPrefix = encodeURIComponent(selectedDataPrefix);
         const encodedModel = encodeURIComponent(selectedModel);
-        const csvPath = `/result/eval_v3/validity/${encodedPrefix}/${encodedModel}/simulation-llm-${selectedVersion}.csv`;
-        const response = await fetch(csvPath);
+        const apiPath = `/api/conversation-csv?dataPrefix=${encodedPrefix}&model=${encodedModel}&version=${selectedVersion}`;
+        const response = await fetch(apiPath);
 
         if (!response.ok) {
-          console.error("Failed to load CSV:", csvPath);
+          console.error("Failed to load conversation data:", apiPath);
           setRawData([]);
           setLoadingConversation(false);
           return;
         }
 
-        const csvText = await response.text();
-        const parsed = normalizeRowsForSource(parseCsv(csvText), "model");
+        const payload = await response.json();
+        const parsed = normalizeRowsForSource(Array.isArray(payload.data) ? payload.data : [], "model");
         setRawData(parsed);
       } catch (error) {
-        console.error("Error loading CSV:", error);
+        console.error("Error loading conversation data:", error);
         setRawData([]);
       }
       setLoadingConversation(false);
@@ -451,21 +451,21 @@ export default function PersonaExplorer() {
       setLoadingHumanConversation(true);
       try {
         const encodedPrefix = encodeURIComponent(selectedDataPrefix);
-        const csvPath = `/result/eval_v3/validity/${encodedPrefix}/simulation-human.csv`;
-        const response = await fetch(csvPath);
+        const apiPath = `/api/conversation-human?dataPrefix=${encodedPrefix}`;
+        const response = await fetch(apiPath);
 
         if (!response.ok) {
-          console.error("Failed to load human CSV:", csvPath);
+          console.error("Failed to load human conversation data:", apiPath);
           setRawHumanData([]);
           setLoadingHumanConversation(false);
           return;
         }
 
-        const csvText = await response.text();
-        const parsed = normalizeRowsForSource(parseCsv(csvText), "human");
+        const payload = await response.json();
+        const parsed = normalizeRowsForSource(Array.isArray(payload.data) ? payload.data : [], "human");
         setRawHumanData(parsed);
       } catch (error) {
-        console.error("Error loading human CSV:", error);
+        console.error("Error loading human conversation data:", error);
         setRawHumanData([]);
       }
       setLoadingHumanConversation(false);
@@ -473,60 +473,6 @@ export default function PersonaExplorer() {
 
     loadHumanCsvData();
   }, [selectedDataPrefix]);
-
-  const parseCsv = (text) => {
-    if (!text) return [];
-
-    const rows = [];
-    let currentRow = [];
-    let currentField = "";
-    let inQuotes = false;
-
-    for (let i = 0; i < text.length; i++) {
-      const char = text[i];
-      const nextChar = text[i + 1];
-
-      if (char === '"') {
-        if (inQuotes && nextChar === '"') {
-          currentField += '"';
-          i++;
-        } else {
-          inQuotes = !inQuotes;
-        }
-      } else if (char === "," && !inQuotes) {
-        currentRow.push(currentField);
-        currentField = "";
-      } else if ((char === "\n" || (char === "\r" && nextChar === "\n")) && !inQuotes) {
-        if (char === "\r") i++;
-        currentRow.push(currentField);
-        if (currentRow.length > 0 && currentRow.some((f) => f.trim())) {
-          rows.push(currentRow);
-        }
-        currentRow = [];
-        currentField = "";
-      } else {
-        currentField += char;
-      }
-    }
-
-    if (currentField || currentRow.length > 0) {
-      currentRow.push(currentField);
-      if (currentRow.some((f) => f.trim())) {
-        rows.push(currentRow);
-      }
-    }
-
-    if (rows.length < 2) return [];
-
-    const headers = rows[0];
-    return rows.slice(1).map((row) => {
-      const obj = {};
-      headers.forEach((header, idx) => {
-        obj[header] = row[idx] ?? "";
-      });
-      return obj;
-    });
-  };
 
   const filteredDemographicsBase = useMemo(() => {
     return demographics
@@ -672,14 +618,17 @@ export default function PersonaExplorer() {
           try {
             const encodedPrefix = encodeURIComponent(prefix);
             const encodedModel = encodeURIComponent(selectedModel);
-            const csvPath = `/result/eval_v3/validity/${encodedPrefix}/${encodedModel}/simulation-llm-${selectedVersion}.csv`;
-            const response = await fetch(csvPath);
+            const apiPath = `/api/conversation-csv?dataPrefix=${encodedPrefix}&model=${encodedModel}&version=${selectedVersion}`;
+            const response = await fetch(apiPath);
             if (!response.ok) {
-              console.error("Failed to load CSV for initial opinions:", csvPath);
+              console.error("Failed to load initial opinions:", apiPath);
               continue;
             }
-            const csvText = await response.text();
-            const rows = normalizeRowsForSource(parseCsv(csvText), "model");
+            const payload = await response.json();
+            const rows = normalizeRowsForSource(
+              Array.isArray(payload.data) ? payload.data : [],
+              "model"
+            );
             const initialOpinionByWorker = new Map();
             rows.forEach((row) => {
               if (row.event_type !== "Initial Opinion") return;
@@ -711,11 +660,16 @@ export default function PersonaExplorer() {
           if (!opinionRow) return;
           const rawText = (opinionRow.llm_text || opinionRow.text || "").replace(/\s+/g, " ").trim();
           if (!rawText) return;
-          const snippet = rawText.length > 140 ? `${rawText.slice(0, 137)}...` : rawText;
-          const label = `${workerId}: ${snippet}${topicLabel ? ` (${topicLabel})` : ""}`;
+          const labelPredRaw =
+            opinionRow.label_pred ??
+            opinionRow.llm_label_pred ??
+            opinionRow.human_label_pred ??
+            "";
+          const labelPred = String(labelPredRaw).trim() || "Unknown";
+          const label = `${workerId}: ${labelPred} - ${topicLabel || "Unknown topic"}`;
           const value = `${prefix}::${workerId}`;
           options.push({ label, value });
-          index.set(value, { workerId, dataPrefix: prefix, fullText: rawText, label });
+          index.set(value, { workerId, dataPrefix: prefix, fullText: rawText, label, labelPred });
         });
       }
 
@@ -793,6 +747,12 @@ export default function PersonaExplorer() {
     if (!selectedInitialOpinion) return "";
     const info = initialOpinionIndexRef.current.get(selectedInitialOpinion);
     return info?.fullText || "";
+  }, [selectedInitialOpinion]);
+
+  const selectedInitialOpinionLabelPred = useMemo(() => {
+    if (!selectedInitialOpinion) return "Unknown";
+    const info = initialOpinionIndexRef.current.get(selectedInitialOpinion);
+    return info?.labelPred || "Unknown";
   }, [selectedInitialOpinion]);
 
   const initialOpinionDisplay = useMemo(() => {
@@ -1096,11 +1056,6 @@ export default function PersonaExplorer() {
               )}
             </div>
 
-            <Space size="small" wrap>
-              <Tag color="blue">Filtered personas: {personaOptions.length}</Tag>
-              <Tag color="green">Messages: {messageCount}</Tag>
-              <Tag color="purple">Initial Opinions: {initialOpinionOptions.length}</Tag>
-            </Space>
             <Tag color="geekblue" style={{ alignSelf: "flex-start" }}>
               <Text strong style={{ fontSize: 20 }}>
                 Topic: {selectedDataPrefix ? parseDataPrefix(selectedDataPrefix).topicLabel : "None"}
@@ -1111,7 +1066,21 @@ export default function PersonaExplorer() {
                 strong
                 style={{ fontSize: 16, display: "block", whiteSpace: "normal", wordBreak: "break-word" }}
               >
-                {(selectedPersona || "Unknown")}&apos;s Initial Private Opinion: {initialOpinionDisplay}
+                {(selectedPersona || "Unknown")}&apos;s Initial Private Opinion[
+                <span
+                  style={{
+                    backgroundColor: "#FEF3C7",
+                    color: "#92400E",
+                    padding: "0 6px",
+                    borderRadius: 6,
+                    marginLeft: 2,
+                    marginRight: 2,
+                    display: "inline-block",
+                  }}
+                >
+                  {selectedInitialOpinionLabelPred}
+                </span>
+                ]: {initialOpinionDisplay}
               </Text>
             </Tag>
             <div className="flex flex-wrap items-center gap-3">
@@ -1133,8 +1102,21 @@ export default function PersonaExplorer() {
         </div>
 
         <div className="bg-white rounded-lg shadow p-6 mb-6">
-          <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-            <Text strong>Demographics Filters</Text>
+          <div
+            className="flex flex-wrap items-center justify-between gap-3 mb-4"
+            style={{
+              position: "sticky",
+              top: 0,
+              zIndex: 2,
+              background: "white",
+              paddingTop: 4,
+              paddingBottom: 4,
+            }}
+          >
+            <div className="flex flex-wrap items-center gap-2">
+              <Text strong>Demographics Filters</Text>
+              <Tag color="blue">Filtered personas: {personaOptions.length}</Tag>
+            </div>
             <Button size="small" onClick={clearDemographicFilters} disabled={!hasDemographicFilters}>
               Clear all
             </Button>

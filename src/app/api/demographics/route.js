@@ -1,6 +1,9 @@
 import fs from "fs";
 import path from "path";
 import { NextResponse } from "next/server";
+import { readParquetRows, coerceRowsToStrings } from "@/lib/parquet";
+
+export const runtime = "nodejs";
 
 function parseCsv(text) {
   if (!text) return [];
@@ -55,16 +58,22 @@ function parseCsv(text) {
 }
 
 export async function GET() {
-  const filePath = path.join(process.cwd(), "all_demographic_wide.csv");
+  const parquetPath = path.join(process.cwd(), "result_parquet", "all_demographic_wide.parquet");
+  const csvPath = path.join(process.cwd(), "all_demographic_wide.csv");
   try {
-    if (!fs.existsSync(filePath)) {
+    if (fs.existsSync(parquetPath)) {
+      const data = await readParquetRows(parquetPath);
+      return NextResponse.json({ data: coerceRowsToStrings(data) }, { status: 200 });
+    }
+
+    if (!fs.existsSync(csvPath)) {
       return NextResponse.json({ error: "Demographics file not found" }, { status: 404 });
     }
-    const csvContent = fs.readFileSync(filePath, "utf8");
+    const csvContent = fs.readFileSync(csvPath, "utf8");
     const data = parseCsv(csvContent);
     return NextResponse.json({ data }, { status: 200 });
   } catch (error) {
-    console.error("Error reading demographics CSV:", error);
-    return NextResponse.json({ error: "Failed to read demographics CSV" }, { status: 500 });
+    console.error("Error reading demographics data:", error);
+    return NextResponse.json({ error: "Failed to read demographics data" }, { status: 500 });
   }
 }

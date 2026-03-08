@@ -262,19 +262,19 @@ function ConversationExplorerContent() {
     try {
       const encodedPrefix = encodeURIComponent(selectedDataPrefix);
       const encodedModel = encodeURIComponent(selectedModel);
-      const csvPath = `/result/eval_v3/validity/${encodedPrefix}/${encodedModel}/simulation-llm-${selectedVersion}.csv`;
-      const response = await fetch(csvPath);
+      const apiPath = `/api/conversation-csv?dataPrefix=${encodedPrefix}&model=${encodedModel}&version=${selectedVersion}`;
+      const response = await fetch(apiPath);
       
       if (!response.ok) {
-        console.error("Failed to load CSV:", csvPath);
+        console.error("Failed to load conversation data:", apiPath);
         setRawData([]);
         setInitialOpinions([]);
         setLoading(false);
         return;
       }
 
-      const csvText = await response.text();
-      const parsed = normalizeRowsForSource(parseCsv(csvText), "model");
+      const payload = await response.json();
+      const parsed = normalizeRowsForSource(Array.isArray(payload.data) ? payload.data : [], "model");
       setRawData(parsed);
       
       // Debug: Check what columns and values we have
@@ -313,11 +313,11 @@ function ConversationExplorerContent() {
     setLoadingHuman(true);
     try {
       const encodedPrefix = encodeURIComponent(selectedDataPrefix);
-      const csvPath = `/result/eval_v3/validity/${encodedPrefix}/simulation-human.csv`;
-      const response = await fetch(csvPath);
+      const apiPath = `/api/conversation-human?dataPrefix=${encodedPrefix}`;
+      const response = await fetch(apiPath);
 
       if (!response.ok) {
-        console.error("Failed to load human CSV:", csvPath);
+        console.error("Failed to load human conversation data:", apiPath);
         setRound1HumanData({ pair1: [], pair2: [] });
         setRound2HumanData({ pair1: [], pair2: [] });
         setRound3HumanData({ pair1: [], pair2: [] });
@@ -325,8 +325,8 @@ function ConversationExplorerContent() {
         return;
       }
 
-      const csvText = await response.text();
-      const parsed = normalizeRowsForSource(parseCsv(csvText), "human");
+      const payload = await response.json();
+      const parsed = normalizeRowsForSource(Array.isArray(payload.data) ? payload.data : [], "human");
       setRawHumanData(parsed);
       setRound1HumanData(buildRoundData(parsed, "1.0"));
       setRound2HumanData(buildRoundData(parsed, "2.0"));

@@ -84,6 +84,12 @@ export default function ChatDisplay({
         const alignment = workerAlignmentMap[message.worker_id] || "left";
         const isRight = alignment === "right";
         const isTweet = message.event_type === "tweet";
+        const labelPredRaw =
+          message.label_pred ?? message.llm_label_pred ?? message.human_label_pred ?? "";
+        const labelPred = String(labelPredRaw).trim();
+        const showLabelPred =
+          labelPred &&
+          (message.event_type === "Initial Opinion" || message.event_type === "Post Opinion");
         const messageSource = message._source || sourceType;
         const avatarBorderStyle =
           messageSource === "human"
@@ -142,6 +148,32 @@ export default function ChatDisplay({
                 <Text style={{ whiteSpace: "pre-wrap", lineHeight: "1.5" }}>
                   {message.llm_text || message.text}
                 </Text>
+                {isTweet && labelPred && (
+                  <Text
+                    type="secondary"
+                    style={{
+                      display: "block",
+                      marginTop: 8,
+                      fontSize: "11px",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    Tweet{" "}
+                    <span
+                      style={{
+                        backgroundColor: "#FEF3C7",
+                        color: "#92400E",
+                        padding: "0 6px",
+                        borderRadius: 6,
+                        marginLeft: 6,
+                        display: "inline-block",
+                        fontStyle: "normal",
+                      }}
+                    >
+                      {labelPred}
+                    </span>
+                  </Text>
+                )}
                 {!isTweet && message.event_type && message.event_type !== "message_sent" && (
                   <Text
                     type="secondary"
@@ -153,6 +185,21 @@ export default function ChatDisplay({
                     }}
                   >
                     {message.event_type}
+                    {showLabelPred && (
+                      <span
+                        style={{
+                          backgroundColor: "#FEF3C7",
+                          color: "#92400E",
+                          padding: "0 6px",
+                          borderRadius: 6,
+                          marginLeft: 6,
+                          display: "inline-block",
+                          fontStyle: "normal",
+                        }}
+                      >
+                        {labelPred}
+                      </span>
+                    )}
                   </Text>
                 )}
               </div>
