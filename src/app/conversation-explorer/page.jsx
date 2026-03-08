@@ -11,10 +11,15 @@ import { dataPrefixes, models, versions } from "../../lib/explorerOptions";
 const { Title, Text } = Typography;
 
 function ConversationExplorerContent() {
+  const DEFAULT_PREFIX =
+    '20250401_040844_A_"body_cleanse,"_in_which_you_consume_only_particular_kinds_of_nutrients_over_1-3_days,_helps_your_body_to_eliminate_toxins_01JQQPKVA3QT3SJEZPP23D73NZ';
+  const DEFAULT_TIMESTAMP = "20250401_040844";
+  const DEFAULT_TOPIC_KEY = DEFAULT_PREFIX.split("_").slice(2, -1).join("_");
+
   const searchParams = useSearchParams();
-  const [selectedDataPrefix, setSelectedDataPrefix] = useState(dataPrefixes[0]);
-  const [selectedTopic, setSelectedTopic] = useState("");
-  const [selectedTimestamp, setSelectedTimestamp] = useState("");
+  const [selectedDataPrefix, setSelectedDataPrefix] = useState(DEFAULT_PREFIX);
+  const [selectedTopic, setSelectedTopic] = useState(DEFAULT_TOPIC_KEY);
+  const [selectedTimestamp, setSelectedTimestamp] = useState(DEFAULT_TIMESTAMP);
   const [selectedTopicType, setSelectedTopicType] = useState("all");
   const [selectedModel, setSelectedModel] = useState(models[0]);
   const [selectedVersion, setSelectedVersion] = useState(versions[0]);
