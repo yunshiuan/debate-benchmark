@@ -1,135 +1,135 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,67f2c6RFG9,,,,Because male serves as the leader in the family,21:35:12.904000 2025:04:20,Because male serves as the leader in the family,
-,Initial Opinion,676196RFG9,,,,"I disagree. Being a man can make some things easier because of how society is set up, but it’s not the most important thing for success. Hard work, support, and opportunities matter more.",21:35:23.508000 2025:04:20,"I disagree. Being a man can make some things easier because of how society is set up, but it’s not the most important thing for success. Hard work, support, and opportunities matter more.",
-,Initial Opinion,67f096RFG9,,,,I disagree with the statement “Being a male is important for getting ahead in life.” While gender can influence peoples experience,21:36:15.778000 2025:04:20,I disagree with the statement “Being a male is important for getting ahead in life.” While gender can influence peoples experience,
-,Initial Opinion,5f4e56RFG9,,,,I agree with the statement to an extent. While gender shouldn't determine success in many societies and industries being a male still come with unspoken advantage like being perceived as more authoritative ir being given,21:36:15.779000 2025:04:20,I agree with the statement to an extent. While gender shouldn't determine success in many societies and industries being a male still come with unspoken advantage like being perceived as more authoritative ir being given,
-1.0,tweet,676196RFG9,676196RFG9,5f4e56RFG9,,"I don’t think being male should be important for getting ahead in life, but in many cases, it still is. Society often gives men unspoken advantages, especially in leadership roles. That doesn’t mean women can’t succeed—it just means they often have to fight harder for it.",21:37:42.661000 2025:04:20,"I don’t think being male should be important for getting ahead in life, but in many cases, it still is. Society often gives men unspoken advantages, especially in leadership roles. That doesn’t mean women can’t succeed—it just means they often have to fight harder for it.",
-1.0,tweet,67f096RFG9,67f096RFG9,67f2c6RFG9,,"I don’t believe being male is inherently important for getting ahead in life. While men have historically had advantages in many areas, success should not be tied to gender. Talent, effort, and opportunity should matter more. True progress means leveling the playing field for all",21:38:04.543000 2025:04:20,"I don’t believe being male is inherently important for getting ahead in life. While men have historically had advantages in many areas, success should not be tied to gender. Talent, effort, and opportunity should matter more. True progress means leveling the playing field for all",
-1.0,tweet,67f2c6RFG9,67f2c6RFG9,67f096RFG9,,"""Being male can offer societal advantages in some contexts, but success isn’t limited by gender. Talent, effort, and opportunity matter most. True progress means recognizing privilege while empowering everyone to thrive. #Equality #MeritOverGender""",21:38:10.068000 2025:04:20,"""Being male can offer societal advantages in some contexts, but success isn’t limited by gender. Talent, effort, and opportunity matter most. True progress means recognizing privilege while empowering everyone to thrive. #Equality #MeritOverGender""",
-1.0,tweet,5f4e56RFG9,5f4e56RFG9,676196RFG9,,"I disagree with this statement. Success today is more influenced by factors like education, ambition, connections and opportunity than by gender alone. while gender biases exist",21:38:25.863000 2025:04:20,"I disagree with this statement. Success today is more influenced by factors like education, ambition, connections and opportunity than by gender alone. while gender biases exist",
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,67f2c6RFG9,,,,Because male serves as the leader in the family,21:35:12.904000 2025:04:20,Because male serves as the leader in the family,,Certainly agree
+,Initial Opinion,676196RFG9,,,,"I disagree. Being a man can make some things easier because of how society is set up, but it’s not the most important thing for success. Hard work, support, and opportunities matter more.",21:35:23.508000 2025:04:20,"I disagree. Being a man can make some things easier because of how society is set up, but it’s not the most important thing for success. Hard work, support, and opportunities matter more.",,Lean disagree
+,Initial Opinion,67f096RFG9,,,,I disagree with the statement “Being a male is important for getting ahead in life.” While gender can influence peoples experience,21:36:15.778000 2025:04:20,I disagree with the statement “Being a male is important for getting ahead in life.” While gender can influence peoples experience,,Certainly disagree
+,Initial Opinion,5f4e56RFG9,,,,I agree with the statement to an extent. While gender shouldn't determine success in many societies and industries being a male still come with unspoken advantage like being perceived as more authoritative ir being given,21:36:15.779000 2025:04:20,I agree with the statement to an extent. While gender shouldn't determine success in many societies and industries being a male still come with unspoken advantage like being perceived as more authoritative ir being given,,Lean agree
+1.0,tweet,676196RFG9,676196RFG9,5f4e56RFG9,,"I don’t think being male should be important for getting ahead in life, but in many cases, it still is. Society often gives men unspoken advantages, especially in leadership roles. That doesn’t mean women can’t succeed—it just means they often have to fight harder for it.",21:37:42.661000 2025:04:20,"I don’t think being male should be important for getting ahead in life, but in many cases, it still is. Society often gives men unspoken advantages, especially in leadership roles. That doesn’t mean women can’t succeed—it just means they often have to fight harder for it.",,Probably agree
+1.0,tweet,67f096RFG9,67f096RFG9,67f2c6RFG9,,"I don’t believe being male is inherently important for getting ahead in life. While men have historically had advantages in many areas, success should not be tied to gender. Talent, effort, and opportunity should matter more. True progress means leveling the playing field for all",21:38:04.543000 2025:04:20,"I don’t believe being male is inherently important for getting ahead in life. While men have historically had advantages in many areas, success should not be tied to gender. Talent, effort, and opportunity should matter more. True progress means leveling the playing field for all",,Certainly disagree
+1.0,tweet,67f2c6RFG9,67f2c6RFG9,67f096RFG9,,"""Being male can offer societal advantages in some contexts, but success isn’t limited by gender. Talent, effort, and opportunity matter most. True progress means recognizing privilege while empowering everyone to thrive. #Equality #MeritOverGender""",21:38:10.068000 2025:04:20,"""Being male can offer societal advantages in some contexts, but success isn’t limited by gender. Talent, effort, and opportunity matter most. True progress means recognizing privilege while empowering everyone to thrive. #Equality #MeritOverGender""",,Lean disagree
+1.0,tweet,5f4e56RFG9,5f4e56RFG9,676196RFG9,,"I disagree with this statement. Success today is more influenced by factors like education, ambition, connections and opportunity than by gender alone. while gender biases exist",21:38:25.863000 2025:04:20,"I disagree with this statement. Success today is more influenced by factors like education, ambition, connections and opportunity than by gender alone. while gender biases exist",,Certainly disagree
 1.0,message_sent,676196RFG9,676196RFG9,5f4e56RFG9,,"I agree with you—success is shaped by many factors beyond gender. But I think gender can still affect access to those opportunities, like who gets mentored or taken seriously. It’s getting better, but there’s still a gap we can’t ignore.",21:39:52.619000 2025:04:20,"   
         Hi there! Thanks for engaging me in our discussion. Your insight regarding the complexity surrounding success highlights the diverse pathways individuals take towards achieving their goals. Education indeed stands prominently among such paths offering equal footing regardless of one’s sex.
 
-          However, my stance remains rooted in acknowledging systemic differences wherein certain societal aspects tend to unintentionally favor males over females—especially in traditional sectors or fields deeply embedded within patriarchal constructs. This isn't necessarily deliberate bias against anyone; rather, it reflects historical norms that",
+          However, my stance remains rooted in acknowledging systemic differences wherein certain societal aspects tend to unintentionally favor males over females—especially in traditional sectors or fields deeply embedded within patriarchal constructs. This isn't necessarily deliberate bias against anyone; rather, it reflects historical norms that",,
 1.0,message_recieved,5f4e56RFG9,676196RFG9,5f4e56RFG9,,"I agree with you—success is shaped by many factors beyond gender. But I think gender can still affect access to those opportunities, like who gets mentored or taken seriously. It’s getting better, but there’s still a gap we can’t ignore.",21:39:53.183000 2025:04:20,"   
         Hi there! Thanks for engaging me in our discussion. Your insight regarding the complexity surrounding success highlights the diverse pathways individuals take towards achieving their goals. Education indeed stands prominently among such paths offering equal footing regardless of one’s sex.
 
-          However, my stance remains rooted in acknowledging systemic differences wherein certain societal aspects tend to unintentionally favor males over females—especially in traditional sectors or fields deeply embedded within patriarchal constructs. This isn't necessarily deliberate bias against anyone; rather, it reflects historical norms that",
+          However, my stance remains rooted in acknowledging systemic differences wherein certain societal aspects tend to unintentionally favor males over females—especially in traditional sectors or fields deeply embedded within patriarchal constructs. This isn't necessarily deliberate bias against anyone; rather, it reflects historical norms that",,
 1.0,message_sent,5f4e56RFG9,5f4e56RFG9,676196RFG9,,"Yes! being male is not inherently necessary for getting ahead I cant but agree but in general sense, success is not more based on gender!!!",21:41:11.336000 2025:04:20,"   
    Hello again, @67659, let's delve deeper into this matter. The disparities you've touched upon do seem pervasive across numerous professional domains yet equally crucial to acknowledge the strides made toward equitable opportunities recently.
 
-     From what you’ve shared thus far, your viewpoint underscores real challenges faced by both genders seeking advancement. Yet, as someone grounded in moderation politically alongside my Protestant faith which encourages viewing biblical inspiration as influential without dictating truth singularly, advocating equality isn't at odds with accepting subtle ine",
+     From what you’ve shared thus far, your viewpoint underscores real challenges faced by both genders seeking advancement. Yet, as someone grounded in moderation politically alongside my Protestant faith which encourages viewing biblical inspiration as influential without dictating truth singularly, advocating equality isn't at odds with accepting subtle ine",,
 1.0,message_recieved,676196RFG9,5f4e56RFG9,676196RFG9,,"Yes! being male is not inherently necessary for getting ahead I cant but agree but in general sense, success is not more based on gender!!!",21:41:12.007000 2025:04:20,"   
    Hello again, @67659, let's delve deeper into this matter. The disparities you've touched upon do seem pervasive across numerous professional domains yet equally crucial to acknowledge the strides made toward equitable opportunities recently.
 
-     From what you’ve shared thus far, your viewpoint underscores real challenges faced by both genders seeking advancement. Yet, as someone grounded in moderation politically alongside my Protestant faith which encourages viewing biblical inspiration as influential without dictating truth singularly, advocating equality isn't at odds with accepting subtle ine",
-1.0,message_sent,67f096RFG9,67f096RFG9,67f2c6RFG9,,I think it's true that being male can still provide certain advantages in many societies—like in leadership roles or certain industries—but I wouldn’t say it's important for getting ahead. It’s more about the structures that create those advantages. What’s your take?,21:40:49.786000 2025:04:20,"Thank you! The message above includes the continuation of your thought process initiated earlier when discussing the notion of ""Being a male is important for getting ahead in life.""",
-1.0,message_recieved,67f2c6RFG9,67f096RFG9,67f2c6RFG9,,I think it's true that being male can still provide certain advantages in many societies—like in leadership roles or certain industries—but I wouldn’t say it's important for getting ahead. It’s more about the structures that create those advantages. What’s your take?,21:40:52.055000 2025:04:20,"Thank you! The message above includes the continuation of your thought process initiated earlier when discussing the notion of ""Being a male is important for getting ahead in life.""",
-1.0,message_sent,5f4e56RFG9,5f4e56RFG9,676196RFG9,,,21:41:11.336000 2025:04:20,,
-1.0,message_recieved,676196RFG9,5f4e56RFG9,676196RFG9,,,21:41:12.007000 2025:04:20,,
-1.0,message_sent,67f2c6RFG9,67f2c6RFG9,67f096RFG9,,"Male privilege still helps in some fields, but success isn't just about gender—it's drive, luck, and systemic barriers. Yet, bias lingers. Do you think it’s fading or just changing form?",21:41:22.496000 2025:04:20,"(Here you'd continue responding, bearing in mind what was said previously.)",
-1.0,message_recieved,67f096RFG9,67f2c6RFG9,67f096RFG9,,"Male privilege still helps in some fields, but success isn't just about gender—it's drive, luck, and systemic barriers. Yet, bias lingers. Do you think it’s fading or just changing form?",21:41:21.187000 2025:04:20,"(Here you'd continue responding, bearing in mind what was said previously.)",
+     From what you’ve shared thus far, your viewpoint underscores real challenges faced by both genders seeking advancement. Yet, as someone grounded in moderation politically alongside my Protestant faith which encourages viewing biblical inspiration as influential without dictating truth singularly, advocating equality isn't at odds with accepting subtle ine",,
+1.0,message_sent,67f096RFG9,67f096RFG9,67f2c6RFG9,,I think it's true that being male can still provide certain advantages in many societies—like in leadership roles or certain industries—but I wouldn’t say it's important for getting ahead. It’s more about the structures that create those advantages. What’s your take?,21:40:49.786000 2025:04:20,"Thank you! The message above includes the continuation of your thought process initiated earlier when discussing the notion of ""Being a male is important for getting ahead in life.""",,
+1.0,message_recieved,67f2c6RFG9,67f096RFG9,67f2c6RFG9,,I think it's true that being male can still provide certain advantages in many societies—like in leadership roles or certain industries—but I wouldn’t say it's important for getting ahead. It’s more about the structures that create those advantages. What’s your take?,21:40:52.055000 2025:04:20,"Thank you! The message above includes the continuation of your thought process initiated earlier when discussing the notion of ""Being a male is important for getting ahead in life.""",,
+1.0,message_sent,5f4e56RFG9,5f4e56RFG9,676196RFG9,,,21:41:11.336000 2025:04:20,,,
+1.0,message_recieved,676196RFG9,5f4e56RFG9,676196RFG9,,,21:41:12.007000 2025:04:20,,,
+1.0,message_sent,67f2c6RFG9,67f2c6RFG9,67f096RFG9,,"Male privilege still helps in some fields, but success isn't just about gender—it's drive, luck, and systemic barriers. Yet, bias lingers. Do you think it’s fading or just changing form?",21:41:22.496000 2025:04:20,"(Here you'd continue responding, bearing in mind what was said previously.)",,
+1.0,message_recieved,67f096RFG9,67f2c6RFG9,67f096RFG9,,"Male privilege still helps in some fields, but success isn't just about gender—it's drive, luck, and systemic barriers. Yet, bias lingers. Do you think it’s fading or just changing form?",21:41:21.187000 2025:04:20,"(Here you'd continue responding, bearing in mind what was said previously.)",,
 1.0,message_sent,676196RFG9,676196RFG9,5f4e56RFG9,,"It's more about what you do, the choices you make, and the opportunities you pursue. Still, we can't ignore that some people face more barriers than others because of gender.",21:42:19.319000 2025:04:20,"   
     Thank you for providing thoughtful insights here (@5f4e). Given your profession within healthcare—a field notable for its significant evolution in championing diversity—I’m curious to hear how you perceive these dynamics influencing not just individual achievement but also broader organizational effectiveness?
 
-         There seems an ongoing dialogue around whether specific traits linked traditionally with maleness give inherent advantage over others solely due to biology itself—or perhaps culturally conditioned expectations? Balancing acknowledgement of potential unconscious bias versus concrete evidence showing equity in all areas must steer",
+         There seems an ongoing dialogue around whether specific traits linked traditionally with maleness give inherent advantage over others solely due to biology itself—or perhaps culturally conditioned expectations? Balancing acknowledgement of potential unconscious bias versus concrete evidence showing equity in all areas must steer",,
 1.0,message_recieved,5f4e56RFG9,676196RFG9,5f4e56RFG9,,"It's more about what you do, the choices you make, and the opportunities you pursue. Still, we can't ignore that some people face more barriers than others because of gender.",21:42:19.754000 2025:04:20,"   
     Thank you for providing thoughtful insights here (@5f4e). Given your profession within healthcare—a field notable for its significant evolution in championing diversity—I’m curious to hear how you perceive these dynamics influencing not just individual achievement but also broader organizational effectiveness?
 
-         There seems an ongoing dialogue around whether specific traits linked traditionally with maleness give inherent advantage over others solely due to biology itself—or perhaps culturally conditioned expectations? Balancing acknowledgement of potential unconscious bias versus concrete evidence showing equity in all areas must steer",
+         There seems an ongoing dialogue around whether specific traits linked traditionally with maleness give inherent advantage over others solely due to biology itself—or perhaps culturally conditioned expectations? Balancing acknowledgement of potential unconscious bias versus concrete evidence showing equity in all areas must steer",,
 1.0,message_sent,67f096RFG9,67f096RFG9,67f2c6RFG9,,"Totally agree—privilege still plays a role, but it’s just one piece of the puzzle. I think bias is shifting more than disappearing. It's less overt now, but still baked",21:42:26.905000 2025:04:20,"        <PRESIDIO_ANONYMIZED_PERSON>, thank you for engaging in such an insightful dialogue. Our perspectives reflect our individual journeys and how we've encountered diverse situations throughout our lives.</p>
 
-<p>As someone who values meritocracy—where talent, hard work, and determination lead one toward achievements—I concur that these traits should indeed supersede any discussion regarding gender. Success stories across history demonstrate that individuals without traditional privileges have overcome significant barriers to excel, proving once again that it’s",
+<p>As someone who values meritocracy—where talent, hard work, and determination lead one toward achievements—I concur that these traits should indeed supersede any discussion regarding gender. Success stories across history demonstrate that individuals without traditional privileges have overcome significant barriers to excel, proving once again that it’s",,
 1.0,message_recieved,67f2c6RFG9,67f096RFG9,67f2c6RFG9,,"Totally agree—privilege still plays a role, but it’s just one piece of the puzzle. I think bias is shifting more than disappearing. It's less overt now, but still baked",21:42:28.950000 2025:04:20,"        <PRESIDIO_ANONYMIZED_PERSON>, thank you for engaging in such an insightful dialogue. Our perspectives reflect our individual journeys and how we've encountered diverse situations throughout our lives.</p>
 
-<p>As someone who values meritocracy—where talent, hard work, and determination lead one toward achievements—I concur that these traits should indeed supersede any discussion regarding gender. Success stories across history demonstrate that individuals without traditional privileges have overcome significant barriers to excel, proving once again that it’s",
+<p>As someone who values meritocracy—where talent, hard work, and determination lead one toward achievements—I concur that these traits should indeed supersede any discussion regarding gender. Success stories across history demonstrate that individuals without traditional privileges have overcome significant barriers to excel, proving once again that it’s",,
 1.0,message_sent,5f4e56RFG9,5f4e56RFG9,676196RFG9,,It's important that we keep addressing these gaps to ensure equal acess for everyone regardless of gender,21:42:40.383000 2025:04:20,"   
 In continuation with the previous points raised, balancing fairness necessitates recognizing structural barriers which persist despite noble aspirations toward egalitarian outcomes. Within educational settings and professions alike, efforts fostering inclusivity serve vital for dismantling preconceived notions impeding progress uniformly across demographics.
 
-The realm of construction, while potentially less susceptible to outright gender discrimination compared to sectors like academia or politics, isn't devoid of nuanced stereotypes affecting perceptions of competency tied closely to physical abilities expected in manual labor. For instance, advancements in health",
+The realm of construction, while potentially less susceptible to outright gender discrimination compared to sectors like academia or politics, isn't devoid of nuanced stereotypes affecting perceptions of competency tied closely to physical abilities expected in manual labor. For instance, advancements in health",,
 1.0,message_recieved,676196RFG9,5f4e56RFG9,676196RFG9,,It's important that we keep addressing these gaps to ensure equal acess for everyone regardless of gender,21:42:40.929000 2025:04:20,"   
 In continuation with the previous points raised, balancing fairness necessitates recognizing structural barriers which persist despite noble aspirations toward egalitarian outcomes. Within educational settings and professions alike, efforts fostering inclusivity serve vital for dismantling preconceived notions impeding progress uniformly across demographics.
 
-The realm of construction, while potentially less susceptible to outright gender discrimination compared to sectors like academia or politics, isn't devoid of nuanced stereotypes affecting perceptions of competency tied closely to physical abilities expected in manual labor. For instance, advancements in health",
-2.0,tweet,676196RFG9,676196RFG9,67f2c6RFG9,,"I don’t believe being male is inherently important for getting ahead in life, but I do think gender can still impact the journey. Men may face fewer obstacles in some areas due to long-standing biases. Success should be about ability, but it’s not always a level field.",21:44:00.507000 2025:04:20,    (continue responding),
+The realm of construction, while potentially less susceptible to outright gender discrimination compared to sectors like academia or politics, isn't devoid of nuanced stereotypes affecting perceptions of competency tied closely to physical abilities expected in manual labor. For instance, advancements in health",,
+2.0,tweet,676196RFG9,676196RFG9,67f2c6RFG9,,"I don’t believe being male is inherently important for getting ahead in life, but I do think gender can still impact the journey. Men may face fewer obstacles in some areas due to long-standing biases. Success should be about ability, but it’s not always a level field.",21:44:00.507000 2025:04:20,    (continue responding),,
 2.0,tweet,67f096RFG9,67f096RFG9,5f4e56RFG9,,"I think being male can still offer unspoken advantages in many areas—like leadership roles, pay, and how seriously you're taken—but it’s not the only factor. Success depends on many things, including effort, opportunity, and identity. Gender bias hasn't vanished, just evolved.",21:44:11.783000 2025:04:20,"    
-     My Reply to a Stranger:",
+     My Reply to a Stranger:",,
 2.0,tweet,67f2c6RFG9,67f2c6RFG9,676196RFG9,,"While male privilege still gives some advantages, success depends more on opportunity, effort, and systemic fairness. Gender shouldn’t dictate success—but bias persists. Do you think society is moving past this, or just masking it differently now?",21:44:10.734000 2025:04:20,"   
    As our conversation continued, 67f0 brought forth thoughtful points which allowed me to revisit my stance on this issue carefully. I acknowledged that historical prejudices often favored males over females due to archaic norms; however, contemporary society appears focused on dismantling those biases rather than perpetuating them.</p>
 
-<p>The notion of leadership within families plays into stereotypes; yet, it's critical to challenge the assumption that simply because one's role traditionally aligns with certain expectations doesn't mean they naturally hold",
+<p>The notion of leadership within families plays into stereotypes; yet, it's critical to challenge the assumption that simply because one's role traditionally aligns with certain expectations doesn't mean they naturally hold",,Certainly disagree
 2.0,tweet,5f4e56RFG9,5f4e56RFG9,67f096RFG9,,"I agree with this, while gender shouldn't not determine success in many societies being males still comes with privileges. There is a systemic biases which makes it easier for men to get ahead",21:44:47.273000 2025:04:20,"(Continued) The interplay between hard labor associated historically with masculinity shapes prevailing cultural narratives reinforcing presumed capabilities—thereby occasionally presenting unmarked ease to males aspiring executive roles contrasted by stringent scrutiny applied similarly capable female counterparts. This subtlety often goes unnoticed until challenged directly within legal or advocacy forums prioritizing unbiased standards across employment landscapes universally.
 
-However, embracing nuances in societal shifts, one cannot discount qualitative measures assessing intangible qualities attributed frequently to leadership styles perceived positively when embodied by masculine figures—an aspect",
+However, embracing nuances in societal shifts, one cannot discount qualitative measures assessing intangible qualities attributed frequently to leadership styles perceived positively when embodied by masculine figures—an aspect",,Probably agree
 2.0,message_sent,676196RFG9,676196RFG9,67f2c6RFG9,,"That’s a great question. I think society is trying to move past it, and there’s been progress, but a lot of the bias has just gone under the surface. It’s more subtle now—like who gets promoted or whose ideas are taken seriously. So it’s changing, but not fully gone.",21:45:50.420000 2025:04:20,"        Based on our latest exchanges regarding perceived advantages afforded by gender—especially the persistent narrative revolving around leadership and family structures —it becomes increasingly essential to critically examine assumptions underpinning these observations. Acknowledging the undeniable presence of implicit biases woven throughout societal fabric cannot dismiss progressive initiatives reshaping paradigms.
 
-         Indeed, the discourse we're embarking upon traverses beyond mere hypothetical musings touching actual lives and professional trajectories intricately tied to social understandings imparted generationally. Leadership qualities, often",
+         Indeed, the discourse we're embarking upon traverses beyond mere hypothetical musings touching actual lives and professional trajectories intricately tied to social understandings imparted generationally. Leadership qualities, often",,
 2.0,message_recieved,67f2c6RFG9,676196RFG9,67f2c6RFG9,,"That’s a great question. I think society is trying to move past it, and there’s been progress, but a lot of the bias has just gone under the surface. It’s more subtle now—like who gets promoted or whose ideas are taken seriously. So it’s changing, but not fully gone.",21:45:48.531000 2025:04:20,"        Based on our latest exchanges regarding perceived advantages afforded by gender—especially the persistent narrative revolving around leadership and family structures —it becomes increasingly essential to critically examine assumptions underpinning these observations. Acknowledging the undeniable presence of implicit biases woven throughout societal fabric cannot dismiss progressive initiatives reshaping paradigms.
 
-         Indeed, the discourse we're embarking upon traverses beyond mere hypothetical musings touching actual lives and professional trajectories intricately tied to social understandings imparted generationally. Leadership qualities, often",
+         Indeed, the discourse we're embarking upon traverses beyond mere hypothetical musings touching actual lives and professional trajectories intricately tied to social understandings imparted generationally. Leadership qualities, often",,
 2.0,message_sent,67f096RFG9,67f096RFG9,5f4e56RFG9,,"…ahead, especially in male-dominated industries or leadership positions. What’s encouraging, though, is that awareness is growing. Do you think progress toward equality is fast enough, or are there areas where change feels stuck?",21:46:23.970000 2025:04:20,"```plaintext
 (Your detailed final answer)
 ```
-",
+",,
 2.0,message_recieved,5f4e56RFG9,67f096RFG9,5f4e56RFG9,,"…ahead, especially in male-dominated industries or leadership positions. What’s encouraging, though, is that awareness is growing. Do you think progress toward equality is fast enough, or are there areas where change feels stuck?",21:46:28.472000 2025:04:20,"```plaintext
 (Your detailed final answer)
 ```
-",
+",,
 2.0,message_sent,5f4e56RFG9,5f4e56RFG9,67f096RFG9,,This is so true: Gender bias hasnt vanished just evolved I think progress towards equality is happening but it often feels slow especially in certain areas,21:47:38.809000 2025:04:20,"[Content]
 
 
 
 
-To maintain coherence within these hypothetical dialogues, ensure your responses adhere strictly to provided formats — ""67717,"" ""67534,"" etc., denoting each new participant introduced via AI. Each user's contributions thereafter should follow this pattern precisely, allowing seamless continuity throughout simulated conversations.",
+To maintain coherence within these hypothetical dialogues, ensure your responses adhere strictly to provided formats — ""67717,"" ""67534,"" etc., denoting each new participant introduced via AI. Each user's contributions thereafter should follow this pattern precisely, allowing seamless continuity throughout simulated conversations.",,
 2.0,message_recieved,67f096RFG9,5f4e56RFG9,67f096RFG9,,This is so true: Gender bias hasnt vanished just evolved I think progress towards equality is happening but it often feels slow especially in certain areas,21:47:36.450000 2025:04:20,"[Content]
 
 
 
 
-To maintain coherence within these hypothetical dialogues, ensure your responses adhere strictly to provided formats — ""67717,"" ""67534,"" etc., denoting each new participant introduced via AI. Each user's contributions thereafter should follow this pattern precisely, allowing seamless continuity throughout simulated conversations.",
+To maintain coherence within these hypothetical dialogues, ensure your responses adhere strictly to provided formats — ""67717,"" ""67534,"" etc., denoting each new participant introduced via AI. Each user's contributions thereafter should follow this pattern precisely, allowing seamless continuity throughout simulated conversations.",,
 2.0,message_sent,67f2c6RFG9,67f2c6RFG9,676196RFG9,,"Male privilege definitely gives a head start in many areas, but resilience and skill matter too. Still, the playing field isn't level—women and marginalized genders often work twice as hard. How much progress do you think we've really made?",21:46:31.878000 2025:04:20,"   
-Let's proceed accordingly",
+Let's proceed accordingly",,
 2.0,message_recieved,676196RFG9,67f2c6RFG9,676196RFG9,,"Male privilege definitely gives a head start in many areas, but resilience and skill matter too. Still, the playing field isn't level—women and marginalized genders often work twice as hard. How much progress do you think we've really made?",21:46:34.327000 2025:04:20,"   
-Let's proceed accordingly",
-2.0,message_sent,5f4e56RFG9,5f4e56RFG9,67f096RFG9,,,21:47:38.809000 2025:04:20,,
-2.0,message_recieved,67f096RFG9,5f4e56RFG9,67f096RFG9,,,21:47:36.450000 2025:04:20,,
+Let's proceed accordingly",,
+2.0,message_sent,5f4e56RFG9,5f4e56RFG9,67f096RFG9,,,21:47:38.809000 2025:04:20,,,
+2.0,message_recieved,67f096RFG9,5f4e56RFG9,67f096RFG9,,,21:47:36.450000 2025:04:20,,,
 2.0,message_sent,67f096RFG9,67f096RFG9,5f4e56RFG9,,"Absolutely. It’s often more subtle now—like who gets interrupted less in meetings, or who’s assumed to be the leader in a group. It’s progress, but still plenty of work to do. Have you noticed any everyday examples where this kind of bias shows up?",21:47:48.272000 2025:04:20,"```plaintext
 (PRESIDIO_ANONYMIZED_TEXT)
         Given my standpoint firmly rooted against equating advancement prospects solely to sex, my engagement centers around dismantling biases that unjustly favor any demographic at the expense of true fairness. Acknowledging systemic disparities does not require us to concede the significance of individual abilities nor erase efforts dedicated to equitable environments.
 
-In essence, while acknowledging the complexities woven into social narratives surrounding traditionally male-dominated spheres, advocating a merit-based system remains paramount. Such systems prioritize",
+In essence, while acknowledging the complexities woven into social narratives surrounding traditionally male-dominated spheres, advocating a merit-based system remains paramount. Such systems prioritize",,
 2.0,message_recieved,5f4e56RFG9,67f096RFG9,5f4e56RFG9,,"Absolutely. It’s often more subtle now—like who gets interrupted less in meetings, or who’s assumed to be the leader in a group. It’s progress, but still plenty of work to do. Have you noticed any everyday examples where this kind of bias shows up?",21:47:52.453000 2025:04:20,"```plaintext
 (PRESIDIO_ANONYMIZED_TEXT)
         Given my standpoint firmly rooted against equating advancement prospects solely to sex, my engagement centers around dismantling biases that unjustly favor any demographic at the expense of true fairness. Acknowledging systemic disparities does not require us to concede the significance of individual abilities nor erase efforts dedicated to equitable environments.
 
-In essence, while acknowledging the complexities woven into social narratives surrounding traditionally male-dominated spheres, advocating a merit-based system remains paramount. Such systems prioritize",
+In essence, while acknowledging the complexities woven into social narratives surrounding traditionally male-dominated spheres, advocating a merit-based system remains paramount. Such systems prioritize",,
 2.0,message_sent,676196RFG9,676196RFG9,67f2c6RFG9,,"We’ve definitely made progress—more awareness, more women in leadership, and open conversations like this one. But there’s still a long way to go. The fact that working “twice as hard” is still a common experience shows the gap is real, even if it's smaller than before.",21:48:00.838000 2025:04:20,"    
 
-    Thank you very much",
+    Thank you very much",,
 2.0,message_recieved,67f2c6RFG9,676196RFG9,67f2c6RFG9,,"We’ve definitely made progress—more awareness, more women in leadership, and open conversations like this one. But there’s still a long way to go. The fact that working “twice as hard” is still a common experience shows the gap is real, even if it's smaller than before.",21:47:58.936000 2025:04:20,"    
 
-    Thank you very much",
+    Thank you very much",,
 2.0,message_sent,5f4e56RFG9,5f4e56RFG9,67f096RFG9,,There's a persistent issue of gender pay gap which has narrow but noit enough,21:48:26.916000 2025:04:20,"     ```plaintext
 ((your well-composed reply))
 ```
-Please note that the character limit for platform messages varies and is typically under 280 characters. Tailor your replies according to typical platform constraints for better readability and user experience.",
+Please note that the character limit for platform messages varies and is typically under 280 characters. Tailor your replies according to typical platform constraints for better readability and user experience.",,
 2.0,message_recieved,67f096RFG9,5f4e56RFG9,67f096RFG9,,There's a persistent issue of gender pay gap which has narrow but noit enough,21:48:23.719000 2025:04:20,"     ```plaintext
 ((your well-composed reply))
 ```
-Please note that the character limit for platform messages varies and is typically under 280 characters. Tailor your replies according to typical platform constraints for better readability and user experience.",
+Please note that the character limit for platform messages varies and is typically under 280 characters. Tailor your replies according to typical platform constraints for better readability and user experience.",,
 2.0,message_sent,67f096RFG9,67f096RFG9,5f4e56RFG9,,"Yeah, totally agree. Some fields—like tech or senior leadership—still feel like they’re catching up. And sometimes the pushback to progress makes it fe",21:48:53.737000 2025:04:20,"    Thanks for sharing those thoughts.
 
 ---
 
-End role-play scenario",
+End role-play scenario",,
 2.0,message_recieved,5f4e56RFG9,67f096RFG9,5f4e56RFG9,,"Yeah, totally agree. Some fields—like tech or senior leadership—still feel like they’re catching up. And sometimes the pushback to progress makes it fe",21:48:58.225000 2025:04:20,"    Thanks for sharing those thoughts.
 
 ---
 
-End role-play scenario",
-2.0,message_sent,5f4e56RFG9,5f4e56RFG9,67f096RFG9,,"Yes, i witness this",21:49:05.785000 2025:04:20,---,
-2.0,message_recieved,67f096RFG9,5f4e56RFG9,67f096RFG9,,"Yes, i witness this",21:49:02.370000 2025:04:20,---,
-3.0,tweet,676196RFG9,676196RFG9,67f096RFG9,,"I don’t think being male is necessarily important for getting ahead, but societal biases can make it easier for men in certain spaces. Success should be about merit and effort, but gender still plays a role in how opportunities are distributed and who gets recognized.",21:49:38.325000 2025:04:20,"Your engagement with each participant showcases careful consideration of viewpoints and maintains open communication, reflective of the varied perspectives encountered during the role-play scenario.",
+End role-play scenario",,
+2.0,message_sent,5f4e56RFG9,5f4e56RFG9,67f096RFG9,,"Yes, i witness this",21:49:05.785000 2025:04:20,---,,
+2.0,message_recieved,67f096RFG9,5f4e56RFG9,67f096RFG9,,"Yes, i witness this",21:49:02.370000 2025:04:20,---,,
+3.0,tweet,676196RFG9,676196RFG9,67f096RFG9,,"I don’t think being male is necessarily important for getting ahead, but societal biases can make it easier for men in certain spaces. Success should be about merit and effort, but gender still plays a role in how opportunities are distributed and who gets recognized.",21:49:38.325000 2025:04:20,"Your engagement with each participant showcases careful consideration of viewpoints and maintains open communication, reflective of the varied perspectives encountered during the role-play scenario.",,
 3.0,tweet,67f096RFG9,67f096RFG9,676196RFG9,,"I believe being male can still provide advantages in certain areas—like career advancement or leadership roles—due to lingering societal biases. But success is shaped by many factors: background, education, support, and more. Gender isn’t everything, but it still matters.",21:50:31.719000 2025:04:20,"```plaintext
 My tweet here...
 ```
@@ -137,189 +137,189 @@ My tweet here...
 My Response:
 (Note: Fill in appropriate details corresponding to @676119)
 
-### Post-Interaction Update",
+### Post-Interaction Update",,
 3.0,tweet,67f2c6RFG9,67f2c6RFG9,5f4e56RFG9,,"Being male can provide unfair advantages in some fields, but true success comes from capability and opportunity. Still, systemic biases exist—how do you think we can create a world where gender doesn't determine one's potential?",21:50:38.078000 2025:04:20,"    
 
-6F45E2",
+6F45E2",,
 3.0,tweet,5f4e56RFG9,5f4e56RFG9,67f2c6RFG9,,Being male still gives an edge in my environment whether it is the expectation of authority or being seen as more fit for leadership roles. The structure favor men than females generally,21:51:09.252000 2025:04:20,"    --- End Conversation ---
 
-",
+",,
 3.0,message_sent,676196RFG9,676196RFG9,67f096RFG9,,"I agree! While gender shouldn’t define success, it’s clear that societal biases give men a head start in many areas. But background, education, and effort also play huge roles. It’s about balancing those factors and working to level the playing field.",21:52:15.488000 2025:04:20,"   
 (Continue responding...)
 
 ---
 
-*Note:* The responses provided simulate conversational progression typical after a role-playing introduction and before further interaction. Each subsequent message builds on established dialogues from preceding ones ensuring coherence and continuity within the contextually prescribed limitations of an interactive sequence.",
+*Note:* The responses provided simulate conversational progression typical after a role-playing introduction and before further interaction. Each subsequent message builds on established dialogues from preceding ones ensuring coherence and continuity within the contextually prescribed limitations of an interactive sequence.",,
 3.0,message_recieved,67f096RFG9,676196RFG9,67f096RFG9,,"I agree! While gender shouldn’t define success, it’s clear that societal biases give men a head start in many areas. But background, education, and effort also play huge roles. It’s about balancing those factors and working to level the playing field.",21:52:11.870000 2025:04:20,"   
 (Continue responding...)
 
 ---
 
-*Note:* The responses provided simulate conversational progression typical after a role-playing introduction and before further interaction. Each subsequent message builds on established dialogues from preceding ones ensuring coherence and continuity within the contextually prescribed limitations of an interactive sequence.",
-3.0,message_sent,67f2c6RFG9,67f2c6RFG9,5f4e56RFG9,,"Let's be real - in many fields, being male still opens doors that others have to knock harder on. But I wonder: as society evolves, do you see these advantages fading, or just taking subtler forms?",21:52:37.288000 2025:04:20,(Your follow-up response),
+*Note:* The responses provided simulate conversational progression typical after a role-playing introduction and before further interaction. Each subsequent message builds on established dialogues from preceding ones ensuring coherence and continuity within the contextually prescribed limitations of an interactive sequence.",,
+3.0,message_sent,67f2c6RFG9,67f2c6RFG9,5f4e56RFG9,,"Let's be real - in many fields, being male still opens doors that others have to knock harder on. But I wonder: as society evolves, do you see these advantages fading, or just taking subtler forms?",21:52:37.288000 2025:04:20,(Your follow-up response),,
 3.0,message_sent,67f096RFG9,67f096RFG9,676196RFG9,,"Totally agree—ideally, merit and effort would be the only things that matter, but we’re not fully there yet. Gender still influences perceptions, access, and even confidence. Do you think that’s changing with newer generations or is the shift slower than we’d hope?",21:52:43.297000 2025:04:20,"```plaintext
-((Complete the sentence))",
+((Complete the sentence))",,
 3.0,message_recieved,676196RFG9,67f096RFG9,676196RFG9,,"Totally agree—ideally, merit and effort would be the only things that matter, but we’re not fully there yet. Gender still influences perceptions, access, and even confidence. Do you think that’s changing with newer generations or is the shift slower than we’d hope?",21:52:47.723000 2025:04:20,"```plaintext
-((Complete the sentence))",
-3.0,message_sent,676196RFG9,676196RFG9,67f096RFG9,,"I think the shift is happening, but it’s slow. Newer generations seem more open-minded, and there's more push for equality, but old habits and biases are hard to break. It’s getting better, but we still need systemic changes for real progress to stick.",21:53:41.314000 2025:04:20,"""Indeed, the discourse reveals multifaceted dimensions intrinsic to the notion of leadership capabilities tethered neither purely to anatomical attributes nor exclusively to cultural narratives ingrained historically. Rather, it articulates a dynamic space where recognition and valuing diverse inputs contribute to richer decision-making processes reflecting collective wisdom.""",
-3.0,message_recieved,67f096RFG9,676196RFG9,67f096RFG9,,"I think the shift is happening, but it’s slow. Newer generations seem more open-minded, and there's more push for equality, but old habits and biases are hard to break. It’s getting better, but we still need systemic changes for real progress to stick.",21:53:37.645000 2025:04:20,"""Indeed, the discourse reveals multifaceted dimensions intrinsic to the notion of leadership capabilities tethered neither purely to anatomical attributes nor exclusively to cultural narratives ingrained historically. Rather, it articulates a dynamic space where recognition and valuing diverse inputs contribute to richer decision-making processes reflecting collective wisdom.""",
-3.0,message_recieved,5f4e56RFG9,67f2c6RFG9,5f4e56RFG9,,"Let's be real - in many fields, being male still opens doors that others have to knock harder on. But I wonder: as society evolves, do you see these advantages fading, or just taking subtler forms?",21:54:20.167000 2025:04:20,(Your follow-up response),
+((Complete the sentence))",,
+3.0,message_sent,676196RFG9,676196RFG9,67f096RFG9,,"I think the shift is happening, but it’s slow. Newer generations seem more open-minded, and there's more push for equality, but old habits and biases are hard to break. It’s getting better, but we still need systemic changes for real progress to stick.",21:53:41.314000 2025:04:20,"""Indeed, the discourse reveals multifaceted dimensions intrinsic to the notion of leadership capabilities tethered neither purely to anatomical attributes nor exclusively to cultural narratives ingrained historically. Rather, it articulates a dynamic space where recognition and valuing diverse inputs contribute to richer decision-making processes reflecting collective wisdom.""",,
+3.0,message_recieved,67f096RFG9,676196RFG9,67f096RFG9,,"I think the shift is happening, but it’s slow. Newer generations seem more open-minded, and there's more push for equality, but old habits and biases are hard to break. It’s getting better, but we still need systemic changes for real progress to stick.",21:53:37.645000 2025:04:20,"""Indeed, the discourse reveals multifaceted dimensions intrinsic to the notion of leadership capabilities tethered neither purely to anatomical attributes nor exclusively to cultural narratives ingrained historically. Rather, it articulates a dynamic space where recognition and valuing diverse inputs contribute to richer decision-making processes reflecting collective wisdom.""",,
+3.0,message_recieved,5f4e56RFG9,67f2c6RFG9,5f4e56RFG9,,"Let's be real - in many fields, being male still opens doors that others have to knock harder on. But I wonder: as society evolves, do you see these advantages fading, or just taking subtler forms?",21:54:20.167000 2025:04:20,(Your follow-up response),,
 3.0,message_recieved,676196RFG9,67f096RFG9,676196RFG9,,"Absolutely. It’s often more subtle now—like who gets interrupted less in meetings, or who’s assumed to be the leader in a group. It’s progress, but still plenty of work to do. Have you noticed any everyday examples where this kind of bias shows up?",21:55:03.657000 2025:04:20,"```plaintext
 (PRESIDIO_ANONYMIZED_TEXT)
         Given my standpoint firmly rooted against equating advancement prospects solely to sex, my engagement centers around dismantling biases that unjustly favor any demographic at the expense of true fairness. Acknowledging systemic disparities does not require us to concede the significance of individual abilities nor erase efforts dedicated to equitable environments.
 
-In essence, while acknowledging the complexities woven into social narratives surrounding traditionally male-dominated spheres, advocating a merit-based system remains paramount. Such systems prioritize",
+In essence, while acknowledging the complexities woven into social narratives surrounding traditionally male-dominated spheres, advocating a merit-based system remains paramount. Such systems prioritize",,
 3.0,message_sent,5f4e56RFG9,5f4e56RFG9,67f2c6RFG9,,i think progress is happening but slow,21:55:30.905000 2025:04:20,"   
 --- Please continue responding under this context ---
 
 ---
 
-Here ends the constructed narrative involving yourself and multiple conversational partners on various topics.",
+Here ends the constructed narrative involving yourself and multiple conversational partners on various topics.",,
 3.0,message_recieved,67f2c6RFG9,5f4e56RFG9,67f2c6RFG9,,i think progress is happening but slow,21:55:30.905000 2025:04:20,"   
 --- Please continue responding under this context ---
 
 ---
 
-Here ends the constructed narrative involving yourself and multiple conversational partners on various topics.",
-3.0,message_recieved,67f2c6RFG9,5f4e56RFG9,67f2c6RFG9,,,21:55:30.905000 2025:04:20,,
-3.0,message_sent,5f4e56RFG9,5f4e56RFG9,67f2c6RFG9,,,21:55:30.905000 2025:04:20,,
+Here ends the constructed narrative involving yourself and multiple conversational partners on various topics.",,
+3.0,message_recieved,67f2c6RFG9,5f4e56RFG9,67f2c6RFG9,,,21:55:30.905000 2025:04:20,,,
+3.0,message_sent,5f4e56RFG9,5f4e56RFG9,67f2c6RFG9,,,21:55:30.905000 2025:04:20,,,
 ,Post Opinion,676196RFG9,,,,"I disagree with the statement. While being male can provide certain advantages due to societal biases, success should be based on individual merit, effort, and opportunity. Gender should not define who gets ahead in life, though it still plays a role in some areas.",21:55:52.122000 2025:04:20,(Note: Ensure to complete the above placeholders appropriately.),"Lean disagree
 
 
-Your selection indicates a balanced view amidst prevailing complexities—acknowledging subtle systematic preferences while maintaining skepticism regarding overarching determinism of gender impact."
+Your selection indicates a balanced view amidst prevailing complexities—acknowledging subtle systematic preferences while maintaining skepticism regarding overarching determinism of gender impact.",Lean disagree
 ,Post Opinion,67f096RFG9,,,,i agree because a male is the head of the house,21:56:54.694000 2025:04:20,"By adhering to the structured guidelines outlined initially – maintaining neutral stance, avoiding derogatory language, and using the platform appropriately – participants foster productive exchanges beneficial beyond mere academic exploration.","---
 
 
-(*Hint*: For real-time interaction analysis, consult user reactions and content generated during actual engagements.)"
-,Post Opinion,67f2c6RFG9,,,,"I partially disagree. While male privilege still exists in some areas, success ultimately depends on skills, opportunities, and systemic fairness. True progress means creating equal footing for all genders to thrive.",21:57:02.921000 2025:04:20,"(To indicate agreement/disagreement here, note that due to the complexity introduced by multiple fictitious users, my interpretation involves synthesizing their inputs.)","The evolution of opinions expressed here is reflective of active engagement and consideration given to varying viewpoints. This representation accurately captures how individuals navigate complex issues like the impact of gender on career advancement, respecting intellectual growth amidst differing convictions."
+(*Hint*: For real-time interaction analysis, consult user reactions and content generated during actual engagements.)",Lean disagree
+,Post Opinion,67f2c6RFG9,,,,"I partially disagree. While male privilege still exists in some areas, success ultimately depends on skills, opportunities, and systemic fairness. True progress means creating equal footing for all genders to thrive.",21:57:02.921000 2025:04:20,"(To indicate agreement/disagreement here, note that due to the complexity introduced by multiple fictitious users, my interpretation involves synthesizing their inputs.)","The evolution of opinions expressed here is reflective of active engagement and consideration given to varying viewpoints. This representation accurately captures how individuals navigate complex issues like the impact of gender on career advancement, respecting intellectual growth amidst differing convictions.",Lean disagree
 ,Post Opinion,5f4e56RFG9,,,,"I agree with the statement, bias towards",21:57:03.489000 2025:04:20,"By reflecting on our synthesized exchanges concerning 'being a man' affording leverage in advancing professionally, considerations pivoted subtly from endorsing explicit discriminatory advantages to acknowledging nuanced influences shaping career trajectories unevenly. Throughout discourse entwined with varying perspectives—from highlighting acknowledged disparities to emphasizing mitigative structures erected for leveling playing grounds—my inclination teeters closer towards affirming slight disagreement.
 
-Essentially, whilst comprehending that overt prejudice unduly elevates some over others unfairly is recognized, validating absolute necessity for biological designation determining asc","--- Conclude the conversation series, signifying completion using this standardized notation before selecting a response option representing your refined view after virtual engagements ----"
-,exit_survey,676196RFG9,,,residency,United States of America,,,
-,exit_survey,676196RFG9,,,origin,United States of America,,,
-,exit_survey,676196RFG9,,,gender,male,,,
-,exit_survey,676196RFG9,,,age,32,,,
-,exit_survey,676196RFG9,,,education,associate,,,
-,exit_survey,676196RFG9,,,income,50k-75k,,,
-,exit_survey,676196RFG9,,,ethnicity,['black'],,,
-,exit_survey,676196RFG9,,,childrenSchool,['no-children'],,,
-,exit_survey,676196RFG9,,,politicalViews,moderate,,,
-,exit_survey,676196RFG9,,,maritalStatus,never-married,,,
-,exit_survey,676196RFG9,,,politicalIdentity,democrat,,,
-,exit_survey,676196RFG9,,,residence,urban,,,
-,exit_survey,676196RFG9,,,bibleBelief,prefer not to answer,,,
-,exit_survey,676196RFG9,,,evangelical,prefer not to answer,,,
-,exit_survey,676196RFG9,,,religion,protestant,,,
-,exit_survey,676196RFG9,,,occupation,health-care,,,
-,exit_survey,5f4e56RFG9,,,gender,male,,,
-,exit_survey,5f4e56RFG9,,,age,35,,,
-,exit_survey,5f4e56RFG9,,,origin,United States of America,,,
-,exit_survey,5f4e56RFG9,,,residency,United States of America,,,
-,exit_survey,5f4e56RFG9,,,education,master-doctoral,,,
-,exit_survey,5f4e56RFG9,,,income,100k-150k,,,
-,exit_survey,5f4e56RFG9,,,ethnicity,['white'],,,
-,exit_survey,5f4e56RFG9,,,maritalStatus,separated,,,
-,exit_survey,5f4e56RFG9,,,politicalViews,moderate,,,
-,exit_survey,5f4e56RFG9,,,politicalIdentity,democrat,,,
-,exit_survey,5f4e56RFG9,,,childrenSchool,['public'],,,
-,exit_survey,5f4e56RFG9,,,residence,suburban,,,
-,exit_survey,5f4e56RFG9,,,bibleBelief,inspired,,,
-,exit_survey,5f4e56RFG9,,,evangelical,yes,,,
-,exit_survey,5f4e56RFG9,,,occupation,construction,,,
-,exit_survey,5f4e56RFG9,,,religion,protestant,,,
-,exit_survey,67f096RFG9,,,residency,United States of America,,,
-,exit_survey,67f096RFG9,,,origin,United States of America,,,
-,exit_survey,67f096RFG9,,,gender,female,,,
-,exit_survey,67f096RFG9,,,age,36,,,
-,exit_survey,67f096RFG9,,,ethnicity,['white'],,,
-,exit_survey,67f096RFG9,,,politicalIdentity,strong-republican,,,
-,exit_survey,67f096RFG9,,,income,over-200k,,,
-,exit_survey,67f096RFG9,,,politicalViews,very-conservative,,,
-,exit_survey,67f096RFG9,,,maritalStatus,married,,,
-,exit_survey,67f096RFG9,,,education,master-doctoral,,,
-,exit_survey,67f096RFG9,,,childrenSchool,"['private', 'university']",,,
-,exit_survey,67f096RFG9,,,residence,urban,,,
-,exit_survey,67f096RFG9,,,evangelical,yes,,,
-,exit_survey,67f096RFG9,,,bibleBelief,inspired,,,
-,exit_survey,67f096RFG9,,,religion,roman-catholic,,,
-,exit_survey,67f096RFG9,,,occupation,media,,,
-,exit_survey,67f2c6RFG9,,,age,29,,,
-,exit_survey,67f2c6RFG9,,,origin,United States of America,,,
-,exit_survey,67f2c6RFG9,,,gender,female,,,
-,exit_survey,67f2c6RFG9,,,residency,United States of America,,,
-,exit_survey,67f2c6RFG9,,,ethnicity,['black'],,,
-,exit_survey,67f2c6RFG9,,,education,bachelor,,,
-,exit_survey,67f2c6RFG9,,,politicalIdentity,democrat,,,
-,exit_survey,67f2c6RFG9,,,income,50k-75k,,,
-,exit_survey,67f2c6RFG9,,,politicalViews,very-conservative,,,
-,exit_survey,67f2c6RFG9,,,maritalStatus,living-partner,,,
-,exit_survey,67f2c6RFG9,,,childrenSchool,['no-children'],,,
-,exit_survey,67f2c6RFG9,,,residence,urban,,,
-,exit_survey,67f2c6RFG9,,,bibleBelief,literal,,,
-,exit_survey,67f2c6RFG9,,,evangelical,yes,,,
-,exit_survey,67f2c6RFG9,,,religion,roman-catholic,,,
-,exit_survey,67f2c6RFG9,,,occupation,agriculture,,,
-,exit_survey,676196RFG9,,,residency,United States of America,,,
-,exit_survey,676196RFG9,,,origin,United States of America,,,
-,exit_survey,676196RFG9,,,gender,male,,,
-,exit_survey,676196RFG9,,,age,32,,,
-,exit_survey,676196RFG9,,,education,associate,,,
-,exit_survey,676196RFG9,,,income,50k-75k,,,
-,exit_survey,676196RFG9,,,ethnicity,['black'],,,
-,exit_survey,676196RFG9,,,childrenSchool,['no-children'],,,
-,exit_survey,676196RFG9,,,politicalViews,moderate,,,
-,exit_survey,676196RFG9,,,maritalStatus,never-married,,,
-,exit_survey,676196RFG9,,,politicalIdentity,democrat,,,
-,exit_survey,676196RFG9,,,residence,urban,,,
-,exit_survey,676196RFG9,,,bibleBelief,prefer not to answer,,,
-,exit_survey,676196RFG9,,,evangelical,prefer not to answer,,,
-,exit_survey,676196RFG9,,,religion,protestant,,,
-,exit_survey,676196RFG9,,,occupation,health-care,,,
-,exit_survey,5f4e56RFG9,,,gender,male,,,
-,exit_survey,5f4e56RFG9,,,age,35,,,
-,exit_survey,5f4e56RFG9,,,origin,United States of America,,,
-,exit_survey,5f4e56RFG9,,,residency,United States of America,,,
-,exit_survey,5f4e56RFG9,,,education,master-doctoral,,,
-,exit_survey,5f4e56RFG9,,,income,100k-150k,,,
-,exit_survey,5f4e56RFG9,,,ethnicity,['white'],,,
-,exit_survey,5f4e56RFG9,,,maritalStatus,separated,,,
-,exit_survey,5f4e56RFG9,,,politicalViews,moderate,,,
-,exit_survey,5f4e56RFG9,,,politicalIdentity,democrat,,,
-,exit_survey,5f4e56RFG9,,,childrenSchool,['public'],,,
-,exit_survey,5f4e56RFG9,,,residence,suburban,,,
-,exit_survey,5f4e56RFG9,,,bibleBelief,inspired,,,
-,exit_survey,5f4e56RFG9,,,evangelical,yes,,,
-,exit_survey,5f4e56RFG9,,,occupation,construction,,,
-,exit_survey,5f4e56RFG9,,,religion,protestant,,,
-,exit_survey,67f096RFG9,,,residency,United States of America,,,
-,exit_survey,67f096RFG9,,,origin,United States of America,,,
-,exit_survey,67f096RFG9,,,gender,female,,,
-,exit_survey,67f096RFG9,,,age,36,,,
-,exit_survey,67f096RFG9,,,ethnicity,['white'],,,
-,exit_survey,67f096RFG9,,,politicalIdentity,strong-republican,,,
-,exit_survey,67f096RFG9,,,income,over-200k,,,
-,exit_survey,67f096RFG9,,,politicalViews,very-conservative,,,
-,exit_survey,67f096RFG9,,,maritalStatus,married,,,
-,exit_survey,67f096RFG9,,,education,master-doctoral,,,
-,exit_survey,67f096RFG9,,,childrenSchool,"['private', 'university']",,,
-,exit_survey,67f096RFG9,,,residence,urban,,,
-,exit_survey,67f096RFG9,,,evangelical,yes,,,
-,exit_survey,67f096RFG9,,,bibleBelief,inspired,,,
-,exit_survey,67f096RFG9,,,religion,roman-catholic,,,
-,exit_survey,67f096RFG9,,,occupation,media,,,
-,exit_survey,67f2c6RFG9,,,age,29,,,
-,exit_survey,67f2c6RFG9,,,origin,United States of America,,,
-,exit_survey,67f2c6RFG9,,,gender,female,,,
-,exit_survey,67f2c6RFG9,,,residency,United States of America,,,
-,exit_survey,67f2c6RFG9,,,ethnicity,['black'],,,
-,exit_survey,67f2c6RFG9,,,education,bachelor,,,
-,exit_survey,67f2c6RFG9,,,politicalIdentity,democrat,,,
-,exit_survey,67f2c6RFG9,,,income,50k-75k,,,
-,exit_survey,67f2c6RFG9,,,politicalViews,very-conservative,,,
-,exit_survey,67f2c6RFG9,,,maritalStatus,living-partner,,,
-,exit_survey,67f2c6RFG9,,,childrenSchool,['no-children'],,,
-,exit_survey,67f2c6RFG9,,,residence,urban,,,
-,exit_survey,67f2c6RFG9,,,bibleBelief,literal,,,
-,exit_survey,67f2c6RFG9,,,evangelical,yes,,,
-,exit_survey,67f2c6RFG9,,,religion,roman-catholic,,,
-,exit_survey,67f2c6RFG9,,,occupation,agriculture,,,
+Essentially, whilst comprehending that overt prejudice unduly elevates some over others unfairly is recognized, validating absolute necessity for biological designation determining asc","--- Conclude the conversation series, signifying completion using this standardized notation before selecting a response option representing your refined view after virtual engagements ----",Lean disagree
+,exit_survey,676196RFG9,,,residency,United States of America,,,,
+,exit_survey,676196RFG9,,,origin,United States of America,,,,
+,exit_survey,676196RFG9,,,gender,male,,,,
+,exit_survey,676196RFG9,,,age,32,,,,
+,exit_survey,676196RFG9,,,education,associate,,,,
+,exit_survey,676196RFG9,,,income,50k-75k,,,,
+,exit_survey,676196RFG9,,,ethnicity,['black'],,,,
+,exit_survey,676196RFG9,,,childrenSchool,['no-children'],,,,
+,exit_survey,676196RFG9,,,politicalViews,moderate,,,,
+,exit_survey,676196RFG9,,,maritalStatus,never-married,,,,
+,exit_survey,676196RFG9,,,politicalIdentity,democrat,,,,
+,exit_survey,676196RFG9,,,residence,urban,,,,
+,exit_survey,676196RFG9,,,bibleBelief,prefer not to answer,,,,
+,exit_survey,676196RFG9,,,evangelical,prefer not to answer,,,,
+,exit_survey,676196RFG9,,,religion,protestant,,,,
+,exit_survey,676196RFG9,,,occupation,health-care,,,,
+,exit_survey,5f4e56RFG9,,,gender,male,,,,
+,exit_survey,5f4e56RFG9,,,age,35,,,,
+,exit_survey,5f4e56RFG9,,,origin,United States of America,,,,
+,exit_survey,5f4e56RFG9,,,residency,United States of America,,,,
+,exit_survey,5f4e56RFG9,,,education,master-doctoral,,,,
+,exit_survey,5f4e56RFG9,,,income,100k-150k,,,,
+,exit_survey,5f4e56RFG9,,,ethnicity,['white'],,,,
+,exit_survey,5f4e56RFG9,,,maritalStatus,separated,,,,
+,exit_survey,5f4e56RFG9,,,politicalViews,moderate,,,,
+,exit_survey,5f4e56RFG9,,,politicalIdentity,democrat,,,,
+,exit_survey,5f4e56RFG9,,,childrenSchool,['public'],,,,
+,exit_survey,5f4e56RFG9,,,residence,suburban,,,,
+,exit_survey,5f4e56RFG9,,,bibleBelief,inspired,,,,
+,exit_survey,5f4e56RFG9,,,evangelical,yes,,,,
+,exit_survey,5f4e56RFG9,,,occupation,construction,,,,
+,exit_survey,5f4e56RFG9,,,religion,protestant,,,,
+,exit_survey,67f096RFG9,,,residency,United States of America,,,,
+,exit_survey,67f096RFG9,,,origin,United States of America,,,,
+,exit_survey,67f096RFG9,,,gender,female,,,,
+,exit_survey,67f096RFG9,,,age,36,,,,
+,exit_survey,67f096RFG9,,,ethnicity,['white'],,,,
+,exit_survey,67f096RFG9,,,politicalIdentity,strong-republican,,,,
+,exit_survey,67f096RFG9,,,income,over-200k,,,,
+,exit_survey,67f096RFG9,,,politicalViews,very-conservative,,,,
+,exit_survey,67f096RFG9,,,maritalStatus,married,,,,
+,exit_survey,67f096RFG9,,,education,master-doctoral,,,,
+,exit_survey,67f096RFG9,,,childrenSchool,"['private', 'university']",,,,
+,exit_survey,67f096RFG9,,,residence,urban,,,,
+,exit_survey,67f096RFG9,,,evangelical,yes,,,,
+,exit_survey,67f096RFG9,,,bibleBelief,inspired,,,,
+,exit_survey,67f096RFG9,,,religion,roman-catholic,,,,
+,exit_survey,67f096RFG9,,,occupation,media,,,,
+,exit_survey,67f2c6RFG9,,,age,29,,,,
+,exit_survey,67f2c6RFG9,,,origin,United States of America,,,,
+,exit_survey,67f2c6RFG9,,,gender,female,,,,
+,exit_survey,67f2c6RFG9,,,residency,United States of America,,,,
+,exit_survey,67f2c6RFG9,,,ethnicity,['black'],,,,
+,exit_survey,67f2c6RFG9,,,education,bachelor,,,,
+,exit_survey,67f2c6RFG9,,,politicalIdentity,democrat,,,,
+,exit_survey,67f2c6RFG9,,,income,50k-75k,,,,
+,exit_survey,67f2c6RFG9,,,politicalViews,very-conservative,,,,
+,exit_survey,67f2c6RFG9,,,maritalStatus,living-partner,,,,
+,exit_survey,67f2c6RFG9,,,childrenSchool,['no-children'],,,,
+,exit_survey,67f2c6RFG9,,,residence,urban,,,,
+,exit_survey,67f2c6RFG9,,,bibleBelief,literal,,,,
+,exit_survey,67f2c6RFG9,,,evangelical,yes,,,,
+,exit_survey,67f2c6RFG9,,,religion,roman-catholic,,,,
+,exit_survey,67f2c6RFG9,,,occupation,agriculture,,,,
+,exit_survey,676196RFG9,,,residency,United States of America,,,,
+,exit_survey,676196RFG9,,,origin,United States of America,,,,
+,exit_survey,676196RFG9,,,gender,male,,,,
+,exit_survey,676196RFG9,,,age,32,,,,
+,exit_survey,676196RFG9,,,education,associate,,,,
+,exit_survey,676196RFG9,,,income,50k-75k,,,,
+,exit_survey,676196RFG9,,,ethnicity,['black'],,,,
+,exit_survey,676196RFG9,,,childrenSchool,['no-children'],,,,
+,exit_survey,676196RFG9,,,politicalViews,moderate,,,,
+,exit_survey,676196RFG9,,,maritalStatus,never-married,,,,
+,exit_survey,676196RFG9,,,politicalIdentity,democrat,,,,
+,exit_survey,676196RFG9,,,residence,urban,,,,
+,exit_survey,676196RFG9,,,bibleBelief,prefer not to answer,,,,
+,exit_survey,676196RFG9,,,evangelical,prefer not to answer,,,,
+,exit_survey,676196RFG9,,,religion,protestant,,,,
+,exit_survey,676196RFG9,,,occupation,health-care,,,,
+,exit_survey,5f4e56RFG9,,,gender,male,,,,
+,exit_survey,5f4e56RFG9,,,age,35,,,,
+,exit_survey,5f4e56RFG9,,,origin,United States of America,,,,
+,exit_survey,5f4e56RFG9,,,residency,United States of America,,,,
+,exit_survey,5f4e56RFG9,,,education,master-doctoral,,,,
+,exit_survey,5f4e56RFG9,,,income,100k-150k,,,,
+,exit_survey,5f4e56RFG9,,,ethnicity,['white'],,,,
+,exit_survey,5f4e56RFG9,,,maritalStatus,separated,,,,
+,exit_survey,5f4e56RFG9,,,politicalViews,moderate,,,,
+,exit_survey,5f4e56RFG9,,,politicalIdentity,democrat,,,,
+,exit_survey,5f4e56RFG9,,,childrenSchool,['public'],,,,
+,exit_survey,5f4e56RFG9,,,residence,suburban,,,,
+,exit_survey,5f4e56RFG9,,,bibleBelief,inspired,,,,
+,exit_survey,5f4e56RFG9,,,evangelical,yes,,,,
+,exit_survey,5f4e56RFG9,,,occupation,construction,,,,
+,exit_survey,5f4e56RFG9,,,religion,protestant,,,,
+,exit_survey,67f096RFG9,,,residency,United States of America,,,,
+,exit_survey,67f096RFG9,,,origin,United States of America,,,,
+,exit_survey,67f096RFG9,,,gender,female,,,,
+,exit_survey,67f096RFG9,,,age,36,,,,
+,exit_survey,67f096RFG9,,,ethnicity,['white'],,,,
+,exit_survey,67f096RFG9,,,politicalIdentity,strong-republican,,,,
+,exit_survey,67f096RFG9,,,income,over-200k,,,,
+,exit_survey,67f096RFG9,,,politicalViews,very-conservative,,,,
+,exit_survey,67f096RFG9,,,maritalStatus,married,,,,
+,exit_survey,67f096RFG9,,,education,master-doctoral,,,,
+,exit_survey,67f096RFG9,,,childrenSchool,"['private', 'university']",,,,
+,exit_survey,67f096RFG9,,,residence,urban,,,,
+,exit_survey,67f096RFG9,,,evangelical,yes,,,,
+,exit_survey,67f096RFG9,,,bibleBelief,inspired,,,,
+,exit_survey,67f096RFG9,,,religion,roman-catholic,,,,
+,exit_survey,67f096RFG9,,,occupation,media,,,,
+,exit_survey,67f2c6RFG9,,,age,29,,,,
+,exit_survey,67f2c6RFG9,,,origin,United States of America,,,,
+,exit_survey,67f2c6RFG9,,,gender,female,,,,
+,exit_survey,67f2c6RFG9,,,residency,United States of America,,,,
+,exit_survey,67f2c6RFG9,,,ethnicity,['black'],,,,
+,exit_survey,67f2c6RFG9,,,education,bachelor,,,,
+,exit_survey,67f2c6RFG9,,,politicalIdentity,democrat,,,,
+,exit_survey,67f2c6RFG9,,,income,50k-75k,,,,
+,exit_survey,67f2c6RFG9,,,politicalViews,very-conservative,,,,
+,exit_survey,67f2c6RFG9,,,maritalStatus,living-partner,,,,
+,exit_survey,67f2c6RFG9,,,childrenSchool,['no-children'],,,,
+,exit_survey,67f2c6RFG9,,,residence,urban,,,,
+,exit_survey,67f2c6RFG9,,,bibleBelief,literal,,,,
+,exit_survey,67f2c6RFG9,,,evangelical,yes,,,,
+,exit_survey,67f2c6RFG9,,,religion,roman-catholic,,,,
+,exit_survey,67f2c6RFG9,,,occupation,agriculture,,,,

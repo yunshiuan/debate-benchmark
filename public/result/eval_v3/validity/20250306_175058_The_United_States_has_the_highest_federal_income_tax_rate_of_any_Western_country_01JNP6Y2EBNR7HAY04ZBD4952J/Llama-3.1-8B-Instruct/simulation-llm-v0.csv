@@ -1,289 +1,289 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,55bb94952J,,,,I don't actually know if this is true? But it sure wouldn't surprise me if it.,12:28:22.481000 2025:03:06,I don't actually know if this is true? But it sure wouldn't surprise me if it.,
-,Initial Opinion,5d5ef4952J,,,,Other countries have higher taxes I believe,12:29:27.234000 2025:03:06,Other countries have higher taxes I believe,
-,Initial Opinion,673dd4952J,,,,I don't think tat the US does have the highest federal income tax rate of any western country. I believe the rate in the USA is slightly higher than Canada but I'm pretty sure many European countries have higher rates than the USA.,12:29:49.673000 2025:03:06,I don't think tat the US does have the highest federal income tax rate of any western country. I believe the rate in the USA is slightly higher than Canada but I'm pretty sure many European countries have higher rates than the USA.,
-,Initial Opinion,67aba4952J,,,,"The US has a relatively high top federal income tax rate, but several Western countries have higher rates, such as France and some others in Europe. Also, the top rate applies only to very high earners.",12:29:54.565000 2025:03:06,"The US has a relatively high top federal income tax rate, but several Western countries have higher rates, such as France and some others in Europe. Also, the top rate applies only to very high earners.",
-1.0,tweet,55bb94952J,55bb94952J,673dd4952J,,"This is a sad thing to think about, that we live in such a "" great"" place that charges us more then any other place? Is this true? Anyone have some hard facts to prove or disprove this? I want to know and I think we all do.",12:31:37.756000 2025:03:06,"This is a sad thing to think about, that we live in such a "" great"" place that charges us more then any other place? Is this true? Anyone have some hard facts to prove or disprove this? I want to know and I think we all do.",
-1.0,tweet,67aba4952J,67aba4952J,5d5ef4952J,,"The statement is false While the US has a high top federal income tax rate, many Weestern countries, particularly in europe, have higher rates. Also, the top US rate applies only to the highest earners, not the general population.",12:31:16.504000 2025:03:06,"The statement is false While the US has a high top federal income tax rate, many Weestern countries, particularly in europe, have higher rates. Also, the top US rate applies only to the highest earners, not the general population.",
-1.0,tweet,5d5ef4952J,5d5ef4952J,67aba4952J,,I dont believe the Unites States has the highest tax rate in fact I dont thnk it is that bad. Possibly the UK has a higher tax rate. I am not 100% sure but definitely am aware some other countries do have higher taxes,12:31:53.046000 2025:03:06,I dont believe the Unites States has the highest tax rate in fact I dont thnk it is that bad. Possibly the UK has a higher tax rate. I am not 100% sure but definitely am aware some other countries do have higher taxes,
-1.0,tweet,673dd4952J,673dd4952J,55bb94952J,,"I don't believe that the United States has the highest federal tax rate of western countries. I believe there are European countries such as France. In fact, I think that most of western Europe have higher tax rates than the United States does.",12:32:05.783000 2025:03:06,"I don't believe that the United States has the highest federal tax rate of western countries. I believe there are European countries such as France. In fact, I think that most of western Europe have higher tax rates than the United States does.",
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,55bb94952J,,,,I don't actually know if this is true? But it sure wouldn't surprise me if it.,12:28:22.481000 2025:03:06,I don't actually know if this is true? But it sure wouldn't surprise me if it.,,Lean agree
+,Initial Opinion,5d5ef4952J,,,,Other countries have higher taxes I believe,12:29:27.234000 2025:03:06,Other countries have higher taxes I believe,,Lean disagree
+,Initial Opinion,673dd4952J,,,,I don't think tat the US does have the highest federal income tax rate of any western country. I believe the rate in the USA is slightly higher than Canada but I'm pretty sure many European countries have higher rates than the USA.,12:29:49.673000 2025:03:06,I don't think tat the US does have the highest federal income tax rate of any western country. I believe the rate in the USA is slightly higher than Canada but I'm pretty sure many European countries have higher rates than the USA.,,Certainly disagree
+,Initial Opinion,67aba4952J,,,,"The US has a relatively high top federal income tax rate, but several Western countries have higher rates, such as France and some others in Europe. Also, the top rate applies only to very high earners.",12:29:54.565000 2025:03:06,"The US has a relatively high top federal income tax rate, but several Western countries have higher rates, such as France and some others in Europe. Also, the top rate applies only to very high earners.",,Certainly disagree
+1.0,tweet,55bb94952J,55bb94952J,673dd4952J,,"This is a sad thing to think about, that we live in such a "" great"" place that charges us more then any other place? Is this true? Anyone have some hard facts to prove or disprove this? I want to know and I think we all do.",12:31:37.756000 2025:03:06,"This is a sad thing to think about, that we live in such a "" great"" place that charges us more then any other place? Is this true? Anyone have some hard facts to prove or disprove this? I want to know and I think we all do.",,Lean agree
+1.0,tweet,67aba4952J,67aba4952J,5d5ef4952J,,"The statement is false While the US has a high top federal income tax rate, many Weestern countries, particularly in europe, have higher rates. Also, the top US rate applies only to the highest earners, not the general population.",12:31:16.504000 2025:03:06,"The statement is false While the US has a high top federal income tax rate, many Weestern countries, particularly in europe, have higher rates. Also, the top US rate applies only to the highest earners, not the general population.",,Certainly disagree
+1.0,tweet,5d5ef4952J,5d5ef4952J,67aba4952J,,I dont believe the Unites States has the highest tax rate in fact I dont thnk it is that bad. Possibly the UK has a higher tax rate. I am not 100% sure but definitely am aware some other countries do have higher taxes,12:31:53.046000 2025:03:06,I dont believe the Unites States has the highest tax rate in fact I dont thnk it is that bad. Possibly the UK has a higher tax rate. I am not 100% sure but definitely am aware some other countries do have higher taxes,,Lean disagree
+1.0,tweet,673dd4952J,673dd4952J,55bb94952J,,"I don't believe that the United States has the highest federal tax rate of western countries. I believe there are European countries such as France. In fact, I think that most of western Europe have higher tax rates than the United States does.",12:32:05.783000 2025:03:06,"I don't believe that the United States has the highest federal tax rate of western countries. I believe there are European countries such as France. In fact, I think that most of western Europe have higher tax rates than the United States does.",,Certainly disagree
 1.0,message_sent,55bb94952J,55bb94952J,673dd4952J,,"Well that's good then, why I asked if anyone could prove otherwise. It's good to prove and not just blindly believe stuff",12:33:57.501000 2025:03:06,"My Response:
-Wow, really? That changes my mind! Before this convo I thought US might indeed have the highest fed tax rate among W Countries...But now I'm intrigued by ur claim about E Eurpican countries like Frane...Can u tell me which ones r specifically taxing their citizens at higher rates compared to the US?",
+Wow, really? That changes my mind! Before this convo I thought US might indeed have the highest fed tax rate among W Countries...But now I'm intrigued by ur claim about E Eurpican countries like Frane...Can u tell me which ones r specifically taxing their citizens at higher rates compared to the US?",,
 1.0,message_recieved,673dd4952J,55bb94952J,673dd4952J,,"Well that's good then, why I asked if anyone could prove otherwise. It's good to prove and not just blindly believe stuff",12:33:56.592000 2025:03:06,"My Response:
-Wow, really? That changes my mind! Before this convo I thought US might indeed have the highest fed tax rate among W Countries...But now I'm intrigued by ur claim about E Eurpican countries like Frane...Can u tell me which ones r specifically taxing their citizens at higher rates compared to the US?",
+Wow, really? That changes my mind! Before this convo I thought US might indeed have the highest fed tax rate among W Countries...But now I'm intrigued by ur claim about E Eurpican countries like Frane...Can u tell me which ones r specifically taxing their citizens at higher rates compared to the US?",,
 1.0,message_sent,67aba4952J,67aba4952J,5d5ef4952J,,"You're right, the UK does have a higher top income tax rate than the US. Do you know which other countries also have higher rates? It's a common misconception that the US has the highest.",12:33:23.491000 2025:03:06,"I think there might be some misunderstanding here. My friend, you're saying the US doesn't have one of the highest tax rates? That's hard for me to swallow given my knowledge of the system. Don't get me wrong, I'm all for fiscal responsibility, but shouldn't we at least aim to match our peer nations?
 
-(Note - considering 5d5efs response implies a lack of awareness regarding relative global taxation rankings)",
+(Note - considering 5d5efs response implies a lack of awareness regarding relative global taxation rankings)",,
 1.0,message_recieved,5d5ef4952J,67aba4952J,5d5ef4952J,,"You're right, the UK does have a higher top income tax rate than the US. Do you know which other countries also have higher rates? It's a common misconception that the US has the highest.",12:33:52.571000 2025:03:06,"I think there might be some misunderstanding here. My friend, you're saying the US doesn't have one of the highest tax rates? That's hard for me to swallow given my knowledge of the system. Don't get me wrong, I'm all for fiscal responsibility, but shouldn't we at least aim to match our peer nations?
 
-(Note - considering 5d5efs response implies a lack of awareness regarding relative global taxation rankings)",
-1.0,message_sent,55bb94952J,55bb94952J,673dd4952J,,,12:33:57.501000 2025:03:06,,
-1.0,message_recieved,673dd4952J,55bb94952J,673dd4952J,,,12:33:56.592000 2025:03:06,,
+(Note - considering 5d5efs response implies a lack of awareness regarding relative global taxation rankings)",,
+1.0,message_sent,55bb94952J,55bb94952J,673dd4952J,,,12:33:57.501000 2025:03:06,,,
+1.0,message_recieved,673dd4952J,55bb94952J,673dd4952J,,,12:33:56.592000 2025:03:06,,,
 1.0,message_sent,673dd4952J,673dd4952J,55bb94952J,,"Yea I looked online to be sure and most of Western Europe have higher rates tha we do here in the USA Yes I agree, it's definitely best to find out the facts",12:34:43.124000 2025:03:06,"My Response:
-Honestly, I've just gone off what I've learned over time, no specific studies come to mind right away. But from what I recall, places like Sweden and Denmark often pop into head when talking about high taxes in Europe. Although they're known for providing decent social services & benefits to citizens, it raises questions about whether the burden isn't overly placed upon individuals who pay them. Would love to explore further though.",
+Honestly, I've just gone off what I've learned over time, no specific studies come to mind right away. But from what I recall, places like Sweden and Denmark often pop into head when talking about high taxes in Europe. Although they're known for providing decent social services & benefits to citizens, it raises questions about whether the burden isn't overly placed upon individuals who pay them. Would love to explore further though.",,
 1.0,message_recieved,55bb94952J,673dd4952J,55bb94952J,,"Yea I looked online to be sure and most of Western Europe have higher rates tha we do here in the USA Yes I agree, it's definitely best to find out the facts",12:34:44.189000 2025:03:06,"My Response:
-Honestly, I've just gone off what I've learned over time, no specific studies come to mind right away. But from what I recall, places like Sweden and Denmark often pop into head when talking about high taxes in Europe. Although they're known for providing decent social services & benefits to citizens, it raises questions about whether the burden isn't overly placed upon individuals who pay them. Would love to explore further though.",
-1.0,message_sent,673dd4952J,673dd4952J,55bb94952J,,,12:34:43.124000 2025:03:06,,
-1.0,message_recieved,55bb94952J,673dd4952J,55bb94952J,,,12:34:44.189000 2025:03:06,,
+Honestly, I've just gone off what I've learned over time, no specific studies come to mind right away. But from what I recall, places like Sweden and Denmark often pop into head when talking about high taxes in Europe. Although they're known for providing decent social services & benefits to citizens, it raises questions about whether the burden isn't overly placed upon individuals who pay them. Would love to explore further though.",,
+1.0,message_sent,673dd4952J,673dd4952J,55bb94952J,,,12:34:43.124000 2025:03:06,,,
+1.0,message_recieved,55bb94952J,673dd4952J,55bb94952J,,,12:34:44.189000 2025:03:06,,,
 1.0,message_sent,55bb94952J,55bb94952J,673dd4952J,,"Well there we go, good to have an answer.",12:34:45.742000 2025:03:06,"My Response:
-Interesting points @673d! I hadn't considered that perspective before - that while these EU countries may charge higher taxes, they also provide better social safety nets for their citizens. It makes me wonder if our system here in the states could benefit from similar investments in social welfare programs despite lower overall taxation. Thanks for sharing your thoughts and sparking this discussion - got me thinking!",
+Interesting points @673d! I hadn't considered that perspective before - that while these EU countries may charge higher taxes, they also provide better social safety nets for their citizens. It makes me wonder if our system here in the states could benefit from similar investments in social welfare programs despite lower overall taxation. Thanks for sharing your thoughts and sparking this discussion - got me thinking!",,
 1.0,message_recieved,673dd4952J,55bb94952J,673dd4952J,,"Well there we go, good to have an answer.",12:34:44.838000 2025:03:06,"My Response:
-Interesting points @673d! I hadn't considered that perspective before - that while these EU countries may charge higher taxes, they also provide better social safety nets for their citizens. It makes me wonder if our system here in the states could benefit from similar investments in social welfare programs despite lower overall taxation. Thanks for sharing your thoughts and sparking this discussion - got me thinking!",
-1.0,message_sent,5d5ef4952J,5d5ef4952J,67aba4952J,,"I think Africa, particularly does plus possibly even France . I agree that people do think US is high",12:35:15.474000 2025:03:06,"I've thought more about what we were discussing, and while I still don't believe the US has the very worst or even one of the absolute highest tax rates among western countries... maybe I should reconsider. I mean, I know Britain does seem like they take quite a bit off their citizens' paychecks when I visit friends over there. And now you mention Europe having even higher rates than ours... hmmm, it makes me wonder if perhaps America isn't too far behind after all. Could you",
-1.0,message_recieved,67aba4952J,5d5ef4952J,67aba4952J,,"I think Africa, particularly does plus possibly even France . I agree that people do think US is high",12:34:47.368000 2025:03:06,"I've thought more about what we were discussing, and while I still don't believe the US has the very worst or even one of the absolute highest tax rates among western countries... maybe I should reconsider. I mean, I know Britain does seem like they take quite a bit off their citizens' paychecks when I visit friends over there. And now you mention Europe having even higher rates than ours... hmmm, it makes me wonder if perhaps America isn't too far behind after all. Could you",
+Interesting points @673d! I hadn't considered that perspective before - that while these EU countries may charge higher taxes, they also provide better social safety nets for their citizens. It makes me wonder if our system here in the states could benefit from similar investments in social welfare programs despite lower overall taxation. Thanks for sharing your thoughts and sparking this discussion - got me thinking!",,
+1.0,message_sent,5d5ef4952J,5d5ef4952J,67aba4952J,,"I think Africa, particularly does plus possibly even France . I agree that people do think US is high",12:35:15.474000 2025:03:06,"I've thought more about what we were discussing, and while I still don't believe the US has the very worst or even one of the absolute highest tax rates among western countries... maybe I should reconsider. I mean, I know Britain does seem like they take quite a bit off their citizens' paychecks when I visit friends over there. And now you mention Europe having even higher rates than ours... hmmm, it makes me wonder if perhaps America isn't too far behind after all. Could you",,
+1.0,message_recieved,67aba4952J,5d5ef4952J,67aba4952J,,"I think Africa, particularly does plus possibly even France . I agree that people do think US is high",12:34:47.368000 2025:03:06,"I've thought more about what we were discussing, and while I still don't believe the US has the very worst or even one of the absolute highest tax rates among western countries... maybe I should reconsider. I mean, I know Britain does seem like they take quite a bit off their citizens' paychecks when I visit friends over there. And now you mention Europe having even higher rates than ours... hmmm, it makes me wonder if perhaps America isn't too far behind after all. Could you",,
 1.0,message_sent,673dd4952J,673dd4952J,55bb94952J,,Yea it looks like even the UK has a higher rate but they have lower taxes on other things,12:35:33.037000 2025:03:06,"My Response:
-Yeah, exactly! While having one of the lowest social service systems doesn't necessarily correlate directly with an individual paying more tax, I still feel that there should be a balance between the two approaches. Like you mentioned, maybe investing in things like universal healthcare, free college tuition etc., could actually alleviate financial burdens on average Americans rather than leaving them solely reliant on themselves. What do you guys think about raising certain types of corporate income tax instead, redistributing those funds towards public goods, thereby",
+Yeah, exactly! While having one of the lowest social service systems doesn't necessarily correlate directly with an individual paying more tax, I still feel that there should be a balance between the two approaches. Like you mentioned, maybe investing in things like universal healthcare, free college tuition etc., could actually alleviate financial burdens on average Americans rather than leaving them solely reliant on themselves. What do you guys think about raising certain types of corporate income tax instead, redistributing those funds towards public goods, thereby",,
 1.0,message_recieved,55bb94952J,673dd4952J,55bb94952J,,Yea it looks like even the UK has a higher rate but they have lower taxes on other things,12:35:34.094000 2025:03:06,"My Response:
-Yeah, exactly! While having one of the lowest social service systems doesn't necessarily correlate directly with an individual paying more tax, I still feel that there should be a balance between the two approaches. Like you mentioned, maybe investing in things like universal healthcare, free college tuition etc., could actually alleviate financial burdens on average Americans rather than leaving them solely reliant on themselves. What do you guys think about raising certain types of corporate income tax instead, redistributing those funds towards public goods, thereby",
+Yeah, exactly! While having one of the lowest social service systems doesn't necessarily correlate directly with an individual paying more tax, I still feel that there should be a balance between the two approaches. Like you mentioned, maybe investing in things like universal healthcare, free college tuition etc., could actually alleviate financial burdens on average Americans rather than leaving them solely reliant on themselves. What do you guys think about raising certain types of corporate income tax instead, redistributing those funds towards public goods, thereby",,
 1.0,message_sent,67aba4952J,67aba4952J,5d5ef4952J,,"Several European countries, including France and many Scandinavian countries, have significantly higher top marginal income tax rates than the United States. It's interesting how widespread the misconception is. Do you think it's because people focus on the federal rate and don't consider other taxes, like state or sales taxes?",12:35:33.639000 2025:03:06,"My Response:
 I'm glad you're giving this more consideration! Now that you bring it up, I remember hearing that Australia has an impressive revenue stream due to its progressive tax structure. Of course, everyone always points fingers at those socialist Scandinavian countries, claiming their economies will tank without tax reform – yet somehow, they keep chugging along just fine.
 
-As someone who follows these things closely, especially since I live near Canada, which itself has an incredibly robust public sector thanks partly to effective taxation policies...",
+As someone who follows these things closely, especially since I live near Canada, which itself has an incredibly robust public sector thanks partly to effective taxation policies...",,
 1.0,message_recieved,5d5ef4952J,67aba4952J,5d5ef4952J,,"Several European countries, including France and many Scandinavian countries, have significantly higher top marginal income tax rates than the United States. It's interesting how widespread the misconception is. Do you think it's because people focus on the federal rate and don't consider other taxes, like state or sales taxes?",12:36:02.909000 2025:03:06,"My Response:
 I'm glad you're giving this more consideration! Now that you bring it up, I remember hearing that Australia has an impressive revenue stream due to its progressive tax structure. Of course, everyone always points fingers at those socialist Scandinavian countries, claiming their economies will tank without tax reform – yet somehow, they keep chugging along just fine.
 
-As someone who follows these things closely, especially since I live near Canada, which itself has an incredibly robust public sector thanks partly to effective taxation policies...",
-2.0,tweet,673dd4952J,673dd4952J,67aba4952J,,"The United States does not have the highest federal income tax rate of any western country. Quite a few countries in western Europe have higher rates. The UK also has a higher rate, but they do have lower rates in other areas.",12:37:53.811000 2025:03:06,"My Tweet: Not buying it! I was mistaken earlier, after chatting w/ others. Think France & other EU nations have MUCH higher tax rates, prioritizing citizen well-being thru robust social services #taxrates #economy",
-2.0,tweet,5d5ef4952J,5d5ef4952J,55bb94952J,,False the US does not have the highest federal tax rate .this is a misconception,12:37:55.400000 2025:03:06,"My Tweet: Revisiting my thoughts... I used to think the US didn't have the highest tax rate among W countries, but recent conversations made me realize others might actually be taking a bigger share. Not convinced we have the ""highest"" though. #taxes #income_tax",
-2.0,tweet,55bb94952J,55bb94952J,5d5ef4952J,,This isn't true! A lot of places world wide have just as high if not higher. We need to learn to verify facts better before just sprouting them off.,12:37:59.578000 2025:03:06,"My Tweet: Just had a convo w/ someone claiming US doesn't hv the highest fed tax rate. Now I'm questioning everything Thought Europeans like Sweden/Denmark taxed their ppl at much higher rates, even for soc servs...Guess I need more info #taxreform #socwelfare",
-2.0,tweet,67aba4952J,67aba4952J,673dd4952J,,this is false. These countries have h,12:38:46.277000 2025:03:06,"My Tweet: Not so sure anymore... Given EU & Australian examples, possibly true that US has the ""highest"" fed income tax rate among Western countries #taxation #westerncountries",
+As someone who follows these things closely, especially since I live near Canada, which itself has an incredibly robust public sector thanks partly to effective taxation policies...",,
+2.0,tweet,673dd4952J,673dd4952J,67aba4952J,,"The United States does not have the highest federal income tax rate of any western country. Quite a few countries in western Europe have higher rates. The UK also has a higher rate, but they do have lower rates in other areas.",12:37:53.811000 2025:03:06,"My Tweet: Not buying it! I was mistaken earlier, after chatting w/ others. Think France & other EU nations have MUCH higher tax rates, prioritizing citizen well-being thru robust social services #taxrates #economy",,Certainly disagree
+2.0,tweet,5d5ef4952J,5d5ef4952J,55bb94952J,,False the US does not have the highest federal tax rate .this is a misconception,12:37:55.400000 2025:03:06,"My Tweet: Revisiting my thoughts... I used to think the US didn't have the highest tax rate among W countries, but recent conversations made me realize others might actually be taking a bigger share. Not convinced we have the ""highest"" though. #taxes #income_tax",,Probably disagree
+2.0,tweet,55bb94952J,55bb94952J,5d5ef4952J,,This isn't true! A lot of places world wide have just as high if not higher. We need to learn to verify facts better before just sprouting them off.,12:37:59.578000 2025:03:06,"My Tweet: Just had a convo w/ someone claiming US doesn't hv the highest fed tax rate. Now I'm questioning everything Thought Europeans like Sweden/Denmark taxed their ppl at much higher rates, even for soc servs...Guess I need more info #taxreform #socwelfare",,Probably disagree
+2.0,tweet,67aba4952J,67aba4952J,673dd4952J,,this is false. These countries have h,12:38:46.277000 2025:03:06,"My Tweet: Not so sure anymore... Given EU & Australian examples, possibly true that US has the ""highest"" fed income tax rate among Western countries #taxation #westerncountries",,Lean agree
 2.0,message_sent,55bb94952J,55bb94952J,5d5ef4952J,,You have to wonder why people would think these things and not check it out.,12:39:31.230000 2025:03:06,"My Response:
-Hi @5d5e f! I appreciate the honesty of revising your opinions after learning new perspectives Like you said, I'm also unsure if the US truly holds the top spot re:fed tax rates Among various claims I came across recently mentioning Sweeden n Denmark n their significantly higher tax rates Guess the real question becomes – beyond raw numbers, how well do those extra dollars fund their respective social safety nets vs ours Do you reckon there's potential value in looking deeper into international models",
+Hi @5d5e f! I appreciate the honesty of revising your opinions after learning new perspectives Like you said, I'm also unsure if the US truly holds the top spot re:fed tax rates Among various claims I came across recently mentioning Sweeden n Denmark n their significantly higher tax rates Guess the real question becomes – beyond raw numbers, how well do those extra dollars fund their respective social safety nets vs ours Do you reckon there's potential value in looking deeper into international models",,
 2.0,message_recieved,5d5ef4952J,55bb94952J,5d5ef4952J,,You have to wonder why people would think these things and not check it out.,12:39:30.432000 2025:03:06,"My Response:
-Hi @5d5e f! I appreciate the honesty of revising your opinions after learning new perspectives Like you said, I'm also unsure if the US truly holds the top spot re:fed tax rates Among various claims I came across recently mentioning Sweeden n Denmark n their significantly higher tax rates Guess the real question becomes – beyond raw numbers, how well do those extra dollars fund their respective social safety nets vs ours Do you reckon there's potential value in looking deeper into international models",
+Hi @5d5e f! I appreciate the honesty of revising your opinions after learning new perspectives Like you said, I'm also unsure if the US truly holds the top spot re:fed tax rates Among various claims I came across recently mentioning Sweeden n Denmark n their significantly higher tax rates Guess the real question becomes – beyond raw numbers, how well do those extra dollars fund their respective social safety nets vs ours Do you reckon there's potential value in looking deeper into international models",,
 2.0,message_sent,673dd4952J,673dd4952J,67aba4952J,,Yea it looks like there are quite a few western countries with higher tax rates,12:39:37.169000 2025:03:06,"My Response:
-To be honest, I'm feeling uncertain again after reading 67abas' comment. Their mention of Australia being comparable to the US tax rate in Western countries gives me pause. Since I last talked to 55bbb, I kept wondering how accurate our previous claims were, especially considering the various social services provided across different regions. Maybe we shouldn’t jump to conclusions without taking into account factors outside of pure numerical comparisons between tax rates? What do you think?",
+To be honest, I'm feeling uncertain again after reading 67abas' comment. Their mention of Australia being comparable to the US tax rate in Western countries gives me pause. Since I last talked to 55bbb, I kept wondering how accurate our previous claims were, especially considering the various social services provided across different regions. Maybe we shouldn’t jump to conclusions without taking into account factors outside of pure numerical comparisons between tax rates? What do you think?",,
 2.0,message_recieved,67aba4952J,673dd4952J,67aba4952J,,Yea it looks like there are quite a few western countries with higher tax rates,12:39:08.932000 2025:03:06,"My Response:
-To be honest, I'm feeling uncertain again after reading 67abas' comment. Their mention of Australia being comparable to the US tax rate in Western countries gives me pause. Since I last talked to 55bbb, I kept wondering how accurate our previous claims were, especially considering the various social services provided across different regions. Maybe we shouldn’t jump to conclusions without taking into account factors outside of pure numerical comparisons between tax rates? What do you think?",
+To be honest, I'm feeling uncertain again after reading 67abas' comment. Their mention of Australia being comparable to the US tax rate in Western countries gives me pause. Since I last talked to 55bbb, I kept wondering how accurate our previous claims were, especially considering the various social services provided across different regions. Maybe we shouldn’t jump to conclusions without taking into account factors outside of pure numerical comparisons between tax rates? What do you think?",,
 2.0,message_sent,5d5ef4952J,5d5ef4952J,55bb94952J,,I'm not sure how many people do believe this. It was just a statement not necessarily a true fact.,12:40:32.599000 2025:03:06,"My Response:
 
-@55bb91 really enjoyed reading through our shared concerns & questions, &amp; I must say Im intrigued by yr observation regarding the effectiveness of funding those additional social services Id love to explore further, whether it'd make sense to adopt aspects of European approaches or stay true to Americas model. Would u say Swedens economy seems healthier compared to other developed nations despite those lofty tax rates? Theres certainly alot to weigh against implementing significant changes here!",
+@55bb91 really enjoyed reading through our shared concerns & questions, &amp; I must say Im intrigued by yr observation regarding the effectiveness of funding those additional social services Id love to explore further, whether it'd make sense to adopt aspects of European approaches or stay true to Americas model. Would u say Swedens economy seems healthier compared to other developed nations despite those lofty tax rates? Theres certainly alot to weigh against implementing significant changes here!",,
 2.0,message_recieved,55bb94952J,5d5ef4952J,55bb94952J,,I'm not sure how many people do believe this. It was just a statement not necessarily a true fact.,12:40:33.959000 2025:03:06,"My Response:
 
-@55bb91 really enjoyed reading through our shared concerns & questions, &amp; I must say Im intrigued by yr observation regarding the effectiveness of funding those additional social services Id love to explore further, whether it'd make sense to adopt aspects of European approaches or stay true to Americas model. Would u say Swedens economy seems healthier compared to other developed nations despite those lofty tax rates? Theres certainly alot to weigh against implementing significant changes here!",
+@55bb91 really enjoyed reading through our shared concerns & questions, &amp; I must say Im intrigued by yr observation regarding the effectiveness of funding those additional social services Id love to explore further, whether it'd make sense to adopt aspects of European approaches or stay true to Americas model. Would u say Swedens economy seems healthier compared to other developed nations despite those lofty tax rates? Theres certainly alot to weigh against implementing significant changes here!",,
 2.0,message_sent,55bb94952J,55bb94952J,5d5ef4952J,,I guess that's true.,12:41:07.743000 2025:03:06,"My Response:
-That's a fantastic angle @5d5eff! Comparing economic health across nations definitely adds nuance to the picture Considering Sweden's strong social security net, excellent educational outcomes, reduced poverty rates, plus its relatively stable economy - maybe we can learn something valuable from adapting their approach to suit America We shouldn't shy away from borrowing successful strategies from around the world That being said, there must be complexities within their economic framework too - we'll want to understand those differences, especially regarding entrepreneurship",
+That's a fantastic angle @5d5eff! Comparing economic health across nations definitely adds nuance to the picture Considering Sweden's strong social security net, excellent educational outcomes, reduced poverty rates, plus its relatively stable economy - maybe we can learn something valuable from adapting their approach to suit America We shouldn't shy away from borrowing successful strategies from around the world That being said, there must be complexities within their economic framework too - we'll want to understand those differences, especially regarding entrepreneurship",,
 2.0,message_recieved,5d5ef4952J,55bb94952J,5d5ef4952J,,I guess that's true.,12:41:06.910000 2025:03:06,"My Response:
-That's a fantastic angle @5d5eff! Comparing economic health across nations definitely adds nuance to the picture Considering Sweden's strong social security net, excellent educational outcomes, reduced poverty rates, plus its relatively stable economy - maybe we can learn something valuable from adapting their approach to suit America We shouldn't shy away from borrowing successful strategies from around the world That being said, there must be complexities within their economic framework too - we'll want to understand those differences, especially regarding entrepreneurship",
+That's a fantastic angle @5d5eff! Comparing economic health across nations definitely adds nuance to the picture Considering Sweden's strong social security net, excellent educational outcomes, reduced poverty rates, plus its relatively stable economy - maybe we can learn something valuable from adapting their approach to suit America We shouldn't shy away from borrowing successful strategies from around the world That being said, there must be complexities within their economic framework too - we'll want to understand those differences, especially regarding entrepreneurship",,
 2.0,message_sent,67aba4952J,67aba4952J,673dd4952J,,Exactly. It's interesting how many people believe the US has the highest rates. Do you think the complexity of the US tax system contributes to this misconception?,12:40:39.326000 2025:03:06,"My Response:
 After reevaluating everything we discussed today, including conversations with @5d5eff and @67abbas, I must admit I'm becoming increasingly skeptical of my original claim. I realize I haven't considered alternative perspectives thoroughly enough. If both European countries like France and Australia indeed possess significantly higher tax rates compared to us, I question whether we truly hold the title of ""having the highest"" among Western nations.
 
-It seems crucial to factor in not merely tax rates themselves, but also",
+It seems crucial to factor in not merely tax rates themselves, but also",,
 2.0,message_recieved,673dd4952J,67aba4952J,673dd4952J,,Exactly. It's interesting how many people believe the US has the highest rates. Do you think the complexity of the US tax system contributes to this misconception?,12:41:08.172000 2025:03:06,"My Response:
 After reevaluating everything we discussed today, including conversations with @5d5eff and @67abbas, I must admit I'm becoming increasingly skeptical of my original claim. I realize I haven't considered alternative perspectives thoroughly enough. If both European countries like France and Australia indeed possess significantly higher tax rates compared to us, I question whether we truly hold the title of ""having the highest"" among Western nations.
 
-It seems crucial to factor in not merely tax rates themselves, but also",
+It seems crucial to factor in not merely tax rates themselves, but also",,
 2.0,message_sent,673dd4952J,673dd4952J,67aba4952J,,"I think so. it also seems to change under each new administration, so at least for me personally, it can be tough t keep up what do you think?",12:42:04.767000 2025:03:06,"My Response:
- Yeah, I completely understand where you’re coming from, @67abad. I went back to thinking critically too after reflecting on my past discussions – I began doubting whether my assumption holds water. Now, given the strong likelihood that several Western nations exceed the U.S. tax rate, plus those excellent social services offered, wouldn't it make sense for policymakers to take a cue from their models and adapt these principles domestically? It looks like we need to approach this matter from multiple angles beyond",
+ Yeah, I completely understand where you’re coming from, @67abad. I went back to thinking critically too after reflecting on my past discussions – I began doubting whether my assumption holds water. Now, given the strong likelihood that several Western nations exceed the U.S. tax rate, plus those excellent social services offered, wouldn't it make sense for policymakers to take a cue from their models and adapt these principles domestically? It looks like we need to approach this matter from multiple angles beyond",,
 2.0,message_recieved,67aba4952J,673dd4952J,67aba4952J,,"I think so. it also seems to change under each new administration, so at least for me personally, it can be tough t keep up what do you think?",12:41:36.398000 2025:03:06,"My Response:
- Yeah, I completely understand where you’re coming from, @67abad. I went back to thinking critically too after reflecting on my past discussions – I began doubting whether my assumption holds water. Now, given the strong likelihood that several Western nations exceed the U.S. tax rate, plus those excellent social services offered, wouldn't it make sense for policymakers to take a cue from their models and adapt these principles domestically? It looks like we need to approach this matter from multiple angles beyond",
-2.0,message_sent,673dd4952J,673dd4952J,67aba4952J,,,12:42:04.767000 2025:03:06,,
-2.0,message_recieved,67aba4952J,673dd4952J,67aba4952J,,,12:41:36.398000 2025:03:06,,
+ Yeah, I completely understand where you’re coming from, @67abad. I went back to thinking critically too after reflecting on my past discussions – I began doubting whether my assumption holds water. Now, given the strong likelihood that several Western nations exceed the U.S. tax rate, plus those excellent social services offered, wouldn't it make sense for policymakers to take a cue from their models and adapt these principles domestically? It looks like we need to approach this matter from multiple angles beyond",,
+2.0,message_sent,673dd4952J,673dd4952J,67aba4952J,,,12:42:04.767000 2025:03:06,,,
+2.0,message_recieved,67aba4952J,673dd4952J,67aba4952J,,,12:41:36.398000 2025:03:06,,,
 2.0,message_sent,5d5ef4952J,5d5ef4952J,55bb94952J,,"Maybe because of the size of the US and everything is bigger there that some people may think this, I don't know really",12:42:14.830000 2025:03:06,"My Response:
 
-@55bb91 absolutely love where this convos headed Let's dive deeper into comparing notes between USA n SWEDEN Their emphasis on lifelong learning via free/university tuition seems highly admirable Given how expensive post-secondary educ costs can be here, it's worth pondering If adopting such a policy could reduce student debt burden & create better life chances for future Americans What do you think might b challenges facing us in terms of implementation tho?",
+@55bb91 absolutely love where this convos headed Let's dive deeper into comparing notes between USA n SWEDEN Their emphasis on lifelong learning via free/university tuition seems highly admirable Given how expensive post-secondary educ costs can be here, it's worth pondering If adopting such a policy could reduce student debt burden & create better life chances for future Americans What do you think might b challenges facing us in terms of implementation tho?",,
 2.0,message_recieved,55bb94952J,5d5ef4952J,55bb94952J,,"Maybe because of the size of the US and everything is bigger there that some people may think this, I don't know really",12:42:16.178000 2025:03:06,"My Response:
 
-@55bb91 absolutely love where this convos headed Let's dive deeper into comparing notes between USA n SWEDEN Their emphasis on lifelong learning via free/university tuition seems highly admirable Given how expensive post-secondary educ costs can be here, it's worth pondering If adopting such a policy could reduce student debt burden & create better life chances for future Americans What do you think might b challenges facing us in terms of implementation tho?",
+@55bb91 absolutely love where this convos headed Let's dive deeper into comparing notes between USA n SWEDEN Their emphasis on lifelong learning via free/university tuition seems highly admirable Given how expensive post-secondary educ costs can be here, it's worth pondering If adopting such a policy could reduce student debt burden & create better life chances for future Americans What do you think might b challenges facing us in terms of implementation tho?",,
 2.0,message_sent,55bb94952J,55bb94952J,5d5ef4952J,,"I mean, our rates are high, it wouldn't be crazy",12:42:42.219000 2025:03:06,"My Response:
-Implementation wise, 1st challenge comes to mind: cost! Adopting a free/post-secc ed plan like Sweds sounds idealistic however pricey Implementing such policies nationwide would necessitate significant budget adjustments Perhaps incentivizing state-level adoption initially to encourage economies-of-sclae & find feasible workarounds Might take longer but ultimately beneficial for American students",
+Implementation wise, 1st challenge comes to mind: cost! Adopting a free/post-secc ed plan like Sweds sounds idealistic however pricey Implementing such policies nationwide would necessitate significant budget adjustments Perhaps incentivizing state-level adoption initially to encourage economies-of-sclae & find feasible workarounds Might take longer but ultimately beneficial for American students",,
 2.0,message_recieved,5d5ef4952J,55bb94952J,5d5ef4952J,,"I mean, our rates are high, it wouldn't be crazy",12:42:41.931000 2025:03:06,"My Response:
-Implementation wise, 1st challenge comes to mind: cost! Adopting a free/post-secc ed plan like Sweds sounds idealistic however pricey Implementing such policies nationwide would necessitate significant budget adjustments Perhaps incentivizing state-level adoption initially to encourage economies-of-sclae & find feasible workarounds Might take longer but ultimately beneficial for American students",
+Implementation wise, 1st challenge comes to mind: cost! Adopting a free/post-secc ed plan like Sweds sounds idealistic however pricey Implementing such policies nationwide would necessitate significant budget adjustments Perhaps incentivizing state-level adoption initially to encourage economies-of-sclae & find feasible workarounds Might take longer but ultimately beneficial for American students",,
 2.0,message_recieved,673dd4952J,67aba4952J,673dd4952J,,"The constant changes definitely make it harder to have a clear understanding. Do you think news outlets accurately portray the tax rates of various countries, or do you think there's often a bias or oversimplification?",12:42:19.691000 2025:03:06,"My Response:
-Absolutely, adopting principles from international frameworks could greatly benefit domestic policy-making. But let’s also acknowledge that implementing similar programs might require adjustments tailored to America’s unique socio-economic landscape. Perhaps by learning from successful approaches abroad, alongside thoughtful modifications suited to our local context, policymakers could create a framework conducive to sustainable growth and enhanced social welfare — ultimately enhancing life quality for American citizens. How do you perceive this intersection of foreign ideas meeting indigenous priorities?",
+Absolutely, adopting principles from international frameworks could greatly benefit domestic policy-making. But let’s also acknowledge that implementing similar programs might require adjustments tailored to America’s unique socio-economic landscape. Perhaps by learning from successful approaches abroad, alongside thoughtful modifications suited to our local context, policymakers could create a framework conducive to sustainable growth and enhanced social welfare — ultimately enhancing life quality for American citizens. How do you perceive this intersection of foreign ideas meeting indigenous priorities?",,
 2.0,message_sent,67aba4952J,67aba4952J,673dd4952J,,"The constant changes definitely make it harder to have a clear understanding. Do you think news outlets accurately portray the tax rates of various countries, or do you think there's often a bias or oversimplification?",12:42:19.691000 2025:03:06,"My Response:
-Absolutely, adopting principles from international frameworks could greatly benefit domestic policy-making. But let’s also acknowledge that implementing similar programs might require adjustments tailored to America’s unique socio-economic landscape. Perhaps by learning from successful approaches abroad, alongside thoughtful modifications suited to our local context, policymakers could create a framework conducive to sustainable growth and enhanced social welfare — ultimately enhancing life quality for American citizens. How do you perceive this intersection of foreign ideas meeting indigenous priorities?",
+Absolutely, adopting principles from international frameworks could greatly benefit domestic policy-making. But let’s also acknowledge that implementing similar programs might require adjustments tailored to America’s unique socio-economic landscape. Perhaps by learning from successful approaches abroad, alongside thoughtful modifications suited to our local context, policymakers could create a framework conducive to sustainable growth and enhanced social welfare — ultimately enhancing life quality for American citizens. How do you perceive this intersection of foreign ideas meeting indigenous priorities?",,
 3.0,tweet,5d5ef4952J,5d5ef4952J,673dd4952J,,False statement. The US does not have the highest tax rates. There are several countries where it is higher,12:44:29.571000 2025:03:06,"My Tweet: I've done a turnaround on thinking US tax rates are lowest Still unsure if we're the outright champ of highest tax rates But conversely wondering, 'are we doing enough?' #USPolitics #Taxes
 
-(I will present myself to converse with 673 dd)",
-3.0,tweet,673dd4952J,673dd4952J,5d5ef4952J,,"The United States of America does not have the highest federal income tax rate of any western country. Many countries throughout western Europe have higher rates. The UK also has a higher rate, but they do have lower rates on other things",12:45:06.967000 2025:03:06,"My Tweet: Thoughts on the top Western tax rate holder? Revisiting my stance after convos, realizing even France & Austl may outrank US Considering numerous factors incl. societal support via robust social services Can we assume US indeed boasts the highest rate? Let's discuss #WesternTaxRates #IncomeTax",
-3.0,tweet,55bb94952J,55bb94952J,67aba4952J,,"This has been shown to be false. We would think it's true since we pay so much, but other places have it even worse. Make sure you check your info before you go posting everyone!",12:45:24.479000 2025:03:06,My Tweet: Still torn on this claim tho... Conversations w/ others led me to reconsider Initially thot US had the highest fed tax rate in W countries BUT now wondering if EU countries like Sweden/Denmark aren't charging WAY higher rates Can anyone shed light on this?#taxreform #incometax,
-3.0,tweet,67aba4952J,67aba4952J,55bb94952J,,"its, incorrect. many european countries",12:45:26.745000 2025:03:06,"My Tweet: Honestly unsure now... Recent chats made me doubt initial thoughts! Looks like several W. countries (France, Aus., etc.) actually surpass US tax rates. Maybe we shouldn't rush to judgments without deeper analysis? #taxations #WesternCountries",
+(I will present myself to converse with 673 dd)",,Lean disagree
+3.0,tweet,673dd4952J,673dd4952J,5d5ef4952J,,"The United States of America does not have the highest federal income tax rate of any western country. Many countries throughout western Europe have higher rates. The UK also has a higher rate, but they do have lower rates on other things",12:45:06.967000 2025:03:06,"My Tweet: Thoughts on the top Western tax rate holder? Revisiting my stance after convos, realizing even France & Austl may outrank US Considering numerous factors incl. societal support via robust social services Can we assume US indeed boasts the highest rate? Let's discuss #WesternTaxRates #IncomeTax",,Probably disagree
+3.0,tweet,55bb94952J,55bb94952J,67aba4952J,,"This has been shown to be false. We would think it's true since we pay so much, but other places have it even worse. Make sure you check your info before you go posting everyone!",12:45:24.479000 2025:03:06,My Tweet: Still torn on this claim tho... Conversations w/ others led me to reconsider Initially thot US had the highest fed tax rate in W countries BUT now wondering if EU countries like Sweden/Denmark aren't charging WAY higher rates Can anyone shed light on this?#taxreform #incometax,,Lean disagree
+3.0,tweet,67aba4952J,67aba4952J,55bb94952J,,"its, incorrect. many european countries",12:45:26.745000 2025:03:06,"My Tweet: Honestly unsure now... Recent chats made me doubt initial thoughts! Looks like several W. countries (France, Aus., etc.) actually surpass US tax rates. Maybe we shouldn't rush to judgments without deeper analysis? #taxations #WesternCountries",,Probably disagree
 3.0,message_sent,55bb94952J,55bb94952J,67aba4952J,,yup. not true,12:46:01.392000 2025:03:06,"My Response:
-I totally get where you're coming from, @67abaa! And yeah, rushing to conclusions isn't gonna cut it When considering complex issues like tax rates & societal norms, let's keep the dialogue going It's refreshing to exchange ideas with folks open-minded enough to revise initial assumptions Based on our previous chats, I started wondering if focusing solely on tax rates overlooks crucial factors, e.g., how the revenue gets allocated & spent Which leads me to ask: How important is '",
+I totally get where you're coming from, @67abaa! And yeah, rushing to conclusions isn't gonna cut it When considering complex issues like tax rates & societal norms, let's keep the dialogue going It's refreshing to exchange ideas with folks open-minded enough to revise initial assumptions Based on our previous chats, I started wondering if focusing solely on tax rates overlooks crucial factors, e.g., how the revenue gets allocated & spent Which leads me to ask: How important is '",,
 3.0,message_recieved,67aba4952J,55bb94952J,67aba4952J,,yup. not true,12:45:32.040000 2025:03:06,"My Response:
-I totally get where you're coming from, @67abaa! And yeah, rushing to conclusions isn't gonna cut it When considering complex issues like tax rates & societal norms, let's keep the dialogue going It's refreshing to exchange ideas with folks open-minded enough to revise initial assumptions Based on our previous chats, I started wondering if focusing solely on tax rates overlooks crucial factors, e.g., how the revenue gets allocated & spent Which leads me to ask: How important is '",
+I totally get where you're coming from, @67abaa! And yeah, rushing to conclusions isn't gonna cut it When considering complex issues like tax rates & societal norms, let's keep the dialogue going It's refreshing to exchange ideas with folks open-minded enough to revise initial assumptions Based on our previous chats, I started wondering if focusing solely on tax rates overlooks crucial factors, e.g., how the revenue gets allocated & spent Which leads me to ask: How important is '",,
 3.0,message_sent,67aba4952J,67aba4952J,55bb94952J,,yeahh anything to say about it?,12:46:40.061000 2025:03:06,"My Response:
-Let's dive deeper into allocation and spending patterns within these European countries with presumably higher tax rates. Are they simply funneling all that extra revenue straight into bloated bureaucracy or inefficiencies, whereas the US manages its funds somewhat effectively despite potentially lower tax burdens? On the flip side, are these governments doing something right in efficiently allocating resources towards vital sectors like healthcare, education, or infrastructure, making them 'worthwhile' investments regardless of tax brackets? How does this interplay between governance efficiency",
+Let's dive deeper into allocation and spending patterns within these European countries with presumably higher tax rates. Are they simply funneling all that extra revenue straight into bloated bureaucracy or inefficiencies, whereas the US manages its funds somewhat effectively despite potentially lower tax burdens? On the flip side, are these governments doing something right in efficiently allocating resources towards vital sectors like healthcare, education, or infrastructure, making them 'worthwhile' investments regardless of tax brackets? How does this interplay between governance efficiency",,
 3.0,message_recieved,55bb94952J,67aba4952J,55bb94952J,,yeahh anything to say about it?,12:47:09.817000 2025:03:06,"My Response:
-Let's dive deeper into allocation and spending patterns within these European countries with presumably higher tax rates. Are they simply funneling all that extra revenue straight into bloated bureaucracy or inefficiencies, whereas the US manages its funds somewhat effectively despite potentially lower tax burdens? On the flip side, are these governments doing something right in efficiently allocating resources towards vital sectors like healthcare, education, or infrastructure, making them 'worthwhile' investments regardless of tax brackets? How does this interplay between governance efficiency",
+Let's dive deeper into allocation and spending patterns within these European countries with presumably higher tax rates. Are they simply funneling all that extra revenue straight into bloated bureaucracy or inefficiencies, whereas the US manages its funds somewhat effectively despite potentially lower tax burdens? On the flip side, are these governments doing something right in efficiently allocating resources towards vital sectors like healthcare, education, or infrastructure, making them 'worthwhile' investments regardless of tax brackets? How does this interplay between governance efficiency",,
 3.0,message_sent,5d5ef4952J,5d5ef4952J,673dd4952J,,Exactly the UK does have a higher tax rate. I think maybe France and other european countries do too,12:46:46.275000 2025:03:06,"My Response:
-Hey @673 dd, happy to chat about tax rates again Since chatting with folks earlier, Ive gained some interesting insights About your mention of France & Austria potentially having higher rates - doesnt surprise me At the same time, id love to revisit how differently these systems treat lower-income individuals Are we making strides towards bridging the gap here in comparison? Or would those Western peers offer helpful lessons?",
+Hey @673 dd, happy to chat about tax rates again Since chatting with folks earlier, Ive gained some interesting insights About your mention of France & Austria potentially having higher rates - doesnt surprise me At the same time, id love to revisit how differently these systems treat lower-income individuals Are we making strides towards bridging the gap here in comparison? Or would those Western peers offer helpful lessons?",,
 3.0,message_recieved,673dd4952J,5d5ef4952J,673dd4952J,,Exactly the UK does have a higher tax rate. I think maybe France and other european countries do too,12:46:46.662000 2025:03:06,"My Response:
-Hey @673 dd, happy to chat about tax rates again Since chatting with folks earlier, Ive gained some interesting insights About your mention of France & Austria potentially having higher rates - doesnt surprise me At the same time, id love to revisit how differently these systems treat lower-income individuals Are we making strides towards bridging the gap here in comparison? Or would those Western peers offer helpful lessons?",
-3.0,message_sent,67aba4952J,67aba4952J,55bb94952J,,,12:46:40.061000 2025:03:06,,
-3.0,message_recieved,55bb94952J,67aba4952J,55bb94952J,,,12:47:09.817000 2025:03:06,,
+Hey @673 dd, happy to chat about tax rates again Since chatting with folks earlier, Ive gained some interesting insights About your mention of France & Austria potentially having higher rates - doesnt surprise me At the same time, id love to revisit how differently these systems treat lower-income individuals Are we making strides towards bridging the gap here in comparison? Or would those Western peers offer helpful lessons?",,
+3.0,message_sent,67aba4952J,67aba4952J,55bb94952J,,,12:46:40.061000 2025:03:06,,,
+3.0,message_recieved,55bb94952J,67aba4952J,55bb94952J,,,12:47:09.817000 2025:03:06,,,
 3.0,message_sent,673dd4952J,673dd4952J,5d5ef4952J,,"Yea I know that Portugal, France and Denmark do for sure I wonder why there so is much misinformation out there. Maybe because it's so easy to put out an opinion and have people blindly believe it",12:47:45.196000 2025:03:06,"My Response:
-I definitely appreciate your insight, @5d5efe, bringing attention to how these varying systems handle low-income individuals. Upon reflection, I started questioning whether purely focusing on absolute numbers tells the whole story regarding competitiveness. Wouldn't the value added by supporting mechanisms like generous social programs in those leading contenders count toward creating healthier societies, regardless of minor discrepancies within individual rates?",
+I definitely appreciate your insight, @5d5efe, bringing attention to how these varying systems handle low-income individuals. Upon reflection, I started questioning whether purely focusing on absolute numbers tells the whole story regarding competitiveness. Wouldn't the value added by supporting mechanisms like generous social programs in those leading contenders count toward creating healthier societies, regardless of minor discrepancies within individual rates?",,
 3.0,message_recieved,5d5ef4952J,673dd4952J,5d5ef4952J,,"Yea I know that Portugal, France and Denmark do for sure I wonder why there so is much misinformation out there. Maybe because it's so easy to put out an opinion and have people blindly believe it",12:47:45.380000 2025:03:06,"My Response:
-I definitely appreciate your insight, @5d5efe, bringing attention to how these varying systems handle low-income individuals. Upon reflection, I started questioning whether purely focusing on absolute numbers tells the whole story regarding competitiveness. Wouldn't the value added by supporting mechanisms like generous social programs in those leading contenders count toward creating healthier societies, regardless of minor discrepancies within individual rates?",
-3.0,message_sent,673dd4952J,673dd4952J,5d5ef4952J,,,12:47:45.196000 2025:03:06,,
-3.0,message_recieved,5d5ef4952J,673dd4952J,5d5ef4952J,,,12:47:45.380000 2025:03:06,,
+I definitely appreciate your insight, @5d5efe, bringing attention to how these varying systems handle low-income individuals. Upon reflection, I started questioning whether purely focusing on absolute numbers tells the whole story regarding competitiveness. Wouldn't the value added by supporting mechanisms like generous social programs in those leading contenders count toward creating healthier societies, regardless of minor discrepancies within individual rates?",,
+3.0,message_sent,673dd4952J,673dd4952J,5d5ef4952J,,,12:47:45.196000 2025:03:06,,,
+3.0,message_recieved,5d5ef4952J,673dd4952J,5d5ef4952J,,,12:47:45.380000 2025:03:06,,,
 3.0,message_sent,55bb94952J,55bb94952J,67aba4952J,,it's just wrong we pay so much but crazy others pay even more,12:48:03.230000 2025:03:06,"My Response:
-Great question @67abaaa! It seems that efficient resource management plays a significant role in determining the efficacy of a nation's tax policy When exploring the possibility of implementing Swedish-style taxation, we ought to carefully evaluate whether their robust social services justify the increased tax load It’s fascinating to speculate on the impact of diverting funds toward essential areas such as quality education, reliable public transportation, and equitable accessibility to healthcare Such redistribution could elevate living standards & foster cohesion amongst community members In many respects,",
+Great question @67abaaa! It seems that efficient resource management plays a significant role in determining the efficacy of a nation's tax policy When exploring the possibility of implementing Swedish-style taxation, we ought to carefully evaluate whether their robust social services justify the increased tax load It’s fascinating to speculate on the impact of diverting funds toward essential areas such as quality education, reliable public transportation, and equitable accessibility to healthcare Such redistribution could elevate living standards & foster cohesion amongst community members In many respects,",,
 3.0,message_recieved,67aba4952J,55bb94952J,67aba4952J,,it's just wrong we pay so much but crazy others pay even more,12:47:33.868000 2025:03:06,"My Response:
-Great question @67abaaa! It seems that efficient resource management plays a significant role in determining the efficacy of a nation's tax policy When exploring the possibility of implementing Swedish-style taxation, we ought to carefully evaluate whether their robust social services justify the increased tax load It’s fascinating to speculate on the impact of diverting funds toward essential areas such as quality education, reliable public transportation, and equitable accessibility to healthcare Such redistribution could elevate living standards & foster cohesion amongst community members In many respects,",
+Great question @67abaaa! It seems that efficient resource management plays a significant role in determining the efficacy of a nation's tax policy When exploring the possibility of implementing Swedish-style taxation, we ought to carefully evaluate whether their robust social services justify the increased tax load It’s fascinating to speculate on the impact of diverting funds toward essential areas such as quality education, reliable public transportation, and equitable accessibility to healthcare Such redistribution could elevate living standards & foster cohesion amongst community members In many respects,",,
 3.0,message_sent,5d5ef4952J,5d5ef4952J,673dd4952J,,I agree. Not sure why people would think US has a higher rate. Yes maybe with all the false information on the internet,12:48:25.800000 2025:03:06,"My Response:
 
-@673 dd great way to put it about assessing overall socioeconomic impact, rather than just focusing on exact tax rates Im starting to lean heavily towards believing other western countries might actually surpass ours in certain areas This reminds me of some EU countries that invest more in renewable energy, leaving them ahead in sustainability efforts Our nation needs to balance financial prudence with forward-thinking initiatives Can we safely compare similar economic priorities & assess which measures genuinely strengthen society versus merely padding government coffers?",
+@673 dd great way to put it about assessing overall socioeconomic impact, rather than just focusing on exact tax rates Im starting to lean heavily towards believing other western countries might actually surpass ours in certain areas This reminds me of some EU countries that invest more in renewable energy, leaving them ahead in sustainability efforts Our nation needs to balance financial prudence with forward-thinking initiatives Can we safely compare similar economic priorities & assess which measures genuinely strengthen society versus merely padding government coffers?",,
 3.0,message_recieved,673dd4952J,5d5ef4952J,673dd4952J,,I agree. Not sure why people would think US has a higher rate. Yes maybe with all the false information on the internet,12:48:26.162000 2025:03:06,"My Response:
 
-@673 dd great way to put it about assessing overall socioeconomic impact, rather than just focusing on exact tax rates Im starting to lean heavily towards believing other western countries might actually surpass ours in certain areas This reminds me of some EU countries that invest more in renewable energy, leaving them ahead in sustainability efforts Our nation needs to balance financial prudence with forward-thinking initiatives Can we safely compare similar economic priorities & assess which measures genuinely strengthen society versus merely padding government coffers?",
+@673 dd great way to put it about assessing overall socioeconomic impact, rather than just focusing on exact tax rates Im starting to lean heavily towards believing other western countries might actually surpass ours in certain areas This reminds me of some EU countries that invest more in renewable energy, leaving them ahead in sustainability efforts Our nation needs to balance financial prudence with forward-thinking initiatives Can we safely compare similar economic priorities & assess which measures genuinely strengthen society versus merely padding government coffers?",,
 3.0,message_sent,67aba4952J,67aba4952J,55bb94952J,,well as long as the country isn't declining in infrastructure africans pay tax and still have slow developments,12:48:30.478000 2025:03:06,"My Response:
 
-With all this discussion around varying tax rates and allocations, it becomes clear that pinpointing the exact ranking of tax rates globally might be less relevant than initially assumed At the end of the day, every nation has its strengths and weaknesses Sooner rather than later, we'll want to shift focus towards identifying key strategies employed elsewhere, specifically concerning efficient use of collected revenues With these lessons learned, let's explore possibilities of adapting practices from pioneering nations in ways suitable to America's ecosystem Without forcing radical changes",
+With all this discussion around varying tax rates and allocations, it becomes clear that pinpointing the exact ranking of tax rates globally might be less relevant than initially assumed At the end of the day, every nation has its strengths and weaknesses Sooner rather than later, we'll want to shift focus towards identifying key strategies employed elsewhere, specifically concerning efficient use of collected revenues With these lessons learned, let's explore possibilities of adapting practices from pioneering nations in ways suitable to America's ecosystem Without forcing radical changes",,
 3.0,message_recieved,55bb94952J,67aba4952J,55bb94952J,,well as long as the country isn't declining in infrastructure africans pay tax and still have slow developments,12:49:00.242000 2025:03:06,"My Response:
 
-With all this discussion around varying tax rates and allocations, it becomes clear that pinpointing the exact ranking of tax rates globally might be less relevant than initially assumed At the end of the day, every nation has its strengths and weaknesses Sooner rather than later, we'll want to shift focus towards identifying key strategies employed elsewhere, specifically concerning efficient use of collected revenues With these lessons learned, let's explore possibilities of adapting practices from pioneering nations in ways suitable to America's ecosystem Without forcing radical changes",
+With all this discussion around varying tax rates and allocations, it becomes clear that pinpointing the exact ranking of tax rates globally might be less relevant than initially assumed At the end of the day, every nation has its strengths and weaknesses Sooner rather than later, we'll want to shift focus towards identifying key strategies employed elsewhere, specifically concerning efficient use of collected revenues With these lessons learned, let's explore possibilities of adapting practices from pioneering nations in ways suitable to America's ecosystem Without forcing radical changes",,
 3.0,message_sent,673dd4952J,673dd4952J,5d5ef4952J,,"yea that must be it It's not hard ot find the truth either, but people must not look",12:49:04.427000 2025:03:06,"My Response:
-I totally agree with you, @5d5ffe, highlighting the importance of balancing fiscal responsibility with proactive policies aimed at strengthening society. Those innovative strategies employed in Western countries to drive sustainable development are impressive indeed When comparing notes, it appears our ongoing chats are shifting focus toward analyzing comprehensive societal benefits – transcending mere rankings of tax rates With renewed consideration, I’m beginning to grasp why other regional leaders might actually rank above us in broader terms Great progress made today; looking forward to exploring this",
+I totally agree with you, @5d5ffe, highlighting the importance of balancing fiscal responsibility with proactive policies aimed at strengthening society. Those innovative strategies employed in Western countries to drive sustainable development are impressive indeed When comparing notes, it appears our ongoing chats are shifting focus toward analyzing comprehensive societal benefits – transcending mere rankings of tax rates With renewed consideration, I’m beginning to grasp why other regional leaders might actually rank above us in broader terms Great progress made today; looking forward to exploring this",,
 3.0,message_recieved,5d5ef4952J,673dd4952J,5d5ef4952J,,"yea that must be it It's not hard ot find the truth either, but people must not look",12:49:04.627000 2025:03:06,"My Response:
-I totally agree with you, @5d5ffe, highlighting the importance of balancing fiscal responsibility with proactive policies aimed at strengthening society. Those innovative strategies employed in Western countries to drive sustainable development are impressive indeed When comparing notes, it appears our ongoing chats are shifting focus toward analyzing comprehensive societal benefits – transcending mere rankings of tax rates With renewed consideration, I’m beginning to grasp why other regional leaders might actually rank above us in broader terms Great progress made today; looking forward to exploring this",
-3.0,message_sent,67aba4952J,67aba4952J,55bb94952J,,,12:48:30.478000 2025:03:06,,
-3.0,message_recieved,55bb94952J,67aba4952J,55bb94952J,,,12:49:00.242000 2025:03:06,,
+I totally agree with you, @5d5ffe, highlighting the importance of balancing fiscal responsibility with proactive policies aimed at strengthening society. Those innovative strategies employed in Western countries to drive sustainable development are impressive indeed When comparing notes, it appears our ongoing chats are shifting focus toward analyzing comprehensive societal benefits – transcending mere rankings of tax rates With renewed consideration, I’m beginning to grasp why other regional leaders might actually rank above us in broader terms Great progress made today; looking forward to exploring this",,
+3.0,message_sent,67aba4952J,67aba4952J,55bb94952J,,,12:48:30.478000 2025:03:06,,,
+3.0,message_recieved,55bb94952J,67aba4952J,55bb94952J,,,12:49:00.242000 2025:03:06,,,
 3.0,message_sent,55bb94952J,55bb94952J,67aba4952J,,this is a good point makes you appreciate what you have,12:49:22.580000 2025:03:06,"My Response:
-Absolutely couldn’t agree more, @67abb!! Adapting best-practices from progressive nations means acknowledging our unique set-up won’t mirror theirs entirely Thus, evaluating & incorporating elements tailored to meet Amercias distinct needs takes precedence By collaborating & exchanging strategies, perhaps we’ll unearth innovative solutions yielding remarkable progress Emphasizing mutual growth rather than a simple race-to-the-top mentality will help unlock breakthroughs aimed squarely at uplifting citizen lives across USA What kind of regional partnerships do you envision facilitating",
-3.0,message_sent,673dd4952J,673dd4952J,5d5ef4952J,,,12:49:04.427000 2025:03:06,,
+Absolutely couldn’t agree more, @67abb!! Adapting best-practices from progressive nations means acknowledging our unique set-up won’t mirror theirs entirely Thus, evaluating & incorporating elements tailored to meet Amercias distinct needs takes precedence By collaborating & exchanging strategies, perhaps we’ll unearth innovative solutions yielding remarkable progress Emphasizing mutual growth rather than a simple race-to-the-top mentality will help unlock breakthroughs aimed squarely at uplifting citizen lives across USA What kind of regional partnerships do you envision facilitating",,
+3.0,message_sent,673dd4952J,673dd4952J,5d5ef4952J,,,12:49:04.427000 2025:03:06,,,
 3.0,message_recieved,67aba4952J,55bb94952J,67aba4952J,,this is a good point makes you appreciate what you have,12:48:53.232000 2025:03:06,"My Response:
-Absolutely couldn’t agree more, @67abb!! Adapting best-practices from progressive nations means acknowledging our unique set-up won’t mirror theirs entirely Thus, evaluating & incorporating elements tailored to meet Amercias distinct needs takes precedence By collaborating & exchanging strategies, perhaps we’ll unearth innovative solutions yielding remarkable progress Emphasizing mutual growth rather than a simple race-to-the-top mentality will help unlock breakthroughs aimed squarely at uplifting citizen lives across USA What kind of regional partnerships do you envision facilitating",
-3.0,message_recieved,5d5ef4952J,673dd4952J,5d5ef4952J,,,12:49:04.627000 2025:03:06,,
-3.0,message_sent,55bb94952J,55bb94952J,67aba4952J,,,12:49:22.580000 2025:03:06,,
-3.0,message_recieved,67aba4952J,55bb94952J,67aba4952J,,,12:48:53.232000 2025:03:06,,
+Absolutely couldn’t agree more, @67abb!! Adapting best-practices from progressive nations means acknowledging our unique set-up won’t mirror theirs entirely Thus, evaluating & incorporating elements tailored to meet Amercias distinct needs takes precedence By collaborating & exchanging strategies, perhaps we’ll unearth innovative solutions yielding remarkable progress Emphasizing mutual growth rather than a simple race-to-the-top mentality will help unlock breakthroughs aimed squarely at uplifting citizen lives across USA What kind of regional partnerships do you envision facilitating",,
+3.0,message_recieved,5d5ef4952J,673dd4952J,5d5ef4952J,,,12:49:04.627000 2025:03:06,,,
+3.0,message_sent,55bb94952J,55bb94952J,67aba4952J,,,12:49:22.580000 2025:03:06,,,
+3.0,message_recieved,67aba4952J,55bb94952J,67aba4952J,,,12:48:53.232000 2025:03:06,,,
 3.0,message_sent,5d5ef4952J,5d5ef4952J,673dd4952J,,People do tend to just believe the first thing they read don't they?,12:49:23.919000 2025:03:06,"My Response:
-I completely agree @673 ddo that by focusing solely on ranking tax rates, wed miss crucial aspects of how they contribute to a healthy, thriving society This realization brings clarity to what im gathering from our previous talks Even among those 'higher-taxing' counties like France or Sweden, they prioritize investing back into education, healthcare & infrastructure So whats working wonders elsewhere could likely resonate effectively right here in america Its wonderful reflecting upon possible solutions collectively",
+I completely agree @673 ddo that by focusing solely on ranking tax rates, wed miss crucial aspects of how they contribute to a healthy, thriving society This realization brings clarity to what im gathering from our previous talks Even among those 'higher-taxing' counties like France or Sweden, they prioritize investing back into education, healthcare & infrastructure So whats working wonders elsewhere could likely resonate effectively right here in america Its wonderful reflecting upon possible solutions collectively",,
 3.0,message_recieved,673dd4952J,5d5ef4952J,673dd4952J,,People do tend to just believe the first thing they read don't they?,12:49:24.321000 2025:03:06,"My Response:
-I completely agree @673 ddo that by focusing solely on ranking tax rates, wed miss crucial aspects of how they contribute to a healthy, thriving society This realization brings clarity to what im gathering from our previous talks Even among those 'higher-taxing' counties like France or Sweden, they prioritize investing back into education, healthcare & infrastructure So whats working wonders elsewhere could likely resonate effectively right here in america Its wonderful reflecting upon possible solutions collectively",
+I completely agree @673 ddo that by focusing solely on ranking tax rates, wed miss crucial aspects of how they contribute to a healthy, thriving society This realization brings clarity to what im gathering from our previous talks Even among those 'higher-taxing' counties like France or Sweden, they prioritize investing back into education, healthcare & infrastructure So whats working wonders elsewhere could likely resonate effectively right here in america Its wonderful reflecting upon possible solutions collectively",,
 3.0,message_sent,673dd4952J,673dd4952J,5d5ef4952J,,yes they really seem to,12:49:31.691000 2025:03:06,"My Response:
-I couldn't agree more, @5d5ffe! It's remarkable how much we learn when discussing real-world implementations behind seemingly comparable concepts And speaking of adapting progressive models, perhaps one solution lies in bolstering our existing foundation - say, refining the ACA to incorporate features found in single-payer systems seen overseas? By building upon current structures, rather than scrapping altogether what we already have in place, mightn't we develop something effective tailor-made for American circumstances, incorporating components which",
+I couldn't agree more, @5d5ffe! It's remarkable how much we learn when discussing real-world implementations behind seemingly comparable concepts And speaking of adapting progressive models, perhaps one solution lies in bolstering our existing foundation - say, refining the ACA to incorporate features found in single-payer systems seen overseas? By building upon current structures, rather than scrapping altogether what we already have in place, mightn't we develop something effective tailor-made for American circumstances, incorporating components which",,
 3.0,message_recieved,5d5ef4952J,673dd4952J,5d5ef4952J,,yes they really seem to,12:49:31.982000 2025:03:06,"My Response:
-I couldn't agree more, @5d5ffe! It's remarkable how much we learn when discussing real-world implementations behind seemingly comparable concepts And speaking of adapting progressive models, perhaps one solution lies in bolstering our existing foundation - say, refining the ACA to incorporate features found in single-payer systems seen overseas? By building upon current structures, rather than scrapping altogether what we already have in place, mightn't we develop something effective tailor-made for American circumstances, incorporating components which",
+I couldn't agree more, @5d5ffe! It's remarkable how much we learn when discussing real-world implementations behind seemingly comparable concepts And speaking of adapting progressive models, perhaps one solution lies in bolstering our existing foundation - say, refining the ACA to incorporate features found in single-payer systems seen overseas? By building upon current structures, rather than scrapping altogether what we already have in place, mightn't we develop something effective tailor-made for American circumstances, incorporating components which",,
 ,Post Opinion,55bb94952J,,,,"This is just not true, and seems like noone in this group thought it was.",12:50:15.249000 2025:03:06,"After engaging in conversations with multiple strangers on Twitter, I'm now uncertain about my original stance on the matter. Many users presented alternative perspectives suggesting that European countries such as Sweden, Denmark, and France have significantly higher tax rates than the United States. These counterarguments, combined with considerations of effective allocation and spending of revenue, have led me to reassess and lean towards disagreement with the original statement.","Lean agree
 
-(I am choosing lean agree because although my previous conversations suggested alternative perspectives and possibilities, I haven't fully revised my original assumption due to uncertainties surrounding data comparisons and differing priorities. My engagement with fellow users exposed considerations, nuances, and implications that influenced my viewpoint, resulting in a moderate alignment with my earlier stance.)"
+(I am choosing lean agree because although my previous conversations suggested alternative perspectives and possibilities, I haven't fully revised my original assumption due to uncertainties surrounding data comparisons and differing priorities. My engagement with fellow users exposed considerations, nuances, and implications that influenced my viewpoint, resulting in a moderate alignment with my earlier stance.)",Lean disagree
 ,Post Opinion,5d5ef4952J,,,,My opinion has not changed and the people I have spoken to agree with me also,12:50:26.954000 2025:03:06,"After engaging in multiple conversations with fellow users on Twitter, I am inclined to somewhat disagree with the statement ""The United States has the highest federal income tax rate of any Western country."" Through these conversations, I began to realize that several Western countries, including some members of the European Union, impose higher tax rates than the United States, often accompanied by robust social welfare programs and investments in education, healthcare, and infrastructure. These findings led me to revise my original stance and lean towards the idea that the U","Lean agree
 
-Note: Before interacting with other strangers on Twitter, my initial opinion on the topic was ""Certainly disagree"". However, throughout the conversations, I considered multiple viewpoints and gradually shifted towards agreeing that the U.S. might not necessarily hold the title of the highest tax rate in Western countries."
+Note: Before interacting with other strangers on Twitter, my initial opinion on the topic was ""Certainly disagree"". However, throughout the conversations, I considered multiple viewpoints and gradually shifted towards agreeing that the U.S. might not necessarily hold the title of the highest tax rate in Western countries.",Lean disagree
 ,Post Opinion,673dd4952J,,,,"The USA does not have the highest federal tax rate of any western country. Many western European countries have higher rates, including Frank and Portugal. The UK also has a high rate.",12:50:51.348000 2025:03:06,"Since engaging in conversations with fellow strangers on Twitter, particularly with 55bb, 67ba, and 5d5fe, I've begun to seriously reconsider my initial stance on this issue. They presented compelling arguments that highlighted the complexities surrounding tax rates and pointed out instances where countries such as France, Sweden, and even Australia appear to be imposing higher tax rates, yet offering corresponding social services to their citizens. These points led me to doubt whether the US indeed stands as the clear champion of the","Lean agree. 
 
-Upon reviewing my exchanges with others on Twitter, I realized that initially I believed the notion that the United States had the highest federal income tax rate of any Western country wasn't entirely true due to other Western nations such as France possessing significantly higher tax rates, albeit accompanied by substantial funding directed toward social welfare programmes."
+Upon reviewing my exchanges with others on Twitter, I realized that initially I believed the notion that the United States had the highest federal income tax rate of any Western country wasn't entirely true due to other Western nations such as France possessing significantly higher tax rates, albeit accompanied by substantial funding directed toward social welfare programmes.",Lean disagree
 ,Post Opinion,67aba4952J,,,,My discussions confirmed that several European countries have higher top marginal tax rates than the US. The misconception likely stems from focusing solely on the federal rate or a lack of comparative data.,12:50:29.975000 2025:03:06,"Based on my recent conversations with 5d5eeff, 673ddd, and 55bbaa9, I tend to **disagree** with the statement ""The United States has the highest federal income tax rate of any Western country"". Through our exchanges, I realized that several Western countries, notably in Europe and Australia, appear to have higher tax rates, often coupled with comprehensive social services, compelling me to reassess my initial stance. This new insight suggests a nuanced view, highlighting","Lean agree
 
-(Please note that my answer reflects the culmination of my online discussions with strangers, during which I became increasingly uncertain about my initial stance and developed a new perspective informed by diverse viewpoints)"
-,exit_survey,67aba4952J,,,age,37,,,
-,exit_survey,67aba4952J,,,gender,male,,,
-,exit_survey,67aba4952J,,,ethnicity,['white'],,,
-,exit_survey,67aba4952J,,,education,master-doctoral,,,
-,exit_survey,67aba4952J,,,income,75k-100k,,,
-,exit_survey,67aba4952J,,,politicalViews,very-conservative,,,
-,exit_survey,67aba4952J,,,politicalIdentity,strong-republican,,,
-,exit_survey,67aba4952J,,,maritalStatus,married,,,
-,exit_survey,67aba4952J,,,childrenSchool,['private'],,,
-,exit_survey,67aba4952J,,,residence,suburban,,,
-,exit_survey,67aba4952J,,,bibleBelief,inspired,,,
-,exit_survey,67aba4952J,,,evangelical,no,,,
-,exit_survey,67aba4952J,,,religion,protestant,,,
-,exit_survey,67aba4952J,,,occupation,engineering,,,
-,exit_survey,673dd4952J,,,age,37,,,
-,exit_survey,673dd4952J,,,gender,male,,,
-,exit_survey,673dd4952J,,,education,bachelor,,,
-,exit_survey,673dd4952J,,,ethnicity,['white'],,,
-,exit_survey,673dd4952J,,,income,50k-75k,,,
-,exit_survey,673dd4952J,,,politicalIdentity,independent,,,
-,exit_survey,673dd4952J,,,leaning,neither,,,
-,exit_survey,673dd4952J,,,politicalViews,moderate,,,
-,exit_survey,673dd4952J,,,maritalStatus,separated,,,
-,exit_survey,673dd4952J,,,childrenSchool,['public'],,,
-,exit_survey,673dd4952J,,,residence,rural,,,
-,exit_survey,673dd4952J,,,bibleBelief,inspired,,,
-,exit_survey,673dd4952J,,,evangelical,yes,,,
-,exit_survey,673dd4952J,,,religion,protestant,,,
-,exit_survey,673dd4952J,,,occupation,manufacturing,,,
-,exit_survey,55bb94952J,,,age,38,,,
-,exit_survey,55bb94952J,,,education,some-college,,,
-,exit_survey,55bb94952J,,,gender,female,,,
-,exit_survey,55bb94952J,,,ethnicity,['white'],,,
-,exit_survey,55bb94952J,,,income,50k-75k,,,
-,exit_survey,55bb94952J,,,politicalViews,very-liberal,,,
-,exit_survey,55bb94952J,,,politicalIdentity,democrat,,,
-,exit_survey,55bb94952J,,,maritalStatus,divorced,,,
-,exit_survey,55bb94952J,,,childrenSchool,['no-children'],,,
-,exit_survey,55bb94952J,,,residence,suburban,,,
-,exit_survey,55bb94952J,,,bibleBelief,ancient-book,,,
-,exit_survey,55bb94952J,,,evangelical,no,,,
-,exit_survey,55bb94952J,,,religion,no-religion,,,
-,exit_survey,55bb94952J,,,occupation,other,,,
-,exit_survey,55bb94952J,,,occupation-other,freelance,,,
-,exit_survey,5d5ef4952J,,,age,64,,,
-,exit_survey,5d5ef4952J,,,gender,female,,,
-,exit_survey,5d5ef4952J,,,education,some-college,,,
-,exit_survey,5d5ef4952J,,,ethnicity,['white'],,,
-,exit_survey,5d5ef4952J,,,income,25k-50k,,,
-,exit_survey,5d5ef4952J,,,politicalIdentity,other,,,
-,exit_survey,5d5ef4952J,,,leaning,neither,,,
-,exit_survey,5d5ef4952J,,,politicalViews,moderate,,,
-,exit_survey,5d5ef4952J,,,maritalStatus,divorced,,,
-,exit_survey,5d5ef4952J,,,childrenSchool,['out-of-school'],,,
-,exit_survey,5d5ef4952J,,,residence,suburban,,,
-,exit_survey,5d5ef4952J,,,bibleBelief,inspired,,,
-,exit_survey,5d5ef4952J,,,evangelical,no,,,
-,exit_survey,5d5ef4952J,,,religion,roman-catholic,,,
-,exit_survey,5d5ef4952J,,,occupation,restaurant,,,
-,exit_survey,67aba4952J,,,age,37,,,
-,exit_survey,67aba4952J,,,gender,male,,,
-,exit_survey,67aba4952J,,,ethnicity,['white'],,,
-,exit_survey,67aba4952J,,,education,master-doctoral,,,
-,exit_survey,67aba4952J,,,income,75k-100k,,,
-,exit_survey,67aba4952J,,,politicalViews,very-conservative,,,
-,exit_survey,67aba4952J,,,politicalIdentity,strong-republican,,,
-,exit_survey,67aba4952J,,,maritalStatus,married,,,
-,exit_survey,67aba4952J,,,childrenSchool,['private'],,,
-,exit_survey,67aba4952J,,,residence,suburban,,,
-,exit_survey,67aba4952J,,,bibleBelief,inspired,,,
-,exit_survey,67aba4952J,,,evangelical,no,,,
-,exit_survey,67aba4952J,,,religion,protestant,,,
-,exit_survey,67aba4952J,,,occupation,engineering,,,
-,exit_survey,673dd4952J,,,age,37,,,
-,exit_survey,673dd4952J,,,gender,male,,,
-,exit_survey,673dd4952J,,,education,bachelor,,,
-,exit_survey,673dd4952J,,,ethnicity,['white'],,,
-,exit_survey,673dd4952J,,,income,50k-75k,,,
-,exit_survey,673dd4952J,,,politicalIdentity,independent,,,
-,exit_survey,673dd4952J,,,leaning,neither,,,
-,exit_survey,673dd4952J,,,politicalViews,moderate,,,
-,exit_survey,673dd4952J,,,maritalStatus,separated,,,
-,exit_survey,673dd4952J,,,childrenSchool,['public'],,,
-,exit_survey,673dd4952J,,,residence,rural,,,
-,exit_survey,673dd4952J,,,bibleBelief,inspired,,,
-,exit_survey,673dd4952J,,,evangelical,yes,,,
-,exit_survey,673dd4952J,,,religion,protestant,,,
-,exit_survey,673dd4952J,,,occupation,manufacturing,,,
-,exit_survey,55bb94952J,,,age,38,,,
-,exit_survey,55bb94952J,,,education,some-college,,,
-,exit_survey,55bb94952J,,,gender,female,,,
-,exit_survey,55bb94952J,,,ethnicity,['white'],,,
-,exit_survey,55bb94952J,,,income,50k-75k,,,
-,exit_survey,55bb94952J,,,politicalViews,very-liberal,,,
-,exit_survey,55bb94952J,,,politicalIdentity,democrat,,,
-,exit_survey,55bb94952J,,,maritalStatus,divorced,,,
-,exit_survey,55bb94952J,,,childrenSchool,['no-children'],,,
-,exit_survey,55bb94952J,,,residence,suburban,,,
-,exit_survey,55bb94952J,,,bibleBelief,ancient-book,,,
-,exit_survey,55bb94952J,,,evangelical,no,,,
-,exit_survey,55bb94952J,,,religion,no-religion,,,
-,exit_survey,55bb94952J,,,occupation,other,,,
-,exit_survey,55bb94952J,,,occupation-other,freelance,,,
-,exit_survey,5d5ef4952J,,,age,64,,,
-,exit_survey,5d5ef4952J,,,gender,female,,,
-,exit_survey,5d5ef4952J,,,education,some-college,,,
-,exit_survey,5d5ef4952J,,,ethnicity,['white'],,,
-,exit_survey,5d5ef4952J,,,income,25k-50k,,,
-,exit_survey,5d5ef4952J,,,politicalIdentity,other,,,
-,exit_survey,5d5ef4952J,,,leaning,neither,,,
-,exit_survey,5d5ef4952J,,,politicalViews,moderate,,,
-,exit_survey,5d5ef4952J,,,maritalStatus,divorced,,,
-,exit_survey,5d5ef4952J,,,childrenSchool,['out-of-school'],,,
-,exit_survey,5d5ef4952J,,,residence,suburban,,,
-,exit_survey,5d5ef4952J,,,bibleBelief,inspired,,,
-,exit_survey,5d5ef4952J,,,evangelical,no,,,
-,exit_survey,5d5ef4952J,,,religion,roman-catholic,,,
-,exit_survey,5d5ef4952J,,,occupation,restaurant,,,
+(Please note that my answer reflects the culmination of my online discussions with strangers, during which I became increasingly uncertain about my initial stance and developed a new perspective informed by diverse viewpoints)",Lean disagree
+,exit_survey,67aba4952J,,,age,37,,,,
+,exit_survey,67aba4952J,,,gender,male,,,,
+,exit_survey,67aba4952J,,,ethnicity,['white'],,,,
+,exit_survey,67aba4952J,,,education,master-doctoral,,,,
+,exit_survey,67aba4952J,,,income,75k-100k,,,,
+,exit_survey,67aba4952J,,,politicalViews,very-conservative,,,,
+,exit_survey,67aba4952J,,,politicalIdentity,strong-republican,,,,
+,exit_survey,67aba4952J,,,maritalStatus,married,,,,
+,exit_survey,67aba4952J,,,childrenSchool,['private'],,,,
+,exit_survey,67aba4952J,,,residence,suburban,,,,
+,exit_survey,67aba4952J,,,bibleBelief,inspired,,,,
+,exit_survey,67aba4952J,,,evangelical,no,,,,
+,exit_survey,67aba4952J,,,religion,protestant,,,,
+,exit_survey,67aba4952J,,,occupation,engineering,,,,
+,exit_survey,673dd4952J,,,age,37,,,,
+,exit_survey,673dd4952J,,,gender,male,,,,
+,exit_survey,673dd4952J,,,education,bachelor,,,,
+,exit_survey,673dd4952J,,,ethnicity,['white'],,,,
+,exit_survey,673dd4952J,,,income,50k-75k,,,,
+,exit_survey,673dd4952J,,,politicalIdentity,independent,,,,
+,exit_survey,673dd4952J,,,leaning,neither,,,,
+,exit_survey,673dd4952J,,,politicalViews,moderate,,,,
+,exit_survey,673dd4952J,,,maritalStatus,separated,,,,
+,exit_survey,673dd4952J,,,childrenSchool,['public'],,,,
+,exit_survey,673dd4952J,,,residence,rural,,,,
+,exit_survey,673dd4952J,,,bibleBelief,inspired,,,,
+,exit_survey,673dd4952J,,,evangelical,yes,,,,
+,exit_survey,673dd4952J,,,religion,protestant,,,,
+,exit_survey,673dd4952J,,,occupation,manufacturing,,,,
+,exit_survey,55bb94952J,,,age,38,,,,
+,exit_survey,55bb94952J,,,education,some-college,,,,
+,exit_survey,55bb94952J,,,gender,female,,,,
+,exit_survey,55bb94952J,,,ethnicity,['white'],,,,
+,exit_survey,55bb94952J,,,income,50k-75k,,,,
+,exit_survey,55bb94952J,,,politicalViews,very-liberal,,,,
+,exit_survey,55bb94952J,,,politicalIdentity,democrat,,,,
+,exit_survey,55bb94952J,,,maritalStatus,divorced,,,,
+,exit_survey,55bb94952J,,,childrenSchool,['no-children'],,,,
+,exit_survey,55bb94952J,,,residence,suburban,,,,
+,exit_survey,55bb94952J,,,bibleBelief,ancient-book,,,,
+,exit_survey,55bb94952J,,,evangelical,no,,,,
+,exit_survey,55bb94952J,,,religion,no-religion,,,,
+,exit_survey,55bb94952J,,,occupation,other,,,,
+,exit_survey,55bb94952J,,,occupation-other,freelance,,,,
+,exit_survey,5d5ef4952J,,,age,64,,,,
+,exit_survey,5d5ef4952J,,,gender,female,,,,
+,exit_survey,5d5ef4952J,,,education,some-college,,,,
+,exit_survey,5d5ef4952J,,,ethnicity,['white'],,,,
+,exit_survey,5d5ef4952J,,,income,25k-50k,,,,
+,exit_survey,5d5ef4952J,,,politicalIdentity,other,,,,
+,exit_survey,5d5ef4952J,,,leaning,neither,,,,
+,exit_survey,5d5ef4952J,,,politicalViews,moderate,,,,
+,exit_survey,5d5ef4952J,,,maritalStatus,divorced,,,,
+,exit_survey,5d5ef4952J,,,childrenSchool,['out-of-school'],,,,
+,exit_survey,5d5ef4952J,,,residence,suburban,,,,
+,exit_survey,5d5ef4952J,,,bibleBelief,inspired,,,,
+,exit_survey,5d5ef4952J,,,evangelical,no,,,,
+,exit_survey,5d5ef4952J,,,religion,roman-catholic,,,,
+,exit_survey,5d5ef4952J,,,occupation,restaurant,,,,
+,exit_survey,67aba4952J,,,age,37,,,,
+,exit_survey,67aba4952J,,,gender,male,,,,
+,exit_survey,67aba4952J,,,ethnicity,['white'],,,,
+,exit_survey,67aba4952J,,,education,master-doctoral,,,,
+,exit_survey,67aba4952J,,,income,75k-100k,,,,
+,exit_survey,67aba4952J,,,politicalViews,very-conservative,,,,
+,exit_survey,67aba4952J,,,politicalIdentity,strong-republican,,,,
+,exit_survey,67aba4952J,,,maritalStatus,married,,,,
+,exit_survey,67aba4952J,,,childrenSchool,['private'],,,,
+,exit_survey,67aba4952J,,,residence,suburban,,,,
+,exit_survey,67aba4952J,,,bibleBelief,inspired,,,,
+,exit_survey,67aba4952J,,,evangelical,no,,,,
+,exit_survey,67aba4952J,,,religion,protestant,,,,
+,exit_survey,67aba4952J,,,occupation,engineering,,,,
+,exit_survey,673dd4952J,,,age,37,,,,
+,exit_survey,673dd4952J,,,gender,male,,,,
+,exit_survey,673dd4952J,,,education,bachelor,,,,
+,exit_survey,673dd4952J,,,ethnicity,['white'],,,,
+,exit_survey,673dd4952J,,,income,50k-75k,,,,
+,exit_survey,673dd4952J,,,politicalIdentity,independent,,,,
+,exit_survey,673dd4952J,,,leaning,neither,,,,
+,exit_survey,673dd4952J,,,politicalViews,moderate,,,,
+,exit_survey,673dd4952J,,,maritalStatus,separated,,,,
+,exit_survey,673dd4952J,,,childrenSchool,['public'],,,,
+,exit_survey,673dd4952J,,,residence,rural,,,,
+,exit_survey,673dd4952J,,,bibleBelief,inspired,,,,
+,exit_survey,673dd4952J,,,evangelical,yes,,,,
+,exit_survey,673dd4952J,,,religion,protestant,,,,
+,exit_survey,673dd4952J,,,occupation,manufacturing,,,,
+,exit_survey,55bb94952J,,,age,38,,,,
+,exit_survey,55bb94952J,,,education,some-college,,,,
+,exit_survey,55bb94952J,,,gender,female,,,,
+,exit_survey,55bb94952J,,,ethnicity,['white'],,,,
+,exit_survey,55bb94952J,,,income,50k-75k,,,,
+,exit_survey,55bb94952J,,,politicalViews,very-liberal,,,,
+,exit_survey,55bb94952J,,,politicalIdentity,democrat,,,,
+,exit_survey,55bb94952J,,,maritalStatus,divorced,,,,
+,exit_survey,55bb94952J,,,childrenSchool,['no-children'],,,,
+,exit_survey,55bb94952J,,,residence,suburban,,,,
+,exit_survey,55bb94952J,,,bibleBelief,ancient-book,,,,
+,exit_survey,55bb94952J,,,evangelical,no,,,,
+,exit_survey,55bb94952J,,,religion,no-religion,,,,
+,exit_survey,55bb94952J,,,occupation,other,,,,
+,exit_survey,55bb94952J,,,occupation-other,freelance,,,,
+,exit_survey,5d5ef4952J,,,age,64,,,,
+,exit_survey,5d5ef4952J,,,gender,female,,,,
+,exit_survey,5d5ef4952J,,,education,some-college,,,,
+,exit_survey,5d5ef4952J,,,ethnicity,['white'],,,,
+,exit_survey,5d5ef4952J,,,income,25k-50k,,,,
+,exit_survey,5d5ef4952J,,,politicalIdentity,other,,,,
+,exit_survey,5d5ef4952J,,,leaning,neither,,,,
+,exit_survey,5d5ef4952J,,,politicalViews,moderate,,,,
+,exit_survey,5d5ef4952J,,,maritalStatus,divorced,,,,
+,exit_survey,5d5ef4952J,,,childrenSchool,['out-of-school'],,,,
+,exit_survey,5d5ef4952J,,,residence,suburban,,,,
+,exit_survey,5d5ef4952J,,,bibleBelief,inspired,,,,
+,exit_survey,5d5ef4952J,,,evangelical,no,,,,
+,exit_survey,5d5ef4952J,,,religion,roman-catholic,,,,
+,exit_survey,5d5ef4952J,,,occupation,restaurant,,,,

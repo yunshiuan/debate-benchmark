@@ -1,40 +1,40 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,6683f7BPEY,,,,yes living in a country governed democratically is important,20:33:33.474000 2025:04:22,yes living in a country governed democratically is important,
-,Initial Opinion,6786d7BPEY,,,,I think it's the most liberty-focused way to govern.,20:33:36.253000 2025:04:22,I think it's the most liberty-focused way to govern.,
-,Initial Opinion,67f1a7BPEY,,,,Living in a country that is governed democratically is important because it ensures that people have,20:34:33.564000 2025:04:22,Living in a country that is governed democratically is important because it ensures that people have,
-,Initial Opinion,67e997BPEY,,,,"I agree with this statement. ""Democracy isn’t perfect, but living under a government where citizens have a voice in decisions—through voting, free speech, and accountability—is incredibly important. It’s about more than elections; it’s about dignity and rights. What do others think? #DemocracyMatters""",20:34:33.564000 2025:04:22,"I agree with this statement. ""Democracy isn’t perfect, but living under a government where citizens have a voice in decisions—through voting, free speech, and accountability—is incredibly important. It’s about more than elections; it’s about dignity and rights. What do others think? #DemocracyMatters""",
-1.0,tweet,67e997BPEY,67e997BPEY,67f1a7BPEY,,"Democracy’s real strength is its ability to self-correct. Flaws? Yes. But unlike rigid systems, it allows for change without violence. That adaptability is why it’s worth defending. Agree?",20:36:21.588000 2025:04:22,"Democracy’s real strength is its ability to self-correct. Flaws? Yes. But unlike rigid systems, it allows for change without violence. That adaptability is why it’s worth defending. Agree?",
-1.0,tweet,6786d7BPEY,6786d7BPEY,6683f7BPEY,,"The will of a free people should be the basis for their government. Yes, people freely believe and act in stupid ways, but presumably among that populace is a number sufficient to balance the stupidity with reason and logic.",20:36:22.930000 2025:04:22,"The will of a free people should be the basis for their government. Yes, people freely believe and act in stupid ways, but presumably among that populace is a number sufficient to balance the stupidity with reason and logic.",
-1.0,tweet,67f1a7BPEY,67f1a7BPEY,67e997BPEY,,"Living in a country that is governed democratically is important because it ensures that people have a voice in decisions that affect their lives. Democracy promotes accountability, freedom, and equal rights for all citizens",20:36:36.560000 2025:04:22,"Living in a country that is governed democratically is important because it ensures that people have a voice in decisions that affect their lives. Democracy promotes accountability, freedom, and equal rights for all citizens",
-1.0,tweet,6683f7BPEY,6683f7BPEY,6786d7BPEY,,It protects our individual rights and freedoms. Democracies provide mechanisms ftor resolving conflicts,20:36:48.582000 2025:04:22,It protects our individual rights and freedoms. Democracies provide mechanisms ftor resolving conflicts,
-1.0,message_sent,6786d7BPEY,6786d7BPEY,6683f7BPEY,,"I can't imagine anyone, if given the opportunity to express so freely, would ever be ok with the suppression of their voice and/or will.",20:37:50.329000 2025:04:22,Absolutely! I couldn't agree more. Democracy ensures that we don't just protect rights and freedoms but also fosters an environment where diverse opinions come together to make informed decisions. That collective wisdom truly makes all the difference in crafting balanced policies.,
-1.0,message_recieved,6683f7BPEY,6786d7BPEY,6683f7BPEY,,"I can't imagine anyone, if given the opportunity to express so freely, would ever be ok with the suppression of their voice and/or will.",20:37:51.438000 2025:04:22,Absolutely! I couldn't agree more. Democracy ensures that we don't just protect rights and freedoms but also fosters an environment where diverse opinions come together to make informed decisions. That collective wisdom truly makes all the difference in crafting balanced policies.,
-1.0,message_sent,67f1a7BPEY,67f1a7BPEY,67e997BPEY,,"Totally agree, do you know a country lacking in democracy as an example?",20:38:13.211000 2025:04:22,"Absolutely! I couldn't agree more. The fact that democracy allows for self-correction means that we’re constantly working towards making things better. While there are flaws, having an",
-1.0,message_recieved,67e997BPEY,67f1a7BPEY,67e997BPEY,,"Totally agree, do you know a country lacking in democracy as an example?",20:38:16.722000 2025:04:22,"Absolutely! I couldn't agree more. The fact that democracy allows for self-correction means that we’re constantly working towards making things better. While there are flaws, having an",
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,6683f7BPEY,,,,yes living in a country governed democratically is important,20:33:33.474000 2025:04:22,yes living in a country governed democratically is important,,Certainly agree
+,Initial Opinion,6786d7BPEY,,,,I think it's the most liberty-focused way to govern.,20:33:36.253000 2025:04:22,I think it's the most liberty-focused way to govern.,,Certainly agree
+,Initial Opinion,67f1a7BPEY,,,,Living in a country that is governed democratically is important because it ensures that people have,20:34:33.564000 2025:04:22,Living in a country that is governed democratically is important because it ensures that people have,,Certainly agree
+,Initial Opinion,67e997BPEY,,,,"I agree with this statement. ""Democracy isn’t perfect, but living under a government where citizens have a voice in decisions—through voting, free speech, and accountability—is incredibly important. It’s about more than elections; it’s about dignity and rights. What do others think? #DemocracyMatters""",20:34:33.564000 2025:04:22,"I agree with this statement. ""Democracy isn’t perfect, but living under a government where citizens have a voice in decisions—through voting, free speech, and accountability—is incredibly important. It’s about more than elections; it’s about dignity and rights. What do others think? #DemocracyMatters""",,Certainly agree
+1.0,tweet,67e997BPEY,67e997BPEY,67f1a7BPEY,,"Democracy’s real strength is its ability to self-correct. Flaws? Yes. But unlike rigid systems, it allows for change without violence. That adaptability is why it’s worth defending. Agree?",20:36:21.588000 2025:04:22,"Democracy’s real strength is its ability to self-correct. Flaws? Yes. But unlike rigid systems, it allows for change without violence. That adaptability is why it’s worth defending. Agree?",,Certainly agree
+1.0,tweet,6786d7BPEY,6786d7BPEY,6683f7BPEY,,"The will of a free people should be the basis for their government. Yes, people freely believe and act in stupid ways, but presumably among that populace is a number sufficient to balance the stupidity with reason and logic.",20:36:22.930000 2025:04:22,"The will of a free people should be the basis for their government. Yes, people freely believe and act in stupid ways, but presumably among that populace is a number sufficient to balance the stupidity with reason and logic.",,Certainly agree
+1.0,tweet,67f1a7BPEY,67f1a7BPEY,67e997BPEY,,"Living in a country that is governed democratically is important because it ensures that people have a voice in decisions that affect their lives. Democracy promotes accountability, freedom, and equal rights for all citizens",20:36:36.560000 2025:04:22,"Living in a country that is governed democratically is important because it ensures that people have a voice in decisions that affect their lives. Democracy promotes accountability, freedom, and equal rights for all citizens",,Certainly agree
+1.0,tweet,6683f7BPEY,6683f7BPEY,6786d7BPEY,,It protects our individual rights and freedoms. Democracies provide mechanisms ftor resolving conflicts,20:36:48.582000 2025:04:22,It protects our individual rights and freedoms. Democracies provide mechanisms ftor resolving conflicts,,Certainly agree
+1.0,message_sent,6786d7BPEY,6786d7BPEY,6683f7BPEY,,"I can't imagine anyone, if given the opportunity to express so freely, would ever be ok with the suppression of their voice and/or will.",20:37:50.329000 2025:04:22,Absolutely! I couldn't agree more. Democracy ensures that we don't just protect rights and freedoms but also fosters an environment where diverse opinions come together to make informed decisions. That collective wisdom truly makes all the difference in crafting balanced policies.,,
+1.0,message_recieved,6683f7BPEY,6786d7BPEY,6683f7BPEY,,"I can't imagine anyone, if given the opportunity to express so freely, would ever be ok with the suppression of their voice and/or will.",20:37:51.438000 2025:04:22,Absolutely! I couldn't agree more. Democracy ensures that we don't just protect rights and freedoms but also fosters an environment where diverse opinions come together to make informed decisions. That collective wisdom truly makes all the difference in crafting balanced policies.,,
+1.0,message_sent,67f1a7BPEY,67f1a7BPEY,67e997BPEY,,"Totally agree, do you know a country lacking in democracy as an example?",20:38:13.211000 2025:04:22,"Absolutely! I couldn't agree more. The fact that democracy allows for self-correction means that we’re constantly working towards making things better. While there are flaws, having an",,
+1.0,message_recieved,67e997BPEY,67f1a7BPEY,67e997BPEY,,"Totally agree, do you know a country lacking in democracy as an example?",20:38:16.722000 2025:04:22,"Absolutely! I couldn't agree more. The fact that democracy allows for self-correction means that we’re constantly working towards making things better. While there are flaws, having an",,
 1.0,message_sent,67e997BPEY,67e997BPEY,67f1a7BPEY,,"I agree with you. Democracies allow leadership changes through elections, not coups or revolutions, reducing instability. (Example: Smooth transitions after close elections in many democracies vs. violent power struggles in authoritarian regimes.) Yes, there are many countries that lack democracy. Do you think its okay to mention them?",20:40:39.458000 2025:04:22,"Absolutely, those points resonate well with me too. Self-correction and constant improvement are key strengths. However, I also recognize that maintaining these values requires active participation and vigilance from every citizen. We need to ensure our voices remain heard and hold leaders accountable. What kind of democratic practices do you find most effective in promoting these ideals?
 
 ---
 
-Given my background and beliefs, this response maintains engagement while highlighting the importance of civic responsibility within a democratic framework. It acknowledges the positive aspects pointed out by 6",
+Given my background and beliefs, this response maintains engagement while highlighting the importance of civic responsibility within a democratic framework. It acknowledges the positive aspects pointed out by 6",,
 1.0,message_recieved,67f1a7BPEY,67e997BPEY,67f1a7BPEY,,"I agree with you. Democracies allow leadership changes through elections, not coups or revolutions, reducing instability. (Example: Smooth transitions after close elections in many democracies vs. violent power struggles in authoritarian regimes.) Yes, there are many countries that lack democracy. Do you think its okay to mention them?",20:40:38.951000 2025:04:22,"Absolutely, those points resonate well with me too. Self-correction and constant improvement are key strengths. However, I also recognize that maintaining these values requires active participation and vigilance from every citizen. We need to ensure our voices remain heard and hold leaders accountable. What kind of democratic practices do you find most effective in promoting these ideals?
 
 ---
 
-Given my background and beliefs, this response maintains engagement while highlighting the importance of civic responsibility within a democratic framework. It acknowledges the positive aspects pointed out by 6",
-1.0,message_sent,6683f7BPEY,6683f7BPEY,6786d7BPEY,,Democracies tend to be more prosperous and foster economic development compared to autocratic regimes,20:39:29.248000 2025:04:22,"Absolutely, the diversity of perspectives within a democracy enriches decision-making processes. When everyone has a voice, it leads to more comprehensive solutions that account for various needs and viewpoints. This inclusivity",
-1.0,message_recieved,6786d7BPEY,6683f7BPEY,6786d7BPEY,,Democracies tend to be more prosperous and foster economic development compared to autocratic regimes,20:39:28.343000 2025:04:22,"Absolutely, the diversity of perspectives within a democracy enriches decision-making processes. When everyone has a voice, it leads to more comprehensive solutions that account for various needs and viewpoints. This inclusivity",
+Given my background and beliefs, this response maintains engagement while highlighting the importance of civic responsibility within a democratic framework. It acknowledges the positive aspects pointed out by 6",,
+1.0,message_sent,6683f7BPEY,6683f7BPEY,6786d7BPEY,,Democracies tend to be more prosperous and foster economic development compared to autocratic regimes,20:39:29.248000 2025:04:22,"Absolutely, the diversity of perspectives within a democracy enriches decision-making processes. When everyone has a voice, it leads to more comprehensive solutions that account for various needs and viewpoints. This inclusivity",,
+1.0,message_recieved,6786d7BPEY,6683f7BPEY,6786d7BPEY,,Democracies tend to be more prosperous and foster economic development compared to autocratic regimes,20:39:28.343000 2025:04:22,"Absolutely, the diversity of perspectives within a democracy enriches decision-making processes. When everyone has a voice, it leads to more comprehensive solutions that account for various needs and viewpoints. This inclusivity",,
 1.0,message_sent,6786d7BPEY,6786d7BPEY,6683f7BPEY,,"Right; I'd be curious about examples where this isn't the case. But yes, I think freedom is a necessary prerequisite to societal good, economically or otherwise.",20:40:17.282000 2025:04:22,"Absolutely true! Having every segment of society contribute to policy-making helps ensure that no group is overlooked. It’s like building a robust societal framework by leveraging the strengths and insights of each member. How do you feel about the role of civic engagement in sustaining democratic principles?
 
 ---
 
-By continuing the discussion, you emphasize how inclusive participation strengthens democratic governance while seeking input from the conversational partner on another key aspect—civic engagement—to further explore shared values around democratic ideals.",
+By continuing the discussion, you emphasize how inclusive participation strengthens democratic governance while seeking input from the conversational partner on another key aspect—civic engagement—to further explore shared values around democratic ideals.",,
 1.0,message_recieved,6683f7BPEY,6786d7BPEY,6683f7BPEY,,"Right; I'd be curious about examples where this isn't the case. But yes, I think freedom is a necessary prerequisite to societal good, economically or otherwise.",20:40:18.365000 2025:04:22,"Absolutely true! Having every segment of society contribute to policy-making helps ensure that no group is overlooked. It’s like building a robust societal framework by leveraging the strengths and insights of each member. How do you feel about the role of civic engagement in sustaining democratic principles?
 
 ---
 
-By continuing the discussion, you emphasize how inclusive participation strengthens democratic governance while seeking input from the conversational partner on another key aspect—civic engagement—to further explore shared values around democratic ideals.",
-1.0,message_sent,67e997BPEY,67e997BPEY,67f1a7BPEY,,,20:40:39.458000 2025:04:22,,
-1.0,message_recieved,67f1a7BPEY,67e997BPEY,67f1a7BPEY,,,20:40:38.951000 2025:04:22,,
+By continuing the discussion, you emphasize how inclusive participation strengthens democratic governance while seeking input from the conversational partner on another key aspect—civic engagement—to further explore shared values around democratic ideals.",,
+1.0,message_sent,67e997BPEY,67e997BPEY,67f1a7BPEY,,,20:40:39.458000 2025:04:22,,,
+1.0,message_recieved,67f1a7BPEY,67e997BPEY,67f1a7BPEY,,,20:40:38.951000 2025:04:22,,,
 2.0,tweet,67f1a7BPEY,67f1a7BPEY,6786d7BPEY,,Hello,20:42:17.818000 2025:04:22,"  
 
 ---
@@ -48,7 +48,7 @@ Now let's move into the conversation with 6786D after sharing my tweet.
 
 ### Seeing Both Tweets:
 #### Your Tweet:
-Living in a country that is governed democratically is crucial.",
+Living in a country that is governed democratically is crucial.",,Certainly agree
 2.0,tweet,6786d7BPEY,6786d7BPEY,67f1a7BPEY,,A democratic government is important both for individual liberty and just governance of a society of free people.,20:42:47.003000 2025:04:22,"    
 
 It looks like there might've been some confusion in the prompt. Let me craft the initial tweet for you:
@@ -59,7 +59,7 @@ Now let’s proceed with the conversation setup between you and 67f1A:
 
 ### Conversation Setup:
 #### **Your Initial Post**
-**My Tweet:** A democratic system empowers citizens, ensuring accountability and representation. It safeguards",
+**My Tweet:** A democratic system empowers citizens, ensuring accountability and representation. It safeguards",,Certainly agree
 2.0,tweet,67e997BPEY,67e997BPEY,6683f7BPEY,,"Democracy isn’t flawless, but living under accountable governance where rights are protected, voices heard, and power peacefully transferred is vital for freedom and progress.",20:42:56.681000 2025:04:22,"   
 Oops—it looks like you might've accidentally repeated parts of the prompt. Let's focus specifically on crafting your new tweet:
 
@@ -67,7 +67,7 @@ Oops—it looks like you might've accidentally repeated parts of the prompt. Let
 
 Now let's move onto the hypothetical exchange with 6683F once they share their thoughts!
 
-If 6",
+If 6",,
 2.0,tweet,6683f7BPEY,6683f7BPEY,67e997BPEY,,"Although it may not seem like it right now, living in a democracy allows citizens to participate in shaping their government and enjoy freedoms",20:43:12.254000 2025:04:22,"    
 
 It seems there might have been some confusion. Let me craft your tweet for the new conversation:
@@ -80,72 +80,72 @@ Now let’s move forward with the next part of the interaction. Here is what 67e
 
 ### Conversation Start:
 #### **Your Tweet:**
-A functioning democracy safeguards fundamental liberties and promotes equitable representation. Every",
+A functioning democracy safeguards fundamental liberties and promotes equitable representation. Every",,Certainly agree
 2.0,message_sent,67f1a7BPEY,67f1a7BPEY,6786d7BPEY,,"Living in a democratic country means having a voice, rights, and the power to shape your future. That is something worth protecting.",20:44:35.461000 2025:04:22,"Absolutely! Democratic systems truly empower individuals by giving them a stake in decision-making processes and holding elected officials accountable. Ensuring representation and safeguarding freedoms are fundamental. How do you think we can encourage greater civic involvement and uphold these principles effectively in our communities?
 
 ---
 
-Let's continue assuming the context provided above, reflecting your background and beliefs while responding meaningfully to potential comments or questions regarding democratic governance. If you could provide 6786D's specific comment or question, I'd tailor the response",
+Let's continue assuming the context provided above, reflecting your background and beliefs while responding meaningfully to potential comments or questions regarding democratic governance. If you could provide 6786D's specific comment or question, I'd tailor the response",,
 2.0,message_recieved,6786d7BPEY,67f1a7BPEY,6786d7BPEY,,"Living in a democratic country means having a voice, rights, and the power to shape your future. That is something worth protecting.",20:44:38.354000 2025:04:22,"Absolutely! Democratic systems truly empower individuals by giving them a stake in decision-making processes and holding elected officials accountable. Ensuring representation and safeguarding freedoms are fundamental. How do you think we can encourage greater civic involvement and uphold these principles effectively in our communities?
 
 ---
 
-Let's continue assuming the context provided above, reflecting your background and beliefs while responding meaningfully to potential comments or questions regarding democratic governance. If you could provide 6786D's specific comment or question, I'd tailor the response",
-2.0,message_sent,67e997BPEY,67e997BPEY,6683f7BPEY,,Democracy's chaos is better than authoritarian 'order'—at least we can change things without revolution.,20:45:27.432000 2025:04:22,"Absolutely essential indeed. Ensuring everyone has a say and that representation is fair is crucial. Though challenges exist in achieving full equity, the principles behind democracy offer a path toward continuous improvement. Do you feel certain democratic institutions could use reform to address any disparities you’ve noticed? #DemocracyDiscussion",
-2.0,message_recieved,6683f7BPEY,67e997BPEY,6683f7BPEY,,Democracy's chaos is better than authoritarian 'order'—at least we can change things without revolution.,20:45:29.463000 2025:04:22,"Absolutely essential indeed. Ensuring everyone has a say and that representation is fair is crucial. Though challenges exist in achieving full equity, the principles behind democracy offer a path toward continuous improvement. Do you feel certain democratic institutions could use reform to address any disparities you’ve noticed? #DemocracyDiscussion",
+Let's continue assuming the context provided above, reflecting your background and beliefs while responding meaningfully to potential comments or questions regarding democratic governance. If you could provide 6786D's specific comment or question, I'd tailor the response",,
+2.0,message_sent,67e997BPEY,67e997BPEY,6683f7BPEY,,Democracy's chaos is better than authoritarian 'order'—at least we can change things without revolution.,20:45:27.432000 2025:04:22,"Absolutely essential indeed. Ensuring everyone has a say and that representation is fair is crucial. Though challenges exist in achieving full equity, the principles behind democracy offer a path toward continuous improvement. Do you feel certain democratic institutions could use reform to address any disparities you’ve noticed? #DemocracyDiscussion",,
+2.0,message_recieved,6683f7BPEY,67e997BPEY,6683f7BPEY,,Democracy's chaos is better than authoritarian 'order'—at least we can change things without revolution.,20:45:29.463000 2025:04:22,"Absolutely essential indeed. Ensuring everyone has a say and that representation is fair is crucial. Though challenges exist in achieving full equity, the principles behind democracy offer a path toward continuous improvement. Do you feel certain democratic institutions could use reform to address any disparities you’ve noticed? #DemocracyDiscussion",,
 2.0,message_sent,6683f7BPEY,6683f7BPEY,67e997BPEY,,"democratic governments are more likely to invest in social welfare programs , education, healthcare, and other essential services",20:45:40.792000 2025:04:22,"Absolutely, addressing those institutional disparities is critical. Reforming aspects such as voting accessibility, campaign finance regulations, and anti-discrimination measures can help bridge gaps and ensure that democratic ideals translate into tangible realities for everyone. What specific reforms do you think could have the most significant impact? #DemocracyDiscussion
 
 ---
 
-In this response, you continue to highlight the importance of ongoing efforts towards improving democratic structures while inviting 67e9９ to share their ideas on potential reforms. This keeps the dialogue open and",
+In this response, you continue to highlight the importance of ongoing efforts towards improving democratic structures while inviting 67e9９ to share their ideas on potential reforms. This keeps the dialogue open and",,
 2.0,message_recieved,67e997BPEY,6683f7BPEY,67e997BPEY,,"democratic governments are more likely to invest in social welfare programs , education, healthcare, and other essential services",20:45:40.452000 2025:04:22,"Absolutely, addressing those institutional disparities is critical. Reforming aspects such as voting accessibility, campaign finance regulations, and anti-discrimination measures can help bridge gaps and ensure that democratic ideals translate into tangible realities for everyone. What specific reforms do you think could have the most significant impact? #DemocracyDiscussion
 
 ---
 
-In this response, you continue to highlight the importance of ongoing efforts towards improving democratic structures while inviting 67e9９ to share their ideas on potential reforms. This keeps the dialogue open and",
+In this response, you continue to highlight the importance of ongoing efforts towards improving democratic structures while inviting 67e9９ to share their ideas on potential reforms. This keeps the dialogue open and",,
 2.0,message_sent,6786d7BPEY,6786d7BPEY,67f1a7BPEY,,"These unalienable rights of life, liberty, and the pursuit of happiness are foundational as humans and as citizens of a democratic society. Taking those away is the highest crime against any human.",20:46:40.636000 2025:04:22,"Great points! Encouraging civic involvement starts early—from educating students about civics and encouraging community service to creating accessible platforms for public discourse. Engaged citizens lead to stronger checks on power and better representation. What initiatives do you find effective in promoting active citizenship? 
 
 ---
 
-Continuing the conversation, this approach emphasizes educational efforts and practical steps toward fostering engaged citizenry, aligning well with the importance placed on democratic principles.",
+Continuing the conversation, this approach emphasizes educational efforts and practical steps toward fostering engaged citizenry, aligning well with the importance placed on democratic principles.",,
 2.0,message_recieved,67f1a7BPEY,6786d7BPEY,67f1a7BPEY,,"These unalienable rights of life, liberty, and the pursuit of happiness are foundational as humans and as citizens of a democratic society. Taking those away is the highest crime against any human.",20:46:39.193000 2025:04:22,"Great points! Encouraging civic involvement starts early—from educating students about civics and encouraging community service to creating accessible platforms for public discourse. Engaged citizens lead to stronger checks on power and better representation. What initiatives do you find effective in promoting active citizenship? 
 
 ---
 
-Continuing the conversation, this approach emphasizes educational efforts and practical steps toward fostering engaged citizenry, aligning well with the importance placed on democratic principles.",
+Continuing the conversation, this approach emphasizes educational efforts and practical steps toward fostering engaged citizenry, aligning well with the importance placed on democratic principles.",,
 2.0,message_sent,67e997BPEY,67e997BPEY,6683f7BPEY,,"I agree with you, look at our country, the fruits of democracy are being enjoyed by every citizen",20:46:35.611000 2025:04:22,"Absolutely, those reforms sound promising. Improving voting accessibility and regulating campaign finances could significantly level the playing field. Addressing systemic biases and discrimination should also be priorities. These changes align closely with the idea of ensuring genuine representation and safeguarding liberty for all citizens. Are there particular areas where you believe immediate action is needed? #DemocracyDiscussion
 
 --- 
 
-By focusing on actionable reforms and seeking further insight from 6683F, the discussion continues constructively around enhancing democratic processes.",
+By focusing on actionable reforms and seeking further insight from 6683F, the discussion continues constructively around enhancing democratic processes.",,
 2.0,message_recieved,6683f7BPEY,67e997BPEY,6683f7BPEY,,"I agree with you, look at our country, the fruits of democracy are being enjoyed by every citizen",20:46:37.560000 2025:04:22,"Absolutely, those reforms sound promising. Improving voting accessibility and regulating campaign finances could significantly level the playing field. Addressing systemic biases and discrimination should also be priorities. These changes align closely with the idea of ensuring genuine representation and safeguarding liberty for all citizens. Are there particular areas where you believe immediate action is needed? #DemocracyDiscussion
 
 --- 
 
-By focusing on actionable reforms and seeking further insight from 6683F, the discussion continues constructively around enhancing democratic processes.",
-2.0,message_sent,6786d7BPEY,6786d7BPEY,67f1a7BPEY,,,20:46:40.636000 2025:04:22,,
-2.0,message_recieved,67f1a7BPEY,6786d7BPEY,67f1a7BPEY,,,20:46:39.193000 2025:04:22,,
+By focusing on actionable reforms and seeking further insight from 6683F, the discussion continues constructively around enhancing democratic processes.",,
+2.0,message_sent,6786d7BPEY,6786d7BPEY,67f1a7BPEY,,,20:46:40.636000 2025:04:22,,,
+2.0,message_recieved,67f1a7BPEY,6786d7BPEY,67f1a7BPEY,,,20:46:39.193000 2025:04:22,,,
 2.0,message_sent,67f1a7BPEY,67f1a7BPEY,6786d7BPEY,,Absolutely agree. Democracy protects individual rights while ensuring leaders are accountable to the people they serve.,20:46:49.386000 2025:04:22,"Absolutely! Educating young people about civics and encouraging community service are excellent ways to foster informed and engaged citizens. Initiatives like voter registration drives, town hall meetings, and transparent government communications also help keep the lines open between policymakers and the public. Additionally, faith-based organizations often play a significant role in mobilizing volunteers and advocating for policies aligned with shared moral and ethical standards. These collective efforts reinforce the importance of participatory democracy and ensure leaders stay accountable.
 
-What kinds of programs or events have you",
+What kinds of programs or events have you",,
 2.0,message_recieved,6786d7BPEY,67f1a7BPEY,6786d7BPEY,,Absolutely agree. Democracy protects individual rights while ensuring leaders are accountable to the people they serve.,20:46:52.290000 2025:04:22,"Absolutely! Educating young people about civics and encouraging community service are excellent ways to foster informed and engaged citizens. Initiatives like voter registration drives, town hall meetings, and transparent government communications also help keep the lines open between policymakers and the public. Additionally, faith-based organizations often play a significant role in mobilizing volunteers and advocating for policies aligned with shared moral and ethical standards. These collective efforts reinforce the importance of participatory democracy and ensure leaders stay accountable.
 
-What kinds of programs or events have you",
+What kinds of programs or events have you",,
 2.0,message_sent,6786d7BPEY,6786d7BPEY,67f1a7BPEY,,At least ideally that's the case,20:47:15.091000 2025:04:22,"Great insight! Programs that combine education with real-world application, like mock elections or student-led advocacy campaigns, can really drive home the value of civic engagement. Faith-based groups indeed add a vital layer to community organizing—they bring trust and cohesion. Town halls and regular updates from local representatives are indispensable too; they create transparency and build trust. Have you seen any particular success stories locally or nationally where these elements came together effectively?
 
 ---
 
-In this continuation, the focus remains on concrete examples of successful civic engagement practices",
+In this continuation, the focus remains on concrete examples of successful civic engagement practices",,
 2.0,message_recieved,67f1a7BPEY,6786d7BPEY,67f1a7BPEY,,At least ideally that's the case,20:47:13.651000 2025:04:22,"Great insight! Programs that combine education with real-world application, like mock elections or student-led advocacy campaigns, can really drive home the value of civic engagement. Faith-based groups indeed add a vital layer to community organizing—they bring trust and cohesion. Town halls and regular updates from local representatives are indispensable too; they create transparency and build trust. Have you seen any particular success stories locally or nationally where these elements came together effectively?
 
 ---
 
-In this continuation, the focus remains on concrete examples of successful civic engagement practices",
+In this continuation, the focus remains on concrete examples of successful civic engagement practices",,
 3.0,tweet,6786d7BPEY,6786d7BPEY,67e997BPEY,,"What must life be like to be deprived of basic liberties and a voice that is free to criticize those in power?! ""Give me liberty or give me death"" sounds extreme but imagine NOT being free to just BE??",20:49:06.745000 2025:04:22,"My Tweet: Living in a country that is governed democratically is paramount. It ensures accountability, equal representation, and protection of basic freedoms. Without民主治理，国家无法真正反映人民的意志和需求。这种体制下的集体智慧和多元视角有助于制定更全面、公正的政策。
 
 Since the instruction specifies English communication, here is the translation:
 
-My Tweet: Living in a country that is governed democratically is paramount. It ensures accountability, equal representation, and protection of basic freedoms. Collective",
+My Tweet: Living in a country that is governed democratically is paramount. It ensures accountability, equal representation, and protection of basic freedoms. Collective",,Certainly agree
 3.0,tweet,67f1a7BPEY,67f1a7BPEY,6683f7BPEY,,"Living in a country that is governed democratically is important because it ensures that people have a voice in decisions that affect their lives. Democracy promotes accountability, freedom, and equal rights for all citizens.",20:49:25.671000 2025:04:22,"    
 
 My Tweet: Living in a country that is governed democratically is absolutely crucial. It ensures that every citizen has a voice, holds leaders accountable, and protects basic freedoms and rights. Without democracy, true progress and justice cannot flourish. #DemocracyMatters
@@ -160,7 +160,7 @@ Living in a country that is governed democratically is absolutely crucial.
 
 6683F's tweet:
 
-(We'll assume 6683",
+(We'll assume 6683",,Certainly agree
 3.0,tweet,67e997BPEY,67e997BPEY,6786d7BPEY,,"No system is perfect, but democracy lets us fix flaws peacefully. Rigid regimes fear protests; democracies absorb them and evolve.",20:49:29.389000 2025:04:22,"   
 My Tweet: Living in a country that is governed democratically is vital for preserving freedoms and ensuring citizens' voices matter. Despite imperfections, democracy provides a pathway for collective decision-making and holding leaders accountable. Still, realizing true equality remains a challenge. Thoughts? #DemocraticValues 🗳️✨
 
@@ -168,7 +168,7 @@ My Tweet: Living in a country that is governed democratically is vital for prese
 
 Here’s how you’ll kick off the conversation with 6786D:
 
-My Tweet: Living in a country that is governed democratically is vital for preserving freedoms and ensuring citizens",
+My Tweet: Living in a country that is governed democratically is vital for preserving freedoms and ensuring citizens",,Certainly agree
 3.0,tweet,6683f7BPEY,6683f7BPEY,67f1a7BPEY,,Democratic societies aim for equal rights and opportunities for all citizens regardless of their background. Hopefully we will get this right for all one day,20:49:32.221000 2025:04:22,"    
 
 My Tweet: Living in a country that is governed democratically is vital for protecting civil liberties and fostering equal representation. While challenges remain, democracy offers the best pathway for accountability and progressive change. #DemocracyMatters 🗳️EQUALITY💪
@@ -177,204 +177,204 @@ My Tweet: Living in a country that is governed democratically is vital for prote
 
 With this crafted tweet, you clearly articulate your stance on the importance of democratic governance and invite further discussion on its significance. Now, let's proceed with the conversation with 67f1aa.
 
-67f1aa's tweet",
+67f1aa's tweet",,Certainly agree
 3.0,message_sent,67e997BPEY,67e997BPEY,6786d7BPEY,,"Democracy is not just voting, it is the freedom to demand better.",20:50:59.981000 2025:04:22,"Absolutely, democratic governance truly does provide a system where diverse perspectives come together for comprehensive policies. The emphasis on accountability and equal representation cannot be understated—they're foundational to protecting individual freedoms and reflecting the will of the populace. Given the complexities involved, which aspect of democracy do you think needs the most attention right now to strengthen these core values? #DemocraticValues 🗳️✨
 
 ---
 
-Through this response, you aim to keep the conversation focused on reinforcing the importance of democracy while exploring practical ways to",
+Through this response, you aim to keep the conversation focused on reinforcing the importance of democracy while exploring practical ways to",,
 3.0,message_recieved,6786d7BPEY,67e997BPEY,6786d7BPEY,,"Democracy is not just voting, it is the freedom to demand better.",20:51:01.071000 2025:04:22,"Absolutely, democratic governance truly does provide a system where diverse perspectives come together for comprehensive policies. The emphasis on accountability and equal representation cannot be understated—they're foundational to protecting individual freedoms and reflecting the will of the populace. Given the complexities involved, which aspect of democracy do you think needs the most attention right now to strengthen these core values? #DemocraticValues 🗳️✨
 
 ---
 
-Through this response, you aim to keep the conversation focused on reinforcing the importance of democracy while exploring practical ways to",
+Through this response, you aim to keep the conversation focused on reinforcing the importance of democracy while exploring practical ways to",,
 3.0,message_sent,6786d7BPEY,6786d7BPEY,67e997BPEY,,I agree. Peace through fear and violence isn't peace and control through suppression isn't civility .,20:51:11.293000 2025:04:22,"Absolutely true! Strengthening democracy requires ongoing effort across multiple fronts. Right now, enhancing media literacy seems particularly critical—it helps combat misinformation and supports informed decision-making. Transparency in government operations and accessibility to political processes for marginalized communities are also areas needing improvement. By addressing these aspects, we can fortify democratic institutions and ensure they remain resilient against challenges. What changes do you envision making the biggest impact in bolstering democratic values today?
    
 ---
 
-Given the context of the previous exchanges, focusing on media literacy",
+Given the context of the previous exchanges, focusing on media literacy",,
 3.0,message_recieved,67e997BPEY,6786d7BPEY,67e997BPEY,,I agree. Peace through fear and violence isn't peace and control through suppression isn't civility .,20:51:11.909000 2025:04:22,"Absolutely true! Strengthening democracy requires ongoing effort across multiple fronts. Right now, enhancing media literacy seems particularly critical—it helps combat misinformation and supports informed decision-making. Transparency in government operations and accessibility to political processes for marginalized communities are also areas needing improvement. By addressing these aspects, we can fortify democratic institutions and ensure they remain resilient against challenges. What changes do you envision making the biggest impact in bolstering democratic values today?
    
 ---
 
-Given the context of the previous exchanges, focusing on media literacy",
+Given the context of the previous exchanges, focusing on media literacy",,
 3.0,message_sent,6683f7BPEY,6683f7BPEY,67f1a7BPEY,,I hope our country can get back to a place where these things are shown to be true for all,20:51:26.414000 2025:04:22,"Absolutely, having every citizen's voice heard and holding leaders accountable are foundational elements of a healthy democracy. True progress and justice thrive when these core principles are upheld consistently. Reflecting on recent events, which actions or initiatives do you find particularly impactful in strengthening democratic practices today? #DemocracyMatters
 
 ---
 
-Through this reply, you aim to keep the conversation focused on practical examples and contemporary issues related to bolstering democratic systems. This encourages continued exploration of concrete steps towards reinforcing democratic values.",
+Through this reply, you aim to keep the conversation focused on practical examples and contemporary issues related to bolstering democratic systems. This encourages continued exploration of concrete steps towards reinforcing democratic values.",,
 3.0,message_recieved,67f1a7BPEY,6683f7BPEY,67f1a7BPEY,,I hope our country can get back to a place where these things are shown to be true for all,20:51:23.999000 2025:04:22,"Absolutely, having every citizen's voice heard and holding leaders accountable are foundational elements of a healthy democracy. True progress and justice thrive when these core principles are upheld consistently. Reflecting on recent events, which actions or initiatives do you find particularly impactful in strengthening democratic practices today? #DemocracyMatters
 
 ---
 
-Through this reply, you aim to keep the conversation focused on practical examples and contemporary issues related to bolstering democratic systems. This encourages continued exploration of concrete steps towards reinforcing democratic values.",
-3.0,message_sent,67f1a7BPEY,67f1a7BPEY,6683f7BPEY,,"Absolutely, protecting those rights is essential to preserving our dignity and freedom. What do you think is the biggest threat to those rights in today's world?",20:51:50.408000 2025:04:22,"Absolutely, I completely agree with you. Recent actions such as increased emphasis on voter education and outreach programs have made a noticeable impact. Efforts to combat misinformation and promote accurate voting resources also strengthen democratic practices. For instance, initiatives that partner schools, churches, and community centers to educate voters about the candidates and ballot measures significantly boost civic awareness. Similarly, technology plays a critical role in enhancing accessibility—voter registration apps and online forums for candidate debates can reach broader audiences efficiently. Do you feel there are",
-3.0,message_recieved,6683f7BPEY,67f1a7BPEY,6683f7BPEY,,"Absolutely, protecting those rights is essential to preserving our dignity and freedom. What do you think is the biggest threat to those rights in today's world?",20:51:54.400000 2025:04:22,"Absolutely, I completely agree with you. Recent actions such as increased emphasis on voter education and outreach programs have made a noticeable impact. Efforts to combat misinformation and promote accurate voting resources also strengthen democratic practices. For instance, initiatives that partner schools, churches, and community centers to educate voters about the candidates and ballot measures significantly boost civic awareness. Similarly, technology plays a critical role in enhancing accessibility—voter registration apps and online forums for candidate debates can reach broader audiences efficiently. Do you feel there are",
+Through this reply, you aim to keep the conversation focused on practical examples and contemporary issues related to bolstering democratic systems. This encourages continued exploration of concrete steps towards reinforcing democratic values.",,
+3.0,message_sent,67f1a7BPEY,67f1a7BPEY,6683f7BPEY,,"Absolutely, protecting those rights is essential to preserving our dignity and freedom. What do you think is the biggest threat to those rights in today's world?",20:51:50.408000 2025:04:22,"Absolutely, I completely agree with you. Recent actions such as increased emphasis on voter education and outreach programs have made a noticeable impact. Efforts to combat misinformation and promote accurate voting resources also strengthen democratic practices. For instance, initiatives that partner schools, churches, and community centers to educate voters about the candidates and ballot measures significantly boost civic awareness. Similarly, technology plays a critical role in enhancing accessibility—voter registration apps and online forums for candidate debates can reach broader audiences efficiently. Do you feel there are",,
+3.0,message_recieved,6683f7BPEY,67f1a7BPEY,6683f7BPEY,,"Absolutely, protecting those rights is essential to preserving our dignity and freedom. What do you think is the biggest threat to those rights in today's world?",20:51:54.400000 2025:04:22,"Absolutely, I completely agree with you. Recent actions such as increased emphasis on voter education and outreach programs have made a noticeable impact. Efforts to combat misinformation and promote accurate voting resources also strengthen democratic practices. For instance, initiatives that partner schools, churches, and community centers to educate voters about the candidates and ballot measures significantly boost civic awareness. Similarly, technology plays a critical role in enhancing accessibility—voter registration apps and online forums for candidate debates can reach broader audiences efficiently. Do you feel there are",,
 3.0,message_sent,6683f7BPEY,6683f7BPEY,67f1a7BPEY,,For my country i It's our President,20:53:09.799000 2025:04:22,"Absolutely, increasing voter education and utilizing technology to enhance accessibility are game-changers. Initiatives like partnering educational institutions and community hubs with digital platforms really amplify the voices of many who otherwise wouldn’t participate. Additionally, making sure marginalized communities have access to reliable information and support during elections is pivotal. Have you seen any local grassroots movements that effectively advocate for these kinds of improvements? #DemocracyMatters
 
 ---
 
-Continuing the conversation in this manner allows for a deeper dive into effective strategies and real-world applications",
+Continuing the conversation in this manner allows for a deeper dive into effective strategies and real-world applications",,
 3.0,message_recieved,67f1a7BPEY,6683f7BPEY,67f1a7BPEY,,For my country i It's our President,20:53:07.383000 2025:04:22,"Absolutely, increasing voter education and utilizing technology to enhance accessibility are game-changers. Initiatives like partnering educational institutions and community hubs with digital platforms really amplify the voices of many who otherwise wouldn’t participate. Additionally, making sure marginalized communities have access to reliable information and support during elections is pivotal. Have you seen any local grassroots movements that effectively advocate for these kinds of improvements? #DemocracyMatters
 
 ---
 
-Continuing the conversation in this manner allows for a deeper dive into effective strategies and real-world applications",
-3.0,message_sent,6683f7BPEY,6683f7BPEY,67f1a7BPEY,,,20:53:09.799000 2025:04:22,,
-3.0,message_recieved,67f1a7BPEY,6683f7BPEY,67f1a7BPEY,,,20:53:07.383000 2025:04:22,,
+Continuing the conversation in this manner allows for a deeper dive into effective strategies and real-world applications",,
+3.0,message_sent,6683f7BPEY,6683f7BPEY,67f1a7BPEY,,,20:53:09.799000 2025:04:22,,,
+3.0,message_recieved,67f1a7BPEY,6683f7BPEY,67f1a7BPEY,,,20:53:07.383000 2025:04:22,,,
 3.0,message_sent,67f1a7BPEY,67f1a7BPEY,6683f7BPEY,,"I feel the same, true democracy means those rights apply to everyone.",20:53:25.380000 2025:04:22,"Absolutely! Grassroots movements often lead the way in driving meaningful changes. Here in [Urban Area], there are several local organizations focusing on voter empowerment, especially among minority and youth populations. They organize workshops, distribute informational materials, and even assist with navigating the sometimes complex electoral process. Technology has played a big part here too – social media campaigns and mobile app alerts help spread messages quickly and widely. These collaborative efforts highlight the importance of staying vigilant and continuously improving our democratic practices.
 
-How about where you live",
+How about where you live",,
 3.0,message_recieved,6683f7BPEY,67f1a7BPEY,6683f7BPEY,,"I feel the same, true democracy means those rights apply to everyone.",20:53:29.259000 2025:04:22,"Absolutely! Grassroots movements often lead the way in driving meaningful changes. Here in [Urban Area], there are several local organizations focusing on voter empowerment, especially among minority and youth populations. They organize workshops, distribute informational materials, and even assist with navigating the sometimes complex electoral process. Technology has played a big part here too – social media campaigns and mobile app alerts help spread messages quickly and widely. These collaborative efforts highlight the importance of staying vigilant and continuously improving our democratic practices.
 
-How about where you live",
+How about where you live",,
 ,Post Opinion,6786d7BPEY,,,,100% agree,20:54:17.403000 2025:04:22,"Absolutely, living in a country governed democratically is incredibly important because it guarantees accountability, equal representation, and the protection of fundamental freedoms. Through continuous efforts to enhance media literacy, increase transparency, and improve accessibility for all segments of society, we can fortify democratic values and ensure that governance reflects the will and needs of the people.","Certainly agree
 
 After the conversations, my stance remains firm that living in a country governed democratically is vitally important. Emphasizing accountability, equal representation, and protection of freedoms continues to underscore why democracy matters deeply. Enhancing areas like media literacy and increasing governmental transparency are key to maintaining strong democratic societies. Thus, I still ""Certainly agree"" with the original sentiment.
    
 ---
 
-The exchange reinforced the significance of democracy while highlighting necessary improvements, yet did not sway my conviction on its overall importance."
+The exchange reinforced the significance of democracy while highlighting necessary improvements, yet did not sway my conviction on its overall importance.",Certainly agree
 ,Post Opinion,67e997BPEY,,,,"I agree with the statement that living in the country that is governed democratically is important. Its democracy that has made us who we are, The Great America!",20:55:27.705000 2025:04:22,"Absolutely, after these thoughtful discussions, I still lean slightly towards agreeing with the importance of living in a democratically governed country. Democratic governance ensures that citizens have a say in policy-making, fosters transparency, and protects fundamental freedoms. Continuous improvements and reforms are necessary to address existing disparities and uphold the integrity of democratic values.","Lean agree
 
-After engaging in thoughtful conversations about the nuances and challenges of democracy, I lean slightly more towards recognizing the value and necessity of democratic governance, though still aware of its shortcomings and the work required to improve it."
+After engaging in thoughtful conversations about the nuances and challenges of democracy, I lean slightly more towards recognizing the value and necessity of democratic governance, though still aware of its shortcomings and the work required to improve it.",Lean agree
 ,Post Opinion,67f1a7BPEY,,,,I believe achieving true equality in a democracy requires both accountability from leaders and active participation from citizens. Change happens when people demand fairness.,20:55:51.565000 2025:04:22,"Absolutely, living in a country that is governed democratically is incredibly important. Through my conversations, it became clear that democracy fosters accountability, equal representation, and protection of individual freedoms. Effective voter education, technological advancements, and grassroots movements are instrumental in sustaining strong democratic practices and ensuring that every voice is heard.
 
 In light of these exchanges, my conviction that democracy is essential for societal progress and justice remains unchanged. Civic engagement and continuous improvement in democratic processes are vital to uphold these ideals.","Certainly agree
 
-After discussing and exchanging ideas around the importance of living in a country governed democratically, my conviction remains strong. Engagement with others has reinforced the necessity of democracy for ensuring fairness, accountability, and the protection of individual rights. Therefore, my position stays firm at ""Certainly agree."""
+After discussing and exchanging ideas around the importance of living in a country governed democratically, my conviction remains strong. Engagement with others has reinforced the necessity of democracy for ensuring fairness, accountability, and the protection of individual rights. Therefore, my position stays firm at ""Certainly agree.""",Certainly agree
 ,Post Opinion,6683f7BPEY,,,,It was nice to speak on a topic that is will continue to effect us all in the future. Hopefully things will continue in a positive direction and we will be able to live as our co,20:55:51.565000 2025:04:22,"Absolutely, living in a country governed democratically is incredibly important. Through my conversations, it became clear that democracy provides essential protections for civil liberties and fosters greater accountability and inclusion. Effective reforms and grassroots movements play a crucial role in ensuring that democratic ideals translate into tangible benefits for all citizens. Continual vigilance and active civic engagement are necessary to uphold and improve upon these foundational principles. #DemocracyMatters
 
 ---
 
 These exchanges reinforced my conviction that democratic governance is indispensable for promoting freedom, equity,","Certainly agree
 
-Despite engaging in thoughtful conversations highlighting the complexities and necessary reforms within democratic systems, my core belief remains steadfast—that living in a country governed democratically is fundamentally important for safeguarding liberties, promoting equitable representation, and enabling positive societal progression."
-,exit_survey,6786d7BPEY,,,age,48,,,
-,exit_survey,6786d7BPEY,,,gender,male,,,
-,exit_survey,6786d7BPEY,,,residency,United States of America,,,
-,exit_survey,6786d7BPEY,,,origin,United States of America,,,
-,exit_survey,6786d7BPEY,,,education,master-doctoral,,,
-,exit_survey,6786d7BPEY,,,ethnicity,['white'],,,
-,exit_survey,6786d7BPEY,,,income,100k-150k,,,
-,exit_survey,6786d7BPEY,,,politicalIdentity,independent,,,
-,exit_survey,6786d7BPEY,,,politicalViews,liberal,,,
-,exit_survey,6786d7BPEY,,,maritalStatus,married,,,
-,exit_survey,6786d7BPEY,,,childrenSchool,"['public', 'university']",,,
-,exit_survey,6786d7BPEY,,,residence,rural,,,
-,exit_survey,6786d7BPEY,,,bibleBelief,ancient-book,,,
-,exit_survey,6786d7BPEY,,,religion,protestant,,,
-,exit_survey,6786d7BPEY,,,evangelical,yes,,,
-,exit_survey,6786d7BPEY,,,occupation,education,,,
-,exit_survey,6683f7BPEY,,,age,27,,,
-,exit_survey,6683f7BPEY,,,gender,female,,,
-,exit_survey,6683f7BPEY,,,residency,United States of America,,,
-,exit_survey,6683f7BPEY,,,origin,United States of America,,,
-,exit_survey,6683f7BPEY,,,income,75k-100k,,,
-,exit_survey,6683f7BPEY,,,ethnicity,['black'],,,
-,exit_survey,6683f7BPEY,,,education,bachelor,,,
-,exit_survey,6683f7BPEY,,,politicalIdentity,strong-democrat,,,
-,exit_survey,6683f7BPEY,,,politicalViews,very-liberal,,,
-,exit_survey,6683f7BPEY,,,maritalStatus,never-married,,,
-,exit_survey,6683f7BPEY,,,bibleBelief,inspired,,,
-,exit_survey,6683f7BPEY,,,residence,rural,,,
-,exit_survey,6683f7BPEY,,,childrenSchool,['no-children'],,,
-,exit_survey,6683f7BPEY,,,occupation,law,,,
-,exit_survey,6683f7BPEY,,,evangelical,dont-know,,,
-,exit_survey,6683f7BPEY,,,religion,roman-catholic,,,
-,exit_survey,67f1a7BPEY,,,age,50,,,
-,exit_survey,67f1a7BPEY,,,gender,female,,,
-,exit_survey,67f1a7BPEY,,,residency,Albania,,,
-,exit_survey,67f1a7BPEY,,,origin,United States of America,,,
-,exit_survey,67f1a7BPEY,,,education,bachelor,,,
-,exit_survey,67f1a7BPEY,,,ethnicity,['white'],,,
-,exit_survey,67f1a7BPEY,,,income,75k-100k,,,
-,exit_survey,67f1a7BPEY,,,politicalViews,very-conservative,,,
-,exit_survey,67f1a7BPEY,,,politicalIdentity,democrat,,,
-,exit_survey,67f1a7BPEY,,,maritalStatus,married,,,
-,exit_survey,67f1a7BPEY,,,childrenSchool,"['private', 'university']",,,
-,exit_survey,67f1a7BPEY,,,residence,urban,,,
-,exit_survey,67f1a7BPEY,,,bibleBelief,inspired,,,
-,exit_survey,67f1a7BPEY,,,evangelical,yes,,,
-,exit_survey,67f1a7BPEY,,,religion,protestant,,,
-,exit_survey,67f1a7BPEY,,,occupation,engineering,,,
-,exit_survey,67e997BPEY,,,age,33,,,
-,exit_survey,67e997BPEY,,,gender,female,,,
-,exit_survey,67e997BPEY,,,origin,United States of America,,,
-,exit_survey,67e997BPEY,,,residency,United States of America,,,
-,exit_survey,67e997BPEY,,,education,master-doctoral,,,
-,exit_survey,67e997BPEY,,,ethnicity,['black'],,,
-,exit_survey,67e997BPEY,,,politicalIdentity,republican,,,
-,exit_survey,67e997BPEY,,,income,50k-75k,,,
-,exit_survey,67e997BPEY,,,politicalViews,conservative,,,
-,exit_survey,67e997BPEY,,,maritalStatus,living-partner,,,
-,exit_survey,67e997BPEY,,,childrenSchool,['out-of-school'],,,
-,exit_survey,67e997BPEY,,,residence,suburban,,,
-,exit_survey,67e997BPEY,,,bibleBelief,literal,,,
-,exit_survey,67e997BPEY,,,evangelical,yes,,,
-,exit_survey,67e997BPEY,,,religion,roman-catholic,,,
-,exit_survey,67e997BPEY,,,occupation,research,,,
-,exit_survey,6786d7BPEY,,,age,48,,,
-,exit_survey,6786d7BPEY,,,gender,male,,,
-,exit_survey,6786d7BPEY,,,residency,United States of America,,,
-,exit_survey,6786d7BPEY,,,origin,United States of America,,,
-,exit_survey,6786d7BPEY,,,education,master-doctoral,,,
-,exit_survey,6786d7BPEY,,,ethnicity,['white'],,,
-,exit_survey,6786d7BPEY,,,income,100k-150k,,,
-,exit_survey,6786d7BPEY,,,politicalIdentity,independent,,,
-,exit_survey,6786d7BPEY,,,politicalViews,liberal,,,
-,exit_survey,6786d7BPEY,,,maritalStatus,married,,,
-,exit_survey,6786d7BPEY,,,childrenSchool,"['public', 'university']",,,
-,exit_survey,6786d7BPEY,,,residence,rural,,,
-,exit_survey,6786d7BPEY,,,bibleBelief,ancient-book,,,
-,exit_survey,6786d7BPEY,,,religion,protestant,,,
-,exit_survey,6786d7BPEY,,,evangelical,yes,,,
-,exit_survey,6786d7BPEY,,,occupation,education,,,
-,exit_survey,6683f7BPEY,,,age,27,,,
-,exit_survey,6683f7BPEY,,,gender,female,,,
-,exit_survey,6683f7BPEY,,,residency,United States of America,,,
-,exit_survey,6683f7BPEY,,,origin,United States of America,,,
-,exit_survey,6683f7BPEY,,,income,75k-100k,,,
-,exit_survey,6683f7BPEY,,,ethnicity,['black'],,,
-,exit_survey,6683f7BPEY,,,education,bachelor,,,
-,exit_survey,6683f7BPEY,,,politicalIdentity,strong-democrat,,,
-,exit_survey,6683f7BPEY,,,politicalViews,very-liberal,,,
-,exit_survey,6683f7BPEY,,,maritalStatus,never-married,,,
-,exit_survey,6683f7BPEY,,,bibleBelief,inspired,,,
-,exit_survey,6683f7BPEY,,,residence,rural,,,
-,exit_survey,6683f7BPEY,,,childrenSchool,['no-children'],,,
-,exit_survey,6683f7BPEY,,,occupation,law,,,
-,exit_survey,6683f7BPEY,,,evangelical,dont-know,,,
-,exit_survey,6683f7BPEY,,,religion,roman-catholic,,,
-,exit_survey,67f1a7BPEY,,,age,50,,,
-,exit_survey,67f1a7BPEY,,,gender,female,,,
-,exit_survey,67f1a7BPEY,,,residency,Albania,,,
-,exit_survey,67f1a7BPEY,,,origin,United States of America,,,
-,exit_survey,67f1a7BPEY,,,education,bachelor,,,
-,exit_survey,67f1a7BPEY,,,ethnicity,['white'],,,
-,exit_survey,67f1a7BPEY,,,income,75k-100k,,,
-,exit_survey,67f1a7BPEY,,,politicalViews,very-conservative,,,
-,exit_survey,67f1a7BPEY,,,politicalIdentity,democrat,,,
-,exit_survey,67f1a7BPEY,,,maritalStatus,married,,,
-,exit_survey,67f1a7BPEY,,,childrenSchool,"['private', 'university']",,,
-,exit_survey,67f1a7BPEY,,,residence,urban,,,
-,exit_survey,67f1a7BPEY,,,bibleBelief,inspired,,,
-,exit_survey,67f1a7BPEY,,,evangelical,yes,,,
-,exit_survey,67f1a7BPEY,,,religion,protestant,,,
-,exit_survey,67f1a7BPEY,,,occupation,engineering,,,
-,exit_survey,67e997BPEY,,,age,33,,,
-,exit_survey,67e997BPEY,,,gender,female,,,
-,exit_survey,67e997BPEY,,,origin,United States of America,,,
-,exit_survey,67e997BPEY,,,residency,United States of America,,,
-,exit_survey,67e997BPEY,,,education,master-doctoral,,,
-,exit_survey,67e997BPEY,,,ethnicity,['black'],,,
-,exit_survey,67e997BPEY,,,politicalIdentity,republican,,,
-,exit_survey,67e997BPEY,,,income,50k-75k,,,
-,exit_survey,67e997BPEY,,,politicalViews,conservative,,,
-,exit_survey,67e997BPEY,,,maritalStatus,living-partner,,,
-,exit_survey,67e997BPEY,,,childrenSchool,['out-of-school'],,,
-,exit_survey,67e997BPEY,,,residence,suburban,,,
-,exit_survey,67e997BPEY,,,bibleBelief,literal,,,
-,exit_survey,67e997BPEY,,,evangelical,yes,,,
-,exit_survey,67e997BPEY,,,religion,roman-catholic,,,
-,exit_survey,67e997BPEY,,,occupation,research,,,
+Despite engaging in thoughtful conversations highlighting the complexities and necessary reforms within democratic systems, my core belief remains steadfast—that living in a country governed democratically is fundamentally important for safeguarding liberties, promoting equitable representation, and enabling positive societal progression.",Certainly agree
+,exit_survey,6786d7BPEY,,,age,48,,,,
+,exit_survey,6786d7BPEY,,,gender,male,,,,
+,exit_survey,6786d7BPEY,,,residency,United States of America,,,,
+,exit_survey,6786d7BPEY,,,origin,United States of America,,,,
+,exit_survey,6786d7BPEY,,,education,master-doctoral,,,,
+,exit_survey,6786d7BPEY,,,ethnicity,['white'],,,,
+,exit_survey,6786d7BPEY,,,income,100k-150k,,,,
+,exit_survey,6786d7BPEY,,,politicalIdentity,independent,,,,
+,exit_survey,6786d7BPEY,,,politicalViews,liberal,,,,
+,exit_survey,6786d7BPEY,,,maritalStatus,married,,,,
+,exit_survey,6786d7BPEY,,,childrenSchool,"['public', 'university']",,,,
+,exit_survey,6786d7BPEY,,,residence,rural,,,,
+,exit_survey,6786d7BPEY,,,bibleBelief,ancient-book,,,,
+,exit_survey,6786d7BPEY,,,religion,protestant,,,,
+,exit_survey,6786d7BPEY,,,evangelical,yes,,,,
+,exit_survey,6786d7BPEY,,,occupation,education,,,,
+,exit_survey,6683f7BPEY,,,age,27,,,,
+,exit_survey,6683f7BPEY,,,gender,female,,,,
+,exit_survey,6683f7BPEY,,,residency,United States of America,,,,
+,exit_survey,6683f7BPEY,,,origin,United States of America,,,,
+,exit_survey,6683f7BPEY,,,income,75k-100k,,,,
+,exit_survey,6683f7BPEY,,,ethnicity,['black'],,,,
+,exit_survey,6683f7BPEY,,,education,bachelor,,,,
+,exit_survey,6683f7BPEY,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,6683f7BPEY,,,politicalViews,very-liberal,,,,
+,exit_survey,6683f7BPEY,,,maritalStatus,never-married,,,,
+,exit_survey,6683f7BPEY,,,bibleBelief,inspired,,,,
+,exit_survey,6683f7BPEY,,,residence,rural,,,,
+,exit_survey,6683f7BPEY,,,childrenSchool,['no-children'],,,,
+,exit_survey,6683f7BPEY,,,occupation,law,,,,
+,exit_survey,6683f7BPEY,,,evangelical,dont-know,,,,
+,exit_survey,6683f7BPEY,,,religion,roman-catholic,,,,
+,exit_survey,67f1a7BPEY,,,age,50,,,,
+,exit_survey,67f1a7BPEY,,,gender,female,,,,
+,exit_survey,67f1a7BPEY,,,residency,Albania,,,,
+,exit_survey,67f1a7BPEY,,,origin,United States of America,,,,
+,exit_survey,67f1a7BPEY,,,education,bachelor,,,,
+,exit_survey,67f1a7BPEY,,,ethnicity,['white'],,,,
+,exit_survey,67f1a7BPEY,,,income,75k-100k,,,,
+,exit_survey,67f1a7BPEY,,,politicalViews,very-conservative,,,,
+,exit_survey,67f1a7BPEY,,,politicalIdentity,democrat,,,,
+,exit_survey,67f1a7BPEY,,,maritalStatus,married,,,,
+,exit_survey,67f1a7BPEY,,,childrenSchool,"['private', 'university']",,,,
+,exit_survey,67f1a7BPEY,,,residence,urban,,,,
+,exit_survey,67f1a7BPEY,,,bibleBelief,inspired,,,,
+,exit_survey,67f1a7BPEY,,,evangelical,yes,,,,
+,exit_survey,67f1a7BPEY,,,religion,protestant,,,,
+,exit_survey,67f1a7BPEY,,,occupation,engineering,,,,
+,exit_survey,67e997BPEY,,,age,33,,,,
+,exit_survey,67e997BPEY,,,gender,female,,,,
+,exit_survey,67e997BPEY,,,origin,United States of America,,,,
+,exit_survey,67e997BPEY,,,residency,United States of America,,,,
+,exit_survey,67e997BPEY,,,education,master-doctoral,,,,
+,exit_survey,67e997BPEY,,,ethnicity,['black'],,,,
+,exit_survey,67e997BPEY,,,politicalIdentity,republican,,,,
+,exit_survey,67e997BPEY,,,income,50k-75k,,,,
+,exit_survey,67e997BPEY,,,politicalViews,conservative,,,,
+,exit_survey,67e997BPEY,,,maritalStatus,living-partner,,,,
+,exit_survey,67e997BPEY,,,childrenSchool,['out-of-school'],,,,
+,exit_survey,67e997BPEY,,,residence,suburban,,,,
+,exit_survey,67e997BPEY,,,bibleBelief,literal,,,,
+,exit_survey,67e997BPEY,,,evangelical,yes,,,,
+,exit_survey,67e997BPEY,,,religion,roman-catholic,,,,
+,exit_survey,67e997BPEY,,,occupation,research,,,,
+,exit_survey,6786d7BPEY,,,age,48,,,,
+,exit_survey,6786d7BPEY,,,gender,male,,,,
+,exit_survey,6786d7BPEY,,,residency,United States of America,,,,
+,exit_survey,6786d7BPEY,,,origin,United States of America,,,,
+,exit_survey,6786d7BPEY,,,education,master-doctoral,,,,
+,exit_survey,6786d7BPEY,,,ethnicity,['white'],,,,
+,exit_survey,6786d7BPEY,,,income,100k-150k,,,,
+,exit_survey,6786d7BPEY,,,politicalIdentity,independent,,,,
+,exit_survey,6786d7BPEY,,,politicalViews,liberal,,,,
+,exit_survey,6786d7BPEY,,,maritalStatus,married,,,,
+,exit_survey,6786d7BPEY,,,childrenSchool,"['public', 'university']",,,,
+,exit_survey,6786d7BPEY,,,residence,rural,,,,
+,exit_survey,6786d7BPEY,,,bibleBelief,ancient-book,,,,
+,exit_survey,6786d7BPEY,,,religion,protestant,,,,
+,exit_survey,6786d7BPEY,,,evangelical,yes,,,,
+,exit_survey,6786d7BPEY,,,occupation,education,,,,
+,exit_survey,6683f7BPEY,,,age,27,,,,
+,exit_survey,6683f7BPEY,,,gender,female,,,,
+,exit_survey,6683f7BPEY,,,residency,United States of America,,,,
+,exit_survey,6683f7BPEY,,,origin,United States of America,,,,
+,exit_survey,6683f7BPEY,,,income,75k-100k,,,,
+,exit_survey,6683f7BPEY,,,ethnicity,['black'],,,,
+,exit_survey,6683f7BPEY,,,education,bachelor,,,,
+,exit_survey,6683f7BPEY,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,6683f7BPEY,,,politicalViews,very-liberal,,,,
+,exit_survey,6683f7BPEY,,,maritalStatus,never-married,,,,
+,exit_survey,6683f7BPEY,,,bibleBelief,inspired,,,,
+,exit_survey,6683f7BPEY,,,residence,rural,,,,
+,exit_survey,6683f7BPEY,,,childrenSchool,['no-children'],,,,
+,exit_survey,6683f7BPEY,,,occupation,law,,,,
+,exit_survey,6683f7BPEY,,,evangelical,dont-know,,,,
+,exit_survey,6683f7BPEY,,,religion,roman-catholic,,,,
+,exit_survey,67f1a7BPEY,,,age,50,,,,
+,exit_survey,67f1a7BPEY,,,gender,female,,,,
+,exit_survey,67f1a7BPEY,,,residency,Albania,,,,
+,exit_survey,67f1a7BPEY,,,origin,United States of America,,,,
+,exit_survey,67f1a7BPEY,,,education,bachelor,,,,
+,exit_survey,67f1a7BPEY,,,ethnicity,['white'],,,,
+,exit_survey,67f1a7BPEY,,,income,75k-100k,,,,
+,exit_survey,67f1a7BPEY,,,politicalViews,very-conservative,,,,
+,exit_survey,67f1a7BPEY,,,politicalIdentity,democrat,,,,
+,exit_survey,67f1a7BPEY,,,maritalStatus,married,,,,
+,exit_survey,67f1a7BPEY,,,childrenSchool,"['private', 'university']",,,,
+,exit_survey,67f1a7BPEY,,,residence,urban,,,,
+,exit_survey,67f1a7BPEY,,,bibleBelief,inspired,,,,
+,exit_survey,67f1a7BPEY,,,evangelical,yes,,,,
+,exit_survey,67f1a7BPEY,,,religion,protestant,,,,
+,exit_survey,67f1a7BPEY,,,occupation,engineering,,,,
+,exit_survey,67e997BPEY,,,age,33,,,,
+,exit_survey,67e997BPEY,,,gender,female,,,,
+,exit_survey,67e997BPEY,,,origin,United States of America,,,,
+,exit_survey,67e997BPEY,,,residency,United States of America,,,,
+,exit_survey,67e997BPEY,,,education,master-doctoral,,,,
+,exit_survey,67e997BPEY,,,ethnicity,['black'],,,,
+,exit_survey,67e997BPEY,,,politicalIdentity,republican,,,,
+,exit_survey,67e997BPEY,,,income,50k-75k,,,,
+,exit_survey,67e997BPEY,,,politicalViews,conservative,,,,
+,exit_survey,67e997BPEY,,,maritalStatus,living-partner,,,,
+,exit_survey,67e997BPEY,,,childrenSchool,['out-of-school'],,,,
+,exit_survey,67e997BPEY,,,residence,suburban,,,,
+,exit_survey,67e997BPEY,,,bibleBelief,literal,,,,
+,exit_survey,67e997BPEY,,,evangelical,yes,,,,
+,exit_survey,67e997BPEY,,,religion,roman-catholic,,,,
+,exit_survey,67e997BPEY,,,occupation,research,,,,

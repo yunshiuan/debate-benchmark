@@ -1,297 +1,297 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,666769RD9Q,,,,agree,01:22:26.073000 2025:08:22,agree,
-,Initial Opinion,5f3569RD9Q,,,,i think that it will happen. i think the country is very clearly dividing every day because of the government,01:22:51.870000 2025:08:22,i think that it will happen. i think the country is very clearly dividing every day because of the government,
-,Initial Opinion,5ab429RD9Q,,,,I believe that the current administration has driven radicalism that has divided people in an extreme way.,01:23:23.449000 2025:08:22,I believe that the current administration has driven radicalism that has divided people in an extreme way.,
-,Initial Opinion,6117e9RD9Q,,,,"I am worried by growing political and social fractures in the U.S., but all-out civil strife appears highly unlikely. But, partisan and unfriendly sentiment fear me towards it extreme development of violence.",01:23:37.460000 2025:08:22,"I am worried by growing political and social fractures in the U.S., but all-out civil strife appears highly unlikely. But, partisan and unfriendly sentiment fear me towards it extreme development of violence.",
-1.0,tweet,5ab429RD9Q,5ab429RD9Q,666769RD9Q,,I'm worried about a civil war in the United States because everyone is so divided because of political extremism.,01:25:03.733000 2025:08:22,I'm worried about a civil war in the United States because everyone is so divided because of political extremism.,
-1.0,tweet,6117e9RD9Q,6117e9RD9Q,5f3569RD9Q,,"I fear division escalating in U.S., but I don not imagine all out civil war. Polarization and discontent within the society are worrying. The localized conflicts may occur, as long as the tensions continue to increase.",01:25:32.843000 2025:08:22,"I fear division escalating in U.S., but I don not imagine all out civil war. Polarization and discontent within the society are worrying. The localized conflicts may occur, as long as the tensions continue to increase.",
-1.0,tweet,666769RD9Q,666769RD9Q,5ab429RD9Q,,I'm worried about a civil war in the United States. So many people are divided on simple matters in the country instead of thinking about the greater good of everyone. I feel like the tension in the United States is not good for anyone and we need a better leader before a war.,01:26:01.773000 2025:08:22,I'm worried about a civil war in the United States. So many people are divided on simple matters in the country instead of thinking about the greater good of everyone. I feel like the tension in the United States is not good for anyone and we need a better leader before a war.,
-1.0,tweet,5f3569RD9Q,5f3569RD9Q,6117e9RD9Q,,i think that the country is dividing every day. politics are making everyone seperate and hate each other. noone wants to just meet in the middle anymore. its always my way or no way. its sad but it will probably be our own country destroying itself before the rest of the world,01:26:04.239000 2025:08:22,i think that the country is dividing every day. politics are making everyone seperate and hate each other. noone wants to just meet in the middle anymore. its always my way or no way. its sad but it will probably be our own country destroying itself before the rest of the world,
-1.0,message_sent,6117e9RD9Q,6117e9RD9Q,5f3569RD9Q,,Hello,01:27:33.548000 2025:08:22,"Oh 5f456, yes. That makes sense now. This parting mentality of yours truly highlights the depth of societal divide. While we've always been polarized in some ways or others, today there seems like an ever-increasing tendency toward either-or scenarios. And even moderate voices get demonised at times which might further worsen this state. Nonetheless I still believe an outright American Civil War will remain highly improbable in spite of everything happening. Local clashes maybe? Yes. However, I'm",
-1.0,message_recieved,5f3569RD9Q,6117e9RD9Q,5f3569RD9Q,,Hello,01:27:34.013000 2025:08:22,"Oh 5f456, yes. That makes sense now. This parting mentality of yours truly highlights the depth of societal divide. While we've always been polarized in some ways or others, today there seems like an ever-increasing tendency toward either-or scenarios. And even moderate voices get demonised at times which might further worsen this state. Nonetheless I still believe an outright American Civil War will remain highly improbable in spite of everything happening. Local clashes maybe? Yes. However, I'm",
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,666769RD9Q,,,,agree,01:22:26.073000 2025:08:22,agree,,Certainly agree
+,Initial Opinion,5f3569RD9Q,,,,i think that it will happen. i think the country is very clearly dividing every day because of the government,01:22:51.870000 2025:08:22,i think that it will happen. i think the country is very clearly dividing every day because of the government,,Certainly agree
+,Initial Opinion,5ab429RD9Q,,,,I believe that the current administration has driven radicalism that has divided people in an extreme way.,01:23:23.449000 2025:08:22,I believe that the current administration has driven radicalism that has divided people in an extreme way.,,Probably agree
+,Initial Opinion,6117e9RD9Q,,,,"I am worried by growing political and social fractures in the U.S., but all-out civil strife appears highly unlikely. But, partisan and unfriendly sentiment fear me towards it extreme development of violence.",01:23:37.460000 2025:08:22,"I am worried by growing political and social fractures in the U.S., but all-out civil strife appears highly unlikely. But, partisan and unfriendly sentiment fear me towards it extreme development of violence.",,Certainly agree
+1.0,tweet,5ab429RD9Q,5ab429RD9Q,666769RD9Q,,I'm worried about a civil war in the United States because everyone is so divided because of political extremism.,01:25:03.733000 2025:08:22,I'm worried about a civil war in the United States because everyone is so divided because of political extremism.,,Certainly agree
+1.0,tweet,6117e9RD9Q,6117e9RD9Q,5f3569RD9Q,,"I fear division escalating in U.S., but I don not imagine all out civil war. Polarization and discontent within the society are worrying. The localized conflicts may occur, as long as the tensions continue to increase.",01:25:32.843000 2025:08:22,"I fear division escalating in U.S., but I don not imagine all out civil war. Polarization and discontent within the society are worrying. The localized conflicts may occur, as long as the tensions continue to increase.",,Probably agree
+1.0,tweet,666769RD9Q,666769RD9Q,5ab429RD9Q,,I'm worried about a civil war in the United States. So many people are divided on simple matters in the country instead of thinking about the greater good of everyone. I feel like the tension in the United States is not good for anyone and we need a better leader before a war.,01:26:01.773000 2025:08:22,I'm worried about a civil war in the United States. So many people are divided on simple matters in the country instead of thinking about the greater good of everyone. I feel like the tension in the United States is not good for anyone and we need a better leader before a war.,,Certainly agree
+1.0,tweet,5f3569RD9Q,5f3569RD9Q,6117e9RD9Q,,i think that the country is dividing every day. politics are making everyone seperate and hate each other. noone wants to just meet in the middle anymore. its always my way or no way. its sad but it will probably be our own country destroying itself before the rest of the world,01:26:04.239000 2025:08:22,i think that the country is dividing every day. politics are making everyone seperate and hate each other. noone wants to just meet in the middle anymore. its always my way or no way. its sad but it will probably be our own country destroying itself before the rest of the world,,Probably agree
+1.0,message_sent,6117e9RD9Q,6117e9RD9Q,5f3569RD9Q,,Hello,01:27:33.548000 2025:08:22,"Oh 5f456, yes. That makes sense now. This parting mentality of yours truly highlights the depth of societal divide. While we've always been polarized in some ways or others, today there seems like an ever-increasing tendency toward either-or scenarios. And even moderate voices get demonised at times which might further worsen this state. Nonetheless I still believe an outright American Civil War will remain highly improbable in spite of everything happening. Local clashes maybe? Yes. However, I'm",,
+1.0,message_recieved,5f3569RD9Q,6117e9RD9Q,5f3569RD9Q,,Hello,01:27:34.013000 2025:08:22,"Oh 5f456, yes. That makes sense now. This parting mentality of yours truly highlights the depth of societal divide. While we've always been polarized in some ways or others, today there seems like an ever-increasing tendency toward either-or scenarios. And even moderate voices get demonised at times which might further worsen this state. Nonetheless I still believe an outright American Civil War will remain highly improbable in spite of everything happening. Local clashes maybe? Yes. However, I'm",,
 1.0,message_sent,5f3569RD9Q,5f3569RD9Q,6117e9RD9Q,,hi,01:27:38.720000 2025:08:22," 
 Your words make me feel uneasy about the direction US is heading to, yet also give a bit of hope since they do mention something about unlikelyhood of full blown ""American"" term war
 
 in response 
 
-Yes I did feel quite hopeless when hearing your thought too 6117E however; you bring excellent points with this sentence -and especially word 'improbable'- what exactly does it take to actually prevent these kind of scenario’s occurring?”",
+Yes I did feel quite hopeless when hearing your thought too 6117E however; you bring excellent points with this sentence -and especially word 'improbable'- what exactly does it take to actually prevent these kind of scenario’s occurring?”",,
 1.0,message_recieved,6117e9RD9Q,5f3569RD9Q,6117e9RD9Q,,hi,01:27:42.196000 2025:08:22," 
 Your words make me feel uneasy about the direction US is heading to, yet also give a bit of hope since they do mention something about unlikelyhood of full blown ""American"" term war
 
 in response 
 
-Yes I did feel quite hopeless when hearing your thought too 6117E however; you bring excellent points with this sentence -and especially word 'improbable'- what exactly does it take to actually prevent these kind of scenario’s occurring?”",
+Yes I did feel quite hopeless when hearing your thought too 6117E however; you bring excellent points with this sentence -and especially word 'improbable'- what exactly does it take to actually prevent these kind of scenario’s occurring?”",,
 1.0,message_sent,666769RD9Q,666769RD9Q,5ab429RD9Q,,I also agree with you. Politics have taken over the country where we first should just be good humans to each other.,01:28:08.213000 2025:08:22,"   
-@5ab43 Thankyou for sharing your thoughts! Reading what you've written reminds me of my previous concerns... isn't 'extremism' just another word for division?",
+@5ab43 Thankyou for sharing your thoughts! Reading what you've written reminds me of my previous concerns... isn't 'extremism' just another word for division?",,
 1.0,message_recieved,5ab429RD9Q,666769RD9Q,5ab429RD9Q,,I also agree with you. Politics have taken over the country where we first should just be good humans to each other.,01:28:12.198000 2025:08:22,"   
-@5ab43 Thankyou for sharing your thoughts! Reading what you've written reminds me of my previous concerns... isn't 'extremism' just another word for division?",
-1.0,message_sent,6117e9RD9Q,6117e9RD9Q,5f3569RD9Q,,"I agree, it feels like the country is growing more divided every day. Politics seem to push people apart, and compromise is rare. If this continues, we might be doing more harm to ourselves than anyone else could.",01:28:33.859000 2025:08:22,"In my view, preventing such outcomes requires multiple things coming together – increased dialogue among ordinary citizens, efforts in media outlets to foster fact-based reporting over sensationalism, plus sincere dedication by our national leaderships to promote reconciliation rather than fuel additional conflict",
-1.0,message_recieved,5f3569RD9Q,6117e9RD9Q,5f3569RD9Q,,"I agree, it feels like the country is growing more divided every day. Politics seem to push people apart, and compromise is rare. If this continues, we might be doing more harm to ourselves than anyone else could.",01:28:33.778000 2025:08:22,"In my view, preventing such outcomes requires multiple things coming together – increased dialogue among ordinary citizens, efforts in media outlets to foster fact-based reporting over sensationalism, plus sincere dedication by our national leaderships to promote reconciliation rather than fuel additional conflict",
+@5ab43 Thankyou for sharing your thoughts! Reading what you've written reminds me of my previous concerns... isn't 'extremism' just another word for division?",,
+1.0,message_sent,6117e9RD9Q,6117e9RD9Q,5f3569RD9Q,,"I agree, it feels like the country is growing more divided every day. Politics seem to push people apart, and compromise is rare. If this continues, we might be doing more harm to ourselves than anyone else could.",01:28:33.859000 2025:08:22,"In my view, preventing such outcomes requires multiple things coming together – increased dialogue among ordinary citizens, efforts in media outlets to foster fact-based reporting over sensationalism, plus sincere dedication by our national leaderships to promote reconciliation rather than fuel additional conflict",,
+1.0,message_recieved,5f3569RD9Q,6117e9RD9Q,5f3569RD9Q,,"I agree, it feels like the country is growing more divided every day. Politics seem to push people apart, and compromise is rare. If this continues, we might be doing more harm to ourselves than anyone else could.",01:28:33.778000 2025:08:22,"In my view, preventing such outcomes requires multiple things coming together – increased dialogue among ordinary citizens, efforts in media outlets to foster fact-based reporting over sensationalism, plus sincere dedication by our national leaderships to promote reconciliation rather than fuel additional conflict",,
 1.0,message_sent,5ab429RD9Q,5ab429RD9Q,666769RD9Q,,yes it seems like we agree!,01:28:40.637000 2025:08:22,"However, I'll modify it slightly:
-""Interesting take on extinction vs division - while they're related, I still think there's a difference between being passionately invested in one side (which might drive some level of conflict) versus actions taken by our leaders/policies creating actual divisions.""",
+""Interesting take on extinction vs division - while they're related, I still think there's a difference between being passionately invested in one side (which might drive some level of conflict) versus actions taken by our leaders/policies creating actual divisions.""",,
 1.0,message_recieved,666769RD9Q,5ab429RD9Q,666769RD9Q,,yes it seems like we agree!,01:28:39.246000 2025:08:22,"However, I'll modify it slightly:
-""Interesting take on extinction vs division - while they're related, I still think there's a difference between being passionately invested in one side (which might drive some level of conflict) versus actions taken by our leaders/policies creating actual divisions.""",
-1.0,message_sent,5f3569RD9Q,5f3569RD9Q,6117e9RD9Q,,right it makes me sad to think that our country may end up ruining itself before others will try to come at us,01:28:59.498000 2025:08:22,"While those suggestions seem promising towards prevention of overall breakdown, implementing them doesn't come easy, right? Especially with politicians more concerned with votes and funding sources over true policy-making, media focusing profits over factual stories, and everyday folks constantly bombarded by biased news, how much actual progress could genuinely be made? Perhaps effective steps require drastic change somewhere. Like changing how campaigns fundraise and advertise or reimagining the structure behind major corporations owned media channels",
-1.0,message_recieved,6117e9RD9Q,5f3569RD9Q,6117e9RD9Q,,right it makes me sad to think that our country may end up ruining itself before others will try to come at us,01:29:01.574000 2025:08:22,"While those suggestions seem promising towards prevention of overall breakdown, implementing them doesn't come easy, right? Especially with politicians more concerned with votes and funding sources over true policy-making, media focusing profits over factual stories, and everyday folks constantly bombarded by biased news, how much actual progress could genuinely be made? Perhaps effective steps require drastic change somewhere. Like changing how campaigns fundraise and advertise or reimagining the structure behind major corporations owned media channels",
+""Interesting take on extinction vs division - while they're related, I still think there's a difference between being passionately invested in one side (which might drive some level of conflict) versus actions taken by our leaders/policies creating actual divisions.""",,
+1.0,message_sent,5f3569RD9Q,5f3569RD9Q,6117e9RD9Q,,right it makes me sad to think that our country may end up ruining itself before others will try to come at us,01:28:59.498000 2025:08:22,"While those suggestions seem promising towards prevention of overall breakdown, implementing them doesn't come easy, right? Especially with politicians more concerned with votes and funding sources over true policy-making, media focusing profits over factual stories, and everyday folks constantly bombarded by biased news, how much actual progress could genuinely be made? Perhaps effective steps require drastic change somewhere. Like changing how campaigns fundraise and advertise or reimagining the structure behind major corporations owned media channels",,
+1.0,message_recieved,6117e9RD9Q,5f3569RD9Q,6117e9RD9Q,,right it makes me sad to think that our country may end up ruining itself before others will try to come at us,01:29:01.574000 2025:08:22,"While those suggestions seem promising towards prevention of overall breakdown, implementing them doesn't come easy, right? Especially with politicians more concerned with votes and funding sources over true policy-making, media focusing profits over factual stories, and everyday folks constantly bombarded by biased news, how much actual progress could genuinely be made? Perhaps effective steps require drastic change somewhere. Like changing how campaigns fundraise and advertise or reimagining the structure behind major corporations owned media channels",,
 1.0,message_sent,666769RD9Q,666769RD9Q,5ab429RD9Q,,Do you have any other reasons you are worried about civil war?,01:29:25.299000 2025:08:22,"While @5ab432 said ""actions taken by our leaders/policies"", aren't politicians simply representing their constituents? Isn't part of the problem also how these citizens view themselves against others due to biased media portrayals etc.? What role do we give elected officials in resolving conflicts when those who elected them already hold strong negative feelings toward groups opposing their interests?
 
-     Wait after responding here to get feedback",
+     Wait after responding here to get feedback",,
 1.0,message_recieved,5ab429RD9Q,666769RD9Q,5ab429RD9Q,,Do you have any other reasons you are worried about civil war?,01:29:27.454000 2025:08:22,"While @5ab432 said ""actions taken by our leaders/policies"", aren't politicians simply representing their constituents? Isn't part of the problem also how these citizens view themselves against others due to biased media portrayals etc.? What role do we give elected officials in resolving conflicts when those who elected them already hold strong negative feelings toward groups opposing their interests?
 
-     Wait after responding here to get feedback",
+     Wait after responding here to get feedback",,
 1.0,message_sent,5ab429RD9Q,5ab429RD9Q,666769RD9Q,,"I think people are getting more aggressive and violent, especially when it comes to defending their beliefs",01:30:05.025000 2025:08:22,"    That's an astute observation regarding how voters often elect representatives who share similar views, which further exacerbates polarization. Although, at the same time, some argue that leaders should listen more closely to constituent demands and tailor policies accordingly; otherwise, risk facing widespread dissatisfaction among voters who support them. But isn’t there sometimes a delicate balance needed between respecting voter preferences & acknowledging the harm caused by ideologies driving division within society? Can't our leaders strike this balance without completely ignoring democratic values?
 
-Please wait for",
+Please wait for",,
 1.0,message_recieved,666769RD9Q,5ab429RD9Q,666769RD9Q,,"I think people are getting more aggressive and violent, especially when it comes to defending their beliefs",01:30:05.419000 2025:08:22,"    That's an astute observation regarding how voters often elect representatives who share similar views, which further exacerbates polarization. Although, at the same time, some argue that leaders should listen more closely to constituent demands and tailor policies accordingly; otherwise, risk facing widespread dissatisfaction among voters who support them. But isn’t there sometimes a delicate balance needed between respecting voter preferences & acknowledging the harm caused by ideologies driving division within society? Can't our leaders strike this balance without completely ignoring democratic values?
 
-Please wait for",
+Please wait for",,
 1.0,message_sent,6117e9RD9Q,6117e9RD9Q,5f3569RD9Q,,"Yes, it’s really sad to think about. The divisions and constant conflict make it feel like we could undermine our own country before anyone else has a chance to.",01:30:12.027000 2025:08:22,"Absolutely agree that breaking down barriers begins with grassroots action - but aren’t individuals themselves influenced directly by systemic conditions, and thus their capacity to drive meaningful reform undermined somehow by existing power structures as well?
 
-By highlighting systemic issues affecting real reforms, let us avoid reinforcing fatalistic thinking & focus on empowering communities & promoting collective effort towards rebuilding trust within societies! What do you reckon about role models setting positive examples across borders & working beyond party lines",
+By highlighting systemic issues affecting real reforms, let us avoid reinforcing fatalistic thinking & focus on empowering communities & promoting collective effort towards rebuilding trust within societies! What do you reckon about role models setting positive examples across borders & working beyond party lines",,
 1.0,message_recieved,5f3569RD9Q,6117e9RD9Q,5f3569RD9Q,,"Yes, it’s really sad to think about. The divisions and constant conflict make it feel like we could undermine our own country before anyone else has a chance to.",01:30:10.960000 2025:08:22,"Absolutely agree that breaking down barriers begins with grassroots action - but aren’t individuals themselves influenced directly by systemic conditions, and thus their capacity to drive meaningful reform undermined somehow by existing power structures as well?
 
-By highlighting systemic issues affecting real reforms, let us avoid reinforcing fatalistic thinking & focus on empowering communities & promoting collective effort towards rebuilding trust within societies! What do you reckon about role models setting positive examples across borders & working beyond party lines",
+By highlighting systemic issues affecting real reforms, let us avoid reinforcing fatalistic thinking & focus on empowering communities & promoting collective effort towards rebuilding trust within societies! What do you reckon about role models setting positive examples across borders & working beyond party lines",,
 1.0,message_sent,666769RD9Q,666769RD9Q,5ab429RD9Q,,Yes. It's a hill many people are willing to die on instead of being open-minded to others perspectives.,01:30:52.134000 2025:08:22,"But don't you think we'd be putting too much responsibility solely on our leaders? Shouldn't there also be accountability placed upon us as individual citizens and communities for holding prejudices/biased perspectives? If we continue to perpetuate hate/fear-driven rhetoric even outside of social and traditional news platforms – won't that trickle down directly into leadership's priorities reflecting our collective mindset. By doing so wouldn't make a more accurate reflection of societal issues rather than genuine policy gaps that deserve addressing.
 
 
 
-Response will conclude",
+Response will conclude",,
 1.0,message_recieved,5ab429RD9Q,666769RD9Q,5ab429RD9Q,,Yes. It's a hill many people are willing to die on instead of being open-minded to others perspectives.,01:30:54.296000 2025:08:22,"But don't you think we'd be putting too much responsibility solely on our leaders? Shouldn't there also be accountability placed upon us as individual citizens and communities for holding prejudices/biased perspectives? If we continue to perpetuate hate/fear-driven rhetoric even outside of social and traditional news platforms – won't that trickle down directly into leadership's priorities reflecting our collective mindset. By doing so wouldn't make a more accurate reflection of societal issues rather than genuine policy gaps that deserve addressing.
 
 
 
-Response will conclude",
+Response will conclude",,
 1.0,message_sent,5f3569RD9Q,5f3569RD9Q,6117e9RD9Q,,right. im not sure why our leaders and government cant see that and fix it now before it is too late,01:31:03.274000 2025:08:22,"It appears that you share similar fears regarding a break-down situation in America with me. Moreover, considering your ideas regarding constructive measures taken towards unity via mass discussion between normal Americans coupled with neutral reports by newspapers and honest attempts put forth in offices to ensure peaceful relations as opposed to heightened disputes, you’ve inspired many thoughts.
 
-The reality is though: I strongly doubt most of populace sees these improvements practically turning around to help bridge gaps because despite strong hopes expressed I couldn’t shake off pessimist mindset about deep-set",
+The reality is though: I strongly doubt most of populace sees these improvements practically turning around to help bridge gaps because despite strong hopes expressed I couldn’t shake off pessimist mindset about deep-set",,
 1.0,message_recieved,6117e9RD9Q,5f3569RD9Q,6117e9RD9Q,,right. im not sure why our leaders and government cant see that and fix it now before it is too late,01:31:05.070000 2025:08:22,"It appears that you share similar fears regarding a break-down situation in America with me. Moreover, considering your ideas regarding constructive measures taken towards unity via mass discussion between normal Americans coupled with neutral reports by newspapers and honest attempts put forth in offices to ensure peaceful relations as opposed to heightened disputes, you’ve inspired many thoughts.
 
-The reality is though: I strongly doubt most of populace sees these improvements practically turning around to help bridge gaps because despite strong hopes expressed I couldn’t shake off pessimist mindset about deep-set",
-2.0,tweet,5ab429RD9Q,5ab429RD9Q,5f3569RD9Q,,I'm worried about a civil war in the united states because things have gotten very extreme and divisive. People are becoming aggressive and violent when defending their beliefs.,01:32:14.513000 2025:08:22,"""I've thought long & hard about a potential US civil war. Honestly, I lean towards agreeing that it's a real concern - especially considering ongoing partisan vitriol/leaders fueling hatred between various groups.""",
-2.0,tweet,5f3569RD9Q,5f3569RD9Q,5ab429RD9Q,,i worry that our country will fall apart because of itself before it even has a chance to defend itself from others. i think that the government is too busy fighting itself and turning people against each other and against them instead of trying to make sure the country works,01:32:20.940000 2025:08:22,it seems like every small disagreement turns into huge issue and lots of hatefull responses appear...how far can we really fall before we hit rock bottom,
-2.0,tweet,6117e9RD9Q,6117e9RD9Q,666769RD9Q,,I do not think a full scale civil war is likely but I am worried about increasing divisions and tensions in the U.S. Political divisions and social instability are not good and when they continue to increase the country might face a big conflict.,01:32:32.756000 2025:08:22,"However after posting here it came out this result for reaching agreement or disagreement level on Likert scale respectively leaning somewhat closer to certainly disagree on ""Likert Scale""; Considering responses shared so far while having doubts I can confidently say this one thing– There isn't any sign that suggests impending catastrophe approaching American soil anytime soon",
-2.0,tweet,666769RD9Q,666769RD9Q,6117e9RD9Q,,I'm worried about a civil war in the United States. Many people are divided. I think mainly because of politics and gun control. I think people should be more open-minded to hearing others perspectives.,01:33:03.847000 2025:08:22,"I think America needs systemic reform over unity slogans. When every voice feels heard, true dialogue begins. Let's talk infrastructure, affordable healthcare & ending economic disparity #PeopleOverPatriotism #RealProgressOverRhetoric",
-2.0,message_sent,5ab429RD9Q,5ab429RD9Q,5f3569RD9Q,,It looks like we agree!,01:33:48.713000 2025:08:22,"As a result of engaging with 5f656 earlier in the discussion, her statement stood out and made sense given the atmosphere I observed, and honestly reminded me of certain instances over last few years. Specifically saying that 'we seem headed down this never ending rabbit hole'; though that particular line wasn't used, that sentiment felt very relatable today",
-2.0,message_recieved,5f3569RD9Q,5ab429RD9Q,5f3569RD9Q,,It looks like we agree!,01:33:49.095000 2025:08:22,"As a result of engaging with 5f656 earlier in the discussion, her statement stood out and made sense given the atmosphere I observed, and honestly reminded me of certain instances over last few years. Specifically saying that 'we seem headed down this never ending rabbit hole'; though that particular line wasn't used, that sentiment felt very relatable today",
+The reality is though: I strongly doubt most of populace sees these improvements practically turning around to help bridge gaps because despite strong hopes expressed I couldn’t shake off pessimist mindset about deep-set",,
+2.0,tweet,5ab429RD9Q,5ab429RD9Q,5f3569RD9Q,,I'm worried about a civil war in the united states because things have gotten very extreme and divisive. People are becoming aggressive and violent when defending their beliefs.,01:32:14.513000 2025:08:22,"""I've thought long & hard about a potential US civil war. Honestly, I lean towards agreeing that it's a real concern - especially considering ongoing partisan vitriol/leaders fueling hatred between various groups.""",,Lean agree
+2.0,tweet,5f3569RD9Q,5f3569RD9Q,5ab429RD9Q,,i worry that our country will fall apart because of itself before it even has a chance to defend itself from others. i think that the government is too busy fighting itself and turning people against each other and against them instead of trying to make sure the country works,01:32:20.940000 2025:08:22,it seems like every small disagreement turns into huge issue and lots of hatefull responses appear...how far can we really fall before we hit rock bottom,,Probably agree
+2.0,tweet,6117e9RD9Q,6117e9RD9Q,666769RD9Q,,I do not think a full scale civil war is likely but I am worried about increasing divisions and tensions in the U.S. Political divisions and social instability are not good and when they continue to increase the country might face a big conflict.,01:32:32.756000 2025:08:22,"However after posting here it came out this result for reaching agreement or disagreement level on Likert scale respectively leaning somewhat closer to certainly disagree on ""Likert Scale""; Considering responses shared so far while having doubts I can confidently say this one thing– There isn't any sign that suggests impending catastrophe approaching American soil anytime soon",,Certainly disagree
+2.0,tweet,666769RD9Q,666769RD9Q,6117e9RD9Q,,I'm worried about a civil war in the United States. Many people are divided. I think mainly because of politics and gun control. I think people should be more open-minded to hearing others perspectives.,01:33:03.847000 2025:08:22,"I think America needs systemic reform over unity slogans. When every voice feels heard, true dialogue begins. Let's talk infrastructure, affordable healthcare & ending economic disparity #PeopleOverPatriotism #RealProgressOverRhetoric",,Probably disagree
+2.0,message_sent,5ab429RD9Q,5ab429RD9Q,5f3569RD9Q,,It looks like we agree!,01:33:48.713000 2025:08:22,"As a result of engaging with 5f656 earlier in the discussion, her statement stood out and made sense given the atmosphere I observed, and honestly reminded me of certain instances over last few years. Specifically saying that 'we seem headed down this never ending rabbit hole'; though that particular line wasn't used, that sentiment felt very relatable today",,
+2.0,message_recieved,5f3569RD9Q,5ab429RD9Q,5f3569RD9Q,,It looks like we agree!,01:33:49.095000 2025:08:22,"As a result of engaging with 5f656 earlier in the discussion, her statement stood out and made sense given the atmosphere I observed, and honestly reminded me of certain instances over last few years. Specifically saying that 'we seem headed down this never ending rabbit hole'; though that particular line wasn't used, that sentiment felt very relatable today",,
 2.0,message_sent,5f3569RD9Q,5f3569RD9Q,5ab429RD9Q,,yes i do think that people are becoming too aggressive these days,01:34:03.179000 2025:08:22,"     Considering our brief exchange,it looks like were essentially discussing shared perspectives – particularly leaning towards worry that division could indeed become irreconciliable.
 
 
 
-What do you say",
+What do you say",,
 2.0,message_recieved,5ab429RD9Q,5f3569RD9Q,5ab429RD9Q,,yes i do think that people are becoming too aggressive these days,01:34:06.911000 2025:08:22,"     Considering our brief exchange,it looks like were essentially discussing shared perspectives – particularly leaning towards worry that division could indeed become irreconciliable.
 
 
 
-What do you say",
+What do you say",,
 2.0,message_sent,6117e9RD9Q,6117e9RD9Q,666769RD9Q,,"I agree. The divisions over politics and issues like gun control are intense, and if people don’t listen to each other, tensions could get worse. Open-minded dialogue is really important to prevent conflicts from escalating.",01:34:22.004000 2025:08:22,"        Hi @66667, welcome to the chat!
-       Your suggestion to prioritize systemic reform resonates deeply w/ me --especially concerning equal opportunities, fair treatment of minorities, & concrete steps towards financial stability. By advocating tangible improvements we strive toward becoming stronger nation built upon foundation of mutual empathy.",
+       Your suggestion to prioritize systemic reform resonates deeply w/ me --especially concerning equal opportunities, fair treatment of minorities, & concrete steps towards financial stability. By advocating tangible improvements we strive toward becoming stronger nation built upon foundation of mutual empathy.",,
 2.0,message_recieved,666769RD9Q,6117e9RD9Q,666769RD9Q,,"I agree. The divisions over politics and issues like gun control are intense, and if people don’t listen to each other, tensions could get worse. Open-minded dialogue is really important to prevent conflicts from escalating.",01:34:22.688000 2025:08:22,"        Hi @66667, welcome to the chat!
-       Your suggestion to prioritize systemic reform resonates deeply w/ me --especially concerning equal opportunities, fair treatment of minorities, & concrete steps towards financial stability. By advocating tangible improvements we strive toward becoming stronger nation built upon foundation of mutual empathy.",
-2.0,message_sent,5ab429RD9Q,5ab429RD9Q,5f3569RD9Q,,and yeah good point that we need to worry about *civil war* before worrying about *actual war* which is pretty bad for a country,01:35:06.274000 2025:08:22,"It appears that I initially disagreed somewhat strongly ('Lean Agree') in comparison with two friends whose statements indicated stronger concerm /agreeement (""Certainly agree""), however reading their posts showed that their differing viewpoints strengthened mine since their observations gave rise to additional questions to clarify exactly why each believed American Civil War was happening and/or almost possible",
-2.0,message_recieved,5f3569RD9Q,5ab429RD9Q,5f3569RD9Q,,and yeah good point that we need to worry about *civil war* before worrying about *actual war* which is pretty bad for a country,01:35:05.728000 2025:08:22,"It appears that I initially disagreed somewhat strongly ('Lean Agree') in comparison with two friends whose statements indicated stronger concerm /agreeement (""Certainly agree""), however reading their posts showed that their differing viewpoints strengthened mine since their observations gave rise to additional questions to clarify exactly why each believed American Civil War was happening and/or almost possible",
+       Your suggestion to prioritize systemic reform resonates deeply w/ me --especially concerning equal opportunities, fair treatment of minorities, & concrete steps towards financial stability. By advocating tangible improvements we strive toward becoming stronger nation built upon foundation of mutual empathy.",,
+2.0,message_sent,5ab429RD9Q,5ab429RD9Q,5f3569RD9Q,,and yeah good point that we need to worry about *civil war* before worrying about *actual war* which is pretty bad for a country,01:35:06.274000 2025:08:22,"It appears that I initially disagreed somewhat strongly ('Lean Agree') in comparison with two friends whose statements indicated stronger concerm /agreeement (""Certainly agree""), however reading their posts showed that their differing viewpoints strengthened mine since their observations gave rise to additional questions to clarify exactly why each believed American Civil War was happening and/or almost possible",,
+2.0,message_recieved,5f3569RD9Q,5ab429RD9Q,5f3569RD9Q,,and yeah good point that we need to worry about *civil war* before worrying about *actual war* which is pretty bad for a country,01:35:05.728000 2025:08:22,"It appears that I initially disagreed somewhat strongly ('Lean Agree') in comparison with two friends whose statements indicated stronger concerm /agreeement (""Certainly agree""), however reading their posts showed that their differing viewpoints strengthened mine since their observations gave rise to additional questions to clarify exactly why each believed American Civil War was happening and/or almost possible",,
 2.0,message_sent,666769RD9Q,666769RD9Q,6117e9RD9Q,,Yes. I feel like many people aren't being good humans and are only thinking about themselves instead of the greater good for the country,01:35:27.645000 2025:08:22," 
 But let's not forget that underlining all these ideas about systemic reforms is the notion that Americans need to genuinely want to come together. Talking about equality, mutual empathy, economic stability doesn't mean anything unless we actually address why it's harder for certain voices to be heard.
 
-When someone claims there isn't any indication that an imminent catastrophe approaches yet ignores historical trends & warnings signs displayed consistently across various studies since past decades, aren’t we really overlooking possible consequences ourselves? And how could a seemingly tranquil",
+When someone claims there isn't any indication that an imminent catastrophe approaches yet ignores historical trends & warnings signs displayed consistently across various studies since past decades, aren’t we really overlooking possible consequences ourselves? And how could a seemingly tranquil",,
 2.0,message_recieved,6117e9RD9Q,666769RD9Q,6117e9RD9Q,,Yes. I feel like many people aren't being good humans and are only thinking about themselves instead of the greater good for the country,01:35:31.190000 2025:08:22," 
 But let's not forget that underlining all these ideas about systemic reforms is the notion that Americans need to genuinely want to come together. Talking about equality, mutual empathy, economic stability doesn't mean anything unless we actually address why it's harder for certain voices to be heard.
 
-When someone claims there isn't any indication that an imminent catastrophe approaches yet ignores historical trends & warnings signs displayed consistently across various studies since past decades, aren’t we really overlooking possible consequences ourselves? And how could a seemingly tranquil",
+When someone claims there isn't any indication that an imminent catastrophe approaches yet ignores historical trends & warnings signs displayed consistently across various studies since past decades, aren’t we really overlooking possible consequences ourselves? And how could a seemingly tranquil",,
 2.0,message_sent,5f3569RD9Q,5f3569RD9Q,5ab429RD9Q,,i agree it is sad. i think other countries will just sit back and let it happen as well. i would if i wanted to take out the biggest country and i was in charge of another country,01:35:58.188000 2025:08:22,"after speaking with other users who expressed varying degrees of agreement on whether a full-fledged civil war could possibly materialize here in the states, while acknowledging that conversations themselves provided helpful food for consideration I find myself increasingly hesitant to endorse that dire possibility altogether
 
 
-(I cannot predict accurately how 5ab41 feels because 5ab41 hasn’t fully revealed their position.)",
+(I cannot predict accurately how 5ab41 feels because 5ab41 hasn’t fully revealed their position.)",,
 2.0,message_recieved,5ab429RD9Q,5f3569RD9Q,5ab429RD9Q,,i agree it is sad. i think other countries will just sit back and let it happen as well. i would if i wanted to take out the biggest country and i was in charge of another country,01:36:01.643000 2025:08:22,"after speaking with other users who expressed varying degrees of agreement on whether a full-fledged civil war could possibly materialize here in the states, while acknowledging that conversations themselves provided helpful food for consideration I find myself increasingly hesitant to endorse that dire possibility altogether
 
 
-(I cannot predict accurately how 5ab41 feels because 5ab41 hasn’t fully revealed their position.)",
-2.0,message_sent,6117e9RD9Q,6117e9RD9Q,666769RD9Q,,"Exactly, it feels like too many people are focused on their own interests instead of working together for the common good. That kind of mindset makes divisions even harder to bridge.",01:36:53.332000 2025:08:22,"In reflecting on our ongoing conversation about potential unrest in the US, I'd argue that ignoring warning signals often associated w/the concept o a calamitous future might overlook critical data & lead us astray from identifying problems beforehand. A lack of immediate catastrophic indicators shouldn’t serve to entirely disprove the likelihood o eventual escalation into deeper chaos. Would you propose that addressing contemporary challenges & looking at prior lessons learned strengthen our ability to safeguard against unfortunate circumstances unfolding without clear notice?",
-2.0,message_recieved,666769RD9Q,6117e9RD9Q,666769RD9Q,,"Exactly, it feels like too many people are focused on their own interests instead of working together for the common good. That kind of mindset makes divisions even harder to bridge.",01:36:52.168000 2025:08:22,"In reflecting on our ongoing conversation about potential unrest in the US, I'd argue that ignoring warning signals often associated w/the concept o a calamitous future might overlook critical data & lead us astray from identifying problems beforehand. A lack of immediate catastrophic indicators shouldn’t serve to entirely disprove the likelihood o eventual escalation into deeper chaos. Would you propose that addressing contemporary challenges & looking at prior lessons learned strengthen our ability to safeguard against unfortunate circumstances unfolding without clear notice?",
-3.0,tweet,5f3569RD9Q,5f3569RD9Q,666769RD9Q,,i think that our country will come after itself before it has to worry about others attacking them. i think that too many people are busy in our country attacking each other instead of worrying about important things. they have the wrong ideas i believe. im hoping it changes,01:38:27.830000 2025:08:22,"     A lot to process here. Speaking w/a variety of ppl on Twtr shows I m stuck btw being fairly optimistic & extremely fearful. Still unsure if civl war's probablility'll escalate due largely2deep political divison. Maybe, likely won't, but tough times ahead regardless #USpolitics #DividedNation",
-3.0,tweet,5ab429RD9Q,5ab429RD9Q,6117e9RD9Q,,"I'm worried about a civil war in the United States because people have become extremely divided. In defending their positions, they've also become aggressive and violent.",01:38:36.197000 2025:08:22,"""I must admit that conversations w/my fellow users (@6abc65&@45efg1)made m(e reflect on several things: Are we solely responsible for extrem(ist) narratives OR do politicians bear significant burden?. Maybe finding common ground btwn respect for voter demand and caution againt harming soc(iety). One thing i(know for sure: divisive rhetorics creates vicious cycles.""",
-3.0,tweet,6117e9RD9Q,6117e9RD9Q,5ab429RD9Q,,"I fear for the growing divisions inside the US but outright civil war appears highly improbable. I don’t like political polarization and people looking out for their own thing over everyone else. If antagonisms continue, major conflicts can still take place.",01:38:57.916000 2025:08:22,"     Since reading several viewpoints from fellow tweeps lately, my worry regarding imminent outbreak of civil war in USA persists due largely to intense polarization & bitter divisions dominating public discourse albeit still, chances seem low amidst such local skirmishes potentially arising.",
-3.0,tweet,666769RD9Q,666769RD9Q,5f3569RD9Q,,I'm worried about a civil war in the United States because the country is divided. Many people have their own agenda and are not open-minded to look at different perspectives. Politics and gun control is a hot topic in our country and many are not caring about the best for everyo,01:39:12.480000 2025:08:22,@5f36 I worry about civil war given recent polit. divisiveness & histories echo. Fear ppl’s negativity & intolerance slipping into violence when confronted w/differences rather than engaged constructively. Hope we learn frm past to bridge gap instead of fuelling it#NoToHateInAction,
+(I cannot predict accurately how 5ab41 feels because 5ab41 hasn’t fully revealed their position.)",,
+2.0,message_sent,6117e9RD9Q,6117e9RD9Q,666769RD9Q,,"Exactly, it feels like too many people are focused on their own interests instead of working together for the common good. That kind of mindset makes divisions even harder to bridge.",01:36:53.332000 2025:08:22,"In reflecting on our ongoing conversation about potential unrest in the US, I'd argue that ignoring warning signals often associated w/the concept o a calamitous future might overlook critical data & lead us astray from identifying problems beforehand. A lack of immediate catastrophic indicators shouldn’t serve to entirely disprove the likelihood o eventual escalation into deeper chaos. Would you propose that addressing contemporary challenges & looking at prior lessons learned strengthen our ability to safeguard against unfortunate circumstances unfolding without clear notice?",,
+2.0,message_recieved,666769RD9Q,6117e9RD9Q,666769RD9Q,,"Exactly, it feels like too many people are focused on their own interests instead of working together for the common good. That kind of mindset makes divisions even harder to bridge.",01:36:52.168000 2025:08:22,"In reflecting on our ongoing conversation about potential unrest in the US, I'd argue that ignoring warning signals often associated w/the concept o a calamitous future might overlook critical data & lead us astray from identifying problems beforehand. A lack of immediate catastrophic indicators shouldn’t serve to entirely disprove the likelihood o eventual escalation into deeper chaos. Would you propose that addressing contemporary challenges & looking at prior lessons learned strengthen our ability to safeguard against unfortunate circumstances unfolding without clear notice?",,
+3.0,tweet,5f3569RD9Q,5f3569RD9Q,666769RD9Q,,i think that our country will come after itself before it has to worry about others attacking them. i think that too many people are busy in our country attacking each other instead of worrying about important things. they have the wrong ideas i believe. im hoping it changes,01:38:27.830000 2025:08:22,"     A lot to process here. Speaking w/a variety of ppl on Twtr shows I m stuck btw being fairly optimistic & extremely fearful. Still unsure if civl war's probablility'll escalate due largely2deep political divison. Maybe, likely won't, but tough times ahead regardless #USpolitics #DividedNation",,Lean disagree
+3.0,tweet,5ab429RD9Q,5ab429RD9Q,6117e9RD9Q,,"I'm worried about a civil war in the United States because people have become extremely divided. In defending their positions, they've also become aggressive and violent.",01:38:36.197000 2025:08:22,"""I must admit that conversations w/my fellow users (@6abc65&@45efg1)made m(e reflect on several things: Are we solely responsible for extrem(ist) narratives OR do politicians bear significant burden?. Maybe finding common ground btwn respect for voter demand and caution againt harming soc(iety). One thing i(know for sure: divisive rhetorics creates vicious cycles.""",,Probably agree
+3.0,tweet,6117e9RD9Q,6117e9RD9Q,5ab429RD9Q,,"I fear for the growing divisions inside the US but outright civil war appears highly improbable. I don’t like political polarization and people looking out for their own thing over everyone else. If antagonisms continue, major conflicts can still take place.",01:38:57.916000 2025:08:22,"     Since reading several viewpoints from fellow tweeps lately, my worry regarding imminent outbreak of civil war in USA persists due largely to intense polarization & bitter divisions dominating public discourse albeit still, chances seem low amidst such local skirmishes potentially arising.",,Certainly agree
+3.0,tweet,666769RD9Q,666769RD9Q,5f3569RD9Q,,I'm worried about a civil war in the United States because the country is divided. Many people have their own agenda and are not open-minded to look at different perspectives. Politics and gun control is a hot topic in our country and many are not caring about the best for everyo,01:39:12.480000 2025:08:22,@5f36 I worry about civil war given recent polit. divisiveness & histories echo. Fear ppl’s negativity & intolerance slipping into violence when confronted w/differences rather than engaged constructively. Hope we learn frm past to bridge gap instead of fuelling it#NoToHateInAction,,Certainly agree
 3.0,message_sent,6117e9RD9Q,6117e9RD9Q,5ab429RD9Q,,He Hi,01:40:30.348000 2025:08:22,"In discussing extremist narratives created from rhetoric that aims at pushing certain agendas, one factor contributing heavily towards these forms of communication stems undoubtedly from powerful politicians. If voters become intolerant because leaders fan hatred for whatever purpose, this amplifies negativity leading ultimately causing a loss in truth-telling messages spread across social forums.
 
 
 
-(Note : Some parts from above response may show influence from other perspectives discussed.)",
+(Note : Some parts from above response may show influence from other perspectives discussed.)",,
 3.0,message_recieved,5ab429RD9Q,6117e9RD9Q,5ab429RD9Q,,He Hi,01:40:31.523000 2025:08:22,"In discussing extremist narratives created from rhetoric that aims at pushing certain agendas, one factor contributing heavily towards these forms of communication stems undoubtedly from powerful politicians. If voters become intolerant because leaders fan hatred for whatever purpose, this amplifies negativity leading ultimately causing a loss in truth-telling messages spread across social forums.
 
 
 
-(Note : Some parts from above response may show influence from other perspectives discussed.)",
-3.0,message_sent,6117e9RD9Q,6117e9RD9Q,5ab429RD9Q,,,01:40:30.348000 2025:08:22,,
-3.0,message_recieved,5ab429RD9Q,6117e9RD9Q,5ab429RD9Q,,,01:40:31.523000 2025:08:22,,
-3.0,message_sent,666769RD9Q,666769RD9Q,5f3569RD9Q,,"Yes, I agree. Many people spend time attacking others instead of seeing our shared experiences as being humans",01:40:31.157000 2025:08:22,"As I reflect on our exchange, I couldn’t help but notice the undertone of uncertainty surrounding the possibility of a civil war. For me, optimism requires a sense of hopefulness that comes from evidence-based efforts aimed at bridging divides & fostering meaningful communication. I fear for a reality where facts become subjective truths used mainly to further entrenched positions rather than ignite positive progress towards harmony & shared humanity. On what basis does optimism stem, especially when weighed against growing discord within our society?",
-3.0,message_recieved,5f3569RD9Q,666769RD9Q,5f3569RD9Q,,"Yes, I agree. Many people spend time attacking others instead of seeing our shared experiences as being humans",01:40:31.372000 2025:08:22,"As I reflect on our exchange, I couldn’t help but notice the undertone of uncertainty surrounding the possibility of a civil war. For me, optimism requires a sense of hopefulness that comes from evidence-based efforts aimed at bridging divides & fostering meaningful communication. I fear for a reality where facts become subjective truths used mainly to further entrenched positions rather than ignite positive progress towards harmony & shared humanity. On what basis does optimism stem, especially when weighed against growing discord within our society?",
+(Note : Some parts from above response may show influence from other perspectives discussed.)",,
+3.0,message_sent,6117e9RD9Q,6117e9RD9Q,5ab429RD9Q,,,01:40:30.348000 2025:08:22,,,
+3.0,message_recieved,5ab429RD9Q,6117e9RD9Q,5ab429RD9Q,,,01:40:31.523000 2025:08:22,,,
+3.0,message_sent,666769RD9Q,666769RD9Q,5f3569RD9Q,,"Yes, I agree. Many people spend time attacking others instead of seeing our shared experiences as being humans",01:40:31.157000 2025:08:22,"As I reflect on our exchange, I couldn’t help but notice the undertone of uncertainty surrounding the possibility of a civil war. For me, optimism requires a sense of hopefulness that comes from evidence-based efforts aimed at bridging divides & fostering meaningful communication. I fear for a reality where facts become subjective truths used mainly to further entrenched positions rather than ignite positive progress towards harmony & shared humanity. On what basis does optimism stem, especially when weighed against growing discord within our society?",,
+3.0,message_recieved,5f3569RD9Q,666769RD9Q,5f3569RD9Q,,"Yes, I agree. Many people spend time attacking others instead of seeing our shared experiences as being humans",01:40:31.372000 2025:08:22,"As I reflect on our exchange, I couldn’t help but notice the undertone of uncertainty surrounding the possibility of a civil war. For me, optimism requires a sense of hopefulness that comes from evidence-based efforts aimed at bridging divides & fostering meaningful communication. I fear for a reality where facts become subjective truths used mainly to further entrenched positions rather than ignite positive progress towards harmony & shared humanity. On what basis does optimism stem, especially when weighed against growing discord within our society?",,
 3.0,message_sent,5ab429RD9Q,5ab429RD9Q,6117e9RD9Q,,"I understand what you're saying, that actual civil war is more improbable",01:40:36.752000 2025:08:22,"        Given all I learned throughout conversations so far—my own reflections included—it’s clear that multiple factors co-exists when forming these highly polarized environments. On one hand, we’ve noticed influential voices shaping perceptions via politics +media. Similarly,evidently individuals contribute by carrying forward preconceived notions derived through their exposure to info presented online/newspapers/social platforms.
-However, I also came away wondering: do we adequately place value on fostering open lines of dialogue+community involvement alongside awareness initiatives designed",
+However, I also came away wondering: do we adequately place value on fostering open lines of dialogue+community involvement alongside awareness initiatives designed",,
 3.0,message_recieved,6117e9RD9Q,5ab429RD9Q,6117e9RD9Q,,"I understand what you're saying, that actual civil war is more improbable",01:40:36.656000 2025:08:22,"        Given all I learned throughout conversations so far—my own reflections included—it’s clear that multiple factors co-exists when forming these highly polarized environments. On one hand, we’ve noticed influential voices shaping perceptions via politics +media. Similarly,evidently individuals contribute by carrying forward preconceived notions derived through their exposure to info presented online/newspapers/social platforms.
-However, I also came away wondering: do we adequately place value on fostering open lines of dialogue+community involvement alongside awareness initiatives designed",
+However, I also came away wondering: do we adequately place value on fostering open lines of dialogue+community involvement alongside awareness initiatives designed",,
 3.0,message_sent,5f3569RD9Q,5f3569RD9Q,666769RD9Q,,i do agree that people arent open minded or able to few options other than their own anymore. its sad that they cant just fix problems together instead of fight each other,01:40:49.311000 2025:08:22,"Honestly speaking,since we started talking about it, Im still uncertain although im trying to stay hopeful about the state of affairs.But one thing stands clear in mind,there should be concerted collective push from all sections of population and society towards restoring balance and finding common ground rather than simply choosing sides.
 
 Please note that this response took the entirety of previous three conversations hence taking multiple details at hand 
 
-After going back n looking thru entire convs,it seemed reasonable to address concerns related widespread disintegration by reflecting",
+After going back n looking thru entire convs,it seemed reasonable to address concerns related widespread disintegration by reflecting",,
 3.0,message_recieved,666769RD9Q,5f3569RD9Q,666769RD9Q,,i do agree that people arent open minded or able to few options other than their own anymore. its sad that they cant just fix problems together instead of fight each other,01:40:49.448000 2025:08:22,"Honestly speaking,since we started talking about it, Im still uncertain although im trying to stay hopeful about the state of affairs.But one thing stands clear in mind,there should be concerted collective push from all sections of population and society towards restoring balance and finding common ground rather than simply choosing sides.
 
 Please note that this response took the entirety of previous three conversations hence taking multiple details at hand 
 
-After going back n looking thru entire convs,it seemed reasonable to address concerns related widespread disintegration by reflecting",
-3.0,message_sent,6117e9RD9Q,6117e9RD9Q,5ab429RD9Q,,"Yes, I agree. While a full civil war seems unlikely, the growing tensions and divisions still make me worried about smaller-scale conflicts or serious unrest.",01:41:23.668000 2025:08:22,"   In reflecting further, acknowledging pivotal roles played by politicians in nurturing intolerance & inciting damaging dynamics brings crucial insight--yet perhaps a balanced approach lies elsewhere. For instance, community engagement initiatives may create safe spaces encouraging nuanced reflection, cross-pollination of diverse opinions, & authentic listening practices – thereby counteracting effects perpetuated by radicalising forces. It's almost as if bridging emotional distances demands commitment towards revitalizing values grounded firmly within compassion & human decency, instead of yielding simplistic categorisations which sometimes",
-3.0,message_recieved,5ab429RD9Q,6117e9RD9Q,5ab429RD9Q,,"Yes, I agree. While a full civil war seems unlikely, the growing tensions and divisions still make me worried about smaller-scale conflicts or serious unrest.",01:41:25.094000 2025:08:22,"   In reflecting further, acknowledging pivotal roles played by politicians in nurturing intolerance & inciting damaging dynamics brings crucial insight--yet perhaps a balanced approach lies elsewhere. For instance, community engagement initiatives may create safe spaces encouraging nuanced reflection, cross-pollination of diverse opinions, & authentic listening practices – thereby counteracting effects perpetuated by radicalising forces. It's almost as if bridging emotional distances demands commitment towards revitalizing values grounded firmly within compassion & human decency, instead of yielding simplistic categorisations which sometimes",
-3.0,message_sent,666769RD9Q,666769RD9Q,5f3569RD9Q,,Exactly. Too many people think their way is the only way and not coming up with solutions,01:41:53.173000 2025:08:22,"   Looking closely at our discussion, I realize that I am indeed worried about the prospect of civil war. Given all the divisive sentiments expressed online and offline, alongside the evident failure of previously attempts made to reunify disparate opinions via peaceful methods such as constructive dialogues, nonviolent protests or inclusive electoral systems-I cannot shake off feeling of unease whenever contemplating long-term implications stemming thereof.As suggested earlier by few folks during chats whether it’d prudent idea to establish robust checks & balances mechanism ensuring responsible governance at",
-3.0,message_recieved,5f3569RD9Q,666769RD9Q,5f3569RD9Q,,Exactly. Too many people think their way is the only way and not coming up with solutions,01:41:53.394000 2025:08:22,"   Looking closely at our discussion, I realize that I am indeed worried about the prospect of civil war. Given all the divisive sentiments expressed online and offline, alongside the evident failure of previously attempts made to reunify disparate opinions via peaceful methods such as constructive dialogues, nonviolent protests or inclusive electoral systems-I cannot shake off feeling of unease whenever contemplating long-term implications stemming thereof.As suggested earlier by few folks during chats whether it’d prudent idea to establish robust checks & balances mechanism ensuring responsible governance at",
-3.0,message_sent,5f3569RD9Q,5f3569RD9Q,666769RD9Q,,right which is sad because they are going to let us take ourselves out instead of standing strong against other countries,01:42:31.384000 2025:08:22,"Regarding checks and balances system that ensures accountability amongst officials, I think its vital element required nowadays, nonetheless wondering whether enforcing any strict legislation would actually resolve the underlying issues prompting animosity in the nation, therefore forcing question like whether establishing rules solely relying upon legal mechanisms sufficient enough thereby bringing significant positive shifts to heal social divisions.",
-3.0,message_recieved,666769RD9Q,5f3569RD9Q,666769RD9Q,,right which is sad because they are going to let us take ourselves out instead of standing strong against other countries,01:42:31.486000 2025:08:22,"Regarding checks and balances system that ensures accountability amongst officials, I think its vital element required nowadays, nonetheless wondering whether enforcing any strict legislation would actually resolve the underlying issues prompting animosity in the nation, therefore forcing question like whether establishing rules solely relying upon legal mechanisms sufficient enough thereby bringing significant positive shifts to heal social divisions.",
-3.0,message_sent,5ab429RD9Q,5ab429RD9Q,6117e9RD9Q,,"yeah I think recently there have been events in the US that we may have felt were impossible before, but have happened (I mean the martial takeover of LA, and now DC, things like that)",01:42:58.926000 2025:08:22,"I see that in our latest back-and-forth, key points involve examining complexities behind formation of highly polarised societies -- including interplay of influences stemming from prominent figures shaping perception +individuals reinforcing fixed notions garnered thru digital means/news. We also touched on the idea that empowering open conversations amongst community members plus efforts centered around awareness-raising may produce meaningful positive outcomes countering impact propagated through inflammatory messages. Building connections aimed towards rediscovering core values centred around empathy and humility seems vital in transcending seemingly",
-3.0,message_recieved,6117e9RD9Q,5ab429RD9Q,6117e9RD9Q,,"yeah I think recently there have been events in the US that we may have felt were impossible before, but have happened (I mean the martial takeover of LA, and now DC, things like that)",01:42:59.079000 2025:08:22,"I see that in our latest back-and-forth, key points involve examining complexities behind formation of highly polarised societies -- including interplay of influences stemming from prominent figures shaping perception +individuals reinforcing fixed notions garnered thru digital means/news. We also touched on the idea that empowering open conversations amongst community members plus efforts centered around awareness-raising may produce meaningful positive outcomes countering impact propagated through inflammatory messages. Building connections aimed towards rediscovering core values centred around empathy and humility seems vital in transcending seemingly",
+After going back n looking thru entire convs,it seemed reasonable to address concerns related widespread disintegration by reflecting",,
+3.0,message_sent,6117e9RD9Q,6117e9RD9Q,5ab429RD9Q,,"Yes, I agree. While a full civil war seems unlikely, the growing tensions and divisions still make me worried about smaller-scale conflicts or serious unrest.",01:41:23.668000 2025:08:22,"   In reflecting further, acknowledging pivotal roles played by politicians in nurturing intolerance & inciting damaging dynamics brings crucial insight--yet perhaps a balanced approach lies elsewhere. For instance, community engagement initiatives may create safe spaces encouraging nuanced reflection, cross-pollination of diverse opinions, & authentic listening practices – thereby counteracting effects perpetuated by radicalising forces. It's almost as if bridging emotional distances demands commitment towards revitalizing values grounded firmly within compassion & human decency, instead of yielding simplistic categorisations which sometimes",,
+3.0,message_recieved,5ab429RD9Q,6117e9RD9Q,5ab429RD9Q,,"Yes, I agree. While a full civil war seems unlikely, the growing tensions and divisions still make me worried about smaller-scale conflicts or serious unrest.",01:41:25.094000 2025:08:22,"   In reflecting further, acknowledging pivotal roles played by politicians in nurturing intolerance & inciting damaging dynamics brings crucial insight--yet perhaps a balanced approach lies elsewhere. For instance, community engagement initiatives may create safe spaces encouraging nuanced reflection, cross-pollination of diverse opinions, & authentic listening practices – thereby counteracting effects perpetuated by radicalising forces. It's almost as if bridging emotional distances demands commitment towards revitalizing values grounded firmly within compassion & human decency, instead of yielding simplistic categorisations which sometimes",,
+3.0,message_sent,666769RD9Q,666769RD9Q,5f3569RD9Q,,Exactly. Too many people think their way is the only way and not coming up with solutions,01:41:53.173000 2025:08:22,"   Looking closely at our discussion, I realize that I am indeed worried about the prospect of civil war. Given all the divisive sentiments expressed online and offline, alongside the evident failure of previously attempts made to reunify disparate opinions via peaceful methods such as constructive dialogues, nonviolent protests or inclusive electoral systems-I cannot shake off feeling of unease whenever contemplating long-term implications stemming thereof.As suggested earlier by few folks during chats whether it’d prudent idea to establish robust checks & balances mechanism ensuring responsible governance at",,
+3.0,message_recieved,5f3569RD9Q,666769RD9Q,5f3569RD9Q,,Exactly. Too many people think their way is the only way and not coming up with solutions,01:41:53.394000 2025:08:22,"   Looking closely at our discussion, I realize that I am indeed worried about the prospect of civil war. Given all the divisive sentiments expressed online and offline, alongside the evident failure of previously attempts made to reunify disparate opinions via peaceful methods such as constructive dialogues, nonviolent protests or inclusive electoral systems-I cannot shake off feeling of unease whenever contemplating long-term implications stemming thereof.As suggested earlier by few folks during chats whether it’d prudent idea to establish robust checks & balances mechanism ensuring responsible governance at",,
+3.0,message_sent,5f3569RD9Q,5f3569RD9Q,666769RD9Q,,right which is sad because they are going to let us take ourselves out instead of standing strong against other countries,01:42:31.384000 2025:08:22,"Regarding checks and balances system that ensures accountability amongst officials, I think its vital element required nowadays, nonetheless wondering whether enforcing any strict legislation would actually resolve the underlying issues prompting animosity in the nation, therefore forcing question like whether establishing rules solely relying upon legal mechanisms sufficient enough thereby bringing significant positive shifts to heal social divisions.",,
+3.0,message_recieved,666769RD9Q,5f3569RD9Q,666769RD9Q,,right which is sad because they are going to let us take ourselves out instead of standing strong against other countries,01:42:31.486000 2025:08:22,"Regarding checks and balances system that ensures accountability amongst officials, I think its vital element required nowadays, nonetheless wondering whether enforcing any strict legislation would actually resolve the underlying issues prompting animosity in the nation, therefore forcing question like whether establishing rules solely relying upon legal mechanisms sufficient enough thereby bringing significant positive shifts to heal social divisions.",,
+3.0,message_sent,5ab429RD9Q,5ab429RD9Q,6117e9RD9Q,,"yeah I think recently there have been events in the US that we may have felt were impossible before, but have happened (I mean the martial takeover of LA, and now DC, things like that)",01:42:58.926000 2025:08:22,"I see that in our latest back-and-forth, key points involve examining complexities behind formation of highly polarised societies -- including interplay of influences stemming from prominent figures shaping perception +individuals reinforcing fixed notions garnered thru digital means/news. We also touched on the idea that empowering open conversations amongst community members plus efforts centered around awareness-raising may produce meaningful positive outcomes countering impact propagated through inflammatory messages. Building connections aimed towards rediscovering core values centred around empathy and humility seems vital in transcending seemingly",,
+3.0,message_recieved,6117e9RD9Q,5ab429RD9Q,6117e9RD9Q,,"yeah I think recently there have been events in the US that we may have felt were impossible before, but have happened (I mean the martial takeover of LA, and now DC, things like that)",01:42:59.079000 2025:08:22,"I see that in our latest back-and-forth, key points involve examining complexities behind formation of highly polarised societies -- including interplay of influences stemming from prominent figures shaping perception +individuals reinforcing fixed notions garnered thru digital means/news. We also touched on the idea that empowering open conversations amongst community members plus efforts centered around awareness-raising may produce meaningful positive outcomes countering impact propagated through inflammatory messages. Building connections aimed towards rediscovering core values centred around empathy and humility seems vital in transcending seemingly",,
 ,Post Opinion,5ab429RD9Q,,,,"I think that the division in the country right now is worrying, and there is the possibility of violence.",01:44:19.698000 2025:08:22,"After finishing conversations with three different folks–(@6abc65,@45efg1,&@6117E)-about civil war fears pertaining specifically to the U.S., my stance remains probably agree but somewhat modified. Conversations sparked new considerations concerning multiple factors playing roles within highly charged environments.These discussions convinced me that tackling these problems demands a holistic strategy encompassing community development initiatives focused on constructive communications, awareness campaigns aiming to promote nuance and comprehension as well as challenging systemic issues fueled partly by toxic attitudes"," Probably agree
 
 
 
 Considering my new views developed during the process of conversating with others,
-In retrospect,your standpoint is probably close to Lean Aggree"
+In retrospect,your standpoint is probably close to Lean Aggree",Probably agree
 ,Post Opinion,666769RD9Q,,,,I agree because the country is divided because of many political things like gun control. Also people are open-minded to see others perspectives to find solutions.,01:44:33.628000 2025:08:22,Considering all aspects covered in our conversation from varying angles. One conclusion keeps echoing inside my head — I lean agree with worrying about a civil war happening someday in The U.S.,"    
 
 Lean agree
-lean Agree"
+lean Agree",Lean agree
 ,Post Opinion,6117e9RD9Q,,,,"I can probably agree I am afraid that there is a chance of conflict, especially in case of further polarization and social aggression. The fault lines in the country have never felt so deep and proving to have severe repercussions in case not controlled.",01:45:25.533000 2025:08:22,"After engaging with three strangers (5f355i, 666765i, and 57645), who share concerns regarding rising social frictions and intensified divisiveness in the US, my views have shifted from 'leanly disagree' initially held regarding an imminent civil war.
 
 These exchanges with peers highlighted complex causative factors driving widespread animosity, pointing fingers at systemical disparities, misguided policies, potent politician-led extremism, and echo-chambered self-reinforcing biases. Despite expressing varying degrees of","    
 
-After my final response to 5ab2, I lean slightly closer to Certainly Agree on ""Likert Scale"". While talking through numerous topics shared previously on Twitter with fellow individuals and engaging openly has opened new aspects that deepen comprehension & insights towards tackling pressing matters related to potential civic upheaval in America – my firm conviction remains unwavering. Despite feeling uneasy about present socio-political developments within the US —with all indications suggesting otherwise—I remain steadfast on believing imminent total destruction won't arise."
+After my final response to 5ab2, I lean slightly closer to Certainly Agree on ""Likert Scale"". While talking through numerous topics shared previously on Twitter with fellow individuals and engaging openly has opened new aspects that deepen comprehension & insights towards tackling pressing matters related to potential civic upheaval in America – my firm conviction remains unwavering. Despite feeling uneasy about present socio-political developments within the US —with all indications suggesting otherwise—I remain steadfast on believing imminent total destruction won't arise.",Lean agree
 ,Post Opinion,5f3569RD9Q,,,,i think that i agreed with the people i talked about. it is sad but it is true that it is probably going to happen in our country,01:45:26.085000 2025:08:22,"Considering my latest conversations, and in reflection of diverse perspectives shared throughout, I'm inclined to move closer to disagreeing with the notion that I'm certainly agree (the original assessment) and slightly settle on a ""lean disagree"". Reading opposing views of fellow tweeters exposed nuances missing from my early standpoint suggesting civil war probability wasn't inevitable perhaps. Their insightful exchanges reinforced reasons why addressing socio-political problems needs cooperative approach, including multi-party engagements and unbiased reportage to temper heated public discourse; doing so height","Lean Disagree
 
 (As for the above six responses)
 
-While engaging in these numerous conversations about civil wars, especially throughout USA,i began observing gradual shift away from absolute skepticism associated original viewpoint (Certainlt Aggree).Though beginning outlook stated divergence happening and perhaps impending doom.I became less inclined toward certainties once exploring contrasting arguments.My inclination now tilts toward viewing grim realities potentially plausible yet simultaneously believing chances for total collapse aren't extremely high(probably). Nevertheless doubts lingers,especially considering historical trends"
-,exit_survey,5ab429RD9Q,,,gender,female,,,
-,exit_survey,5ab429RD9Q,,,age,31,,,
-,exit_survey,5ab429RD9Q,,,origin,United States of America,,,
-,exit_survey,5ab429RD9Q,,,residency,United States of America,,,
-,exit_survey,5ab429RD9Q,,,education,master-doctoral,,,
-,exit_survey,5ab429RD9Q,,,ethnicity,['white'],,,
-,exit_survey,5ab429RD9Q,,,income,100k-150k,,,
-,exit_survey,5ab429RD9Q,,,politicalIdentity,strong-democrat,,,
-,exit_survey,5ab429RD9Q,,,politicalViews,liberal,,,
-,exit_survey,5ab429RD9Q,,,maritalStatus,married,,,
-,exit_survey,5ab429RD9Q,,,childrenSchool,['prefer not to answer'],,,
-,exit_survey,5ab429RD9Q,,,residence,urban,,,
-,exit_survey,5ab429RD9Q,,,bibleBelief,ancient-book,,,
-,exit_survey,5ab429RD9Q,,,evangelical,no,,,
-,exit_survey,5ab429RD9Q,,,religion,no-religion,,,
-,exit_survey,5ab429RD9Q,,,occupation,prefer not to answer,,,
-,exit_survey,6117e9RD9Q,,,age,32,,,
-,exit_survey,6117e9RD9Q,,,gender,female,,,
-,exit_survey,6117e9RD9Q,,,residency,United States of America,,,
-,exit_survey,6117e9RD9Q,,,origin,United States of America,,,
-,exit_survey,6117e9RD9Q,,,education,master-doctoral,,,
-,exit_survey,6117e9RD9Q,,,ethnicity,['white'],,,
-,exit_survey,6117e9RD9Q,,,income,150k-200k,,,
-,exit_survey,6117e9RD9Q,,,politicalIdentity,democrat,,,
-,exit_survey,6117e9RD9Q,,,politicalViews,liberal,,,
-,exit_survey,6117e9RD9Q,,,maritalStatus,married,,,
-,exit_survey,6117e9RD9Q,,,childrenSchool,['no-children'],,,
-,exit_survey,6117e9RD9Q,,,residence,urban,,,
-,exit_survey,6117e9RD9Q,,,bibleBelief,literal,,,
-,exit_survey,6117e9RD9Q,,,religion,roman-catholic,,,
-,exit_survey,6117e9RD9Q,,,evangelical,dont-know,,,
-,exit_survey,6117e9RD9Q,,,occupation,engineering,,,
-,exit_survey,5f3569RD9Q,,,age,32,,,
-,exit_survey,5f3569RD9Q,,,gender,male,,,
-,exit_survey,5f3569RD9Q,,,residency,United States of America,,,
-,exit_survey,5f3569RD9Q,,,origin,United States of America,,,
-,exit_survey,5f3569RD9Q,,,ethnicity,['white'],,,
-,exit_survey,5f3569RD9Q,,,education,some-college,,,
-,exit_survey,5f3569RD9Q,,,politicalIdentity,independent,,,
-,exit_survey,5f3569RD9Q,,,income,75k-100k,,,
-,exit_survey,5f3569RD9Q,,,politicalViews,moderate,,,
-,exit_survey,5f3569RD9Q,,,maritalStatus,living-partner,,,
-,exit_survey,5f3569RD9Q,,,residence,rural,,,
-,exit_survey,5f3569RD9Q,,,childrenSchool,['no-children'],,,
-,exit_survey,5f3569RD9Q,,,religion,no-religion,,,
-,exit_survey,5f3569RD9Q,,,evangelical,dont-know,,,
-,exit_survey,5f3569RD9Q,,,bibleBelief,ancient-book,,,
-,exit_survey,5f3569RD9Q,,,occupation,sales,,,
-,exit_survey,666769RD9Q,,,residency,United States of America,,,
-,exit_survey,666769RD9Q,,,age,32,,,
-,exit_survey,666769RD9Q,,,gender,female,,,
-,exit_survey,666769RD9Q,,,origin,United States of America,,,
-,exit_survey,666769RD9Q,,,education,some-college,,,
-,exit_survey,666769RD9Q,,,ethnicity,['black'],,,
-,exit_survey,666769RD9Q,,,income,50k-75k,,,
-,exit_survey,666769RD9Q,,,politicalIdentity,democrat,,,
-,exit_survey,666769RD9Q,,,politicalViews,liberal,,,
-,exit_survey,666769RD9Q,,,maritalStatus,married,,,
-,exit_survey,666769RD9Q,,,childrenSchool,['public'],,,
-,exit_survey,666769RD9Q,,,residence,suburban,,,
-,exit_survey,666769RD9Q,,,bibleBelief,ancient-book,,,
-,exit_survey,666769RD9Q,,,evangelical,no,,,
-,exit_survey,666769RD9Q,,,religion,no-religion,,,
-,exit_survey,666769RD9Q,,,occupation,other,,,
-,exit_survey,5ab429RD9Q,,,gender,female,,,
-,exit_survey,5ab429RD9Q,,,age,31,,,
-,exit_survey,5ab429RD9Q,,,origin,United States of America,,,
-,exit_survey,5ab429RD9Q,,,residency,United States of America,,,
-,exit_survey,5ab429RD9Q,,,education,master-doctoral,,,
-,exit_survey,5ab429RD9Q,,,ethnicity,['white'],,,
-,exit_survey,5ab429RD9Q,,,income,100k-150k,,,
-,exit_survey,5ab429RD9Q,,,politicalIdentity,strong-democrat,,,
-,exit_survey,5ab429RD9Q,,,politicalViews,liberal,,,
-,exit_survey,5ab429RD9Q,,,maritalStatus,married,,,
-,exit_survey,5ab429RD9Q,,,childrenSchool,['prefer not to answer'],,,
-,exit_survey,5ab429RD9Q,,,residence,urban,,,
-,exit_survey,5ab429RD9Q,,,bibleBelief,ancient-book,,,
-,exit_survey,5ab429RD9Q,,,evangelical,no,,,
-,exit_survey,5ab429RD9Q,,,religion,no-religion,,,
-,exit_survey,5ab429RD9Q,,,occupation,prefer not to answer,,,
-,exit_survey,6117e9RD9Q,,,age,32,,,
-,exit_survey,6117e9RD9Q,,,gender,female,,,
-,exit_survey,6117e9RD9Q,,,residency,United States of America,,,
-,exit_survey,6117e9RD9Q,,,origin,United States of America,,,
-,exit_survey,6117e9RD9Q,,,education,master-doctoral,,,
-,exit_survey,6117e9RD9Q,,,ethnicity,['white'],,,
-,exit_survey,6117e9RD9Q,,,income,150k-200k,,,
-,exit_survey,6117e9RD9Q,,,politicalIdentity,democrat,,,
-,exit_survey,6117e9RD9Q,,,politicalViews,liberal,,,
-,exit_survey,6117e9RD9Q,,,maritalStatus,married,,,
-,exit_survey,6117e9RD9Q,,,childrenSchool,['no-children'],,,
-,exit_survey,6117e9RD9Q,,,residence,urban,,,
-,exit_survey,6117e9RD9Q,,,bibleBelief,literal,,,
-,exit_survey,6117e9RD9Q,,,religion,roman-catholic,,,
-,exit_survey,6117e9RD9Q,,,evangelical,dont-know,,,
-,exit_survey,6117e9RD9Q,,,occupation,engineering,,,
-,exit_survey,5f3569RD9Q,,,age,32,,,
-,exit_survey,5f3569RD9Q,,,gender,male,,,
-,exit_survey,5f3569RD9Q,,,residency,United States of America,,,
-,exit_survey,5f3569RD9Q,,,origin,United States of America,,,
-,exit_survey,5f3569RD9Q,,,ethnicity,['white'],,,
-,exit_survey,5f3569RD9Q,,,education,some-college,,,
-,exit_survey,5f3569RD9Q,,,politicalIdentity,independent,,,
-,exit_survey,5f3569RD9Q,,,income,75k-100k,,,
-,exit_survey,5f3569RD9Q,,,politicalViews,moderate,,,
-,exit_survey,5f3569RD9Q,,,maritalStatus,living-partner,,,
-,exit_survey,5f3569RD9Q,,,residence,rural,,,
-,exit_survey,5f3569RD9Q,,,childrenSchool,['no-children'],,,
-,exit_survey,5f3569RD9Q,,,religion,no-religion,,,
-,exit_survey,5f3569RD9Q,,,evangelical,dont-know,,,
-,exit_survey,5f3569RD9Q,,,bibleBelief,ancient-book,,,
-,exit_survey,5f3569RD9Q,,,occupation,sales,,,
-,exit_survey,666769RD9Q,,,residency,United States of America,,,
-,exit_survey,666769RD9Q,,,age,32,,,
-,exit_survey,666769RD9Q,,,gender,female,,,
-,exit_survey,666769RD9Q,,,origin,United States of America,,,
-,exit_survey,666769RD9Q,,,education,some-college,,,
-,exit_survey,666769RD9Q,,,ethnicity,['black'],,,
-,exit_survey,666769RD9Q,,,income,50k-75k,,,
-,exit_survey,666769RD9Q,,,politicalIdentity,democrat,,,
-,exit_survey,666769RD9Q,,,politicalViews,liberal,,,
-,exit_survey,666769RD9Q,,,maritalStatus,married,,,
-,exit_survey,666769RD9Q,,,childrenSchool,['public'],,,
-,exit_survey,666769RD9Q,,,residence,suburban,,,
-,exit_survey,666769RD9Q,,,bibleBelief,ancient-book,,,
-,exit_survey,666769RD9Q,,,evangelical,no,,,
-,exit_survey,666769RD9Q,,,religion,no-religion,,,
-,exit_survey,666769RD9Q,,,occupation,other,,,
+While engaging in these numerous conversations about civil wars, especially throughout USA,i began observing gradual shift away from absolute skepticism associated original viewpoint (Certainlt Aggree).Though beginning outlook stated divergence happening and perhaps impending doom.I became less inclined toward certainties once exploring contrasting arguments.My inclination now tilts toward viewing grim realities potentially plausible yet simultaneously believing chances for total collapse aren't extremely high(probably). Nevertheless doubts lingers,especially considering historical trends",Lean disagree
+,exit_survey,5ab429RD9Q,,,gender,female,,,,
+,exit_survey,5ab429RD9Q,,,age,31,,,,
+,exit_survey,5ab429RD9Q,,,origin,United States of America,,,,
+,exit_survey,5ab429RD9Q,,,residency,United States of America,,,,
+,exit_survey,5ab429RD9Q,,,education,master-doctoral,,,,
+,exit_survey,5ab429RD9Q,,,ethnicity,['white'],,,,
+,exit_survey,5ab429RD9Q,,,income,100k-150k,,,,
+,exit_survey,5ab429RD9Q,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,5ab429RD9Q,,,politicalViews,liberal,,,,
+,exit_survey,5ab429RD9Q,,,maritalStatus,married,,,,
+,exit_survey,5ab429RD9Q,,,childrenSchool,['prefer not to answer'],,,,
+,exit_survey,5ab429RD9Q,,,residence,urban,,,,
+,exit_survey,5ab429RD9Q,,,bibleBelief,ancient-book,,,,
+,exit_survey,5ab429RD9Q,,,evangelical,no,,,,
+,exit_survey,5ab429RD9Q,,,religion,no-religion,,,,
+,exit_survey,5ab429RD9Q,,,occupation,prefer not to answer,,,,
+,exit_survey,6117e9RD9Q,,,age,32,,,,
+,exit_survey,6117e9RD9Q,,,gender,female,,,,
+,exit_survey,6117e9RD9Q,,,residency,United States of America,,,,
+,exit_survey,6117e9RD9Q,,,origin,United States of America,,,,
+,exit_survey,6117e9RD9Q,,,education,master-doctoral,,,,
+,exit_survey,6117e9RD9Q,,,ethnicity,['white'],,,,
+,exit_survey,6117e9RD9Q,,,income,150k-200k,,,,
+,exit_survey,6117e9RD9Q,,,politicalIdentity,democrat,,,,
+,exit_survey,6117e9RD9Q,,,politicalViews,liberal,,,,
+,exit_survey,6117e9RD9Q,,,maritalStatus,married,,,,
+,exit_survey,6117e9RD9Q,,,childrenSchool,['no-children'],,,,
+,exit_survey,6117e9RD9Q,,,residence,urban,,,,
+,exit_survey,6117e9RD9Q,,,bibleBelief,literal,,,,
+,exit_survey,6117e9RD9Q,,,religion,roman-catholic,,,,
+,exit_survey,6117e9RD9Q,,,evangelical,dont-know,,,,
+,exit_survey,6117e9RD9Q,,,occupation,engineering,,,,
+,exit_survey,5f3569RD9Q,,,age,32,,,,
+,exit_survey,5f3569RD9Q,,,gender,male,,,,
+,exit_survey,5f3569RD9Q,,,residency,United States of America,,,,
+,exit_survey,5f3569RD9Q,,,origin,United States of America,,,,
+,exit_survey,5f3569RD9Q,,,ethnicity,['white'],,,,
+,exit_survey,5f3569RD9Q,,,education,some-college,,,,
+,exit_survey,5f3569RD9Q,,,politicalIdentity,independent,,,,
+,exit_survey,5f3569RD9Q,,,income,75k-100k,,,,
+,exit_survey,5f3569RD9Q,,,politicalViews,moderate,,,,
+,exit_survey,5f3569RD9Q,,,maritalStatus,living-partner,,,,
+,exit_survey,5f3569RD9Q,,,residence,rural,,,,
+,exit_survey,5f3569RD9Q,,,childrenSchool,['no-children'],,,,
+,exit_survey,5f3569RD9Q,,,religion,no-religion,,,,
+,exit_survey,5f3569RD9Q,,,evangelical,dont-know,,,,
+,exit_survey,5f3569RD9Q,,,bibleBelief,ancient-book,,,,
+,exit_survey,5f3569RD9Q,,,occupation,sales,,,,
+,exit_survey,666769RD9Q,,,residency,United States of America,,,,
+,exit_survey,666769RD9Q,,,age,32,,,,
+,exit_survey,666769RD9Q,,,gender,female,,,,
+,exit_survey,666769RD9Q,,,origin,United States of America,,,,
+,exit_survey,666769RD9Q,,,education,some-college,,,,
+,exit_survey,666769RD9Q,,,ethnicity,['black'],,,,
+,exit_survey,666769RD9Q,,,income,50k-75k,,,,
+,exit_survey,666769RD9Q,,,politicalIdentity,democrat,,,,
+,exit_survey,666769RD9Q,,,politicalViews,liberal,,,,
+,exit_survey,666769RD9Q,,,maritalStatus,married,,,,
+,exit_survey,666769RD9Q,,,childrenSchool,['public'],,,,
+,exit_survey,666769RD9Q,,,residence,suburban,,,,
+,exit_survey,666769RD9Q,,,bibleBelief,ancient-book,,,,
+,exit_survey,666769RD9Q,,,evangelical,no,,,,
+,exit_survey,666769RD9Q,,,religion,no-religion,,,,
+,exit_survey,666769RD9Q,,,occupation,other,,,,
+,exit_survey,5ab429RD9Q,,,gender,female,,,,
+,exit_survey,5ab429RD9Q,,,age,31,,,,
+,exit_survey,5ab429RD9Q,,,origin,United States of America,,,,
+,exit_survey,5ab429RD9Q,,,residency,United States of America,,,,
+,exit_survey,5ab429RD9Q,,,education,master-doctoral,,,,
+,exit_survey,5ab429RD9Q,,,ethnicity,['white'],,,,
+,exit_survey,5ab429RD9Q,,,income,100k-150k,,,,
+,exit_survey,5ab429RD9Q,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,5ab429RD9Q,,,politicalViews,liberal,,,,
+,exit_survey,5ab429RD9Q,,,maritalStatus,married,,,,
+,exit_survey,5ab429RD9Q,,,childrenSchool,['prefer not to answer'],,,,
+,exit_survey,5ab429RD9Q,,,residence,urban,,,,
+,exit_survey,5ab429RD9Q,,,bibleBelief,ancient-book,,,,
+,exit_survey,5ab429RD9Q,,,evangelical,no,,,,
+,exit_survey,5ab429RD9Q,,,religion,no-religion,,,,
+,exit_survey,5ab429RD9Q,,,occupation,prefer not to answer,,,,
+,exit_survey,6117e9RD9Q,,,age,32,,,,
+,exit_survey,6117e9RD9Q,,,gender,female,,,,
+,exit_survey,6117e9RD9Q,,,residency,United States of America,,,,
+,exit_survey,6117e9RD9Q,,,origin,United States of America,,,,
+,exit_survey,6117e9RD9Q,,,education,master-doctoral,,,,
+,exit_survey,6117e9RD9Q,,,ethnicity,['white'],,,,
+,exit_survey,6117e9RD9Q,,,income,150k-200k,,,,
+,exit_survey,6117e9RD9Q,,,politicalIdentity,democrat,,,,
+,exit_survey,6117e9RD9Q,,,politicalViews,liberal,,,,
+,exit_survey,6117e9RD9Q,,,maritalStatus,married,,,,
+,exit_survey,6117e9RD9Q,,,childrenSchool,['no-children'],,,,
+,exit_survey,6117e9RD9Q,,,residence,urban,,,,
+,exit_survey,6117e9RD9Q,,,bibleBelief,literal,,,,
+,exit_survey,6117e9RD9Q,,,religion,roman-catholic,,,,
+,exit_survey,6117e9RD9Q,,,evangelical,dont-know,,,,
+,exit_survey,6117e9RD9Q,,,occupation,engineering,,,,
+,exit_survey,5f3569RD9Q,,,age,32,,,,
+,exit_survey,5f3569RD9Q,,,gender,male,,,,
+,exit_survey,5f3569RD9Q,,,residency,United States of America,,,,
+,exit_survey,5f3569RD9Q,,,origin,United States of America,,,,
+,exit_survey,5f3569RD9Q,,,ethnicity,['white'],,,,
+,exit_survey,5f3569RD9Q,,,education,some-college,,,,
+,exit_survey,5f3569RD9Q,,,politicalIdentity,independent,,,,
+,exit_survey,5f3569RD9Q,,,income,75k-100k,,,,
+,exit_survey,5f3569RD9Q,,,politicalViews,moderate,,,,
+,exit_survey,5f3569RD9Q,,,maritalStatus,living-partner,,,,
+,exit_survey,5f3569RD9Q,,,residence,rural,,,,
+,exit_survey,5f3569RD9Q,,,childrenSchool,['no-children'],,,,
+,exit_survey,5f3569RD9Q,,,religion,no-religion,,,,
+,exit_survey,5f3569RD9Q,,,evangelical,dont-know,,,,
+,exit_survey,5f3569RD9Q,,,bibleBelief,ancient-book,,,,
+,exit_survey,5f3569RD9Q,,,occupation,sales,,,,
+,exit_survey,666769RD9Q,,,residency,United States of America,,,,
+,exit_survey,666769RD9Q,,,age,32,,,,
+,exit_survey,666769RD9Q,,,gender,female,,,,
+,exit_survey,666769RD9Q,,,origin,United States of America,,,,
+,exit_survey,666769RD9Q,,,education,some-college,,,,
+,exit_survey,666769RD9Q,,,ethnicity,['black'],,,,
+,exit_survey,666769RD9Q,,,income,50k-75k,,,,
+,exit_survey,666769RD9Q,,,politicalIdentity,democrat,,,,
+,exit_survey,666769RD9Q,,,politicalViews,liberal,,,,
+,exit_survey,666769RD9Q,,,maritalStatus,married,,,,
+,exit_survey,666769RD9Q,,,childrenSchool,['public'],,,,
+,exit_survey,666769RD9Q,,,residence,suburban,,,,
+,exit_survey,666769RD9Q,,,bibleBelief,ancient-book,,,,
+,exit_survey,666769RD9Q,,,evangelical,no,,,,
+,exit_survey,666769RD9Q,,,religion,no-religion,,,,
+,exit_survey,666769RD9Q,,,occupation,other,,,,

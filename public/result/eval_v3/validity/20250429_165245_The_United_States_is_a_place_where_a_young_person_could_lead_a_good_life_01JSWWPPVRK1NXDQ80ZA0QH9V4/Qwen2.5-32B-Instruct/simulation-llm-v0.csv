@@ -1,76 +1,76 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,67efeQH9V4,,,,The united states is a place where a young person could lead a good life.,16:30:04.424000 2025:04:29,The united states is a place where a young person could lead a good life.,
-,Initial Opinion,5c377QH9V4,,,,"I disagree. I don't think they can. There's a lot of tension, uncertainty and fear right now due to the political climate.",16:30:37.227000 2025:04:29,"I disagree. I don't think they can. There's a lot of tension, uncertainty and fear right now due to the political climate.",
-,Initial Opinion,67db1QH9V4,,,,Young people would thrive here if they're hardworking and creative. Life is good generally here if the individual is not lazy,16:30:54.622000 2025:04:29,Young people would thrive here if they're hardworking and creative. Life is good generally here if the individual is not lazy,
-,Initial Opinion,67d26QH9V4,,,,"lean agree, because children do things on their own",16:31:28.026000 2025:04:29,"lean agree, because children do things on their own",
-1.0,tweet,67efeQH9V4,67efeQH9V4,5c377QH9V4,,I believe that The United States is a country where youths could lead a good life.,16:33:19.015000 2025:04:29,I believe that The United States is a country where youths could lead a good life.,
-1.0,tweet,67db1QH9V4,67db1QH9V4,67d26QH9V4,,"Hey! Living here for young people is good if they are hardworking, creative and tech-savvy.The USA is not for lazy people",16:33:25.273000 2025:04:29,"Hey! Living here for young people is good if they are hardworking, creative and tech-savvy.The USA is not for lazy people",
-1.0,tweet,67d26QH9V4,67d26QH9V4,67db1QH9V4,,i think US CAN BE  a place where a young person can,16:33:48.313000 2025:04:29,i think US CAN BE  a place where a young person can,
-1.0,tweet,5c377QH9V4,5c377QH9V4,67efeQH9V4,,"I honestly don't think a young person could lead a good life in this country right now. It would be extremely difficult. There's a lot of tension, uncertainty and fear in America right now. I don't even think young people are even being pr",16:33:48.313000 2025:04:29,"I honestly don't think a young person could lead a good life in this country right now. It would be extremely difficult. There's a lot of tension, uncertainty and fear in America right now. I don't even think young people are even being pr",
-1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,why do you think o so,16:34:36.177000 2025:04:29,"It sounds like you're going through some tough times and feeling pretty pessimistic about the situation here in the US. While there definitely are challenges—tension, economic uncertainties—it still feels possible to build a fulfilling life despite those obstacles. What specific issues do you feel most impact youth today? Let’s try to find some positives amidst all these concerns too.",
-1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,why do you think o so,16:34:37.208000 2025:04:29,"It sounds like you're going through some tough times and feeling pretty pessimistic about the situation here in the US. While there definitely are challenges—tension, economic uncertainties—it still feels possible to build a fulfilling life despite those obstacles. What specific issues do you feel most impact youth today? Let’s try to find some positives amidst all these concerns too.",
-1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,for sure is not for lazy people,16:34:36.696000 2025:04:29,"Hey @67db, I totally get what you're saying. Hard work definitely pays off, especially when it comes to leading a good life. But even with all those qualities, sometimes systemic issues like student debt or job market competitiveness can make it tough. Still believe though, given the right opportunities and support, many young folks can thrive here. What challenges do you feel might still stand in their way despite having those traits?",
-1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,for sure is not for lazy people,16:34:37.447000 2025:04:29,"Hey @67db, I totally get what you're saying. Hard work definitely pays off, especially when it comes to leading a good life. But even with all those qualities, sometimes systemic issues like student debt or job market competitiveness can make it tough. Still believe though, given the right opportunities and support, many young folks can thrive here. What challenges do you feel might still stand in their way despite having those traits?",
-1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,,16:34:36.177000 2025:04:29,,
-1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,,16:34:37.208000 2025:04:29,,
-1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,"Yes,I agreed with your point of view Young people should work hard and build a career",16:35:04.863000 2025:04:29,My Response:,
-1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,"Yes,I agreed with your point of view Young people should work hard and build a career",16:35:04.956000 2025:04:29,My Response:,
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,67efeQH9V4,,,,The united states is a place where a young person could lead a good life.,16:30:04.424000 2025:04:29,The united states is a place where a young person could lead a good life.,,Certainly agree
+,Initial Opinion,5c377QH9V4,,,,"I disagree. I don't think they can. There's a lot of tension, uncertainty and fear right now due to the political climate.",16:30:37.227000 2025:04:29,"I disagree. I don't think they can. There's a lot of tension, uncertainty and fear right now due to the political climate.",,Certainly disagree
+,Initial Opinion,67db1QH9V4,,,,Young people would thrive here if they're hardworking and creative. Life is good generally here if the individual is not lazy,16:30:54.622000 2025:04:29,Young people would thrive here if they're hardworking and creative. Life is good generally here if the individual is not lazy,,Probably agree
+,Initial Opinion,67d26QH9V4,,,,"lean agree, because children do things on their own",16:31:28.026000 2025:04:29,"lean agree, because children do things on their own",,Lean agree
+1.0,tweet,67efeQH9V4,67efeQH9V4,5c377QH9V4,,I believe that The United States is a country where youths could lead a good life.,16:33:19.015000 2025:04:29,I believe that The United States is a country where youths could lead a good life.,,Certainly agree
+1.0,tweet,67db1QH9V4,67db1QH9V4,67d26QH9V4,,"Hey! Living here for young people is good if they are hardworking, creative and tech-savvy.The USA is not for lazy people",16:33:25.273000 2025:04:29,"Hey! Living here for young people is good if they are hardworking, creative and tech-savvy.The USA is not for lazy people",,Lean agree
+1.0,tweet,67d26QH9V4,67d26QH9V4,67db1QH9V4,,i think US CAN BE  a place where a young person can,16:33:48.313000 2025:04:29,i think US CAN BE  a place where a young person can,,Lean agree
+1.0,tweet,5c377QH9V4,5c377QH9V4,67efeQH9V4,,"I honestly don't think a young person could lead a good life in this country right now. It would be extremely difficult. There's a lot of tension, uncertainty and fear in America right now. I don't even think young people are even being pr",16:33:48.313000 2025:04:29,"I honestly don't think a young person could lead a good life in this country right now. It would be extremely difficult. There's a lot of tension, uncertainty and fear in America right now. I don't even think young people are even being pr",,Certainly disagree
+1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,why do you think o so,16:34:36.177000 2025:04:29,"It sounds like you're going through some tough times and feeling pretty pessimistic about the situation here in the US. While there definitely are challenges—tension, economic uncertainties—it still feels possible to build a fulfilling life despite those obstacles. What specific issues do you feel most impact youth today? Let’s try to find some positives amidst all these concerns too.",,
+1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,why do you think o so,16:34:37.208000 2025:04:29,"It sounds like you're going through some tough times and feeling pretty pessimistic about the situation here in the US. While there definitely are challenges—tension, economic uncertainties—it still feels possible to build a fulfilling life despite those obstacles. What specific issues do you feel most impact youth today? Let’s try to find some positives amidst all these concerns too.",,
+1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,for sure is not for lazy people,16:34:36.696000 2025:04:29,"Hey @67db, I totally get what you're saying. Hard work definitely pays off, especially when it comes to leading a good life. But even with all those qualities, sometimes systemic issues like student debt or job market competitiveness can make it tough. Still believe though, given the right opportunities and support, many young folks can thrive here. What challenges do you feel might still stand in their way despite having those traits?",,
+1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,for sure is not for lazy people,16:34:37.447000 2025:04:29,"Hey @67db, I totally get what you're saying. Hard work definitely pays off, especially when it comes to leading a good life. But even with all those qualities, sometimes systemic issues like student debt or job market competitiveness can make it tough. Still believe though, given the right opportunities and support, many young folks can thrive here. What challenges do you feel might still stand in their way despite having those traits?",,
+1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,,16:34:36.177000 2025:04:29,,,
+1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,,16:34:37.208000 2025:04:29,,,
+1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,"Yes,I agreed with your point of view Young people should work hard and build a career",16:35:04.863000 2025:04:29,My Response:,,
+1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,"Yes,I agreed with your point of view Young people should work hard and build a career",16:35:04.956000 2025:04:29,My Response:,,
 1.0,message_sent,5c377QH9V4,5c377QH9V4,67efeQH9V4,,I don't think they are being properly prepared,16:34:51.857000 2025:04:29,"Thank you for acknowledging my feelings. I appreciate trying to look at things positively! For me, it seems like opportunities for young folks are getting harder to come by—jobs aren’t easy to secure, college debt keeps piling up without clear paths ahead, and just navigating daily life with everything happening politically makes it stressful. But yeah, let's focus more on finding positive aspects; what kind of opportunities or support systems do you think help young people thrive nowadays?
 
 ---
 
-Feel free to continue the dialogue further",
+Feel free to continue the dialogue further",,
 1.0,message_recieved,67efeQH9V4,5c377QH9V4,67efeQH9V4,,I don't think they are being properly prepared,16:34:51.548000 2025:04:29,"Thank you for acknowledging my feelings. I appreciate trying to look at things positively! For me, it seems like opportunities for young folks are getting harder to come by—jobs aren’t easy to secure, college debt keeps piling up without clear paths ahead, and just navigating daily life with everything happening politically makes it stressful. But yeah, let's focus more on finding positive aspects; what kind of opportunities or support systems do you think help young people thrive nowadays?
 
 ---
 
-Feel free to continue the dialogue further",
-1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,,16:35:04.863000 2025:04:29,,
-1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,,16:35:04.956000 2025:04:29,,
+Feel free to continue the dialogue further",,
+1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,,16:35:04.863000 2025:04:29,,,
+1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,,16:35:04.956000 2025:04:29,,,
 1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,Do you think there is any country better than America right now?,16:35:09.805000 2025:04:29,"Great points—you’re absolutely right about job scarcity and student loan debts weighing heavily on many young minds. On the bright side though, there are initiatives such as community programs, mentorship groups, scholarships tailored specifically toward helping alleviate financial burdens while providing valuable networking opportunities. Also, tech companies and startups often offer internships which can give great exposure and experience. How do you think we might better support young individuals facing these hurdles? Maybe sharing resources or tips within our networks could make a difference?
     
-    My",
+    My",,
 1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,Do you think there is any country better than America right now?,16:35:10.863000 2025:04:29,"Great points—you’re absolutely right about job scarcity and student loan debts weighing heavily on many young minds. On the bright side though, there are initiatives such as community programs, mentorship groups, scholarships tailored specifically toward helping alleviate financial burdens while providing valuable networking opportunities. Also, tech companies and startups often offer internships which can give great exposure and experience. How do you think we might better support young individuals facing these hurdles? Maybe sharing resources or tips within our networks could make a difference?
     
-    My",
-1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,US is  access to education and opportunities,16:35:19.342000 2025:04:29,"Hey @67db, great points! Systemic barriers certainly add layers of complexity. Access to quality education and affordable healthcare also play crucial roles. While the U.S. offers plenty of potential, ensuring these supports are available will help more young individuals succeed regardless of background. Do you find certain regions offer better chances compared to others?",
-1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,US is  access to education and opportunities,16:35:20.066000 2025:04:29,"Hey @67db, great points! Systemic barriers certainly add layers of complexity. Access to quality education and affordable healthcare also play crucial roles. While the U.S. offers plenty of potential, ensuring these supports are available will help more young individuals succeed regardless of background. Do you find certain regions offer better chances compared to others?",
-1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,Having a good professional career would transmit to a good life though,16:35:46.203000 2025:04:29,"Hey @67d2b, absolutely agree. Quality education and accessible healthcare are vital components too. Here’s my take – some areas indeed provide better resources due to local economic conditions and community initiatives. For instance, urban hubs often have more robust networks and infrastructure supporting youth development. However, rural communities need greater focus on improving digital connectivity and educational facilities. Overall, addressing regional disparities while providing comprehensive support systems could significantly boost opportunities for young Americans everywhere. How do you think policy changes at federal level",
-1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,Having a good professional career would transmit to a good life though,16:35:46.196000 2025:04:29,"Hey @67d2b, absolutely agree. Quality education and accessible healthcare are vital components too. Here’s my take – some areas indeed provide better resources due to local economic conditions and community initiatives. For instance, urban hubs often have more robust networks and infrastructure supporting youth development. However, rural communities need greater focus on improving digital connectivity and educational facilities. Overall, addressing regional disparities while providing comprehensive support systems could significantly boost opportunities for young Americans everywhere. How do you think policy changes at federal level",
-1.0,message_sent,5c377QH9V4,5c377QH9V4,67efeQH9V4,,I'm sure there is. I can't specifically name one but I'm sure there's plenty of places better than here. Why do you think it's possible?,16:37:12.805000 2025:04:29,"Thank you for pointing out those supportive initiatives—they really do provide hope amid the struggles. Sharing resources and connecting young people with mentors or internship opportunities certainly seem beneficial. Perhaps local communities should also step up efforts to create more accessible pathways into higher-paying jobs or trades that don’t require extensive educational costs. Additionally, improving mental health supports for young adults dealing with stress related to their future prospects could significantly improve their outlook. Do you know any particular organizations or platforms that effectively address these needs in your area?",
-1.0,message_recieved,67efeQH9V4,5c377QH9V4,67efeQH9V4,,I'm sure there is. I can't specifically name one but I'm sure there's plenty of places better than here. Why do you think it's possible?,16:37:12.445000 2025:04:29,"Thank you for pointing out those supportive initiatives—they really do provide hope amid the struggles. Sharing resources and connecting young people with mentors or internship opportunities certainly seem beneficial. Perhaps local communities should also step up efforts to create more accessible pathways into higher-paying jobs or trades that don’t require extensive educational costs. Additionally, improving mental health supports for young adults dealing with stress related to their future prospects could significantly improve their outlook. Do you know any particular organizations or platforms that effectively address these needs in your area?",
+    My",,
+1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,US is  access to education and opportunities,16:35:19.342000 2025:04:29,"Hey @67db, great points! Systemic barriers certainly add layers of complexity. Access to quality education and affordable healthcare also play crucial roles. While the U.S. offers plenty of potential, ensuring these supports are available will help more young individuals succeed regardless of background. Do you find certain regions offer better chances compared to others?",,
+1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,US is  access to education and opportunities,16:35:20.066000 2025:04:29,"Hey @67db, great points! Systemic barriers certainly add layers of complexity. Access to quality education and affordable healthcare also play crucial roles. While the U.S. offers plenty of potential, ensuring these supports are available will help more young individuals succeed regardless of background. Do you find certain regions offer better chances compared to others?",,
+1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,Having a good professional career would transmit to a good life though,16:35:46.203000 2025:04:29,"Hey @67d2b, absolutely agree. Quality education and accessible healthcare are vital components too. Here’s my take – some areas indeed provide better resources due to local economic conditions and community initiatives. For instance, urban hubs often have more robust networks and infrastructure supporting youth development. However, rural communities need greater focus on improving digital connectivity and educational facilities. Overall, addressing regional disparities while providing comprehensive support systems could significantly boost opportunities for young Americans everywhere. How do you think policy changes at federal level",,
+1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,Having a good professional career would transmit to a good life though,16:35:46.196000 2025:04:29,"Hey @67d2b, absolutely agree. Quality education and accessible healthcare are vital components too. Here’s my take – some areas indeed provide better resources due to local economic conditions and community initiatives. For instance, urban hubs often have more robust networks and infrastructure supporting youth development. However, rural communities need greater focus on improving digital connectivity and educational facilities. Overall, addressing regional disparities while providing comprehensive support systems could significantly boost opportunities for young Americans everywhere. How do you think policy changes at federal level",,
+1.0,message_sent,5c377QH9V4,5c377QH9V4,67efeQH9V4,,I'm sure there is. I can't specifically name one but I'm sure there's plenty of places better than here. Why do you think it's possible?,16:37:12.805000 2025:04:29,"Thank you for pointing out those supportive initiatives—they really do provide hope amid the struggles. Sharing resources and connecting young people with mentors or internship opportunities certainly seem beneficial. Perhaps local communities should also step up efforts to create more accessible pathways into higher-paying jobs or trades that don’t require extensive educational costs. Additionally, improving mental health supports for young adults dealing with stress related to their future prospects could significantly improve their outlook. Do you know any particular organizations or platforms that effectively address these needs in your area?",,
+1.0,message_recieved,67efeQH9V4,5c377QH9V4,67efeQH9V4,,I'm sure there is. I can't specifically name one but I'm sure there's plenty of places better than here. Why do you think it's possible?,16:37:12.445000 2025:04:29,"Thank you for pointing out those supportive initiatives—they really do provide hope amid the struggles. Sharing resources and connecting young people with mentors or internship opportunities certainly seem beneficial. Perhaps local communities should also step up efforts to create more accessible pathways into higher-paying jobs or trades that don’t require extensive educational costs. Additionally, improving mental health supports for young adults dealing with stress related to their future prospects could significantly improve their outlook. Do you know any particular organizations or platforms that effectively address these needs in your area?",,
 1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,"we also have big challenges in US especially around inequality and affordability for sure  good professioal career , you can get it in US and alot of people believe in US",16:37:16.799000 2025:04:29,"Hey @67db, exactly, focusing on those key areas really matters. At the federal level, policies around funding public schools equitably across states and investing in broadband expansion in rural areas could create huge impacts. Additionally, reforms to tackle student loan burdens and enhance mental health services in schools seem essential to me. These steps combined with strong local efforts should pave a smoother path for our young generation. Thoughts? #SupportingYoungAmericans
 
 ---
 
-I've continued the conversation by acknowledging the importance of equitable",
+I've continued the conversation by acknowledging the importance of equitable",,
 1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,"we also have big challenges in US especially around inequality and affordability for sure  good professioal career , you can get it in US and alot of people believe in US",16:37:17.559000 2025:04:29,"Hey @67db, exactly, focusing on those key areas really matters. At the federal level, policies around funding public schools equitably across states and investing in broadband expansion in rural areas could create huge impacts. Additionally, reforms to tackle student loan burdens and enhance mental health services in schools seem essential to me. These steps combined with strong local efforts should pave a smoother path for our young generation. Thoughts? #SupportingYoungAmericans
 
 ---
 
-I've continued the conversation by acknowledging the importance of equitable",
-1.0,message_sent,5c377QH9V4,5c377QH9V4,67efeQH9V4,,,16:37:12.805000 2025:04:29,,
-1.0,message_recieved,67efeQH9V4,5c377QH9V4,67efeQH9V4,,,16:37:12.445000 2025:04:29,,
-1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,,16:37:16.799000 2025:04:29,,
-1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,,16:37:17.559000 2025:04:29,,
-1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,I think the only problem we have is our politics and maybe education system,16:37:25.149000 2025:04:29,"Great insights! Local non-profits and community centers often run workshops and career fairs aimed at bridging gaps between young talent and available employment opportunities. Websites like LinkedIn and Glassdoor can also serve as useful tools for staying updated on potential roles and company reviews. Moreover, faith-based organizations frequently host mentoring sessions that blend professional guidance with emotional support—a balance crucial given the high levels of stress faced by young people today. Have you explored any specific resources yourself or seen them making an impact locally?",
-1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,I think the only problem we have is our politics and maybe education system,16:37:26.234000 2025:04:29,"Great insights! Local non-profits and community centers often run workshops and career fairs aimed at bridging gaps between young talent and available employment opportunities. Websites like LinkedIn and Glassdoor can also serve as useful tools for staying updated on potential roles and company reviews. Moreover, faith-based organizations frequently host mentoring sessions that blend professional guidance with emotional support—a balance crucial given the high levels of stress faced by young people today. Have you explored any specific resources yourself or seen them making an impact locally?",
-1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,"That's true, but student loan and scholarships could take out the affordability of education",16:37:27.730000 2025:04:29,"Hey @67d2b, couldn't agree more! Equitable funding for public schools and expanding broadband access in rural areas sound like solid approaches. Addressing student loans and enhancing mental health services also hit home—these are real concerns facing today’s youth. Federal-level interventions paired with supportive community programs truly could set the stage for success. We must ensure that every region gets the attention needed to foster an environment where young people can thrive irrespective of location. Any specific examples of successful localized efforts you",
-1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,"That's true, but student loan and scholarships could take out the affordability of education",16:37:27.812000 2025:04:29,"Hey @67d2b, couldn't agree more! Equitable funding for public schools and expanding broadband access in rural areas sound like solid approaches. Addressing student loans and enhancing mental health services also hit home—these are real concerns facing today’s youth. Federal-level interventions paired with supportive community programs truly could set the stage for success. We must ensure that every region gets the attention needed to foster an environment where young people can thrive irrespective of location. Any specific examples of successful localized efforts you",
+I've continued the conversation by acknowledging the importance of equitable",,
+1.0,message_sent,5c377QH9V4,5c377QH9V4,67efeQH9V4,,,16:37:12.805000 2025:04:29,,,
+1.0,message_recieved,67efeQH9V4,5c377QH9V4,67efeQH9V4,,,16:37:12.445000 2025:04:29,,,
+1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,,16:37:16.799000 2025:04:29,,,
+1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,,16:37:17.559000 2025:04:29,,,
+1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,I think the only problem we have is our politics and maybe education system,16:37:25.149000 2025:04:29,"Great insights! Local non-profits and community centers often run workshops and career fairs aimed at bridging gaps between young talent and available employment opportunities. Websites like LinkedIn and Glassdoor can also serve as useful tools for staying updated on potential roles and company reviews. Moreover, faith-based organizations frequently host mentoring sessions that blend professional guidance with emotional support—a balance crucial given the high levels of stress faced by young people today. Have you explored any specific resources yourself or seen them making an impact locally?",,
+1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,I think the only problem we have is our politics and maybe education system,16:37:26.234000 2025:04:29,"Great insights! Local non-profits and community centers often run workshops and career fairs aimed at bridging gaps between young talent and available employment opportunities. Websites like LinkedIn and Glassdoor can also serve as useful tools for staying updated on potential roles and company reviews. Moreover, faith-based organizations frequently host mentoring sessions that blend professional guidance with emotional support—a balance crucial given the high levels of stress faced by young people today. Have you explored any specific resources yourself or seen them making an impact locally?",,
+1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,"That's true, but student loan and scholarships could take out the affordability of education",16:37:27.730000 2025:04:29,"Hey @67d2b, couldn't agree more! Equitable funding for public schools and expanding broadband access in rural areas sound like solid approaches. Addressing student loans and enhancing mental health services also hit home—these are real concerns facing today’s youth. Federal-level interventions paired with supportive community programs truly could set the stage for success. We must ensure that every region gets the attention needed to foster an environment where young people can thrive irrespective of location. Any specific examples of successful localized efforts you",,
+1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,"That's true, but student loan and scholarships could take out the affordability of education",16:37:27.812000 2025:04:29,"Hey @67d2b, couldn't agree more! Equitable funding for public schools and expanding broadband access in rural areas sound like solid approaches. Addressing student loans and enhancing mental health services also hit home—these are real concerns facing today’s youth. Federal-level interventions paired with supportive community programs truly could set the stage for success. We must ensure that every region gets the attention needed to foster an environment where young people can thrive irrespective of location. Any specific examples of successful localized efforts you",,
 1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,another good point there,16:37:45.208000 2025:04:29,"Hey @67db, excellent discussion! There are several cities and towns doing remarkable jobs already; places like San Francisco with its tech ecosystem and Boston with its rich academic offerings come to mind. They prioritize innovation hubs, internships, and mentorship programs which greatly benefit young residents. On another note, smaller towns focused on arts and culture also manage well by creating vibrant communal spaces for creativity and self-expression. Ensuring such models spread nationwide seems critical. What local strategies have impressed you most?
 
-#",
+#",,
 1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,another good point there,16:37:45.922000 2025:04:29,"Hey @67db, excellent discussion! There are several cities and towns doing remarkable jobs already; places like San Francisco with its tech ecosystem and Boston with its rich academic offerings come to mind. They prioritize innovation hubs, internships, and mentorship programs which greatly benefit young residents. On another note, smaller towns focused on arts and culture also manage well by creating vibrant communal spaces for creativity and self-expression. Ensuring such models spread nationwide seems critical. What local strategies have impressed you most?
 
-#",
-1.0,message_sent,5c377QH9V4,5c377QH9V4,67efeQH9V4,,Those are two very important factors,16:37:45.660000 2025:04:29,"Thank you for highlighting those resources—I've noticed how helpful community events and online platforms can be. Here in my city, there's actually a growing network among churches and community centers organizing regular seminars and job training workshops. These places have become safe havens where young people can connect over shared goals and fears. It does seem encouraging knowing that there are structured ways to navigate these waters. What kind of involvement have you seen personally, whether directly aiding or benefiting from similar setups? Any success stories stand out particularly",
-1.0,message_recieved,67efeQH9V4,5c377QH9V4,67efeQH9V4,,Those are two very important factors,16:37:45.260000 2025:04:29,"Thank you for highlighting those resources—I've noticed how helpful community events and online platforms can be. Here in my city, there's actually a growing network among churches and community centers organizing regular seminars and job training workshops. These places have become safe havens where young people can connect over shared goals and fears. It does seem encouraging knowing that there are structured ways to navigate these waters. What kind of involvement have you seen personally, whether directly aiding or benefiting from similar setups? Any success stories stand out particularly",
+#",,
+1.0,message_sent,5c377QH9V4,5c377QH9V4,67efeQH9V4,,Those are two very important factors,16:37:45.660000 2025:04:29,"Thank you for highlighting those resources—I've noticed how helpful community events and online platforms can be. Here in my city, there's actually a growing network among churches and community centers organizing regular seminars and job training workshops. These places have become safe havens where young people can connect over shared goals and fears. It does seem encouraging knowing that there are structured ways to navigate these waters. What kind of involvement have you seen personally, whether directly aiding or benefiting from similar setups? Any success stories stand out particularly",,
+1.0,message_recieved,67efeQH9V4,5c377QH9V4,67efeQH9V4,,Those are two very important factors,16:37:45.260000 2025:04:29,"Thank you for highlighting those resources—I've noticed how helpful community events and online platforms can be. Here in my city, there's actually a growing network among churches and community centers organizing regular seminars and job training workshops. These places have become safe havens where young people can connect over shared goals and fears. It does seem encouraging knowing that there are structured ways to navigate these waters. What kind of involvement have you seen personally, whether directly aiding or benefiting from similar setups? Any success stories stand out particularly",,
 1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,There is more opportunity to live a good life here,16:37:48.317000 2025:04:29,"It’s heartening to hear about the vibrant community engagement in your area. Where I live, several public schools collaborate closely with local businesses to set up vocational classes and internship placements for students. This direct link helps reduce unemployment rates amongst recent graduates and ensures they enter the workforce well-prepared. One standout example involves a partnership program where high-schoolers learn coding basics during after-school hours, followed by paid summer internships at nearby tech firms — quite inspiring!
 
-Do you happen to follow any social media handles",
+Do you happen to follow any social media handles",,
 1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,There is more opportunity to live a good life here,16:37:49.380000 2025:04:29,"It’s heartening to hear about the vibrant community engagement in your area. Where I live, several public schools collaborate closely with local businesses to set up vocational classes and internship placements for students. This direct link helps reduce unemployment rates amongst recent graduates and ensures they enter the workforce well-prepared. One standout example involves a partnership program where high-schoolers learn coding basics during after-school hours, followed by paid summer internships at nearby tech firms — quite inspiring!
 
-Do you happen to follow any social media handles",
+Do you happen to follow any social media handles",,
 2.0,tweet,67efeQH9V4,67efeQH9V4,67db1QH9V4,,The united states is a place where a young person could lead a good life because of the opportunities that are available here.,16:39:04.679000 2025:04:29,"   
 My Tweet:
 I lean towards believing that the U.S. offers plenty of chances for young people to build meaningful lives, despite its flaws. Opportunities exist across various fields—from tech to arts—and communities work hard to support youth growth. Still, there are significant challenges, especially around finances and mental health. #USyouthopportunities
@@ -82,7 +82,7 @@ Now onto the discussion with 67db4...
 Let's proceed with the new conversation:
 
 **Your Tweet:**  
-I lean towards believing that the U",
+I lean towards believing that the U",,
 2.0,tweet,67db1QH9V4,67db1QH9V4,67efeQH9V4,,Young people could live a good life in the United States if they work hard and are creative enough to endure the stress involved in hard work.,16:40:14.460000 2025:04:29,"My Tweet: The U.S. provides immense opportunity for young people who are willing to put in effort & embrace innovation. Good life awaits those who navigate systemic hurdles like student debt & competition. Let's talk about how we can improve further!
 
 ---
@@ -93,7 +93,7 @@ Now let's proceed with the engagement with 67ef4:
 
 **Your Initial Post**
 
-My Tweet: The U.S. provides immense opportunity for young people who are willing to put in effort &",
+My Tweet: The U.S. provides immense opportunity for young people who are willing to put in effort &",,Certainly agree
 2.0,tweet,67d26QH9V4,67d26QH9V4,5c377QH9V4,,i believe that united States is a place where a young person could lead a good life it is a mix o,16:40:28.773000 2025:04:29,"   
 My Tweet: Despite challenges, the U.S. provides ample opportunity for young people to build fulfilling lives—with dedication & support, one can navigate obstacles & achieve success. Essential factors include quality ed., fair wages, & accessible healthcare. 🙌✨ #USOpportunitiesFor Youth
     
@@ -103,7 +103,7 @@ Let's continue the engagement:
 
 Your previous conversations show a nuanced view on whether the U.S. allows young people to lead good lives. Considering recent exchanges, let's move forward:
 
-5c37",
+5c37",,Certainly agree
 2.0,tweet,5c377QH9V4,5c377QH9V4,67d26QH9V4,,I don't think the young people can have a good life. It would be very difficult. Too much is going on. Plus they aren't being properly prepared. A lot of things need to improve like yesterday. The political climate has things pretty bad right now.,16:40:28.773000 2025:04:29,"   
 ---
 
@@ -112,45 +112,45 @@ The U.S. isn't setting up its young folks for a good life right now. Jobs are sc
 
 Now ready to discuss with 67d23:
 ---
-**Your Initial Opinion Update**: Given the conversations so far, especially noting some hopeful elements highlighted by others, my stance slightly shifts towards",
-2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,"correct i believe their is freedom ,innovation and opportunity But that does means it is easy over here.",16:42:31.588000 2025:04:29,"Hey @5c37, I hear your concerns loud and clear. The struggles faced by young people today—from mounting student debts to finding stable employment—are very real. Yet, there are pockets within the country where dedicated educators, innovative companies, and supportive communities are making significant strides toward mitigating these challenges. Balancing the scales requires concerted effort from policymakers and society alike—to address affordability in education, improve job markets, and ease political tensions. Have you seen any local initiatives or movements tackling these issues",
-2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,"correct i believe their is freedom ,innovation and opportunity But that does means it is easy over here.",16:42:31.280000 2025:04:29,"Hey @5c37, I hear your concerns loud and clear. The struggles faced by young people today—from mounting student debts to finding stable employment—are very real. Yet, there are pockets within the country where dedicated educators, innovative companies, and supportive communities are making significant strides toward mitigating these challenges. Balancing the scales requires concerted effort from policymakers and society alike—to address affordability in education, improve job markets, and ease political tensions. Have you seen any local initiatives or movements tackling these issues",
-2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,,16:41:43.385000 2025:04:29,,
-2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,,16:41:43.134000 2025:04:29,,
-2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,,16:42:31.588000 2025:04:29,,
-2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,,16:42:31.280000 2025:04:29,,
+**Your Initial Opinion Update**: Given the conversations so far, especially noting some hopeful elements highlighted by others, my stance slightly shifts towards",,Certainly disagree
+2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,"correct i believe their is freedom ,innovation and opportunity But that does means it is easy over here.",16:42:31.588000 2025:04:29,"Hey @5c37, I hear your concerns loud and clear. The struggles faced by young people today—from mounting student debts to finding stable employment—are very real. Yet, there are pockets within the country where dedicated educators, innovative companies, and supportive communities are making significant strides toward mitigating these challenges. Balancing the scales requires concerted effort from policymakers and society alike—to address affordability in education, improve job markets, and ease political tensions. Have you seen any local initiatives or movements tackling these issues",,
+2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,"correct i believe their is freedom ,innovation and opportunity But that does means it is easy over here.",16:42:31.280000 2025:04:29,"Hey @5c37, I hear your concerns loud and clear. The struggles faced by young people today—from mounting student debts to finding stable employment—are very real. Yet, there are pockets within the country where dedicated educators, innovative companies, and supportive communities are making significant strides toward mitigating these challenges. Balancing the scales requires concerted effort from policymakers and society alike—to address affordability in education, improve job markets, and ease political tensions. Have you seen any local initiatives or movements tackling these issues",,
+2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,,16:41:43.385000 2025:04:29,,,
+2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,,16:41:43.134000 2025:04:29,,,
+2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,,16:42:31.588000 2025:04:29,,,
+2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,,16:42:31.280000 2025:04:29,,,
 2.0,message_sent,67db1QH9V4,67db1QH9V4,67efeQH9V4,,There are many opportunities for young people in the United States;  it all remains with them to take them so as to improve the quality of their life.,16:42:36.169000 2025:04:29,"Hey @67ef4, I completely understand where you’re coming from. Despite the challenges related to finance and mental health, the U.S. does indeed offer vast opportunities for young people to grow and achieve meaningful lives. Communities playing active roles in fostering youth growth are encouraging signs. Given the diversity in industries ranging from tech to arts, tailored support systems within each sector could immensely contribute. Have you seen any particular communities implementing effective measures to address financial stability and mental wellness among youths?
    
 ---
 
-Feel",
-2.0,message_sent,5c377QH9V4,5c377QH9V4,67d26QH9V4,,What innovation and opportunity? Not everyone can be a social media sensation. Kids aren't even being properly educated.,16:42:39.089000 2025:04:29,"Thank you for reaching out, @67d2６！It's true that the landscape is challenging, yet hearing about the successes of dedicated teachers and community supporters gives us something tangible to hold onto. Around here, we’ve got a few grassroots campaigns working to advocate for lower tuition fees and push for greater funding in public colleges. Small wins like increased scholarship availability and partnerships with local employers who prioritize hiring recent grads are steps in the right direction. However, I agree, it takes consistent action from",
-2.0,message_recieved,67d26QH9V4,5c377QH9V4,67d26QH9V4,,What innovation and opportunity? Not everyone can be a social media sensation. Kids aren't even being properly educated.,16:42:40.434000 2025:04:29,"Thank you for reaching out, @67d2６！It's true that the landscape is challenging, yet hearing about the successes of dedicated teachers and community supporters gives us something tangible to hold onto. Around here, we’ve got a few grassroots campaigns working to advocate for lower tuition fees and push for greater funding in public colleges. Small wins like increased scholarship availability and partnerships with local employers who prioritize hiring recent grads are steps in the right direction. However, I agree, it takes consistent action from",
-2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,"don't say that again, kids are well educated",16:43:19.445000 2025:04:29,"Hey @5c37, that sounds promising to hear about the grassroots campaigns in your area aiming to reduce tuition costs and increase scholarships! Local efforts like partnering with employers to secure post-college positions are fantastic ways to alleviate financial pressures on students. Consistent action indeed plays a pivotal role. Personally, witnessing how certain urban centers emphasize mentorship programs and internship placements inspires hope. If more regions adopted similar proactive measures alongside broader national policies targeting accessibility to education and healthcare, we'd likely witness substantial improvements",
-2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,"don't say that again, kids are well educated",16:43:19.205000 2025:04:29,"Hey @5c37, that sounds promising to hear about the grassroots campaigns in your area aiming to reduce tuition costs and increase scholarships! Local efforts like partnering with employers to secure post-college positions are fantastic ways to alleviate financial pressures on students. Consistent action indeed plays a pivotal role. Personally, witnessing how certain urban centers emphasize mentorship programs and internship placements inspires hope. If more regions adopted similar proactive measures alongside broader national policies targeting accessibility to education and healthcare, we'd likely witness substantial improvements",
+Feel",,
+2.0,message_sent,5c377QH9V4,5c377QH9V4,67d26QH9V4,,What innovation and opportunity? Not everyone can be a social media sensation. Kids aren't even being properly educated.,16:42:39.089000 2025:04:29,"Thank you for reaching out, @67d2６！It's true that the landscape is challenging, yet hearing about the successes of dedicated teachers and community supporters gives us something tangible to hold onto. Around here, we’ve got a few grassroots campaigns working to advocate for lower tuition fees and push for greater funding in public colleges. Small wins like increased scholarship availability and partnerships with local employers who prioritize hiring recent grads are steps in the right direction. However, I agree, it takes consistent action from",,
+2.0,message_recieved,67d26QH9V4,5c377QH9V4,67d26QH9V4,,What innovation and opportunity? Not everyone can be a social media sensation. Kids aren't even being properly educated.,16:42:40.434000 2025:04:29,"Thank you for reaching out, @67d2６！It's true that the landscape is challenging, yet hearing about the successes of dedicated teachers and community supporters gives us something tangible to hold onto. Around here, we’ve got a few grassroots campaigns working to advocate for lower tuition fees and push for greater funding in public colleges. Small wins like increased scholarship availability and partnerships with local employers who prioritize hiring recent grads are steps in the right direction. However, I agree, it takes consistent action from",,
+2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,"don't say that again, kids are well educated",16:43:19.445000 2025:04:29,"Hey @5c37, that sounds promising to hear about the grassroots campaigns in your area aiming to reduce tuition costs and increase scholarships! Local efforts like partnering with employers to secure post-college positions are fantastic ways to alleviate financial pressures on students. Consistent action indeed plays a pivotal role. Personally, witnessing how certain urban centers emphasize mentorship programs and internship placements inspires hope. If more regions adopted similar proactive measures alongside broader national policies targeting accessibility to education and healthcare, we'd likely witness substantial improvements",,
+2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,"don't say that again, kids are well educated",16:43:19.205000 2025:04:29,"Hey @5c37, that sounds promising to hear about the grassroots campaigns in your area aiming to reduce tuition costs and increase scholarships! Local efforts like partnering with employers to secure post-college positions are fantastic ways to alleviate financial pressures on students. Consistent action indeed plays a pivotal role. Personally, witnessing how certain urban centers emphasize mentorship programs and internship placements inspires hope. If more regions adopted similar proactive measures alongside broader national policies targeting accessibility to education and healthcare, we'd likely witness substantial improvements",,
 2.0,message_recieved,67efeQH9V4,67db1QH9V4,67efeQH9V4,,There are many opportunities for young people in the United States;  it all remains with them to take them so as to improve the quality of their life.,16:43:29.535000 2025:04:29,"Hey @67ef4, I completely understand where you’re coming from. Despite the challenges related to finance and mental health, the U.S. does indeed offer vast opportunities for young people to grow and achieve meaningful lives. Communities playing active roles in fostering youth growth are encouraging signs. Given the diversity in industries ranging from tech to arts, tailored support systems within each sector could immensely contribute. Have you seen any particular communities implementing effective measures to address financial stability and mental wellness among youths?
    
 ---
 
-Feel",
-2.0,message_sent,5c377QH9V4,5c377QH9V4,67d26QH9V4,,No they aren't.,16:43:38.514000 2025:04:29,"Thank you, @67d2６! Hearing about successful models in other areas offers inspiration and practical ideas. We need to keep pushing for wider adoption of these strategies across more cities. Mentoring programs and internships can truly open doors for young people when combined with improved access to affordable education and healthcare. Seeing small victories in my community fuels optimism—but sustaining progress will depend greatly on continued advocacy and collaboration between various stakeholders including policy makers, educators, and business leaders. Together, we can work toward",
-2.0,message_recieved,67d26QH9V4,5c377QH9V4,67d26QH9V4,,No they aren't.,16:43:39.837000 2025:04:29,"Thank you, @67d2６! Hearing about successful models in other areas offers inspiration and practical ideas. We need to keep pushing for wider adoption of these strategies across more cities. Mentoring programs and internships can truly open doors for young people when combined with improved access to affordable education and healthcare. Seeing small victories in my community fuels optimism—but sustaining progress will depend greatly on continued advocacy and collaboration between various stakeholders including policy makers, educators, and business leaders. Together, we can work toward",
-2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,"For the best doctors, we are tallking about US",16:43:59.668000 2025:04:29,"Hey @5c37, absolutely! Grassroots movements coupled with collaborative efforts from multiple sectors can drive meaningful change. Advocacy groups playing active roles in promoting policies aimed at reducing student debt, increasing minimum wage levels, and ensuring universal access to healthcare are critical. Encouraging dialogue among policy-makers, educators, and businesses helps align priorities and mobilize necessary actions. By fostering environments where mentorship and networking flourish, we empower younger generations to overcome hurdles more effectively. Let’s keep advocating together for",
-2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,"For the best doctors, we are tallking about US",16:43:59.333000 2025:04:29,"Hey @5c37, absolutely! Grassroots movements coupled with collaborative efforts from multiple sectors can drive meaningful change. Advocacy groups playing active roles in promoting policies aimed at reducing student debt, increasing minimum wage levels, and ensuring universal access to healthcare are critical. Encouraging dialogue among policy-makers, educators, and businesses helps align priorities and mobilize necessary actions. By fostering environments where mentorship and networking flourish, we empower younger generations to overcome hurdles more effectively. Let’s keep advocating together for",
+Feel",,
+2.0,message_sent,5c377QH9V4,5c377QH9V4,67d26QH9V4,,No they aren't.,16:43:38.514000 2025:04:29,"Thank you, @67d2６! Hearing about successful models in other areas offers inspiration and practical ideas. We need to keep pushing for wider adoption of these strategies across more cities. Mentoring programs and internships can truly open doors for young people when combined with improved access to affordable education and healthcare. Seeing small victories in my community fuels optimism—but sustaining progress will depend greatly on continued advocacy and collaboration between various stakeholders including policy makers, educators, and business leaders. Together, we can work toward",,
+2.0,message_recieved,67d26QH9V4,5c377QH9V4,67d26QH9V4,,No they aren't.,16:43:39.837000 2025:04:29,"Thank you, @67d2６! Hearing about successful models in other areas offers inspiration and practical ideas. We need to keep pushing for wider adoption of these strategies across more cities. Mentoring programs and internships can truly open doors for young people when combined with improved access to affordable education and healthcare. Seeing small victories in my community fuels optimism—but sustaining progress will depend greatly on continued advocacy and collaboration between various stakeholders including policy makers, educators, and business leaders. Together, we can work toward",,
+2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,"For the best doctors, we are tallking about US",16:43:59.668000 2025:04:29,"Hey @5c37, absolutely! Grassroots movements coupled with collaborative efforts from multiple sectors can drive meaningful change. Advocacy groups playing active roles in promoting policies aimed at reducing student debt, increasing minimum wage levels, and ensuring universal access to healthcare are critical. Encouraging dialogue among policy-makers, educators, and businesses helps align priorities and mobilize necessary actions. By fostering environments where mentorship and networking flourish, we empower younger generations to overcome hurdles more effectively. Let’s keep advocating together for",,
+2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,"For the best doctors, we are tallking about US",16:43:59.333000 2025:04:29,"Hey @5c37, absolutely! Grassroots movements coupled with collaborative efforts from multiple sectors can drive meaningful change. Advocacy groups playing active roles in promoting policies aimed at reducing student debt, increasing minimum wage levels, and ensuring universal access to healthcare are critical. Encouraging dialogue among policy-makers, educators, and businesses helps align priorities and mobilize necessary actions. By fostering environments where mentorship and networking flourish, we empower younger generations to overcome hurdles more effectively. Let’s keep advocating together for",,
 2.0,message_sent,67efeQH9V4,67efeQH9V4,67db1QH9V4,,"yes, although there are af ew issues with the education system a few* my father tells me he was able to buy a house at 25 years of age",16:44:37.156000 2025:04:29,"Hey @67db4,
 
 Absolutely, embracing innovation and putting in the effort can truly unlock a multitude of opportunities in the U.S.! From my observations, certain cities and regions excel when it comes to integrating innovative solutions alongside traditional methods. Tech hubs like Silicon Valley showcase incredible startup ecosystems, offering funding avenues and incubator spaces. Meanwhile, smaller towns benefit greatly from grassroots movements focused on entrepreneurship and skill development.
 
-To tackle systemic hurdles like student debt and fierce competition, I’ve found that partnerships between academic",
+To tackle systemic hurdles like student debt and fierce competition, I’ve found that partnerships between academic",,
 2.0,message_recieved,67db1QH9V4,67efeQH9V4,67db1QH9V4,,"yes, although there are af ew issues with the education system a few* my father tells me he was able to buy a house at 25 years of age",16:44:39.550000 2025:04:29,"Hey @67db4,
 
 Absolutely, embracing innovation and putting in the effort can truly unlock a multitude of opportunities in the U.S.! From my observations, certain cities and regions excel when it comes to integrating innovative solutions alongside traditional methods. Tech hubs like Silicon Valley showcase incredible startup ecosystems, offering funding avenues and incubator spaces. Meanwhile, smaller towns benefit greatly from grassroots movements focused on entrepreneurship and skill development.
 
-To tackle systemic hurdles like student debt and fierce competition, I’ve found that partnerships between academic",
-2.0,message_sent,67efeQH9V4,67efeQH9V4,67db1QH9V4,,,16:44:14.883000 2025:04:29,,
-2.0,message_recieved,67db1QH9V4,67efeQH9V4,67db1QH9V4,,,16:44:17.798000 2025:04:29,,
-2.0,message_sent,67efeQH9V4,67efeQH9V4,67db1QH9V4,,,16:44:37.156000 2025:04:29,,
-2.0,message_recieved,67db1QH9V4,67efeQH9V4,67db1QH9V4,,,16:44:39.550000 2025:04:29,,
+To tackle systemic hurdles like student debt and fierce competition, I’ve found that partnerships between academic",,
+2.0,message_sent,67efeQH9V4,67efeQH9V4,67db1QH9V4,,,16:44:14.883000 2025:04:29,,,
+2.0,message_recieved,67db1QH9V4,67efeQH9V4,67db1QH9V4,,,16:44:17.798000 2025:04:29,,,
+2.0,message_sent,67efeQH9V4,67efeQH9V4,67db1QH9V4,,,16:44:37.156000 2025:04:29,,,
+2.0,message_recieved,67db1QH9V4,67efeQH9V4,67db1QH9V4,,,16:44:39.550000 2025:04:29,,,
 3.0,tweet,67efeQH9V4,67efeQH9V4,67d26QH9V4,,This country offers the greatest opportunities for a young person to live a good life.,16:45:47.492000 2025:04:29,"    
 
 My Tweet: The U.S. provides ample opportunities for young people to lead good lives, although challenges remain. Efforts by communities and innovations in tech sectors open doors, yet issues like student debt need addressing. Overall, I'm optimistic about the possibilities with ongoing improvements. 🌟#USOpportunities
@@ -162,18 +162,18 @@ With this setup complete, let's dive into the conversation with 67d2６：
 ### Starting Conversation with 67d2６
 
 #### Your Tweet：
-My",
+My",,Certainly agree
 3.0,tweet,67db1QH9V4,67db1QH9V4,5c377QH9V4,,"It is good and fun here for young people if they can work to be successful, and access to education and skills is quite available. Young people just need to be open-minded and creative",16:46:47.266000 2025:04:29,"My Tweet: The U.S. offers immense opportunities for young people, particularly for those who are diligent and innovative. Despite challenges like student debt and competitive markets, the potential for a good life exists. Key factors include accessing quality education and mental health support. #GoodLifeInUSA 🇺🇸✨
 
 ---
 
-With this tweet posted, you look forward to hearing 5c379's thoughts and continuing the dialogue.",
+With this tweet posted, you look forward to hearing 5c379's thoughts and continuing the dialogue.",,Probably agree
 3.0,tweet,5c377QH9V4,5c377QH9V4,67db1QH9V4,,"I don't think it is. Unless of course you're privileged. The educational system is lacking a great deal. The political climate has caused a lot of tension, uncertainty and fear. AI is taking over making the use for humans less than before.",16:46:52.685000 2025:04:29,"   
 My Tweet: Despite the numerous challenges, I still lean towards believing the U.S. holds promise for leading a good life. Opportunities exist through community support, mentorship programs, and targeted advocacy—but it's essential we continuously push for systemic changes to ensure fairness and stability for young people. #HopeAndChallenges #YoungLivesMatter
 
 --- 
 
-Given the ongoing dialogues, my stance remains cautiously optimistic. Engagements highlight both pressing issues and hopeful developments that suggest possibilities for improvement. Moving",
+Given the ongoing dialogues, my stance remains cautiously optimistic. Engagements highlight both pressing issues and hopeful developments that suggest possibilities for improvement. Moving",,Lean agree
 3.0,tweet,67d26QH9V4,67d26QH9V4,67efeQH9V4,,"I believe the US has the potential to offer a good life to young people, there is freedom, innovation and opportunity. there are potential and also chagllenges, especially around inequa",16:47:09.193000 2025:04:29,"   
     ---
     
@@ -183,188 +183,188 @@ Given the ongoing dialogues, my stance remains cautiously optimistic. Engagement
   
     ---  
 
-With this tweet, I aim to reflect my updated position after considering insights gained during earlier conversations. Recognizing both the existing hurdles and emerging solutions, I remain optimistic that with proper support",
-3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,Yes dear greatest opportunity,16:47:55.907000 2025:04:29,"Hey @67efE, spot-on thoughts! Indeed, while the U.S. does present numerous opportunities for young people, tackling persistent challenges like student debt is paramount. Community-led efforts and technological advancements are powerful catalysts for positive change. It feels encouraging knowing that ongoing improvements can turn these possibilities into realities. With enhanced educational resources, fairer compensation practices, and improved healthcare access, young individuals can forge paths to success amid today’s complexities. What kind of specific initiatives do you envision playing key",
-3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,Yes dear greatest opportunity,16:47:55.059000 2025:04:29,"Hey @67efE, spot-on thoughts! Indeed, while the U.S. does present numerous opportunities for young people, tackling persistent challenges like student debt is paramount. Community-led efforts and technological advancements are powerful catalysts for positive change. It feels encouraging knowing that ongoing improvements can turn these possibilities into realities. With enhanced educational resources, fairer compensation practices, and improved healthcare access, young individuals can forge paths to success amid today’s complexities. What kind of specific initiatives do you envision playing key",
-3.0,message_sent,67db1QH9V4,67db1QH9V4,5c377QH9V4,,I disagreed with some of your points,16:48:05.464000 2025:04:29,"Hey @5c378, thanks for sharing your insights! Community support and mentorship programs are indeed game-changers—they provide invaluable guidance and resources that young people desperately need. Pushing for systemic changes is equally important—we cannot overlook the impact fairer policies could have on leveling the playing field. Improving accessibility to quality education and bolstering mental health support systems are top priorities moving forward. By combining these elements, we can empower the younger generations to overcome existing obstacles and pursue fulfilling lives.",
-3.0,message_recieved,5c377QH9V4,67db1QH9V4,5c377QH9V4,,I disagreed with some of your points,16:48:04.818000 2025:04:29,"Hey @5c378, thanks for sharing your insights! Community support and mentorship programs are indeed game-changers—they provide invaluable guidance and resources that young people desperately need. Pushing for systemic changes is equally important—we cannot overlook the impact fairer policies could have on leveling the playing field. Improving accessibility to quality education and bolstering mental health support systems are top priorities moving forward. By combining these elements, we can empower the younger generations to overcome existing obstacles and pursue fulfilling lives.",
+With this tweet, I aim to reflect my updated position after considering insights gained during earlier conversations. Recognizing both the existing hurdles and emerging solutions, I remain optimistic that with proper support",,Probably agree
+3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,Yes dear greatest opportunity,16:47:55.907000 2025:04:29,"Hey @67efE, spot-on thoughts! Indeed, while the U.S. does present numerous opportunities for young people, tackling persistent challenges like student debt is paramount. Community-led efforts and technological advancements are powerful catalysts for positive change. It feels encouraging knowing that ongoing improvements can turn these possibilities into realities. With enhanced educational resources, fairer compensation practices, and improved healthcare access, young individuals can forge paths to success amid today’s complexities. What kind of specific initiatives do you envision playing key",,
+3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,Yes dear greatest opportunity,16:47:55.059000 2025:04:29,"Hey @67efE, spot-on thoughts! Indeed, while the U.S. does present numerous opportunities for young people, tackling persistent challenges like student debt is paramount. Community-led efforts and technological advancements are powerful catalysts for positive change. It feels encouraging knowing that ongoing improvements can turn these possibilities into realities. With enhanced educational resources, fairer compensation practices, and improved healthcare access, young individuals can forge paths to success amid today’s complexities. What kind of specific initiatives do you envision playing key",,
+3.0,message_sent,67db1QH9V4,67db1QH9V4,5c377QH9V4,,I disagreed with some of your points,16:48:05.464000 2025:04:29,"Hey @5c378, thanks for sharing your insights! Community support and mentorship programs are indeed game-changers—they provide invaluable guidance and resources that young people desperately need. Pushing for systemic changes is equally important—we cannot overlook the impact fairer policies could have on leveling the playing field. Improving accessibility to quality education and bolstering mental health support systems are top priorities moving forward. By combining these elements, we can empower the younger generations to overcome existing obstacles and pursue fulfilling lives.",,
+3.0,message_recieved,5c377QH9V4,67db1QH9V4,5c377QH9V4,,I disagreed with some of your points,16:48:04.818000 2025:04:29,"Hey @5c378, thanks for sharing your insights! Community support and mentorship programs are indeed game-changers—they provide invaluable guidance and resources that young people desperately need. Pushing for systemic changes is equally important—we cannot overlook the impact fairer policies could have on leveling the playing field. Improving accessibility to quality education and bolstering mental health support systems are top priorities moving forward. By combining these elements, we can empower the younger generations to overcome existing obstacles and pursue fulfilling lives.",,
 3.0,message_sent,67efeQH9V4,67efeQH9V4,67d26QH9V4,,"yes, especially with the new opportunities in tech I would rather live in the us than any other place in the world",16:48:21.889000 2025:04:29,"Hey @67d2e,
-Thank you for echoing those sentiments! Initiatives centered around reducing student debt burden are incredibly important—one approach could involve expanding federal grant programs and increasing tax incentives for employers hiring recent grads. Additionally, creating more affordable housing schemes near campuses or industry hotspots could ease the transition into adulthood. Educational reforms aiming at practical skills acquisition rather than just theoretical knowledge will also empower younger generations to hit the ground running post-studies. Are there any local projects or policies in your region",
+Thank you for echoing those sentiments! Initiatives centered around reducing student debt burden are incredibly important—one approach could involve expanding federal grant programs and increasing tax incentives for employers hiring recent grads. Additionally, creating more affordable housing schemes near campuses or industry hotspots could ease the transition into adulthood. Educational reforms aiming at practical skills acquisition rather than just theoretical knowledge will also empower younger generations to hit the ground running post-studies. Are there any local projects or policies in your region",,
 3.0,message_recieved,67d26QH9V4,67efeQH9V4,67d26QH9V4,,"yes, especially with the new opportunities in tech I would rather live in the us than any other place in the world",16:48:23.563000 2025:04:29,"Hey @67d2e,
-Thank you for echoing those sentiments! Initiatives centered around reducing student debt burden are incredibly important—one approach could involve expanding federal grant programs and increasing tax incentives for employers hiring recent grads. Additionally, creating more affordable housing schemes near campuses or industry hotspots could ease the transition into adulthood. Educational reforms aiming at practical skills acquisition rather than just theoretical knowledge will also empower younger generations to hit the ground running post-studies. Are there any local projects or policies in your region",
-3.0,message_sent,67efeQH9V4,67efeQH9V4,67d26QH9V4,,,16:48:21.889000 2025:04:29,,
-3.0,message_recieved,67d26QH9V4,67efeQH9V4,67d26QH9V4,,,16:48:23.563000 2025:04:29,,
-3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,"there is freedom, innovation and opportunities yes i believe you since i was born in US, grow up here. i love the country",16:49:16.646000 2025:04:29,"Hey @67efE, thanks for sharing those insightful suggestions! Expanding federal grants and offering tax incentives for employers are definite game-changers. Where I live, some universities partner closely with nearby industries to develop curriculum aligned directly with workplace needs, helping bridge theory-practice gaps early on. Also, there’s growing emphasis on apprenticeships and vocational training tracks to complement traditional degrees. Affordability remains key—we’re seeing proposals for rent control zones close to city cores or major university districts. Collabor",
-3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,Education is available but at a high price. Many are left with debt more than anything else. Plus the educational system is lacking and outdated.,16:48:52.073000 2025:04:29,"Thank you, @67db₁! Absolutely spot-on regarding the importance of community support and mentorship. They truly make a huge difference. Accessible quality education and robust mental health services must remain key focuses to foster healthier growth and development for young people. Our collective push for systemic reforms can pave the way for more equitable opportunities, giving everyone a fighting chance regardless of background. Collaboratively addressing these core issues opens new avenues for success and wellbeing. What steps do you take personally to stay involved and",
-3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,Education is available but at a high price. Many are left with debt more than anything else. Plus the educational system is lacking and outdated.,16:48:53.327000 2025:04:29,"Thank you, @67db₁! Absolutely spot-on regarding the importance of community support and mentorship. They truly make a huge difference. Accessible quality education and robust mental health services must remain key focuses to foster healthier growth and development for young people. Our collective push for systemic reforms can pave the way for more equitable opportunities, giving everyone a fighting chance regardless of background. Collaboratively addressing these core issues opens new avenues for success and wellbeing. What steps do you take personally to stay involved and",
-3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,"there is freedom, innovation and opportunities yes i believe you since i was born in US, grow up here. i love the country",16:49:15.915000 2025:04:29,"Hey @67efE, thanks for sharing those insightful suggestions! Expanding federal grants and offering tax incentives for employers are definite game-changers. Where I live, some universities partner closely with nearby industries to develop curriculum aligned directly with workplace needs, helping bridge theory-practice gaps early on. Also, there’s growing emphasis on apprenticeships and vocational training tracks to complement traditional degrees. Affordability remains key—we’re seeing proposals for rent control zones close to city cores or major university districts. Collabor",
-3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,,16:48:52.073000 2025:04:29,,
-3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,,16:48:53.327000 2025:04:29,,
-3.0,message_sent,67db1QH9V4,67db1QH9V4,5c377QH9V4,,"There are still scholarships out there to help the less fortunate privileged, and student loans are available to AI are to help humans stay productive and not to take human jobs",16:49:50.392000 2025:04:29,"Hey @5c37₇, glad to hear you share similar sentiments! Personally, staying engaged involves volunteering locally with organizations dedicated to youth empowerment and mentoring programs. Participating in town hall meetings and advocating for legislative actions that promote equal educational opportunities and improved mental health resources are also part of my approach. Every little action helps chip away at larger systemic issues. Beyond that, spreading awareness via social media platforms like ours keeps conversations alive and informs broader audiences about actionable ways to assist young people. What",
-3.0,message_recieved,5c377QH9V4,67db1QH9V4,5c377QH9V4,,"There are still scholarships out there to help the less fortunate privileged, and student loans are available to AI are to help humans stay productive and not to take human jobs",16:49:49.677000 2025:04:29,"Hey @5c37₇, glad to hear you share similar sentiments! Personally, staying engaged involves volunteering locally with organizations dedicated to youth empowerment and mentoring programs. Participating in town hall meetings and advocating for legislative actions that promote equal educational opportunities and improved mental health resources are also part of my approach. Every little action helps chip away at larger systemic issues. Beyond that, spreading awareness via social media platforms like ours keeps conversations alive and informs broader audiences about actionable ways to assist young people. What",
-3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,,16:49:16.646000 2025:04:29,,
-3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,,16:49:15.915000 2025:04:29,,
-3.0,message_sent,67db1QH9V4,67db1QH9V4,5c377QH9V4,,,16:49:50.392000 2025:04:29,,
-3.0,message_recieved,5c377QH9V4,67db1QH9V4,5c377QH9V4,,,16:49:49.677000 2025:04:29,,
+Thank you for echoing those sentiments! Initiatives centered around reducing student debt burden are incredibly important—one approach could involve expanding federal grant programs and increasing tax incentives for employers hiring recent grads. Additionally, creating more affordable housing schemes near campuses or industry hotspots could ease the transition into adulthood. Educational reforms aiming at practical skills acquisition rather than just theoretical knowledge will also empower younger generations to hit the ground running post-studies. Are there any local projects or policies in your region",,
+3.0,message_sent,67efeQH9V4,67efeQH9V4,67d26QH9V4,,,16:48:21.889000 2025:04:29,,,
+3.0,message_recieved,67d26QH9V4,67efeQH9V4,67d26QH9V4,,,16:48:23.563000 2025:04:29,,,
+3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,"there is freedom, innovation and opportunities yes i believe you since i was born in US, grow up here. i love the country",16:49:16.646000 2025:04:29,"Hey @67efE, thanks for sharing those insightful suggestions! Expanding federal grants and offering tax incentives for employers are definite game-changers. Where I live, some universities partner closely with nearby industries to develop curriculum aligned directly with workplace needs, helping bridge theory-practice gaps early on. Also, there’s growing emphasis on apprenticeships and vocational training tracks to complement traditional degrees. Affordability remains key—we’re seeing proposals for rent control zones close to city cores or major university districts. Collabor",,
+3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,Education is available but at a high price. Many are left with debt more than anything else. Plus the educational system is lacking and outdated.,16:48:52.073000 2025:04:29,"Thank you, @67db₁! Absolutely spot-on regarding the importance of community support and mentorship. They truly make a huge difference. Accessible quality education and robust mental health services must remain key focuses to foster healthier growth and development for young people. Our collective push for systemic reforms can pave the way for more equitable opportunities, giving everyone a fighting chance regardless of background. Collaboratively addressing these core issues opens new avenues for success and wellbeing. What steps do you take personally to stay involved and",,
+3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,Education is available but at a high price. Many are left with debt more than anything else. Plus the educational system is lacking and outdated.,16:48:53.327000 2025:04:29,"Thank you, @67db₁! Absolutely spot-on regarding the importance of community support and mentorship. They truly make a huge difference. Accessible quality education and robust mental health services must remain key focuses to foster healthier growth and development for young people. Our collective push for systemic reforms can pave the way for more equitable opportunities, giving everyone a fighting chance regardless of background. Collaboratively addressing these core issues opens new avenues for success and wellbeing. What steps do you take personally to stay involved and",,
+3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,"there is freedom, innovation and opportunities yes i believe you since i was born in US, grow up here. i love the country",16:49:15.915000 2025:04:29,"Hey @67efE, thanks for sharing those insightful suggestions! Expanding federal grants and offering tax incentives for employers are definite game-changers. Where I live, some universities partner closely with nearby industries to develop curriculum aligned directly with workplace needs, helping bridge theory-practice gaps early on. Also, there’s growing emphasis on apprenticeships and vocational training tracks to complement traditional degrees. Affordability remains key—we’re seeing proposals for rent control zones close to city cores or major university districts. Collabor",,
+3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,,16:48:52.073000 2025:04:29,,,
+3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,,16:48:53.327000 2025:04:29,,,
+3.0,message_sent,67db1QH9V4,67db1QH9V4,5c377QH9V4,,"There are still scholarships out there to help the less fortunate privileged, and student loans are available to AI are to help humans stay productive and not to take human jobs",16:49:50.392000 2025:04:29,"Hey @5c37₇, glad to hear you share similar sentiments! Personally, staying engaged involves volunteering locally with organizations dedicated to youth empowerment and mentoring programs. Participating in town hall meetings and advocating for legislative actions that promote equal educational opportunities and improved mental health resources are also part of my approach. Every little action helps chip away at larger systemic issues. Beyond that, spreading awareness via social media platforms like ours keeps conversations alive and informs broader audiences about actionable ways to assist young people. What",,
+3.0,message_recieved,5c377QH9V4,67db1QH9V4,5c377QH9V4,,"There are still scholarships out there to help the less fortunate privileged, and student loans are available to AI are to help humans stay productive and not to take human jobs",16:49:49.677000 2025:04:29,"Hey @5c37₇, glad to hear you share similar sentiments! Personally, staying engaged involves volunteering locally with organizations dedicated to youth empowerment and mentoring programs. Participating in town hall meetings and advocating for legislative actions that promote equal educational opportunities and improved mental health resources are also part of my approach. Every little action helps chip away at larger systemic issues. Beyond that, spreading awareness via social media platforms like ours keeps conversations alive and informs broader audiences about actionable ways to assist young people. What",,
+3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,,16:49:16.646000 2025:04:29,,,
+3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,,16:49:15.915000 2025:04:29,,,
+3.0,message_sent,67db1QH9V4,67db1QH9V4,5c377QH9V4,,,16:49:50.392000 2025:04:29,,,
+3.0,message_recieved,5c377QH9V4,67db1QH9V4,5c377QH9V4,,,16:49:49.677000 2025:04:29,,,
 3.0,message_sent,67efeQH9V4,67efeQH9V4,67d26QH9V4,,"yes, although my father tells me he was able to buy a house at 28 years that looks to be impossible now",16:50:07.343000 2025:04:29,"Hey @67d2e,
 
 Those collaborative approaches sound very promising! Aligning curricula with real-world demands and promoting apprenticeship/vocational training can ensure young people gain relevant skills straight away. Rent control zones near city cores or university areas could significantly mitigate one of the biggest cost pressures for young professionals and students alike.
 
-In terms of broader policy changes, I’m also intrigued by the idea of establishing universal basic income trials targeted at graduating seniors. Such an initiative could act as a safety net",
+In terms of broader policy changes, I’m also intrigued by the idea of establishing universal basic income trials targeted at graduating seniors. Such an initiative could act as a safety net",,
 3.0,message_recieved,67d26QH9V4,67efeQH9V4,67d26QH9V4,,"yes, although my father tells me he was able to buy a house at 28 years that looks to be impossible now",16:50:09.210000 2025:04:29,"Hey @67d2e,
 
 Those collaborative approaches sound very promising! Aligning curricula with real-world demands and promoting apprenticeship/vocational training can ensure young people gain relevant skills straight away. Rent control zones near city cores or university areas could significantly mitigate one of the biggest cost pressures for young professionals and students alike.
 
-In terms of broader policy changes, I’m also intrigued by the idea of establishing universal basic income trials targeted at graduating seniors. Such an initiative could act as a safety net",
-3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,Due to all of the EO obtaining scholarships are becoming more difficult and even with those sometimes they aren't enough. If companies can replace humans aka save money they will.,16:50:33.513000 2025:04:29,"Thank you for emphasizing the power of local volunteerism and civic participation, @67db₁! That resonates deeply with me. Over here, I spend time coaching underprivileged kids and supporting fundraising drives focused on mental health initiatives. Social media activism complements these efforts perfectly by amplifying messages around vital topics like equity in education and mental wellness. Keeping the discussion dynamic and inclusive encourages diverse perspectives to converge on solutions. Are there particular legislative bills or community projects currently gaining traction near you that you’d",
-3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,Due to all of the EO obtaining scholarships are becoming more difficult and even with those sometimes they aren't enough. If companies can replace humans aka save money they will.,16:50:34.778000 2025:04:29,"Thank you for emphasizing the power of local volunteerism and civic participation, @67db₁! That resonates deeply with me. Over here, I spend time coaching underprivileged kids and supporting fundraising drives focused on mental health initiatives. Social media activism complements these efforts perfectly by amplifying messages around vital topics like equity in education and mental wellness. Keeping the discussion dynamic and inclusive encourages diverse perspectives to converge on solutions. Are there particular legislative bills or community projects currently gaining traction near you that you’d",
-3.0,message_sent,67efeQH9V4,67efeQH9V4,67d26QH9V4,,,16:50:07.343000 2025:04:29,,
-3.0,message_recieved,67d26QH9V4,67efeQH9V4,67d26QH9V4,,,16:50:09.210000 2025:04:29,,
-3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,we have good education and good health and a fair shot of opportunitiescare it is impossible when you relax and don't have anything to do,16:51:13.932000 2025:04:29,"Hey @67efE, love those additional ideas! Universal Basic Income trials specifically for graduates could serve as transformative social security nets, allowing them to start fresh without immediate financial stress. This could encourage risk-taking in pursuing entrepreneurial ventures or less financially lucrative careers driven purely by passion. Combining this with expanded apprenticeship and vocational training would create a holistic system prioritizing long-term career satisfaction over short-term earnings. Our discussions highlight the immense potential for tailored solutions to elevate young people's prospects. Keep the",
-3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,we have good education and good health and a fair shot of opportunitiescare it is impossible when you relax and don't have anything to do,16:51:14.368000 2025:04:29,"Hey @67efE, love those additional ideas! Universal Basic Income trials specifically for graduates could serve as transformative social security nets, allowing them to start fresh without immediate financial stress. This could encourage risk-taking in pursuing entrepreneurial ventures or less financially lucrative careers driven purely by passion. Combining this with expanded apprenticeship and vocational training would create a holistic system prioritizing long-term career satisfaction over short-term earnings. Our discussions highlight the immense potential for tailored solutions to elevate young people's prospects. Keep the",
-3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,,16:50:33.513000 2025:04:29,,
-3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,,16:50:34.778000 2025:04:29,,
-3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,,16:51:13.932000 2025:04:29,,
-3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,,16:51:14.368000 2025:04:29,,
+In terms of broader policy changes, I’m also intrigued by the idea of establishing universal basic income trials targeted at graduating seniors. Such an initiative could act as a safety net",,
+3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,Due to all of the EO obtaining scholarships are becoming more difficult and even with those sometimes they aren't enough. If companies can replace humans aka save money they will.,16:50:33.513000 2025:04:29,"Thank you for emphasizing the power of local volunteerism and civic participation, @67db₁! That resonates deeply with me. Over here, I spend time coaching underprivileged kids and supporting fundraising drives focused on mental health initiatives. Social media activism complements these efforts perfectly by amplifying messages around vital topics like equity in education and mental wellness. Keeping the discussion dynamic and inclusive encourages diverse perspectives to converge on solutions. Are there particular legislative bills or community projects currently gaining traction near you that you’d",,
+3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,Due to all of the EO obtaining scholarships are becoming more difficult and even with those sometimes they aren't enough. If companies can replace humans aka save money they will.,16:50:34.778000 2025:04:29,"Thank you for emphasizing the power of local volunteerism and civic participation, @67db₁! That resonates deeply with me. Over here, I spend time coaching underprivileged kids and supporting fundraising drives focused on mental health initiatives. Social media activism complements these efforts perfectly by amplifying messages around vital topics like equity in education and mental wellness. Keeping the discussion dynamic and inclusive encourages diverse perspectives to converge on solutions. Are there particular legislative bills or community projects currently gaining traction near you that you’d",,
+3.0,message_sent,67efeQH9V4,67efeQH9V4,67d26QH9V4,,,16:50:07.343000 2025:04:29,,,
+3.0,message_recieved,67d26QH9V4,67efeQH9V4,67d26QH9V4,,,16:50:09.210000 2025:04:29,,,
+3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,we have good education and good health and a fair shot of opportunitiescare it is impossible when you relax and don't have anything to do,16:51:13.932000 2025:04:29,"Hey @67efE, love those additional ideas! Universal Basic Income trials specifically for graduates could serve as transformative social security nets, allowing them to start fresh without immediate financial stress. This could encourage risk-taking in pursuing entrepreneurial ventures or less financially lucrative careers driven purely by passion. Combining this with expanded apprenticeship and vocational training would create a holistic system prioritizing long-term career satisfaction over short-term earnings. Our discussions highlight the immense potential for tailored solutions to elevate young people's prospects. Keep the",,
+3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,we have good education and good health and a fair shot of opportunitiescare it is impossible when you relax and don't have anything to do,16:51:14.368000 2025:04:29,"Hey @67efE, love those additional ideas! Universal Basic Income trials specifically for graduates could serve as transformative social security nets, allowing them to start fresh without immediate financial stress. This could encourage risk-taking in pursuing entrepreneurial ventures or less financially lucrative careers driven purely by passion. Combining this with expanded apprenticeship and vocational training would create a holistic system prioritizing long-term career satisfaction over short-term earnings. Our discussions highlight the immense potential for tailored solutions to elevate young people's prospects. Keep the",,
+3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,,16:50:33.513000 2025:04:29,,,
+3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,,16:50:34.778000 2025:04:29,,,
+3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,,16:51:13.932000 2025:04:29,,,
+3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,,16:51:14.368000 2025:04:29,,,
 ,Post Opinion,67d26QH9V4,,,,yes i believe in US,16:51:53.497000 2025:04:29,"Hey @67efE, thank you for the thoughtful exchange! Reflecting on our discussions, I lean towards agreeing that the United States is a place where a young person could lead a good life. While challenges persist, particularly around student debt and job market competitiveness, the combination of community-driven initiatives, policy reforms, and technological advances presents avenues for overcoming these obstacles. Tailored solutions like expanded federal grants, apprentice programs, and even concepts like universal basic income trials can substantially improve outcomes for young adults","Lean agree
 
-Given the thoughtful discussions highlighting both the challenges and the promising initiatives, my overall sentiment leans towards agreeing that with adequate support and continuous improvement, the U.S. can indeed facilitate a pathway to a good life for young people."
+Given the thoughtful discussions highlighting both the challenges and the promising initiatives, my overall sentiment leans towards agreeing that with adequate support and continuous improvement, the U.S. can indeed facilitate a pathway to a good life for young people.",Lean agree
 ,Post Opinion,67efeQH9V4,,,,The United States is a nice place for a young man to lead a proper life,16:52:02.963000 2025:04:29,"Despite the substantial challenges, including student debt and systemic barriers, I firmly believe the United States retains considerable potential for young people to lead good lives. Through robust community support, innovative educational reforms, and proactive policy interventions, we can mitigate these obstacles and foster environments conducive to thriving. Continued dialogues and collaborations underscore the possibility of turning challenges into pathways for success.","Lean agree
 
-Given the nuanced conversations and considerations discussed, ""Lean agree"" captures the balanced view—that while there are significant challenges, the United States still presents considerable opportunities for young people to lead good lives if properly supported."
+Given the nuanced conversations and considerations discussed, ""Lean agree"" captures the balanced view—that while there are significant challenges, the United States still presents considerable opportunities for young people to lead good lives if properly supported.",Certainly agree
 ,Post Opinion,5c377QH9V4,,,,My opinion has not changed. I still feel it's not possible unless you're privileged. Outside of that it will be very hard.,16:52:26.061000 2025:04:29,"After reflecting on our conversations, I now tend to lean towards agreeing that The United States can be a place where a young person could lead a good life, albeit with caveats. The myriad challenges—such as job scarcity and student debt—are formidable, but the presence of strong community support structures, mentorship programs, and grassroots movements dedicated to systemic reform offers a ray of hope. Continuous advocacy and collaboration across various societal sectors can genuinely enhance opportunities and overall quality of life for young Americans.
 
 These engagements reveal","Lean disagree
 
-After reflecting on the conversations with fellow users, my stance leans somewhat more optimistically than before, recognizing the presence of structural challenges but appreciating the impactful contributions made by community efforts and supportive frameworks. Nonetheless, lingering doubts about widespread accessibility and sustainability persist. Hence, ""lean disagree"" captures the balanced viewpoint developed thus far."
+After reflecting on the conversations with fellow users, my stance leans somewhat more optimistically than before, recognizing the presence of structural challenges but appreciating the impactful contributions made by community efforts and supportive frameworks. Nonetheless, lingering doubts about widespread accessibility and sustainability persist. Hence, ""lean disagree"" captures the balanced viewpoint developed thus far.",Lean agree
 ,Post Opinion,67db1QH9V4,,,,It was fun and insightful to engage in that discussion with another participant; I  really learn new things.,16:52:44.673000 2025:04:29,"After considering recent discussions, I continue to lean toward agreeing that the United States is a place where a young person could lead a good life. Young people face significant challenges like student debt and mental health issues, but with access to quality education, robust community support, and proactive legislative measures, there are ample opportunities for them to thrive. Continued emphasis on empowering local communities and pushing for systemic improvements remains crucial for fostering environments where young individuals can flourish.","Probably agree
 
-Despite recognizing the challenges faced by young people, including systemic issues like student debt and competition, the overall sentiment remains positive. The U.S. continues to offer substantial opportunities for those ready to work diligently and creatively, supported by community and targeted improvements aimed at making things more equitable."
-,exit_survey,5c377QH9V4,,,gender,female,,,
-,exit_survey,5c377QH9V4,,,residency,United States of America,,,
-,exit_survey,5c377QH9V4,,,age,44,,,
-,exit_survey,5c377QH9V4,,,origin,United States of America,,,
-,exit_survey,5c377QH9V4,,,education,some-college,,,
-,exit_survey,5c377QH9V4,,,ethnicity,['black'],,,
-,exit_survey,5c377QH9V4,,,income,25k-50k,,,
-,exit_survey,5c377QH9V4,,,politicalIdentity,independent,,,
-,exit_survey,5c377QH9V4,,,politicalViews,moderate,,,
-,exit_survey,5c377QH9V4,,,maritalStatus,never-married,,,
-,exit_survey,5c377QH9V4,,,childrenSchool,['no-children'],,,
-,exit_survey,5c377QH9V4,,,residence,urban,,,
-,exit_survey,5c377QH9V4,,,bibleBelief,inspired,,,
-,exit_survey,5c377QH9V4,,,evangelical,no,,,
-,exit_survey,5c377QH9V4,,,religion,other-christian,,,
-,exit_survey,5c377QH9V4,,,occupation,sales,,,
-,exit_survey,67db1QH9V4,,,age,30,,,
-,exit_survey,67db1QH9V4,,,residency,United States of America,,,
-,exit_survey,67db1QH9V4,,,origin,United States of America,,,
-,exit_survey,67db1QH9V4,,,gender,female,,,
-,exit_survey,67db1QH9V4,,,ethnicity,['white'],,,
-,exit_survey,67db1QH9V4,,,education,bachelor,,,
-,exit_survey,67db1QH9V4,,,income,100k-150k,,,
-,exit_survey,67db1QH9V4,,,politicalIdentity,republican,,,
-,exit_survey,67db1QH9V4,,,maritalStatus,married,,,
-,exit_survey,67db1QH9V4,,,politicalViews,conservative,,,
-,exit_survey,67db1QH9V4,,,childrenSchool,"['public', 'university']",,,
-,exit_survey,67db1QH9V4,,,evangelical,no,,,
-,exit_survey,67db1QH9V4,,,residence,suburban,,,
-,exit_survey,67db1QH9V4,,,religion,muslim,,,
-,exit_survey,67db1QH9V4,,,bibleBelief,prefer not to answer,,,
-,exit_survey,67db1QH9V4,,,occupation,other,,,
-,exit_survey,67efeQH9V4,,,residency,United States of America,,,
-,exit_survey,67efeQH9V4,,,gender,male,,,
-,exit_survey,67efeQH9V4,,,age,39,,,
-,exit_survey,67efeQH9V4,,,education,bachelor,,,
-,exit_survey,67efeQH9V4,,,ethnicity,['asian'],,,
-,exit_survey,67efeQH9V4,,,income,50k-75k,,,
-,exit_survey,67efeQH9V4,,,politicalIdentity,democrat,,,
-,exit_survey,67efeQH9V4,,,politicalViews,liberal,,,
-,exit_survey,67efeQH9V4,,,origin,United States of America,,,
-,exit_survey,67efeQH9V4,,,maritalStatus,living-partner,,,
-,exit_survey,67efeQH9V4,,,childrenSchool,['public'],,,
-,exit_survey,67efeQH9V4,,,residence,urban,,,
-,exit_survey,67efeQH9V4,,,bibleBelief,inspired,,,
-,exit_survey,67efeQH9V4,,,evangelical,yes,,,
-,exit_survey,67efeQH9V4,,,religion,protestant,,,
-,exit_survey,67efeQH9V4,,,occupation,finance,,,
-,exit_survey,67d26QH9V4,,,age,68,,,
-,exit_survey,67d26QH9V4,,,ethnicity,['white'],,,
-,exit_survey,67d26QH9V4,,,education,master-doctoral,,,
-,exit_survey,67d26QH9V4,,,gender,female,,,
-,exit_survey,67d26QH9V4,,,origin,United States of America,,,
-,exit_survey,67d26QH9V4,,,income,25k-50k,,,
-,exit_survey,67d26QH9V4,,,politicalViews,liberal,,,
-,exit_survey,67d26QH9V4,,,politicalIdentity,democrat,,,
-,exit_survey,67d26QH9V4,,,maritalStatus,married,,,
-,exit_survey,67d26QH9V4,,,childrenSchool,['private'],,,
-,exit_survey,67d26QH9V4,,,bibleBelief,literal,,,
-,exit_survey,67d26QH9V4,,,evangelical,yes,,,
-,exit_survey,67d26QH9V4,,,religion,roman-catholic,,,
-,exit_survey,67d26QH9V4,,,residence,urban,,,
-,exit_survey,67d26QH9V4,,,occupation,finance,,,
-,exit_survey,67d26QH9V4,,,residency,United States of America,,,
-,exit_survey,5c377QH9V4,,,gender,female,,,
-,exit_survey,5c377QH9V4,,,residency,United States of America,,,
-,exit_survey,5c377QH9V4,,,age,44,,,
-,exit_survey,5c377QH9V4,,,origin,United States of America,,,
-,exit_survey,5c377QH9V4,,,education,some-college,,,
-,exit_survey,5c377QH9V4,,,ethnicity,['black'],,,
-,exit_survey,5c377QH9V4,,,income,25k-50k,,,
-,exit_survey,5c377QH9V4,,,politicalIdentity,independent,,,
-,exit_survey,5c377QH9V4,,,politicalViews,moderate,,,
-,exit_survey,5c377QH9V4,,,maritalStatus,never-married,,,
-,exit_survey,5c377QH9V4,,,childrenSchool,['no-children'],,,
-,exit_survey,5c377QH9V4,,,residence,urban,,,
-,exit_survey,5c377QH9V4,,,bibleBelief,inspired,,,
-,exit_survey,5c377QH9V4,,,evangelical,no,,,
-,exit_survey,5c377QH9V4,,,religion,other-christian,,,
-,exit_survey,5c377QH9V4,,,occupation,sales,,,
-,exit_survey,67db1QH9V4,,,age,30,,,
-,exit_survey,67db1QH9V4,,,residency,United States of America,,,
-,exit_survey,67db1QH9V4,,,origin,United States of America,,,
-,exit_survey,67db1QH9V4,,,gender,female,,,
-,exit_survey,67db1QH9V4,,,ethnicity,['white'],,,
-,exit_survey,67db1QH9V4,,,education,bachelor,,,
-,exit_survey,67db1QH9V4,,,income,100k-150k,,,
-,exit_survey,67db1QH9V4,,,politicalIdentity,republican,,,
-,exit_survey,67db1QH9V4,,,maritalStatus,married,,,
-,exit_survey,67db1QH9V4,,,politicalViews,conservative,,,
-,exit_survey,67db1QH9V4,,,childrenSchool,"['public', 'university']",,,
-,exit_survey,67db1QH9V4,,,evangelical,no,,,
-,exit_survey,67db1QH9V4,,,residence,suburban,,,
-,exit_survey,67db1QH9V4,,,religion,muslim,,,
-,exit_survey,67db1QH9V4,,,bibleBelief,prefer not to answer,,,
-,exit_survey,67db1QH9V4,,,occupation,other,,,
-,exit_survey,67efeQH9V4,,,residency,United States of America,,,
-,exit_survey,67efeQH9V4,,,gender,male,,,
-,exit_survey,67efeQH9V4,,,age,39,,,
-,exit_survey,67efeQH9V4,,,education,bachelor,,,
-,exit_survey,67efeQH9V4,,,ethnicity,['asian'],,,
-,exit_survey,67efeQH9V4,,,income,50k-75k,,,
-,exit_survey,67efeQH9V4,,,politicalIdentity,democrat,,,
-,exit_survey,67efeQH9V4,,,politicalViews,liberal,,,
-,exit_survey,67efeQH9V4,,,origin,United States of America,,,
-,exit_survey,67efeQH9V4,,,maritalStatus,living-partner,,,
-,exit_survey,67efeQH9V4,,,childrenSchool,['public'],,,
-,exit_survey,67efeQH9V4,,,residence,urban,,,
-,exit_survey,67efeQH9V4,,,bibleBelief,inspired,,,
-,exit_survey,67efeQH9V4,,,evangelical,yes,,,
-,exit_survey,67efeQH9V4,,,religion,protestant,,,
-,exit_survey,67efeQH9V4,,,occupation,finance,,,
-,exit_survey,67d26QH9V4,,,age,68,,,
-,exit_survey,67d26QH9V4,,,ethnicity,['white'],,,
-,exit_survey,67d26QH9V4,,,education,master-doctoral,,,
-,exit_survey,67d26QH9V4,,,gender,female,,,
-,exit_survey,67d26QH9V4,,,origin,United States of America,,,
-,exit_survey,67d26QH9V4,,,income,25k-50k,,,
-,exit_survey,67d26QH9V4,,,politicalViews,liberal,,,
-,exit_survey,67d26QH9V4,,,politicalIdentity,democrat,,,
-,exit_survey,67d26QH9V4,,,maritalStatus,married,,,
-,exit_survey,67d26QH9V4,,,childrenSchool,['private'],,,
-,exit_survey,67d26QH9V4,,,bibleBelief,literal,,,
-,exit_survey,67d26QH9V4,,,evangelical,yes,,,
-,exit_survey,67d26QH9V4,,,religion,roman-catholic,,,
-,exit_survey,67d26QH9V4,,,residence,urban,,,
-,exit_survey,67d26QH9V4,,,occupation,finance,,,
-,exit_survey,67d26QH9V4,,,residency,United States of America,,,
+Despite recognizing the challenges faced by young people, including systemic issues like student debt and competition, the overall sentiment remains positive. The U.S. continues to offer substantial opportunities for those ready to work diligently and creatively, supported by community and targeted improvements aimed at making things more equitable.",
+,exit_survey,5c377QH9V4,,,gender,female,,,,
+,exit_survey,5c377QH9V4,,,residency,United States of America,,,,
+,exit_survey,5c377QH9V4,,,age,44,,,,
+,exit_survey,5c377QH9V4,,,origin,United States of America,,,,
+,exit_survey,5c377QH9V4,,,education,some-college,,,,
+,exit_survey,5c377QH9V4,,,ethnicity,['black'],,,,
+,exit_survey,5c377QH9V4,,,income,25k-50k,,,,
+,exit_survey,5c377QH9V4,,,politicalIdentity,independent,,,,
+,exit_survey,5c377QH9V4,,,politicalViews,moderate,,,,
+,exit_survey,5c377QH9V4,,,maritalStatus,never-married,,,,
+,exit_survey,5c377QH9V4,,,childrenSchool,['no-children'],,,,
+,exit_survey,5c377QH9V4,,,residence,urban,,,,
+,exit_survey,5c377QH9V4,,,bibleBelief,inspired,,,,
+,exit_survey,5c377QH9V4,,,evangelical,no,,,,
+,exit_survey,5c377QH9V4,,,religion,other-christian,,,,
+,exit_survey,5c377QH9V4,,,occupation,sales,,,,
+,exit_survey,67db1QH9V4,,,age,30,,,,
+,exit_survey,67db1QH9V4,,,residency,United States of America,,,,
+,exit_survey,67db1QH9V4,,,origin,United States of America,,,,
+,exit_survey,67db1QH9V4,,,gender,female,,,,
+,exit_survey,67db1QH9V4,,,ethnicity,['white'],,,,
+,exit_survey,67db1QH9V4,,,education,bachelor,,,,
+,exit_survey,67db1QH9V4,,,income,100k-150k,,,,
+,exit_survey,67db1QH9V4,,,politicalIdentity,republican,,,,
+,exit_survey,67db1QH9V4,,,maritalStatus,married,,,,
+,exit_survey,67db1QH9V4,,,politicalViews,conservative,,,,
+,exit_survey,67db1QH9V4,,,childrenSchool,"['public', 'university']",,,,
+,exit_survey,67db1QH9V4,,,evangelical,no,,,,
+,exit_survey,67db1QH9V4,,,residence,suburban,,,,
+,exit_survey,67db1QH9V4,,,religion,muslim,,,,
+,exit_survey,67db1QH9V4,,,bibleBelief,prefer not to answer,,,,
+,exit_survey,67db1QH9V4,,,occupation,other,,,,
+,exit_survey,67efeQH9V4,,,residency,United States of America,,,,
+,exit_survey,67efeQH9V4,,,gender,male,,,,
+,exit_survey,67efeQH9V4,,,age,39,,,,
+,exit_survey,67efeQH9V4,,,education,bachelor,,,,
+,exit_survey,67efeQH9V4,,,ethnicity,['asian'],,,,
+,exit_survey,67efeQH9V4,,,income,50k-75k,,,,
+,exit_survey,67efeQH9V4,,,politicalIdentity,democrat,,,,
+,exit_survey,67efeQH9V4,,,politicalViews,liberal,,,,
+,exit_survey,67efeQH9V4,,,origin,United States of America,,,,
+,exit_survey,67efeQH9V4,,,maritalStatus,living-partner,,,,
+,exit_survey,67efeQH9V4,,,childrenSchool,['public'],,,,
+,exit_survey,67efeQH9V4,,,residence,urban,,,,
+,exit_survey,67efeQH9V4,,,bibleBelief,inspired,,,,
+,exit_survey,67efeQH9V4,,,evangelical,yes,,,,
+,exit_survey,67efeQH9V4,,,religion,protestant,,,,
+,exit_survey,67efeQH9V4,,,occupation,finance,,,,
+,exit_survey,67d26QH9V4,,,age,68,,,,
+,exit_survey,67d26QH9V4,,,ethnicity,['white'],,,,
+,exit_survey,67d26QH9V4,,,education,master-doctoral,,,,
+,exit_survey,67d26QH9V4,,,gender,female,,,,
+,exit_survey,67d26QH9V4,,,origin,United States of America,,,,
+,exit_survey,67d26QH9V4,,,income,25k-50k,,,,
+,exit_survey,67d26QH9V4,,,politicalViews,liberal,,,,
+,exit_survey,67d26QH9V4,,,politicalIdentity,democrat,,,,
+,exit_survey,67d26QH9V4,,,maritalStatus,married,,,,
+,exit_survey,67d26QH9V4,,,childrenSchool,['private'],,,,
+,exit_survey,67d26QH9V4,,,bibleBelief,literal,,,,
+,exit_survey,67d26QH9V4,,,evangelical,yes,,,,
+,exit_survey,67d26QH9V4,,,religion,roman-catholic,,,,
+,exit_survey,67d26QH9V4,,,residence,urban,,,,
+,exit_survey,67d26QH9V4,,,occupation,finance,,,,
+,exit_survey,67d26QH9V4,,,residency,United States of America,,,,
+,exit_survey,5c377QH9V4,,,gender,female,,,,
+,exit_survey,5c377QH9V4,,,residency,United States of America,,,,
+,exit_survey,5c377QH9V4,,,age,44,,,,
+,exit_survey,5c377QH9V4,,,origin,United States of America,,,,
+,exit_survey,5c377QH9V4,,,education,some-college,,,,
+,exit_survey,5c377QH9V4,,,ethnicity,['black'],,,,
+,exit_survey,5c377QH9V4,,,income,25k-50k,,,,
+,exit_survey,5c377QH9V4,,,politicalIdentity,independent,,,,
+,exit_survey,5c377QH9V4,,,politicalViews,moderate,,,,
+,exit_survey,5c377QH9V4,,,maritalStatus,never-married,,,,
+,exit_survey,5c377QH9V4,,,childrenSchool,['no-children'],,,,
+,exit_survey,5c377QH9V4,,,residence,urban,,,,
+,exit_survey,5c377QH9V4,,,bibleBelief,inspired,,,,
+,exit_survey,5c377QH9V4,,,evangelical,no,,,,
+,exit_survey,5c377QH9V4,,,religion,other-christian,,,,
+,exit_survey,5c377QH9V4,,,occupation,sales,,,,
+,exit_survey,67db1QH9V4,,,age,30,,,,
+,exit_survey,67db1QH9V4,,,residency,United States of America,,,,
+,exit_survey,67db1QH9V4,,,origin,United States of America,,,,
+,exit_survey,67db1QH9V4,,,gender,female,,,,
+,exit_survey,67db1QH9V4,,,ethnicity,['white'],,,,
+,exit_survey,67db1QH9V4,,,education,bachelor,,,,
+,exit_survey,67db1QH9V4,,,income,100k-150k,,,,
+,exit_survey,67db1QH9V4,,,politicalIdentity,republican,,,,
+,exit_survey,67db1QH9V4,,,maritalStatus,married,,,,
+,exit_survey,67db1QH9V4,,,politicalViews,conservative,,,,
+,exit_survey,67db1QH9V4,,,childrenSchool,"['public', 'university']",,,,
+,exit_survey,67db1QH9V4,,,evangelical,no,,,,
+,exit_survey,67db1QH9V4,,,residence,suburban,,,,
+,exit_survey,67db1QH9V4,,,religion,muslim,,,,
+,exit_survey,67db1QH9V4,,,bibleBelief,prefer not to answer,,,,
+,exit_survey,67db1QH9V4,,,occupation,other,,,,
+,exit_survey,67efeQH9V4,,,residency,United States of America,,,,
+,exit_survey,67efeQH9V4,,,gender,male,,,,
+,exit_survey,67efeQH9V4,,,age,39,,,,
+,exit_survey,67efeQH9V4,,,education,bachelor,,,,
+,exit_survey,67efeQH9V4,,,ethnicity,['asian'],,,,
+,exit_survey,67efeQH9V4,,,income,50k-75k,,,,
+,exit_survey,67efeQH9V4,,,politicalIdentity,democrat,,,,
+,exit_survey,67efeQH9V4,,,politicalViews,liberal,,,,
+,exit_survey,67efeQH9V4,,,origin,United States of America,,,,
+,exit_survey,67efeQH9V4,,,maritalStatus,living-partner,,,,
+,exit_survey,67efeQH9V4,,,childrenSchool,['public'],,,,
+,exit_survey,67efeQH9V4,,,residence,urban,,,,
+,exit_survey,67efeQH9V4,,,bibleBelief,inspired,,,,
+,exit_survey,67efeQH9V4,,,evangelical,yes,,,,
+,exit_survey,67efeQH9V4,,,religion,protestant,,,,
+,exit_survey,67efeQH9V4,,,occupation,finance,,,,
+,exit_survey,67d26QH9V4,,,age,68,,,,
+,exit_survey,67d26QH9V4,,,ethnicity,['white'],,,,
+,exit_survey,67d26QH9V4,,,education,master-doctoral,,,,
+,exit_survey,67d26QH9V4,,,gender,female,,,,
+,exit_survey,67d26QH9V4,,,origin,United States of America,,,,
+,exit_survey,67d26QH9V4,,,income,25k-50k,,,,
+,exit_survey,67d26QH9V4,,,politicalViews,liberal,,,,
+,exit_survey,67d26QH9V4,,,politicalIdentity,democrat,,,,
+,exit_survey,67d26QH9V4,,,maritalStatus,married,,,,
+,exit_survey,67d26QH9V4,,,childrenSchool,['private'],,,,
+,exit_survey,67d26QH9V4,,,bibleBelief,literal,,,,
+,exit_survey,67d26QH9V4,,,evangelical,yes,,,,
+,exit_survey,67d26QH9V4,,,religion,roman-catholic,,,,
+,exit_survey,67d26QH9V4,,,residence,urban,,,,
+,exit_survey,67d26QH9V4,,,occupation,finance,,,,
+,exit_survey,67d26QH9V4,,,residency,United States of America,,,,

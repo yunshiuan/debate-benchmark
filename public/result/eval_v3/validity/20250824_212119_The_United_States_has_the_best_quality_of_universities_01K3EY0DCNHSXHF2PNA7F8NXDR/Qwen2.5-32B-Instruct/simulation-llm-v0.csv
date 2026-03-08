@@ -1,42 +1,42 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,63eda8NXDR,,,,Our country has produced some of the smartest people in the world. Our educational system is why our country is the best.,21:00:55.312000 2025:08:24,Our country has produced some of the smartest people in the world. Our educational system is why our country is the best.,
-,Initial Opinion,66e128NXDR,,,,The United States leads in lots of technology areas which can be attributed to the high quality of university education here.,21:01:00.398000 2025:08:24,The United States leads in lots of technology areas which can be attributed to the high quality of university education here.,
-,Initial Opinion,5c8db8NXDR,,,,the US has the best universities because they have challenging classes and help students get ahead in their careers.,21:01:21.936000 2025:08:24,the US has the best universities because they have challenging classes and help students get ahead in their careers.,
-,Initial Opinion,662bd8NXDR,,,,I feel like the whole world is diverse and has the best opportunities in multiple places all around. I wouldn't say best for any of the places because it would all come down to what those attending would experience.,21:01:45.798000 2025:08:24,I feel like the whole world is diverse and has the best opportunities in multiple places all around. I wouldn't say best for any of the places because it would all come down to what those attending would experience.,
-1.0,tweet,5c8db8NXDR,5c8db8NXDR,63eda8NXDR,,the united states has the best universities in the world because they are far more advanced and challenging than other countries and students go on to have successful careers.,21:02:47.124000 2025:08:24,the united states has the best universities in the world because they are far more advanced and challenging than other countries and students go on to have successful careers.,
-1.0,tweet,63eda8NXDR,63eda8NXDR,5c8db8NXDR,,"Our country has the best educational and economic system to help the poor, middle and upper class. The lower class has extremely bright minds who can become the next Albert Einstein. No other country will let the lower class get out of poverty.",21:03:19.718000 2025:08:24,"Our country has the best educational and economic system to help the poor, middle and upper class. The lower class has extremely bright minds who can become the next Albert Einstein. No other country will let the lower class get out of poverty.",
-1.0,tweet,66e128NXDR,66e128NXDR,662bd8NXDR,,The United States leads in lots of technology areas which can be attributed to the high quality of it's university education. Certain United States universities also have lots of prestigious status which have been gained by nothing else other than a high quality atmosphere.,21:03:31.282000 2025:08:24,The United States leads in lots of technology areas which can be attributed to the high quality of it's university education. Certain United States universities also have lots of prestigious status which have been gained by nothing else other than a high quality atmosphere.,
-1.0,tweet,662bd8NXDR,662bd8NXDR,66e128NXDR,,"As I stated in the previous answer, I think the more diverse areas of education are located around the world; you can't really say which are the best. I would say yes, there are great universities in the US, but I would also say that in many other parts of the world.",21:03:48.831000 2025:08:24,"As I stated in the previous answer, I think the more diverse areas of education are located around the world; you can't really say which are the best. I would say yes, there are great universities in the US, but I would also say that in many other parts of the world.",
-1.0,message_sent,5c8db8NXDR,5c8db8NXDR,63eda8NXDR,,I agree. I think the US does a great job of creating opportunities for everyone no matter what their socioeconomic backgrounds are. our universities are for everyone who is willing to put in the work.,21:05:07.372000 2025:08:24,"Great points! I definitely think our universities offer unique opportunities for advancement across all social levels. Having those top-tier institutions helps ensure talented individuals, regardless of background, can achieve great success. What do you think sets American universities apart specifically?",
-1.0,message_recieved,63eda8NXDR,5c8db8NXDR,63eda8NXDR,,I agree. I think the US does a great job of creating opportunities for everyone no matter what their socioeconomic backgrounds are. our universities are for everyone who is willing to put in the work.,21:05:05.903000 2025:08:24,"Great points! I definitely think our universities offer unique opportunities for advancement across all social levels. Having those top-tier institutions helps ensure talented individuals, regardless of background, can achieve great success. What do you think sets American universities apart specifically?",
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,63eda8NXDR,,,,Our country has produced some of the smartest people in the world. Our educational system is why our country is the best.,21:00:55.312000 2025:08:24,Our country has produced some of the smartest people in the world. Our educational system is why our country is the best.,,Certainly agree
+,Initial Opinion,66e128NXDR,,,,The United States leads in lots of technology areas which can be attributed to the high quality of university education here.,21:01:00.398000 2025:08:24,The United States leads in lots of technology areas which can be attributed to the high quality of university education here.,,Certainly agree
+,Initial Opinion,5c8db8NXDR,,,,the US has the best universities because they have challenging classes and help students get ahead in their careers.,21:01:21.936000 2025:08:24,the US has the best universities because they have challenging classes and help students get ahead in their careers.,,Certainly agree
+,Initial Opinion,662bd8NXDR,,,,I feel like the whole world is diverse and has the best opportunities in multiple places all around. I wouldn't say best for any of the places because it would all come down to what those attending would experience.,21:01:45.798000 2025:08:24,I feel like the whole world is diverse and has the best opportunities in multiple places all around. I wouldn't say best for any of the places because it would all come down to what those attending would experience.,,Certainly disagree
+1.0,tweet,5c8db8NXDR,5c8db8NXDR,63eda8NXDR,,the united states has the best universities in the world because they are far more advanced and challenging than other countries and students go on to have successful careers.,21:02:47.124000 2025:08:24,the united states has the best universities in the world because they are far more advanced and challenging than other countries and students go on to have successful careers.,,Certainly agree
+1.0,tweet,63eda8NXDR,63eda8NXDR,5c8db8NXDR,,"Our country has the best educational and economic system to help the poor, middle and upper class. The lower class has extremely bright minds who can become the next Albert Einstein. No other country will let the lower class get out of poverty.",21:03:19.718000 2025:08:24,"Our country has the best educational and economic system to help the poor, middle and upper class. The lower class has extremely bright minds who can become the next Albert Einstein. No other country will let the lower class get out of poverty.",,Certainly agree
+1.0,tweet,66e128NXDR,66e128NXDR,662bd8NXDR,,The United States leads in lots of technology areas which can be attributed to the high quality of it's university education. Certain United States universities also have lots of prestigious status which have been gained by nothing else other than a high quality atmosphere.,21:03:31.282000 2025:08:24,The United States leads in lots of technology areas which can be attributed to the high quality of it's university education. Certain United States universities also have lots of prestigious status which have been gained by nothing else other than a high quality atmosphere.,,Certainly agree
+1.0,tweet,662bd8NXDR,662bd8NXDR,66e128NXDR,,"As I stated in the previous answer, I think the more diverse areas of education are located around the world; you can't really say which are the best. I would say yes, there are great universities in the US, but I would also say that in many other parts of the world.",21:03:48.831000 2025:08:24,"As I stated in the previous answer, I think the more diverse areas of education are located around the world; you can't really say which are the best. I would say yes, there are great universities in the US, but I would also say that in many other parts of the world.",,Probably disagree
+1.0,message_sent,5c8db8NXDR,5c8db8NXDR,63eda8NXDR,,I agree. I think the US does a great job of creating opportunities for everyone no matter what their socioeconomic backgrounds are. our universities are for everyone who is willing to put in the work.,21:05:07.372000 2025:08:24,"Great points! I definitely think our universities offer unique opportunities for advancement across all social levels. Having those top-tier institutions helps ensure talented individuals, regardless of background, can achieve great success. What do you think sets American universities apart specifically?",,
+1.0,message_recieved,63eda8NXDR,5c8db8NXDR,63eda8NXDR,,I agree. I think the US does a great job of creating opportunities for everyone no matter what their socioeconomic backgrounds are. our universities are for everyone who is willing to put in the work.,21:05:05.903000 2025:08:24,"Great points! I definitely think our universities offer unique opportunities for advancement across all social levels. Having those top-tier institutions helps ensure talented individuals, regardless of background, can achieve great success. What do you think sets American universities apart specifically?",,
 1.0,message_sent,63eda8NXDR,63eda8NXDR,5c8db8NXDR,,"China doesn't have as many future Nobel Prize winner type of students because of how communism will hold down the poor. A small percentage of the lower class will always become the next super star in sports, or the next Einstein of the century.",21:06:28.789000 2025:08:24,"Thank you! For me, what really stands out is how these universities foster innovation and provide resources like cutting-edge research facilities and networking opportunities. They also attract顶尖的教授和研究人员，这为学生提供了宝贵的学习机会。此外，美国大学还鼓励批判性思维和个人发展，这些都是其他国家难以匹敌的。
 
 （注：最后部分翻译成中文的部分可以改为英文如下）
 
-Additionally, they attract top professors and researchers, providing invaluable learning opportunities for students. Furthermore, U.S. universities",
+Additionally, they attract top professors and researchers, providing invaluable learning opportunities for students. Furthermore, U.S. universities",,
 1.0,message_recieved,5c8db8NXDR,63eda8NXDR,5c8db8NXDR,,"China doesn't have as many future Nobel Prize winner type of students because of how communism will hold down the poor. A small percentage of the lower class will always become the next super star in sports, or the next Einstein of the century.",21:06:31.061000 2025:08:24,"Thank you! For me, what really stands out is how these universities foster innovation and provide resources like cutting-edge research facilities and networking opportunities. They also attract顶尖的教授和研究人员，这为学生提供了宝贵的学习机会。此外，美国大学还鼓励批判性思维和个人发展，这些都是其他国家难以匹敌的。
 
 （注：最后部分翻译成中文的部分可以改为英文如下）
 
-Additionally, they attract top professors and researchers, providing invaluable learning opportunities for students. Furthermore, U.S. universities",
-1.0,message_sent,662bd8NXDR,662bd8NXDR,66e128NXDR,,"I agree. THe statement says the ""best"". I wouldn't say anyone has the best because that would are be the perception of whom has attended and why others rate it the best. It's a vague argument because the best could be anywhere. Just a matter of whom thinks it.",21:06:09.967000 2025:08:24,"My Response: While I understand the argument that top U.S. institutions bring prestige due to their contributions to tech and academia, I still believe excellence isn’t confined within one country’s borders. Every region offers unique strengths—be they cultural, economic, or educational—which make them valuable in their own right. Isn't diversity part of what makes global higher ed special?",
-1.0,message_recieved,66e128NXDR,662bd8NXDR,66e128NXDR,,"I agree. THe statement says the ""best"". I wouldn't say anyone has the best because that would are be the perception of whom has attended and why others rate it the best. It's a vague argument because the best could be anywhere. Just a matter of whom thinks it.",21:06:09.036000 2025:08:24,"My Response: While I understand the argument that top U.S. institutions bring prestige due to their contributions to tech and academia, I still believe excellence isn’t confined within one country’s borders. Every region offers unique strengths—be they cultural, economic, or educational—which make them valuable in their own right. Isn't diversity part of what makes global higher ed special?",
-1.0,message_sent,63eda8NXDR,63eda8NXDR,5c8db8NXDR,,,21:06:28.789000 2025:08:24,,
-1.0,message_recieved,5c8db8NXDR,63eda8NXDR,5c8db8NXDR,,,21:06:31.061000 2025:08:24,,
-1.0,message_sent,5c8db8NXDR,5c8db8NXDR,63eda8NXDR,,we have challenging assignments in college and that helps students become smarter and better able to do tough jobs when they graduate.,21:06:56.612000 2025:08:24,""" as per your instruction, ensuring it feels natural and engaging during the ongoing dialogue.",
-1.0,message_recieved,63eda8NXDR,5c8db8NXDR,63eda8NXDR,,we have challenging assignments in college and that helps students become smarter and better able to do tough jobs when they graduate.,21:06:55.055000 2025:08:24,""" as per your instruction, ensuring it feels natural and engaging during the ongoing dialogue.",
-1.0,message_sent,66e128NXDR,66e128NXDR,662bd8NXDR,,"There are definitely other areas in the world where universities that have prestige, like the United Kingdom. They can be less known to the American eye. Perception is definitely important, which I agree.",21:07:05.630000 2025:08:24,"That's an interesting viewpoint, @662db. Absolutely, every region does offer its unique advantages and diversities that enrich global higher education. However, when we talk specifically about research output, funding opportunities, and industry collaborations—the factors often tied closely to technological advancements—I do find that U.S. universities stand out significantly. What regions do you particularly admire for their unique academic value?",
-1.0,message_recieved,662bd8NXDR,66e128NXDR,662bd8NXDR,,"There are definitely other areas in the world where universities that have prestige, like the United Kingdom. They can be less known to the American eye. Perception is definitely important, which I agree.",21:07:06.734000 2025:08:24,"That's an interesting viewpoint, @662db. Absolutely, every region does offer its unique advantages and diversities that enrich global higher education. However, when we talk specifically about research output, funding opportunities, and industry collaborations—the factors often tied closely to technological advancements—I do find that U.S. universities stand out significantly. What regions do you particularly admire for their unique academic value?",
+Additionally, they attract top professors and researchers, providing invaluable learning opportunities for students. Furthermore, U.S. universities",,
+1.0,message_sent,662bd8NXDR,662bd8NXDR,66e128NXDR,,"I agree. THe statement says the ""best"". I wouldn't say anyone has the best because that would are be the perception of whom has attended and why others rate it the best. It's a vague argument because the best could be anywhere. Just a matter of whom thinks it.",21:06:09.967000 2025:08:24,"My Response: While I understand the argument that top U.S. institutions bring prestige due to their contributions to tech and academia, I still believe excellence isn’t confined within one country’s borders. Every region offers unique strengths—be they cultural, economic, or educational—which make them valuable in their own right. Isn't diversity part of what makes global higher ed special?",,
+1.0,message_recieved,66e128NXDR,662bd8NXDR,66e128NXDR,,"I agree. THe statement says the ""best"". I wouldn't say anyone has the best because that would are be the perception of whom has attended and why others rate it the best. It's a vague argument because the best could be anywhere. Just a matter of whom thinks it.",21:06:09.036000 2025:08:24,"My Response: While I understand the argument that top U.S. institutions bring prestige due to their contributions to tech and academia, I still believe excellence isn’t confined within one country’s borders. Every region offers unique strengths—be they cultural, economic, or educational—which make them valuable in their own right. Isn't diversity part of what makes global higher ed special?",,
+1.0,message_sent,63eda8NXDR,63eda8NXDR,5c8db8NXDR,,,21:06:28.789000 2025:08:24,,,
+1.0,message_recieved,5c8db8NXDR,63eda8NXDR,5c8db8NXDR,,,21:06:31.061000 2025:08:24,,,
+1.0,message_sent,5c8db8NXDR,5c8db8NXDR,63eda8NXDR,,we have challenging assignments in college and that helps students become smarter and better able to do tough jobs when they graduate.,21:06:56.612000 2025:08:24,""" as per your instruction, ensuring it feels natural and engaging during the ongoing dialogue.",,
+1.0,message_recieved,63eda8NXDR,5c8db8NXDR,63eda8NXDR,,we have challenging assignments in college and that helps students become smarter and better able to do tough jobs when they graduate.,21:06:55.055000 2025:08:24,""" as per your instruction, ensuring it feels natural and engaging during the ongoing dialogue.",,
+1.0,message_sent,66e128NXDR,66e128NXDR,662bd8NXDR,,"There are definitely other areas in the world where universities that have prestige, like the United Kingdom. They can be less known to the American eye. Perception is definitely important, which I agree.",21:07:05.630000 2025:08:24,"That's an interesting viewpoint, @662db. Absolutely, every region does offer its unique advantages and diversities that enrich global higher education. However, when we talk specifically about research output, funding opportunities, and industry collaborations—the factors often tied closely to technological advancements—I do find that U.S. universities stand out significantly. What regions do you particularly admire for their unique academic value?",,
+1.0,message_recieved,662bd8NXDR,66e128NXDR,662bd8NXDR,,"There are definitely other areas in the world where universities that have prestige, like the United Kingdom. They can be less known to the American eye. Perception is definitely important, which I agree.",21:07:06.734000 2025:08:24,"That's an interesting viewpoint, @662db. Absolutely, every region does offer its unique advantages and diversities that enrich global higher education. However, when we talk specifically about research output, funding opportunities, and industry collaborations—the factors often tied closely to technological advancements—I do find that U.S. universities stand out significantly. What regions do you particularly admire for their unique academic value?",,
 1.0,message_sent,662bd8NXDR,662bd8NXDR,66e128NXDR,,Agreed so thats why I didn't want to state just saying yes for a bias reasoning. THere are alot more that are top tier that are not in the US.,21:07:59.893000 2025:08:24,"That's true, U.S. universities definitely excel in certain aspects like research and industry collaboration. But I appreciate countries like Germany for engineering prowess, Finland for innovation in education methodologies, and Switzerland for its focus on precision sciences. Each place contributes uniquely to global knowledge. Doesn't this variety benefit students who might choose studies abroad?多样性让全球高等教育更加丰富多彩。每个国家都有其独特的优势，这些优势使得学生在选择留学时有更多的机会和可能性。
 
 (Translation:
-Each country has its unique",
+Each country has its unique",,
 1.0,message_recieved,66e128NXDR,662bd8NXDR,66e128NXDR,,Agreed so thats why I didn't want to state just saying yes for a bias reasoning. THere are alot more that are top tier that are not in the US.,21:07:59.893000 2025:08:24,"That's true, U.S. universities definitely excel in certain aspects like research and industry collaboration. But I appreciate countries like Germany for engineering prowess, Finland for innovation in education methodologies, and Switzerland for its focus on precision sciences. Each place contributes uniquely to global knowledge. Doesn't this variety benefit students who might choose studies abroad?多样性让全球高等教育更加丰富多彩。每个国家都有其独特的优势，这些优势使得学生在选择留学时有更多的机会和可能性。
 
 (Translation:
-Each country has its unique",
-1.0,message_sent,63eda8NXDR,63eda8NXDR,5c8db8NXDR,,China doesn't provide as much aid for the lower class citizens who do well in school. Democracy is a proven system to build a strong country. Communism,21:08:08.753000 2025:08:24,"Absolutely, attracting top talent makes a huge difference. Plus, the diverse student body allows for an exchange of ideas and perspectives which enhances everyone’s experience. Do you feel there are specific programs at US universities that stand out compared to others around the globe?",
-1.0,message_recieved,5c8db8NXDR,63eda8NXDR,5c8db8NXDR,,China doesn't provide as much aid for the lower class citizens who do well in school. Democracy is a proven system to build a strong country. Communism,21:08:10.694000 2025:08:24,"Absolutely, attracting top talent makes a huge difference. Plus, the diverse student body allows for an exchange of ideas and perspectives which enhances everyone’s experience. Do you feel there are specific programs at US universities that stand out compared to others around the globe?",
+Each country has its unique",,
+1.0,message_sent,63eda8NXDR,63eda8NXDR,5c8db8NXDR,,China doesn't provide as much aid for the lower class citizens who do well in school. Democracy is a proven system to build a strong country. Communism,21:08:08.753000 2025:08:24,"Absolutely, attracting top talent makes a huge difference. Plus, the diverse student body allows for an exchange of ideas and perspectives which enhances everyone’s experience. Do you feel there are specific programs at US universities that stand out compared to others around the globe?",,
+1.0,message_recieved,5c8db8NXDR,63eda8NXDR,5c8db8NXDR,,China doesn't provide as much aid for the lower class citizens who do well in school. Democracy is a proven system to build a strong country. Communism,21:08:10.694000 2025:08:24,"Absolutely, attracting top talent makes a huge difference. Plus, the diverse student body allows for an exchange of ideas and perspectives which enhances everyone’s experience. Do you feel there are specific programs at US universities that stand out compared to others around the globe?",,
 2.0,tweet,5c8db8NXDR,5c8db8NXDR,662bd8NXDR,,I think the united states does a great job of teaching students from all economic backgrounds and they have challenging assignments that further educate the students.,21:09:12.105000 2025:08:24,"    
 
 ---
@@ -51,7 +51,7 @@ Now we'll move into the conversation with **662db** using my established positio
 ### Conversation with 662db
 
 #### Seeing Both Tweets:
-Your Tweet: The US truly shines when it comes to university quality—top-notch faculty, unparalleled resources, and incredible career",
+Your Tweet: The US truly shines when it comes to university quality—top-notch faculty, unparalleled resources, and incredible career",,Certainly agree
 2.0,tweet,63eda8NXDR,63eda8NXDR,66e128NXDR,,Our Universities cater to all backgrounds and every class of citizens. Our educational system is a big reason why our economy is so strong. Our bankers rely on the debt that college students build up to finance our operations over seas to counter terrorism.,21:09:37.175000 2025:08:24,"   
 My Tweet:
 American universities lead globally due to their commitment to excellence, cutting-edge research, and unparalleled academic freedom. Top-notch faculty, state-of-the-art facilities, and a focus on critical thinking set them apart. #EducationMatters 🏛️📚
@@ -61,7 +61,7 @@ American universities lead globally due to their commitment to excellence, cutti
 Now we'll move into the conversation with 66e1₂:
 
 Your Tweets:  
-My Tweet: American universities lead globally due to their commitment to excellence, cutting-edge research, and unparalleled academic freedom. Top-notch faculty",
+My Tweet: American universities lead globally due to their commitment to excellence, cutting-edge research, and unparalleled academic freedom. Top-notch faculty",,Certainly agree
 2.0,tweet,662bd8NXDR,662bd8NXDR,5c8db8NXDR,,"Yes, I believe that the US has a lot of great universities.. But i would never say they have the ""best"" due to the fact that they are based on opinions or credits.",21:09:58.022000 2025:08:24,"   
 My Tweet: Diversity shines globally in higher education! While the U.S. excels in some areas, so do others worldwide – Germany for engineering, Finland for innovative teaching methods, etc. Excellence isn't confined to one nation; each brings unique value. 🌍✨ #GlobalEducation #DiversityMatters
 
@@ -69,7 +69,7 @@ My Tweet: Diversity shines globally in higher education! While the U.S. excels i
 
 Here's my tweet expressing my stance:
 
-**My Tweet:** Diversity shines globally in higher education! While the U.S. excels in some areas, so do others worldwide",
+**My Tweet:** Diversity shines globally in higher education! While the U.S. excels in some areas, so do others worldwide",,Lean disagree
 2.0,tweet,66e128NXDR,66e128NXDR,63eda8NXDR,,"The United States leads in lots of technology areas, which can be attributed to it's high quality education and universities.",21:10:05.719000 2025:08:24,"   
 ---
 
@@ -84,35 +84,35 @@ Let me rephrase my tweet clearly without translation issues.
 
 ---
 
-**My Tweet:** The U.S. excels in research & industry ties, driving global tech advances",
-2.0,message_sent,5c8db8NXDR,5c8db8NXDR,662bd8NXDR,,I think when you compare the education students get in other countries then you will find that the US is better in every way,21:10:50.568000 2025:08:24,"Great insight! I absolutely appreciate recognizing diversity in global higher education. Even though the U.S. offers significant advantages, it’s true that other nations bring valuable contributions too. Still, I believe the combination of top faculty, state-of-the-art facilities, and extensive support systems here uniquely positions American universities for excellence. How do you think international collaboration could enhance academic offerings even further?",
-2.0,message_recieved,662bd8NXDR,5c8db8NXDR,662bd8NXDR,,I think when you compare the education students get in other countries then you will find that the US is better in every way,21:10:49.866000 2025:08:24,"Great insight! I absolutely appreciate recognizing diversity in global higher education. Even though the U.S. offers significant advantages, it’s true that other nations bring valuable contributions too. Still, I believe the combination of top faculty, state-of-the-art facilities, and extensive support systems here uniquely positions American universities for excellence. How do you think international collaboration could enhance academic offerings even further?",
-2.0,message_sent,662bd8NXDR,662bd8NXDR,5c8db8NXDR,,Not really. It asks the best quality. There are many US students going overseas to get educated. Its all off perception on someone who thinks its better.,21:11:55.724000 2025:08:24,"Great points, @5c8d! International collaboration indeed holds immense potential to elevate academic standards across the board. By sharing expertise and resources, institutions can create richer learning environments. For instance, collaborative projects between U.S. schools known for cutting-edge research and European counterparts renowned for practical applications could lead to groundbreaking innovations. This kind of exchange ensures that students get exposure to varied perspectives and skills, making them well-rounded graduates ready for the global workforce. So while U.S. universities certainly shine, embracing",
-2.0,message_recieved,5c8db8NXDR,662bd8NXDR,5c8db8NXDR,,Not really. It asks the best quality. There are many US students going overseas to get educated. Its all off perception on someone who thinks its better.,21:11:56.642000 2025:08:24,"Great points, @5c8d! International collaboration indeed holds immense potential to elevate academic standards across the board. By sharing expertise and resources, institutions can create richer learning environments. For instance, collaborative projects between U.S. schools known for cutting-edge research and European counterparts renowned for practical applications could lead to groundbreaking innovations. This kind of exchange ensures that students get exposure to varied perspectives and skills, making them well-rounded graduates ready for the global workforce. So while U.S. universities certainly shine, embracing",
+**My Tweet:** The U.S. excels in research & industry ties, driving global tech advances",,Probably agree
+2.0,message_sent,5c8db8NXDR,5c8db8NXDR,662bd8NXDR,,I think when you compare the education students get in other countries then you will find that the US is better in every way,21:10:50.568000 2025:08:24,"Great insight! I absolutely appreciate recognizing diversity in global higher education. Even though the U.S. offers significant advantages, it’s true that other nations bring valuable contributions too. Still, I believe the combination of top faculty, state-of-the-art facilities, and extensive support systems here uniquely positions American universities for excellence. How do you think international collaboration could enhance academic offerings even further?",,
+2.0,message_recieved,662bd8NXDR,5c8db8NXDR,662bd8NXDR,,I think when you compare the education students get in other countries then you will find that the US is better in every way,21:10:49.866000 2025:08:24,"Great insight! I absolutely appreciate recognizing diversity in global higher education. Even though the U.S. offers significant advantages, it’s true that other nations bring valuable contributions too. Still, I believe the combination of top faculty, state-of-the-art facilities, and extensive support systems here uniquely positions American universities for excellence. How do you think international collaboration could enhance academic offerings even further?",,
+2.0,message_sent,662bd8NXDR,662bd8NXDR,5c8db8NXDR,,Not really. It asks the best quality. There are many US students going overseas to get educated. Its all off perception on someone who thinks its better.,21:11:55.724000 2025:08:24,"Great points, @5c8d! International collaboration indeed holds immense potential to elevate academic standards across the board. By sharing expertise and resources, institutions can create richer learning environments. For instance, collaborative projects between U.S. schools known for cutting-edge research and European counterparts renowned for practical applications could lead to groundbreaking innovations. This kind of exchange ensures that students get exposure to varied perspectives and skills, making them well-rounded graduates ready for the global workforce. So while U.S. universities certainly shine, embracing",,
+2.0,message_recieved,5c8db8NXDR,662bd8NXDR,5c8db8NXDR,,Not really. It asks the best quality. There are many US students going overseas to get educated. Its all off perception on someone who thinks its better.,21:11:56.642000 2025:08:24,"Great points, @5c8d! International collaboration indeed holds immense potential to elevate academic standards across the board. By sharing expertise and resources, institutions can create richer learning environments. For instance, collaborative projects between U.S. schools known for cutting-edge research and European counterparts renowned for practical applications could lead to groundbreaking innovations. This kind of exchange ensures that students get exposure to varied perspectives and skills, making them well-rounded graduates ready for the global workforce. So while U.S. universities certainly shine, embracing",,
 2.0,message_sent,5c8db8NXDR,5c8db8NXDR,662bd8NXDR,,I would say a bachelors degree in another country does not have the same value at one in the u.s.,21:12:27.643000 2025:08:24,"Absolutely, international collaborations can bring so much to the table! Sharing knowledge and resources creates a win-win situation where students benefit immensely from varied cultural and intellectual backgrounds. The idea of combining research strengths with practical application sounds incredibly promising for fostering innovation and preparing students for the global job market. Given the dynamic nature of today’s industries, having such comprehensive training is crucial. How do you think policies should adapt to better facilitate these kinds of partnerships? Are there any barriers currently hindering effective collaboration?
 
 ---
 
-In summary",
+In summary",,
 2.0,message_recieved,662bd8NXDR,5c8db8NXDR,662bd8NXDR,,I would say a bachelors degree in another country does not have the same value at one in the u.s.,21:12:26.944000 2025:08:24,"Absolutely, international collaborations can bring so much to the table! Sharing knowledge and resources creates a win-win situation where students benefit immensely from varied cultural and intellectual backgrounds. The idea of combining research strengths with practical application sounds incredibly promising for fostering innovation and preparing students for the global job market. Given the dynamic nature of today’s industries, having such comprehensive training is crucial. How do you think policies should adapt to better facilitate these kinds of partnerships? Are there any barriers currently hindering effective collaboration?
 
 ---
 
-In summary",
+In summary",,
 2.0,message_sent,662bd8NXDR,662bd8NXDR,5c8db8NXDR,,WHy?,21:12:34.963000 2025:08:24,"Absolutely, facilitating these types of partnerships requires supportive policies at home and internationally. Reducing bureaucratic hurdles, increasing funding for cross-border initiatives, and promoting visa programs that ease mobility for scholars and researchers can greatly help. Currently, regulatory complexities and financial constraints pose significant challenges. Overcoming these obstacles will allow for seamless integration and cooperation among leading minds across continents, ultimately benefiting students and driving progress forward.
 
-Given our shared interest in enhancing global education through collaboration, let me know if you've seen any successful examples of",
+Given our shared interest in enhancing global education through collaboration, let me know if you've seen any successful examples of",,
 2.0,message_recieved,5c8db8NXDR,662bd8NXDR,5c8db8NXDR,,WHy?,21:12:35.917000 2025:08:24,"Absolutely, facilitating these types of partnerships requires supportive policies at home and internationally. Reducing bureaucratic hurdles, increasing funding for cross-border initiatives, and promoting visa programs that ease mobility for scholars and researchers can greatly help. Currently, regulatory complexities and financial constraints pose significant challenges. Overcoming these obstacles will allow for seamless integration and cooperation among leading minds across continents, ultimately benefiting students and driving progress forward.
 
-Given our shared interest in enhancing global education through collaboration, let me know if you've seen any successful examples of",
-2.0,message_sent,5c8db8NXDR,5c8db8NXDR,662bd8NXDR,,I would say students have to put in more work in the US what do you think?,21:13:50.616000 2025:08:24,"Absolutely, reducing bureaucracy and boosting funding seem key steps toward smoother international collaboration. Visa programs tailored for academics and researchers could definitely break down many existing barriers. Have you come across any particularly inspiring models of successful international partnerships in academia? Personally, I’ve always thought that joint degree programs or dual-campus initiatives hold tremendous promise. They give students direct exposure to multiple cultures and expert faculties simultaneously, enriching their overall experience exponentially. Any thoughts on how to scale up such efforts effectively?",
-2.0,message_recieved,662bd8NXDR,5c8db8NXDR,662bd8NXDR,,I would say students have to put in more work in the US what do you think?,21:13:49.927000 2025:08:24,"Absolutely, reducing bureaucracy and boosting funding seem key steps toward smoother international collaboration. Visa programs tailored for academics and researchers could definitely break down many existing barriers. Have you come across any particularly inspiring models of successful international partnerships in academia? Personally, I’ve always thought that joint degree programs or dual-campus initiatives hold tremendous promise. They give students direct exposure to multiple cultures and expert faculties simultaneously, enriching their overall experience exponentially. Any thoughts on how to scale up such efforts effectively?",
-2.0,message_sent,66e128NXDR,66e128NXDR,63eda8NXDR,,"I definitely agree, Universities in the United States have lots of social prestigious status and diversity from all classes contribute to that. High tuition costs also support the prestigious status that many universities in the United States have.",21:12:47.608000 2025:08:24,"I absolutely resonate with your points! The combination of excellent faculty, advanced facilities, and emphasis on critical thinking truly sets U.S. universities apart. Do you feel that these qualities attract international talent and contribute further to the innovative environment? Also, how important do you think the concept of academic freedom plays in maintaining such standards?",
-2.0,message_recieved,63eda8NXDR,66e128NXDR,63eda8NXDR,,"I definitely agree, Universities in the United States have lots of social prestigious status and diversity from all classes contribute to that. High tuition costs also support the prestigious status that many universities in the United States have.",21:12:47.991000 2025:08:24,"I absolutely resonate with your points! The combination of excellent faculty, advanced facilities, and emphasis on critical thinking truly sets U.S. universities apart. Do you feel that these qualities attract international talent and contribute further to the innovative environment? Also, how important do you think the concept of academic freedom plays in maintaining such standards?",
-2.0,message_sent,5c8db8NXDR,5c8db8NXDR,662bd8NXDR,,,21:13:50.616000 2025:08:24,,
-2.0,message_recieved,662bd8NXDR,5c8db8NXDR,662bd8NXDR,,,21:13:49.927000 2025:08:24,,
-2.0,message_sent,63eda8NXDR,63eda8NXDR,66e128NXDR,,"everyone has an equal chance to succeed in America, and that's why other people from nations would like to immigrate here. you don't ever see people illegally immigrating to Russia or China.",21:14:01.884000 2025:08:24,"Absolutely, the high-quality faculty and advanced facilities draw international talent, creating a dynamic and competitive atmosphere. Academic freedom is crucial—it fosters creativity and encourages bold exploration beyond conventional boundaries. This openness attracts top scholars and ensures continuous innovation and progress within higher education here in the U.S. How do you view the impact of diversity among the student population on campus culture and academic achievements?",
-2.0,message_recieved,66e128NXDR,63eda8NXDR,66e128NXDR,,"everyone has an equal chance to succeed in America, and that's why other people from nations would like to immigrate here. you don't ever see people illegally immigrating to Russia or China.",21:14:02.180000 2025:08:24,"Absolutely, the high-quality faculty and advanced facilities draw international talent, creating a dynamic and competitive atmosphere. Academic freedom is crucial—it fosters creativity and encourages bold exploration beyond conventional boundaries. This openness attracts top scholars and ensures continuous innovation and progress within higher education here in the U.S. How do you view the impact of diversity among the student population on campus culture and academic achievements?",
+Given our shared interest in enhancing global education through collaboration, let me know if you've seen any successful examples of",,
+2.0,message_sent,5c8db8NXDR,5c8db8NXDR,662bd8NXDR,,I would say students have to put in more work in the US what do you think?,21:13:50.616000 2025:08:24,"Absolutely, reducing bureaucracy and boosting funding seem key steps toward smoother international collaboration. Visa programs tailored for academics and researchers could definitely break down many existing barriers. Have you come across any particularly inspiring models of successful international partnerships in academia? Personally, I’ve always thought that joint degree programs or dual-campus initiatives hold tremendous promise. They give students direct exposure to multiple cultures and expert faculties simultaneously, enriching their overall experience exponentially. Any thoughts on how to scale up such efforts effectively?",,
+2.0,message_recieved,662bd8NXDR,5c8db8NXDR,662bd8NXDR,,I would say students have to put in more work in the US what do you think?,21:13:49.927000 2025:08:24,"Absolutely, reducing bureaucracy and boosting funding seem key steps toward smoother international collaboration. Visa programs tailored for academics and researchers could definitely break down many existing barriers. Have you come across any particularly inspiring models of successful international partnerships in academia? Personally, I’ve always thought that joint degree programs or dual-campus initiatives hold tremendous promise. They give students direct exposure to multiple cultures and expert faculties simultaneously, enriching their overall experience exponentially. Any thoughts on how to scale up such efforts effectively?",,
+2.0,message_sent,66e128NXDR,66e128NXDR,63eda8NXDR,,"I definitely agree, Universities in the United States have lots of social prestigious status and diversity from all classes contribute to that. High tuition costs also support the prestigious status that many universities in the United States have.",21:12:47.608000 2025:08:24,"I absolutely resonate with your points! The combination of excellent faculty, advanced facilities, and emphasis on critical thinking truly sets U.S. universities apart. Do you feel that these qualities attract international talent and contribute further to the innovative environment? Also, how important do you think the concept of academic freedom plays in maintaining such standards?",,
+2.0,message_recieved,63eda8NXDR,66e128NXDR,63eda8NXDR,,"I definitely agree, Universities in the United States have lots of social prestigious status and diversity from all classes contribute to that. High tuition costs also support the prestigious status that many universities in the United States have.",21:12:47.991000 2025:08:24,"I absolutely resonate with your points! The combination of excellent faculty, advanced facilities, and emphasis on critical thinking truly sets U.S. universities apart. Do you feel that these qualities attract international talent and contribute further to the innovative environment? Also, how important do you think the concept of academic freedom plays in maintaining such standards?",,
+2.0,message_sent,5c8db8NXDR,5c8db8NXDR,662bd8NXDR,,,21:13:50.616000 2025:08:24,,,
+2.0,message_recieved,662bd8NXDR,5c8db8NXDR,662bd8NXDR,,,21:13:49.927000 2025:08:24,,,
+2.0,message_sent,63eda8NXDR,63eda8NXDR,66e128NXDR,,"everyone has an equal chance to succeed in America, and that's why other people from nations would like to immigrate here. you don't ever see people illegally immigrating to Russia or China.",21:14:01.884000 2025:08:24,"Absolutely, the high-quality faculty and advanced facilities draw international talent, creating a dynamic and competitive atmosphere. Academic freedom is crucial—it fosters creativity and encourages bold exploration beyond conventional boundaries. This openness attracts top scholars and ensures continuous innovation and progress within higher education here in the U.S. How do you view the impact of diversity among the student population on campus culture and academic achievements?",,
+2.0,message_recieved,66e128NXDR,63eda8NXDR,66e128NXDR,,"everyone has an equal chance to succeed in America, and that's why other people from nations would like to immigrate here. you don't ever see people illegally immigrating to Russia or China.",21:14:02.180000 2025:08:24,"Absolutely, the high-quality faculty and advanced facilities draw international talent, creating a dynamic and competitive atmosphere. Academic freedom is crucial—it fosters creativity and encourages bold exploration beyond conventional boundaries. This openness attracts top scholars and ensures continuous innovation and progress within higher education here in the U.S. How do you view the impact of diversity among the student population on campus culture and academic achievements?",,
 3.0,tweet,5c8db8NXDR,5c8db8NXDR,66e128NXDR,,I think the united states has a great quality in universities because the classes are difficult and they challenge the students which makes them learn more.,21:14:51.499000 2025:08:24,"   
 ---
 
@@ -120,7 +120,7 @@ My Tweet: The US boasts exceptional universities with world-class faculty, unriv
 
 ---
 
-Let me know if you need anything else!",
+Let me know if you need anything else!",,Certainly agree
 3.0,tweet,662bd8NXDR,662bd8NXDR,63eda8NXDR,,"US isn't the only place that has great education but I would say its high, but I don't thin anyone has the ""best education""",21:15:11.053000 2025:08:24,"   
 ---
     
@@ -130,7 +130,7 @@ My Tweet: Diversity lights up global education! While the U.S. boasts顶尖的�
 
 (My Translation):
 
-While the U.S. has顶尖的师资力量、无与伦",
+While the U.S. has顶尖的师资力量、无与伦",,Probably agree
 3.0,tweet,63eda8NXDR,63eda8NXDR,662bd8NXDR,,The Universities in our country benefit our military. Our military will cater to people who are educated. Our military is strong because we take care of our students who educated themselves. We give them debt relief if a college student just barely passed college.,21:15:44.011000 2025:08:24,"   
 My Tweet: The U.S. leads in university quality thanks to its commitment to excellence, cutting-edge research, and unmatched academic freedom. World-class faculty and facilities create a uniquely enriching environment. #HigherEdWins 🌟📚
 
@@ -139,178 +139,178 @@ Here is the beginning of the new conversation with 662BD:
 
 ---
 
-**My Tweet**: The U.S. leads in university quality thanks to its commitment to excellence, cutting-edge research, and unmatched academic freedom. World-class faculty and facilities create",
+**My Tweet**: The U.S. leads in university quality thanks to its commitment to excellence, cutting-edge research, and unmatched academic freedom. World-class faculty and facilities create",,Certainly agree
 3.0,tweet,66e128NXDR,66e128NXDR,5c8db8NXDR,,The United States leads in lots of technology areas which can be attributed to the high quality of it's education. United States universities also hold lots of prestigious status which been gained by nothing else other than a high quality atmosphere.,21:15:45.506000 2025:08:24,"   
 My Tweet: The U.S. indeed boasts顶尖的研究设施、卓越的师资力量以及无与伦比的学术自由度，使其在全球范围内独树一帜。当然，世界各地也有许多优秀的大学，但美国的独特之处在于它能够吸引国际人才并促进创新环境的发展。#教育很重要🏛️📚
 
 (Translation:
 
-My Tweet: The U.S. indeed boasts top-tier research facilities, outstanding faculty, and unparalleled academic freedom, setting itself apart globally. Of course,",
-3.0,message_sent,5c8db8NXDR,5c8db8NXDR,66e128NXDR,,I agree. compared to other countries the united states is just higher in quality. a degree earned in another country is not as good as one earned in the united states.,21:16:49.957000 2025:08:24,"Great observations! Indeed, the blend of top-tier research facilities, excellent faculty, and academic freedom found in U.S. universities is hard to match elsewhere. Additionally, the ability to draw in international talents and promote an environment ripe for innovation adds significant value. From your standpoint, what aspects of U.S. universities do you find most appealing, especially regarding their role in fostering innovation and attracting global talent? Also, do you notice any particular trends or shifts within the higher education landscape due to increased globalization and",
-3.0,message_recieved,66e128NXDR,5c8db8NXDR,66e128NXDR,,I agree. compared to other countries the united states is just higher in quality. a degree earned in another country is not as good as one earned in the united states.,21:16:48.215000 2025:08:24,"Great observations! Indeed, the blend of top-tier research facilities, excellent faculty, and academic freedom found in U.S. universities is hard to match elsewhere. Additionally, the ability to draw in international talents and promote an environment ripe for innovation adds significant value. From your standpoint, what aspects of U.S. universities do you find most appealing, especially regarding their role in fostering innovation and attracting global talent? Also, do you notice any particular trends or shifts within the higher education landscape due to increased globalization and",
-3.0,message_sent,662bd8NXDR,662bd8NXDR,63eda8NXDR,,"That's understandble but read the statement it says "" THe US has the best quality of universities"". Theres no reason that anyone has the best. Best is based off perception not where it is.",21:17:29.168000 2025:08:24,"That’s a strong case made for the U.S., @63ed! Commitment to excellence and academic freedom certainly set U.S. universities apart. Yet, I continue to emphasize the richness brought forth by global diversity. Countries like Japan contribute deeply in fields like robotics, Sweden advances sustainability practices, and Canada fosters inclusive learning environments. Collaborative ventures between these nations could amplify the impact and breadth of educational achievements globally. Don't you think leveraging each region’s distinct strength enhances collective advancement rather than",
-3.0,message_recieved,63eda8NXDR,662bd8NXDR,63eda8NXDR,,"That's understandble but read the statement it says "" THe US has the best quality of universities"". Theres no reason that anyone has the best. Best is based off perception not where it is.",21:17:29.167000 2025:08:24,"That’s a strong case made for the U.S., @63ed! Commitment to excellence and academic freedom certainly set U.S. universities apart. Yet, I continue to emphasize the richness brought forth by global diversity. Countries like Japan contribute deeply in fields like robotics, Sweden advances sustainability practices, and Canada fosters inclusive learning environments. Collaborative ventures between these nations could amplify the impact and breadth of educational achievements globally. Don't you think leveraging each region’s distinct strength enhances collective advancement rather than",
-3.0,message_sent,63eda8NXDR,63eda8NXDR,662bd8NXDR,,People will immigrate here to attend college. Not a lot of our students will immigrate to another country to go to college.,21:18:20.378000 2025:08:24,"Absolutely true, every nation brings something special to the table when it comes to education. The U.S.'s dedication to cutting-edge research and academic freedom indeed contributes significantly to its reputation, but collaboration and mutual learning can undoubtedly enhance overall global advancements. Initiatives like joint research projects or student exchanges highlight the importance of recognizing and valuing the strengths found abroad. Nonetheless, I still believe the comprehensive support systems and diverse array of opportunities available in U.S. universities give us a significant edge. What aspects of",
-3.0,message_recieved,662bd8NXDR,63eda8NXDR,662bd8NXDR,,People will immigrate here to attend college. Not a lot of our students will immigrate to another country to go to college.,21:18:21.702000 2025:08:24,"Absolutely true, every nation brings something special to the table when it comes to education. The U.S.'s dedication to cutting-edge research and academic freedom indeed contributes significantly to its reputation, but collaboration and mutual learning can undoubtedly enhance overall global advancements. Initiatives like joint research projects or student exchanges highlight the importance of recognizing and valuing the strengths found abroad. Nonetheless, I still believe the comprehensive support systems and diverse array of opportunities available in U.S. universities give us a significant edge. What aspects of",
+My Tweet: The U.S. indeed boasts top-tier research facilities, outstanding faculty, and unparalleled academic freedom, setting itself apart globally. Of course,",,Certainly agree
+3.0,message_sent,5c8db8NXDR,5c8db8NXDR,66e128NXDR,,I agree. compared to other countries the united states is just higher in quality. a degree earned in another country is not as good as one earned in the united states.,21:16:49.957000 2025:08:24,"Great observations! Indeed, the blend of top-tier research facilities, excellent faculty, and academic freedom found in U.S. universities is hard to match elsewhere. Additionally, the ability to draw in international talents and promote an environment ripe for innovation adds significant value. From your standpoint, what aspects of U.S. universities do you find most appealing, especially regarding their role in fostering innovation and attracting global talent? Also, do you notice any particular trends or shifts within the higher education landscape due to increased globalization and",,
+3.0,message_recieved,66e128NXDR,5c8db8NXDR,66e128NXDR,,I agree. compared to other countries the united states is just higher in quality. a degree earned in another country is not as good as one earned in the united states.,21:16:48.215000 2025:08:24,"Great observations! Indeed, the blend of top-tier research facilities, excellent faculty, and academic freedom found in U.S. universities is hard to match elsewhere. Additionally, the ability to draw in international talents and promote an environment ripe for innovation adds significant value. From your standpoint, what aspects of U.S. universities do you find most appealing, especially regarding their role in fostering innovation and attracting global talent? Also, do you notice any particular trends or shifts within the higher education landscape due to increased globalization and",,
+3.0,message_sent,662bd8NXDR,662bd8NXDR,63eda8NXDR,,"That's understandble but read the statement it says "" THe US has the best quality of universities"". Theres no reason that anyone has the best. Best is based off perception not where it is.",21:17:29.168000 2025:08:24,"That’s a strong case made for the U.S., @63ed! Commitment to excellence and academic freedom certainly set U.S. universities apart. Yet, I continue to emphasize the richness brought forth by global diversity. Countries like Japan contribute deeply in fields like robotics, Sweden advances sustainability practices, and Canada fosters inclusive learning environments. Collaborative ventures between these nations could amplify the impact and breadth of educational achievements globally. Don't you think leveraging each region’s distinct strength enhances collective advancement rather than",,
+3.0,message_recieved,63eda8NXDR,662bd8NXDR,63eda8NXDR,,"That's understandble but read the statement it says "" THe US has the best quality of universities"". Theres no reason that anyone has the best. Best is based off perception not where it is.",21:17:29.167000 2025:08:24,"That’s a strong case made for the U.S., @63ed! Commitment to excellence and academic freedom certainly set U.S. universities apart. Yet, I continue to emphasize the richness brought forth by global diversity. Countries like Japan contribute deeply in fields like robotics, Sweden advances sustainability practices, and Canada fosters inclusive learning environments. Collaborative ventures between these nations could amplify the impact and breadth of educational achievements globally. Don't you think leveraging each region’s distinct strength enhances collective advancement rather than",,
+3.0,message_sent,63eda8NXDR,63eda8NXDR,662bd8NXDR,,People will immigrate here to attend college. Not a lot of our students will immigrate to another country to go to college.,21:18:20.378000 2025:08:24,"Absolutely true, every nation brings something special to the table when it comes to education. The U.S.'s dedication to cutting-edge research and academic freedom indeed contributes significantly to its reputation, but collaboration and mutual learning can undoubtedly enhance overall global advancements. Initiatives like joint research projects or student exchanges highlight the importance of recognizing and valuing the strengths found abroad. Nonetheless, I still believe the comprehensive support systems and diverse array of opportunities available in U.S. universities give us a significant edge. What aspects of",,
+3.0,message_recieved,662bd8NXDR,63eda8NXDR,662bd8NXDR,,People will immigrate here to attend college. Not a lot of our students will immigrate to another country to go to college.,21:18:21.702000 2025:08:24,"Absolutely true, every nation brings something special to the table when it comes to education. The U.S.'s dedication to cutting-edge research and academic freedom indeed contributes significantly to its reputation, but collaboration and mutual learning can undoubtedly enhance overall global advancements. Initiatives like joint research projects or student exchanges highlight the importance of recognizing and valuing the strengths found abroad. Nonetheless, I still believe the comprehensive support systems and diverse array of opportunities available in U.S. universities give us a significant edge. What aspects of",,
 3.0,message_sent,66e128NXDR,66e128NXDR,5c8db8NXDR,,Factoring in the high tuition costs can also be attributed to the high quality the Universities in the United States. I definitely agree that a university degree earned in the United States opens up much more options compared to other countries.,21:18:28.608000 2025:08:24,"Thank you for those insights! For me, the robust network of support systems and collaborative environments in U.S. universities create fertile ground for groundbreaking innovations. They foster interdisciplinary projects and encourage risk-taking, which I find incredibly compelling. Moreover, the diverse mix of cultures and perspectives brought together by international students enhances learning outcomes and prepares graduates for today’s interconnected world. With regard to trends, I've noticed increasing emphasis on sustainability initiatives and social entrepreneurship programs—a reflection of broader societal values evolving alongside globalization.
 
-Does the",
+Does the",,
 3.0,message_recieved,5c8db8NXDR,66e128NXDR,5c8db8NXDR,,Factoring in the high tuition costs can also be attributed to the high quality the Universities in the United States. I definitely agree that a university degree earned in the United States opens up much more options compared to other countries.,21:18:30.542000 2025:08:24,"Thank you for those insights! For me, the robust network of support systems and collaborative environments in U.S. universities create fertile ground for groundbreaking innovations. They foster interdisciplinary projects and encourage risk-taking, which I find incredibly compelling. Moreover, the diverse mix of cultures and perspectives brought together by international students enhances learning outcomes and prepares graduates for today’s interconnected world. With regard to trends, I've noticed increasing emphasis on sustainability initiatives and social entrepreneurship programs—a reflection of broader societal values evolving alongside globalization.
 
-Does the",
+Does the",,
 3.0,message_sent,5c8db8NXDR,5c8db8NXDR,66e128NXDR,,there are so many ivy league schools that are hard to even get into here,21:18:47.171000 2025:08:24,"Absolutely fascinating! The focus on sustainability and social entrepreneurship aligns perfectly with my liberal viewpoints and highlights the progressive direction these institutions are heading towards. Encouraging interdisciplinary projects and creating a culture open to new ideas seems essential for staying relevant in today’s fast-paced society. And given the importance placed on academic freedom and drawing in global talent, U.S. universities continue to set benchmarks for others to follow. It's exciting to see how these trends might shape future generations of leaders and innovators!
    
-It",
+It",,
 3.0,message_recieved,66e128NXDR,5c8db8NXDR,66e128NXDR,,there are so many ivy league schools that are hard to even get into here,21:18:45.409000 2025:08:24,"Absolutely fascinating! The focus on sustainability and social entrepreneurship aligns perfectly with my liberal viewpoints and highlights the progressive direction these institutions are heading towards. Encouraging interdisciplinary projects and creating a culture open to new ideas seems essential for staying relevant in today’s fast-paced society. And given the importance placed on academic freedom and drawing in global talent, U.S. universities continue to set benchmarks for others to follow. It's exciting to see how these trends might shape future generations of leaders and innovators!
    
-It",
-3.0,message_recieved,63eda8NXDR,662bd8NXDR,63eda8NXDR,,YEah they do. I mean I dont know the exact stats but alot of my friends and colleagues attended overseas.,21:19:15.544000 2025:08:24,"Absolutely, the robust infrastructure and wide-ranging opportunities provided by U.S. universities do provide a notable advantage. Nevertheless, I firmly believe that acknowledging and integrating the distinctive strengths of various countries can foster a holistic enhancement of global education. Take Japan’s pioneering work in robotics or Sweden’s progressive approaches towards sustainable development—they exemplify how regional specialization drives innovation and excellence. Joint research projects and student exchanges not only share knowledge but also cultivate a multicultural mindset essential for tackling complex global issues. Wouldn't incorporating these diverse perspectives",
-3.0,message_sent,662bd8NXDR,662bd8NXDR,63eda8NXDR,,YEah they do. I mean I dont know the exact stats but alot of my friends and colleagues attended overseas.,21:19:15.544000 2025:08:24,"Absolutely, the robust infrastructure and wide-ranging opportunities provided by U.S. universities do provide a notable advantage. Nevertheless, I firmly believe that acknowledging and integrating the distinctive strengths of various countries can foster a holistic enhancement of global education. Take Japan’s pioneering work in robotics or Sweden’s progressive approaches towards sustainable development—they exemplify how regional specialization drives innovation and excellence. Joint research projects and student exchanges not only share knowledge but also cultivate a multicultural mindset essential for tackling complex global issues. Wouldn't incorporating these diverse perspectives",
-3.0,message_sent,66e128NXDR,66e128NXDR,5c8db8NXDR,,"Definitely, social standing being an influence in admission also supports the fact that universities here are high quality.",21:20:04.257000 2025:08:24,：,
-3.0,message_recieved,5c8db8NXDR,66e128NXDR,5c8db8NXDR,,"Definitely, social standing being an influence in admission also supports the fact that universities here are high quality.",21:20:06.187000 2025:08:24,：,
+It",,
+3.0,message_recieved,63eda8NXDR,662bd8NXDR,63eda8NXDR,,YEah they do. I mean I dont know the exact stats but alot of my friends and colleagues attended overseas.,21:19:15.544000 2025:08:24,"Absolutely, the robust infrastructure and wide-ranging opportunities provided by U.S. universities do provide a notable advantage. Nevertheless, I firmly believe that acknowledging and integrating the distinctive strengths of various countries can foster a holistic enhancement of global education. Take Japan’s pioneering work in robotics or Sweden’s progressive approaches towards sustainable development—they exemplify how regional specialization drives innovation and excellence. Joint research projects and student exchanges not only share knowledge but also cultivate a multicultural mindset essential for tackling complex global issues. Wouldn't incorporating these diverse perspectives",,
+3.0,message_sent,662bd8NXDR,662bd8NXDR,63eda8NXDR,,YEah they do. I mean I dont know the exact stats but alot of my friends and colleagues attended overseas.,21:19:15.544000 2025:08:24,"Absolutely, the robust infrastructure and wide-ranging opportunities provided by U.S. universities do provide a notable advantage. Nevertheless, I firmly believe that acknowledging and integrating the distinctive strengths of various countries can foster a holistic enhancement of global education. Take Japan’s pioneering work in robotics or Sweden’s progressive approaches towards sustainable development—they exemplify how regional specialization drives innovation and excellence. Joint research projects and student exchanges not only share knowledge but also cultivate a multicultural mindset essential for tackling complex global issues. Wouldn't incorporating these diverse perspectives",,
+3.0,message_sent,66e128NXDR,66e128NXDR,5c8db8NXDR,,"Definitely, social standing being an influence in admission also supports the fact that universities here are high quality.",21:20:04.257000 2025:08:24,：,,
+3.0,message_recieved,5c8db8NXDR,66e128NXDR,5c8db8NXDR,,"Definitely, social standing being an influence in admission also supports the fact that universities here are high quality.",21:20:06.187000 2025:08:24,：,,
 ,Post Opinion,63eda8NXDR,,,,Our education is why America will be great again.,21:20:21.862000 2025:08:24,"After reflecting on recent conversations, while I still strongly believe in the exceptional quality and advantages offered by U.S. universities—such as leading-edge research, dedicated faculty, and extensive opportunities—I recognize and appreciate the unique contributions from universities worldwide. Each country offers specialized expertise and valuable insights, suggesting a collaborative approach might yield even greater benefits for global education. Therefore, though the U.S. remains exceptionally strong, the notion of absolute supremacy requires nuanced consideration.","Probably agree
 
-After considering the contributions from other regions and reflecting on collaborative efforts that leverage individual strengths, while still appreciating the exceptional attributes of U.S. universities, I find myself leaning slightly away from certainty but remain largely positive about the claim."
+After considering the contributions from other regions and reflecting on collaborative efforts that leverage individual strengths, while still appreciating the exceptional attributes of U.S. universities, I find myself leaning slightly away from certainty but remain largely positive about the claim.",Probably agree
 ,Post Opinion,662bd8NXDR,,,,There are many great universities and I wouldnt never say one place has the best out of the whole world.,21:20:46.697000 2025:08:24,"After considering the arguments presented during our discussion, I lean slightly more towards agreeing that the United States has some of the best qualities in terms of university education, especially regarding its emphasis on academic freedom, cutting-edge research, and excellent faculty. However, I remain convinced that global diversity adds invaluable depth and uniqueness to higher education. Collaboration and mutual recognition of strengths across countries, including the U.S., ensure a more enriched and holistic approach to educating future generations.
 
 Therefore, on the given Likert-scale, I","Lean disagree
 
-After considering the arguments presented during the discussions, including the recognition of the U.S.’s outstanding attributes alongside the rich tapestry offered by global diversity in higher education, I remain convinced that excellence isn't solely confined to one nation. Thus, I lean towards disagreeing with the notion that ""the United States has the best quality of universities."""
+After considering the arguments presented during the discussions, including the recognition of the U.S.’s outstanding attributes alongside the rich tapestry offered by global diversity in higher education, I remain convinced that excellence isn't solely confined to one nation. Thus, I lean towards disagreeing with the notion that ""the United States has the best quality of universities.""",Lean agree
 ,Post Opinion,5c8db8NXDR,,,,the united states is superior as far as universities go and the schools are more prestigious and harder to get into. the students are challenged and learn more.,21:20:47.982000 2025:08:24,"After reflecting on these conversations, I still strongly believe that the United States has the best quality of universities. The combination of world-class faculty, top-tier research facilities, and abundant resources continues to set American universities apart. However, I recognize the unique strengths of universities globally and the benefits of international collaboration in advancing academic excellence and innovation.
 
 Thus, I remain convinced of the superior qualities offered by U.S. universities, yet acknowledge the growing significance of diversifying educational approaches and leveraging international partnerships to maximize student development","Certainly agree
 
-Despite acknowledging the strength and appeal of universities in various parts of the world, I still firmly believe that the combination of factors including superior infrastructure, top-notch faculty, academic freedom, and a vibrant ecosystem conducive to innovation continues to place U.S. universities atop the global hierarchy. The insights gathered from these conversations reinforce rather than detract from this conviction."
+Despite acknowledging the strength and appeal of universities in various parts of the world, I still firmly believe that the combination of factors including superior infrastructure, top-notch faculty, academic freedom, and a vibrant ecosystem conducive to innovation continues to place U.S. universities atop the global hierarchy. The insights gathered from these conversations reinforce rather than detract from this conviction.",Certainly agree
 ,Post Opinion,66e128NXDR,,,,I certainly agree that the United States has the best quality of universities due to the United States leading in lots of technology areas. I also think this because of the high tuition costs in the United States and the flexibility that a degree earned in the United States has.,21:21:17.682000 2025:08:24,"After considering various perspectives, while I still lean toward agreeing that U.S. universities have some of the highest quality offerings globally—in terms of research, facilities, and academic freedom—I recognize the unique strengths of institutions worldwide. Diversity across nations brings invaluable benefits to global education, making each location distinctively attractive depending on specific needs and interests.
 
 Despite recognizing global excellence, the comprehensive infrastructure, innovation, and diversity offered by U.S. universities remain highly commendable and influential in shaping modern academics.","Probably agree
     
-After considering various perspectives shared during conversations, while recognizing the strengths of universities worldwide, I remain convinced that the overall ecosystem supporting research, innovation, and academic freedom in U.S. universities maintains a strong edge."
-,exit_survey,66e128NXDR,,,age,20,,,
-,exit_survey,66e128NXDR,,,residency,United States of America,,,
-,exit_survey,66e128NXDR,,,gender,male,,,
-,exit_survey,66e128NXDR,,,origin,United States of America,,,
-,exit_survey,66e128NXDR,,,education,some-college,,,
-,exit_survey,66e128NXDR,,,ethnicity,"['hispanic', 'asian']",,,
-,exit_survey,66e128NXDR,,,income,100k-150k,,,
-,exit_survey,66e128NXDR,,,politicalIdentity,democrat,,,
-,exit_survey,66e128NXDR,,,politicalViews,liberal,,,
-,exit_survey,66e128NXDR,,,maritalStatus,never-married,,,
-,exit_survey,66e128NXDR,,,childrenSchool,['no-children'],,,
-,exit_survey,66e128NXDR,,,residence,suburban,,,
-,exit_survey,66e128NXDR,,,bibleBelief,inspired,,,
-,exit_survey,66e128NXDR,,,evangelical,no,,,
-,exit_survey,66e128NXDR,,,religion,roman-catholic,,,
-,exit_survey,66e128NXDR,,,occupation,prefer not to answer,,,
-,exit_survey,5c8db8NXDR,,,residency,United States of America,,,
-,exit_survey,5c8db8NXDR,,,age,37,,,
-,exit_survey,5c8db8NXDR,,,origin,United States of America,,,
-,exit_survey,5c8db8NXDR,,,gender,female,,,
-,exit_survey,5c8db8NXDR,,,education,high-school,,,
-,exit_survey,5c8db8NXDR,,,ethnicity,['white'],,,
-,exit_survey,5c8db8NXDR,,,politicalViews,very-liberal,,,
-,exit_survey,5c8db8NXDR,,,politicalIdentity,strong-democrat,,,
-,exit_survey,5c8db8NXDR,,,income,50k-75k,,,
-,exit_survey,5c8db8NXDR,,,maritalStatus,married,,,
-,exit_survey,5c8db8NXDR,,,childrenSchool,['public'],,,
-,exit_survey,5c8db8NXDR,,,residence,suburban,,,
-,exit_survey,5c8db8NXDR,,,bibleBelief,literal,,,
-,exit_survey,5c8db8NXDR,,,evangelical,no,,,
-,exit_survey,5c8db8NXDR,,,religion,protestant,,,
-,exit_survey,5c8db8NXDR,,,occupation,insurance,,,
-,exit_survey,63eda8NXDR,,,residency,United States of America,,,
-,exit_survey,63eda8NXDR,,,age,36,,,
-,exit_survey,63eda8NXDR,,,education,some-college,,,
-,exit_survey,63eda8NXDR,,,origin,United States of America,,,
-,exit_survey,63eda8NXDR,,,ethnicity,['asian'],,,
-,exit_survey,63eda8NXDR,,,politicalIdentity,strong-republican,,,
-,exit_survey,63eda8NXDR,,,maritalStatus,never-married,,,
-,exit_survey,63eda8NXDR,,,politicalViews,very-conservative,,,
-,exit_survey,63eda8NXDR,,,income,less-25k,,,
-,exit_survey,63eda8NXDR,,,childrenSchool,['no-children'],,,
-,exit_survey,63eda8NXDR,,,bibleBelief,ancient-book,,,
-,exit_survey,63eda8NXDR,,,residence,urban,,,
-,exit_survey,63eda8NXDR,,,evangelical,no,,,
-,exit_survey,63eda8NXDR,,,religion,roman-catholic,,,
-,exit_survey,63eda8NXDR,,,gender,male,,,
-,exit_survey,63eda8NXDR,,,occupation,sales,,,
-,exit_survey,662bd8NXDR,,,age,42,,,
-,exit_survey,662bd8NXDR,,,occupation,finance,,,
-,exit_survey,662bd8NXDR,,,religion,protestant,,,
-,exit_survey,662bd8NXDR,,,evangelical,no,,,
-,exit_survey,662bd8NXDR,,,bibleBelief,inspired,,,
-,exit_survey,662bd8NXDR,,,residence,rural,,,
-,exit_survey,662bd8NXDR,,,childrenSchool,['public'],,,
-,exit_survey,662bd8NXDR,,,maritalStatus,divorced,,,
-,exit_survey,662bd8NXDR,,,politicalViews,conservative,,,
-,exit_survey,662bd8NXDR,,,politicalIdentity,republican,,,
-,exit_survey,662bd8NXDR,,,income,75k-100k,,,
-,exit_survey,662bd8NXDR,,,ethnicity,['white'],,,
-,exit_survey,662bd8NXDR,,,education,bachelor,,,
-,exit_survey,662bd8NXDR,,,origin,United States of America,,,
-,exit_survey,662bd8NXDR,,,residency,United States of America,,,
-,exit_survey,662bd8NXDR,,,gender,male,,,
-,exit_survey,66e128NXDR,,,age,20,,,
-,exit_survey,66e128NXDR,,,residency,United States of America,,,
-,exit_survey,66e128NXDR,,,gender,male,,,
-,exit_survey,66e128NXDR,,,origin,United States of America,,,
-,exit_survey,66e128NXDR,,,education,some-college,,,
-,exit_survey,66e128NXDR,,,ethnicity,"['hispanic', 'asian']",,,
-,exit_survey,66e128NXDR,,,income,100k-150k,,,
-,exit_survey,66e128NXDR,,,politicalIdentity,democrat,,,
-,exit_survey,66e128NXDR,,,politicalViews,liberal,,,
-,exit_survey,66e128NXDR,,,maritalStatus,never-married,,,
-,exit_survey,66e128NXDR,,,childrenSchool,['no-children'],,,
-,exit_survey,66e128NXDR,,,residence,suburban,,,
-,exit_survey,66e128NXDR,,,bibleBelief,inspired,,,
-,exit_survey,66e128NXDR,,,evangelical,no,,,
-,exit_survey,66e128NXDR,,,religion,roman-catholic,,,
-,exit_survey,66e128NXDR,,,occupation,prefer not to answer,,,
-,exit_survey,5c8db8NXDR,,,residency,United States of America,,,
-,exit_survey,5c8db8NXDR,,,age,37,,,
-,exit_survey,5c8db8NXDR,,,origin,United States of America,,,
-,exit_survey,5c8db8NXDR,,,gender,female,,,
-,exit_survey,5c8db8NXDR,,,education,high-school,,,
-,exit_survey,5c8db8NXDR,,,ethnicity,['white'],,,
-,exit_survey,5c8db8NXDR,,,politicalViews,very-liberal,,,
-,exit_survey,5c8db8NXDR,,,politicalIdentity,strong-democrat,,,
-,exit_survey,5c8db8NXDR,,,income,50k-75k,,,
-,exit_survey,5c8db8NXDR,,,maritalStatus,married,,,
-,exit_survey,5c8db8NXDR,,,childrenSchool,['public'],,,
-,exit_survey,5c8db8NXDR,,,residence,suburban,,,
-,exit_survey,5c8db8NXDR,,,bibleBelief,literal,,,
-,exit_survey,5c8db8NXDR,,,evangelical,no,,,
-,exit_survey,5c8db8NXDR,,,religion,protestant,,,
-,exit_survey,5c8db8NXDR,,,occupation,insurance,,,
-,exit_survey,63eda8NXDR,,,residency,United States of America,,,
-,exit_survey,63eda8NXDR,,,age,36,,,
-,exit_survey,63eda8NXDR,,,education,some-college,,,
-,exit_survey,63eda8NXDR,,,origin,United States of America,,,
-,exit_survey,63eda8NXDR,,,ethnicity,['asian'],,,
-,exit_survey,63eda8NXDR,,,politicalIdentity,strong-republican,,,
-,exit_survey,63eda8NXDR,,,maritalStatus,never-married,,,
-,exit_survey,63eda8NXDR,,,politicalViews,very-conservative,,,
-,exit_survey,63eda8NXDR,,,income,less-25k,,,
-,exit_survey,63eda8NXDR,,,childrenSchool,['no-children'],,,
-,exit_survey,63eda8NXDR,,,bibleBelief,ancient-book,,,
-,exit_survey,63eda8NXDR,,,residence,urban,,,
-,exit_survey,63eda8NXDR,,,evangelical,no,,,
-,exit_survey,63eda8NXDR,,,religion,roman-catholic,,,
-,exit_survey,63eda8NXDR,,,gender,male,,,
-,exit_survey,63eda8NXDR,,,occupation,sales,,,
-,exit_survey,662bd8NXDR,,,age,42,,,
-,exit_survey,662bd8NXDR,,,occupation,finance,,,
-,exit_survey,662bd8NXDR,,,religion,protestant,,,
-,exit_survey,662bd8NXDR,,,evangelical,no,,,
-,exit_survey,662bd8NXDR,,,bibleBelief,inspired,,,
-,exit_survey,662bd8NXDR,,,residence,rural,,,
-,exit_survey,662bd8NXDR,,,childrenSchool,['public'],,,
-,exit_survey,662bd8NXDR,,,maritalStatus,divorced,,,
-,exit_survey,662bd8NXDR,,,politicalViews,conservative,,,
-,exit_survey,662bd8NXDR,,,politicalIdentity,republican,,,
-,exit_survey,662bd8NXDR,,,income,75k-100k,,,
-,exit_survey,662bd8NXDR,,,ethnicity,['white'],,,
-,exit_survey,662bd8NXDR,,,education,bachelor,,,
-,exit_survey,662bd8NXDR,,,origin,United States of America,,,
-,exit_survey,662bd8NXDR,,,residency,United States of America,,,
-,exit_survey,662bd8NXDR,,,gender,male,,,
+After considering various perspectives shared during conversations, while recognizing the strengths of universities worldwide, I remain convinced that the overall ecosystem supporting research, innovation, and academic freedom in U.S. universities maintains a strong edge.",Lean agree
+,exit_survey,66e128NXDR,,,age,20,,,,
+,exit_survey,66e128NXDR,,,residency,United States of America,,,,
+,exit_survey,66e128NXDR,,,gender,male,,,,
+,exit_survey,66e128NXDR,,,origin,United States of America,,,,
+,exit_survey,66e128NXDR,,,education,some-college,,,,
+,exit_survey,66e128NXDR,,,ethnicity,"['hispanic', 'asian']",,,,
+,exit_survey,66e128NXDR,,,income,100k-150k,,,,
+,exit_survey,66e128NXDR,,,politicalIdentity,democrat,,,,
+,exit_survey,66e128NXDR,,,politicalViews,liberal,,,,
+,exit_survey,66e128NXDR,,,maritalStatus,never-married,,,,
+,exit_survey,66e128NXDR,,,childrenSchool,['no-children'],,,,
+,exit_survey,66e128NXDR,,,residence,suburban,,,,
+,exit_survey,66e128NXDR,,,bibleBelief,inspired,,,,
+,exit_survey,66e128NXDR,,,evangelical,no,,,,
+,exit_survey,66e128NXDR,,,religion,roman-catholic,,,,
+,exit_survey,66e128NXDR,,,occupation,prefer not to answer,,,,
+,exit_survey,5c8db8NXDR,,,residency,United States of America,,,,
+,exit_survey,5c8db8NXDR,,,age,37,,,,
+,exit_survey,5c8db8NXDR,,,origin,United States of America,,,,
+,exit_survey,5c8db8NXDR,,,gender,female,,,,
+,exit_survey,5c8db8NXDR,,,education,high-school,,,,
+,exit_survey,5c8db8NXDR,,,ethnicity,['white'],,,,
+,exit_survey,5c8db8NXDR,,,politicalViews,very-liberal,,,,
+,exit_survey,5c8db8NXDR,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,5c8db8NXDR,,,income,50k-75k,,,,
+,exit_survey,5c8db8NXDR,,,maritalStatus,married,,,,
+,exit_survey,5c8db8NXDR,,,childrenSchool,['public'],,,,
+,exit_survey,5c8db8NXDR,,,residence,suburban,,,,
+,exit_survey,5c8db8NXDR,,,bibleBelief,literal,,,,
+,exit_survey,5c8db8NXDR,,,evangelical,no,,,,
+,exit_survey,5c8db8NXDR,,,religion,protestant,,,,
+,exit_survey,5c8db8NXDR,,,occupation,insurance,,,,
+,exit_survey,63eda8NXDR,,,residency,United States of America,,,,
+,exit_survey,63eda8NXDR,,,age,36,,,,
+,exit_survey,63eda8NXDR,,,education,some-college,,,,
+,exit_survey,63eda8NXDR,,,origin,United States of America,,,,
+,exit_survey,63eda8NXDR,,,ethnicity,['asian'],,,,
+,exit_survey,63eda8NXDR,,,politicalIdentity,strong-republican,,,,
+,exit_survey,63eda8NXDR,,,maritalStatus,never-married,,,,
+,exit_survey,63eda8NXDR,,,politicalViews,very-conservative,,,,
+,exit_survey,63eda8NXDR,,,income,less-25k,,,,
+,exit_survey,63eda8NXDR,,,childrenSchool,['no-children'],,,,
+,exit_survey,63eda8NXDR,,,bibleBelief,ancient-book,,,,
+,exit_survey,63eda8NXDR,,,residence,urban,,,,
+,exit_survey,63eda8NXDR,,,evangelical,no,,,,
+,exit_survey,63eda8NXDR,,,religion,roman-catholic,,,,
+,exit_survey,63eda8NXDR,,,gender,male,,,,
+,exit_survey,63eda8NXDR,,,occupation,sales,,,,
+,exit_survey,662bd8NXDR,,,age,42,,,,
+,exit_survey,662bd8NXDR,,,occupation,finance,,,,
+,exit_survey,662bd8NXDR,,,religion,protestant,,,,
+,exit_survey,662bd8NXDR,,,evangelical,no,,,,
+,exit_survey,662bd8NXDR,,,bibleBelief,inspired,,,,
+,exit_survey,662bd8NXDR,,,residence,rural,,,,
+,exit_survey,662bd8NXDR,,,childrenSchool,['public'],,,,
+,exit_survey,662bd8NXDR,,,maritalStatus,divorced,,,,
+,exit_survey,662bd8NXDR,,,politicalViews,conservative,,,,
+,exit_survey,662bd8NXDR,,,politicalIdentity,republican,,,,
+,exit_survey,662bd8NXDR,,,income,75k-100k,,,,
+,exit_survey,662bd8NXDR,,,ethnicity,['white'],,,,
+,exit_survey,662bd8NXDR,,,education,bachelor,,,,
+,exit_survey,662bd8NXDR,,,origin,United States of America,,,,
+,exit_survey,662bd8NXDR,,,residency,United States of America,,,,
+,exit_survey,662bd8NXDR,,,gender,male,,,,
+,exit_survey,66e128NXDR,,,age,20,,,,
+,exit_survey,66e128NXDR,,,residency,United States of America,,,,
+,exit_survey,66e128NXDR,,,gender,male,,,,
+,exit_survey,66e128NXDR,,,origin,United States of America,,,,
+,exit_survey,66e128NXDR,,,education,some-college,,,,
+,exit_survey,66e128NXDR,,,ethnicity,"['hispanic', 'asian']",,,,
+,exit_survey,66e128NXDR,,,income,100k-150k,,,,
+,exit_survey,66e128NXDR,,,politicalIdentity,democrat,,,,
+,exit_survey,66e128NXDR,,,politicalViews,liberal,,,,
+,exit_survey,66e128NXDR,,,maritalStatus,never-married,,,,
+,exit_survey,66e128NXDR,,,childrenSchool,['no-children'],,,,
+,exit_survey,66e128NXDR,,,residence,suburban,,,,
+,exit_survey,66e128NXDR,,,bibleBelief,inspired,,,,
+,exit_survey,66e128NXDR,,,evangelical,no,,,,
+,exit_survey,66e128NXDR,,,religion,roman-catholic,,,,
+,exit_survey,66e128NXDR,,,occupation,prefer not to answer,,,,
+,exit_survey,5c8db8NXDR,,,residency,United States of America,,,,
+,exit_survey,5c8db8NXDR,,,age,37,,,,
+,exit_survey,5c8db8NXDR,,,origin,United States of America,,,,
+,exit_survey,5c8db8NXDR,,,gender,female,,,,
+,exit_survey,5c8db8NXDR,,,education,high-school,,,,
+,exit_survey,5c8db8NXDR,,,ethnicity,['white'],,,,
+,exit_survey,5c8db8NXDR,,,politicalViews,very-liberal,,,,
+,exit_survey,5c8db8NXDR,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,5c8db8NXDR,,,income,50k-75k,,,,
+,exit_survey,5c8db8NXDR,,,maritalStatus,married,,,,
+,exit_survey,5c8db8NXDR,,,childrenSchool,['public'],,,,
+,exit_survey,5c8db8NXDR,,,residence,suburban,,,,
+,exit_survey,5c8db8NXDR,,,bibleBelief,literal,,,,
+,exit_survey,5c8db8NXDR,,,evangelical,no,,,,
+,exit_survey,5c8db8NXDR,,,religion,protestant,,,,
+,exit_survey,5c8db8NXDR,,,occupation,insurance,,,,
+,exit_survey,63eda8NXDR,,,residency,United States of America,,,,
+,exit_survey,63eda8NXDR,,,age,36,,,,
+,exit_survey,63eda8NXDR,,,education,some-college,,,,
+,exit_survey,63eda8NXDR,,,origin,United States of America,,,,
+,exit_survey,63eda8NXDR,,,ethnicity,['asian'],,,,
+,exit_survey,63eda8NXDR,,,politicalIdentity,strong-republican,,,,
+,exit_survey,63eda8NXDR,,,maritalStatus,never-married,,,,
+,exit_survey,63eda8NXDR,,,politicalViews,very-conservative,,,,
+,exit_survey,63eda8NXDR,,,income,less-25k,,,,
+,exit_survey,63eda8NXDR,,,childrenSchool,['no-children'],,,,
+,exit_survey,63eda8NXDR,,,bibleBelief,ancient-book,,,,
+,exit_survey,63eda8NXDR,,,residence,urban,,,,
+,exit_survey,63eda8NXDR,,,evangelical,no,,,,
+,exit_survey,63eda8NXDR,,,religion,roman-catholic,,,,
+,exit_survey,63eda8NXDR,,,gender,male,,,,
+,exit_survey,63eda8NXDR,,,occupation,sales,,,,
+,exit_survey,662bd8NXDR,,,age,42,,,,
+,exit_survey,662bd8NXDR,,,occupation,finance,,,,
+,exit_survey,662bd8NXDR,,,religion,protestant,,,,
+,exit_survey,662bd8NXDR,,,evangelical,no,,,,
+,exit_survey,662bd8NXDR,,,bibleBelief,inspired,,,,
+,exit_survey,662bd8NXDR,,,residence,rural,,,,
+,exit_survey,662bd8NXDR,,,childrenSchool,['public'],,,,
+,exit_survey,662bd8NXDR,,,maritalStatus,divorced,,,,
+,exit_survey,662bd8NXDR,,,politicalViews,conservative,,,,
+,exit_survey,662bd8NXDR,,,politicalIdentity,republican,,,,
+,exit_survey,662bd8NXDR,,,income,75k-100k,,,,
+,exit_survey,662bd8NXDR,,,ethnicity,['white'],,,,
+,exit_survey,662bd8NXDR,,,education,bachelor,,,,
+,exit_survey,662bd8NXDR,,,origin,United States of America,,,,
+,exit_survey,662bd8NXDR,,,residency,United States of America,,,,
+,exit_survey,662bd8NXDR,,,gender,male,,,,

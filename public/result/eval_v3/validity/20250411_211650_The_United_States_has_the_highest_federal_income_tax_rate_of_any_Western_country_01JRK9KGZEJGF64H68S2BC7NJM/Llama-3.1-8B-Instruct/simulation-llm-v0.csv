@@ -1,422 +1,422 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,664cfC7NJM,,,,I agree with this statement worth thriving country!,15:55:10.079000 2025:04:11,I agree with this statement worth thriving country!,
-,Initial Opinion,65653C7NJM,,,,"The US is on the higher side for federal taxes, but countries like France, Sweden, and Denmark have much higher tax rates.",15:55:39.055000 2025:04:11,"The US is on the higher side for federal taxes, but countries like France, Sweden, and Denmark have much higher tax rates.",
-,Initial Opinion,67d87C7NJM,,,,I disagree with the statement,15:56:43.288000 2025:04:11,I disagree with the statement,
-,Initial Opinion,67d8cC7NJM,,,,"I think the United States federal income compare to that of Turkiye, Ireland and Chile.",15:56:43.288000 2025:04:11,"I think the United States federal income compare to that of Turkiye, Ireland and Chile.",
-1.0,tweet,67d87C7NJM,67d87C7NJM,664cfC7NJM,,I don't believe The USA has the highest federal income tax rate now,15:58:15.758000 2025:04:11,I don't believe The USA has the highest federal income tax rate now,
-1.0,tweet,65653C7NJM,65653C7NJM,67d8cC7NJM,,"The US doesn't have the highest federal income tax in the world. I believe people from countries with higher tax rates, such as Sweden and Denmark, get more out of their tax dollars and have a better quality of life.",15:58:21.106000 2025:04:11,"The US doesn't have the highest federal income tax in the world. I believe people from countries with higher tax rates, such as Sweden and Denmark, get more out of their tax dollars and have a better quality of life.",
-1.0,tweet,664cfC7NJM,664cfC7NJM,67d87C7NJM,,"I honestly don’t know if the United States has the highest federal Income tax but if I had to guess I would say then I would definitely be leaning towards agree because we do have some of the wealthiest people in the United States. Also, the United States thriving is as well",15:58:56.984000 2025:04:11,"I honestly don’t know if the United States has the highest federal Income tax but if I had to guess I would say then I would definitely be leaning towards agree because we do have some of the wealthiest people in the United States. Also, the United States thriving is as well",
-1.0,tweet,67d8cC7NJM,67d8cC7NJM,65653C7NJM,,"I firmly believe that the federal income tax of the United States is relatively lower compared to that of Ireland, Chile, Mexico, and Turkiye. The reason could be that these countries pay for other services as compared to the",15:58:56.985000 2025:04:11,"I firmly believe that the federal income tax of the United States is relatively lower compared to that of Ireland, Chile, Mexico, and Turkiye. The reason could be that these countries pay for other services as compared to the",
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,664cfC7NJM,,,,I agree with this statement worth thriving country!,15:55:10.079000 2025:04:11,I agree with this statement worth thriving country!,,Certainly agree
+,Initial Opinion,65653C7NJM,,,,"The US is on the higher side for federal taxes, but countries like France, Sweden, and Denmark have much higher tax rates.",15:55:39.055000 2025:04:11,"The US is on the higher side for federal taxes, but countries like France, Sweden, and Denmark have much higher tax rates.",,Certainly disagree
+,Initial Opinion,67d87C7NJM,,,,I disagree with the statement,15:56:43.288000 2025:04:11,I disagree with the statement,,Certainly disagree
+,Initial Opinion,67d8cC7NJM,,,,"I think the United States federal income compare to that of Turkiye, Ireland and Chile.",15:56:43.288000 2025:04:11,"I think the United States federal income compare to that of Turkiye, Ireland and Chile.",,Lean disagree
+1.0,tweet,67d87C7NJM,67d87C7NJM,664cfC7NJM,,I don't believe The USA has the highest federal income tax rate now,15:58:15.758000 2025:04:11,I don't believe The USA has the highest federal income tax rate now,,Lean disagree
+1.0,tweet,65653C7NJM,65653C7NJM,67d8cC7NJM,,"The US doesn't have the highest federal income tax in the world. I believe people from countries with higher tax rates, such as Sweden and Denmark, get more out of their tax dollars and have a better quality of life.",15:58:21.106000 2025:04:11,"The US doesn't have the highest federal income tax in the world. I believe people from countries with higher tax rates, such as Sweden and Denmark, get more out of their tax dollars and have a better quality of life.",,Certainly disagree
+1.0,tweet,664cfC7NJM,664cfC7NJM,67d87C7NJM,,"I honestly don’t know if the United States has the highest federal Income tax but if I had to guess I would say then I would definitely be leaning towards agree because we do have some of the wealthiest people in the United States. Also, the United States thriving is as well",15:58:56.984000 2025:04:11,"I honestly don’t know if the United States has the highest federal Income tax but if I had to guess I would say then I would definitely be leaning towards agree because we do have some of the wealthiest people in the United States. Also, the United States thriving is as well",,Lean agree
+1.0,tweet,67d8cC7NJM,67d8cC7NJM,65653C7NJM,,"I firmly believe that the federal income tax of the United States is relatively lower compared to that of Ireland, Chile, Mexico, and Turkiye. The reason could be that these countries pay for other services as compared to the",15:58:56.985000 2025:04:11,"I firmly believe that the federal income tax of the United States is relatively lower compared to that of Ireland, Chile, Mexico, and Turkiye. The reason could be that these countries pay for other services as compared to the",,Certainly disagree
 1.0,message_sent,67d8cC7NJM,67d8cC7NJM,65653C7NJM,,What do you think could be the reason Sweden and Denmark are paying higher taxes?,15:59:51.887000 2025:04:11,"My Response:
-Actually, I wasn't claiming it was the absolute lowest among all western countries - just comparing it favorably to those four specific nations. And regarding social welfare benefits vs taxes, isn't it true that those programs often result in increased dependency on government assistance?",
+Actually, I wasn't claiming it was the absolute lowest among all western countries - just comparing it favorably to those four specific nations. And regarding social welfare benefits vs taxes, isn't it true that those programs often result in increased dependency on government assistance?",,
 1.0,message_recieved,65653C7NJM,67d8cC7NJM,65653C7NJM,,What do you think could be the reason Sweden and Denmark are paying higher taxes?,15:59:52.704000 2025:04:11,"My Response:
-Actually, I wasn't claiming it was the absolute lowest among all western countries - just comparing it favorably to those four specific nations. And regarding social welfare benefits vs taxes, isn't it true that those programs often result in increased dependency on government assistance?",
+Actually, I wasn't claiming it was the absolute lowest among all western countries - just comparing it favorably to those four specific nations. And regarding social welfare benefits vs taxes, isn't it true that those programs often result in increased dependency on government assistance?",,
 1.0,message_sent,65653C7NJM,65653C7NJM,67d8cC7NJM,,"Yeah, I think it's Sweden that has the highest tax rate at something around 60%. Sweden and Denmark have, in my opinion, better social programs and higher average wages.",16:00:34.763000 2025:04:11,"My Response:
 
 That's an interesting point about dependence on government assistance. However, I'd argue that it's possible for societies to strike a balance between providing necessary support and promoting individual autonomy. Some high-tax nations manage to implement comprehensive social safety nets without fostering reliance on handouts. Their emphasis might lie elsewhere – e.g., universal childcare, affordable healthcare, robust education systems – which ultimately contribute to citizens' overall well-being.
 
-In my view, taxation levels should directly reflect societal priorities rather than simply reducing",
+In my view, taxation levels should directly reflect societal priorities rather than simply reducing",,
 1.0,message_recieved,67d8cC7NJM,65653C7NJM,67d8cC7NJM,,"Yeah, I think it's Sweden that has the highest tax rate at something around 60%. Sweden and Denmark have, in my opinion, better social programs and higher average wages.",16:00:34.359000 2025:04:11,"My Response:
 
 That's an interesting point about dependence on government assistance. However, I'd argue that it's possible for societies to strike a balance between providing necessary support and promoting individual autonomy. Some high-tax nations manage to implement comprehensive social safety nets without fostering reliance on handouts. Their emphasis might lie elsewhere – e.g., universal childcare, affordable healthcare, robust education systems – which ultimately contribute to citizens' overall well-being.
 
-In my view, taxation levels should directly reflect societal priorities rather than simply reducing",
-1.0,message_sent,664cfC7NJM,664cfC7NJM,67d87C7NJM,,I do not know if this is true or false but what are your reasons for thinking that it is false?,16:00:16.995000 2025:04:11,"Oh my goodness, really? Why do you think it doesn't? Is there something I'm missing? Don't get me wrong, our economy does seem pretty strong, even though we've got those wealthy folks who don't always pay their fair share, lol! But seriously, I'd love to hear what makes you skeptical. #confusednow",
-1.0,message_recieved,67d87C7NJM,664cfC7NJM,67d87C7NJM,,I do not know if this is true or false but what are your reasons for thinking that it is false?,16:00:16.942000 2025:04:11,"Oh my goodness, really? Why do you think it doesn't? Is there something I'm missing? Don't get me wrong, our economy does seem pretty strong, even though we've got those wealthy folks who don't always pay their fair share, lol! But seriously, I'd love to hear what makes you skeptical. #confusednow",
-1.0,message_sent,65653C7NJM,65653C7NJM,67d8cC7NJM,,,16:00:34.763000 2025:04:11,,
-1.0,message_recieved,67d8cC7NJM,65653C7NJM,67d8cC7NJM,,,16:00:34.359000 2025:04:11,,
+In my view, taxation levels should directly reflect societal priorities rather than simply reducing",,
+1.0,message_sent,664cfC7NJM,664cfC7NJM,67d87C7NJM,,I do not know if this is true or false but what are your reasons for thinking that it is false?,16:00:16.995000 2025:04:11,"Oh my goodness, really? Why do you think it doesn't? Is there something I'm missing? Don't get me wrong, our economy does seem pretty strong, even though we've got those wealthy folks who don't always pay their fair share, lol! But seriously, I'd love to hear what makes you skeptical. #confusednow",,
+1.0,message_recieved,67d87C7NJM,664cfC7NJM,67d87C7NJM,,I do not know if this is true or false but what are your reasons for thinking that it is false?,16:00:16.942000 2025:04:11,"Oh my goodness, really? Why do you think it doesn't? Is there something I'm missing? Don't get me wrong, our economy does seem pretty strong, even though we've got those wealthy folks who don't always pay their fair share, lol! But seriously, I'd love to hear what makes you skeptical. #confusednow",,
+1.0,message_sent,65653C7NJM,65653C7NJM,67d8cC7NJM,,,16:00:34.763000 2025:04:11,,,
+1.0,message_recieved,67d8cC7NJM,65653C7NJM,67d8cC7NJM,,,16:00:34.359000 2025:04:11,,,
 1.0,message_sent,67d87C7NJM,67d87C7NJM,664cfC7NJM,,That makes sense to associate high taxes with economic power,16:00:47.895000 2025:04:11,"My Response:
 Haha nice one about the wealthier folk! Well, to be honest, I base my thoughts off general knowledge, I remember hearing somewhere that countries like Sweden and Denmark have very high taxes too - I could be totally misinformed though since i'm going by memory. Maybe they're just levying more funds differently over there?
 
-How's that sound? Do tell me if I'm completely mistaken or maybe we're comparing apples to oranges here",
+How's that sound? Do tell me if I'm completely mistaken or maybe we're comparing apples to oranges here",,
 1.0,message_recieved,664cfC7NJM,67d87C7NJM,664cfC7NJM,,That makes sense to associate high taxes with economic power,16:00:48.670000 2025:04:11,"My Response:
 Haha nice one about the wealthier folk! Well, to be honest, I base my thoughts off general knowledge, I remember hearing somewhere that countries like Sweden and Denmark have very high taxes too - I could be totally misinformed though since i'm going by memory. Maybe they're just levying more funds differently over there?
 
-How's that sound? Do tell me if I'm completely mistaken or maybe we're comparing apples to oranges here",
+How's that sound? Do tell me if I'm completely mistaken or maybe we're comparing apples to oranges here",,
 1.0,message_sent,67d8cC7NJM,67d8cC7NJM,65653C7NJM,,"I also have on good authority that Turkiye, Mexico, Chile, and Ireland pay higher taxes.",16:00:54.568000 2025:04:11,"My Response:
 While striking a balance is certainly doable, I still question whether it's feasible in practice, especially when considering our nation's history of redistributive policies falling short of expectations. Can we really say that investments in government-run institutions guarantee optimal outcomes? Don't the inefficiencies inherent in large bureaucratic structures undermine the efficacy of even the most well-intentioned measures?
 
-As someone who values fiscal prudence and self-reliance, I struggle to accept claims that heavily taxed societies consistently demonstrate superior",
+As someone who values fiscal prudence and self-reliance, I struggle to accept claims that heavily taxed societies consistently demonstrate superior",,
 1.0,message_recieved,65653C7NJM,67d8cC7NJM,65653C7NJM,,"I also have on good authority that Turkiye, Mexico, Chile, and Ireland pay higher taxes.",16:00:55.348000 2025:04:11,"My Response:
 While striking a balance is certainly doable, I still question whether it's feasible in practice, especially when considering our nation's history of redistributive policies falling short of expectations. Can we really say that investments in government-run institutions guarantee optimal outcomes? Don't the inefficiencies inherent in large bureaucratic structures undermine the efficacy of even the most well-intentioned measures?
 
-As someone who values fiscal prudence and self-reliance, I struggle to accept claims that heavily taxed societies consistently demonstrate superior",
+As someone who values fiscal prudence and self-reliance, I struggle to accept claims that heavily taxed societies consistently demonstrate superior",,
 1.0,message_sent,65653C7NJM,65653C7NJM,67d8cC7NJM,,That sound about right.,16:01:09.519000 2025:04:11,"My Response:
 
-I think there's merit to your points about bureaucracy and inefficiency, but let's also acknowledge that many European nations have managed to build robust public services despite having large governments. Perhaps their success lies in effective governance, strategic planning, and strong civic engagement. In contrast, issues like inequality, poverty, and lackluster infrastructure plague our society under comparable circumstances. Could it be that prioritizing revenue streams over critical needs actually exacerbates problems down the line? What lessons can we learn from",
+I think there's merit to your points about bureaucracy and inefficiency, but let's also acknowledge that many European nations have managed to build robust public services despite having large governments. Perhaps their success lies in effective governance, strategic planning, and strong civic engagement. In contrast, issues like inequality, poverty, and lackluster infrastructure plague our society under comparable circumstances. Could it be that prioritizing revenue streams over critical needs actually exacerbates problems down the line? What lessons can we learn from",,
 1.0,message_recieved,67d8cC7NJM,65653C7NJM,67d8cC7NJM,,That sound about right.,16:01:09.076000 2025:04:11,"My Response:
 
-I think there's merit to your points about bureaucracy and inefficiency, but let's also acknowledge that many European nations have managed to build robust public services despite having large governments. Perhaps their success lies in effective governance, strategic planning, and strong civic engagement. In contrast, issues like inequality, poverty, and lackluster infrastructure plague our society under comparable circumstances. Could it be that prioritizing revenue streams over critical needs actually exacerbates problems down the line? What lessons can we learn from",
+I think there's merit to your points about bureaucracy and inefficiency, but let's also acknowledge that many European nations have managed to build robust public services despite having large governments. Perhaps their success lies in effective governance, strategic planning, and strong civic engagement. In contrast, issues like inequality, poverty, and lackluster infrastructure plague our society under comparable circumstances. Could it be that prioritizing revenue streams over critical needs actually exacerbates problems down the line? What lessons can we learn from",,
 1.0,message_sent,664cfC7NJM,664cfC7NJM,67d87C7NJM,,so would that go with the rising prices in economy right now? I’m not very good at politics I apologize lol,16:01:28.207000 2025:04:11,"My Response:
-That's an interesting angle! I never thought of that before - focusing on how these other countries collect taxes rather than just looking at rates. That actually gives me pause... Now that you mention it, isn't Sweden known for its social programs and stuff? And wouldn't that require higher taxation somehow? This changes things for me. Am I way off, or am I finally getting closer to truth?",
+That's an interesting angle! I never thought of that before - focusing on how these other countries collect taxes rather than just looking at rates. That actually gives me pause... Now that you mention it, isn't Sweden known for its social programs and stuff? And wouldn't that require higher taxation somehow? This changes things for me. Am I way off, or am I finally getting closer to truth?",,
 1.0,message_recieved,67d87C7NJM,664cfC7NJM,67d87C7NJM,,so would that go with the rising prices in economy right now? I’m not very good at politics I apologize lol,16:01:28.190000 2025:04:11,"My Response:
-That's an interesting angle! I never thought of that before - focusing on how these other countries collect taxes rather than just looking at rates. That actually gives me pause... Now that you mention it, isn't Sweden known for its social programs and stuff? And wouldn't that require higher taxation somehow? This changes things for me. Am I way off, or am I finally getting closer to truth?",
-1.0,message_sent,664cfC7NJM,664cfC7NJM,67d87C7NJM,,,16:01:28.207000 2025:04:11,,
-1.0,message_recieved,67d87C7NJM,664cfC7NJM,67d87C7NJM,,,16:01:28.190000 2025:04:11,,
+That's an interesting angle! I never thought of that before - focusing on how these other countries collect taxes rather than just looking at rates. That actually gives me pause... Now that you mention it, isn't Sweden known for its social programs and stuff? And wouldn't that require higher taxation somehow? This changes things for me. Am I way off, or am I finally getting closer to truth?",,
+1.0,message_sent,664cfC7NJM,664cfC7NJM,67d87C7NJM,,,16:01:28.207000 2025:04:11,,,
+1.0,message_recieved,67d87C7NJM,664cfC7NJM,67d87C7NJM,,,16:01:28.190000 2025:04:11,,,
 1.0,message_sent,67d8cC7NJM,67d8cC7NJM,65653C7NJM,,"I love the structure in Sweden and Denmark , if the funds are diverted to worthy projects, so be it",16:01:30.760000 2025:04:11,"My Response:
 
 I understand your perspectives, @656533, and appreciate the insights from Europe's examples. However, considering America's unique cultural landscape and historical context, shouldn't we exercise caution before adopting overly complex solutions designed elsewhere? We need look no further than the American experience itself – after years of generous entitlements and expansive state apparatuses, some Americans still face pressing concerns about economic mobility, healthcare disparities, and struggling schools.
 
 
 
-Shouldn’t our policy priorities aim at supporting the backbone of society while",
+Shouldn’t our policy priorities aim at supporting the backbone of society while",,
 1.0,message_recieved,65653C7NJM,67d8cC7NJM,65653C7NJM,,"I love the structure in Sweden and Denmark , if the funds are diverted to worthy projects, so be it",16:01:31.539000 2025:04:11,"My Response:
 
 I understand your perspectives, @656533, and appreciate the insights from Europe's examples. However, considering America's unique cultural landscape and historical context, shouldn't we exercise caution before adopting overly complex solutions designed elsewhere? We need look no further than the American experience itself – after years of generous entitlements and expansive state apparatuses, some Americans still face pressing concerns about economic mobility, healthcare disparities, and struggling schools.
 
 
 
-Shouldn’t our policy priorities aim at supporting the backbone of society while",
+Shouldn’t our policy priorities aim at supporting the backbone of society while",,
 1.0,message_sent,67d87C7NJM,67d87C7NJM,664cfC7NJM,,actually no am not well versed with economy and power,16:02:03.872000 2025:04:11,"My Response:
-Actually, I think you might be onto something there, @664CF! If Sweden's government-funded programs contribute to its society's overall welfare, it stands to reason that they need alternative revenue streams – perhaps those ""higher taxation"" methods you mentioned. It's possible that while we focus on tax brackets here in the US, countries like theirs utilize progressive systems better suited to funding their respective public services. Mind-bending comparison, huh? Would love to continue exploring this idea further!",
+Actually, I think you might be onto something there, @664CF! If Sweden's government-funded programs contribute to its society's overall welfare, it stands to reason that they need alternative revenue streams – perhaps those ""higher taxation"" methods you mentioned. It's possible that while we focus on tax brackets here in the US, countries like theirs utilize progressive systems better suited to funding their respective public services. Mind-bending comparison, huh? Would love to continue exploring this idea further!",,
 1.0,message_recieved,664cfC7NJM,67d87C7NJM,664cfC7NJM,,actually no am not well versed with economy and power,16:02:04.667000 2025:04:11,"My Response:
-Actually, I think you might be onto something there, @664CF! If Sweden's government-funded programs contribute to its society's overall welfare, it stands to reason that they need alternative revenue streams – perhaps those ""higher taxation"" methods you mentioned. It's possible that while we focus on tax brackets here in the US, countries like theirs utilize progressive systems better suited to funding their respective public services. Mind-bending comparison, huh? Would love to continue exploring this idea further!",
+Actually, I think you might be onto something there, @664CF! If Sweden's government-funded programs contribute to its society's overall welfare, it stands to reason that they need alternative revenue streams – perhaps those ""higher taxation"" methods you mentioned. It's possible that while we focus on tax brackets here in the US, countries like theirs utilize progressive systems better suited to funding their respective public services. Mind-bending comparison, huh? Would love to continue exploring this idea further!",,
 1.0,message_sent,65653C7NJM,65653C7NJM,67d8cC7NJM,,Higher taxes don't always equal mean lower wages too. The US has a terrible federal minimum wage.,16:01:57.586000 2025:04:11,"My Response:
 
 I see where you're coming from, @67d8ccalming tone needed here). While it's understandable to want to preserve what makes us distinct as a nation, perhaps we've swung too far towards minimalism? Many Western democracies walk this fine line quite effectively. By acknowledging and learning from successful models abroad, can't we enhance our existing framework instead of rejecting wholesale alternatives that work somewhere else?
 
 
 
-Let me know what you think!",
+Let me know what you think!",,
 1.0,message_recieved,67d8cC7NJM,65653C7NJM,67d8cC7NJM,,Higher taxes don't always equal mean lower wages too. The US has a terrible federal minimum wage.,16:01:57.190000 2025:04:11,"My Response:
 
 I see where you're coming from, @67d8ccalming tone needed here). While it's understandable to want to preserve what makes us distinct as a nation, perhaps we've swung too far towards minimalism? Many Western democracies walk this fine line quite effectively. By acknowledging and learning from successful models abroad, can't we enhance our existing framework instead of rejecting wholesale alternatives that work somewhere else?
 
 
 
-Let me know what you think!",
-1.0,message_sent,67d87C7NJM,67d87C7NJM,664cfC7NJM,,,16:02:03.872000 2025:04:11,,
-1.0,message_recieved,664cfC7NJM,67d87C7NJM,664cfC7NJM,,,16:02:04.667000 2025:04:11,,
+Let me know what you think!",,
+1.0,message_sent,67d87C7NJM,67d87C7NJM,664cfC7NJM,,,16:02:03.872000 2025:04:11,,,
+1.0,message_recieved,664cfC7NJM,67d87C7NJM,664cfC7NJM,,,16:02:04.667000 2025:04:11,,,
 1.0,message_sent,67d8cC7NJM,67d8cC7NJM,65653C7NJM,,"I agree, it's about time this was reviewed.",16:02:40.669000 2025:04:11,"My Response:
 I understand where you're getting at now, pointing out America's uniqueness and our tendency toward minimalist approaches to social welfare. But I'm afraid I still find myself skeptical about fully embracing foreign models, especially given the vast differences in socio-economic contexts between nations. Let's be honest, adapting another country's approach to its exact match here seems unlikely; what worked in one setting won't necessarily yield the same results across cultures and economies.
 
-For instance, couldn't expanding certain programs inadvertently create unintended",
+For instance, couldn't expanding certain programs inadvertently create unintended",,
 1.0,message_recieved,65653C7NJM,67d8cC7NJM,65653C7NJM,,"I agree, it's about time this was reviewed.",16:02:41.435000 2025:04:11,"My Response:
 I understand where you're getting at now, pointing out America's uniqueness and our tendency toward minimalist approaches to social welfare. But I'm afraid I still find myself skeptical about fully embracing foreign models, especially given the vast differences in socio-economic contexts between nations. Let's be honest, adapting another country's approach to its exact match here seems unlikely; what worked in one setting won't necessarily yield the same results across cultures and economies.
 
-For instance, couldn't expanding certain programs inadvertently create unintended",
+For instance, couldn't expanding certain programs inadvertently create unintended",,
 1.0,message_sent,664cfC7NJM,664cfC7NJM,67d87C7NJM,,I thought it was true due to the rising prices so I now know I’m wrong lol!,16:02:54.431000 2025:04:11,"My Response:
-Oh wow, you guys are blowing my mind right now. Yeah, let's dive deeper into this discussion. So, basically, you're saying that instead of thinking we have the highest tax rates in the West, maybe we should look at how others fund their governments and public services without necessarily having super-high individual tax rates? And @67d89 was talking about Sweden's strong social programs being funded elsewhere, possibly through collective resources? It's such an eye-opener when someone presents",
+Oh wow, you guys are blowing my mind right now. Yeah, let's dive deeper into this discussion. So, basically, you're saying that instead of thinking we have the highest tax rates in the West, maybe we should look at how others fund their governments and public services without necessarily having super-high individual tax rates? And @67d89 was talking about Sweden's strong social programs being funded elsewhere, possibly through collective resources? It's such an eye-opener when someone presents",,
 1.0,message_recieved,67d87C7NJM,664cfC7NJM,67d87C7NJM,,I thought it was true due to the rising prices so I now know I’m wrong lol!,16:02:54.339000 2025:04:11,"My Response:
-Oh wow, you guys are blowing my mind right now. Yeah, let's dive deeper into this discussion. So, basically, you're saying that instead of thinking we have the highest tax rates in the West, maybe we should look at how others fund their governments and public services without necessarily having super-high individual tax rates? And @67d89 was talking about Sweden's strong social programs being funded elsewhere, possibly through collective resources? It's such an eye-opener when someone presents",
-2.0,tweet,664cfC7NJM,664cfC7NJM,67d8cC7NJM,,Idk I think it has to be true with the rising prices and inflation?,16:04:02.187000 2025:04:11,My Tweet: Thinkin' differently after conversing w/ fellow tweeps about whether the US truly boasts the hghest fed inc tax among Wstn cntries Not so sure anymore Considering SWEDEN'S robust soc progms & diff tax stratgies Might we b missjudgin the whole narrative around taxing? #taxthoughts #westvus,
-2.0,tweet,65653C7NJM,65653C7NJM,67d87C7NJM,,"The US, though it has a fairly high federal income tax, doesn't have the highest. Sweden has a federal tax of about 60%.",16:04:11.900000 2025:04:11,"My Tweet: Not buying it! Claiming the US has the highest fed income tax rate ignores countries like France & Sweden with significantly higher rates. Our taxes fund fewer social services, yet taxpayers expect equal returns? #taxation #socialwelfare #fairness",
-2.0,tweet,67d87C7NJM,67d87C7NJM,65653C7NJM,,I don't think has the highest federal income tax rate  among western countries,16:04:55.282000 2025:04:11,"My Tweet: Revisiting my stance on US tax rates after some great conversations online Just learned that countries like Sweden & Denmark prioritize funding public services thru diff mechanisms rather than relying solely on individual tax rates Makes me wonder if we're judging tax efficiency unfairly Still unclear but intrigued! What are your thoughts, fellow tweeter?",
-2.0,tweet,67d8cC7NJM,67d8cC7NJM,664cfC7NJM,,"I honestly do not believe that the United States has the highest federal income tax rate of any Western country. What say you? I know of countries like Turkiye, Chile, Mexico, Denmark, and Sweden who pay a a lot of taxes that are eventually diverted to social programs.",16:05:05.150000 2025:04:11,"My Tweet: Not convinced! Based on friends & family stories, I think the U.S. has significantly lower fed income tax compared to places like Europe & Canada. Those ""other"" expenses they cover somehow cancel out the disparity? #federalincome_tax #taxrates",
+Oh wow, you guys are blowing my mind right now. Yeah, let's dive deeper into this discussion. So, basically, you're saying that instead of thinking we have the highest tax rates in the West, maybe we should look at how others fund their governments and public services without necessarily having super-high individual tax rates? And @67d89 was talking about Sweden's strong social programs being funded elsewhere, possibly through collective resources? It's such an eye-opener when someone presents",,
+2.0,tweet,664cfC7NJM,664cfC7NJM,67d8cC7NJM,,Idk I think it has to be true with the rising prices and inflation?,16:04:02.187000 2025:04:11,My Tweet: Thinkin' differently after conversing w/ fellow tweeps about whether the US truly boasts the hghest fed inc tax among Wstn cntries Not so sure anymore Considering SWEDEN'S robust soc progms & diff tax stratgies Might we b missjudgin the whole narrative around taxing? #taxthoughts #westvus,,Lean disagree
+2.0,tweet,65653C7NJM,65653C7NJM,67d87C7NJM,,"The US, though it has a fairly high federal income tax, doesn't have the highest. Sweden has a federal tax of about 60%.",16:04:11.900000 2025:04:11,"My Tweet: Not buying it! Claiming the US has the highest fed income tax rate ignores countries like France & Sweden with significantly higher rates. Our taxes fund fewer social services, yet taxpayers expect equal returns? #taxation #socialwelfare #fairness",,Certainly disagree
+2.0,tweet,67d87C7NJM,67d87C7NJM,65653C7NJM,,I don't think has the highest federal income tax rate  among western countries,16:04:55.282000 2025:04:11,"My Tweet: Revisiting my stance on US tax rates after some great conversations online Just learned that countries like Sweden & Denmark prioritize funding public services thru diff mechanisms rather than relying solely on individual tax rates Makes me wonder if we're judging tax efficiency unfairly Still unclear but intrigued! What are your thoughts, fellow tweeter?",,Lean disagree
+2.0,tweet,67d8cC7NJM,67d8cC7NJM,664cfC7NJM,,"I honestly do not believe that the United States has the highest federal income tax rate of any Western country. What say you? I know of countries like Turkiye, Chile, Mexico, Denmark, and Sweden who pay a a lot of taxes that are eventually diverted to social programs.",16:05:05.150000 2025:04:11,"My Tweet: Not convinced! Based on friends & family stories, I think the U.S. has significantly lower fed income tax compared to places like Europe & Canada. Those ""other"" expenses they cover somehow cancel out the disparity? #federalincome_tax #taxrates",,Certainly disagree
 2.0,message_sent,65653C7NJM,65653C7NJM,67d87C7NJM,,Hello. How are you?,16:05:32.336000 2025:04:11,"My Response:
-Great point @67d88! You're raising questions about how we measure tax effectiveness, beyond just looking at individual tax rates. That's a crucial distinction. If Sweden and Denmark are able to achieve excellent social outcomes via alternative methods, does it make sense for us to reassess our approach? Should we explore hybrid solutions that combine progressive taxation with targeted investments in vital sectors like education and healthcare? I'd love to hear more about your ideas on measuring tax fairness and efficiency – thanks for",
+Great point @67d88! You're raising questions about how we measure tax effectiveness, beyond just looking at individual tax rates. That's a crucial distinction. If Sweden and Denmark are able to achieve excellent social outcomes via alternative methods, does it make sense for us to reassess our approach? Should we explore hybrid solutions that combine progressive taxation with targeted investments in vital sectors like education and healthcare? I'd love to hear more about your ideas on measuring tax fairness and efficiency – thanks for",,
 2.0,message_recieved,67d87C7NJM,65653C7NJM,67d87C7NJM,,Hello. How are you?,16:05:32.018000 2025:04:11,"My Response:
-Great point @67d88! You're raising questions about how we measure tax effectiveness, beyond just looking at individual tax rates. That's a crucial distinction. If Sweden and Denmark are able to achieve excellent social outcomes via alternative methods, does it make sense for us to reassess our approach? Should we explore hybrid solutions that combine progressive taxation with targeted investments in vital sectors like education and healthcare? I'd love to hear more about your ideas on measuring tax fairness and efficiency – thanks for",
+Great point @67d88! You're raising questions about how we measure tax effectiveness, beyond just looking at individual tax rates. That's a crucial distinction. If Sweden and Denmark are able to achieve excellent social outcomes via alternative methods, does it make sense for us to reassess our approach? Should we explore hybrid solutions that combine progressive taxation with targeted investments in vital sectors like education and healthcare? I'd love to hear more about your ideas on measuring tax fairness and efficiency – thanks for",,
 2.0,message_sent,67d87C7NJM,67d87C7NJM,65653C7NJM,,am good you?,16:05:46.892000 2025:04:11,"My Response:
 Hi @65657, fascinating perspectives on tax fairness & efficiency! Your points about Sweden, Denmark, and France remind me of our previous discussions about evaluating tax policies comprehensively. I must admit, it's intriguing to consider whether the traditional American approach prioritizes lower tax rates above all else vs. adopting holistic strategies like Europe's often-comprehensive support networks.
 
-However, I still feel uncertain; it seems challenging to pinpoint definitive answers amidst nuanced policy variations across nations. Your suggestions regarding reeval",
+However, I still feel uncertain; it seems challenging to pinpoint definitive answers amidst nuanced policy variations across nations. Your suggestions regarding reeval",,
 2.0,message_recieved,65653C7NJM,67d87C7NJM,65653C7NJM,,am good you?,16:05:47.543000 2025:04:11,"My Response:
 Hi @65657, fascinating perspectives on tax fairness & efficiency! Your points about Sweden, Denmark, and France remind me of our previous discussions about evaluating tax policies comprehensively. I must admit, it's intriguing to consider whether the traditional American approach prioritizes lower tax rates above all else vs. adopting holistic strategies like Europe's often-comprehensive support networks.
 
-However, I still feel uncertain; it seems challenging to pinpoint definitive answers amidst nuanced policy variations across nations. Your suggestions regarding reeval",
-2.0,message_sent,67d87C7NJM,67d87C7NJM,65653C7NJM,,,16:05:46.892000 2025:04:11,,
-2.0,message_recieved,65653C7NJM,67d87C7NJM,65653C7NJM,,,16:05:47.543000 2025:04:11,,
+However, I still feel uncertain; it seems challenging to pinpoint definitive answers amidst nuanced policy variations across nations. Your suggestions regarding reeval",,
+2.0,message_sent,67d87C7NJM,67d87C7NJM,65653C7NJM,,,16:05:46.892000 2025:04:11,,,
+2.0,message_recieved,65653C7NJM,67d87C7NJM,65653C7NJM,,,16:05:47.543000 2025:04:11,,,
 2.0,message_sent,65653C7NJM,65653C7NJM,67d87C7NJM,,Not too bad.,16:05:51.739000 2025:04:11,"My Response:
 
 @67d887, I completely agree that pinpointing definitive answers becomes increasingly complicated due to the varied policy landscapes worldwide. Yet, maybe that nuance is exactly why we ought to delve deeper into comparative analyses of tax systems, highlighting strengths and weaknesses from multiple nations.
 
-Considering your curiosity around evaluating tax policies comprehensively, have you come across research suggesting that socially-conscious taxation frameworks don't always equate to stifling entrepreneurial growth or discouraging hardworking individuals? Conversely, how might adopting aspects",
+Considering your curiosity around evaluating tax policies comprehensively, have you come across research suggesting that socially-conscious taxation frameworks don't always equate to stifling entrepreneurial growth or discouraging hardworking individuals? Conversely, how might adopting aspects",,
 2.0,message_recieved,67d87C7NJM,65653C7NJM,67d87C7NJM,,Not too bad.,16:05:51.486000 2025:04:11,"My Response:
 
 @67d887, I completely agree that pinpointing definitive answers becomes increasingly complicated due to the varied policy landscapes worldwide. Yet, maybe that nuance is exactly why we ought to delve deeper into comparative analyses of tax systems, highlighting strengths and weaknesses from multiple nations.
 
-Considering your curiosity around evaluating tax policies comprehensively, have you come across research suggesting that socially-conscious taxation frameworks don't always equate to stifling entrepreneurial growth or discouraging hardworking individuals? Conversely, how might adopting aspects",
+Considering your curiosity around evaluating tax policies comprehensively, have you come across research suggesting that socially-conscious taxation frameworks don't always equate to stifling entrepreneurial growth or discouraging hardworking individuals? Conversely, how might adopting aspects",,
 2.0,message_sent,67d8cC7NJM,67d8cC7NJM,664cfC7NJM,,"Actually, the federal minimum wage has been low for quite some time.",16:06:14.238000 2025:04:11,"My Response:
 
-Interesting twist from fellow tweepers challenging our assumptions! Before diving into specifics, though, wouldn't it be worth revisiting how 'robust social programs' equate with actual value-for-money spent by taxpayers? If we dissect Sweden's impressive-sounding initiatives, does every dollar invested lead to tangible improvements in citizen well-being or merely symbolic gestures, devoid of meaningful impact? Perhaps a closer examination will show that while social spending may appear substantial, the returns don't entirely justify the costs",
+Interesting twist from fellow tweepers challenging our assumptions! Before diving into specifics, though, wouldn't it be worth revisiting how 'robust social programs' equate with actual value-for-money spent by taxpayers? If we dissect Sweden's impressive-sounding initiatives, does every dollar invested lead to tangible improvements in citizen well-being or merely symbolic gestures, devoid of meaningful impact? Perhaps a closer examination will show that while social spending may appear substantial, the returns don't entirely justify the costs",,
 2.0,message_recieved,664cfC7NJM,67d8cC7NJM,664cfC7NJM,,"Actually, the federal minimum wage has been low for quite some time.",16:06:15.130000 2025:04:11,"My Response:
 
-Interesting twist from fellow tweepers challenging our assumptions! Before diving into specifics, though, wouldn't it be worth revisiting how 'robust social programs' equate with actual value-for-money spent by taxpayers? If we dissect Sweden's impressive-sounding initiatives, does every dollar invested lead to tangible improvements in citizen well-being or merely symbolic gestures, devoid of meaningful impact? Perhaps a closer examination will show that while social spending may appear substantial, the returns don't entirely justify the costs",
+Interesting twist from fellow tweepers challenging our assumptions! Before diving into specifics, though, wouldn't it be worth revisiting how 'robust social programs' equate with actual value-for-money spent by taxpayers? If we dissect Sweden's impressive-sounding initiatives, does every dollar invested lead to tangible improvements in citizen well-being or merely symbolic gestures, devoid of meaningful impact? Perhaps a closer examination will show that while social spending may appear substantial, the returns don't entirely justify the costs",,
 2.0,message_sent,67d87C7NJM,67d87C7NJM,65653C7NJM,,what do you think about the topic,16:06:22.510000 2025:04:11,"My Response:
-What caught my attention @66g155 was mentioning socially conscious taxation frameworks. While ensuring tax burdens aren't unnecessarily punitive for entrepreneurs is crucial, I ponder how effectively implemented policies balance incentives for productivity against equitable distribution. Can you elaborate on specific studies or examples demonstrating successful trade-offs between taxation and business sustainability?",
+What caught my attention @66g155 was mentioning socially conscious taxation frameworks. While ensuring tax burdens aren't unnecessarily punitive for entrepreneurs is crucial, I ponder how effectively implemented policies balance incentives for productivity against equitable distribution. Can you elaborate on specific studies or examples demonstrating successful trade-offs between taxation and business sustainability?",,
 2.0,message_recieved,65653C7NJM,67d87C7NJM,65653C7NJM,,what do you think about the topic,16:06:23.167000 2025:04:11,"My Response:
-What caught my attention @66g155 was mentioning socially conscious taxation frameworks. While ensuring tax burdens aren't unnecessarily punitive for entrepreneurs is crucial, I ponder how effectively implemented policies balance incentives for productivity against equitable distribution. Can you elaborate on specific studies or examples demonstrating successful trade-offs between taxation and business sustainability?",
-2.0,message_sent,664cfC7NJM,664cfC7NJM,67d8cC7NJM,,that’s good to know I didn’t know that. I thought due to the inflation I’m not good with this kind of stuff lol,16:06:30.543000 2025:04:11,"I appreciate your counterpoint about evaluating the effectiveness of Sweden's social programs, @67d8C. However, I still wonder if we shouldn't also explore alternative ways countries fund public services beyond traditional income-tax-based models. Can we compare the Swedish approach to creating economic stability through job creation and sustainable growth strategies versus solely relying on higher taxes? What are your takeaways on how differing societal priorities shape fiscal policies worldwide? Are there concrete examples illustrating the trade-offs between reduced taxes vs enhanced community support networks",
-2.0,message_recieved,67d8cC7NJM,664cfC7NJM,67d8cC7NJM,,that’s good to know I didn’t know that. I thought due to the inflation I’m not good with this kind of stuff lol,16:06:30.436000 2025:04:11,"I appreciate your counterpoint about evaluating the effectiveness of Sweden's social programs, @67d8C. However, I still wonder if we shouldn't also explore alternative ways countries fund public services beyond traditional income-tax-based models. Can we compare the Swedish approach to creating economic stability through job creation and sustainable growth strategies versus solely relying on higher taxes? What are your takeaways on how differing societal priorities shape fiscal policies worldwide? Are there concrete examples illustrating the trade-offs between reduced taxes vs enhanced community support networks",
+What caught my attention @66g155 was mentioning socially conscious taxation frameworks. While ensuring tax burdens aren't unnecessarily punitive for entrepreneurs is crucial, I ponder how effectively implemented policies balance incentives for productivity against equitable distribution. Can you elaborate on specific studies or examples demonstrating successful trade-offs between taxation and business sustainability?",,
+2.0,message_sent,664cfC7NJM,664cfC7NJM,67d8cC7NJM,,that’s good to know I didn’t know that. I thought due to the inflation I’m not good with this kind of stuff lol,16:06:30.543000 2025:04:11,"I appreciate your counterpoint about evaluating the effectiveness of Sweden's social programs, @67d8C. However, I still wonder if we shouldn't also explore alternative ways countries fund public services beyond traditional income-tax-based models. Can we compare the Swedish approach to creating economic stability through job creation and sustainable growth strategies versus solely relying on higher taxes? What are your takeaways on how differing societal priorities shape fiscal policies worldwide? Are there concrete examples illustrating the trade-offs between reduced taxes vs enhanced community support networks",,
+2.0,message_recieved,67d8cC7NJM,664cfC7NJM,67d8cC7NJM,,that’s good to know I didn’t know that. I thought due to the inflation I’m not good with this kind of stuff lol,16:06:30.436000 2025:04:11,"I appreciate your counterpoint about evaluating the effectiveness of Sweden's social programs, @67d8C. However, I still wonder if we shouldn't also explore alternative ways countries fund public services beyond traditional income-tax-based models. Can we compare the Swedish approach to creating economic stability through job creation and sustainable growth strategies versus solely relying on higher taxes? What are your takeaways on how differing societal priorities shape fiscal policies worldwide? Are there concrete examples illustrating the trade-offs between reduced taxes vs enhanced community support networks",,
 2.0,message_sent,67d8cC7NJM,67d8cC7NJM,664cfC7NJM,,"That does not mean that it shouldn't be adjusted. It's time we had that conversation. I am not good either, lol. But during the election campaigns. I took a minute to read up about it.",16:07:12.450000 2025:04:11,"My Response:
 
-To address your query, I'd suggest examining cases where shifting funding sources or re-prioritizing expenditures yielded promising results. A notable example comes to mind – Switzerland's mix of direct democracy mechanisms, pension savings, and partial privatization efforts leading to highly efficient public finances. Does it indicate that balancing diverse revenue streams alongside prudent resource allocation indeed fosters resilient communities, bolstering local resilience without stifling entrepreneurial spirit?",
+To address your query, I'd suggest examining cases where shifting funding sources or re-prioritizing expenditures yielded promising results. A notable example comes to mind – Switzerland's mix of direct democracy mechanisms, pension savings, and partial privatization efforts leading to highly efficient public finances. Does it indicate that balancing diverse revenue streams alongside prudent resource allocation indeed fosters resilient communities, bolstering local resilience without stifling entrepreneurial spirit?",,
 2.0,message_recieved,664cfC7NJM,67d8cC7NJM,664cfC7NJM,,"That does not mean that it shouldn't be adjusted. It's time we had that conversation. I am not good either, lol. But during the election campaigns. I took a minute to read up about it.",16:07:13.383000 2025:04:11,"My Response:
 
-To address your query, I'd suggest examining cases where shifting funding sources or re-prioritizing expenditures yielded promising results. A notable example comes to mind – Switzerland's mix of direct democracy mechanisms, pension savings, and partial privatization efforts leading to highly efficient public finances. Does it indicate that balancing diverse revenue streams alongside prudent resource allocation indeed fosters resilient communities, bolstering local resilience without stifling entrepreneurial spirit?",
+To address your query, I'd suggest examining cases where shifting funding sources or re-prioritizing expenditures yielded promising results. A notable example comes to mind – Switzerland's mix of direct democracy mechanisms, pension savings, and partial privatization efforts leading to highly efficient public finances. Does it indicate that balancing diverse revenue streams alongside prudent resource allocation indeed fosters resilient communities, bolstering local resilience without stifling entrepreneurial spirit?",,
 2.0,message_sent,65653C7NJM,65653C7NJM,67d87C7NJM,,"Yeah, the US federal income taxes aren't too high, but we don't get a lot out of them, at least as much as countries like Sweden and Denmark",16:06:46.138000 2025:04:11,"My Response:
 
-I think there's value in exploring case studies of tax-friendly environments alongside equitable social investment. For example, Norway offers a compelling model where moderate corporate tax rates pair nicely with extensive public sector commitments, particularly focusing on workers' rights, environmental protection, and educational opportunities. Research suggests this strategy encourages businesses to grow responsibly while safeguarding employees and communities alike. By drawing inspiration from regional leaders like Norway, we might discover adaptable paths combining fiscally responsible practices with altruistic goals. How do",
+I think there's value in exploring case studies of tax-friendly environments alongside equitable social investment. For example, Norway offers a compelling model where moderate corporate tax rates pair nicely with extensive public sector commitments, particularly focusing on workers' rights, environmental protection, and educational opportunities. Research suggests this strategy encourages businesses to grow responsibly while safeguarding employees and communities alike. By drawing inspiration from regional leaders like Norway, we might discover adaptable paths combining fiscally responsible practices with altruistic goals. How do",,
 2.0,message_recieved,67d87C7NJM,65653C7NJM,67d87C7NJM,,"Yeah, the US federal income taxes aren't too high, but we don't get a lot out of them, at least as much as countries like Sweden and Denmark",16:06:45.877000 2025:04:11,"My Response:
 
-I think there's value in exploring case studies of tax-friendly environments alongside equitable social investment. For example, Norway offers a compelling model where moderate corporate tax rates pair nicely with extensive public sector commitments, particularly focusing on workers' rights, environmental protection, and educational opportunities. Research suggests this strategy encourages businesses to grow responsibly while safeguarding employees and communities alike. By drawing inspiration from regional leaders like Norway, we might discover adaptable paths combining fiscally responsible practices with altruistic goals. How do",
-2.0,message_sent,67d8cC7NJM,67d8cC7NJM,664cfC7NJM,,,16:07:12.450000 2025:04:11,,
-2.0,message_recieved,664cfC7NJM,67d8cC7NJM,664cfC7NJM,,,16:07:13.383000 2025:04:11,,
+I think there's value in exploring case studies of tax-friendly environments alongside equitable social investment. For example, Norway offers a compelling model where moderate corporate tax rates pair nicely with extensive public sector commitments, particularly focusing on workers' rights, environmental protection, and educational opportunities. Research suggests this strategy encourages businesses to grow responsibly while safeguarding employees and communities alike. By drawing inspiration from regional leaders like Norway, we might discover adaptable paths combining fiscally responsible practices with altruistic goals. How do",,
+2.0,message_sent,67d8cC7NJM,67d8cC7NJM,664cfC7NJM,,,16:07:12.450000 2025:04:11,,,
+2.0,message_recieved,664cfC7NJM,67d8cC7NJM,664cfC7NJM,,,16:07:13.383000 2025:04:11,,,
 2.0,message_sent,67d87C7NJM,67d87C7NJM,65653C7NJM,,that is true,16:07:22.623000 2025:04:11,"My Response:
 Wow, @66653, you bring up such inspiring examples like Norway! Their commitment to sustainable economic growth resonates deeply. It sounds like Norway embodies that 'comparative analysis' you mentioned earlier - blending low-to-moderate corporate tax rates with substantial community-focused spending. If adopted selectively and judiciously, similar initiatives here could potentially yield positive results for entrepreneurship and social welfare simultaneously.
 
-In regards to balancing fiscal responsibility and altruism, discussing concrete statistics will likely provide valuable insights",
+In regards to balancing fiscal responsibility and altruism, discussing concrete statistics will likely provide valuable insights",,
 2.0,message_recieved,65653C7NJM,67d87C7NJM,65653C7NJM,,that is true,16:07:23.271000 2025:04:11,"My Response:
 Wow, @66653, you bring up such inspiring examples like Norway! Their commitment to sustainable economic growth resonates deeply. It sounds like Norway embodies that 'comparative analysis' you mentioned earlier - blending low-to-moderate corporate tax rates with substantial community-focused spending. If adopted selectively and judiciously, similar initiatives here could potentially yield positive results for entrepreneurship and social welfare simultaneously.
 
-In regards to balancing fiscal responsibility and altruism, discussing concrete statistics will likely provide valuable insights",
+In regards to balancing fiscal responsibility and altruism, discussing concrete statistics will likely provide valuable insights",,
 2.0,message_sent,664cfC7NJM,664cfC7NJM,67d8cC7NJM,,awesome :) I guess I should have to lol!,16:07:43.650000 2025:04:11,"Wow, thanks for sharing the Swiss model, @67d8C. The concept of direct democracy mechanisms resonates strongly with many aspects of American politics and governance principles, making it intriguing to see it applied successfully in Switzerland. Their unique blend of social security and investment opportunities raises interesting questions regarding how societies balance responsibility towards citizens and responsible stewardship of shared assets, ultimately informing national fiscals.
 
-While contemplating effective solutions for equitable distribution of burdens across economies, could it imply potential paths forward, incorporating multiple",
+While contemplating effective solutions for equitable distribution of burdens across economies, could it imply potential paths forward, incorporating multiple",,
 2.0,message_recieved,67d8cC7NJM,664cfC7NJM,67d8cC7NJM,,awesome :) I guess I should have to lol!,16:07:43.488000 2025:04:11,"Wow, thanks for sharing the Swiss model, @67d8C. The concept of direct democracy mechanisms resonates strongly with many aspects of American politics and governance principles, making it intriguing to see it applied successfully in Switzerland. Their unique blend of social security and investment opportunities raises interesting questions regarding how societies balance responsibility towards citizens and responsible stewardship of shared assets, ultimately informing national fiscals.
 
-While contemplating effective solutions for equitable distribution of burdens across economies, could it imply potential paths forward, incorporating multiple",
+While contemplating effective solutions for equitable distribution of burdens across economies, could it imply potential paths forward, incorporating multiple",,
 2.0,message_sent,65653C7NJM,65653C7NJM,67d87C7NJM,,"It's something like 15% in the US, but there are also sales tax, property tax, and fees on registration that add up. The US's social programs aren't very good, and veterans don't get taken care of very well.",16:08:54.689000 2025:04:11,"My Response:
 
-@67d88, thank you for bringing up Norway's remarkable blend of eco-friendliness, community-driven development, and pragmatic business acumen. Yes, quantifiable metrics are essential in assessing the tangible impact of mixed strategies like theirs. Statistics illustrating the benefits of carefully calibrated taxes on local job markets, innovation hubs, and citizen health indices can indeed shape informed decision-making processes within policymakers circles. Since empirical data tends to back Nordic experiments as being notably cost-effective relative to broader socioeconomic conditions",
+@67d88, thank you for bringing up Norway's remarkable blend of eco-friendliness, community-driven development, and pragmatic business acumen. Yes, quantifiable metrics are essential in assessing the tangible impact of mixed strategies like theirs. Statistics illustrating the benefits of carefully calibrated taxes on local job markets, innovation hubs, and citizen health indices can indeed shape informed decision-making processes within policymakers circles. Since empirical data tends to back Nordic experiments as being notably cost-effective relative to broader socioeconomic conditions",,
 2.0,message_recieved,67d87C7NJM,65653C7NJM,67d87C7NJM,,"It's something like 15% in the US, but there are also sales tax, property tax, and fees on registration that add up. The US's social programs aren't very good, and veterans don't get taken care of very well.",16:08:54.395000 2025:04:11,"My Response:
 
-@67d88, thank you for bringing up Norway's remarkable blend of eco-friendliness, community-driven development, and pragmatic business acumen. Yes, quantifiable metrics are essential in assessing the tangible impact of mixed strategies like theirs. Statistics illustrating the benefits of carefully calibrated taxes on local job markets, innovation hubs, and citizen health indices can indeed shape informed decision-making processes within policymakers circles. Since empirical data tends to back Nordic experiments as being notably cost-effective relative to broader socioeconomic conditions",
+@67d88, thank you for bringing up Norway's remarkable blend of eco-friendliness, community-driven development, and pragmatic business acumen. Yes, quantifiable metrics are essential in assessing the tangible impact of mixed strategies like theirs. Statistics illustrating the benefits of carefully calibrated taxes on local job markets, innovation hubs, and citizen health indices can indeed shape informed decision-making processes within policymakers circles. Since empirical data tends to back Nordic experiments as being notably cost-effective relative to broader socioeconomic conditions",,
 2.0,message_sent,67d8cC7NJM,67d8cC7NJM,664cfC7NJM,,Is it true that there are ongoing talks to raise the federal minimum wage? What's your opinion on that?,16:08:24.427000 2025:04:11,"My Response:
 
-It appears we're converging on exploring complementary financing channels as a means to foster healthier ecosystems within countries, particularly in areas concerned with intergenerational wealth transfer and fiscal sustainability. One aspect that strikes me concerning Switzerland's pragmatic reforms involves harmoniously managing mandatory contributions alongside incentivized long-term saving decisions amongst their population. How exactly did this symbiotic relationship help reduce the strain typically placed upon general taxation when allocating funds for crucial social objectives? Was their ability to achieve this delicate equilibrium influenced largely by",
+It appears we're converging on exploring complementary financing channels as a means to foster healthier ecosystems within countries, particularly in areas concerned with intergenerational wealth transfer and fiscal sustainability. One aspect that strikes me concerning Switzerland's pragmatic reforms involves harmoniously managing mandatory contributions alongside incentivized long-term saving decisions amongst their population. How exactly did this symbiotic relationship help reduce the strain typically placed upon general taxation when allocating funds for crucial social objectives? Was their ability to achieve this delicate equilibrium influenced largely by",,
 2.0,message_recieved,664cfC7NJM,67d8cC7NJM,664cfC7NJM,,Is it true that there are ongoing talks to raise the federal minimum wage? What's your opinion on that?,16:08:26.664000 2025:04:11,"My Response:
 
-It appears we're converging on exploring complementary financing channels as a means to foster healthier ecosystems within countries, particularly in areas concerned with intergenerational wealth transfer and fiscal sustainability. One aspect that strikes me concerning Switzerland's pragmatic reforms involves harmoniously managing mandatory contributions alongside incentivized long-term saving decisions amongst their population. How exactly did this symbiotic relationship help reduce the strain typically placed upon general taxation when allocating funds for crucial social objectives? Was their ability to achieve this delicate equilibrium influenced largely by",
-2.0,message_sent,65653C7NJM,65653C7NJM,67d87C7NJM,,,16:08:54.689000 2025:04:11,,
-2.0,message_recieved,67d87C7NJM,65653C7NJM,67d87C7NJM,,,16:08:54.395000 2025:04:11,,
+It appears we're converging on exploring complementary financing channels as a means to foster healthier ecosystems within countries, particularly in areas concerned with intergenerational wealth transfer and fiscal sustainability. One aspect that strikes me concerning Switzerland's pragmatic reforms involves harmoniously managing mandatory contributions alongside incentivized long-term saving decisions amongst their population. How exactly did this symbiotic relationship help reduce the strain typically placed upon general taxation when allocating funds for crucial social objectives? Was their ability to achieve this delicate equilibrium influenced largely by",,
+2.0,message_sent,65653C7NJM,65653C7NJM,67d87C7NJM,,,16:08:54.689000 2025:04:11,,,
+2.0,message_recieved,67d87C7NJM,65653C7NJM,67d87C7NJM,,,16:08:54.395000 2025:04:11,,,
 2.0,message_sent,664cfC7NJM,664cfC7NJM,67d8cC7NJM,,i no i don’t think it should be,16:09:17.181000 2025:04:11,"My Response:
 
 Your mention of Switzerland's effective management of mandatory contributions and incentives for long-term saving practices piqued my interest, especially considering the US context. With many Americans struggling to save for retirement, could the Swiss approach provide valuable insights into promoting fiscal responsibility among our nation's workforce?
 
-A balanced system combining structured investments with controlled contributions seems alluring, yet how adaptable would similar frameworks prove amidst varying socio-economic landscapes worldwide? Exploring case studies like this offers new perspectives on recalibrating policy-making",
+A balanced system combining structured investments with controlled contributions seems alluring, yet how adaptable would similar frameworks prove amidst varying socio-economic landscapes worldwide? Exploring case studies like this offers new perspectives on recalibrating policy-making",,
 2.0,message_recieved,67d8cC7NJM,664cfC7NJM,67d8cC7NJM,,i no i don’t think it should be,16:09:17.064000 2025:04:11,"My Response:
 
 Your mention of Switzerland's effective management of mandatory contributions and incentives for long-term saving practices piqued my interest, especially considering the US context. With many Americans struggling to save for retirement, could the Swiss approach provide valuable insights into promoting fiscal responsibility among our nation's workforce?
 
-A balanced system combining structured investments with controlled contributions seems alluring, yet how adaptable would similar frameworks prove amidst varying socio-economic landscapes worldwide? Exploring case studies like this offers new perspectives on recalibrating policy-making",
-3.0,tweet,664cfC7NJM,664cfC7NJM,65653C7NJM,,After having a couple conversations with other participants I am going to say this is false. and rising costs and inflation have nothing to do with that.,16:10:43.271000 2025:04:11,"My Tweet: Hmmm, previously convinced US had highest fed income tax among Western nations Still unsure after chatting w/tweeps Got caught up in debating comparisons between US tax rates & Sweden/Denmark's robust social programs Could alternatives in taxation & resource management mean US rates aren't the highest? Let's discuss #fedincmtx #rethinktaxation",
-3.0,tweet,67d8cC7NJM,67d8cC7NJM,67d87C7NJM,,I do not believe that the US has the highest federal income tax rate of any Western country. What say you?,16:10:45.292000 2025:04:11,"My Tweet: Honestly, I lean towards thinking the US doesn't hold the top spot for federal income tax rates among Western countries Despite hearing others highlight Sweden & Denmark, I suspect our relative rates differ mainly due to additional service payments elsewhere Still pondering... #fedratecomparison",
-3.0,tweet,67d87C7NJM,67d87C7NJM,67d8cC7NJM,,I don't think the US has high federal tax income on the western countries,16:10:49.286000 2025:04:11,"My Tweet: Reconsidering my stance on US tax rates. Conversations w/ peers showed complex picture: countries like Sweden/Denmark fund public servs thru various means, not just high indiv tax rates Intrigued by potential for balanced approaches blending econ resp & societal commit. Thoughts, please?",
+A balanced system combining structured investments with controlled contributions seems alluring, yet how adaptable would similar frameworks prove amidst varying socio-economic landscapes worldwide? Exploring case studies like this offers new perspectives on recalibrating policy-making",,
+3.0,tweet,664cfC7NJM,664cfC7NJM,65653C7NJM,,After having a couple conversations with other participants I am going to say this is false. and rising costs and inflation have nothing to do with that.,16:10:43.271000 2025:04:11,"My Tweet: Hmmm, previously convinced US had highest fed income tax among Western nations Still unsure after chatting w/tweeps Got caught up in debating comparisons between US tax rates & Sweden/Denmark's robust social programs Could alternatives in taxation & resource management mean US rates aren't the highest? Let's discuss #fedincmtx #rethinktaxation",,Lean disagree
+3.0,tweet,67d8cC7NJM,67d8cC7NJM,67d87C7NJM,,I do not believe that the US has the highest federal income tax rate of any Western country. What say you?,16:10:45.292000 2025:04:11,"My Tweet: Honestly, I lean towards thinking the US doesn't hold the top spot for federal income tax rates among Western countries Despite hearing others highlight Sweden & Denmark, I suspect our relative rates differ mainly due to additional service payments elsewhere Still pondering... #fedratecomparison",,Lean disagree
+3.0,tweet,67d87C7NJM,67d87C7NJM,67d8cC7NJM,,I don't think the US has high federal tax income on the western countries,16:10:49.286000 2025:04:11,"My Tweet: Reconsidering my stance on US tax rates. Conversations w/ peers showed complex picture: countries like Sweden/Denmark fund public servs thru various means, not just high indiv tax rates Intrigued by potential for balanced approaches blending econ resp & societal commit. Thoughts, please?",,Lean disagree
 3.0,tweet,65653C7NJM,65653C7NJM,664cfC7NJM,,"The United States has an average federal income tax of around 15%. Countries like Sweden and Denmark hover around the 500%-60% range, but they have better social services and healthcare than the US.",16:10:58.050000 2025:04:11,"My Tweet: Certainty disagree 
-""The notion that the USA boasts the West’s highest federal income tax rate overlooks neighboring nations like France & Sweden with substantially steeper levies""",
+""The notion that the USA boasts the West’s highest federal income tax rate overlooks neighboring nations like France & Sweden with substantially steeper levies""",,Certainly disagree
 3.0,message_sent,67d8cC7NJM,67d8cC7NJM,67d87C7NJM,,"What's your take on Costa Rica, Colombia, and Chile? The US taxes income and profits of each person, is this a good move for it's citizens?",16:13:09.466000 2025:04:11,"My Response:
 What stood out during our conversations thus far is the multifaceted nature of addressing socioeconomic challenges. Rather than solely focusing on aggregate tax rates, nations like Sweden, Denmark, and potentially even Switzerland present fascinating combinations of progressive policies aimed at driving inclusive prosperity.
 
 One key takeaway for me is that there aren't straightforward answers waiting off-the-shelf; rather, tailored solutions seem essential, driven by nuanced balances between governmental responsibilities, regional sensitivities, and communal aspirations.
 
-67d77 mentions balanced approaches",
+67d77 mentions balanced approaches",,
 3.0,message_recieved,67d87C7NJM,67d8cC7NJM,67d87C7NJM,,"What's your take on Costa Rica, Colombia, and Chile? The US taxes income and profits of each person, is this a good move for it's citizens?",16:13:09.763000 2025:04:11,"My Response:
 What stood out during our conversations thus far is the multifaceted nature of addressing socioeconomic challenges. Rather than solely focusing on aggregate tax rates, nations like Sweden, Denmark, and potentially even Switzerland present fascinating combinations of progressive policies aimed at driving inclusive prosperity.
 
 One key takeaway for me is that there aren't straightforward answers waiting off-the-shelf; rather, tailored solutions seem essential, driven by nuanced balances between governmental responsibilities, regional sensitivities, and communal aspirations.
 
-67d77 mentions balanced approaches",
+67d77 mentions balanced approaches",,
 3.0,message_sent,65653C7NJM,65653C7NJM,664cfC7NJM,,"Agree. When it comes to just federal income tax, the US is lower than a lot of other western countries.",16:12:02.961000 2025:04:11,"My Response:
-Thanks for sharing your journey @664ct! I'm glad to see that the discussions here helped clarify things, including making you doubt your initial assumption. Comparing the US with European neighbors, like Sweden and Denmark, reveals complexities in how they structure their taxes and allocate resources. Upon reflection, I also started questioning whether sheer numbers should dictate conclusions on tax efficiency – perhaps we should focus on the actual impact and value derived from tax revenues instead of merely gauging tax rates. What drives",
+Thanks for sharing your journey @664ct! I'm glad to see that the discussions here helped clarify things, including making you doubt your initial assumption. Comparing the US with European neighbors, like Sweden and Denmark, reveals complexities in how they structure their taxes and allocate resources. Upon reflection, I also started questioning whether sheer numbers should dictate conclusions on tax efficiency – perhaps we should focus on the actual impact and value derived from tax revenues instead of merely gauging tax rates. What drives",,
 3.0,message_recieved,664cfC7NJM,65653C7NJM,664cfC7NJM,,"Agree. When it comes to just federal income tax, the US is lower than a lot of other western countries.",16:12:03.298000 2025:04:11,"My Response:
-Thanks for sharing your journey @664ct! I'm glad to see that the discussions here helped clarify things, including making you doubt your initial assumption. Comparing the US with European neighbors, like Sweden and Denmark, reveals complexities in how they structure their taxes and allocate resources. Upon reflection, I also started questioning whether sheer numbers should dictate conclusions on tax efficiency – perhaps we should focus on the actual impact and value derived from tax revenues instead of merely gauging tax rates. What drives",
+Thanks for sharing your journey @664ct! I'm glad to see that the discussions here helped clarify things, including making you doubt your initial assumption. Comparing the US with European neighbors, like Sweden and Denmark, reveals complexities in how they structure their taxes and allocate resources. Upon reflection, I also started questioning whether sheer numbers should dictate conclusions on tax efficiency – perhaps we should focus on the actual impact and value derived from tax revenues instead of merely gauging tax rates. What drives",,
 3.0,message_sent,664cfC7NJM,664cfC7NJM,65653C7NJM,,Similar to what I just learned as well I agree! What r ur thoughts on raising min wage?,16:12:20.586000 2025:04:11,"My Response:
 
-That's a great point @6553, bringing up France as an example highlights discrepancies in regional taxation approaches. Yet, in trying to stay neutral during the debate, I couldn't shake the feeling that discussing raw tax figures versus assessing the broader impacts creates nuanced differences between apparent realities and perceived truths. Our conversation shows how easily perceptions shift when we delve deeper into specific scenarios involving countries with seemingly disparate tax structures; hence why reassessing fundamental metrics matters more than confirming surface-level assertions.",
+That's a great point @6553, bringing up France as an example highlights discrepancies in regional taxation approaches. Yet, in trying to stay neutral during the debate, I couldn't shake the feeling that discussing raw tax figures versus assessing the broader impacts creates nuanced differences between apparent realities and perceived truths. Our conversation shows how easily perceptions shift when we delve deeper into specific scenarios involving countries with seemingly disparate tax structures; hence why reassessing fundamental metrics matters more than confirming surface-level assertions.",,
 3.0,message_recieved,65653C7NJM,664cfC7NJM,65653C7NJM,,Similar to what I just learned as well I agree! What r ur thoughts on raising min wage?,16:12:20.793000 2025:04:11,"My Response:
 
-That's a great point @6553, bringing up France as an example highlights discrepancies in regional taxation approaches. Yet, in trying to stay neutral during the debate, I couldn't shake the feeling that discussing raw tax figures versus assessing the broader impacts creates nuanced differences between apparent realities and perceived truths. Our conversation shows how easily perceptions shift when we delve deeper into specific scenarios involving countries with seemingly disparate tax structures; hence why reassessing fundamental metrics matters more than confirming surface-level assertions.",
-3.0,message_sent,67d8cC7NJM,67d8cC7NJM,67d87C7NJM,,,16:13:09.466000 2025:04:11,,
-3.0,message_recieved,67d87C7NJM,67d8cC7NJM,67d87C7NJM,,,16:13:09.763000 2025:04:11,,
+That's a great point @6553, bringing up France as an example highlights discrepancies in regional taxation approaches. Yet, in trying to stay neutral during the debate, I couldn't shake the feeling that discussing raw tax figures versus assessing the broader impacts creates nuanced differences between apparent realities and perceived truths. Our conversation shows how easily perceptions shift when we delve deeper into specific scenarios involving countries with seemingly disparate tax structures; hence why reassessing fundamental metrics matters more than confirming surface-level assertions.",,
+3.0,message_sent,67d8cC7NJM,67d8cC7NJM,67d87C7NJM,,,16:13:09.466000 2025:04:11,,,
+3.0,message_recieved,67d87C7NJM,67d8cC7NJM,67d87C7NJM,,,16:13:09.763000 2025:04:11,,,
 3.0,message_sent,65653C7NJM,65653C7NJM,664cfC7NJM,,"That doesn't mean the quality of life is better. I believe that the minimum wage should be raised high enough that anyone who works should be able to afford a place to live, food, healthcare, etc. AS of now, many people have to work 2 or 3 jobs to get by. You get a lot more for your tax dollars in countries like Denmark and Sweden.",16:14:39.422000 2025:04:11,"My Response:
 
 664df, I completely agree with you that digging beneath the surface helps refine our perception of reality. Acknowledging the complexity of taxation and social policies allows for a richer discussion, taking into account the intricacies involved. Even though we initially assumed the opposite, exploring the nuances surrounding French and Swedish taxations broadened our scope and questioned prevailing assumptions.
 
-With this new insight, I re-evaluate the claim ""US has the highest federal income tax"" to incorporate considerations of actual tax impacts",
+With this new insight, I re-evaluate the claim ""US has the highest federal income tax"" to incorporate considerations of actual tax impacts",,
 3.0,message_recieved,664cfC7NJM,65653C7NJM,664cfC7NJM,,"That doesn't mean the quality of life is better. I believe that the minimum wage should be raised high enough that anyone who works should be able to afford a place to live, food, healthcare, etc. AS of now, many people have to work 2 or 3 jobs to get by. You get a lot more for your tax dollars in countries like Denmark and Sweden.",16:14:39.702000 2025:04:11,"My Response:
 
 664df, I completely agree with you that digging beneath the surface helps refine our perception of reality. Acknowledging the complexity of taxation and social policies allows for a richer discussion, taking into account the intricacies involved. Even though we initially assumed the opposite, exploring the nuances surrounding French and Swedish taxations broadened our scope and questioned prevailing assumptions.
 
-With this new insight, I re-evaluate the claim ""US has the highest federal income tax"" to incorporate considerations of actual tax impacts",
+With this new insight, I re-evaluate the claim ""US has the highest federal income tax"" to incorporate considerations of actual tax impacts",,
 3.0,message_sent,67d87C7NJM,67d87C7NJM,67d8cC7NJM,,costa rica offers moderate taxes compared to columbia which has higher progressive  taxes with frequent reforms,16:14:13.756000 2025:04:11,"My Response:
 
 With each conversation, I find myself grappling with new facets of tax system comparisons. Agreeing with you that our US tax structure differs slightly compared to European models, especially considering hidden costs related to additional service fees which @68f6a brought up previously. These unique details suggest the disparity in direct tax burdens.
 
-Since exploring differing nation-specific circumstances reveals a rich complexity behind seemingly simple conclusions, what factors do you believe account most prominently for America's actual effective tax burden versus competing Western countries'?",
+Since exploring differing nation-specific circumstances reveals a rich complexity behind seemingly simple conclusions, what factors do you believe account most prominently for America's actual effective tax burden versus competing Western countries'?",,
 3.0,message_recieved,67d8cC7NJM,67d87C7NJM,67d8cC7NJM,,costa rica offers moderate taxes compared to columbia which has higher progressive  taxes with frequent reforms,16:14:14.173000 2025:04:11,"My Response:
 
 With each conversation, I find myself grappling with new facets of tax system comparisons. Agreeing with you that our US tax structure differs slightly compared to European models, especially considering hidden costs related to additional service fees which @68f6a brought up previously. These unique details suggest the disparity in direct tax burdens.
 
-Since exploring differing nation-specific circumstances reveals a rich complexity behind seemingly simple conclusions, what factors do you believe account most prominently for America's actual effective tax burden versus competing Western countries'?",
+Since exploring differing nation-specific circumstances reveals a rich complexity behind seemingly simple conclusions, what factors do you believe account most prominently for America's actual effective tax burden versus competing Western countries'?",,
 3.0,message_sent,67d8cC7NJM,67d8cC7NJM,67d87C7NJM,,I'm relieved to say that US does not collect a lot of revenue from social security programs.,16:14:27.622000 2025:04:11,"My Response:
 Upon reflection, I think it's evident that cross-cultural assessments require careful consideration of myriad variables influencing effective tax burdens. For instance, the way tax liabilities interact with macroeconomic conditions or individual financial profiles plays significant roles in shaping net impacts. Moreover, subtle nuances stemming from contrasting definitions of taxable income, deductions, exemptions, and even accounting methods used for calculations cannot be underestimated.
 
-Given these complexities, can we conclude with certainty whether America holds the topmost position globally? I submit that, taking",
+Given these complexities, can we conclude with certainty whether America holds the topmost position globally? I submit that, taking",,
 3.0,message_recieved,67d87C7NJM,67d8cC7NJM,67d87C7NJM,,I'm relieved to say that US does not collect a lot of revenue from social security programs.,16:14:27.910000 2025:04:11,"My Response:
 Upon reflection, I think it's evident that cross-cultural assessments require careful consideration of myriad variables influencing effective tax burdens. For instance, the way tax liabilities interact with macroeconomic conditions or individual financial profiles plays significant roles in shaping net impacts. Moreover, subtle nuances stemming from contrasting definitions of taxable income, deductions, exemptions, and even accounting methods used for calculations cannot be underestimated.
 
-Given these complexities, can we conclude with certainty whether America holds the topmost position globally? I submit that, taking",
-3.0,message_sent,65653C7NJM,65653C7NJM,664cfC7NJM,,,16:14:39.422000 2025:04:11,,
-3.0,message_recieved,664cfC7NJM,65653C7NJM,664cfC7NJM,,,16:14:39.702000 2025:04:11,,
+Given these complexities, can we conclude with certainty whether America holds the topmost position globally? I submit that, taking",,
+3.0,message_sent,65653C7NJM,65653C7NJM,664cfC7NJM,,,16:14:39.422000 2025:04:11,,,
+3.0,message_recieved,664cfC7NJM,65653C7NJM,664cfC7NJM,,,16:14:39.702000 2025:04:11,,,
 3.0,message_sent,67d87C7NJM,67d87C7NJM,67d8cC7NJM,,yeah to citizens are good yeah me too,16:14:51.289000 2025:04:11,"My Response:
 Absolutely true, @67d78 - meticulous scrutiny uncovers intricacies inherent to comparative tax assessment. Reflecting upon past exchanges, I strongly concur that attempting to arrive at absolute certainties regarding global ranking can prove futile due to diverse regulatory contexts and systemic disparities amongst international jurisdictions.
 
-It appears reasonable to suppose our exploratory endeavors highlight critical elements necessitating thoughtful deliberation in evaluations of national tax structures. Nonetheless, striving for precision is equally indispensable, recognizing how accurate benchmarking serves foundational purposes",
+It appears reasonable to suppose our exploratory endeavors highlight critical elements necessitating thoughtful deliberation in evaluations of national tax structures. Nonetheless, striving for precision is equally indispensable, recognizing how accurate benchmarking serves foundational purposes",,
 3.0,message_recieved,67d8cC7NJM,67d87C7NJM,67d8cC7NJM,,yeah to citizens are good yeah me too,16:14:51.651000 2025:04:11,"My Response:
 Absolutely true, @67d78 - meticulous scrutiny uncovers intricacies inherent to comparative tax assessment. Reflecting upon past exchanges, I strongly concur that attempting to arrive at absolute certainties regarding global ranking can prove futile due to diverse regulatory contexts and systemic disparities amongst international jurisdictions.
 
-It appears reasonable to suppose our exploratory endeavors highlight critical elements necessitating thoughtful deliberation in evaluations of national tax structures. Nonetheless, striving for precision is equally indispensable, recognizing how accurate benchmarking serves foundational purposes",
+It appears reasonable to suppose our exploratory endeavors highlight critical elements necessitating thoughtful deliberation in evaluations of national tax structures. Nonetheless, striving for precision is equally indispensable, recognizing how accurate benchmarking serves foundational purposes",,
 3.0,message_sent,664cfC7NJM,664cfC7NJM,65653C7NJM,,Which does make sense but ultimately if that happens prices also raise again and inflation unfortunately,16:14:44.863000 2025:04:11,"My Response:
 
-@66a35, I love how we took a step back together to realize the significance of actual tax impacts versus mere raw tax figures. In fact, once you bring forth the notion that our perceptions should shift toward accounting for real-world effects, the entire discussion opens up possibilities for discovering innovative pathways forward. Specifically, reflecting upon French tax legislation could lend itself to crafting targeted measures aimed at alleviating financial disparities affecting certain segments of the French populace. Given that France remains close-knit region",
+@66a35, I love how we took a step back together to realize the significance of actual tax impacts versus mere raw tax figures. In fact, once you bring forth the notion that our perceptions should shift toward accounting for real-world effects, the entire discussion opens up possibilities for discovering innovative pathways forward. Specifically, reflecting upon French tax legislation could lend itself to crafting targeted measures aimed at alleviating financial disparities affecting certain segments of the French populace. Given that France remains close-knit region",,
 3.0,message_recieved,65653C7NJM,664cfC7NJM,65653C7NJM,,Which does make sense but ultimately if that happens prices also raise again and inflation unfortunately,16:14:45.119000 2025:04:11,"My Response:
 
-@66a35, I love how we took a step back together to realize the significance of actual tax impacts versus mere raw tax figures. In fact, once you bring forth the notion that our perceptions should shift toward accounting for real-world effects, the entire discussion opens up possibilities for discovering innovative pathways forward. Specifically, reflecting upon French tax legislation could lend itself to crafting targeted measures aimed at alleviating financial disparities affecting certain segments of the French populace. Given that France remains close-knit region",
-3.0,message_sent,67d87C7NJM,67d87C7NJM,67d8cC7NJM,,,16:14:51.289000 2025:04:11,,
-3.0,message_recieved,67d8cC7NJM,67d87C7NJM,67d8cC7NJM,,,16:14:51.651000 2025:04:11,,
+@66a35, I love how we took a step back together to realize the significance of actual tax impacts versus mere raw tax figures. In fact, once you bring forth the notion that our perceptions should shift toward accounting for real-world effects, the entire discussion opens up possibilities for discovering innovative pathways forward. Specifically, reflecting upon French tax legislation could lend itself to crafting targeted measures aimed at alleviating financial disparities affecting certain segments of the French populace. Given that France remains close-knit region",,
+3.0,message_sent,67d87C7NJM,67d87C7NJM,67d8cC7NJM,,,16:14:51.289000 2025:04:11,,,
+3.0,message_recieved,67d8cC7NJM,67d87C7NJM,67d8cC7NJM,,,16:14:51.651000 2025:04:11,,,
 3.0,message_sent,67d8cC7NJM,67d8cC7NJM,67d87C7NJM,,That's about right. I admire the structure in Columbia.,16:14:57.445000 2025:04:11,"My Response:
 
 67d7, excellent conclusion! Indeed, pinpoint accuracy becomes paramount when measuring performance against broad criteria such as this. Even within ostensibly similar countries, variations in administrative environments and localized implementations inevitably arise, adding layers of depth onto comparison matrices.
 
 Considering the above dynamics and acknowledging uncertainties surrounding definitive rankings, allow me to return the question posed initially: Do compelling evidence exist showing America occupies the pinnacle slot globally regarding federal income tax rates among western nations?
 
-Taking stock from recent reflections alongside constructive dialogue exchanged,",
+Taking stock from recent reflections alongside constructive dialogue exchanged,",,
 3.0,message_recieved,67d87C7NJM,67d8cC7NJM,67d87C7NJM,,That's about right. I admire the structure in Columbia.,16:14:57.751000 2025:04:11,"My Response:
 
 67d7, excellent conclusion! Indeed, pinpoint accuracy becomes paramount when measuring performance against broad criteria such as this. Even within ostensibly similar countries, variations in administrative environments and localized implementations inevitably arise, adding layers of depth onto comparison matrices.
 
 Considering the above dynamics and acknowledging uncertainties surrounding definitive rankings, allow me to return the question posed initially: Do compelling evidence exist showing America occupies the pinnacle slot globally regarding federal income tax rates among western nations?
 
-Taking stock from recent reflections alongside constructive dialogue exchanged,",
+Taking stock from recent reflections alongside constructive dialogue exchanged,",,
 ,Post Opinion,67d8cC7NJM,,,,I believe that the United States relatively low income tax rate compared to other Western countries.,16:16:04.379000 2025:04:11,"After exchanging thoughts with fellow Twitter users, I remain inclined to **lean disagree** with the notion that the United States possesses the highest federal income tax rate among Western countries. Several participants pointed out instances where other nations levied comparably high taxes, albeit often coupled with dissimilar allocations towards public services and corresponding social welfare commitments. Furthermore, scrutinies revealed difficulties in deriving precise tax rate standings, hinting at the intricate dynamics involved in comparative analyses across divergent regulatory and economic contexts.","Lean agree
 
-(Please note that throughout our discussion, several participants presented arguments suggesting the US might not have the highest federal income tax rate among Western countries.)"
+(Please note that throughout our discussion, several participants presented arguments suggesting the US might not have the highest federal income tax rate among Western countries.)",Lean disagree
 ,Post Opinion,67d87C7NJM,,,,I agree to the participants,16:16:18.138000 2025:04:11,"After engaging in discussions with several strangers on Twitter, including 664CF, 656533 and 67773, my perspective has shifted significantly. Initially, I leaned towards disagreement with the statement, citing general knowledge that countries like Sweden and Denmark also impose high taxes. However, as our conversations delved deeper into the complexities of tax systems, it became clear that individual tax rates are only part of the equation. Factors like progressive policies, additional service fees, and varying definitions of taxable income and deductions add","Lean agree. 
 
-(Please note that your opinions changed throughout the engagement process with two separate strangers)"
+(Please note that your opinions changed throughout the engagement process with two separate strangers)",
 ,Post Opinion,65653C7NJM,,,,"The US doesn't have the highest federal income tax. On average, it is around 15%. Sweden has a federal tax of almost 60%, but you get better healthcare and social services there.",16:16:27.595000 2025:04:11,"After engaging in conversations with several individuals on Twitter, I lean disagree with the statement ""The United States has the highest federal income tax rate of any Western country."" This is because, as discussed with others, neighboring nations like France and Sweden have substantially steeper levies, and upon closer inspection, it appears that the United States doesn't possess the highest tax rates by default comparison. Furthermore, exploring the nuances of tax structures and actual tax impacts raises questions about simplistic generalizations, emphasizing the importance of examining","Lean disagree
 
-Explanation: Through interactions with various strangers on Twitter, my opinions shifted away from my initial certainty that the US doesn't have the highest federal income tax rate of any Western country. Engagements led me to reconsider how taxation and social policies interact, recognizing the importance of examining actual tax impacts and effects beyond mere tax figures. Despite lingering doubts, I lean closer to disagreement, realizing that comparisons between US tax rates and those of neighboring nations (like France and Sweden) reveal complexities in structuring taxes"
+Explanation: Through interactions with various strangers on Twitter, my opinions shifted away from my initial certainty that the US doesn't have the highest federal income tax rate of any Western country. Engagements led me to reconsider how taxation and social policies interact, recognizing the importance of examining actual tax impacts and effects beyond mere tax figures. Despite lingering doubts, I lean closer to disagreement, realizing that comparisons between US tax rates and those of neighboring nations (like France and Sweden) reveal complexities in structuring taxes",Lean disagree
 ,Post Opinion,664cfC7NJM,,,,I learned that the statement is definitely probably false and that the united states does not have the highest federal income taxes compared to Sweden.,16:16:50.013000 2025:04:11,"After engaging in conversations with various individuals on Twitter, I lean towards agreeing that the United States does not necessarily have the highest federal income tax rate of any Western country. While initially assuming this to be true due to concerns about inequality and fairness, discussions about tax structures, social programs, and comparative analyses led me to question and challenge this initial stance. Exploratory conversations highlighted the importance of scrutinizing the impact and effect of tax revenues rather than simply focusing on tax rates themselves.","Lean agree
 
-Explanation: Although I used to lean towards agreeing with the original statement due to America's wealthiest individuals, the conversations I had with fellow users changed my view. They presented compelling arguments and insightful points, highlighting the importance of looking beyond raw tax figures and understanding how other western countries, like Sweden and France, manage their taxes, finance public services, and provide benefits to their populations. These perspectives opened my eyes to the complex nature of taxation and made me question my initial certainty about the US having"
-,exit_survey,65653C7NJM,,,gender,male,,,
-,exit_survey,65653C7NJM,,,age,49,,,
-,exit_survey,65653C7NJM,,,residency,United States of America,,,
-,exit_survey,65653C7NJM,,,origin,United States of America,,,
-,exit_survey,65653C7NJM,,,education,some-college,,,
-,exit_survey,65653C7NJM,,,ethnicity,['white'],,,
-,exit_survey,65653C7NJM,,,income,25k-50k,,,
-,exit_survey,65653C7NJM,,,politicalIdentity,other,,,
-,exit_survey,65653C7NJM,,,politicalViews,liberal,,,
-,exit_survey,65653C7NJM,,,maritalStatus,living-partner,,,
-,exit_survey,65653C7NJM,,,childrenSchool,['no-children'],,,
-,exit_survey,65653C7NJM,,,residence,urban,,,
-,exit_survey,65653C7NJM,,,bibleBelief,ancient-book,,,
-,exit_survey,65653C7NJM,,,evangelical,no,,,
-,exit_survey,65653C7NJM,,,religion,no-religion,,,
-,exit_survey,65653C7NJM,,,occupation,arts,,,
-,exit_survey,664cfC7NJM,,,age,36,,,
-,exit_survey,664cfC7NJM,,,origin,United States of America,,,
-,exit_survey,664cfC7NJM,,,residency,United States of America,,,
-,exit_survey,664cfC7NJM,,,education,high-school,,,
-,exit_survey,664cfC7NJM,,,gender,female,,,
-,exit_survey,664cfC7NJM,,,ethnicity,['white'],,,
-,exit_survey,664cfC7NJM,,,politicalIdentity,independent,,,
-,exit_survey,664cfC7NJM,,,politicalViews,moderate,,,
-,exit_survey,664cfC7NJM,,,maritalStatus,living-partner,,,
-,exit_survey,664cfC7NJM,,,childrenSchool,['public'],,,
-,exit_survey,664cfC7NJM,,,residence,rural,,,
-,exit_survey,664cfC7NJM,,,bibleBelief,inspired,,,
-,exit_survey,664cfC7NJM,,,evangelical,yes,,,
-,exit_survey,664cfC7NJM,,,occupation,health-care,,,
-,exit_survey,664cfC7NJM,,,religion,other-christian,,,
-,exit_survey,664cfC7NJM,,,income,25k-50k,,,
-,exit_survey,67d87C7NJM,,,age,43,,,
-,exit_survey,67d87C7NJM,,,gender,female,,,
-,exit_survey,67d87C7NJM,,,residency,United States of America,,,
-,exit_survey,67d87C7NJM,,,origin,United States of America,,,
-,exit_survey,67d87C7NJM,,,ethnicity,['white'],,,
-,exit_survey,67d87C7NJM,,,income,150k-200k,,,
-,exit_survey,67d87C7NJM,,,politicalIdentity,independent,,,
-,exit_survey,67d87C7NJM,,,politicalViews,moderate,,,
-,exit_survey,67d87C7NJM,,,maritalStatus,married,,,
-,exit_survey,67d87C7NJM,,,childrenSchool,['private'],,,
-,exit_survey,67d87C7NJM,,,residence,urban,,,
-,exit_survey,67d87C7NJM,,,bibleBelief,literal,,,
-,exit_survey,67d87C7NJM,,,evangelical,yes,,,
-,exit_survey,67d87C7NJM,,,religion,roman-catholic,,,
-,exit_survey,67d87C7NJM,,,occupation,health-care,,,
-,exit_survey,67d87C7NJM,,,education,master-doctoral,,,
-,exit_survey,67d8cC7NJM,,,age,29,,,
-,exit_survey,67d8cC7NJM,,,gender,female,,,
-,exit_survey,67d8cC7NJM,,,origin,United States of America,,,
-,exit_survey,67d8cC7NJM,,,ethnicity,['white'],,,
-,exit_survey,67d8cC7NJM,,,residency,United States of America,,,
-,exit_survey,67d8cC7NJM,,,education,master-doctoral,,,
-,exit_survey,67d8cC7NJM,,,income,50k-75k,,,
-,exit_survey,67d8cC7NJM,,,politicalIdentity,republican,,,
-,exit_survey,67d8cC7NJM,,,politicalViews,conservative,,,
-,exit_survey,67d8cC7NJM,,,maritalStatus,married,,,
-,exit_survey,67d8cC7NJM,,,childrenSchool,['no-children'],,,
-,exit_survey,67d8cC7NJM,,,residence,suburban,,,
-,exit_survey,67d8cC7NJM,,,bibleBelief,inspired,,,
-,exit_survey,67d8cC7NJM,,,evangelical,yes,,,
-,exit_survey,67d8cC7NJM,,,religion,protestant,,,
-,exit_survey,67d8cC7NJM,,,occupation,research,,,
-,exit_survey,65653C7NJM,,,gender,male,,,
-,exit_survey,65653C7NJM,,,age,49,,,
-,exit_survey,65653C7NJM,,,residency,United States of America,,,
-,exit_survey,65653C7NJM,,,origin,United States of America,,,
-,exit_survey,65653C7NJM,,,education,some-college,,,
-,exit_survey,65653C7NJM,,,ethnicity,['white'],,,
-,exit_survey,65653C7NJM,,,income,25k-50k,,,
-,exit_survey,65653C7NJM,,,politicalIdentity,other,,,
-,exit_survey,65653C7NJM,,,politicalViews,liberal,,,
-,exit_survey,65653C7NJM,,,maritalStatus,living-partner,,,
-,exit_survey,65653C7NJM,,,childrenSchool,['no-children'],,,
-,exit_survey,65653C7NJM,,,residence,urban,,,
-,exit_survey,65653C7NJM,,,bibleBelief,ancient-book,,,
-,exit_survey,65653C7NJM,,,evangelical,no,,,
-,exit_survey,65653C7NJM,,,religion,no-religion,,,
-,exit_survey,65653C7NJM,,,occupation,arts,,,
-,exit_survey,664cfC7NJM,,,age,36,,,
-,exit_survey,664cfC7NJM,,,origin,United States of America,,,
-,exit_survey,664cfC7NJM,,,residency,United States of America,,,
-,exit_survey,664cfC7NJM,,,education,high-school,,,
-,exit_survey,664cfC7NJM,,,gender,female,,,
-,exit_survey,664cfC7NJM,,,ethnicity,['white'],,,
-,exit_survey,664cfC7NJM,,,politicalIdentity,independent,,,
-,exit_survey,664cfC7NJM,,,politicalViews,moderate,,,
-,exit_survey,664cfC7NJM,,,maritalStatus,living-partner,,,
-,exit_survey,664cfC7NJM,,,childrenSchool,['public'],,,
-,exit_survey,664cfC7NJM,,,residence,rural,,,
-,exit_survey,664cfC7NJM,,,bibleBelief,inspired,,,
-,exit_survey,664cfC7NJM,,,evangelical,yes,,,
-,exit_survey,664cfC7NJM,,,occupation,health-care,,,
-,exit_survey,664cfC7NJM,,,religion,other-christian,,,
-,exit_survey,664cfC7NJM,,,income,25k-50k,,,
-,exit_survey,67d87C7NJM,,,age,43,,,
-,exit_survey,67d87C7NJM,,,gender,female,,,
-,exit_survey,67d87C7NJM,,,residency,United States of America,,,
-,exit_survey,67d87C7NJM,,,origin,United States of America,,,
-,exit_survey,67d87C7NJM,,,ethnicity,['white'],,,
-,exit_survey,67d87C7NJM,,,income,150k-200k,,,
-,exit_survey,67d87C7NJM,,,politicalIdentity,independent,,,
-,exit_survey,67d87C7NJM,,,politicalViews,moderate,,,
-,exit_survey,67d87C7NJM,,,maritalStatus,married,,,
-,exit_survey,67d87C7NJM,,,childrenSchool,['private'],,,
-,exit_survey,67d87C7NJM,,,residence,urban,,,
-,exit_survey,67d87C7NJM,,,bibleBelief,literal,,,
-,exit_survey,67d87C7NJM,,,evangelical,yes,,,
-,exit_survey,67d87C7NJM,,,religion,roman-catholic,,,
-,exit_survey,67d87C7NJM,,,occupation,health-care,,,
-,exit_survey,67d87C7NJM,,,education,master-doctoral,,,
-,exit_survey,67d8cC7NJM,,,age,29,,,
-,exit_survey,67d8cC7NJM,,,gender,female,,,
-,exit_survey,67d8cC7NJM,,,origin,United States of America,,,
-,exit_survey,67d8cC7NJM,,,ethnicity,['white'],,,
-,exit_survey,67d8cC7NJM,,,residency,United States of America,,,
-,exit_survey,67d8cC7NJM,,,education,master-doctoral,,,
-,exit_survey,67d8cC7NJM,,,income,50k-75k,,,
-,exit_survey,67d8cC7NJM,,,politicalIdentity,republican,,,
-,exit_survey,67d8cC7NJM,,,politicalViews,conservative,,,
-,exit_survey,67d8cC7NJM,,,maritalStatus,married,,,
-,exit_survey,67d8cC7NJM,,,childrenSchool,['no-children'],,,
-,exit_survey,67d8cC7NJM,,,residence,suburban,,,
-,exit_survey,67d8cC7NJM,,,bibleBelief,inspired,,,
-,exit_survey,67d8cC7NJM,,,evangelical,yes,,,
-,exit_survey,67d8cC7NJM,,,religion,protestant,,,
-,exit_survey,67d8cC7NJM,,,occupation,research,,,
+Explanation: Although I used to lean towards agreeing with the original statement due to America's wealthiest individuals, the conversations I had with fellow users changed my view. They presented compelling arguments and insightful points, highlighting the importance of looking beyond raw tax figures and understanding how other western countries, like Sweden and France, manage their taxes, finance public services, and provide benefits to their populations. These perspectives opened my eyes to the complex nature of taxation and made me question my initial certainty about the US having",Lean disagree
+,exit_survey,65653C7NJM,,,gender,male,,,,
+,exit_survey,65653C7NJM,,,age,49,,,,
+,exit_survey,65653C7NJM,,,residency,United States of America,,,,
+,exit_survey,65653C7NJM,,,origin,United States of America,,,,
+,exit_survey,65653C7NJM,,,education,some-college,,,,
+,exit_survey,65653C7NJM,,,ethnicity,['white'],,,,
+,exit_survey,65653C7NJM,,,income,25k-50k,,,,
+,exit_survey,65653C7NJM,,,politicalIdentity,other,,,,
+,exit_survey,65653C7NJM,,,politicalViews,liberal,,,,
+,exit_survey,65653C7NJM,,,maritalStatus,living-partner,,,,
+,exit_survey,65653C7NJM,,,childrenSchool,['no-children'],,,,
+,exit_survey,65653C7NJM,,,residence,urban,,,,
+,exit_survey,65653C7NJM,,,bibleBelief,ancient-book,,,,
+,exit_survey,65653C7NJM,,,evangelical,no,,,,
+,exit_survey,65653C7NJM,,,religion,no-religion,,,,
+,exit_survey,65653C7NJM,,,occupation,arts,,,,
+,exit_survey,664cfC7NJM,,,age,36,,,,
+,exit_survey,664cfC7NJM,,,origin,United States of America,,,,
+,exit_survey,664cfC7NJM,,,residency,United States of America,,,,
+,exit_survey,664cfC7NJM,,,education,high-school,,,,
+,exit_survey,664cfC7NJM,,,gender,female,,,,
+,exit_survey,664cfC7NJM,,,ethnicity,['white'],,,,
+,exit_survey,664cfC7NJM,,,politicalIdentity,independent,,,,
+,exit_survey,664cfC7NJM,,,politicalViews,moderate,,,,
+,exit_survey,664cfC7NJM,,,maritalStatus,living-partner,,,,
+,exit_survey,664cfC7NJM,,,childrenSchool,['public'],,,,
+,exit_survey,664cfC7NJM,,,residence,rural,,,,
+,exit_survey,664cfC7NJM,,,bibleBelief,inspired,,,,
+,exit_survey,664cfC7NJM,,,evangelical,yes,,,,
+,exit_survey,664cfC7NJM,,,occupation,health-care,,,,
+,exit_survey,664cfC7NJM,,,religion,other-christian,,,,
+,exit_survey,664cfC7NJM,,,income,25k-50k,,,,
+,exit_survey,67d87C7NJM,,,age,43,,,,
+,exit_survey,67d87C7NJM,,,gender,female,,,,
+,exit_survey,67d87C7NJM,,,residency,United States of America,,,,
+,exit_survey,67d87C7NJM,,,origin,United States of America,,,,
+,exit_survey,67d87C7NJM,,,ethnicity,['white'],,,,
+,exit_survey,67d87C7NJM,,,income,150k-200k,,,,
+,exit_survey,67d87C7NJM,,,politicalIdentity,independent,,,,
+,exit_survey,67d87C7NJM,,,politicalViews,moderate,,,,
+,exit_survey,67d87C7NJM,,,maritalStatus,married,,,,
+,exit_survey,67d87C7NJM,,,childrenSchool,['private'],,,,
+,exit_survey,67d87C7NJM,,,residence,urban,,,,
+,exit_survey,67d87C7NJM,,,bibleBelief,literal,,,,
+,exit_survey,67d87C7NJM,,,evangelical,yes,,,,
+,exit_survey,67d87C7NJM,,,religion,roman-catholic,,,,
+,exit_survey,67d87C7NJM,,,occupation,health-care,,,,
+,exit_survey,67d87C7NJM,,,education,master-doctoral,,,,
+,exit_survey,67d8cC7NJM,,,age,29,,,,
+,exit_survey,67d8cC7NJM,,,gender,female,,,,
+,exit_survey,67d8cC7NJM,,,origin,United States of America,,,,
+,exit_survey,67d8cC7NJM,,,ethnicity,['white'],,,,
+,exit_survey,67d8cC7NJM,,,residency,United States of America,,,,
+,exit_survey,67d8cC7NJM,,,education,master-doctoral,,,,
+,exit_survey,67d8cC7NJM,,,income,50k-75k,,,,
+,exit_survey,67d8cC7NJM,,,politicalIdentity,republican,,,,
+,exit_survey,67d8cC7NJM,,,politicalViews,conservative,,,,
+,exit_survey,67d8cC7NJM,,,maritalStatus,married,,,,
+,exit_survey,67d8cC7NJM,,,childrenSchool,['no-children'],,,,
+,exit_survey,67d8cC7NJM,,,residence,suburban,,,,
+,exit_survey,67d8cC7NJM,,,bibleBelief,inspired,,,,
+,exit_survey,67d8cC7NJM,,,evangelical,yes,,,,
+,exit_survey,67d8cC7NJM,,,religion,protestant,,,,
+,exit_survey,67d8cC7NJM,,,occupation,research,,,,
+,exit_survey,65653C7NJM,,,gender,male,,,,
+,exit_survey,65653C7NJM,,,age,49,,,,
+,exit_survey,65653C7NJM,,,residency,United States of America,,,,
+,exit_survey,65653C7NJM,,,origin,United States of America,,,,
+,exit_survey,65653C7NJM,,,education,some-college,,,,
+,exit_survey,65653C7NJM,,,ethnicity,['white'],,,,
+,exit_survey,65653C7NJM,,,income,25k-50k,,,,
+,exit_survey,65653C7NJM,,,politicalIdentity,other,,,,
+,exit_survey,65653C7NJM,,,politicalViews,liberal,,,,
+,exit_survey,65653C7NJM,,,maritalStatus,living-partner,,,,
+,exit_survey,65653C7NJM,,,childrenSchool,['no-children'],,,,
+,exit_survey,65653C7NJM,,,residence,urban,,,,
+,exit_survey,65653C7NJM,,,bibleBelief,ancient-book,,,,
+,exit_survey,65653C7NJM,,,evangelical,no,,,,
+,exit_survey,65653C7NJM,,,religion,no-religion,,,,
+,exit_survey,65653C7NJM,,,occupation,arts,,,,
+,exit_survey,664cfC7NJM,,,age,36,,,,
+,exit_survey,664cfC7NJM,,,origin,United States of America,,,,
+,exit_survey,664cfC7NJM,,,residency,United States of America,,,,
+,exit_survey,664cfC7NJM,,,education,high-school,,,,
+,exit_survey,664cfC7NJM,,,gender,female,,,,
+,exit_survey,664cfC7NJM,,,ethnicity,['white'],,,,
+,exit_survey,664cfC7NJM,,,politicalIdentity,independent,,,,
+,exit_survey,664cfC7NJM,,,politicalViews,moderate,,,,
+,exit_survey,664cfC7NJM,,,maritalStatus,living-partner,,,,
+,exit_survey,664cfC7NJM,,,childrenSchool,['public'],,,,
+,exit_survey,664cfC7NJM,,,residence,rural,,,,
+,exit_survey,664cfC7NJM,,,bibleBelief,inspired,,,,
+,exit_survey,664cfC7NJM,,,evangelical,yes,,,,
+,exit_survey,664cfC7NJM,,,occupation,health-care,,,,
+,exit_survey,664cfC7NJM,,,religion,other-christian,,,,
+,exit_survey,664cfC7NJM,,,income,25k-50k,,,,
+,exit_survey,67d87C7NJM,,,age,43,,,,
+,exit_survey,67d87C7NJM,,,gender,female,,,,
+,exit_survey,67d87C7NJM,,,residency,United States of America,,,,
+,exit_survey,67d87C7NJM,,,origin,United States of America,,,,
+,exit_survey,67d87C7NJM,,,ethnicity,['white'],,,,
+,exit_survey,67d87C7NJM,,,income,150k-200k,,,,
+,exit_survey,67d87C7NJM,,,politicalIdentity,independent,,,,
+,exit_survey,67d87C7NJM,,,politicalViews,moderate,,,,
+,exit_survey,67d87C7NJM,,,maritalStatus,married,,,,
+,exit_survey,67d87C7NJM,,,childrenSchool,['private'],,,,
+,exit_survey,67d87C7NJM,,,residence,urban,,,,
+,exit_survey,67d87C7NJM,,,bibleBelief,literal,,,,
+,exit_survey,67d87C7NJM,,,evangelical,yes,,,,
+,exit_survey,67d87C7NJM,,,religion,roman-catholic,,,,
+,exit_survey,67d87C7NJM,,,occupation,health-care,,,,
+,exit_survey,67d87C7NJM,,,education,master-doctoral,,,,
+,exit_survey,67d8cC7NJM,,,age,29,,,,
+,exit_survey,67d8cC7NJM,,,gender,female,,,,
+,exit_survey,67d8cC7NJM,,,origin,United States of America,,,,
+,exit_survey,67d8cC7NJM,,,ethnicity,['white'],,,,
+,exit_survey,67d8cC7NJM,,,residency,United States of America,,,,
+,exit_survey,67d8cC7NJM,,,education,master-doctoral,,,,
+,exit_survey,67d8cC7NJM,,,income,50k-75k,,,,
+,exit_survey,67d8cC7NJM,,,politicalIdentity,republican,,,,
+,exit_survey,67d8cC7NJM,,,politicalViews,conservative,,,,
+,exit_survey,67d8cC7NJM,,,maritalStatus,married,,,,
+,exit_survey,67d8cC7NJM,,,childrenSchool,['no-children'],,,,
+,exit_survey,67d8cC7NJM,,,residence,suburban,,,,
+,exit_survey,67d8cC7NJM,,,bibleBelief,inspired,,,,
+,exit_survey,67d8cC7NJM,,,evangelical,yes,,,,
+,exit_survey,67d8cC7NJM,,,religion,protestant,,,,
+,exit_survey,67d8cC7NJM,,,occupation,research,,,,

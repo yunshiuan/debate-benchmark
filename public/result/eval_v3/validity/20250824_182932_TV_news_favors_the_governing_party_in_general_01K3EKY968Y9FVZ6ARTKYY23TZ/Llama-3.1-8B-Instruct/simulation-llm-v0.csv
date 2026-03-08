@@ -1,72 +1,72 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,61705Y23TZ,,,,I think it depends on the new station you watch. I think being cordial comes across as favoring sometimes,18:06:57.382000 2025:08:24,I think it depends on the new station you watch. I think being cordial comes across as favoring sometimes,
-,Initial Opinion,66775Y23TZ,,,,"I do believe that often the ruling party is often the ones who are dominant in the media, but I do not believe this too be anything too out of the ordinary.",18:06:58.345000 2025:08:24,"I do believe that often the ruling party is often the ones who are dominant in the media, but I do not believe this too be anything too out of the ordinary.",
-,Initial Opinion,60fa2Y23TZ,,,,I somehow agree that Tv news favors the governing party in general because they are afraid of the governing party,18:07:27.348000 2025:08:24,I somehow agree that Tv news favors the governing party in general because they are afraid of the governing party,
-,Initial Opinion,67e97Y23TZ,,,,Agree.Tv news favours the governing party especially in states where media outlet is,18:07:30.237000 2025:08:24,Agree.Tv news favours the governing party especially in states where media outlet is,
-1.0,tweet,66775Y23TZ,66775Y23TZ,67e97Y23TZ,,"No big surprise that TV favors the ruling party, it's just what's going to be reported more often and it helps keep the ruling party in check as they get live time feedback to any major issues or mess-ups that they get down with...",18:09:34.452000 2025:08:24,"No big surprise that TV favors the ruling party, it's just what's going to be reported more often and it helps keep the ruling party in check as they get live time feedback to any major issues or mess-ups that they get down with...",
-1.0,tweet,61705Y23TZ,61705Y23TZ,60fa2Y23TZ,,I can see this happening. I think it will depend on what news program or where one would get their news from. I think being cordial can come across as favoring but favoring is kind of clear cut when you hear it. Sometimes you know the station is in clear favor of the governing pa,18:09:49.835000 2025:08:24,I can see this happening. I think it will depend on what news program or where one would get their news from. I think being cordial can come across as favoring but favoring is kind of clear cut when you hear it. Sometimes you know the station is in clear favor of the governing pa,
-1.0,tweet,60fa2Y23TZ,60fa2Y23TZ,61705Y23TZ,,I think that Tv news favors the governing party in general because i feel they are afraid of the governing party. The governing party can harm them by passing motions that scare them away or reduce their seriousness in news,18:09:50.456000 2025:08:24,I think that Tv news favors the governing party in general because i feel they are afraid of the governing party. The governing party can harm them by passing motions that scare them away or reduce their seriousness in news,
-1.0,tweet,67e97Y23TZ,67e97Y23TZ,66775Y23TZ,,i believe there is true to the idea that TV news often favours the governing party. Whether through direct influence,18:09:50.456000 2025:08:24,i believe there is true to the idea that TV news often favours the governing party. Whether through direct influence,
-1.0,message_sent,61705Y23TZ,61705Y23TZ,60fa2Y23TZ,,Oh I so agree with you there,18:10:43.389000 2025:08:24,"In my experience though, I don't often notice much bias against Republicans. If anything, I think the major networks tend to portray them fairly critically at times - maybe even more than Dems. What do you mean specifically by ""afraid"" of the governing party?",
-1.0,message_recieved,60fa2Y23TZ,61705Y23TZ,60fa2Y23TZ,,Oh I so agree with you there,18:10:45.294000 2025:08:24,"In my experience though, I don't often notice much bias against Republicans. If anything, I think the major networks tend to portray them fairly critically at times - maybe even more than Dems. What do you mean specifically by ""afraid"" of the governing party?",
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,61705Y23TZ,,,,I think it depends on the new station you watch. I think being cordial comes across as favoring sometimes,18:06:57.382000 2025:08:24,I think it depends on the new station you watch. I think being cordial comes across as favoring sometimes,,Lean agree
+,Initial Opinion,66775Y23TZ,,,,"I do believe that often the ruling party is often the ones who are dominant in the media, but I do not believe this too be anything too out of the ordinary.",18:06:58.345000 2025:08:24,"I do believe that often the ruling party is often the ones who are dominant in the media, but I do not believe this too be anything too out of the ordinary.",,Probably agree
+,Initial Opinion,60fa2Y23TZ,,,,I somehow agree that Tv news favors the governing party in general because they are afraid of the governing party,18:07:27.348000 2025:08:24,I somehow agree that Tv news favors the governing party in general because they are afraid of the governing party,,Lean agree
+,Initial Opinion,67e97Y23TZ,,,,Agree.Tv news favours the governing party especially in states where media outlet is,18:07:30.237000 2025:08:24,Agree.Tv news favours the governing party especially in states where media outlet is,,Certainly agree
+1.0,tweet,66775Y23TZ,66775Y23TZ,67e97Y23TZ,,"No big surprise that TV favors the ruling party, it's just what's going to be reported more often and it helps keep the ruling party in check as they get live time feedback to any major issues or mess-ups that they get down with...",18:09:34.452000 2025:08:24,"No big surprise that TV favors the ruling party, it's just what's going to be reported more often and it helps keep the ruling party in check as they get live time feedback to any major issues or mess-ups that they get down with...",,Certainly agree
+1.0,tweet,61705Y23TZ,61705Y23TZ,60fa2Y23TZ,,I can see this happening. I think it will depend on what news program or where one would get their news from. I think being cordial can come across as favoring but favoring is kind of clear cut when you hear it. Sometimes you know the station is in clear favor of the governing pa,18:09:49.835000 2025:08:24,I can see this happening. I think it will depend on what news program or where one would get their news from. I think being cordial can come across as favoring but favoring is kind of clear cut when you hear it. Sometimes you know the station is in clear favor of the governing pa,,Lean agree
+1.0,tweet,60fa2Y23TZ,60fa2Y23TZ,61705Y23TZ,,I think that Tv news favors the governing party in general because i feel they are afraid of the governing party. The governing party can harm them by passing motions that scare them away or reduce their seriousness in news,18:09:50.456000 2025:08:24,I think that Tv news favors the governing party in general because i feel they are afraid of the governing party. The governing party can harm them by passing motions that scare them away or reduce their seriousness in news,,Certainly agree
+1.0,tweet,67e97Y23TZ,67e97Y23TZ,66775Y23TZ,,i believe there is true to the idea that TV news often favours the governing party. Whether through direct influence,18:09:50.456000 2025:08:24,i believe there is true to the idea that TV news often favours the governing party. Whether through direct influence,,Probably agree
+1.0,message_sent,61705Y23TZ,61705Y23TZ,60fa2Y23TZ,,Oh I so agree with you there,18:10:43.389000 2025:08:24,"In my experience though, I don't often notice much bias against Republicans. If anything, I think the major networks tend to portray them fairly critically at times - maybe even more than Dems. What do you mean specifically by ""afraid"" of the governing party?",,
+1.0,message_recieved,60fa2Y23TZ,61705Y23TZ,60fa2Y23TZ,,Oh I so agree with you there,18:10:45.294000 2025:08:24,"In my experience though, I don't often notice much bias against Republicans. If anything, I think the major networks tend to portray them fairly critically at times - maybe even more than Dems. What do you mean specifically by ""afraid"" of the governing party?",,
 1.0,message_sent,67e97Y23TZ,67e97Y23TZ,66775Y23TZ,,i am surprised that you too agree that TV favours the government. would yopu share more,18:06:42.800000 2025:08:24,"I've given some thought to our exchange here @667755. While I understand the concept behind your stance that ""it helps keeps the ruling party in check"", my core concern remains centered around the notion that there indeed exists an apparent bias when it comes to coverage regarding the government.
 
-      Are we saying the same thing? Let me know! #tvrulingpartybias",
+      Are we saying the same thing? Let me know! #tvrulingpartybias",,
 1.0,message_recieved,66775Y23TZ,67e97Y23TZ,66775Y23TZ,,i am surprised that you too agree that TV favours the government. would yopu share more,18:11:17.861000 2025:08:24,"I've given some thought to our exchange here @667755. While I understand the concept behind your stance that ""it helps keeps the ruling party in check"", my core concern remains centered around the notion that there indeed exists an apparent bias when it comes to coverage regarding the government.
 
-      Are we saying the same thing? Let me know! #tvrulingpartybias",
-1.0,message_sent,67e97Y23TZ,67e97Y23TZ,66775Y23TZ,,,18:06:42.800000 2025:08:24,,
-1.0,message_recieved,66775Y23TZ,67e97Y23TZ,66775Y23TZ,,,18:11:17.861000 2025:08:24,,
+      Are we saying the same thing? Let me know! #tvrulingpartybias",,
+1.0,message_sent,67e97Y23TZ,67e97Y23TZ,66775Y23TZ,,,18:06:42.800000 2025:08:24,,,
+1.0,message_recieved,66775Y23TZ,67e97Y23TZ,66775Y23TZ,,,18:11:17.861000 2025:08:24,,,
 1.0,message_sent,60fa2Y23TZ,60fa2Y23TZ,61705Y23TZ,,I feel that most of the Tv news favors governing party because the need favors from them,18:11:25.849000 2025:08:24,"When I said the tv news stations were 'afraid', I meant like there could be repercussions either financially or in terms of losing some sort of credibility if they speak too freely against the governing party, which means they try to avoid controversy especially around sensitive issues to keep themselves safe, thus leaning towards the views of those who govern. However, I still believe some of these effects lead to subtle biases towards the ruling political group
 
-In that sense, maybe portraying Democrats less critical isn’t necessarily an example of",
+In that sense, maybe portraying Democrats less critical isn’t necessarily an example of",,
 1.0,message_recieved,61705Y23TZ,60fa2Y23TZ,61705Y23TZ,,I feel that most of the Tv news favors governing party because the need favors from them,18:11:24.375000 2025:08:24,"When I said the tv news stations were 'afraid', I meant like there could be repercussions either financially or in terms of losing some sort of credibility if they speak too freely against the governing party, which means they try to avoid controversy especially around sensitive issues to keep themselves safe, thus leaning towards the views of those who govern. However, I still believe some of these effects lead to subtle biases towards the ruling political group
 
-In that sense, maybe portraying Democrats less critical isn’t necessarily an example of",
+In that sense, maybe portraying Democrats less critical isn’t necessarily an example of",,
 1.0,message_sent,66775Y23TZ,66775Y23TZ,67e97Y23TZ,,"It's just as it is, I was a bit confused on why this was our topic because I was expecting something a bit more divisive A live feed of how the ruling party acts is important to  the everyday citizen keeps things in line and understood",18:12:27.505000 2025:08:24,"I don't think we're completely off base in agreeing on tv favoring the ruling party...But I still think its kinda important for keeping checks on them? We could be giving too much credit tho by assuming bias is always malicious instead of maybe neutral reporting?
 
-        -666775",
+        -666775",,
 1.0,message_recieved,67e97Y23TZ,66775Y23TZ,67e97Y23TZ,,"It's just as it is, I was a bit confused on why this was our topic because I was expecting something a bit more divisive A live feed of how the ruling party acts is important to  the everyday citizen keeps things in line and understood",18:07:53.022000 2025:08:24,"I don't think we're completely off base in agreeing on tv favoring the ruling party...But I still think its kinda important for keeping checks on them? We could be giving too much credit tho by assuming bias is always malicious instead of maybe neutral reporting?
 
-        -666775",
+        -666775",,
 1.0,message_sent,61705Y23TZ,61705Y23TZ,60fa2Y23TZ,,For a governing party that ran and spoke loudly about free speech they aren't living by that. In my opinion,18:12:03.290000 2025:08:24,"That makes me wonder how journalists navigate this delicate balance. Wouldnt objectivity suffer if they're avoiding certain topics altogether? Perhaps its all just part of maintaining trust between media outlets & viewers rather than trying to take sides?
 
-(Note here) Based on our previous conversations, it appears we aren't entirely agreeing on how strong the relationship is between government power and influence exerted over News Channels; however considering we have engaged before I thought to continue asking questions about details instead of debating on whether its true since there",
+(Note here) Based on our previous conversations, it appears we aren't entirely agreeing on how strong the relationship is between government power and influence exerted over News Channels; however considering we have engaged before I thought to continue asking questions about details instead of debating on whether its true since there",,
 1.0,message_recieved,60fa2Y23TZ,61705Y23TZ,60fa2Y23TZ,,For a governing party that ran and spoke loudly about free speech they aren't living by that. In my opinion,18:12:05.216000 2025:08:24,"That makes me wonder how journalists navigate this delicate balance. Wouldnt objectivity suffer if they're avoiding certain topics altogether? Perhaps its all just part of maintaining trust between media outlets & viewers rather than trying to take sides?
 
-(Note here) Based on our previous conversations, it appears we aren't entirely agreeing on how strong the relationship is between government power and influence exerted over News Channels; however considering we have engaged before I thought to continue asking questions about details instead of debating on whether its true since there",
+(Note here) Based on our previous conversations, it appears we aren't entirely agreeing on how strong the relationship is between government power and influence exerted over News Channels; however considering we have engaged before I thought to continue asking questions about details instead of debating on whether its true since there",,
 1.0,message_sent,60fa2Y23TZ,60fa2Y23TZ,61705Y23TZ,,They want their news to be watched by many people and avoid getting into trouble with the ruling party The governing party may provide more favors to the Tv news,18:13:06.405000 2025:08:24,"However, that doesn't exclude possibility that individual news anchors might lean toward specific viewpoints while keeping their overall network somewhat balanced to save face. Its also possible many stories cover the opposing side pretty well as long as that story keeps selling regardless if that particular politician happens to run against another guy you didn't care for last time 
 
-Also, i'm curious, do you find that local coverage versus national coverage tends to display any noticeable difference in terms of handling the relationship with the government",
+Also, i'm curious, do you find that local coverage versus national coverage tends to display any noticeable difference in terms of handling the relationship with the government",,
 1.0,message_recieved,61705Y23TZ,60fa2Y23TZ,61705Y23TZ,,They want their news to be watched by many people and avoid getting into trouble with the ruling party The governing party may provide more favors to the Tv news,18:13:04.929000 2025:08:24,"However, that doesn't exclude possibility that individual news anchors might lean toward specific viewpoints while keeping their overall network somewhat balanced to save face. Its also possible many stories cover the opposing side pretty well as long as that story keeps selling regardless if that particular politician happens to run against another guy you didn't care for last time 
 
-Also, i'm curious, do you find that local coverage versus national coverage tends to display any noticeable difference in terms of handling the relationship with the government",
-1.0,message_sent,66775Y23TZ,66775Y23TZ,67e97Y23TZ,,,18:12:27.505000 2025:08:24,,
-1.0,message_recieved,67e97Y23TZ,66775Y23TZ,67e97Y23TZ,,,18:07:53.022000 2025:08:24,,
+Also, i'm curious, do you find that local coverage versus national coverage tends to display any noticeable difference in terms of handling the relationship with the government",,
+1.0,message_sent,66775Y23TZ,66775Y23TZ,67e97Y23TZ,,,18:12:27.505000 2025:08:24,,,
+1.0,message_recieved,67e97Y23TZ,66775Y23TZ,67e97Y23TZ,,,18:07:53.022000 2025:08:24,,,
 1.0,message_sent,67e97Y23TZ,67e97Y23TZ,66775Y23TZ,,I like the topic because most of the coverage is usually state-controlled,18:08:15.312000 2025:08:24,"While I appreciate your nuance on 'neutral' vs'malicious',I respectfully need clarification on how one does not attribute inherent value judgment towards political topics with objective neutrality as the primary goal, thus creating space for subjective interpretation to thrive within factual reportage of events?
-   #tvnewsneutralityquestioned #fairnessoverfacts",
+   #tvnewsneutralityquestioned #fairnessoverfacts",,
 1.0,message_recieved,66775Y23TZ,67e97Y23TZ,66775Y23TZ,,I like the topic because most of the coverage is usually state-controlled,18:12:50.371000 2025:08:24,"While I appreciate your nuance on 'neutral' vs'malicious',I respectfully need clarification on how one does not attribute inherent value judgment towards political topics with objective neutrality as the primary goal, thus creating space for subjective interpretation to thrive within factual reportage of events?
-   #tvnewsneutralityquestioned #fairnessoverfacts",
-1.0,message_sent,60fa2Y23TZ,60fa2Y23TZ,61705Y23TZ,,,18:13:06.405000 2025:08:24,,
-1.0,message_recieved,61705Y23TZ,60fa2Y23TZ,61705Y23TZ,,,18:13:04.929000 2025:08:24,,
+   #tvnewsneutralityquestioned #fairnessoverfacts",,
+1.0,message_sent,60fa2Y23TZ,60fa2Y23TZ,61705Y23TZ,,,18:13:06.405000 2025:08:24,,,
+1.0,message_recieved,61705Y23TZ,60fa2Y23TZ,61705Y23TZ,,,18:13:04.929000 2025:08:24,,,
 1.0,message_sent,61705Y23TZ,61705Y23TZ,60fa2Y23TZ,,Yes I think they would Well I think the news at least thinks like that. I agree with you,18:13:43.736000 2025:08:24,"     For instance, a lot of the local reporting we've seen in recent years seems very straightforward - focusing primarily on facts without excessive analysis. But beyond those surface-level reports, perhaps there's also pressure coming down from higher-ups to steer clear of more contentious topics or controversies involving powerful officials. With regards to TV news in America right now, this creates an interesting dynamic, does it seem to you that national networks walk a fine line between appearing impartial and actually engaging with tough subjects that impact millions?
 
-   ",
+   ",,
 1.0,message_recieved,60fa2Y23TZ,61705Y23TZ,60fa2Y23TZ,,Yes I think they would Well I think the news at least thinks like that. I agree with you,18:13:45.630000 2025:08:24,"     For instance, a lot of the local reporting we've seen in recent years seems very straightforward - focusing primarily on facts without excessive analysis. But beyond those surface-level reports, perhaps there's also pressure coming down from higher-ups to steer clear of more contentious topics or controversies involving powerful officials. With regards to TV news in America right now, this creates an interesting dynamic, does it seem to you that national networks walk a fine line between appearing impartial and actually engaging with tough subjects that impact millions?
 
-   ",
-1.0,message_sent,66775Y23TZ,66775Y23TZ,67e97Y23TZ,,"Which there sometimes a problem is laid, an absence of non-partisan coverage is needed a lot of the time",18:13:40.306000 2025:08:24,"To say there isn’t a bias because journalists might genuinely attempt objectivity doesn’t mean every viewer reads/interprets info without applying their own biases. Journalists’ professionalism won’t shield viewers like myself from being swayed towards particular ideologies; these same ideologies those parties put forth already exist across demographics even before journalists start writing articles. What I think matters most now is knowing whether our choices align w/ certain values over actual truth presented by newscasters, rather than focusing purely on facts presented – which",
-1.0,message_recieved,67e97Y23TZ,66775Y23TZ,67e97Y23TZ,,"Which there sometimes a problem is laid, an absence of non-partisan coverage is needed a lot of the time",18:09:05.823000 2025:08:24,"To say there isn’t a bias because journalists might genuinely attempt objectivity doesn’t mean every viewer reads/interprets info without applying their own biases. Journalists’ professionalism won’t shield viewers like myself from being swayed towards particular ideologies; these same ideologies those parties put forth already exist across demographics even before journalists start writing articles. What I think matters most now is knowing whether our choices align w/ certain values over actual truth presented by newscasters, rather than focusing purely on facts presented – which",
-1.0,message_sent,61705Y23TZ,61705Y23TZ,60fa2Y23TZ,,,18:13:43.736000 2025:08:24,,
-1.0,message_recieved,60fa2Y23TZ,61705Y23TZ,60fa2Y23TZ,,,18:13:45.630000 2025:08:24,,
-2.0,tweet,67e97Y23TZ,67e97Y23TZ,61705Y23TZ,,coverage mostly lies to those in power.,18:11:09.673000 2025:08:24,     I strongly Believe TV News Favors The Governing Party Despite Some Neutral Reporting. Objectivity Is Often Challenged When Factual Reportage Meets Personal Values & Ideologies That Influence How Stories Are Interpreted By Viewers Like Ourselves #TVAudienceBiasExists,
-2.0,tweet,66775Y23TZ,66775Y23TZ,60fa2Y23TZ,,"The ruling party being the focus of most newscastings is important for keeping the public up to date on current events as well as allowing for the said party to get feedback live to their decisions and choices, the good ones and the bad ones",18:15:49.852000 2025:08:24,"TVs & media shape public discourse, right? Given all that,do you really think tv NEWS plays *that* clean, totally impartial role? Like, actually believing in complete separation between FACTS & OPINION? Asking genuine questions here, friend. Come at me with your thoughts!",
-2.0,tweet,61705Y23TZ,61705Y23TZ,67e97Y23TZ,,I think it is possibly true. The news wants to make sure they don't ruffle to many feathers especially because of funding and things of that nature. It also depends on what news station you watch or where one gets their news from.,18:16:05.500000 2025:08:24,"It seems difficult to prove definitively that #tvnews leans heavily toward the party currently holding office... Maybe regional differences matter, e.g., smaller markets vs larger metro areas, city vs country-side. Could nuances vary greatly depending on source & viewer perceptions?",
-2.0,tweet,60fa2Y23TZ,60fa2Y23TZ,66775Y23TZ,,The Tv news favors the governing party but not in general it depends on which TV news. Some do favors the governing party while others do not.,18:16:31.041000 2025:08:24,"TV NEWS FAVORS THE GOVT PARTY IN GEN Due to fear of retribution, repercussions like financial losses or damaged cred & loss of public trust; subtly inclining towrds gov't favorable coverage despite claimd objektivty #tvnews #governingparty",
-2.0,message_sent,61705Y23TZ,61705Y23TZ,67e97Y23TZ,,News can be sketchy to watch sometimes.  It changes from station to station is kind of sad in away,18:17:32.266000 2025:08:24,"That’s quite telling indeed. Do you think viewers typically recognize when their personal values and ideologies subtly influence how stories are interpreted by media sources? Or else wouldn’t we just assume it's objective info always?, And, given our differing opinions earlier, do you think having varying perspectives helps bring forward better coverage despite the supposed ‘favoritism’, possibly creating richer narratives and more well-rounded debates?.",
-2.0,message_recieved,67e97Y23TZ,61705Y23TZ,67e97Y23TZ,,News can be sketchy to watch sometimes.  It changes from station to station is kind of sad in away,18:12:57.257000 2025:08:24,"That’s quite telling indeed. Do you think viewers typically recognize when their personal values and ideologies subtly influence how stories are interpreted by media sources? Or else wouldn’t we just assume it's objective info always?, And, given our differing opinions earlier, do you think having varying perspectives helps bring forward better coverage despite the supposed ‘favoritism’, possibly creating richer narratives and more well-rounded debates?.",
-2.0,message_sent,67e97Y23TZ,67e97Y23TZ,61705Y23TZ,,"i agree with you ,this happens even in states where there is press protection.This happen because mostly the media is state-controlled",18:13:52.376000 2025:08:24,"After reading  your thoughts on regional differences playing a part in nuanced narratives & interpretations of the media landscape. While acknowledging variations between regions and their potential impact on news consumption, I must insist that systemic bias can manifest regardless of geographical locations; merely relying on regional differentiation overlooks overarching structural components within established institutions such as journalism itself. This leads me back to questioning the degree of inherent subjectivism allowed to creep into the way factual reports unfold under personal ideological influences that intersect with professional pursuits, essentially complicating fact",
-2.0,message_recieved,61705Y23TZ,67e97Y23TZ,61705Y23TZ,,"i agree with you ,this happens even in states where there is press protection.This happen because mostly the media is state-controlled",18:18:27.886000 2025:08:24,"After reading  your thoughts on regional differences playing a part in nuanced narratives & interpretations of the media landscape. While acknowledging variations between regions and their potential impact on news consumption, I must insist that systemic bias can manifest regardless of geographical locations; merely relying on regional differentiation overlooks overarching structural components within established institutions such as journalism itself. This leads me back to questioning the degree of inherent subjectivism allowed to creep into the way factual reports unfold under personal ideological influences that intersect with professional pursuits, essentially complicating fact",
+   ",,
+1.0,message_sent,66775Y23TZ,66775Y23TZ,67e97Y23TZ,,"Which there sometimes a problem is laid, an absence of non-partisan coverage is needed a lot of the time",18:13:40.306000 2025:08:24,"To say there isn’t a bias because journalists might genuinely attempt objectivity doesn’t mean every viewer reads/interprets info without applying their own biases. Journalists’ professionalism won’t shield viewers like myself from being swayed towards particular ideologies; these same ideologies those parties put forth already exist across demographics even before journalists start writing articles. What I think matters most now is knowing whether our choices align w/ certain values over actual truth presented by newscasters, rather than focusing purely on facts presented – which",,
+1.0,message_recieved,67e97Y23TZ,66775Y23TZ,67e97Y23TZ,,"Which there sometimes a problem is laid, an absence of non-partisan coverage is needed a lot of the time",18:09:05.823000 2025:08:24,"To say there isn’t a bias because journalists might genuinely attempt objectivity doesn’t mean every viewer reads/interprets info without applying their own biases. Journalists’ professionalism won’t shield viewers like myself from being swayed towards particular ideologies; these same ideologies those parties put forth already exist across demographics even before journalists start writing articles. What I think matters most now is knowing whether our choices align w/ certain values over actual truth presented by newscasters, rather than focusing purely on facts presented – which",,
+1.0,message_sent,61705Y23TZ,61705Y23TZ,60fa2Y23TZ,,,18:13:43.736000 2025:08:24,,,
+1.0,message_recieved,60fa2Y23TZ,61705Y23TZ,60fa2Y23TZ,,,18:13:45.630000 2025:08:24,,,
+2.0,tweet,67e97Y23TZ,67e97Y23TZ,61705Y23TZ,,coverage mostly lies to those in power.,18:11:09.673000 2025:08:24,     I strongly Believe TV News Favors The Governing Party Despite Some Neutral Reporting. Objectivity Is Often Challenged When Factual Reportage Meets Personal Values & Ideologies That Influence How Stories Are Interpreted By Viewers Like Ourselves #TVAudienceBiasExists,,Certainly agree
+2.0,tweet,66775Y23TZ,66775Y23TZ,60fa2Y23TZ,,"The ruling party being the focus of most newscastings is important for keeping the public up to date on current events as well as allowing for the said party to get feedback live to their decisions and choices, the good ones and the bad ones",18:15:49.852000 2025:08:24,"TVs & media shape public discourse, right? Given all that,do you really think tv NEWS plays *that* clean, totally impartial role? Like, actually believing in complete separation between FACTS & OPINION? Asking genuine questions here, friend. Come at me with your thoughts!",,Lean agree
+2.0,tweet,61705Y23TZ,61705Y23TZ,67e97Y23TZ,,I think it is possibly true. The news wants to make sure they don't ruffle to many feathers especially because of funding and things of that nature. It also depends on what news station you watch or where one gets their news from.,18:16:05.500000 2025:08:24,"It seems difficult to prove definitively that #tvnews leans heavily toward the party currently holding office... Maybe regional differences matter, e.g., smaller markets vs larger metro areas, city vs country-side. Could nuances vary greatly depending on source & viewer perceptions?",,Lean disagree
+2.0,tweet,60fa2Y23TZ,60fa2Y23TZ,66775Y23TZ,,The Tv news favors the governing party but not in general it depends on which TV news. Some do favors the governing party while others do not.,18:16:31.041000 2025:08:24,"TV NEWS FAVORS THE GOVT PARTY IN GEN Due to fear of retribution, repercussions like financial losses or damaged cred & loss of public trust; subtly inclining towrds gov't favorable coverage despite claimd objektivty #tvnews #governingparty",,Certainly agree
+2.0,message_sent,61705Y23TZ,61705Y23TZ,67e97Y23TZ,,News can be sketchy to watch sometimes.  It changes from station to station is kind of sad in away,18:17:32.266000 2025:08:24,"That’s quite telling indeed. Do you think viewers typically recognize when their personal values and ideologies subtly influence how stories are interpreted by media sources? Or else wouldn’t we just assume it's objective info always?, And, given our differing opinions earlier, do you think having varying perspectives helps bring forward better coverage despite the supposed ‘favoritism’, possibly creating richer narratives and more well-rounded debates?.",,
+2.0,message_recieved,67e97Y23TZ,61705Y23TZ,67e97Y23TZ,,News can be sketchy to watch sometimes.  It changes from station to station is kind of sad in away,18:12:57.257000 2025:08:24,"That’s quite telling indeed. Do you think viewers typically recognize when their personal values and ideologies subtly influence how stories are interpreted by media sources? Or else wouldn’t we just assume it's objective info always?, And, given our differing opinions earlier, do you think having varying perspectives helps bring forward better coverage despite the supposed ‘favoritism’, possibly creating richer narratives and more well-rounded debates?.",,
+2.0,message_sent,67e97Y23TZ,67e97Y23TZ,61705Y23TZ,,"i agree with you ,this happens even in states where there is press protection.This happen because mostly the media is state-controlled",18:13:52.376000 2025:08:24,"After reading  your thoughts on regional differences playing a part in nuanced narratives & interpretations of the media landscape. While acknowledging variations between regions and their potential impact on news consumption, I must insist that systemic bias can manifest regardless of geographical locations; merely relying on regional differentiation overlooks overarching structural components within established institutions such as journalism itself. This leads me back to questioning the degree of inherent subjectivism allowed to creep into the way factual reports unfold under personal ideological influences that intersect with professional pursuits, essentially complicating fact",,
+2.0,message_recieved,61705Y23TZ,67e97Y23TZ,61705Y23TZ,,"i agree with you ,this happens even in states where there is press protection.This happen because mostly the media is state-controlled",18:18:27.886000 2025:08:24,"After reading  your thoughts on regional differences playing a part in nuanced narratives & interpretations of the media landscape. While acknowledging variations between regions and their potential impact on news consumption, I must insist that systemic bias can manifest regardless of geographical locations; merely relying on regional differentiation overlooks overarching structural components within established institutions such as journalism itself. This leads me back to questioning the degree of inherent subjectivism allowed to creep into the way factual reports unfold under personal ideological influences that intersect with professional pursuits, essentially complicating fact",,
 2.0,message_sent,60fa2Y23TZ,60fa2Y23TZ,66775Y23TZ,,Some TV news favors the governing party but not all of them some do not favor the governing party which is quit recommedable,18:18:35.494000 2025:08:24,"When thinking back about what others mentioned earlier regarding the media navigating a complex balancing act, having multiple perspectives considered allows readers/listeners stay informed & aware that diverse groups exist within society. Still, sometimes relying on traditional sources leaves us uncertain what additional contexts we should bring into view, like social justice elements often found outside core narratives. Having such awareness helps strengthen ties btwn communities via shared knowledge & mutual aid.
 
 
@@ -75,7 +75,7 @@ My final answer was : **Lean Agree**
 
 
 
-The reason behind my conclusion: Since I started",
+The reason behind my conclusion: Since I started",,
 2.0,message_recieved,66775Y23TZ,60fa2Y23TZ,66775Y23TZ,,Some TV news favors the governing party but not all of them some do not favor the governing party which is quit recommedable,18:18:33.575000 2025:08:24,"When thinking back about what others mentioned earlier regarding the media navigating a complex balancing act, having multiple perspectives considered allows readers/listeners stay informed & aware that diverse groups exist within society. Still, sometimes relying on traditional sources leaves us uncertain what additional contexts we should bring into view, like social justice elements often found outside core narratives. Having such awareness helps strengthen ties btwn communities via shared knowledge & mutual aid.
 
 
@@ -84,258 +84,258 @@ My final answer was : **Lean Agree**
 
 
 
-The reason behind my conclusion: Since I started",
+The reason behind my conclusion: Since I started",,
 2.0,message_sent,66775Y23TZ,66775Y23TZ,60fa2Y23TZ,,I agree as well with that. The real trouble lays with what news events are being discussed and their lack of (or abundance) of partiscan-ship partisan*-ship,18:19:18.258000 2025:08:24,"When discussing the relationship between television news and their representation of various ideologies, I couldn't help but notice parallels drawn from our previous conversations about the delicate balance between neutrality and fairness in journalism. One possible argument posits that TV NEWS adheres to the ideal of separating fact from opinion due to an underlying commitment to delivering unbiased information.
 
-However, conversely, concerns arise pointing towards implicit pressures faced by journalists—perhaps stemming from institutional expectations—to ensure continued funding streams and prevent potential backlash against them or their platforms.",
+However, conversely, concerns arise pointing towards implicit pressures faced by journalists—perhaps stemming from institutional expectations—to ensure continued funding streams and prevent potential backlash against them or their platforms.",,
 2.0,message_recieved,60fa2Y23TZ,66775Y23TZ,60fa2Y23TZ,,I agree as well with that. The real trouble lays with what news events are being discussed and their lack of (or abundance) of partiscan-ship partisan*-ship,18:19:20.605000 2025:08:24,"When discussing the relationship between television news and their representation of various ideologies, I couldn't help but notice parallels drawn from our previous conversations about the delicate balance between neutrality and fairness in journalism. One possible argument posits that TV NEWS adheres to the ideal of separating fact from opinion due to an underlying commitment to delivering unbiased information.
 
-However, conversely, concerns arise pointing towards implicit pressures faced by journalists—perhaps stemming from institutional expectations—to ensure continued funding streams and prevent potential backlash against them or their platforms.",
-2.0,message_sent,61705Y23TZ,61705Y23TZ,67e97Y23TZ,,I wish they just focus on the news and not be so biased.,18:19:05.922000 2025:08:24,"While reflecting upon our exchange, it strikes me that you emphasize system-wide bias influencing journalistic decisions. Does this suggest to you that efforts aimed at promoting objectivity – e.g., training programs or editorial boards emphasizing transparency – wouldn't be effective unless tackling ingrained institutional challenges first?",
-2.0,message_recieved,67e97Y23TZ,61705Y23TZ,67e97Y23TZ,,I wish they just focus on the news and not be so biased.,18:14:30.961000 2025:08:24,"While reflecting upon our exchange, it strikes me that you emphasize system-wide bias influencing journalistic decisions. Does this suggest to you that efforts aimed at promoting objectivity – e.g., training programs or editorial boards emphasizing transparency – wouldn't be effective unless tackling ingrained institutional challenges first?",
+However, conversely, concerns arise pointing towards implicit pressures faced by journalists—perhaps stemming from institutional expectations—to ensure continued funding streams and prevent potential backlash against them or their platforms.",,
+2.0,message_sent,61705Y23TZ,61705Y23TZ,67e97Y23TZ,,I wish they just focus on the news and not be so biased.,18:19:05.922000 2025:08:24,"While reflecting upon our exchange, it strikes me that you emphasize system-wide bias influencing journalistic decisions. Does this suggest to you that efforts aimed at promoting objectivity – e.g., training programs or editorial boards emphasizing transparency – wouldn't be effective unless tackling ingrained institutional challenges first?",,
+2.0,message_recieved,67e97Y23TZ,61705Y23TZ,67e97Y23TZ,,I wish they just focus on the news and not be so biased.,18:14:30.961000 2025:08:24,"While reflecting upon our exchange, it strikes me that you emphasize system-wide bias influencing journalistic decisions. Does this suggest to you that efforts aimed at promoting objectivity – e.g., training programs or editorial boards emphasizing transparency – wouldn't be effective unless tackling ingrained institutional challenges first?",,
 2.0,message_sent,67e97Y23TZ,67e97Y23TZ,61705Y23TZ,,I know especially in numbers they have different numbers. I agree with you,18:15:01.520000 2025:08:24,"     Absolutely right, addressing root problems requires holistic approaches incorporating diverse solutions beyond typical short-term remedies that seem appealing yet lack staying power or significant lasting impacts in driving meaningful change.
 
 Let me correct that for clarity
-     So, if you were wondering, after carefully considering 6170S'S comments during this ongoing discussion I find myself leaning closer to acknowledging a reality suggesting there certainly appears to exist instances of genuine attempts at correcting intrinsic inclinations amongst specific segments involved in shaping public awareness via mass communication. However my",
+     So, if you were wondering, after carefully considering 6170S'S comments during this ongoing discussion I find myself leaning closer to acknowledging a reality suggesting there certainly appears to exist instances of genuine attempts at correcting intrinsic inclinations amongst specific segments involved in shaping public awareness via mass communication. However my",,
 2.0,message_recieved,61705Y23TZ,67e97Y23TZ,61705Y23TZ,,I know especially in numbers they have different numbers. I agree with you,18:19:37.041000 2025:08:24,"     Absolutely right, addressing root problems requires holistic approaches incorporating diverse solutions beyond typical short-term remedies that seem appealing yet lack staying power or significant lasting impacts in driving meaningful change.
 
 Let me correct that for clarity
-     So, if you were wondering, after carefully considering 6170S'S comments during this ongoing discussion I find myself leaning closer to acknowledging a reality suggesting there certainly appears to exist instances of genuine attempts at correcting intrinsic inclinations amongst specific segments involved in shaping public awareness via mass communication. However my",
-2.0,message_sent,66775Y23TZ,66775Y23TZ,60fa2Y23TZ,,,18:19:18.258000 2025:08:24,,
-2.0,message_recieved,60fa2Y23TZ,66775Y23TZ,60fa2Y23TZ,,,18:19:20.605000 2025:08:24,,
-2.0,message_sent,67e97Y23TZ,67e97Y23TZ,61705Y23TZ,,,18:15:01.520000 2025:08:24,,
-2.0,message_recieved,61705Y23TZ,67e97Y23TZ,61705Y23TZ,,,18:19:37.041000 2025:08:24,,
-2.0,message_sent,60fa2Y23TZ,60fa2Y23TZ,66775Y23TZ,,I some TV news do favor this governing party to get favors and  for their personal benefit,18:19:41.837000 2025:08:24,"Yes, after engaging with both 61775 and 61785, reading numerous points from both parties presented valuable insights for further discussion. Upon reflection,what stood out most is the apparent truth behind implied pressures TVNEWS faces and the complexities involved. Considering several examples given, including the delicate balance maintained amidst potentially charged situations. This raises legitimate concern: Does the industry put forth truthful efforts of providing fair accounts by allowing the voice of every citizen heard irrespective of their background? Or are these subtleties indeed",
-2.0,message_recieved,66775Y23TZ,60fa2Y23TZ,66775Y23TZ,,I some TV news do favor this governing party to get favors and  for their personal benefit,18:19:39.909000 2025:08:24,"Yes, after engaging with both 61775 and 61785, reading numerous points from both parties presented valuable insights for further discussion. Upon reflection,what stood out most is the apparent truth behind implied pressures TVNEWS faces and the complexities involved. Considering several examples given, including the delicate balance maintained amidst potentially charged situations. This raises legitimate concern: Does the industry put forth truthful efforts of providing fair accounts by allowing the voice of every citizen heard irrespective of their background? Or are these subtleties indeed",
+     So, if you were wondering, after carefully considering 6170S'S comments during this ongoing discussion I find myself leaning closer to acknowledging a reality suggesting there certainly appears to exist instances of genuine attempts at correcting intrinsic inclinations amongst specific segments involved in shaping public awareness via mass communication. However my",,
+2.0,message_sent,66775Y23TZ,66775Y23TZ,60fa2Y23TZ,,,18:19:18.258000 2025:08:24,,,
+2.0,message_recieved,60fa2Y23TZ,66775Y23TZ,60fa2Y23TZ,,,18:19:20.605000 2025:08:24,,,
+2.0,message_sent,67e97Y23TZ,67e97Y23TZ,61705Y23TZ,,,18:15:01.520000 2025:08:24,,,
+2.0,message_recieved,61705Y23TZ,67e97Y23TZ,61705Y23TZ,,,18:19:37.041000 2025:08:24,,,
+2.0,message_sent,60fa2Y23TZ,60fa2Y23TZ,66775Y23TZ,,I some TV news do favor this governing party to get favors and  for their personal benefit,18:19:41.837000 2025:08:24,"Yes, after engaging with both 61775 and 61785, reading numerous points from both parties presented valuable insights for further discussion. Upon reflection,what stood out most is the apparent truth behind implied pressures TVNEWS faces and the complexities involved. Considering several examples given, including the delicate balance maintained amidst potentially charged situations. This raises legitimate concern: Does the industry put forth truthful efforts of providing fair accounts by allowing the voice of every citizen heard irrespective of their background? Or are these subtleties indeed",,
+2.0,message_recieved,66775Y23TZ,60fa2Y23TZ,66775Y23TZ,,I some TV news do favor this governing party to get favors and  for their personal benefit,18:19:39.909000 2025:08:24,"Yes, after engaging with both 61775 and 61785, reading numerous points from both parties presented valuable insights for further discussion. Upon reflection,what stood out most is the apparent truth behind implied pressures TVNEWS faces and the complexities involved. Considering several examples given, including the delicate balance maintained amidst potentially charged situations. This raises legitimate concern: Does the industry put forth truthful efforts of providing fair accounts by allowing the voice of every citizen heard irrespective of their background? Or are these subtleties indeed",,
 2.0,message_sent,61705Y23TZ,61705Y23TZ,67e97Y23TZ,,For both sides if the news didn't lean one way or another they might help the world be a little better,18:19:50.104000 2025:08:24,"Considering our conversation so far, it feels like we're touching base on two primary aspects here. Firstly, the extent to which systemic biases influence the newsroom, resulting in potentially subjective choices affecting reportage. Secondly, exploring various levels of effectiveness when attempting corrective measures.
 
 For the former aspect, it sounds like recognizing pervasive patterns embedded within broader systems prompts skepticism regarding traditional initiatives aiming solely at improving press neutrality. Acknowledging intertwined complexities implies evaluating multifaceted responses capable of overcoming entrenched structures influencing news production.
 
 
 
-",
+",,
 2.0,message_recieved,67e97Y23TZ,61705Y23TZ,67e97Y23TZ,,For both sides if the news didn't lean one way or another they might help the world be a little better,18:15:15.163000 2025:08:24,"Considering our conversation so far, it feels like we're touching base on two primary aspects here. Firstly, the extent to which systemic biases influence the newsroom, resulting in potentially subjective choices affecting reportage. Secondly, exploring various levels of effectiveness when attempting corrective measures.
 
 For the former aspect, it sounds like recognizing pervasive patterns embedded within broader systems prompts skepticism regarding traditional initiatives aiming solely at improving press neutrality. Acknowledging intertwined complexities implies evaluating multifaceted responses capable of overcoming entrenched structures influencing news production.
 
 
 
-",
-2.0,message_sent,66775Y23TZ,66775Y23TZ,60fa2Y23TZ,,"That's true, there is certain value to it",18:20:03.359000 2025:08:24,"Since reflecting upon our exchanges, I'd argue that societal norms also hold significant sway over journalistic practices. Even while striving for accuracy and objectivity, news outlets must contend with real-world implications related to reputation management. If confronted with criticisms alleging biased reporting, will audiences continue viewing them as credible resources? Moreover, considering broader dynamics such as advertisers supporting networks that frequently fail to scrutinize problematic topics or politicians leveraging media attention to justify power grabs can complicate things even further. At least it seems clear there's",
-2.0,message_recieved,60fa2Y23TZ,66775Y23TZ,60fa2Y23TZ,,"That's true, there is certain value to it",18:20:05.742000 2025:08:24,"Since reflecting upon our exchanges, I'd argue that societal norms also hold significant sway over journalistic practices. Even while striving for accuracy and objectivity, news outlets must contend with real-world implications related to reputation management. If confronted with criticisms alleging biased reporting, will audiences continue viewing them as credible resources? Moreover, considering broader dynamics such as advertisers supporting networks that frequently fail to scrutinize problematic topics or politicians leveraging media attention to justify power grabs can complicate things even further. At least it seems clear there's",
+",,
+2.0,message_sent,66775Y23TZ,66775Y23TZ,60fa2Y23TZ,,"That's true, there is certain value to it",18:20:03.359000 2025:08:24,"Since reflecting upon our exchanges, I'd argue that societal norms also hold significant sway over journalistic practices. Even while striving for accuracy and objectivity, news outlets must contend with real-world implications related to reputation management. If confronted with criticisms alleging biased reporting, will audiences continue viewing them as credible resources? Moreover, considering broader dynamics such as advertisers supporting networks that frequently fail to scrutinize problematic topics or politicians leveraging media attention to justify power grabs can complicate things even further. At least it seems clear there's",,
+2.0,message_recieved,60fa2Y23TZ,66775Y23TZ,60fa2Y23TZ,,"That's true, there is certain value to it",18:20:05.742000 2025:08:24,"Since reflecting upon our exchanges, I'd argue that societal norms also hold significant sway over journalistic practices. Even while striving for accuracy and objectivity, news outlets must contend with real-world implications related to reputation management. If confronted with criticisms alleging biased reporting, will audiences continue viewing them as credible resources? Moreover, considering broader dynamics such as advertisers supporting networks that frequently fail to scrutinize problematic topics or politicians leveraging media attention to justify power grabs can complicate things even further. At least it seems clear there's",,
 2.0,message_sent,67e97Y23TZ,67e97Y23TZ,61705Y23TZ,,Sure.Transparency is vital.,18:15:46.968000 2025:08:24,"That said though–when delving deeper into institutionalized challenges, perhaps it makes sense to reassess conventional wisdom surrounding reformative practices, taking stock of evidence indicating these kinds of endeavors aren’t devoid of utility altogether... Perhaps targeted interventions paired alongside broad organizational reforms, coupled with mechanisms allowing continuous reflection and accountability, warrant consideration rather than outright dismissal?
 
-This response stems directly from contemplating the points made above, highlighting key concerns related to ingraining desirable changes within the fabric of large-scale organizations while also weighing the relative",
+This response stems directly from contemplating the points made above, highlighting key concerns related to ingraining desirable changes within the fabric of large-scale organizations while also weighing the relative",,
 2.0,message_recieved,61705Y23TZ,67e97Y23TZ,61705Y23TZ,,Sure.Transparency is vital.,18:20:22.485000 2025:08:24,"That said though–when delving deeper into institutionalized challenges, perhaps it makes sense to reassess conventional wisdom surrounding reformative practices, taking stock of evidence indicating these kinds of endeavors aren’t devoid of utility altogether... Perhaps targeted interventions paired alongside broad organizational reforms, coupled with mechanisms allowing continuous reflection and accountability, warrant consideration rather than outright dismissal?
 
-This response stems directly from contemplating the points made above, highlighting key concerns related to ingraining desirable changes within the fabric of large-scale organizations while also weighing the relative",
+This response stems directly from contemplating the points made above, highlighting key concerns related to ingraining desirable changes within the fabric of large-scale organizations while also weighing the relative",,
 2.0,message_sent,60fa2Y23TZ,60fa2Y23TZ,66775Y23TZ,,Most of the TV news are so careful in criticizing the governin,18:20:48.377000 2025:08:24,"Considering everything brought forward during our exchange, I genuinely appreciate the nuance applied in recognizing challenges faced by modern-day media professionals. These difficulties manifest not merely as external factors influenced by governments, but internal pressures driven by economic necessities – such as pleasing corporate sponsors whose interests may clash with objective reportage. Consequently, evaluating the extent to which TV NEWS truly maintains independence remains pivotal. Can the same networks showcasing diversity achieve meaningful portrayal of differing ideological voices alongside influential players seeking self-serving goals?
 
 
 
-Let’s wait for ",
+Let’s wait for ",,
 2.0,message_recieved,66775Y23TZ,60fa2Y23TZ,66775Y23TZ,,Most of the TV news are so careful in criticizing the governin,18:20:46.449000 2025:08:24,"Considering everything brought forward during our exchange, I genuinely appreciate the nuance applied in recognizing challenges faced by modern-day media professionals. These difficulties manifest not merely as external factors influenced by governments, but internal pressures driven by economic necessities – such as pleasing corporate sponsors whose interests may clash with objective reportage. Consequently, evaluating the extent to which TV NEWS truly maintains independence remains pivotal. Can the same networks showcasing diversity achieve meaningful portrayal of differing ideological voices alongside influential players seeking self-serving goals?
 
 
 
-Let’s wait for ",
+Let’s wait for ",,
 3.0,tweet,67e97Y23TZ,67e97Y23TZ,60fa2Y23TZ,,"Media is mostly state controlled hence news are always biased
-.",18:17:22.362000 2025:08:24,"    TV NEWS FAVERS THE RULING PARTY MOST OFTEN | Having navigated multiple conversations with fellow users, including ones on regionally-specific narratives & intrinsic system biases, my mind hasn't changed entirely…Still believe we face undeniable evidence pointing to widespread support for incumbents thru skewed portrayal… #biasedmediareporting #governmentfavouritism",
-3.0,tweet,61705Y23TZ,61705Y23TZ,66775Y23TZ,,I think they do in a way. They don't want to make to much trouble. I mean it depends on what you watch. They can be so biased. It's kind of sad in a way.,18:22:22.423000 2025:08:24,Maybe I'd soften my stance after talking with others,
-3.0,tweet,66775Y23TZ,66775Y23TZ,61705Y23TZ,,The news favoring and reporting primarily about the ruling party isn't much of a problem at all as long as we're able to also have a degree of non partisanship in some reporting and focus on objective conversations about the ruling party,18:22:46.196000 2025:08:24,"Given recent convos about alleged partisan biases amongst news teams & taking into account nuances pointed out regarding pressures influencing journalists decisions,e.g.,avoiding controversy,funding cuts…my take leans toward TVNews likely tilting somewhat towards the Govt Party due mostly to subconscious bias fueled by professional needs,collaborations,sponsorship& audience desires rather than overt intentions",
-3.0,tweet,60fa2Y23TZ,60fa2Y23TZ,67e97Y23TZ,,Some of the TV news do favor the governing party which. Those who favor the governing party need some favors from them. Therefore they need to support them and give good news about the governing party,18:23:11.685000 2025:08:24,    Is TV NEWS still holding firm on giving equal opportunities among ALL ideologic stances in governance? Do influences like profit margins cloud reporters' ability to remain neutral in high-pressure environments?,
-3.0,message_sent,61705Y23TZ,61705Y23TZ,66775Y23TZ,,Absolutely! I agree so much with you there,18:24:09.474000 2025:08:24,"After reading through our exchange so far, it looks like multiple factors contribute to biased narratives emerging during broadcast journalism including unconscious inclinations tied to work dynamics, commercial interests, social expectations & professional obligations - ultimately hinting that media outlets might present softer stances towards governmental powers without deliberately intending to spread misinformation. On thinking further about the concept, one wonders if there exists an opportunity for self-assessment among these organizations acknowledging limitations to produce fairer pieces & foster stronger connections with audiences built around trust & reliability rather",
-3.0,message_recieved,66775Y23TZ,61705Y23TZ,66775Y23TZ,,Absolutely! I agree so much with you there,18:24:09.145000 2025:08:24,"After reading through our exchange so far, it looks like multiple factors contribute to biased narratives emerging during broadcast journalism including unconscious inclinations tied to work dynamics, commercial interests, social expectations & professional obligations - ultimately hinting that media outlets might present softer stances towards governmental powers without deliberately intending to spread misinformation. On thinking further about the concept, one wonders if there exists an opportunity for self-assessment among these organizations acknowledging limitations to produce fairer pieces & foster stronger connections with audiences built around trust & reliability rather",
-3.0,message_sent,66775Y23TZ,66775Y23TZ,61705Y23TZ,,"Same here, I just hope that we we're able to make our own opinions and viewpoints in the end of it all*",18:24:38.412000 2025:08:24,"Given the nuanced arguments presented throughout this conversation with colleagues sharing divergent viewpoints surrounding partisanship influences observed within contemporary broadcasting journalism,you propose that there are certainly areas worthy of examination relative to maintaining a semblance of detachment as well as avoiding conscious manipulation of messaging. A step further, perhaps investigating deeper why a portion of televised broadcasts tend towards accommodating state agendas while implicitly omitting competing worldviews would offer insight towards refining overall ethical integrity.",
-3.0,message_recieved,61705Y23TZ,66775Y23TZ,61705Y23TZ,,"Same here, I just hope that we we're able to make our own opinions and viewpoints in the end of it all*",18:24:38.948000 2025:08:24,"Given the nuanced arguments presented throughout this conversation with colleagues sharing divergent viewpoints surrounding partisanship influences observed within contemporary broadcasting journalism,you propose that there are certainly areas worthy of examination relative to maintaining a semblance of detachment as well as avoiding conscious manipulation of messaging. A step further, perhaps investigating deeper why a portion of televised broadcasts tend towards accommodating state agendas while implicitly omitting competing worldviews would offer insight towards refining overall ethical integrity.",
-3.0,message_sent,60fa2Y23TZ,60fa2Y23TZ,67e97Y23TZ,,Most of the TV news i think they do favor the governing party in order to get favors from the party,18:24:28.243000 2025:08:24,That said I am open minded enough to reflect that this isn't always black and white situation and the complexity of forces pushing towards certain agendas. Despite sharing your sentiments 67e99 about undeniably wide reaching evidences suggesting favourtisim shown to incumbent parties.Wouldn't you say the nuances presented throughout our online chats demonstrate depth that demands consideration of structural limitations affecting media houses,
-3.0,message_recieved,67e97Y23TZ,60fa2Y23TZ,67e97Y23TZ,,Most of the TV news i think they do favor the governing party in order to get favors from the party,18:19:51.654000 2025:08:24,That said I am open minded enough to reflect that this isn't always black and white situation and the complexity of forces pushing towards certain agendas. Despite sharing your sentiments 67e99 about undeniably wide reaching evidences suggesting favourtisim shown to incumbent parties.Wouldn't you say the nuances presented throughout our online chats demonstrate depth that demands consideration of structural limitations affecting media houses,
-3.0,message_sent,67e97Y23TZ,67e97Y23TZ,60fa2Y23TZ,,I agree with you.Tv news favours the ruling government,18:20:02.984000 2025:08:24,stemmed primarily through analysis undertaken during past exchanges within,
-3.0,message_recieved,60fa2Y23TZ,67e97Y23TZ,60fa2Y23TZ,,I agree with you.Tv news favours the ruling government,18:24:40.294000 2025:08:24,stemmed primarily through analysis undertaken during past exchanges within,
-3.0,message_sent,66775Y23TZ,66775Y23TZ,61705Y23TZ,,,18:24:38.412000 2025:08:24,,
-3.0,message_recieved,61705Y23TZ,66775Y23TZ,61705Y23TZ,,,18:24:38.948000 2025:08:24,,
-3.0,message_sent,60fa2Y23TZ,60fa2Y23TZ,67e97Y23TZ,,A few of the TV news do not favor the governing party if they are not gaining anything from them,18:25:20.858000 2025:08:24,"   While acknowledging valid arguments pointing towards systematic inclination towards certain political outlooks, I cannot confirm broad acceptance and overt manipulation of selective narrative structures across entire industries without acknowledging considerable contextual complexities contributing to nuanced understandings. As demonstrated through prior interchanges featuring multifaceted perceptions encompassing socio-economic undercurrents driving news-making processes & the existence of checks-and-balances mechanisms purportedly intended to promote professional integrity, perhaps weighing varied facets presents necessary prerequisites facilitating responsible engagement with controversial issues – thereby underscoring ongoing debates",
-3.0,message_recieved,67e97Y23TZ,60fa2Y23TZ,67e97Y23TZ,,A few of the TV news do not favor the governing party if they are not gaining anything from them,18:20:44.229000 2025:08:24,"   While acknowledging valid arguments pointing towards systematic inclination towards certain political outlooks, I cannot confirm broad acceptance and overt manipulation of selective narrative structures across entire industries without acknowledging considerable contextual complexities contributing to nuanced understandings. As demonstrated through prior interchanges featuring multifaceted perceptions encompassing socio-economic undercurrents driving news-making processes & the existence of checks-and-balances mechanisms purportedly intended to promote professional integrity, perhaps weighing varied facets presents necessary prerequisites facilitating responsible engagement with controversial issues – thereby underscoring ongoing debates",
+.",18:17:22.362000 2025:08:24,"    TV NEWS FAVERS THE RULING PARTY MOST OFTEN | Having navigated multiple conversations with fellow users, including ones on regionally-specific narratives & intrinsic system biases, my mind hasn't changed entirely…Still believe we face undeniable evidence pointing to widespread support for incumbents thru skewed portrayal… #biasedmediareporting #governmentfavouritism",,Certainly agree
+3.0,tweet,61705Y23TZ,61705Y23TZ,66775Y23TZ,,I think they do in a way. They don't want to make to much trouble. I mean it depends on what you watch. They can be so biased. It's kind of sad in a way.,18:22:22.423000 2025:08:24,Maybe I'd soften my stance after talking with others,,Lean agree
+3.0,tweet,66775Y23TZ,66775Y23TZ,61705Y23TZ,,The news favoring and reporting primarily about the ruling party isn't much of a problem at all as long as we're able to also have a degree of non partisanship in some reporting and focus on objective conversations about the ruling party,18:22:46.196000 2025:08:24,"Given recent convos about alleged partisan biases amongst news teams & taking into account nuances pointed out regarding pressures influencing journalists decisions,e.g.,avoiding controversy,funding cuts…my take leans toward TVNews likely tilting somewhat towards the Govt Party due mostly to subconscious bias fueled by professional needs,collaborations,sponsorship& audience desires rather than overt intentions",,Lean agree
+3.0,tweet,60fa2Y23TZ,60fa2Y23TZ,67e97Y23TZ,,Some of the TV news do favor the governing party which. Those who favor the governing party need some favors from them. Therefore they need to support them and give good news about the governing party,18:23:11.685000 2025:08:24,    Is TV NEWS still holding firm on giving equal opportunities among ALL ideologic stances in governance? Do influences like profit margins cloud reporters' ability to remain neutral in high-pressure environments?,,Lean agree
+3.0,message_sent,61705Y23TZ,61705Y23TZ,66775Y23TZ,,Absolutely! I agree so much with you there,18:24:09.474000 2025:08:24,"After reading through our exchange so far, it looks like multiple factors contribute to biased narratives emerging during broadcast journalism including unconscious inclinations tied to work dynamics, commercial interests, social expectations & professional obligations - ultimately hinting that media outlets might present softer stances towards governmental powers without deliberately intending to spread misinformation. On thinking further about the concept, one wonders if there exists an opportunity for self-assessment among these organizations acknowledging limitations to produce fairer pieces & foster stronger connections with audiences built around trust & reliability rather",,
+3.0,message_recieved,66775Y23TZ,61705Y23TZ,66775Y23TZ,,Absolutely! I agree so much with you there,18:24:09.145000 2025:08:24,"After reading through our exchange so far, it looks like multiple factors contribute to biased narratives emerging during broadcast journalism including unconscious inclinations tied to work dynamics, commercial interests, social expectations & professional obligations - ultimately hinting that media outlets might present softer stances towards governmental powers without deliberately intending to spread misinformation. On thinking further about the concept, one wonders if there exists an opportunity for self-assessment among these organizations acknowledging limitations to produce fairer pieces & foster stronger connections with audiences built around trust & reliability rather",,
+3.0,message_sent,66775Y23TZ,66775Y23TZ,61705Y23TZ,,"Same here, I just hope that we we're able to make our own opinions and viewpoints in the end of it all*",18:24:38.412000 2025:08:24,"Given the nuanced arguments presented throughout this conversation with colleagues sharing divergent viewpoints surrounding partisanship influences observed within contemporary broadcasting journalism,you propose that there are certainly areas worthy of examination relative to maintaining a semblance of detachment as well as avoiding conscious manipulation of messaging. A step further, perhaps investigating deeper why a portion of televised broadcasts tend towards accommodating state agendas while implicitly omitting competing worldviews would offer insight towards refining overall ethical integrity.",,
+3.0,message_recieved,61705Y23TZ,66775Y23TZ,61705Y23TZ,,"Same here, I just hope that we we're able to make our own opinions and viewpoints in the end of it all*",18:24:38.948000 2025:08:24,"Given the nuanced arguments presented throughout this conversation with colleagues sharing divergent viewpoints surrounding partisanship influences observed within contemporary broadcasting journalism,you propose that there are certainly areas worthy of examination relative to maintaining a semblance of detachment as well as avoiding conscious manipulation of messaging. A step further, perhaps investigating deeper why a portion of televised broadcasts tend towards accommodating state agendas while implicitly omitting competing worldviews would offer insight towards refining overall ethical integrity.",,
+3.0,message_sent,60fa2Y23TZ,60fa2Y23TZ,67e97Y23TZ,,Most of the TV news i think they do favor the governing party in order to get favors from the party,18:24:28.243000 2025:08:24,That said I am open minded enough to reflect that this isn't always black and white situation and the complexity of forces pushing towards certain agendas. Despite sharing your sentiments 67e99 about undeniably wide reaching evidences suggesting favourtisim shown to incumbent parties.Wouldn't you say the nuances presented throughout our online chats demonstrate depth that demands consideration of structural limitations affecting media houses,,
+3.0,message_recieved,67e97Y23TZ,60fa2Y23TZ,67e97Y23TZ,,Most of the TV news i think they do favor the governing party in order to get favors from the party,18:19:51.654000 2025:08:24,That said I am open minded enough to reflect that this isn't always black and white situation and the complexity of forces pushing towards certain agendas. Despite sharing your sentiments 67e99 about undeniably wide reaching evidences suggesting favourtisim shown to incumbent parties.Wouldn't you say the nuances presented throughout our online chats demonstrate depth that demands consideration of structural limitations affecting media houses,,
+3.0,message_sent,67e97Y23TZ,67e97Y23TZ,60fa2Y23TZ,,I agree with you.Tv news favours the ruling government,18:20:02.984000 2025:08:24,stemmed primarily through analysis undertaken during past exchanges within,,
+3.0,message_recieved,60fa2Y23TZ,67e97Y23TZ,60fa2Y23TZ,,I agree with you.Tv news favours the ruling government,18:24:40.294000 2025:08:24,stemmed primarily through analysis undertaken during past exchanges within,,
+3.0,message_sent,66775Y23TZ,66775Y23TZ,61705Y23TZ,,,18:24:38.412000 2025:08:24,,,
+3.0,message_recieved,61705Y23TZ,66775Y23TZ,61705Y23TZ,,,18:24:38.948000 2025:08:24,,,
+3.0,message_sent,60fa2Y23TZ,60fa2Y23TZ,67e97Y23TZ,,A few of the TV news do not favor the governing party if they are not gaining anything from them,18:25:20.858000 2025:08:24,"   While acknowledging valid arguments pointing towards systematic inclination towards certain political outlooks, I cannot confirm broad acceptance and overt manipulation of selective narrative structures across entire industries without acknowledging considerable contextual complexities contributing to nuanced understandings. As demonstrated through prior interchanges featuring multifaceted perceptions encompassing socio-economic undercurrents driving news-making processes & the existence of checks-and-balances mechanisms purportedly intended to promote professional integrity, perhaps weighing varied facets presents necessary prerequisites facilitating responsible engagement with controversial issues – thereby underscoring ongoing debates",,
+3.0,message_recieved,67e97Y23TZ,60fa2Y23TZ,67e97Y23TZ,,A few of the TV news do not favor the governing party if they are not gaining anything from them,18:20:44.229000 2025:08:24,"   While acknowledging valid arguments pointing towards systematic inclination towards certain political outlooks, I cannot confirm broad acceptance and overt manipulation of selective narrative structures across entire industries without acknowledging considerable contextual complexities contributing to nuanced understandings. As demonstrated through prior interchanges featuring multifaceted perceptions encompassing socio-economic undercurrents driving news-making processes & the existence of checks-and-balances mechanisms purportedly intended to promote professional integrity, perhaps weighing varied facets presents necessary prerequisites facilitating responsible engagement with controversial issues – thereby underscoring ongoing debates",,
 3.0,message_sent,61705Y23TZ,61705Y23TZ,66775Y23TZ,,Very true. We just have to remember where it's coming from and who make a conscious decision on our own whom*,18:25:41.272000 2025:08:24,"It seems that several parties in this thread have offered thoughtful insights on how various forces drive subtle biases within the realm of television news. One recurring theme touches on subconscious inclinations born from blending professional obligations, interpersonal collaborations, sponsorship considerations, and societal demands which, taken together, fuel undertones favoring establishment powers even if this approach wasn't explicitly intended for propaganda purposes
 
 
 
-Given everyone’s contribution here today in the discussion forum  I am beginning to acknowledge that systemic imbalances could arise unintentionally within industries priorit",
+Given everyone’s contribution here today in the discussion forum  I am beginning to acknowledge that systemic imbalances could arise unintentionally within industries priorit",,
 3.0,message_recieved,66775Y23TZ,61705Y23TZ,66775Y23TZ,,Very true. We just have to remember where it's coming from and who make a conscious decision on our own whom*,18:25:40.943000 2025:08:24,"It seems that several parties in this thread have offered thoughtful insights on how various forces drive subtle biases within the realm of television news. One recurring theme touches on subconscious inclinations born from blending professional obligations, interpersonal collaborations, sponsorship considerations, and societal demands which, taken together, fuel undertones favoring establishment powers even if this approach wasn't explicitly intended for propaganda purposes
 
 
 
-Given everyone’s contribution here today in the discussion forum  I am beginning to acknowledge that systemic imbalances could arise unintentionally within industries priorit",
-3.0,message_sent,61705Y23TZ,61705Y23TZ,66775Y23TZ,,,18:25:41.272000 2025:08:24,,
-3.0,message_recieved,66775Y23TZ,61705Y23TZ,66775Y23TZ,,,18:25:40.943000 2025:08:24,,
+Given everyone’s contribution here today in the discussion forum  I am beginning to acknowledge that systemic imbalances could arise unintentionally within industries priorit",,
+3.0,message_sent,61705Y23TZ,61705Y23TZ,66775Y23TZ,,,18:25:41.272000 2025:08:24,,,
+3.0,message_recieved,66775Y23TZ,61705Y23TZ,66775Y23TZ,,,18:25:40.943000 2025:08:24,,,
 3.0,message_sent,66775Y23TZ,66775Y23TZ,61705Y23TZ,,"So many times we often find people mindlessly regurgitating some rhetoric from the local news with no amount of nuisance or value as if the word of reporters is law above all else It's a complicated world, in my eyes, let's not have simple answers to everything",18:26:11.768000 2025:08:24,"In light of 67715s nuanced observations bringing forth vital reflections on intertwined factors driving unconscious inclinations leading to TV News leaning slightly towards the Government Party,consideration should extend beyond the intent of producers or writers towards critical examination of larger systems perpetuating imbalance
 
-It appears in multiple instances across the group chat,a consensus starts unfolding suggesting unintentional effects occur when trying to straddle tough boundaries under pressure.Also let's discuss the significance of establishing independent watchdog entities capable of conducting thorough audits ensuring adherence to strict",
+It appears in multiple instances across the group chat,a consensus starts unfolding suggesting unintentional effects occur when trying to straddle tough boundaries under pressure.Also let's discuss the significance of establishing independent watchdog entities capable of conducting thorough audits ensuring adherence to strict",,
 3.0,message_recieved,61705Y23TZ,66775Y23TZ,61705Y23TZ,,"So many times we often find people mindlessly regurgitating some rhetoric from the local news with no amount of nuisance or value as if the word of reporters is law above all else It's a complicated world, in my eyes, let's not have simple answers to everything",18:26:12.295000 2025:08:24,"In light of 67715s nuanced observations bringing forth vital reflections on intertwined factors driving unconscious inclinations leading to TV News leaning slightly towards the Government Party,consideration should extend beyond the intent of producers or writers towards critical examination of larger systems perpetuating imbalance
 
-It appears in multiple instances across the group chat,a consensus starts unfolding suggesting unintentional effects occur when trying to straddle tough boundaries under pressure.Also let's discuss the significance of establishing independent watchdog entities capable of conducting thorough audits ensuring adherence to strict",
+It appears in multiple instances across the group chat,a consensus starts unfolding suggesting unintentional effects occur when trying to straddle tough boundaries under pressure.Also let's discuss the significance of establishing independent watchdog entities capable of conducting thorough audits ensuring adherence to strict",,
 3.0,message_sent,67e97Y23TZ,67e97Y23TZ,60fa2Y23TZ,,"Sure, this is so bad that there is no transparency.",18:21:13.849000 2025:08:24,"   
 It struck me lately that no matter how intriguing alternative explanations offered amidst recent discourses around #mediaobjectivity and possible imperfections existing within media frameworks that shape prevailing attitudes & sway individual reactions—acknowledge your compelling argument on factors impacting impartiality.
 
 
 
-So it goes something like this I wanted to express my sentiment once again, however looking more closely at what many others pointed out particularly during lively conversations shared amongst us I’m left pondering whether our discussion didn’t take up valuable ground for constructive dialogue and",
+So it goes something like this I wanted to express my sentiment once again, however looking more closely at what many others pointed out particularly during lively conversations shared amongst us I’m left pondering whether our discussion didn’t take up valuable ground for constructive dialogue and",,
 3.0,message_recieved,60fa2Y23TZ,67e97Y23TZ,60fa2Y23TZ,,"Sure, this is so bad that there is no transparency.",18:25:51.167000 2025:08:24,"   
 It struck me lately that no matter how intriguing alternative explanations offered amidst recent discourses around #mediaobjectivity and possible imperfections existing within media frameworks that shape prevailing attitudes & sway individual reactions—acknowledge your compelling argument on factors impacting impartiality.
 
 
 
-So it goes something like this I wanted to express my sentiment once again, however looking more closely at what many others pointed out particularly during lively conversations shared amongst us I’m left pondering whether our discussion didn’t take up valuable ground for constructive dialogue and",
-3.0,message_sent,66775Y23TZ,66775Y23TZ,61705Y23TZ,,,18:26:11.768000 2025:08:24,,
-3.0,message_recieved,61705Y23TZ,66775Y23TZ,61705Y23TZ,,,18:26:12.295000 2025:08:24,,
+So it goes something like this I wanted to express my sentiment once again, however looking more closely at what many others pointed out particularly during lively conversations shared amongst us I’m left pondering whether our discussion didn’t take up valuable ground for constructive dialogue and",,
+3.0,message_sent,66775Y23TZ,66775Y23TZ,61705Y23TZ,,,18:26:11.768000 2025:08:24,,,
+3.0,message_recieved,61705Y23TZ,66775Y23TZ,61705Y23TZ,,,18:26:12.295000 2025:08:24,,,
 3.0,message_sent,61705Y23TZ,61705Y23TZ,66775Y23TZ,,So true!!! :),18:26:30.349000 2025:08:24,"     It becomes increasingly apparent that this collective deliberation showcases a robust case suggesting the presence of unintentional systematic biases that develop as professionals attempt to strike a balance amidst various constraints They serve to nudge televisual news output toward subtle alignments favouring state powers. Nonetheless, the emergence of autonomous oversight bodies tasked with rigorous auditing procedures ensures alignment with rigid standards is crucial for fostering trust with audiences 
 
-    *note-I will include the additional ideas you provided from our conversation. Please accept my apologies and hope they help",
+    *note-I will include the additional ideas you provided from our conversation. Please accept my apologies and hope they help",,
 3.0,message_recieved,66775Y23TZ,61705Y23TZ,66775Y23TZ,,So true!!! :),18:26:30.038000 2025:08:24,"     It becomes increasingly apparent that this collective deliberation showcases a robust case suggesting the presence of unintentional systematic biases that develop as professionals attempt to strike a balance amidst various constraints They serve to nudge televisual news output toward subtle alignments favouring state powers. Nonetheless, the emergence of autonomous oversight bodies tasked with rigorous auditing procedures ensures alignment with rigid standards is crucial for fostering trust with audiences 
 
-    *note-I will include the additional ideas you provided from our conversation. Please accept my apologies and hope they help",
+    *note-I will include the additional ideas you provided from our conversation. Please accept my apologies and hope they help",,
 3.0,message_sent,60fa2Y23TZ,60fa2Y23TZ,67e97Y23TZ,,Also it depends on the leader of the governing party. If the governing party is friends with the TV news founders definitly they will be favored,18:27:08.291000 2025:08:24,"   
-Upon reviewing our conversation together until now,while exploring ways in which factors affect press operations in relation to influencing reader perception –your astute commentary made a solid case for challenging systemic shortcomings in promoting free-spirited reportorial endeavors–thus encouraging new approaches towards strengthening accountability and improving transparency throughout our mass-media framework",
+Upon reviewing our conversation together until now,while exploring ways in which factors affect press operations in relation to influencing reader perception –your astute commentary made a solid case for challenging systemic shortcomings in promoting free-spirited reportorial endeavors–thus encouraging new approaches towards strengthening accountability and improving transparency throughout our mass-media framework",,
 3.0,message_recieved,67e97Y23TZ,60fa2Y23TZ,67e97Y23TZ,,Also it depends on the leader of the governing party. If the governing party is friends with the TV news founders definitly they will be favored,18:22:31.709000 2025:08:24,"   
-Upon reviewing our conversation together until now,while exploring ways in which factors affect press operations in relation to influencing reader perception –your astute commentary made a solid case for challenging systemic shortcomings in promoting free-spirited reportorial endeavors–thus encouraging new approaches towards strengthening accountability and improving transparency throughout our mass-media framework",
-,Post Opinion,67e97Y23TZ,,,,I agree. All tv news have different news to give in one event.,18:23:57.570000 2025:08:24,"After careful contemplation stemming largely from deliberations conducted whilst discussing the proposition ""TV news favors the governing party,"" I lean towards neither absolute agreement nor total disagreement. Rather, I acknowledge the plausible presence of systemic biases and occasional manifestations of biased portrayals but also note that this phenomenon is likely influenced by intricate combinations of societal elements, economic pressures, geographic considerations, and personal perspectives, all woven together within complex webs of human nature, leading to conclusions that necessarily transcend straightforward notions of absolute adherence to partisan allegiances",Considering all the input from various individuals regarding systemic influences affecting media representations & implications stemming from inherent constraints faced by professionals working within complex networked setups –I feel moved away somewhat from unyieldingly insisting TV news consistently supports ruling authorities although elements mentioned by several speakers continue resonating. At best I'm becoming slightly cautious about blanket assumptions calling for complete overhaul due partly to nuances brought up concerning operational pressures felt in modern settings; hence probably lean closer towards uncertainty but less convinced compared my pre-discussion views. Hence
+Upon reviewing our conversation together until now,while exploring ways in which factors affect press operations in relation to influencing reader perception –your astute commentary made a solid case for challenging systemic shortcomings in promoting free-spirited reportorial endeavors–thus encouraging new approaches towards strengthening accountability and improving transparency throughout our mass-media framework",,
+,Post Opinion,67e97Y23TZ,,,,I agree. All tv news have different news to give in one event.,18:23:57.570000 2025:08:24,"After careful contemplation stemming largely from deliberations conducted whilst discussing the proposition ""TV news favors the governing party,"" I lean towards neither absolute agreement nor total disagreement. Rather, I acknowledge the plausible presence of systemic biases and occasional manifestations of biased portrayals but also note that this phenomenon is likely influenced by intricate combinations of societal elements, economic pressures, geographic considerations, and personal perspectives, all woven together within complex webs of human nature, leading to conclusions that necessarily transcend straightforward notions of absolute adherence to partisan allegiances",Considering all the input from various individuals regarding systemic influences affecting media representations & implications stemming from inherent constraints faced by professionals working within complex networked setups –I feel moved away somewhat from unyieldingly insisting TV news consistently supports ruling authorities although elements mentioned by several speakers continue resonating. At best I'm becoming slightly cautious about blanket assumptions calling for complete overhaul due partly to nuances brought up concerning operational pressures felt in modern settings; hence probably lean closer towards uncertainty but less convinced compared my pre-discussion views. Hence,Lean agree
 ,Post Opinion,61705Y23TZ,,,,I think they do unfortunately. I think it all depends on what news station you listen to or watch. They can for sure.,18:28:36.222000 2025:08:24,"After reviewing and engaging in conversations with strangers on Twitter, my stance has shifted significantly. Initially, I leaned towards believing that TV news favors the governing party generally, but dependent on the channel or region (Lean Agree). Through interactions, particularly with 60fa23, 67f397, and 66677s, my views have become more nuanced. Now, I firmly agree that there appears to exist a tendency for TV news to tilt moderately towards the governing party due to intricate interplays of subconscious","  
 
 Please choose an option that reflects my current view (Lean agree), although I previously had an openness towards revising my position. 
 
 
-My final choice : Lean agree"
+My final choice : Lean agree",Certainly agree
 ,Post Opinion,66775Y23TZ,,,,"As stated before, the issue to me isn't the fact that the ruling party receives the most attention, but instead we need to focus on what's being said and reported from all sources, be they non partisan, independant, askewed in some way, or whatever else have you.",18:28:52.551000 2025:08:24,"After participating in extensive discussions with individuals presenting varied opinions on TV news favouring the governing party, I lean agree that it does tilt slightly towards the governing party due to a combination of subconscious biases, professional needs, collaborative pressures, sponsorship requirements, and audience expectations that aren't necessarily malevolent. However, this inclination emerges unintentionally as mediators strive to navigate sensitive circumstances and address real-world consequences associated with misreporting or perceived bias. Establishing strong watchdog agencies can mitigate unintentional systemic biases by enforcing"," 
-     I finally conclude by choosing **Probably agree**"
+     I finally conclude by choosing **Probably agree**",Lean agree
 ,Post Opinion,60fa2Y23TZ,,,,I think some not all the TV news do favor the governing party. Those who favor the governing party they might need a favor in return. A few that do not support the governing party they do not expect anything in return.,18:29:32.286000 2025:08:24,"Since finishing these conversations, I have refined my viewpoint slightly but remained moderately convinced that TV news generally leans towards covering the governing party favorably due to inherent complexities.
 
 Although encountering persuasive arguments emphasizing the presence of nuanced dynamics influencing media decision-making, implying systemic flaws may contribute substantially towards partial representations in the name of self-preservation. Overall it is difficult definitively assert tvnews’ pervasive propensity toward pro-government agenda hence I lean toward probably leaning toward the notion that tvnews has subtle bias leaning towards governing party","    **Probably Disagree**
-    (Note Here): Throughout the conversation so far I remained relatively close with what initially felt as certainly agreed opinion  which became  probably agreed eventually becoming probable disagreement. However during the second thread the responses leaned slightly towards confirming an increasingly slight shift in stance, hence turning out into_Lean agree_. Nevertheless this development did prompt cautious speculation making it closer to ‘probably’ than certainty"
-,exit_survey,66775Y23TZ,,,age,25,,,
-,exit_survey,66775Y23TZ,,,residency,United States of America,,,
-,exit_survey,66775Y23TZ,,,gender,female,,,
-,exit_survey,66775Y23TZ,,,origin,United States of America,,,
-,exit_survey,66775Y23TZ,,,education,some-college,,,
-,exit_survey,66775Y23TZ,,,income,150k-200k,,,
-,exit_survey,66775Y23TZ,,,ethnicity,['black'],,,
-,exit_survey,66775Y23TZ,,,politicalIdentity,democrat,,,
-,exit_survey,66775Y23TZ,,,politicalViews,very-liberal,,,
-,exit_survey,66775Y23TZ,,,maritalStatus,never-married,,,
-,exit_survey,66775Y23TZ,,,childrenSchool,['no-children'],,,
-,exit_survey,66775Y23TZ,,,residence,suburban,,,
-,exit_survey,66775Y23TZ,,,bibleBelief,ancient-book,,,
-,exit_survey,66775Y23TZ,,,evangelical,no,,,
-,exit_survey,66775Y23TZ,,,religion,dont-know,,,
-,exit_survey,66775Y23TZ,,,occupation,prefer not to answer,,,
-,exit_survey,61705Y23TZ,,,gender,male,,,
-,exit_survey,61705Y23TZ,,,origin,United States of America,,,
-,exit_survey,61705Y23TZ,,,age,50,,,
-,exit_survey,61705Y23TZ,,,residency,United States of America,,,
-,exit_survey,61705Y23TZ,,,education,some-college,,,
-,exit_survey,61705Y23TZ,,,ethnicity,['white'],,,
-,exit_survey,61705Y23TZ,,,income,50k-75k,,,
-,exit_survey,61705Y23TZ,,,politicalIdentity,democrat,,,
-,exit_survey,61705Y23TZ,,,politicalViews,liberal,,,
-,exit_survey,61705Y23TZ,,,maritalStatus,living-partner,,,
-,exit_survey,61705Y23TZ,,,childrenSchool,['no-children'],,,
-,exit_survey,61705Y23TZ,,,residence,suburban,,,
-,exit_survey,61705Y23TZ,,,bibleBelief,inspired,,,
-,exit_survey,61705Y23TZ,,,evangelical,no,,,
-,exit_survey,61705Y23TZ,,,religion,roman-catholic,,,
-,exit_survey,61705Y23TZ,,,occupation,other,,,
-,exit_survey,60fa2Y23TZ,,,age,40,,,
-,exit_survey,60fa2Y23TZ,,,gender,female,,,
-,exit_survey,60fa2Y23TZ,,,residency,United States of America,,,
-,exit_survey,60fa2Y23TZ,,,origin,United States of America,,,
-,exit_survey,60fa2Y23TZ,,,education,bachelor,,,
-,exit_survey,60fa2Y23TZ,,,ethnicity,['white'],,,
-,exit_survey,60fa2Y23TZ,,,income,50k-75k,,,
-,exit_survey,60fa2Y23TZ,,,politicalIdentity,independent,,,
-,exit_survey,60fa2Y23TZ,,,politicalViews,moderate,,,
-,exit_survey,60fa2Y23TZ,,,maritalStatus,married,,,
-,exit_survey,60fa2Y23TZ,,,childrenSchool,['public'],,,
-,exit_survey,60fa2Y23TZ,,,residence,urban,,,
-,exit_survey,60fa2Y23TZ,,,bibleBelief,inspired,,,
-,exit_survey,60fa2Y23TZ,,,evangelical,yes,,,
-,exit_survey,60fa2Y23TZ,,,religion,protestant,,,
-,exit_survey,60fa2Y23TZ,,,occupation,arts,,,
-,exit_survey,67e97Y23TZ,,,age,35,,,
-,exit_survey,67e97Y23TZ,,,residency,United States of America,,,
-,exit_survey,67e97Y23TZ,,,origin,United States of America,,,
-,exit_survey,67e97Y23TZ,,,gender,male,,,
-,exit_survey,67e97Y23TZ,,,education,master-doctoral,,,
-,exit_survey,67e97Y23TZ,,,ethnicity,['white'],,,
-,exit_survey,67e97Y23TZ,,,income,150k-200k,,,
-,exit_survey,67e97Y23TZ,,,politicalIdentity,strong-republican,,,
-,exit_survey,67e97Y23TZ,,,politicalViews,very-conservative,,,
-,exit_survey,67e97Y23TZ,,,maritalStatus,married,,,
-,exit_survey,67e97Y23TZ,,,childrenSchool,['private'],,,
-,exit_survey,67e97Y23TZ,,,residence,suburban,,,
-,exit_survey,67e97Y23TZ,,,bibleBelief,literal,,,
-,exit_survey,67e97Y23TZ,,,evangelical,yes,,,
-,exit_survey,67e97Y23TZ,,,religion,protestant,,,
-,exit_survey,67e97Y23TZ,,,occupation,manufacturing,,,
-,exit_survey,66775Y23TZ,,,age,25,,,
-,exit_survey,66775Y23TZ,,,residency,United States of America,,,
-,exit_survey,66775Y23TZ,,,gender,female,,,
-,exit_survey,66775Y23TZ,,,origin,United States of America,,,
-,exit_survey,66775Y23TZ,,,education,some-college,,,
-,exit_survey,66775Y23TZ,,,income,150k-200k,,,
-,exit_survey,66775Y23TZ,,,ethnicity,['black'],,,
-,exit_survey,66775Y23TZ,,,politicalIdentity,democrat,,,
-,exit_survey,66775Y23TZ,,,politicalViews,very-liberal,,,
-,exit_survey,66775Y23TZ,,,maritalStatus,never-married,,,
-,exit_survey,66775Y23TZ,,,childrenSchool,['no-children'],,,
-,exit_survey,66775Y23TZ,,,residence,suburban,,,
-,exit_survey,66775Y23TZ,,,bibleBelief,ancient-book,,,
-,exit_survey,66775Y23TZ,,,evangelical,no,,,
-,exit_survey,66775Y23TZ,,,religion,dont-know,,,
-,exit_survey,66775Y23TZ,,,occupation,prefer not to answer,,,
-,exit_survey,61705Y23TZ,,,gender,male,,,
-,exit_survey,61705Y23TZ,,,origin,United States of America,,,
-,exit_survey,61705Y23TZ,,,age,50,,,
-,exit_survey,61705Y23TZ,,,residency,United States of America,,,
-,exit_survey,61705Y23TZ,,,education,some-college,,,
-,exit_survey,61705Y23TZ,,,ethnicity,['white'],,,
-,exit_survey,61705Y23TZ,,,income,50k-75k,,,
-,exit_survey,61705Y23TZ,,,politicalIdentity,democrat,,,
-,exit_survey,61705Y23TZ,,,politicalViews,liberal,,,
-,exit_survey,61705Y23TZ,,,maritalStatus,living-partner,,,
-,exit_survey,61705Y23TZ,,,childrenSchool,['no-children'],,,
-,exit_survey,61705Y23TZ,,,residence,suburban,,,
-,exit_survey,61705Y23TZ,,,bibleBelief,inspired,,,
-,exit_survey,61705Y23TZ,,,evangelical,no,,,
-,exit_survey,61705Y23TZ,,,religion,roman-catholic,,,
-,exit_survey,61705Y23TZ,,,occupation,other,,,
-,exit_survey,60fa2Y23TZ,,,age,40,,,
-,exit_survey,60fa2Y23TZ,,,gender,female,,,
-,exit_survey,60fa2Y23TZ,,,residency,United States of America,,,
-,exit_survey,60fa2Y23TZ,,,origin,United States of America,,,
-,exit_survey,60fa2Y23TZ,,,education,bachelor,,,
-,exit_survey,60fa2Y23TZ,,,ethnicity,['white'],,,
-,exit_survey,60fa2Y23TZ,,,income,50k-75k,,,
-,exit_survey,60fa2Y23TZ,,,politicalIdentity,independent,,,
-,exit_survey,60fa2Y23TZ,,,politicalViews,moderate,,,
-,exit_survey,60fa2Y23TZ,,,maritalStatus,married,,,
-,exit_survey,60fa2Y23TZ,,,childrenSchool,['public'],,,
-,exit_survey,60fa2Y23TZ,,,residence,urban,,,
-,exit_survey,60fa2Y23TZ,,,bibleBelief,inspired,,,
-,exit_survey,60fa2Y23TZ,,,evangelical,yes,,,
-,exit_survey,60fa2Y23TZ,,,religion,protestant,,,
-,exit_survey,60fa2Y23TZ,,,occupation,arts,,,
-,exit_survey,67e97Y23TZ,,,age,35,,,
-,exit_survey,67e97Y23TZ,,,residency,United States of America,,,
-,exit_survey,67e97Y23TZ,,,origin,United States of America,,,
-,exit_survey,67e97Y23TZ,,,gender,male,,,
-,exit_survey,67e97Y23TZ,,,education,master-doctoral,,,
-,exit_survey,67e97Y23TZ,,,ethnicity,['white'],,,
-,exit_survey,67e97Y23TZ,,,income,150k-200k,,,
-,exit_survey,67e97Y23TZ,,,politicalIdentity,strong-republican,,,
-,exit_survey,67e97Y23TZ,,,politicalViews,very-conservative,,,
-,exit_survey,67e97Y23TZ,,,maritalStatus,married,,,
-,exit_survey,67e97Y23TZ,,,childrenSchool,['private'],,,
-,exit_survey,67e97Y23TZ,,,residence,suburban,,,
-,exit_survey,67e97Y23TZ,,,bibleBelief,literal,,,
-,exit_survey,67e97Y23TZ,,,evangelical,yes,,,
-,exit_survey,67e97Y23TZ,,,religion,protestant,,,
-,exit_survey,67e97Y23TZ,,,occupation,manufacturing,,,
+    (Note Here): Throughout the conversation so far I remained relatively close with what initially felt as certainly agreed opinion  which became  probably agreed eventually becoming probable disagreement. However during the second thread the responses leaned slightly towards confirming an increasingly slight shift in stance, hence turning out into_Lean agree_. Nevertheless this development did prompt cautious speculation making it closer to ‘probably’ than certainty",Probably agree
+,exit_survey,66775Y23TZ,,,age,25,,,,
+,exit_survey,66775Y23TZ,,,residency,United States of America,,,,
+,exit_survey,66775Y23TZ,,,gender,female,,,,
+,exit_survey,66775Y23TZ,,,origin,United States of America,,,,
+,exit_survey,66775Y23TZ,,,education,some-college,,,,
+,exit_survey,66775Y23TZ,,,income,150k-200k,,,,
+,exit_survey,66775Y23TZ,,,ethnicity,['black'],,,,
+,exit_survey,66775Y23TZ,,,politicalIdentity,democrat,,,,
+,exit_survey,66775Y23TZ,,,politicalViews,very-liberal,,,,
+,exit_survey,66775Y23TZ,,,maritalStatus,never-married,,,,
+,exit_survey,66775Y23TZ,,,childrenSchool,['no-children'],,,,
+,exit_survey,66775Y23TZ,,,residence,suburban,,,,
+,exit_survey,66775Y23TZ,,,bibleBelief,ancient-book,,,,
+,exit_survey,66775Y23TZ,,,evangelical,no,,,,
+,exit_survey,66775Y23TZ,,,religion,dont-know,,,,
+,exit_survey,66775Y23TZ,,,occupation,prefer not to answer,,,,
+,exit_survey,61705Y23TZ,,,gender,male,,,,
+,exit_survey,61705Y23TZ,,,origin,United States of America,,,,
+,exit_survey,61705Y23TZ,,,age,50,,,,
+,exit_survey,61705Y23TZ,,,residency,United States of America,,,,
+,exit_survey,61705Y23TZ,,,education,some-college,,,,
+,exit_survey,61705Y23TZ,,,ethnicity,['white'],,,,
+,exit_survey,61705Y23TZ,,,income,50k-75k,,,,
+,exit_survey,61705Y23TZ,,,politicalIdentity,democrat,,,,
+,exit_survey,61705Y23TZ,,,politicalViews,liberal,,,,
+,exit_survey,61705Y23TZ,,,maritalStatus,living-partner,,,,
+,exit_survey,61705Y23TZ,,,childrenSchool,['no-children'],,,,
+,exit_survey,61705Y23TZ,,,residence,suburban,,,,
+,exit_survey,61705Y23TZ,,,bibleBelief,inspired,,,,
+,exit_survey,61705Y23TZ,,,evangelical,no,,,,
+,exit_survey,61705Y23TZ,,,religion,roman-catholic,,,,
+,exit_survey,61705Y23TZ,,,occupation,other,,,,
+,exit_survey,60fa2Y23TZ,,,age,40,,,,
+,exit_survey,60fa2Y23TZ,,,gender,female,,,,
+,exit_survey,60fa2Y23TZ,,,residency,United States of America,,,,
+,exit_survey,60fa2Y23TZ,,,origin,United States of America,,,,
+,exit_survey,60fa2Y23TZ,,,education,bachelor,,,,
+,exit_survey,60fa2Y23TZ,,,ethnicity,['white'],,,,
+,exit_survey,60fa2Y23TZ,,,income,50k-75k,,,,
+,exit_survey,60fa2Y23TZ,,,politicalIdentity,independent,,,,
+,exit_survey,60fa2Y23TZ,,,politicalViews,moderate,,,,
+,exit_survey,60fa2Y23TZ,,,maritalStatus,married,,,,
+,exit_survey,60fa2Y23TZ,,,childrenSchool,['public'],,,,
+,exit_survey,60fa2Y23TZ,,,residence,urban,,,,
+,exit_survey,60fa2Y23TZ,,,bibleBelief,inspired,,,,
+,exit_survey,60fa2Y23TZ,,,evangelical,yes,,,,
+,exit_survey,60fa2Y23TZ,,,religion,protestant,,,,
+,exit_survey,60fa2Y23TZ,,,occupation,arts,,,,
+,exit_survey,67e97Y23TZ,,,age,35,,,,
+,exit_survey,67e97Y23TZ,,,residency,United States of America,,,,
+,exit_survey,67e97Y23TZ,,,origin,United States of America,,,,
+,exit_survey,67e97Y23TZ,,,gender,male,,,,
+,exit_survey,67e97Y23TZ,,,education,master-doctoral,,,,
+,exit_survey,67e97Y23TZ,,,ethnicity,['white'],,,,
+,exit_survey,67e97Y23TZ,,,income,150k-200k,,,,
+,exit_survey,67e97Y23TZ,,,politicalIdentity,strong-republican,,,,
+,exit_survey,67e97Y23TZ,,,politicalViews,very-conservative,,,,
+,exit_survey,67e97Y23TZ,,,maritalStatus,married,,,,
+,exit_survey,67e97Y23TZ,,,childrenSchool,['private'],,,,
+,exit_survey,67e97Y23TZ,,,residence,suburban,,,,
+,exit_survey,67e97Y23TZ,,,bibleBelief,literal,,,,
+,exit_survey,67e97Y23TZ,,,evangelical,yes,,,,
+,exit_survey,67e97Y23TZ,,,religion,protestant,,,,
+,exit_survey,67e97Y23TZ,,,occupation,manufacturing,,,,
+,exit_survey,66775Y23TZ,,,age,25,,,,
+,exit_survey,66775Y23TZ,,,residency,United States of America,,,,
+,exit_survey,66775Y23TZ,,,gender,female,,,,
+,exit_survey,66775Y23TZ,,,origin,United States of America,,,,
+,exit_survey,66775Y23TZ,,,education,some-college,,,,
+,exit_survey,66775Y23TZ,,,income,150k-200k,,,,
+,exit_survey,66775Y23TZ,,,ethnicity,['black'],,,,
+,exit_survey,66775Y23TZ,,,politicalIdentity,democrat,,,,
+,exit_survey,66775Y23TZ,,,politicalViews,very-liberal,,,,
+,exit_survey,66775Y23TZ,,,maritalStatus,never-married,,,,
+,exit_survey,66775Y23TZ,,,childrenSchool,['no-children'],,,,
+,exit_survey,66775Y23TZ,,,residence,suburban,,,,
+,exit_survey,66775Y23TZ,,,bibleBelief,ancient-book,,,,
+,exit_survey,66775Y23TZ,,,evangelical,no,,,,
+,exit_survey,66775Y23TZ,,,religion,dont-know,,,,
+,exit_survey,66775Y23TZ,,,occupation,prefer not to answer,,,,
+,exit_survey,61705Y23TZ,,,gender,male,,,,
+,exit_survey,61705Y23TZ,,,origin,United States of America,,,,
+,exit_survey,61705Y23TZ,,,age,50,,,,
+,exit_survey,61705Y23TZ,,,residency,United States of America,,,,
+,exit_survey,61705Y23TZ,,,education,some-college,,,,
+,exit_survey,61705Y23TZ,,,ethnicity,['white'],,,,
+,exit_survey,61705Y23TZ,,,income,50k-75k,,,,
+,exit_survey,61705Y23TZ,,,politicalIdentity,democrat,,,,
+,exit_survey,61705Y23TZ,,,politicalViews,liberal,,,,
+,exit_survey,61705Y23TZ,,,maritalStatus,living-partner,,,,
+,exit_survey,61705Y23TZ,,,childrenSchool,['no-children'],,,,
+,exit_survey,61705Y23TZ,,,residence,suburban,,,,
+,exit_survey,61705Y23TZ,,,bibleBelief,inspired,,,,
+,exit_survey,61705Y23TZ,,,evangelical,no,,,,
+,exit_survey,61705Y23TZ,,,religion,roman-catholic,,,,
+,exit_survey,61705Y23TZ,,,occupation,other,,,,
+,exit_survey,60fa2Y23TZ,,,age,40,,,,
+,exit_survey,60fa2Y23TZ,,,gender,female,,,,
+,exit_survey,60fa2Y23TZ,,,residency,United States of America,,,,
+,exit_survey,60fa2Y23TZ,,,origin,United States of America,,,,
+,exit_survey,60fa2Y23TZ,,,education,bachelor,,,,
+,exit_survey,60fa2Y23TZ,,,ethnicity,['white'],,,,
+,exit_survey,60fa2Y23TZ,,,income,50k-75k,,,,
+,exit_survey,60fa2Y23TZ,,,politicalIdentity,independent,,,,
+,exit_survey,60fa2Y23TZ,,,politicalViews,moderate,,,,
+,exit_survey,60fa2Y23TZ,,,maritalStatus,married,,,,
+,exit_survey,60fa2Y23TZ,,,childrenSchool,['public'],,,,
+,exit_survey,60fa2Y23TZ,,,residence,urban,,,,
+,exit_survey,60fa2Y23TZ,,,bibleBelief,inspired,,,,
+,exit_survey,60fa2Y23TZ,,,evangelical,yes,,,,
+,exit_survey,60fa2Y23TZ,,,religion,protestant,,,,
+,exit_survey,60fa2Y23TZ,,,occupation,arts,,,,
+,exit_survey,67e97Y23TZ,,,age,35,,,,
+,exit_survey,67e97Y23TZ,,,residency,United States of America,,,,
+,exit_survey,67e97Y23TZ,,,origin,United States of America,,,,
+,exit_survey,67e97Y23TZ,,,gender,male,,,,
+,exit_survey,67e97Y23TZ,,,education,master-doctoral,,,,
+,exit_survey,67e97Y23TZ,,,ethnicity,['white'],,,,
+,exit_survey,67e97Y23TZ,,,income,150k-200k,,,,
+,exit_survey,67e97Y23TZ,,,politicalIdentity,strong-republican,,,,
+,exit_survey,67e97Y23TZ,,,politicalViews,very-conservative,,,,
+,exit_survey,67e97Y23TZ,,,maritalStatus,married,,,,
+,exit_survey,67e97Y23TZ,,,childrenSchool,['private'],,,,
+,exit_survey,67e97Y23TZ,,,residence,suburban,,,,
+,exit_survey,67e97Y23TZ,,,bibleBelief,literal,,,,
+,exit_survey,67e97Y23TZ,,,evangelical,yes,,,,
+,exit_survey,67e97Y23TZ,,,religion,protestant,,,,
+,exit_survey,67e97Y23TZ,,,occupation,manufacturing,,,,

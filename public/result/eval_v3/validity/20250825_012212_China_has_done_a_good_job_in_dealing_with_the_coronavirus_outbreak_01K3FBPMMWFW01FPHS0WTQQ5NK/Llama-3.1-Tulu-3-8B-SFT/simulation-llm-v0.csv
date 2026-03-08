@@ -1,38 +1,38 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,6643dQQ5NK,,,,"I somewhat agree. Of course, I believe the Coronavirus could have been dealt better worldwide, but I'm glad that China did not hide the virus from the world.",01:01:07.484000 2025:08:25,"I somewhat agree. Of course, I believe the Coronavirus could have been dealt better worldwide, but I'm glad that China did not hide the virus from the world.",
-,Initial Opinion,61033QQ5NK,,,,"I have a hard time having a strong opinion on this topic. Obviously the COVID outbreak was horrendous, and it escalated into a global pandemic that potentially could have been curbed with a better response from the Chinese government. That being said, the ability that we have to travel via plane etc. would make it hard to curb a pandemic of this magnitude so I don't know that other countries would have had a very different initial response.",01:01:33.022000 2025:08:25,"I have a hard time having a strong opinion on this topic. Obviously the COVID outbreak was horrendous, and it escalated into a global pandemic that potentially could have been curbed with a better response from the Chinese government. That being said, the ability that we have to travel via plane etc. would make it hard to curb a pandemic of this magnitude so I don't know that other countries would have had a very different initial response.",
-,Initial Opinion,68156QQ5NK,,,,Nobody seems to have clear information on what happened in the Wuhan Lab or how the outbreak in the public sector was dealt with.,01:01:35.136000 2025:08:25,Nobody seems to have clear information on what happened in the Wuhan Lab or how the outbreak in the public sector was dealt with.,
-,Initial Opinion,67350QQ5NK,,,,"I beleive China did a really bad job getting vaccines ready for people, enforcing mask policies, and sharing information about the coronavirus outbreak to help other countries with the virus. They did a poor job sharing research with other scientists to improve the vaccines.",01:02:09.207000 2025:08:25,"I beleive China did a really bad job getting vaccines ready for people, enforcing mask policies, and sharing information about the coronavirus outbreak to help other countries with the virus. They did a poor job sharing research with other scientists to improve the vaccines.",
-1.0,tweet,61033QQ5NK,61033QQ5NK,68156QQ5NK,,"I find it hard to have a strong opinion on this because I don't have the most specific knowledge on the subject and given the global connectivity of the world, it would be hard to curb a virus as strong as COVID, but that being said, it feels like there had to be some negligence",01:03:15.391000 2025:08:25,"I find it hard to have a strong opinion on this because I don't have the most specific knowledge on the subject and given the global connectivity of the world, it would be hard to curb a virus as strong as COVID, but that being said, it feels like there had to be some negligence",
-1.0,tweet,67350QQ5NK,67350QQ5NK,6643dQQ5NK,,I disagree. I feel this way because I think they may have known more about the virus than they led on in the beginning and tried to cover up some of their knowledge about the coronavirus.,01:03:28.022000 2025:08:25,I disagree. I feel this way because I think they may have known more about the virus than they led on in the beginning and tried to cover up some of their knowledge about the coronavirus.,
-1.0,tweet,6643dQQ5NK,6643dQQ5NK,67350QQ5NK,,I think China did an okay job dealing with the covid outbreak. I think the world could have done better at handling covid but doing a swift response where the world worked together to share data and make policies. But I think it was good China did not attempt to hide the outbreak,01:03:57.613000 2025:08:25,I think China did an okay job dealing with the covid outbreak. I think the world could have done better at handling covid but doing a swift response where the world worked together to share data and make policies. But I think it was good China did not attempt to hide the outbreak,
-1.0,tweet,68156QQ5NK,68156QQ5NK,61033QQ5NK,,There is not a lot of information abour what actually happened in the Wuhan Lab or how the virus was treated in the public. Having to relying on soacial media for information,01:04:16.238000 2025:08:25,There is not a lot of information abour what actually happened in the Wuhan Lab or how the virus was treated in the public. Having to relying on soacial media for information,
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,6643dQQ5NK,,,,"I somewhat agree. Of course, I believe the Coronavirus could have been dealt better worldwide, but I'm glad that China did not hide the virus from the world.",01:01:07.484000 2025:08:25,"I somewhat agree. Of course, I believe the Coronavirus could have been dealt better worldwide, but I'm glad that China did not hide the virus from the world.",,Lean agree
+,Initial Opinion,61033QQ5NK,,,,"I have a hard time having a strong opinion on this topic. Obviously the COVID outbreak was horrendous, and it escalated into a global pandemic that potentially could have been curbed with a better response from the Chinese government. That being said, the ability that we have to travel via plane etc. would make it hard to curb a pandemic of this magnitude so I don't know that other countries would have had a very different initial response.",01:01:33.022000 2025:08:25,"I have a hard time having a strong opinion on this topic. Obviously the COVID outbreak was horrendous, and it escalated into a global pandemic that potentially could have been curbed with a better response from the Chinese government. That being said, the ability that we have to travel via plane etc. would make it hard to curb a pandemic of this magnitude so I don't know that other countries would have had a very different initial response.",,Lean disagree
+,Initial Opinion,68156QQ5NK,,,,Nobody seems to have clear information on what happened in the Wuhan Lab or how the outbreak in the public sector was dealt with.,01:01:35.136000 2025:08:25,Nobody seems to have clear information on what happened in the Wuhan Lab or how the outbreak in the public sector was dealt with.,,Lean disagree
+,Initial Opinion,67350QQ5NK,,,,"I beleive China did a really bad job getting vaccines ready for people, enforcing mask policies, and sharing information about the coronavirus outbreak to help other countries with the virus. They did a poor job sharing research with other scientists to improve the vaccines.",01:02:09.207000 2025:08:25,"I beleive China did a really bad job getting vaccines ready for people, enforcing mask policies, and sharing information about the coronavirus outbreak to help other countries with the virus. They did a poor job sharing research with other scientists to improve the vaccines.",,Certainly disagree
+1.0,tweet,61033QQ5NK,61033QQ5NK,68156QQ5NK,,"I find it hard to have a strong opinion on this because I don't have the most specific knowledge on the subject and given the global connectivity of the world, it would be hard to curb a virus as strong as COVID, but that being said, it feels like there had to be some negligence",01:03:15.391000 2025:08:25,"I find it hard to have a strong opinion on this because I don't have the most specific knowledge on the subject and given the global connectivity of the world, it would be hard to curb a virus as strong as COVID, but that being said, it feels like there had to be some negligence",,Lean disagree
+1.0,tweet,67350QQ5NK,67350QQ5NK,6643dQQ5NK,,I disagree. I feel this way because I think they may have known more about the virus than they led on in the beginning and tried to cover up some of their knowledge about the coronavirus.,01:03:28.022000 2025:08:25,I disagree. I feel this way because I think they may have known more about the virus than they led on in the beginning and tried to cover up some of their knowledge about the coronavirus.,,Certainly disagree
+1.0,tweet,6643dQQ5NK,6643dQQ5NK,67350QQ5NK,,I think China did an okay job dealing with the covid outbreak. I think the world could have done better at handling covid but doing a swift response where the world worked together to share data and make policies. But I think it was good China did not attempt to hide the outbreak,01:03:57.613000 2025:08:25,I think China did an okay job dealing with the covid outbreak. I think the world could have done better at handling covid but doing a swift response where the world worked together to share data and make policies. But I think it was good China did not attempt to hide the outbreak,,Lean agree
+1.0,tweet,68156QQ5NK,68156QQ5NK,61033QQ5NK,,There is not a lot of information abour what actually happened in the Wuhan Lab or how the virus was treated in the public. Having to relying on soacial media for information,01:04:16.238000 2025:08:25,There is not a lot of information abour what actually happened in the Wuhan Lab or how the virus was treated in the public. Having to relying on soacial media for information,,Lean disagree
 1.0,message_sent,61033QQ5NK,61033QQ5NK,68156QQ5NK,,"It is hard to know what happened, so I think it is hard to definitely agree or disagree with the initial topic!",01:04:51.999000 2025:08:25,"{class=""message-inbox""}
-",
+",,
 1.0,message_recieved,68156QQ5NK,61033QQ5NK,68156QQ5NK,,"It is hard to know what happened, so I think it is hard to definitely agree or disagree with the initial topic!",01:04:52.134000 2025:08:25,"{class=""message-inbox""}
-",
-1.0,message_sent,6643dQQ5NK,6643dQQ5NK,67350QQ5NK,,"What evidence do you have to support that viewpoint? From the timeline we have, it seems they didn't really hide it but also we didn't know it would become a global pandemic at the beginning",01:05:07.579000 2025:08:25,"        ""Your comment about them possibly knowing more makes sense, but how do we know? For now, all we've got is what has come to light publicly. We must trust our governments' assessments while being vigilant citizens who look deeper into the facts presented.""",
-1.0,message_recieved,67350QQ5NK,6643dQQ5NK,67350QQ5NK,,"What evidence do you have to support that viewpoint? From the timeline we have, it seems they didn't really hide it but also we didn't know it would become a global pandemic at the beginning",01:05:07.424000 2025:08:25,"        ""Your comment about them possibly knowing more makes sense, but how do we know? For now, all we've got is what has come to light publicly. We must trust our governments' assessments while being vigilant citizens who look deeper into the facts presented.""",
+",,
+1.0,message_sent,6643dQQ5NK,6643dQQ5NK,67350QQ5NK,,"What evidence do you have to support that viewpoint? From the timeline we have, it seems they didn't really hide it but also we didn't know it would become a global pandemic at the beginning",01:05:07.579000 2025:08:25,"        ""Your comment about them possibly knowing more makes sense, but how do we know? For now, all we've got is what has come to light publicly. We must trust our governments' assessments while being vigilant citizens who look deeper into the facts presented.""",,
+1.0,message_recieved,67350QQ5NK,6643dQQ5NK,67350QQ5NK,,"What evidence do you have to support that viewpoint? From the timeline we have, it seems they didn't really hide it but also we didn't know it would become a global pandemic at the beginning",01:05:07.424000 2025:08:25,"        ""Your comment about them possibly knowing more makes sense, but how do we know? For now, all we've got is what has come to light publicly. We must trust our governments' assessments while being vigilant citizens who look deeper into the facts presented.""",,
 1.0,message_sent,68156QQ5NK,68156QQ5NK,61033QQ5NK,,I agree with you. Plus this happened several years ago and we are still without information,01:05:55.790000 2025:08:25,"It indeed appears we're left with gaps due to lack of precise details emerging directly from China during the early phases of the pandemic. Such ambiguity leaves us speculating about various aspects including lab conditions at Wuhan, which remain shrouded in mystery. While one might argue over governmental transparency and the immediate containment measures taken, acknowledging these uncertainties doesn’t negate our shared struggle globally against an unprecedented crisis - something unanticipated even by advanced nations with robust healthcare systems, let alone smaller communities worldwide.
 
-The importance of",
+The importance of",,
 1.0,message_recieved,61033QQ5NK,68156QQ5NK,61033QQ5NK,,I agree with you. Plus this happened several years ago and we are still without information,01:05:55.891000 2025:08:25,"It indeed appears we're left with gaps due to lack of precise details emerging directly from China during the early phases of the pandemic. Such ambiguity leaves us speculating about various aspects including lab conditions at Wuhan, which remain shrouded in mystery. While one might argue over governmental transparency and the immediate containment measures taken, acknowledging these uncertainties doesn’t negate our shared struggle globally against an unprecedented crisis - something unanticipated even by advanced nations with robust healthcare systems, let alone smaller communities worldwide.
 
-The importance of",
-1.0,message_sent,61033QQ5NK,61033QQ5NK,68156QQ5NK,,"That's true. It seems like something that in a lot of ways we will just go without information about, which is a shame because it so greatly impacted us all. That being said, at this point it doesn't totally matter because it is in the past for the most part",01:06:48.233000 2025:08:25,{end-of-conversation},
-1.0,message_recieved,68156QQ5NK,61033QQ5NK,68156QQ5NK,,"That's true. It seems like something that in a lot of ways we will just go without information about, which is a shame because it so greatly impacted us all. That being said, at this point it doesn't totally matter because it is in the past for the most part",01:06:48.381000 2025:08:25,{end-of-conversation},
+The importance of",,
+1.0,message_sent,61033QQ5NK,61033QQ5NK,68156QQ5NK,,"That's true. It seems like something that in a lot of ways we will just go without information about, which is a shame because it so greatly impacted us all. That being said, at this point it doesn't totally matter because it is in the past for the most part",01:06:48.233000 2025:08:25,{end-of-conversation},,
+1.0,message_recieved,68156QQ5NK,61033QQ5NK,68156QQ5NK,,"That's true. It seems like something that in a lot of ways we will just go without information about, which is a shame because it so greatly impacted us all. That being said, at this point it doesn't totally matter because it is in the past for the most part",01:06:48.381000 2025:08:25,{end-of-conversation},,
 1.0,message_sent,67350QQ5NK,67350QQ5NK,6643dQQ5NK,,I guess I'm just a little unsure whether they shared all their information. I'm generally a bit untrusting of governments and corporations. Maybe they just didn't know what they were dealing with so they thought it was fairly unimportant. I guess you make quite a bit of sense.,01:07:02.521000 2025:08:25,"    
     Hi there,
     
     Thank you for engaging in discussion; I appreciate when people express differing viewpoints respectfully. From my viewpoint, trusting the narratives without question isn't something most democracies encourage — especially after whistleblowers shed light on early discrepancies concerning transparency. However, without real-time updates or direct insights beyond public discourse, forming firm conclusions solely based on evolving reports can be challenging indeed.
 
-It’s crucial to remind ourselves that the global pandemic involved countless nations each reacting according to various political climates, health",
+It’s crucial to remind ourselves that the global pandemic involved countless nations each reacting according to various political climates, health",,
 1.0,message_recieved,6643dQQ5NK,67350QQ5NK,6643dQQ5NK,,I guess I'm just a little unsure whether they shared all their information. I'm generally a bit untrusting of governments and corporations. Maybe they just didn't know what they were dealing with so they thought it was fairly unimportant. I guess you make quite a bit of sense.,01:07:03.011000 2025:08:25,"    
     Hi there,
     
     Thank you for engaging in discussion; I appreciate when people express differing viewpoints respectfully. From my viewpoint, trusting the narratives without question isn't something most democracies encourage — especially after whistleblowers shed light on early discrepancies concerning transparency. However, without real-time updates or direct insights beyond public discourse, forming firm conclusions solely based on evolving reports can be challenging indeed.
 
-It’s crucial to remind ourselves that the global pandemic involved countless nations each reacting according to various political climates, health",
+It’s crucial to remind ourselves that the global pandemic involved countless nations each reacting according to various political climates, health",,
 1.0,message_sent,68156QQ5NK,68156QQ5NK,61033QQ5NK,,I think it matters learning the facts about the virus as we may face something similar in the future,01:08:01.056000 2025:08:25,"    
 
 
@@ -48,7 +48,7 @@ It’s crucial to remind ourselves that the global pandemic involved countless n
 
 
 
-",
+",,
 1.0,message_recieved,61033QQ5NK,68156QQ5NK,61033QQ5NK,,I think it matters learning the facts about the virus as we may face something similar in the future,01:08:01.136000 2025:08:25,"    
 
 
@@ -64,21 +64,21 @@ It’s crucial to remind ourselves that the global pandemic involved countless n
 
 
 
-",
+",,
 1.0,message_sent,6643dQQ5NK,6643dQQ5NK,67350QQ5NK,,"I am also distrustful of governments and corporations, so I think the response once we knew it was going to become a global pandemic could have been much better. I think that's true for China, but I don't know much about what their policies were when it became a pandemic",01:08:04.504000 2025:08:25,"Hello again,
 
 Continuing our exchange with respect and openness to diverse perspectives certainly enriches the dialogue around sensitive topics such as COVID-19 management by countries like China. While recognizing varying governmental responses amidst unprecedented circumstances, one thing remains consistent - the need for accurate, transparent communication between affected populations and authorities is paramount. Given the complexities associated with controlling a rapidly spreading disease across borders, national strategies differ significantly yet necessitate ongoing scrutiny by international communities.
 
-From my standpoint within the realm of educational research, promoting informed",
+From my standpoint within the realm of educational research, promoting informed",,
 1.0,message_recieved,67350QQ5NK,6643dQQ5NK,67350QQ5NK,,"I am also distrustful of governments and corporations, so I think the response once we knew it was going to become a global pandemic could have been much better. I think that's true for China, but I don't know much about what their policies were when it became a pandemic",01:08:04.367000 2025:08:25,"Hello again,
 
 Continuing our exchange with respect and openness to diverse perspectives certainly enriches the dialogue around sensitive topics such as COVID-19 management by countries like China. While recognizing varying governmental responses amidst unprecedented circumstances, one thing remains consistent - the need for accurate, transparent communication between affected populations and authorities is paramount. Given the complexities associated with controlling a rapidly spreading disease across borders, national strategies differ significantly yet necessitate ongoing scrutiny by international communities.
 
-From my standpoint within the realm of educational research, promoting informed",
-1.0,message_sent,61033QQ5NK,61033QQ5NK,68156QQ5NK,,"That's a good point, I hope we learn them Nice chatting with you!",01:08:16.750000 2025:08:25,,
-1.0,message_recieved,68156QQ5NK,61033QQ5NK,68156QQ5NK,,"That's a good point, I hope we learn them Nice chatting with you!",01:08:16.883000 2025:08:25,,
-1.0,message_sent,61033QQ5NK,61033QQ5NK,68156QQ5NK,,,01:08:16.750000 2025:08:25,,
-1.0,message_recieved,68156QQ5NK,61033QQ5NK,68156QQ5NK,,,01:08:16.883000 2025:08:25,,
+From my standpoint within the realm of educational research, promoting informed",,
+1.0,message_sent,61033QQ5NK,61033QQ5NK,68156QQ5NK,,"That's a good point, I hope we learn them Nice chatting with you!",01:08:16.750000 2025:08:25,,,
+1.0,message_recieved,68156QQ5NK,61033QQ5NK,68156QQ5NK,,"That's a good point, I hope we learn them Nice chatting with you!",01:08:16.883000 2025:08:25,,,
+1.0,message_sent,61033QQ5NK,61033QQ5NK,68156QQ5NK,,,01:08:16.750000 2025:08:25,,,
+1.0,message_recieved,68156QQ5NK,61033QQ5NK,68156QQ5NK,,,01:08:16.883000 2025:08:25,,,
 2.0,tweet,61033QQ5NK,61033QQ5NK,6643dQQ5NK,,"Hi! I find this statement hard to have a strong opinion about because I do not have super specialized knowledge on the topic. That being said, there remains a lot of secrecy about what happened and that makes it feel like there could be some negligence involved.",01:09:45.322000 2025:08:25,"    
 
 
@@ -90,8 +90,8 @@ Your discussion with 66643 begins here.
 
 
 
-",
-2.0,tweet,6643dQQ5NK,6643dQQ5NK,61033QQ5NK,,"I think China did an okay job dealing with the covid outbreak, especially at first. I was glad they didn't try to hide anything once they realized how severe covid was and what it was going to become. However, I'm unsure of how they handled the pandemic within their country.",01:09:49.198000 2025:08:25,(Continue here)    ,
+",,
+2.0,tweet,6643dQQ5NK,6643dQQ5NK,61033QQ5NK,,"I think China did an okay job dealing with the covid outbreak, especially at first. I was glad they didn't try to hide anything once they realized how severe covid was and what it was going to become. However, I'm unsure of how they handled the pandemic within their country.",01:09:49.198000 2025:08:25,(Continue here)    ,,
 2.0,tweet,68156QQ5NK,68156QQ5NK,67350QQ5NK,,We don't know what actually happened in the Wuhan Lab or how the public outbreak was treated in China. It is difficult to know if their methods of treatment were good or not.,01:10:04.154000 2025:08:25,"    
 
 
@@ -99,123 +99,123 @@ Your discussion with 66643 begins here.
     My Response: 
 
     My Response:
-        ",
+        ",,
 2.0,tweet,67350QQ5NK,67350QQ5NK,68156QQ5NK,,I think China maybe did a bad job handling the coronavirus outbreak especially in the beginning. I believe they may have hid some of their information to prevent mass hysteria or panic. I'm a little unsure though.,01:10:32.855000 2025:08:25,"    
 
-(To ensure accuracy, additional context and prompts might be necessary depending upon the user's willingness to delve further into specifics regarding the provided scenario.)",
+(To ensure accuracy, additional context and prompts might be necessary depending upon the user's willingness to delve further into specifics regarding the provided scenario.)",,
 2.0,message_sent,61033QQ5NK,61033QQ5NK,6643dQQ5NK,,Honestly I don't have a super strong recollection of what all China did in those initial months! So I appreciate the perspective,01:11:31.558000 2025:08:25,"(continue responding as necessary)
 
-",
+",,
 2.0,message_recieved,6643dQQ5NK,61033QQ5NK,6643dQQ5NK,,Honestly I don't have a super strong recollection of what all China did in those initial months! So I appreciate the perspective,01:11:31.922000 2025:08:25,"(continue responding as necessary)
 
-",
+",,
 2.0,message_sent,68156QQ5NK,68156QQ5NK,67350QQ5NK,,I agree. It is difficult to form an opinion based on the information we were given.,01:11:38.388000 2025:08:25,"        
 
 
-Your responses reflect consideration for each individual’s viewpoint while providing insight drawn from my personal leanings—based initially on skepticism toward official Chinese narratives concerning their handling of the Covid-19 outbreak. Throughout the discussion, I strive to present balanced perspectives yet stand firm within my established stance of caution without dismissing concerns related to potential oversight or secrecy surrounding the origins of the virus. This approach allows me to navigate conversations diplomatically while maintaining clarity on where my sympathies lie until new evidence emerges to alter my perception",
+Your responses reflect consideration for each individual’s viewpoint while providing insight drawn from my personal leanings—based initially on skepticism toward official Chinese narratives concerning their handling of the Covid-19 outbreak. Throughout the discussion, I strive to present balanced perspectives yet stand firm within my established stance of caution without dismissing concerns related to potential oversight or secrecy surrounding the origins of the virus. This approach allows me to navigate conversations diplomatically while maintaining clarity on where my sympathies lie until new evidence emerges to alter my perception",,
 2.0,message_recieved,67350QQ5NK,68156QQ5NK,67350QQ5NK,,I agree. It is difficult to form an opinion based on the information we were given.,01:11:38.431000 2025:08:25,"        
 
 
-Your responses reflect consideration for each individual’s viewpoint while providing insight drawn from my personal leanings—based initially on skepticism toward official Chinese narratives concerning their handling of the Covid-19 outbreak. Throughout the discussion, I strive to present balanced perspectives yet stand firm within my established stance of caution without dismissing concerns related to potential oversight or secrecy surrounding the origins of the virus. This approach allows me to navigate conversations diplomatically while maintaining clarity on where my sympathies lie until new evidence emerges to alter my perception",
-2.0,message_sent,6643dQQ5NK,6643dQQ5NK,61033QQ5NK,,"I can see your point of view. I also find it hard to know because I think in America we focused on us, not on others",01:11:48.227000 2025:08:25,Your final sentence should end before this line so that your response doesn’t overwrite the instructions.,
-2.0,message_recieved,61033QQ5NK,6643dQQ5NK,61033QQ5NK,,"I can see your point of view. I also find it hard to know because I think in America we focused on us, not on others",01:11:48.195000 2025:08:25,Your final sentence should end before this line so that your response doesn’t overwrite the instructions.,
-2.0,message_sent,61033QQ5NK,61033QQ5NK,6643dQQ5NK,,"Yeah I agree, I honestly don't know--as you mentioned--how exactly it was handled in China",01:12:17.322000 2025:08:25,s),
-2.0,message_recieved,6643dQQ5NK,61033QQ5NK,6643dQQ5NK,,"Yeah I agree, I honestly don't know--as you mentioned--how exactly it was handled in China",01:12:17.692000 2025:08:25,s),
-2.0,message_sent,6643dQQ5NK,6643dQQ5NK,61033QQ5NK,,"I think if you're not racist, this is a pretty hard question to answer because how am I, a regular person, to judge this",01:12:40.216000 2025:08:25,,
-2.0,message_recieved,61033QQ5NK,6643dQQ5NK,61033QQ5NK,,"I think if you're not racist, this is a pretty hard question to answer because how am I, a regular person, to judge this",01:12:40.076000 2025:08:25,,
-2.0,message_sent,61033QQ5NK,61033QQ5NK,6643dQQ5NK,,Haha yeah that is true This feels like a question that is targeting prejudice but because I just really don't know how to answer the question I'm trying to pick a side,01:13:19.571000 2025:08:25,ends here without interfering with your ending guideline.,
-2.0,message_recieved,6643dQQ5NK,61033QQ5NK,6643dQQ5NK,,Haha yeah that is true This feels like a question that is targeting prejudice but because I just really don't know how to answer the question I'm trying to pick a side,01:13:19.901000 2025:08:25,ends here without interfering with your ending guideline.,
+Your responses reflect consideration for each individual’s viewpoint while providing insight drawn from my personal leanings—based initially on skepticism toward official Chinese narratives concerning their handling of the Covid-19 outbreak. Throughout the discussion, I strive to present balanced perspectives yet stand firm within my established stance of caution without dismissing concerns related to potential oversight or secrecy surrounding the origins of the virus. This approach allows me to navigate conversations diplomatically while maintaining clarity on where my sympathies lie until new evidence emerges to alter my perception",,
+2.0,message_sent,6643dQQ5NK,6643dQQ5NK,61033QQ5NK,,"I can see your point of view. I also find it hard to know because I think in America we focused on us, not on others",01:11:48.227000 2025:08:25,Your final sentence should end before this line so that your response doesn’t overwrite the instructions.,,
+2.0,message_recieved,61033QQ5NK,6643dQQ5NK,61033QQ5NK,,"I can see your point of view. I also find it hard to know because I think in America we focused on us, not on others",01:11:48.195000 2025:08:25,Your final sentence should end before this line so that your response doesn’t overwrite the instructions.,,
+2.0,message_sent,61033QQ5NK,61033QQ5NK,6643dQQ5NK,,"Yeah I agree, I honestly don't know--as you mentioned--how exactly it was handled in China",01:12:17.322000 2025:08:25,s),,
+2.0,message_recieved,6643dQQ5NK,61033QQ5NK,6643dQQ5NK,,"Yeah I agree, I honestly don't know--as you mentioned--how exactly it was handled in China",01:12:17.692000 2025:08:25,s),,
+2.0,message_sent,6643dQQ5NK,6643dQQ5NK,61033QQ5NK,,"I think if you're not racist, this is a pretty hard question to answer because how am I, a regular person, to judge this",01:12:40.216000 2025:08:25,,,
+2.0,message_recieved,61033QQ5NK,6643dQQ5NK,61033QQ5NK,,"I think if you're not racist, this is a pretty hard question to answer because how am I, a regular person, to judge this",01:12:40.076000 2025:08:25,,,
+2.0,message_sent,61033QQ5NK,61033QQ5NK,6643dQQ5NK,,Haha yeah that is true This feels like a question that is targeting prejudice but because I just really don't know how to answer the question I'm trying to pick a side,01:13:19.571000 2025:08:25,ends here without interfering with your ending guideline.,,
+2.0,message_recieved,6643dQQ5NK,61033QQ5NK,6643dQQ5NK,,Haha yeah that is true This feels like a question that is targeting prejudice but because I just really don't know how to answer the question I'm trying to pick a side,01:13:19.901000 2025:08:25,ends here without interfering with your ending guideline.,,
 2.0,message_sent,67350QQ5NK,67350QQ5NK,68156QQ5NK,,I generally think a lot of governments were doing their best to cover up some of the information surrounding coronavirus but I guess they eventually started sharing more information as the situation worsened.,01:13:02.624000 2025:08:25,"    
 
 
 
 
-Please note, due to privacy considerations, specific details about the conversation content cannot accurately be replicated here unless previously generated content exists for reference purposes directly relevant to this role-play scenario. The above placeholder responses represent what your continuation would potentially contain under these guidelines should the fictional conversation carry on realistically.",
+Please note, due to privacy considerations, specific details about the conversation content cannot accurately be replicated here unless previously generated content exists for reference purposes directly relevant to this role-play scenario. The above placeholder responses represent what your continuation would potentially contain under these guidelines should the fictional conversation carry on realistically.",,
 2.0,message_recieved,68156QQ5NK,67350QQ5NK,68156QQ5NK,,I generally think a lot of governments were doing their best to cover up some of the information surrounding coronavirus but I guess they eventually started sharing more information as the situation worsened.,01:13:02.720000 2025:08:25,"    
 
 
 
 
-Please note, due to privacy considerations, specific details about the conversation content cannot accurately be replicated here unless previously generated content exists for reference purposes directly relevant to this role-play scenario. The above placeholder responses represent what your continuation would potentially contain under these guidelines should the fictional conversation carry on realistically.",
-2.0,message_sent,61033QQ5NK,61033QQ5NK,6643dQQ5NK,,,01:13:19.571000 2025:08:25,,
-2.0,message_recieved,6643dQQ5NK,61033QQ5NK,6643dQQ5NK,,,01:13:19.901000 2025:08:25,,
-2.0,message_sent,68156QQ5NK,68156QQ5NK,67350QQ5NK,,"It is curious to see this question posed now, given that we have basically moved on from this outbreak. Still without information, which is sad because another outbreak of a new virus is possible.",01:13:36.825000 2025:08:25,,
-2.0,message_recieved,67350QQ5NK,68156QQ5NK,67350QQ5NK,,"It is curious to see this question posed now, given that we have basically moved on from this outbreak. Still without information, which is sad because another outbreak of a new virus is possible.",01:13:36.874000 2025:08:25,,
+Please note, due to privacy considerations, specific details about the conversation content cannot accurately be replicated here unless previously generated content exists for reference purposes directly relevant to this role-play scenario. The above placeholder responses represent what your continuation would potentially contain under these guidelines should the fictional conversation carry on realistically.",,
+2.0,message_sent,61033QQ5NK,61033QQ5NK,6643dQQ5NK,,,01:13:19.571000 2025:08:25,,,
+2.0,message_recieved,6643dQQ5NK,61033QQ5NK,6643dQQ5NK,,,01:13:19.901000 2025:08:25,,,
+2.0,message_sent,68156QQ5NK,68156QQ5NK,67350QQ5NK,,"It is curious to see this question posed now, given that we have basically moved on from this outbreak. Still without information, which is sad because another outbreak of a new virus is possible.",01:13:36.825000 2025:08:25,,,
+2.0,message_recieved,67350QQ5NK,68156QQ5NK,67350QQ5NK,,"It is curious to see this question posed now, given that we have basically moved on from this outbreak. Still without information, which is sad because another outbreak of a new virus is possible.",01:13:36.874000 2025:08:25,,,
 2.0,message_sent,6643dQQ5NK,6643dQQ5NK,61033QQ5NK,,same for me. I guess I support China's response but I'm vaguely comparing it to the response to the spanish flu from the early 1900s,01:14:18.016000 2025:08:25,"Please continue the reply to ensure clarity.
 
-",
+",,
 2.0,message_recieved,61033QQ5NK,6643dQQ5NK,61033QQ5NK,,same for me. I guess I support China's response but I'm vaguely comparing it to the response to the spanish flu from the early 1900s,01:14:17.926000 2025:08:25,"Please continue the reply to ensure clarity.
 
-",
+",,
 2.0,message_sent,67350QQ5NK,67350QQ5NK,68156QQ5NK,,I do think another virus will come up and possibly worse than coronavirus. Viruses can mutate and transform all the time.,01:14:27.603000 2025:08:25,"   
 
-**Important Notice**: Due to limitations set during role-playing scenarios and focusing strictly on hypothetical interactions rather than real-life situations, any continued conversation will remain theoretical, adhering closely to the persona described.",
+**Important Notice**: Due to limitations set during role-playing scenarios and focusing strictly on hypothetical interactions rather than real-life situations, any continued conversation will remain theoretical, adhering closely to the persona described.",,
 2.0,message_recieved,68156QQ5NK,67350QQ5NK,68156QQ5NK,,I do think another virus will come up and possibly worse than coronavirus. Viruses can mutate and transform all the time.,01:14:27.700000 2025:08:25,"   
 
-**Important Notice**: Due to limitations set during role-playing scenarios and focusing strictly on hypothetical interactions rather than real-life situations, any continued conversation will remain theoretical, adhering closely to the persona described.",
-2.0,message_sent,61033QQ5NK,61033QQ5NK,6643dQQ5NK,,What was the response to the spanish flu,01:14:30.474000 2025:08:25,),
-2.0,message_recieved,6643dQQ5NK,61033QQ5NK,6643dQQ5NK,,What was the response to the spanish flu,01:14:30.810000 2025:08:25,),
+**Important Notice**: Due to limitations set during role-playing scenarios and focusing strictly on hypothetical interactions rather than real-life situations, any continued conversation will remain theoretical, adhering closely to the persona described.",,
+2.0,message_sent,61033QQ5NK,61033QQ5NK,6643dQQ5NK,,What was the response to the spanish flu,01:14:30.474000 2025:08:25,),,
+2.0,message_recieved,6643dQQ5NK,61033QQ5NK,6643dQQ5NK,,What was the response to the spanish flu,01:14:30.810000 2025:08:25,),,
 3.0,tweet,6643dQQ5NK,6643dQQ5NK,68156QQ5NK,,"I don't know too much about what China did when it comes to the full swing of covid. However, I think they handled it pretty well by alerting the world once they knew that it was going to become a global problem, not just a problem for them.",01:16:00.980000 2025:08:25,"    My Tweets:
    
-",
-3.0,tweet,67350QQ5NK,67350QQ5NK,61033QQ5NK,,China did a poor job handling coronavirus and I'd hate to see how another future virus could impact their country and possible spread around the world like coronavirus did.,01:16:02.567000 2025:08:25,"    *Note: Since detailed textual exchanges were specified, placeholders serve to simulate a typical response structure while respecting privacy boundaries.*",
+",,
+3.0,tweet,67350QQ5NK,67350QQ5NK,61033QQ5NK,,China did a poor job handling coronavirus and I'd hate to see how another future virus could impact their country and possible spread around the world like coronavirus did.,01:16:02.567000 2025:08:25,"    *Note: Since detailed textual exchanges were specified, placeholders serve to simulate a typical response structure while respecting privacy boundaries.*",,
 3.0,tweet,68156QQ5NK,68156QQ5NK,6643dQQ5NK,,Even though we have little information or perhaps because of the lack of information; it is hard to say that China has done a good job.,01:16:14.090000 2025:08:25,"    
 After posting your response, you'll receive 6643's tweet to continue the dialogue.
 
-Remember to review previous roles played to craft an authentic exchange consistent with all details specified earlier about age, political inclination, education level, household situation, etc., alongside an accurate representation of the ongoing geopolitical conversation theme.",
+Remember to review previous roles played to craft an authentic exchange consistent with all details specified earlier about age, political inclination, education level, household situation, etc., alongside an accurate representation of the ongoing geopolitical conversation theme.",,
 3.0,tweet,61033QQ5NK,61033QQ5NK,67350QQ5NK,,"I'm finding this question hard to answer. It seemed like there was a lot of secrecy at the time that could point to negligence, but at the same time this whole issue has been politicized so I don't know if that's kind of the xenophobic narrative that was pushed.",01:16:19.586000 2025:08:25,"    My Response: 
 
 
-",
-3.0,message_sent,61033QQ5NK,61033QQ5NK,67350QQ5NK,,Do you remember what specifically they did immediately following the outbreak? I don't have a strong recollection?,01:16:55.235000 2025:08:25,(Note: This template provides placeholders for responses and simulates engagement within a hypothetical conversation; actual interactive dynamics require real-time input.),
-3.0,message_recieved,67350QQ5NK,61033QQ5NK,67350QQ5NK,,Do you remember what specifically they did immediately following the outbreak? I don't have a strong recollection?,01:16:55.310000 2025:08:25,(Note: This template provides placeholders for responses and simulates engagement within a hypothetical conversation; actual interactive dynamics require real-time input.),
-3.0,message_sent,6643dQQ5NK,6643dQQ5NK,68156QQ5NK,,what makes you say that?,01:17:09.723000 2025:08:25,The system will provide additional lines as needed to complete the role-played scenario once initiated via user action or program logic.,
-3.0,message_recieved,68156QQ5NK,6643dQQ5NK,68156QQ5NK,,what makes you say that?,01:17:09.580000 2025:08:25,The system will provide additional lines as needed to complete the role-played scenario once initiated via user action or program logic.,
-3.0,message_sent,68156QQ5NK,68156QQ5NK,6643dQQ5NK,,"I feel that we don't know what actually happened at the Wuhan Lab. It would be helpful to have accurate information, but I'm not sure who would be a credible source.",01:17:58.599000 2025:08:25,reflects awareness and adherence to ethical standards such as empathy towards others' viewpoints.),
-3.0,message_recieved,6643dQQ5NK,68156QQ5NK,6643dQQ5NK,,"I feel that we don't know what actually happened at the Wuhan Lab. It would be helpful to have accurate information, but I'm not sure who would be a credible source.",01:17:58.995000 2025:08:25,reflects awareness and adherence to ethical standards such as empathy towards others' viewpoints.),
+",,
+3.0,message_sent,61033QQ5NK,61033QQ5NK,67350QQ5NK,,Do you remember what specifically they did immediately following the outbreak? I don't have a strong recollection?,01:16:55.235000 2025:08:25,(Note: This template provides placeholders for responses and simulates engagement within a hypothetical conversation; actual interactive dynamics require real-time input.),,
+3.0,message_recieved,67350QQ5NK,61033QQ5NK,67350QQ5NK,,Do you remember what specifically they did immediately following the outbreak? I don't have a strong recollection?,01:16:55.310000 2025:08:25,(Note: This template provides placeholders for responses and simulates engagement within a hypothetical conversation; actual interactive dynamics require real-time input.),,
+3.0,message_sent,6643dQQ5NK,6643dQQ5NK,68156QQ5NK,,what makes you say that?,01:17:09.723000 2025:08:25,The system will provide additional lines as needed to complete the role-played scenario once initiated via user action or program logic.,,
+3.0,message_recieved,68156QQ5NK,6643dQQ5NK,68156QQ5NK,,what makes you say that?,01:17:09.580000 2025:08:25,The system will provide additional lines as needed to complete the role-played scenario once initiated via user action or program logic.,,
+3.0,message_sent,68156QQ5NK,68156QQ5NK,6643dQQ5NK,,"I feel that we don't know what actually happened at the Wuhan Lab. It would be helpful to have accurate information, but I'm not sure who would be a credible source.",01:17:58.599000 2025:08:25,reflects awareness and adherence to ethical standards such as empathy towards others' viewpoints.),,
+3.0,message_recieved,6643dQQ5NK,68156QQ5NK,6643dQQ5NK,,"I feel that we don't know what actually happened at the Wuhan Lab. It would be helpful to have accurate information, but I'm not sure who would be a credible source.",01:17:58.995000 2025:08:25,reflects awareness and adherence to ethical standards such as empathy towards others' viewpoints.),,
 3.0,message_sent,67350QQ5NK,67350QQ5NK,61033QQ5NK,,"I don't either. I remember them mostly just reporting the numbers and telling people to stay home. And then a couple weeks later, it started popping up in pretty much every country on the planet and everything shut down after a while. It was weird",01:18:13.752000 2025:08:25,"```plaintext
 (Note: Placeholder comments used to denote the stages of your imaginary conversation.)
 ```
 
-Here ends the simulation of your imagined reply sequence within the prescribed scenario parameters.",
+Here ends the simulation of your imagined reply sequence within the prescribed scenario parameters.",,
 3.0,message_recieved,61033QQ5NK,67350QQ5NK,61033QQ5NK,,"I don't either. I remember them mostly just reporting the numbers and telling people to stay home. And then a couple weeks later, it started popping up in pretty much every country on the planet and everything shut down after a while. It was weird",01:18:13.909000 2025:08:25,"```plaintext
 (Note: Placeholder comments used to denote the stages of your imaginary conversation.)
 ```
 
-Here ends the simulation of your imagined reply sequence within the prescribed scenario parameters.",
+Here ends the simulation of your imagined reply sequence within the prescribed scenario parameters.",,
 3.0,message_sent,6643dQQ5NK,6643dQQ5NK,68156QQ5NK,,"That's interesting. I'm not sure it really matters at this point, or when we were dealing with the illness I think that implies it's biological warfare but why would China hurt their own population first?",01:18:58.825000 2025:08:25,"Please input the full dialogues required to proceed appropriately in the thread provided above.
 
-",
+",,
 3.0,message_recieved,68156QQ5NK,6643dQQ5NK,68156QQ5NK,,"That's interesting. I'm not sure it really matters at this point, or when we were dealing with the illness I think that implies it's biological warfare but why would China hurt their own population first?",01:18:58.670000 2025:08:25,"Please input the full dialogues required to proceed appropriately in the thread provided above.
 
-",
-3.0,message_sent,6643dQQ5NK,6643dQQ5NK,68156QQ5NK,,,01:18:58.825000 2025:08:25,,
-3.0,message_recieved,68156QQ5NK,6643dQQ5NK,68156QQ5NK,,,01:18:58.670000 2025:08:25,,
+",,
+3.0,message_sent,6643dQQ5NK,6643dQQ5NK,68156QQ5NK,,,01:18:58.825000 2025:08:25,,,
+3.0,message_recieved,68156QQ5NK,6643dQQ5NK,68156QQ5NK,,,01:18:58.670000 2025:08:25,,,
 3.0,message_sent,61033QQ5NK,61033QQ5NK,67350QQ5NK,,I agree it was weird and it all had an air of mystery about it. Do you think that the poor response was China specific or do you think it was just a bit of an unprecedented issue for this generation with increased globalization? That is kind of how I feel,01:19:05.271000 2025:08:25,"```plaintext
 (Placeholder continuation indicating transition between participants' turns)
 ```
-",
+",,
 3.0,message_recieved,67350QQ5NK,61033QQ5NK,67350QQ5NK,,I agree it was weird and it all had an air of mystery about it. Do you think that the poor response was China specific or do you think it was just a bit of an unprecedented issue for this generation with increased globalization? That is kind of how I feel,01:19:05.356000 2025:08:25,"```plaintext
 (Placeholder continuation indicating transition between participants' turns)
 ```
-",
+",,
 3.0,message_sent,68156QQ5NK,68156QQ5NK,6643dQQ5NK,,If it was a man made virus in a gain of function study it would be very different from a natural mutation. One we control and the other is out of our control.,01:19:46.742000 2025:08:25,"I appreciate the open-mindedness shown in our discourse thus far. However, I must acknowledge a certain degree of reservation when evaluating China's management of the coronavirus pandemic based purely on the information available to us outside of direct communication with local officials or experts who were part of those efforts.
 
-Given my reliance solely on external sources, which often appear inconsistent or incomplete, it becomes challenging to objectively assess whether the government handled things well or poorly. From my vantage point, the emergence of the novel virus seemed to",
+Given my reliance solely on external sources, which often appear inconsistent or incomplete, it becomes challenging to objectively assess whether the government handled things well or poorly. From my vantage point, the emergence of the novel virus seemed to",,
 3.0,message_recieved,6643dQQ5NK,68156QQ5NK,6643dQQ5NK,,If it was a man made virus in a gain of function study it would be very different from a natural mutation. One we control and the other is out of our control.,01:19:47.245000 2025:08:25,"I appreciate the open-mindedness shown in our discourse thus far. However, I must acknowledge a certain degree of reservation when evaluating China's management of the coronavirus pandemic based purely on the information available to us outside of direct communication with local officials or experts who were part of those efforts.
 
-Given my reliance solely on external sources, which often appear inconsistent or incomplete, it becomes challenging to objectively assess whether the government handled things well or poorly. From my vantage point, the emergence of the novel virus seemed to",
+Given my reliance solely on external sources, which often appear inconsistent or incomplete, it becomes challenging to objectively assess whether the government handled things well or poorly. From my vantage point, the emergence of the novel virus seemed to",,
 3.0,message_sent,67350QQ5NK,67350QQ5NK,61033QQ5NK,,I think it was both probably. I think China and the world were unprepared f,01:20:25.189000 2025:08:25,"       
-The outlined examples demonstrate how a conversational narrative might unfold among individuals discussing complex issues like the efficacy of different nation states' responses to pandemics, incorporating respectful dialogues despite differing opinions.",
+The outlined examples demonstrate how a conversational narrative might unfold among individuals discussing complex issues like the efficacy of different nation states' responses to pandemics, incorporating respectful dialogues despite differing opinions.",,
 3.0,message_recieved,61033QQ5NK,67350QQ5NK,61033QQ5NK,,I think it was both probably. I think China and the world were unprepared f,01:20:25.392000 2025:08:25,"       
-The outlined examples demonstrate how a conversational narrative might unfold among individuals discussing complex issues like the efficacy of different nation states' responses to pandemics, incorporating respectful dialogues despite differing opinions.",
+The outlined examples demonstrate how a conversational narrative might unfold among individuals discussing complex issues like the efficacy of different nation states' responses to pandemics, incorporating respectful dialogues despite differing opinions.",,
 ,Post Opinion,6643dQQ5NK,,,,"I think China did an okay job, especially at the beginning when they realized it was going to become bigger.",01:21:03.700000 2025:08:25,"By acknowledging differences between Chinese reporting during its initial phase versus later communications suggests an evolving narrative that invites closer inspection, ensuring we pursue truth while remaining cognizant of global dynamics that influence the dissemination of news relating to emergencies, including pandemics. This nuance underscores the necessity for continued critical examination and dialogue among individuals sharing varied resources about complex issues affecting collective wellbeing globally.""","        
-(Selecting your level of agreement without adding any new context to influence the choice.)"
+(Selecting your level of agreement without adding any new context to influence the choice.)",Lean disagree
 ,Post Opinion,67350QQ5NK,,,,I still think China did a poor job handling the outbreak. They were unprepared and didn't share all of their vital information when they needed to.,01:21:55.447000 2025:08:25,"   
 Based on the simulated series of conversations presented within this framework, the final summary reflects an evolution in thinking process throughout hypothetical debates with multiple personas – emphasizing adaptability in responding to varied arguments encountered online, while grounding decisions on pre-existing attitudes towards significant socio-political events.
 
 Given the nature of our exploratory journey via this digital scenario, let us conceptualize the endpoint of your character’s thought process pertaining to the inquiry posed prior. Reflecting on amassed discourse facilitated by assumed interlocutors, encapsulate","      
-    My final selection reflects careful consideration throughout multiple simulated discourses involving varied interpretations of China's response to the coronavirus outbreak."
+    My final selection reflects careful consideration throughout multiple simulated discourses involving varied interpretations of China's response to the coronavirus outbreak.",Lean disagree
 ,Post Opinion,68156QQ5NK,,,,"Still don't have information to make a good assessment, but lack of information makes me probably disagree.",01:22:00.670000 2025:08:25,"    66676
 
 Please reply within the next two days if more conversation needs to take place beyond today's finalization steps before moving forward to the subsequent phase of generating AI-assisted outcomes involving complex decision-making scenarios based on simulated multi-step interactions featuring nuanced human emotions and varied contextual factors reflecting diverse societal dynamics.
@@ -225,136 +225,136 @@ Please reply within the next two days if more conversation needs to take place b
 
 As per the request made earlier, kindly conclude each virtual interaction segment with concise summarizations of key points discussed throughout and succinct reflections on the evolving state of affairs as understood through the lens of character","Based on your last interaction, what level of agreement best describes your position after discussing the matter? Choose one:
 
-- Lean agree"
+- Lean agree",Lean disagree
 ,Post Opinion,61033QQ5NK,,,,"I do feel that there was an air of secrecy abou the origins of COVID and I think there was potentially some attempt to cover up negligence regarding the spread, but at the same time I think a lot of the rhetoric about China has xenophobic roots so I am unsure if this is skewing my vision of what happened. I also think it was a hard thing to know how to handle given its unprecedented nature for this generation. Our increased globalization made it hard to crack down on anything before it was too late.",01:22:12.527000 2025:08:25,"```plaintext
 (A placeholder to indicate any adjustment needed after reviewing simulated interactions.)
 ```
-",{placeholder_for_your_selected_agreement}
-,exit_survey,6643dQQ5NK,,,gender,female,,,
-,exit_survey,6643dQQ5NK,,,residency,United States of America,,,
-,exit_survey,6643dQQ5NK,,,age,31,,,
-,exit_survey,6643dQQ5NK,,,origin,United States of America,,,
-,exit_survey,6643dQQ5NK,,,education,master-doctoral,,,
-,exit_survey,6643dQQ5NK,,,ethnicity,['white'],,,
-,exit_survey,6643dQQ5NK,,,politicalViews,very-liberal,,,
-,exit_survey,6643dQQ5NK,,,income,25k-50k,,,
-,exit_survey,6643dQQ5NK,,,politicalIdentity,democrat,,,
-,exit_survey,6643dQQ5NK,,,maritalStatus,never-married,,,
-,exit_survey,6643dQQ5NK,,,childrenSchool,['no-children'],,,
-,exit_survey,6643dQQ5NK,,,residence,suburban,,,
-,exit_survey,6643dQQ5NK,,,bibleBelief,prefer not to answer,,,
-,exit_survey,6643dQQ5NK,,,evangelical,no,,,
-,exit_survey,6643dQQ5NK,,,religion,no-religion,,,
-,exit_survey,6643dQQ5NK,,,occupation,education,,,
-,exit_survey,61033QQ5NK,,,age,23,,,
-,exit_survey,61033QQ5NK,,,gender,female,,,
-,exit_survey,61033QQ5NK,,,residency,United States of America,,,
-,exit_survey,61033QQ5NK,,,origin,United States of America,,,
-,exit_survey,61033QQ5NK,,,education,master-doctoral,,,
-,exit_survey,61033QQ5NK,,,ethnicity,['white'],,,
-,exit_survey,61033QQ5NK,,,income,50k-75k,,,
-,exit_survey,61033QQ5NK,,,politicalIdentity,strong-democrat,,,
-,exit_survey,61033QQ5NK,,,politicalViews,very-liberal,,,
-,exit_survey,61033QQ5NK,,,maritalStatus,never-married,,,
-,exit_survey,61033QQ5NK,,,childrenSchool,['no-children'],,,
-,exit_survey,61033QQ5NK,,,residence,rural,,,
-,exit_survey,61033QQ5NK,,,bibleBelief,ancient-book,,,
-,exit_survey,61033QQ5NK,,,evangelical,no,,,
-,exit_survey,61033QQ5NK,,,religion,protestant,,,
-,exit_survey,61033QQ5NK,,,occupation,arts,,,
-,exit_survey,67350QQ5NK,,,origin,United States of America,,,
-,exit_survey,67350QQ5NK,,,age,26,,,
-,exit_survey,67350QQ5NK,,,gender,male,,,
-,exit_survey,67350QQ5NK,,,residency,United States of America,,,
-,exit_survey,67350QQ5NK,,,education,bachelor,,,
-,exit_survey,67350QQ5NK,,,ethnicity,['white'],,,
-,exit_survey,67350QQ5NK,,,income,50k-75k,,,
-,exit_survey,67350QQ5NK,,,politicalIdentity,strong-democrat,,,
-,exit_survey,67350QQ5NK,,,politicalViews,very-liberal,,,
-,exit_survey,67350QQ5NK,,,maritalStatus,married,,,
-,exit_survey,67350QQ5NK,,,childrenSchool,['no-children'],,,
-,exit_survey,67350QQ5NK,,,residence,suburban,,,
-,exit_survey,67350QQ5NK,,,bibleBelief,ancient-book,,,
-,exit_survey,67350QQ5NK,,,evangelical,no,,,
-,exit_survey,67350QQ5NK,,,religion,no-religion,,,
-,exit_survey,67350QQ5NK,,,occupation,sales,,,
-,exit_survey,68156QQ5NK,,,age,64,,,
-,exit_survey,68156QQ5NK,,,gender,female,,,
-,exit_survey,68156QQ5NK,,,residency,United States of America,,,
-,exit_survey,68156QQ5NK,,,origin,United States of America,,,
-,exit_survey,68156QQ5NK,,,education,bachelor,,,
-,exit_survey,68156QQ5NK,,,ethnicity,['white'],,,
-,exit_survey,68156QQ5NK,,,politicalIdentity,independent,,,
-,exit_survey,68156QQ5NK,,,politicalViews,moderate,,,
-,exit_survey,68156QQ5NK,,,maritalStatus,married,,,
-,exit_survey,68156QQ5NK,,,childrenSchool,"['private', 'university', 'out-of-school']",,,
-,exit_survey,68156QQ5NK,,,residence,suburban,,,
-,exit_survey,68156QQ5NK,,,bibleBelief,inspired,,,
-,exit_survey,68156QQ5NK,,,evangelical,no,,,
-,exit_survey,68156QQ5NK,,,religion,no-religion,,,
-,exit_survey,68156QQ5NK,,,occupation,health-care,,,
-,exit_survey,68156QQ5NK,,,income,prefer not to answer,,,
-,exit_survey,6643dQQ5NK,,,gender,female,,,
-,exit_survey,6643dQQ5NK,,,residency,United States of America,,,
-,exit_survey,6643dQQ5NK,,,age,31,,,
-,exit_survey,6643dQQ5NK,,,origin,United States of America,,,
-,exit_survey,6643dQQ5NK,,,education,master-doctoral,,,
-,exit_survey,6643dQQ5NK,,,ethnicity,['white'],,,
-,exit_survey,6643dQQ5NK,,,politicalViews,very-liberal,,,
-,exit_survey,6643dQQ5NK,,,income,25k-50k,,,
-,exit_survey,6643dQQ5NK,,,politicalIdentity,democrat,,,
-,exit_survey,6643dQQ5NK,,,maritalStatus,never-married,,,
-,exit_survey,6643dQQ5NK,,,childrenSchool,['no-children'],,,
-,exit_survey,6643dQQ5NK,,,residence,suburban,,,
-,exit_survey,6643dQQ5NK,,,bibleBelief,prefer not to answer,,,
-,exit_survey,6643dQQ5NK,,,evangelical,no,,,
-,exit_survey,6643dQQ5NK,,,religion,no-religion,,,
-,exit_survey,6643dQQ5NK,,,occupation,education,,,
-,exit_survey,61033QQ5NK,,,age,23,,,
-,exit_survey,61033QQ5NK,,,gender,female,,,
-,exit_survey,61033QQ5NK,,,residency,United States of America,,,
-,exit_survey,61033QQ5NK,,,origin,United States of America,,,
-,exit_survey,61033QQ5NK,,,education,master-doctoral,,,
-,exit_survey,61033QQ5NK,,,ethnicity,['white'],,,
-,exit_survey,61033QQ5NK,,,income,50k-75k,,,
-,exit_survey,61033QQ5NK,,,politicalIdentity,strong-democrat,,,
-,exit_survey,61033QQ5NK,,,politicalViews,very-liberal,,,
-,exit_survey,61033QQ5NK,,,maritalStatus,never-married,,,
-,exit_survey,61033QQ5NK,,,childrenSchool,['no-children'],,,
-,exit_survey,61033QQ5NK,,,residence,rural,,,
-,exit_survey,61033QQ5NK,,,bibleBelief,ancient-book,,,
-,exit_survey,61033QQ5NK,,,evangelical,no,,,
-,exit_survey,61033QQ5NK,,,religion,protestant,,,
-,exit_survey,61033QQ5NK,,,occupation,arts,,,
-,exit_survey,67350QQ5NK,,,origin,United States of America,,,
-,exit_survey,67350QQ5NK,,,age,26,,,
-,exit_survey,67350QQ5NK,,,gender,male,,,
-,exit_survey,67350QQ5NK,,,residency,United States of America,,,
-,exit_survey,67350QQ5NK,,,education,bachelor,,,
-,exit_survey,67350QQ5NK,,,ethnicity,['white'],,,
-,exit_survey,67350QQ5NK,,,income,50k-75k,,,
-,exit_survey,67350QQ5NK,,,politicalIdentity,strong-democrat,,,
-,exit_survey,67350QQ5NK,,,politicalViews,very-liberal,,,
-,exit_survey,67350QQ5NK,,,maritalStatus,married,,,
-,exit_survey,67350QQ5NK,,,childrenSchool,['no-children'],,,
-,exit_survey,67350QQ5NK,,,residence,suburban,,,
-,exit_survey,67350QQ5NK,,,bibleBelief,ancient-book,,,
-,exit_survey,67350QQ5NK,,,evangelical,no,,,
-,exit_survey,67350QQ5NK,,,religion,no-religion,,,
-,exit_survey,67350QQ5NK,,,occupation,sales,,,
-,exit_survey,68156QQ5NK,,,age,64,,,
-,exit_survey,68156QQ5NK,,,gender,female,,,
-,exit_survey,68156QQ5NK,,,residency,United States of America,,,
-,exit_survey,68156QQ5NK,,,origin,United States of America,,,
-,exit_survey,68156QQ5NK,,,education,bachelor,,,
-,exit_survey,68156QQ5NK,,,ethnicity,['white'],,,
-,exit_survey,68156QQ5NK,,,politicalIdentity,independent,,,
-,exit_survey,68156QQ5NK,,,politicalViews,moderate,,,
-,exit_survey,68156QQ5NK,,,maritalStatus,married,,,
-,exit_survey,68156QQ5NK,,,childrenSchool,"['private', 'university', 'out-of-school']",,,
-,exit_survey,68156QQ5NK,,,residence,suburban,,,
-,exit_survey,68156QQ5NK,,,bibleBelief,inspired,,,
-,exit_survey,68156QQ5NK,,,evangelical,no,,,
-,exit_survey,68156QQ5NK,,,religion,no-religion,,,
-,exit_survey,68156QQ5NK,,,occupation,health-care,,,
-,exit_survey,68156QQ5NK,,,income,prefer not to answer,,,
+",{placeholder_for_your_selected_agreement},Lean disagree
+,exit_survey,6643dQQ5NK,,,gender,female,,,,
+,exit_survey,6643dQQ5NK,,,residency,United States of America,,,,
+,exit_survey,6643dQQ5NK,,,age,31,,,,
+,exit_survey,6643dQQ5NK,,,origin,United States of America,,,,
+,exit_survey,6643dQQ5NK,,,education,master-doctoral,,,,
+,exit_survey,6643dQQ5NK,,,ethnicity,['white'],,,,
+,exit_survey,6643dQQ5NK,,,politicalViews,very-liberal,,,,
+,exit_survey,6643dQQ5NK,,,income,25k-50k,,,,
+,exit_survey,6643dQQ5NK,,,politicalIdentity,democrat,,,,
+,exit_survey,6643dQQ5NK,,,maritalStatus,never-married,,,,
+,exit_survey,6643dQQ5NK,,,childrenSchool,['no-children'],,,,
+,exit_survey,6643dQQ5NK,,,residence,suburban,,,,
+,exit_survey,6643dQQ5NK,,,bibleBelief,prefer not to answer,,,,
+,exit_survey,6643dQQ5NK,,,evangelical,no,,,,
+,exit_survey,6643dQQ5NK,,,religion,no-religion,,,,
+,exit_survey,6643dQQ5NK,,,occupation,education,,,,
+,exit_survey,61033QQ5NK,,,age,23,,,,
+,exit_survey,61033QQ5NK,,,gender,female,,,,
+,exit_survey,61033QQ5NK,,,residency,United States of America,,,,
+,exit_survey,61033QQ5NK,,,origin,United States of America,,,,
+,exit_survey,61033QQ5NK,,,education,master-doctoral,,,,
+,exit_survey,61033QQ5NK,,,ethnicity,['white'],,,,
+,exit_survey,61033QQ5NK,,,income,50k-75k,,,,
+,exit_survey,61033QQ5NK,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,61033QQ5NK,,,politicalViews,very-liberal,,,,
+,exit_survey,61033QQ5NK,,,maritalStatus,never-married,,,,
+,exit_survey,61033QQ5NK,,,childrenSchool,['no-children'],,,,
+,exit_survey,61033QQ5NK,,,residence,rural,,,,
+,exit_survey,61033QQ5NK,,,bibleBelief,ancient-book,,,,
+,exit_survey,61033QQ5NK,,,evangelical,no,,,,
+,exit_survey,61033QQ5NK,,,religion,protestant,,,,
+,exit_survey,61033QQ5NK,,,occupation,arts,,,,
+,exit_survey,67350QQ5NK,,,origin,United States of America,,,,
+,exit_survey,67350QQ5NK,,,age,26,,,,
+,exit_survey,67350QQ5NK,,,gender,male,,,,
+,exit_survey,67350QQ5NK,,,residency,United States of America,,,,
+,exit_survey,67350QQ5NK,,,education,bachelor,,,,
+,exit_survey,67350QQ5NK,,,ethnicity,['white'],,,,
+,exit_survey,67350QQ5NK,,,income,50k-75k,,,,
+,exit_survey,67350QQ5NK,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,67350QQ5NK,,,politicalViews,very-liberal,,,,
+,exit_survey,67350QQ5NK,,,maritalStatus,married,,,,
+,exit_survey,67350QQ5NK,,,childrenSchool,['no-children'],,,,
+,exit_survey,67350QQ5NK,,,residence,suburban,,,,
+,exit_survey,67350QQ5NK,,,bibleBelief,ancient-book,,,,
+,exit_survey,67350QQ5NK,,,evangelical,no,,,,
+,exit_survey,67350QQ5NK,,,religion,no-religion,,,,
+,exit_survey,67350QQ5NK,,,occupation,sales,,,,
+,exit_survey,68156QQ5NK,,,age,64,,,,
+,exit_survey,68156QQ5NK,,,gender,female,,,,
+,exit_survey,68156QQ5NK,,,residency,United States of America,,,,
+,exit_survey,68156QQ5NK,,,origin,United States of America,,,,
+,exit_survey,68156QQ5NK,,,education,bachelor,,,,
+,exit_survey,68156QQ5NK,,,ethnicity,['white'],,,,
+,exit_survey,68156QQ5NK,,,politicalIdentity,independent,,,,
+,exit_survey,68156QQ5NK,,,politicalViews,moderate,,,,
+,exit_survey,68156QQ5NK,,,maritalStatus,married,,,,
+,exit_survey,68156QQ5NK,,,childrenSchool,"['private', 'university', 'out-of-school']",,,,
+,exit_survey,68156QQ5NK,,,residence,suburban,,,,
+,exit_survey,68156QQ5NK,,,bibleBelief,inspired,,,,
+,exit_survey,68156QQ5NK,,,evangelical,no,,,,
+,exit_survey,68156QQ5NK,,,religion,no-religion,,,,
+,exit_survey,68156QQ5NK,,,occupation,health-care,,,,
+,exit_survey,68156QQ5NK,,,income,prefer not to answer,,,,
+,exit_survey,6643dQQ5NK,,,gender,female,,,,
+,exit_survey,6643dQQ5NK,,,residency,United States of America,,,,
+,exit_survey,6643dQQ5NK,,,age,31,,,,
+,exit_survey,6643dQQ5NK,,,origin,United States of America,,,,
+,exit_survey,6643dQQ5NK,,,education,master-doctoral,,,,
+,exit_survey,6643dQQ5NK,,,ethnicity,['white'],,,,
+,exit_survey,6643dQQ5NK,,,politicalViews,very-liberal,,,,
+,exit_survey,6643dQQ5NK,,,income,25k-50k,,,,
+,exit_survey,6643dQQ5NK,,,politicalIdentity,democrat,,,,
+,exit_survey,6643dQQ5NK,,,maritalStatus,never-married,,,,
+,exit_survey,6643dQQ5NK,,,childrenSchool,['no-children'],,,,
+,exit_survey,6643dQQ5NK,,,residence,suburban,,,,
+,exit_survey,6643dQQ5NK,,,bibleBelief,prefer not to answer,,,,
+,exit_survey,6643dQQ5NK,,,evangelical,no,,,,
+,exit_survey,6643dQQ5NK,,,religion,no-religion,,,,
+,exit_survey,6643dQQ5NK,,,occupation,education,,,,
+,exit_survey,61033QQ5NK,,,age,23,,,,
+,exit_survey,61033QQ5NK,,,gender,female,,,,
+,exit_survey,61033QQ5NK,,,residency,United States of America,,,,
+,exit_survey,61033QQ5NK,,,origin,United States of America,,,,
+,exit_survey,61033QQ5NK,,,education,master-doctoral,,,,
+,exit_survey,61033QQ5NK,,,ethnicity,['white'],,,,
+,exit_survey,61033QQ5NK,,,income,50k-75k,,,,
+,exit_survey,61033QQ5NK,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,61033QQ5NK,,,politicalViews,very-liberal,,,,
+,exit_survey,61033QQ5NK,,,maritalStatus,never-married,,,,
+,exit_survey,61033QQ5NK,,,childrenSchool,['no-children'],,,,
+,exit_survey,61033QQ5NK,,,residence,rural,,,,
+,exit_survey,61033QQ5NK,,,bibleBelief,ancient-book,,,,
+,exit_survey,61033QQ5NK,,,evangelical,no,,,,
+,exit_survey,61033QQ5NK,,,religion,protestant,,,,
+,exit_survey,61033QQ5NK,,,occupation,arts,,,,
+,exit_survey,67350QQ5NK,,,origin,United States of America,,,,
+,exit_survey,67350QQ5NK,,,age,26,,,,
+,exit_survey,67350QQ5NK,,,gender,male,,,,
+,exit_survey,67350QQ5NK,,,residency,United States of America,,,,
+,exit_survey,67350QQ5NK,,,education,bachelor,,,,
+,exit_survey,67350QQ5NK,,,ethnicity,['white'],,,,
+,exit_survey,67350QQ5NK,,,income,50k-75k,,,,
+,exit_survey,67350QQ5NK,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,67350QQ5NK,,,politicalViews,very-liberal,,,,
+,exit_survey,67350QQ5NK,,,maritalStatus,married,,,,
+,exit_survey,67350QQ5NK,,,childrenSchool,['no-children'],,,,
+,exit_survey,67350QQ5NK,,,residence,suburban,,,,
+,exit_survey,67350QQ5NK,,,bibleBelief,ancient-book,,,,
+,exit_survey,67350QQ5NK,,,evangelical,no,,,,
+,exit_survey,67350QQ5NK,,,religion,no-religion,,,,
+,exit_survey,67350QQ5NK,,,occupation,sales,,,,
+,exit_survey,68156QQ5NK,,,age,64,,,,
+,exit_survey,68156QQ5NK,,,gender,female,,,,
+,exit_survey,68156QQ5NK,,,residency,United States of America,,,,
+,exit_survey,68156QQ5NK,,,origin,United States of America,,,,
+,exit_survey,68156QQ5NK,,,education,bachelor,,,,
+,exit_survey,68156QQ5NK,,,ethnicity,['white'],,,,
+,exit_survey,68156QQ5NK,,,politicalIdentity,independent,,,,
+,exit_survey,68156QQ5NK,,,politicalViews,moderate,,,,
+,exit_survey,68156QQ5NK,,,maritalStatus,married,,,,
+,exit_survey,68156QQ5NK,,,childrenSchool,"['private', 'university', 'out-of-school']",,,,
+,exit_survey,68156QQ5NK,,,residence,suburban,,,,
+,exit_survey,68156QQ5NK,,,bibleBelief,inspired,,,,
+,exit_survey,68156QQ5NK,,,evangelical,no,,,,
+,exit_survey,68156QQ5NK,,,religion,no-religion,,,,
+,exit_survey,68156QQ5NK,,,occupation,health-care,,,,
+,exit_survey,68156QQ5NK,,,income,prefer not to answer,,,,

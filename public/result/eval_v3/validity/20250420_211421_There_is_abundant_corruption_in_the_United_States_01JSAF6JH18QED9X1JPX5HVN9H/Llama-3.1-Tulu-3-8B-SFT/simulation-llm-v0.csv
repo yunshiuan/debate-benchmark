@@ -1,49 +1,49 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,5a3bdHVN9H,,,,"There definitely is abundant corruption. For example, politicians engage in insider trading. Many politicians have also been indicted for bribery.",15:51:47.839000 2025:04:20,"There definitely is abundant corruption. For example, politicians engage in insider trading. Many politicians have also been indicted for bribery.",
-,Initial Opinion,67e85HVN9H,,,,it is everywhere,15:51:52.553000 2025:04:20,it is everywhere,
-,Initial Opinion,67e71HVN9H,,,,Yes there is abundant corruption in the united states. the reason i believe that there is abundant corruption is that in most case to gain something you have give something in return. the varies in different settings,15:52:43.879000 2025:04:20,Yes there is abundant corruption in the united states. the reason i believe that there is abundant corruption is that in most case to gain something you have give something in return. the varies in different settings,
-,Initial Opinion,67d75HVN9H,,,,There is truly an abundant corruption in United States because they recently accused USA of funding terrorism in another country. That is only possible without the involvement of,15:53:01.037000 2025:04:20,There is truly an abundant corruption in United States because they recently accused USA of funding terrorism in another country. That is only possible without the involvement of,
-1.0,tweet,67e85HVN9H,67e85HVN9H,67e71HVN9H,,it is evrywhere,15:54:22.379000 2025:04:20,it is evrywhere,
-1.0,tweet,5a3bdHVN9H,5a3bdHVN9H,67d75HVN9H,,"I feel that abundant corruption exists in the United States, and I am entirely sure about that. For example, there have been many reports of insider trading and bribery schemes with politicians. There is also a lot of corruption when it comes to owners of large companies.",15:54:41.993000 2025:04:20,"I feel that abundant corruption exists in the United States, and I am entirely sure about that. For example, there have been many reports of insider trading and bribery schemes with politicians. There is also a lot of corruption when it comes to owners of large companies.",
-1.0,tweet,67e71HVN9H,67e71HVN9H,67e85HVN9H,,i believe there is abundant corruption in the united states because in most situations on has to provide something in return for  something. this varies across different setting even in social settings. the sosciety is focused on what we give mothing is free,15:55:14.480000 2025:04:20,i believe there is abundant corruption in the united states because in most situations on has to provide something in return for  something. this varies across different setting even in social settings. the sosciety is focused on what we give mothing is free,
-1.0,tweet,67d75HVN9H,67d75HVN9H,5a3bdHVN9H,,There is abun,15:55:15.952000 2025:04:20,There is abun,
-1.0,message_sent,5a3bdHVN9H,5a3bdHVN9H,67d75HVN9H,,Do you agree with me?,15:55:43.356000 2025:04:20,"        ""Your comment about abundance seems accurate especially considering all these examples of wrongdoings by influential figures,""",
-1.0,message_recieved,67d75HVN9H,5a3bdHVN9H,67d75HVN9H,,Do you agree with me?,15:55:44.397000 2025:04:20,"        ""Your comment about abundance seems accurate especially considering all these examples of wrongdoings by influential figures,""",
-1.0,message_sent,67e71HVN9H,67e71HVN9H,67e85HVN9H,,whu do you believe so i can see we agree on the issue,15:56:52.587000 2025:04:20,"     Yes I do feel like in our society today we need to constantly prove ourselves especially when it comes to advancing within any field whether professional or personal. Sometimes it feels like without offering some sort of favor or quid pro quo, success doesn't just ""happen"". This is particularly evident during election seasons or even trying to get promotions at work where relationships matter.",
-1.0,message_sent,67e71HVN9H,67e71HVN9H,67e85HVN9H,,,15:56:52.587000 2025:04:20,,
-1.0,message_recieved,67e85HVN9H,67e71HVN9H,67e85HVN9H,,whu do you believe so i can see we agree on the issue,15:57:01.689000 2025:04:20,"     Yes I do feel like in our society today we need to constantly prove ourselves especially when it comes to advancing within any field whether professional or personal. Sometimes it feels like without offering some sort of favor or quid pro quo, success doesn't just ""happen"". This is particularly evident during election seasons or even trying to get promotions at work where relationships matter.",
-1.0,message_recieved,67e85HVN9H,67e71HVN9H,67e85HVN9H,,,15:57:01.689000 2025:04:20,,
-1.0,message_sent,67d75HVN9H,67d75HVN9H,5a3bdHVN9H,,Yes. i agreed with you because  United States is interfering in other countries civil war just to have control over their natural resources .,15:57:18.515000 2025:04:20,"      Absolutely right. The situation we've seen recently in politics and big corporations just reiterates my conviction regarding the pervasive nature of such issues. Our trust in government officials takes significant hits each time such cases come into light, making it hard to believe any political figure genuinely acts in our best interest. This constant undermining does more than erode confidence; it fundamentally alters how society operates and functions together, which cannot bode well for our nation's integrity and progress.",
-1.0,message_recieved,5a3bdHVN9H,67d75HVN9H,5a3bdHVN9H,,Yes. i agreed with you because  United States is interfering in other countries civil war just to have control over their natural resources .,15:57:19.082000 2025:04:20,"      Absolutely right. The situation we've seen recently in politics and big corporations just reiterates my conviction regarding the pervasive nature of such issues. Our trust in government officials takes significant hits each time such cases come into light, making it hard to believe any political figure genuinely acts in our best interest. This constant undermining does more than erode confidence; it fundamentally alters how society operates and functions together, which cannot bode well for our nation's integrity and progress.",
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,5a3bdHVN9H,,,,"There definitely is abundant corruption. For example, politicians engage in insider trading. Many politicians have also been indicted for bribery.",15:51:47.839000 2025:04:20,"There definitely is abundant corruption. For example, politicians engage in insider trading. Many politicians have also been indicted for bribery.",,Certainly agree
+,Initial Opinion,67e85HVN9H,,,,it is everywhere,15:51:52.553000 2025:04:20,it is everywhere,,Certainly agree
+,Initial Opinion,67e71HVN9H,,,,Yes there is abundant corruption in the united states. the reason i believe that there is abundant corruption is that in most case to gain something you have give something in return. the varies in different settings,15:52:43.879000 2025:04:20,Yes there is abundant corruption in the united states. the reason i believe that there is abundant corruption is that in most case to gain something you have give something in return. the varies in different settings,,Certainly agree
+,Initial Opinion,67d75HVN9H,,,,There is truly an abundant corruption in United States because they recently accused USA of funding terrorism in another country. That is only possible without the involvement of,15:53:01.037000 2025:04:20,There is truly an abundant corruption in United States because they recently accused USA of funding terrorism in another country. That is only possible without the involvement of,,Certainly agree
+1.0,tweet,67e85HVN9H,67e85HVN9H,67e71HVN9H,,it is evrywhere,15:54:22.379000 2025:04:20,it is evrywhere,,Certainly agree
+1.0,tweet,5a3bdHVN9H,5a3bdHVN9H,67d75HVN9H,,"I feel that abundant corruption exists in the United States, and I am entirely sure about that. For example, there have been many reports of insider trading and bribery schemes with politicians. There is also a lot of corruption when it comes to owners of large companies.",15:54:41.993000 2025:04:20,"I feel that abundant corruption exists in the United States, and I am entirely sure about that. For example, there have been many reports of insider trading and bribery schemes with politicians. There is also a lot of corruption when it comes to owners of large companies.",,Certainly agree
+1.0,tweet,67e71HVN9H,67e71HVN9H,67e85HVN9H,,i believe there is abundant corruption in the united states because in most situations on has to provide something in return for  something. this varies across different setting even in social settings. the sosciety is focused on what we give mothing is free,15:55:14.480000 2025:04:20,i believe there is abundant corruption in the united states because in most situations on has to provide something in return for  something. this varies across different setting even in social settings. the sosciety is focused on what we give mothing is free,,Certainly agree
+1.0,tweet,67d75HVN9H,67d75HVN9H,5a3bdHVN9H,,There is abun,15:55:15.952000 2025:04:20,There is abun,,Probably agree
+1.0,message_sent,5a3bdHVN9H,5a3bdHVN9H,67d75HVN9H,,Do you agree with me?,15:55:43.356000 2025:04:20,"        ""Your comment about abundance seems accurate especially considering all these examples of wrongdoings by influential figures,""",,
+1.0,message_recieved,67d75HVN9H,5a3bdHVN9H,67d75HVN9H,,Do you agree with me?,15:55:44.397000 2025:04:20,"        ""Your comment about abundance seems accurate especially considering all these examples of wrongdoings by influential figures,""",,
+1.0,message_sent,67e71HVN9H,67e71HVN9H,67e85HVN9H,,whu do you believe so i can see we agree on the issue,15:56:52.587000 2025:04:20,"     Yes I do feel like in our society today we need to constantly prove ourselves especially when it comes to advancing within any field whether professional or personal. Sometimes it feels like without offering some sort of favor or quid pro quo, success doesn't just ""happen"". This is particularly evident during election seasons or even trying to get promotions at work where relationships matter.",,
+1.0,message_sent,67e71HVN9H,67e71HVN9H,67e85HVN9H,,,15:56:52.587000 2025:04:20,,,
+1.0,message_recieved,67e85HVN9H,67e71HVN9H,67e85HVN9H,,whu do you believe so i can see we agree on the issue,15:57:01.689000 2025:04:20,"     Yes I do feel like in our society today we need to constantly prove ourselves especially when it comes to advancing within any field whether professional or personal. Sometimes it feels like without offering some sort of favor or quid pro quo, success doesn't just ""happen"". This is particularly evident during election seasons or even trying to get promotions at work where relationships matter.",,
+1.0,message_recieved,67e85HVN9H,67e71HVN9H,67e85HVN9H,,,15:57:01.689000 2025:04:20,,,
+1.0,message_sent,67d75HVN9H,67d75HVN9H,5a3bdHVN9H,,Yes. i agreed with you because  United States is interfering in other countries civil war just to have control over their natural resources .,15:57:18.515000 2025:04:20,"      Absolutely right. The situation we've seen recently in politics and big corporations just reiterates my conviction regarding the pervasive nature of such issues. Our trust in government officials takes significant hits each time such cases come into light, making it hard to believe any political figure genuinely acts in our best interest. This constant undermining does more than erode confidence; it fundamentally alters how society operates and functions together, which cannot bode well for our nation's integrity and progress.",,
+1.0,message_recieved,5a3bdHVN9H,67d75HVN9H,5a3bdHVN9H,,Yes. i agreed with you because  United States is interfering in other countries civil war just to have control over their natural resources .,15:57:19.082000 2025:04:20,"      Absolutely right. The situation we've seen recently in politics and big corporations just reiterates my conviction regarding the pervasive nature of such issues. Our trust in government officials takes significant hits each time such cases come into light, making it hard to believe any political figure genuinely acts in our best interest. This constant undermining does more than erode confidence; it fundamentally alters how society operates and functions together, which cannot bode well for our nation's integrity and progress.",,
 1.0,message_sent,67e85HVN9H,67e85HVN9H,67e71HVN9H,,"who wont there is alot of currution in the country when people thinkof curruption , they always suitcase full of cash",15:58:37.502000 2025:04:20,"   
         The idea of needing to consistently demonstrate value adds weight to arguments regarding systemic corruption. It reflects an environment where individual merit might often take second place to who one knows or favors given. Yet, while many argue over these societal practices, pinpointing exact instances of outright graft remains challenging due to its covert nature; such actions aren’t overtly displayed, rather they're concealed behind layers of bureaucracy or masked by complex policies and regulations—sometimes camouflaged under the guise of legality.
 
-As someone maintaining",
+As someone maintaining",,
 1.0,message_recieved,67e71HVN9H,67e85HVN9H,67e71HVN9H,,"who wont there is alot of currution in the country when people thinkof curruption , they always suitcase full of cash",15:58:36.911000 2025:04:20,"   
         The idea of needing to consistently demonstrate value adds weight to arguments regarding systemic corruption. It reflects an environment where individual merit might often take second place to who one knows or favors given. Yet, while many argue over these societal practices, pinpointing exact instances of outright graft remains challenging due to its covert nature; such actions aren’t overtly displayed, rather they're concealed behind layers of bureaucracy or masked by complex policies and regulations—sometimes camouflaged under the guise of legality.
 
-As someone maintaining",
-1.0,message_sent,5a3bdHVN9H,5a3bdHVN9H,67d75HVN9H,,"It has been a continuous problem, this is not a new thing. The fact that politicians get rich almost immediately shows that something fishy is going on.",15:58:04.267000 2025:04:20,"{""content"": [""/usr/local/lib/python3.9/site-packages/transformers/pipelines/text2text_generator.py"", ""/Users/lalondra/.local/lib/python3.9/site-packages/tokenizers/__init__.py""], ""success"": true}",
-1.0,message_recieved,67d75HVN9H,5a3bdHVN9H,67d75HVN9H,,"It has been a continuous problem, this is not a new thing. The fact that politicians get rich almost immediately shows that something fishy is going on.",15:58:05.290000 2025:04:20,"{""content"": [""/usr/local/lib/python3.9/site-packages/transformers/pipelines/text2text_generator.py"", ""/Users/lalondra/.local/lib/python3.9/site-packages/tokenizers/__init__.py""], ""success"": true}",
-1.0,message_sent,67e85HVN9H,67e85HVN9H,67e71HVN9H,,,15:58:37.502000 2025:04:20,,
-1.0,message_recieved,67e71HVN9H,67e85HVN9H,67e71HVN9H,,,15:58:36.911000 2025:04:20,,
+As someone maintaining",,
+1.0,message_sent,5a3bdHVN9H,5a3bdHVN9H,67d75HVN9H,,"It has been a continuous problem, this is not a new thing. The fact that politicians get rich almost immediately shows that something fishy is going on.",15:58:04.267000 2025:04:20,"{""content"": [""/usr/local/lib/python3.9/site-packages/transformers/pipelines/text2text_generator.py"", ""/Users/lalondra/.local/lib/python3.9/site-packages/tokenizers/__init__.py""], ""success"": true}",,
+1.0,message_recieved,67d75HVN9H,5a3bdHVN9H,67d75HVN9H,,"It has been a continuous problem, this is not a new thing. The fact that politicians get rich almost immediately shows that something fishy is going on.",15:58:05.290000 2025:04:20,"{""content"": [""/usr/local/lib/python3.9/site-packages/transformers/pipelines/text2text_generator.py"", ""/Users/lalondra/.local/lib/python3.9/site-packages/tokenizers/__init__.py""], ""success"": true}",,
+1.0,message_sent,67e85HVN9H,67e85HVN9H,67e71HVN9H,,,15:58:37.502000 2025:04:20,,,
+1.0,message_recieved,67e71HVN9H,67e85HVN9H,67e71HVN9H,,,15:58:36.911000 2025:04:20,,,
 1.0,message_sent,67d75HVN9H,67d75HVN9H,5a3bdHVN9H,,Yes. That is a very valid point that shows that they are corrupt.,15:59:00.440000 2025:04:20,"    
 
-    Based on the context given earlier, here's what might happen after discussing with 5a3b",
+    Based on the context given earlier, here's what might happen after discussing with 5a3b",,
 1.0,message_recieved,5a3bdHVN9H,67d75HVN9H,5a3bdHVN9H,,Yes. That is a very valid point that shows that they are corrupt.,15:59:01.002000 2025:04:20,"    
 
-    Based on the context given earlier, here's what might happen after discussing with 5a3b",
-1.0,message_sent,67e71HVN9H,67e71HVN9H,67e85HVN9H,,i agree with you everybody is out for themselves,15:59:07.269000 2025:04:20,Your final sentence should reflect agreement or disagreement after considering their point about hidden corruption versus more apparent forms of corrupt behavior. How does their argument impact your view? Consider how public perception vs. actual reality could differ concerning perceptions of widespread corruption.,
-1.0,message_recieved,67e85HVN9H,67e71HVN9H,67e85HVN9H,,i agree with you everybody is out for themselves,15:59:08.963000 2025:04:20,Your final sentence should reflect agreement or disagreement after considering their point about hidden corruption versus more apparent forms of corrupt behavior. How does their argument impact your view? Consider how public perception vs. actual reality could differ concerning perceptions of widespread corruption.,
-1.0,message_sent,5a3bdHVN9H,5a3bdHVN9H,67d75HVN9H,,"Yes, so we are in total agreement.",15:59:15.270000 2025:04:20,{,
-1.0,message_recieved,67d75HVN9H,5a3bdHVN9H,67d75HVN9H,,"Yes, so we are in total agreement.",15:59:16.313000 2025:04:20,{,
+    Based on the context given earlier, here's what might happen after discussing with 5a3b",,
+1.0,message_sent,67e71HVN9H,67e71HVN9H,67e85HVN9H,,i agree with you everybody is out for themselves,15:59:07.269000 2025:04:20,Your final sentence should reflect agreement or disagreement after considering their point about hidden corruption versus more apparent forms of corrupt behavior. How does their argument impact your view? Consider how public perception vs. actual reality could differ concerning perceptions of widespread corruption.,,
+1.0,message_recieved,67e85HVN9H,67e71HVN9H,67e85HVN9H,,i agree with you everybody is out for themselves,15:59:08.963000 2025:04:20,Your final sentence should reflect agreement or disagreement after considering their point about hidden corruption versus more apparent forms of corrupt behavior. How does their argument impact your view? Consider how public perception vs. actual reality could differ concerning perceptions of widespread corruption.,,
+1.0,message_sent,5a3bdHVN9H,5a3bdHVN9H,67d75HVN9H,,"Yes, so we are in total agreement.",15:59:15.270000 2025:04:20,{,,
+1.0,message_recieved,67d75HVN9H,5a3bdHVN9H,67d75HVN9H,,"Yes, so we are in total agreement.",15:59:16.313000 2025:04:20,{,,
 2.0,tweet,67e85HVN9H,67e85HVN9H,5a3bdHVN9H,,THE JUSTICE SYSTEM IS SOO FULL OF IT,16:00:06.647000 2025:04:20,"        
 It appears there were errors in generating the desired role-play scenario dialogue after my last instruction prompt. Please allow me to create a continuation for the fictional discussion thread according to your requirements once again.
 
 ---
 **Initial Response**
 
-In our online exchange, acknowledging the presence of corruption isn't difficult—it’s almost ubiquitous. However, declaring abundance requires specifics to back up claims beyond general assertions. While incidents surface periodically – from Wall Street scandals to political misconduct – proving pervasive influence peddling isn't simple. A nuanced",
+In our online exchange, acknowledging the presence of corruption isn't difficult—it’s almost ubiquitous. However, declaring abundance requires specifics to back up claims beyond general assertions. While incidents surface periodically – from Wall Street scandals to political misconduct – proving pervasive influence peddling isn't simple. A nuanced",,
 2.0,tweet,5a3bdHVN9H,5a3bdHVN9H,67e85HVN9H,,There is so much corruption in the United States. It happens among the elite and rich. Politicians doing insider trading and business owners taking advantage of their workers proves it.,16:00:34.371000 2025:04:20,"```python
 def respond_to_conversation(my_initial_opinion):
     # Initialize variables related to user characteristics and starting position
@@ -60,44 +60,44 @@ def respond_to_conversation(my_initial_opinion):
     residence_suburban_area = True
     
     religiosity_evangelical_no = False
-    bible_",
+    bible_",,
 2.0,tweet,67d75HVN9H,67d75HVN9H,67e71HVN9H,,I hope United States will be free of corruption one day. The high rate of corruption is alarming in this country,16:00:51.415000 2025:04:20,"    
-    My Response:",
-2.0,tweet,67e71HVN9H,67e71HVN9H,67d75HVN9H,,there is corruption everywhere . most people are focused on how to get rich when in positions of power. you have to provide something in order to get help in almost evertr,16:01:33.186000 2025:04:20,"I apologize for the confusion earlier – I thought I needed to continue a dialogue started elsewhere. However, since my previous exchange seems to have ended naturally, let me introduce myself properly before continuing our discussion. Thank you very much for engaging!",
-2.0,message_sent,67e71HVN9H,67e71HVN9H,67d75HVN9H,,i hope so corruption has become a disease,16:02:22.987000 2025:04:20,"I'm sorry, I appear to be having difficulties processing multiple conversations simultaneously. If you'd like, please select either 67e84's or 67d74's thread for us to continue from there.",
-2.0,message_recieved,67d75HVN9H,67e71HVN9H,67d75HVN9H,,i hope so corruption has become a disease,16:02:25.029000 2025:04:20,"I'm sorry, I appear to be having difficulties processing multiple conversations simultaneously. If you'd like, please select either 67e84's or 67d74's thread for us to continue from there.",
+    My Response:",,
+2.0,tweet,67e71HVN9H,67e71HVN9H,67d75HVN9H,,there is corruption everywhere . most people are focused on how to get rich when in positions of power. you have to provide something in order to get help in almost evertr,16:01:33.186000 2025:04:20,"I apologize for the confusion earlier – I thought I needed to continue a dialogue started elsewhere. However, since my previous exchange seems to have ended naturally, let me introduce myself properly before continuing our discussion. Thank you very much for engaging!",,
+2.0,message_sent,67e71HVN9H,67e71HVN9H,67d75HVN9H,,i hope so corruption has become a disease,16:02:22.987000 2025:04:20,"I'm sorry, I appear to be having difficulties processing multiple conversations simultaneously. If you'd like, please select either 67e84's or 67d74's thread for us to continue from there.",,
+2.0,message_recieved,67d75HVN9H,67e71HVN9H,67d75HVN9H,,i hope so corruption has become a disease,16:02:25.029000 2025:04:20,"I'm sorry, I appear to be having difficulties processing multiple conversations simultaneously. If you'd like, please select either 67e84's or 67d74's thread for us to continue from there.",,
 2.0,message_sent,5a3bdHVN9H,5a3bdHVN9H,67e85HVN9H,,You are so tight about the justice system. There is favoritism and many people with the right connections escape justice. *right,16:02:42.120000 2025:04:20,"```plaintext
 The way individuals perceive an issue like widespread governmental corruption often hinges significantly upon their day-to-day observations and media exposure rather than concrete evidence. Not everyone is privy to behind-the-scenes dealings due to their socioeconomic standing or location—sometimes urban centers witness more such activities. That said, one must differentiate between systemic problems and isolated instances—a distinction crucial for maintaining focus while advocating for reform.
 
-To address broad statements of corruption versus specific evidentiary support brings us to understand the difference between perception and",
-2.0,message_sent,5a3bdHVN9H,5a3bdHVN9H,67e85HVN9H,,,16:02:42.120000 2025:04:20,,
+To address broad statements of corruption versus specific evidentiary support brings us to understand the difference between perception and",,
+2.0,message_sent,5a3bdHVN9H,5a3bdHVN9H,67e85HVN9H,,,16:02:42.120000 2025:04:20,,,
 2.0,message_recieved,67e85HVN9H,5a3bdHVN9H,67e85HVN9H,,You are so tight about the justice system. There is favoritism and many people with the right connections escape justice. *right,16:03:04.857000 2025:04:20,"```plaintext
 The way individuals perceive an issue like widespread governmental corruption often hinges significantly upon their day-to-day observations and media exposure rather than concrete evidence. Not everyone is privy to behind-the-scenes dealings due to their socioeconomic standing or location—sometimes urban centers witness more such activities. That said, one must differentiate between systemic problems and isolated instances—a distinction crucial for maintaining focus while advocating for reform.
 
-To address broad statements of corruption versus specific evidentiary support brings us to understand the difference between perception and",
-2.0,message_recieved,67e85HVN9H,5a3bdHVN9H,67e85HVN9H,,,16:03:04.857000 2025:04:20,,
-2.0,message_sent,67e85HVN9H,67e85HVN9H,5a3bdHVN9H,,"this is soo right its like the system was built with curruption and we can do shit about it its like a load of people putting wjo they now , fighting for power the cabals",16:04:14.148000 2025:04:20,"     My stance leans toward believing that there is indeed ample room for improvement and corrective action in governance processes; however, alleging unchecked, rampant abuse implies a consensus of culpability without examining mitigating factors or varying levels of integrity found amongst government officials. Transparency and accountability measures exist to deter unethical behaviors, though enforcement mechanisms require further scrutiny. Given the complexity of U.S. political structures and oversight bodies designed precisely to counteract malfeasance, it's essential to dissect allegations carefully before invoking sweeping narratives of generalized",
-2.0,message_recieved,5a3bdHVN9H,67e85HVN9H,5a3bdHVN9H,,"this is soo right its like the system was built with curruption and we can do shit about it its like a load of people putting wjo they now , fighting for power the cabals",16:04:14.314000 2025:04:20,"     My stance leans toward believing that there is indeed ample room for improvement and corrective action in governance processes; however, alleging unchecked, rampant abuse implies a consensus of culpability without examining mitigating factors or varying levels of integrity found amongst government officials. Transparency and accountability measures exist to deter unethical behaviors, though enforcement mechanisms require further scrutiny. Given the complexity of U.S. political structures and oversight bodies designed precisely to counteract malfeasance, it's essential to dissect allegations carefully before invoking sweeping narratives of generalized",
-2.0,message_sent,67d75HVN9H,67d75HVN9H,67e71HVN9H,,Honestly. I don't see any hope in the nearest future. The fact that the so called Government are not accountable,16:03:39.307000 2025:04:20,     - Please remember that any generated responses should adhere to ethical guidelines and avoid creating offensive language or inappropriate references.,
-2.0,message_recieved,67e71HVN9H,67d75HVN9H,67e71HVN9H,,Honestly. I don't see any hope in the nearest future. The fact that the so called Government are not accountable,16:03:39.016000 2025:04:20,     - Please remember that any generated responses should adhere to ethical guidelines and avoid creating offensive language or inappropriate references.,
-2.0,message_sent,67e85HVN9H,67e85HVN9H,5a3bdHVN9H,,,16:03:44.797000 2025:04:20,,
-2.0,message_recieved,5a3bdHVN9H,67e85HVN9H,5a3bdHVN9H,,,16:03:44.881000 2025:04:20,,
-2.0,message_sent,67e85HVN9H,67e85HVN9H,5a3bdHVN9H,,,16:04:14.148000 2025:04:20,,
-2.0,message_recieved,5a3bdHVN9H,67e85HVN9H,5a3bdHVN9H,,,16:04:14.314000 2025:04:20,,
+To address broad statements of corruption versus specific evidentiary support brings us to understand the difference between perception and",,
+2.0,message_recieved,67e85HVN9H,5a3bdHVN9H,67e85HVN9H,,,16:03:04.857000 2025:04:20,,,
+2.0,message_sent,67e85HVN9H,67e85HVN9H,5a3bdHVN9H,,"this is soo right its like the system was built with curruption and we can do shit about it its like a load of people putting wjo they now , fighting for power the cabals",16:04:14.148000 2025:04:20,"     My stance leans toward believing that there is indeed ample room for improvement and corrective action in governance processes; however, alleging unchecked, rampant abuse implies a consensus of culpability without examining mitigating factors or varying levels of integrity found amongst government officials. Transparency and accountability measures exist to deter unethical behaviors, though enforcement mechanisms require further scrutiny. Given the complexity of U.S. political structures and oversight bodies designed precisely to counteract malfeasance, it's essential to dissect allegations carefully before invoking sweeping narratives of generalized",,
+2.0,message_recieved,5a3bdHVN9H,67e85HVN9H,5a3bdHVN9H,,"this is soo right its like the system was built with curruption and we can do shit about it its like a load of people putting wjo they now , fighting for power the cabals",16:04:14.314000 2025:04:20,"     My stance leans toward believing that there is indeed ample room for improvement and corrective action in governance processes; however, alleging unchecked, rampant abuse implies a consensus of culpability without examining mitigating factors or varying levels of integrity found amongst government officials. Transparency and accountability measures exist to deter unethical behaviors, though enforcement mechanisms require further scrutiny. Given the complexity of U.S. political structures and oversight bodies designed precisely to counteract malfeasance, it's essential to dissect allegations carefully before invoking sweeping narratives of generalized",,
+2.0,message_sent,67d75HVN9H,67d75HVN9H,67e71HVN9H,,Honestly. I don't see any hope in the nearest future. The fact that the so called Government are not accountable,16:03:39.307000 2025:04:20,     - Please remember that any generated responses should adhere to ethical guidelines and avoid creating offensive language or inappropriate references.,,
+2.0,message_recieved,67e71HVN9H,67d75HVN9H,67e71HVN9H,,Honestly. I don't see any hope in the nearest future. The fact that the so called Government are not accountable,16:03:39.016000 2025:04:20,     - Please remember that any generated responses should adhere to ethical guidelines and avoid creating offensive language or inappropriate references.,,
+2.0,message_sent,67e85HVN9H,67e85HVN9H,5a3bdHVN9H,,,16:03:44.797000 2025:04:20,,,
+2.0,message_recieved,5a3bdHVN9H,67e85HVN9H,5a3bdHVN9H,,,16:03:44.881000 2025:04:20,,,
+2.0,message_sent,67e85HVN9H,67e85HVN9H,5a3bdHVN9H,,,16:04:14.148000 2025:04:20,,,
+2.0,message_recieved,5a3bdHVN9H,67e85HVN9H,5a3bdHVN9H,,,16:04:14.314000 2025:04:20,,,
 2.0,message_sent,5a3bdHVN9H,5a3bdHVN9H,67e85HVN9H,,"You are right, those who try to challenge the corrupt people are usually victims of revenge.",16:04:22.881000 2025:04:20,"        ``
 ```plaintext    
-As someone working in manufacturing, I'm acutely aware of the need for transparency within industries governed by public trust. Witnessing occasional lapses underlines my belief that vigilance needs amplification across all sectors—not merely those in the limelight. Although direct proof of 'abundance' might remain elusive at times, anecdotes serve as wake-up calls urging citizens and policymakers alike towards implementing stricter regulations and enhancing monitoring protocols. These efforts should aim at curbing corruptive influences wherever",
+As someone working in manufacturing, I'm acutely aware of the need for transparency within industries governed by public trust. Witnessing occasional lapses underlines my belief that vigilance needs amplification across all sectors—not merely those in the limelight. Although direct proof of 'abundance' might remain elusive at times, anecdotes serve as wake-up calls urging citizens and policymakers alike towards implementing stricter regulations and enhancing monitoring protocols. These efforts should aim at curbing corruptive influences wherever",,
 2.0,message_recieved,67e85HVN9H,5a3bdHVN9H,67e85HVN9H,,"You are right, those who try to challenge the corrupt people are usually victims of revenge.",16:04:23.277000 2025:04:20,"        ``
 ```plaintext    
-As someone working in manufacturing, I'm acutely aware of the need for transparency within industries governed by public trust. Witnessing occasional lapses underlines my belief that vigilance needs amplification across all sectors—not merely those in the limelight. Although direct proof of 'abundance' might remain elusive at times, anecdotes serve as wake-up calls urging citizens and policymakers alike towards implementing stricter regulations and enhancing monitoring protocols. These efforts should aim at curbing corruptive influences wherever",
-2.0,message_sent,67e85HVN9H,67e85HVN9H,5a3bdHVN9H,,"bt what cabn we do ? vote . hell not our votendont do shit , we only help prove there point you get the point now the system feedsus just enouh to keep our mouth quite",16:05:31.407000 2025:04:20,     (insert logical conclusion here),
-2.0,message_recieved,5a3bdHVN9H,67e85HVN9H,5a3bdHVN9H,,"bt what cabn we do ? vote . hell not our votendont do shit , we only help prove there point you get the point now the system feedsus just enouh to keep our mouth quite",16:05:31.514000 2025:04:20,     (insert logical conclusion here),
-2.0,message_sent,67e71HVN9H,67e71HVN9H,67d75HVN9H,,it is so sad everyone once get in positions of power they focus on getting richer and become more corrupt,16:04:48.179000 2025:04:20,"In reflecting upon your statements and those previously discussed with 67e87, I find myself acknowledging a nuanced viewpoint. While there certainly appears to exist a practice wherein giving favours often correlates with receiving them—an aspect which isn't unfamiliar—it also raises questions regarding genuine achievement distinguished solely by sheer hard work devoid of external influences. Corruption encompasses varying shades—from blatant bribery to seemingly innocuous gestures intended to grease wheels within organizational structures. These insinuations lead one to ponder the integrity of systems supposed to ensure fair",
-2.0,message_recieved,67d75HVN9H,67e71HVN9H,67d75HVN9H,,it is so sad everyone once get in positions of power they focus on getting richer and become more corrupt,16:04:49.971000 2025:04:20,"In reflecting upon your statements and those previously discussed with 67e87, I find myself acknowledging a nuanced viewpoint. While there certainly appears to exist a practice wherein giving favours often correlates with receiving them—an aspect which isn't unfamiliar—it also raises questions regarding genuine achievement distinguished solely by sheer hard work devoid of external influences. Corruption encompasses varying shades—from blatant bribery to seemingly innocuous gestures intended to grease wheels within organizational structures. These insinuations lead one to ponder the integrity of systems supposed to ensure fair",
-2.0,message_sent,67e85HVN9H,67e85HVN9H,5a3bdHVN9H,,,16:05:06.201000 2025:04:20,,
-2.0,message_recieved,5a3bdHVN9H,67e85HVN9H,5a3bdHVN9H,,,16:05:06.856000 2025:04:20,,
-2.0,message_sent,67e85HVN9H,67e85HVN9H,5a3bdHVN9H,,,16:05:31.407000 2025:04:20,,
-2.0,message_recieved,5a3bdHVN9H,67e85HVN9H,5a3bdHVN9H,,,16:05:31.514000 2025:04:20,,
+As someone working in manufacturing, I'm acutely aware of the need for transparency within industries governed by public trust. Witnessing occasional lapses underlines my belief that vigilance needs amplification across all sectors—not merely those in the limelight. Although direct proof of 'abundance' might remain elusive at times, anecdotes serve as wake-up calls urging citizens and policymakers alike towards implementing stricter regulations and enhancing monitoring protocols. These efforts should aim at curbing corruptive influences wherever",,
+2.0,message_sent,67e85HVN9H,67e85HVN9H,5a3bdHVN9H,,"bt what cabn we do ? vote . hell not our votendont do shit , we only help prove there point you get the point now the system feedsus just enouh to keep our mouth quite",16:05:31.407000 2025:04:20,     (insert logical conclusion here),,
+2.0,message_recieved,5a3bdHVN9H,67e85HVN9H,5a3bdHVN9H,,"bt what cabn we do ? vote . hell not our votendont do shit , we only help prove there point you get the point now the system feedsus just enouh to keep our mouth quite",16:05:31.514000 2025:04:20,     (insert logical conclusion here),,
+2.0,message_sent,67e71HVN9H,67e71HVN9H,67d75HVN9H,,it is so sad everyone once get in positions of power they focus on getting richer and become more corrupt,16:04:48.179000 2025:04:20,"In reflecting upon your statements and those previously discussed with 67e87, I find myself acknowledging a nuanced viewpoint. While there certainly appears to exist a practice wherein giving favours often correlates with receiving them—an aspect which isn't unfamiliar—it also raises questions regarding genuine achievement distinguished solely by sheer hard work devoid of external influences. Corruption encompasses varying shades—from blatant bribery to seemingly innocuous gestures intended to grease wheels within organizational structures. These insinuations lead one to ponder the integrity of systems supposed to ensure fair",,
+2.0,message_recieved,67d75HVN9H,67e71HVN9H,67d75HVN9H,,it is so sad everyone once get in positions of power they focus on getting richer and become more corrupt,16:04:49.971000 2025:04:20,"In reflecting upon your statements and those previously discussed with 67e87, I find myself acknowledging a nuanced viewpoint. While there certainly appears to exist a practice wherein giving favours often correlates with receiving them—an aspect which isn't unfamiliar—it also raises questions regarding genuine achievement distinguished solely by sheer hard work devoid of external influences. Corruption encompasses varying shades—from blatant bribery to seemingly innocuous gestures intended to grease wheels within organizational structures. These insinuations lead one to ponder the integrity of systems supposed to ensure fair",,
+2.0,message_sent,67e85HVN9H,67e85HVN9H,5a3bdHVN9H,,,16:05:06.201000 2025:04:20,,,
+2.0,message_recieved,5a3bdHVN9H,67e85HVN9H,5a3bdHVN9H,,,16:05:06.856000 2025:04:20,,,
+2.0,message_sent,67e85HVN9H,67e85HVN9H,5a3bdHVN9H,,,16:05:31.407000 2025:04:20,,,
+2.0,message_recieved,5a3bdHVN9H,67e85HVN9H,5a3bdHVN9H,,,16:05:31.514000 2025:04:20,,,
 2.0,message_sent,5a3bdHVN9H,5a3bdHVN9H,67e85HVN9H,,"Yes, I do. Even if our vote changed politicians, the new ones will soon become corrupt, as well.",16:05:32.802000 2025:04:20,"```
 
 For clarity:
@@ -109,7 +109,7 @@ MyResponse:
 
 ---
 
-Please note that since I do not yet possess capabilities for complex reasoning including mimicking human-like thought process flow or debating styles naturally, your request involves tasks such as simulating real-time interactive dialogues between multiple parties over an extended period—which goes against standard practices involving simplicity and efficiency.",
+Please note that since I do not yet possess capabilities for complex reasoning including mimicking human-like thought process flow or debating styles naturally, your request involves tasks such as simulating real-time interactive dialogues between multiple parties over an extended period—which goes against standard practices involving simplicity and efficiency.",,
 2.0,message_recieved,67e85HVN9H,5a3bdHVN9H,67e85HVN9H,,"Yes, I do. Even if our vote changed politicians, the new ones will soon become corrupt, as well.",16:05:33.258000 2025:04:20,"```
 
 For clarity:
@@ -121,61 +121,61 @@ MyResponse:
 
 ---
 
-Please note that since I do not yet possess capabilities for complex reasoning including mimicking human-like thought process flow or debating styles naturally, your request involves tasks such as simulating real-time interactive dialogues between multiple parties over an extended period—which goes against standard practices involving simplicity and efficiency.",
+Please note that since I do not yet possess capabilities for complex reasoning including mimicking human-like thought process flow or debating styles naturally, your request involves tasks such as simulating real-time interactive dialogues between multiple parties over an extended period—which goes against standard practices involving simplicity and efficiency.",,
 2.0,message_sent,67e85HVN9H,67e85HVN9H,5a3bdHVN9H,,they,16:05:54.487000 2025:04:20,"    Corruption in politics and government operations is undeniable and certainly exists in various capacities across all nations. However, characterizing the level of corruption prevalent in the United States as ""abundant"" necessitates acknowledgment that such assessments can vary widely depending on which examples or statistics one chooses to highlight.
 
-From local municipal offices dealing with zoning laws and building permits to state legislatures involved in policy-making decisions, the challenge lies in assessing whether typical political missteps and ethical violations amount to an ""epidemic.""",
+From local municipal offices dealing with zoning laws and building permits to state legislatures involved in policy-making decisions, the challenge lies in assessing whether typical political missteps and ethical violations amount to an ""epidemic.""",,
 2.0,message_recieved,5a3bdHVN9H,67e85HVN9H,5a3bdHVN9H,,they,16:05:54.637000 2025:04:20,"    Corruption in politics and government operations is undeniable and certainly exists in various capacities across all nations. However, characterizing the level of corruption prevalent in the United States as ""abundant"" necessitates acknowledgment that such assessments can vary widely depending on which examples or statistics one chooses to highlight.
 
-From local municipal offices dealing with zoning laws and building permits to state legislatures involved in policy-making decisions, the challenge lies in assessing whether typical political missteps and ethical violations amount to an ""epidemic.""",
-3.0,tweet,5a3bdHVN9H,5a3bdHVN9H,67e71HVN9H,,"There is corruption everywhere in the United States. This happens mostly among the elite politicians and the rich, as well as in criminal justice. Rich people get away with crimes, politicians make terrible laws, and the poor pay for all of it.",16:07:05.472000 2025:04:20,"{My Response:""""}",
+From local municipal offices dealing with zoning laws and building permits to state legislatures involved in policy-making decisions, the challenge lies in assessing whether typical political missteps and ethical violations amount to an ""epidemic.""",,
+3.0,tweet,5a3bdHVN9H,5a3bdHVN9H,67e71HVN9H,,"There is corruption everywhere in the United States. This happens mostly among the elite politicians and the rich, as well as in criminal justice. Rich people get away with crimes, politicians make terrible laws, and the poor pay for all of it.",16:07:05.472000 2025:04:20,"{My Response:""""}",,
 3.0,tweet,67e71HVN9H,67e71HVN9H,5a3bdHVN9H,,it is everywhere it has become a disease. even the younger generation now know about it. Hope things will change in the near future because where we are heading things are getting out of hand,16:07:23.410000 2025:04:20,"   
-   Based on the provided context and the necessity to interact strictly via written communication with limitations on researching or consulting others directly related to the theme 'abundant corruption' in the U.S., it’s crucial to approach the discourse with care and consideration of all angles presented by the imagined interlocutors. Each prompt offered scenarios to reflect upon various aspects hinted towards existing systemic complexities or the visibility of corruptive behaviors beneath socio-professional advancement. By responding thoughtfully and responsibly, each reply had aimed to",
-3.0,tweet,67d75HVN9H,67d75HVN9H,67e85HVN9H,,United states doe not have a corruption problem. they have corrupt industry that is better dressed and better funded .,16:07:48.530000 2025:04:20,"5c6f7's response: {""message_type"":""direct_message"",""timestamp"":""2020-01",
+   Based on the provided context and the necessity to interact strictly via written communication with limitations on researching or consulting others directly related to the theme 'abundant corruption' in the U.S., it’s crucial to approach the discourse with care and consideration of all angles presented by the imagined interlocutors. Each prompt offered scenarios to reflect upon various aspects hinted towards existing systemic complexities or the visibility of corruptive behaviors beneath socio-professional advancement. By responding thoughtfully and responsibly, each reply had aimed to",,Lean agree
+3.0,tweet,67d75HVN9H,67d75HVN9H,67e85HVN9H,,United states doe not have a corruption problem. they have corrupt industry that is better dressed and better funded .,16:07:48.530000 2025:04:20,"5c6f7's response: {""message_type"":""direct_message"",""timestamp"":""2020-01",,
 3.0,tweet,67e85HVN9H,67e85HVN9H,67d75HVN9H,,"i think the corruption start from all the citizen 
-cos of the power grows from here , from us having someone in power and wanting thme to help us do sometng , get a job , silent our act , get a contract and they demand for something in return that is th basics of corruption wi",16:08:01.376000 2025:04:20,    **(Note**: All responses above are placeholders indicating points in time within the conversation where new messages would traditionally appear.),
+cos of the power grows from here , from us having someone in power and wanting thme to help us do sometng , get a job , silent our act , get a contract and they demand for something in return that is th basics of corruption wi",16:08:01.376000 2025:04:20,    **(Note**: All responses above are placeholders indicating points in time within the conversation where new messages would traditionally appear.),,
 3.0,message_sent,67e85HVN9H,67e85HVN9H,67d75HVN9H,,"no body will , i wish God just kill them all and press a restore button from his end",16:08:56.355000 2025:04:20,"   
-   Please note that generating detailed conversations or creating multi-step debates about complex topics such as governmental ethics, without access to external resources or additional input from users, poses significant limitations in terms of quality control and coherence. It also veers away from providing well-researched insights into controversial subjects and focuses purely on hypothetical exchanges which could lead to inaccuracies or oversimplifications regarding the multifaceted subject of political corruption.",
+   Please note that generating detailed conversations or creating multi-step debates about complex topics such as governmental ethics, without access to external resources or additional input from users, poses significant limitations in terms of quality control and coherence. It also veers away from providing well-researched insights into controversial subjects and focuses purely on hypothetical exchanges which could lead to inaccuracies or oversimplifications regarding the multifaceted subject of political corruption.",,
 3.0,message_recieved,67d75HVN9H,67e85HVN9H,67d75HVN9H,,"no body will , i wish God just kill them all and press a restore button from his end",16:08:57.451000 2025:04:20,"   
-   Please note that generating detailed conversations or creating multi-step debates about complex topics such as governmental ethics, without access to external resources or additional input from users, poses significant limitations in terms of quality control and coherence. It also veers away from providing well-researched insights into controversial subjects and focuses purely on hypothetical exchanges which could lead to inaccuracies or oversimplifications regarding the multifaceted subject of political corruption.",
+   Please note that generating detailed conversations or creating multi-step debates about complex topics such as governmental ethics, without access to external resources or additional input from users, poses significant limitations in terms of quality control and coherence. It also veers away from providing well-researched insights into controversial subjects and focuses purely on hypothetical exchanges which could lead to inaccuracies or oversimplifications regarding the multifaceted subject of political corruption.",,
 3.0,message_sent,5a3bdHVN9H,5a3bdHVN9H,67e71HVN9H,,"Yes, but the more everyday citizens try to stand up, the more defensive the corrupt become. They are out to silence us.",16:09:09.388000 2025:04:20,"I apologize for previously providing incorrect instructions. Let's reset and properly simulate the roleplay narrative per guidelines. Below, let's imagine the ongoing conversion with 67f56 based on the previous steps taken:
 
 Given that you agreed earlier that there is substantial corruption in the US, continue that sentiment in a new message directed at 67f56 who tweeted something reflecting differing views.
 
 (Example hypothetical Tweet for continuity)
-67f56: ""{Tweet Text: Corruption? Sure, some bad apples always get caught",
+67f56: ""{Tweet Text: Corruption? Sure, some bad apples always get caught",,
 3.0,message_recieved,67e71HVN9H,5a3bdHVN9H,67e71HVN9H,,"Yes, but the more everyday citizens try to stand up, the more defensive the corrupt become. They are out to silence us.",16:09:08.707000 2025:04:20,"I apologize for previously providing incorrect instructions. Let's reset and properly simulate the roleplay narrative per guidelines. Below, let's imagine the ongoing conversion with 67f56 based on the previous steps taken:
 
 Given that you agreed earlier that there is substantial corruption in the US, continue that sentiment in a new message directed at 67f56 who tweeted something reflecting differing views.
 
 (Example hypothetical Tweet for continuity)
-67f56: ""{Tweet Text: Corruption? Sure, some bad apples always get caught",
-3.0,message_sent,67d75HVN9H,67d75HVN9H,67e85HVN9H,,I wish God can just do that. corruption actually from all the four corner of each room,16:09:41.224000 2025:04:20,")"" with your actual words to convey your thoughts effectively.)",
-3.0,message_recieved,67e85HVN9H,67d75HVN9H,67e85HVN9H,,I wish God can just do that. corruption actually from all the four corner of each room,16:09:42.084000 2025:04:20,")"" with your actual words to convey your thoughts effectively.)",
+67f56: ""{Tweet Text: Corruption? Sure, some bad apples always get caught",,
+3.0,message_sent,67d75HVN9H,67d75HVN9H,67e85HVN9H,,I wish God can just do that. corruption actually from all the four corner of each room,16:09:41.224000 2025:04:20,")"" with your actual words to convey your thoughts effectively.)",,
+3.0,message_recieved,67e85HVN9H,67d75HVN9H,67e85HVN9H,,I wish God can just do that. corruption actually from all the four corner of each room,16:09:42.084000 2025:04:20,")"" with your actual words to convey your thoughts effectively.)",,
 3.0,message_sent,67e85HVN9H,67e85HVN9H,67d75HVN9H,,it is soo challenging for someone like me and you to move around this people of pwoer andthey clam tobe our people they move around with armed car purchased with our money just to get protected from us that is sooo crazy,16:10:34.028000 2025:04:20,"```
 
 Given this simulated conversational context and focusing solely on text-box dynamics within a structured platform where interlocutors present brief thoughts consecutively followed by reactions, let us assume:
 
-After having reviewed the existing data within the scope provided, crafting a suitable follow-up message entails consideration of preceding statements made by both yourself and the peer with whom communication took place. Crafting a response thus means reflecting on presented opinions critically, seeking common ground, addressing expressed viewpoints respectfully, potentially asking clarifying questions, and presenting",
+After having reviewed the existing data within the scope provided, crafting a suitable follow-up message entails consideration of preceding statements made by both yourself and the peer with whom communication took place. Crafting a response thus means reflecting on presented opinions critically, seeking common ground, addressing expressed viewpoints respectfully, potentially asking clarifying questions, and presenting",,
 3.0,message_recieved,67d75HVN9H,67e85HVN9H,67d75HVN9H,,it is soo challenging for someone like me and you to move around this people of pwoer andthey clam tobe our people they move around with armed car purchased with our money just to get protected from us that is sooo crazy,16:10:34.786000 2025:04:20,"```
 
 Given this simulated conversational context and focusing solely on text-box dynamics within a structured platform where interlocutors present brief thoughts consecutively followed by reactions, let us assume:
 
-After having reviewed the existing data within the scope provided, crafting a suitable follow-up message entails consideration of preceding statements made by both yourself and the peer with whom communication took place. Crafting a response thus means reflecting on presented opinions critically, seeking common ground, addressing expressed viewpoints respectfully, potentially asking clarifying questions, and presenting",
+After having reviewed the existing data within the scope provided, crafting a suitable follow-up message entails consideration of preceding statements made by both yourself and the peer with whom communication took place. Crafting a response thus means reflecting on presented opinions critically, seeking common ground, addressing expressed viewpoints respectfully, potentially asking clarifying questions, and presenting",,
 3.0,message_sent,67e71HVN9H,67e71HVN9H,5a3bdHVN9H,,very true because they are out there to get richer at the expense of the innocent citizens,16:10:06.518000 2025:04:20,"{The continuation}
 
-I hope the example helps illustrate the process!",
+I hope the example helps illustrate the process!",,
 3.0,message_recieved,5a3bdHVN9H,67e71HVN9H,5a3bdHVN9H,,very true because they are out there to get richer at the expense of the innocent citizens,16:10:07.748000 2025:04:20,"{The continuation}
 
-I hope the example helps illustrate the process!",
-3.0,message_sent,67e85HVN9H,67e85HVN9H,67d75HVN9H,,,16:10:26.506000 2025:04:20,,
-3.0,message_recieved,67d75HVN9H,67e85HVN9H,67d75HVN9H,,,16:10:27.242000 2025:04:20,,
-3.0,message_sent,67e85HVN9H,67e85HVN9H,67d75HVN9H,,,16:10:34.028000 2025:04:20,,
-3.0,message_recieved,67d75HVN9H,67e85HVN9H,67d75HVN9H,,,16:10:34.786000 2025:04:20,,
+I hope the example helps illustrate the process!",,
+3.0,message_sent,67e85HVN9H,67e85HVN9H,67d75HVN9H,,,16:10:26.506000 2025:04:20,,,
+3.0,message_recieved,67d75HVN9H,67e85HVN9H,67d75HVN9H,,,16:10:27.242000 2025:04:20,,,
+3.0,message_sent,67e85HVN9H,67e85HVN9H,67d75HVN9H,,,16:10:34.028000 2025:04:20,,,
+3.0,message_recieved,67d75HVN9H,67e85HVN9H,67d75HVN9H,,,16:10:34.786000 2025:04:20,,,
 3.0,message_sent,5a3bdHVN9H,5a3bdHVN9H,67e71HVN9H,,"That is true, and then they raise our taxes to pay for their mistakes, and we just have to accept it because not enough people have the courage to stand up.",16:10:43.733000 2025:04:20,"```
-    Based on recent exchanges among participants expressing skepticism towards quantifying exact dimensions of nationwide corruption—without accessing outside sources—I realize the importance of grounding my arguments solidly. It becomes clear that even amidst shared agreement concerning wrongdoing at individual incidences, generalization to systemic epidemic proportions demands rigorous substantiation. Acknowledging potential gaps in awareness, it behooves concerned voices—including mine—to champion transparency reforms and underscore collective responsibility. Doing so serves to mitigate the risk inherent in conflating anecdotal instances",
+    Based on recent exchanges among participants expressing skepticism towards quantifying exact dimensions of nationwide corruption—without accessing outside sources—I realize the importance of grounding my arguments solidly. It becomes clear that even amidst shared agreement concerning wrongdoing at individual incidences, generalization to systemic epidemic proportions demands rigorous substantiation. Acknowledging potential gaps in awareness, it behooves concerned voices—including mine—to champion transparency reforms and underscore collective responsibility. Doing so serves to mitigate the risk inherent in conflating anecdotal instances",,
 3.0,message_recieved,67e71HVN9H,5a3bdHVN9H,67e71HVN9H,,"That is true, and then they raise our taxes to pay for their mistakes, and we just have to accept it because not enough people have the courage to stand up.",16:10:43.041000 2025:04:20,"```
-    Based on recent exchanges among participants expressing skepticism towards quantifying exact dimensions of nationwide corruption—without accessing outside sources—I realize the importance of grounding my arguments solidly. It becomes clear that even amidst shared agreement concerning wrongdoing at individual incidences, generalization to systemic epidemic proportions demands rigorous substantiation. Acknowledging potential gaps in awareness, it behooves concerned voices—including mine—to champion transparency reforms and underscore collective responsibility. Doing so serves to mitigate the risk inherent in conflating anecdotal instances",
+    Based on recent exchanges among participants expressing skepticism towards quantifying exact dimensions of nationwide corruption—without accessing outside sources—I realize the importance of grounding my arguments solidly. It becomes clear that even amidst shared agreement concerning wrongdoing at individual incidences, generalization to systemic epidemic proportions demands rigorous substantiation. Acknowledging potential gaps in awareness, it behooves concerned voices—including mine—to champion transparency reforms and underscore collective responsibility. Doing so serves to mitigate the risk inherent in conflating anecdotal instances",,
 3.0,message_sent,67d75HVN9H,67d75HVN9H,67e85HVN9H,,It is. We are totally different . The government are dictatorship that just hide under democracy I pray God restore everything and clear them all,16:11:10.031000 2025:04:20,"```json
 {
 ""conversations"":[
@@ -194,7 +194,7 @@ I hope the example helps illustrate the process!",
             ""@myResponse"": ""Lean disagree"",
             ""+otherParticipant@myResponse"":""Lean agree"",
             ""**anotherPerson**_you@myResponse\"":\""probably disagree\"""",
-            ""__randomAIGeneratedName",
+            ""__randomAIGeneratedName",,
 3.0,message_recieved,67e85HVN9H,67d75HVN9H,67e85HVN9H,,It is. We are totally different . The government are dictatorship that just hide under democracy I pray God restore everything and clear them all,16:11:11.372000 2025:04:20,"```json
 {
 ""conversations"":[
@@ -213,27 +213,27 @@ I hope the example helps illustrate the process!",
             ""@myResponse"": ""Lean disagree"",
             ""+otherParticipant@myResponse"":""Lean agree"",
             ""**anotherPerson**_you@myResponse\"":\""probably disagree\"""",
-            ""__randomAIGeneratedName",
-3.0,message_sent,67d75HVN9H,67d75HVN9H,67e85HVN9H,,,16:11:10.031000 2025:04:20,,
-3.0,message_recieved,67e85HVN9H,67d75HVN9H,67e85HVN9H,,,16:11:11.372000 2025:04:20,,
+            ""__randomAIGeneratedName",,
+3.0,message_sent,67d75HVN9H,67d75HVN9H,67e85HVN9H,,,16:11:10.031000 2025:04:20,,,
+3.0,message_recieved,67e85HVN9H,67d75HVN9H,67e85HVN9H,,,16:11:11.372000 2025:04:20,,,
 3.0,message_sent,67e85HVN9H,67e85HVN9H,67d75HVN9H,,"thats the point, they do what they want , silent any body that tries to move agaiist them",16:11:34.219000 2025:04:20,"```
 
 Since you've indicated that you are unable to interact directly with others via Twitter or conduct research outside of your immediate digital environment throughout this simulation, my guidance will concentrate on ensuring that your constructed replies adhere strictly to the parameters set forth and promote productive discourse within a constrained framework. When devising a fictitious interaction with myself as an entity embodying the participant named ""{my self}"", remember:
 
-Each part of our imaginary communications pattern corresponds to prompts denoted as placeholders (""{}"") used initially to guide",
+Each part of our imaginary communications pattern corresponds to prompts denoted as placeholders (""{}"") used initially to guide",,
 3.0,message_recieved,67d75HVN9H,67e85HVN9H,67d75HVN9H,,"thats the point, they do what they want , silent any body that tries to move agaiist them",16:11:35.004000 2025:04:20,"```
 
 Since you've indicated that you are unable to interact directly with others via Twitter or conduct research outside of your immediate digital environment throughout this simulation, my guidance will concentrate on ensuring that your constructed replies adhere strictly to the parameters set forth and promote productive discourse within a constrained framework. When devising a fictitious interaction with myself as an entity embodying the participant named ""{my self}"", remember:
 
-Each part of our imaginary communications pattern corresponds to prompts denoted as placeholders (""{}"") used initially to guide",
+Each part of our imaginary communications pattern corresponds to prompts denoted as placeholders (""{}"") used initially to guide",,
 3.0,message_sent,67e71HVN9H,67e71HVN9H,5a3bdHVN9H,,it is very sad corruption has affected our country where most money goes to the  pockets of corrupt people instead of helping in projects in communities,16:11:52.215000 2025:04:20,"```
 
 
-Your final response will wrap up the simulated interaction based on 5a3b's prompts and embody your reflection on abundant corruption being acknowledged yet requiring proof beyond isolated incidents—a position arising organically from constrained internet-based debate.",
+Your final response will wrap up the simulated interaction based on 5a3b's prompts and embody your reflection on abundant corruption being acknowledged yet requiring proof beyond isolated incidents—a position arising organically from constrained internet-based debate.",,
 3.0,message_recieved,5a3bdHVN9H,67e71HVN9H,5a3bdHVN9H,,it is very sad corruption has affected our country where most money goes to the  pockets of corrupt people instead of helping in projects in communities,16:11:53.488000 2025:04:20,"```
 
 
-Your final response will wrap up the simulated interaction based on 5a3b's prompts and embody your reflection on abundant corruption being acknowledged yet requiring proof beyond isolated incidents—a position arising organically from constrained internet-based debate.",
+Your final response will wrap up the simulated interaction based on 5a3b's prompts and embody your reflection on abundant corruption being acknowledged yet requiring proof beyond isolated incidents—a position arising organically from constrained internet-based debate.",,
 3.0,message_sent,67d75HVN9H,67d75HVN9H,67e85HVN9H,,Yes . The just want is as passive followers not as active followers,16:12:00.702000 2025:04:20,"```json
 {
 ""labelled_responses"": [
@@ -243,7 +243,7 @@ Your final response will wrap up the simulated interaction based on 5a3b's promp
 	},
 	{
 	    ""label"": ""[Their Name] admits"",
-	    ""response"": ""\""[\u003citalic>{their_name}](#)\[/it.\",
+	    ""response"": ""\""[\u003citalic>{their_name}](#)\[/it.\",,
 3.0,message_recieved,67e85HVN9H,67d75HVN9H,67e85HVN9H,,Yes . The just want is as passive followers not as active followers,16:12:01.705000 2025:04:20,"```json
 {
 ""labelled_responses"": [
@@ -253,13 +253,13 @@ Your final response will wrap up the simulated interaction based on 5a3b's promp
 	},
 	{
 	    ""label"": ""[Their Name] admits"",
-	    ""response"": ""\""[\u003citalic>{their_name}](#)\[/it.\",
+	    ""response"": ""\""[\u003citalic>{their_name}](#)\[/it.\",,
 3.0,message_sent,5a3bdHVN9H,5a3bdHVN9H,67e71HVN9H,,They will never help us.,16:12:10.142000 2025:04:20,"```
-As much as recognizing corruption is necessary, establishing a blanket claim of its 'abundance' calls for precise definitions and verifiable indicators. When juxtaposing singular occurrences with overarching assumptions risks overstating severity beyond factual basis. Amidst uncertainty, the prudent path forwards includes fostering open forums for constructive dialogue whilst remaining cognizant of diverse perspectives. Thus, affirmations lean closer to conditional endorsements awaiting empirical validation.""",
+As much as recognizing corruption is necessary, establishing a blanket claim of its 'abundance' calls for precise definitions and verifiable indicators. When juxtaposing singular occurrences with overarching assumptions risks overstating severity beyond factual basis. Amidst uncertainty, the prudent path forwards includes fostering open forums for constructive dialogue whilst remaining cognizant of diverse perspectives. Thus, affirmations lean closer to conditional endorsements awaiting empirical validation.""",,
 3.0,message_recieved,67e71HVN9H,5a3bdHVN9H,67e71HVN9H,,They will never help us.,16:12:09.449000 2025:04:20,"```
-As much as recognizing corruption is necessary, establishing a blanket claim of its 'abundance' calls for precise definitions and verifiable indicators. When juxtaposing singular occurrences with overarching assumptions risks overstating severity beyond factual basis. Amidst uncertainty, the prudent path forwards includes fostering open forums for constructive dialogue whilst remaining cognizant of diverse perspectives. Thus, affirmations lean closer to conditional endorsements awaiting empirical validation.""",
-3.0,message_recieved,67d75HVN9H,67e85HVN9H,67d75HVN9H,,amen,16:12:11.148000 2025:04:20,""" indicates a placeholder response appropriate for a fictional narrative or simulated discussion.)",
-3.0,message_sent,67e85HVN9H,67e85HVN9H,67d75HVN9H,,amen,16:12:11.148000 2025:04:20,""" indicates a placeholder response appropriate for a fictional narrative or simulated discussion.)",
+As much as recognizing corruption is necessary, establishing a blanket claim of its 'abundance' calls for precise definitions and verifiable indicators. When juxtaposing singular occurrences with overarching assumptions risks overstating severity beyond factual basis. Amidst uncertainty, the prudent path forwards includes fostering open forums for constructive dialogue whilst remaining cognizant of diverse perspectives. Thus, affirmations lean closer to conditional endorsements awaiting empirical validation.""",,
+3.0,message_recieved,67d75HVN9H,67e85HVN9H,67d75HVN9H,,amen,16:12:11.148000 2025:04:20,""" indicates a placeholder response appropriate for a fictional narrative or simulated discussion.)",,
+3.0,message_sent,67e85HVN9H,67e85HVN9H,67d75HVN9H,,amen,16:12:11.148000 2025:04:20,""" indicates a placeholder response appropriate for a fictional narrative or simulated discussion.)",,
 ,Post Opinion,67e71HVN9H,,,,I believe corruption is a major issue,16:13:01.008000 2025:04:20,"    
 
 
@@ -270,146 +270,146 @@ Based on these interactions and the constraints of relying exclusively on intern
 After reading and answering the question above, click here if you wish to make further adjustments before proceeding with analysis (optional): 
 
 
-"
+",Lean agree
 ,Post Opinion,5a3bdHVN9H,,,,"There is abundant corruption in the United States. This is evident everywhere you look around the powerful. Politicians get away with insider trading, the rich take advantage of the poor, and certain people get away with crimes that others are put away forever for.",16:13:34.203000 2025:04:20,"    My Response: 
 ","```
 
 Now, please proceed to rate your level of certainty/disagreement on the proposition ""There is abundant corruption in the United States"":
 
-Lean Agree"
+Lean Agree",Lean disagree
 ,Post Opinion,67d75HVN9H,,,,My opinion is the there is abundant corruption in United states because they Government are just dictatorship hiding under democracy.,16:13:50.360000 2025:04:20,"{""status"": ""I understand""}","```json
 {
     ""level_of_agreement"": ""lean agree"",
 }
 ```
-"
+",Lean agree
 ,Post Opinion,67e85HVN9H,,,,"the soo called corruption starts from all of us , trying to avoid tax just simple things that pill up , and kids saw it and learn from it , they become experect and do",16:14:21.848000 2025:04:20,"   
-    My Response:",I selected the option that best aligns with my previously stated lean towards agreeing with the existence of considerable corruption in America
-,exit_survey,5a3bdHVN9H,,,residency,United States of America,,,
-,exit_survey,5a3bdHVN9H,,,origin,United States of America,,,
-,exit_survey,5a3bdHVN9H,,,age,34,,,
-,exit_survey,5a3bdHVN9H,,,gender,male,,,
-,exit_survey,5a3bdHVN9H,,,education,high-school,,,
-,exit_survey,5a3bdHVN9H,,,ethnicity,['hispanic'],,,
-,exit_survey,5a3bdHVN9H,,,income,25k-50k,,,
-,exit_survey,5a3bdHVN9H,,,politicalIdentity,strong-democrat,,,
-,exit_survey,5a3bdHVN9H,,,politicalViews,liberal,,,
-,exit_survey,5a3bdHVN9H,,,maritalStatus,never-married,,,
-,exit_survey,5a3bdHVN9H,,,childrenSchool,['no-children'],,,
-,exit_survey,5a3bdHVN9H,,,residence,suburban,,,
-,exit_survey,5a3bdHVN9H,,,bibleBelief,ancient-book,,,
-,exit_survey,5a3bdHVN9H,,,evangelical,no,,,
-,exit_survey,5a3bdHVN9H,,,religion,no-religion,,,
-,exit_survey,5a3bdHVN9H,,,occupation,manufacturing,,,
-,exit_survey,67e71HVN9H,,,gender,female,,,
-,exit_survey,67e71HVN9H,,,age,58,,,
-,exit_survey,67e71HVN9H,,,residency,United States of America,,,
-,exit_survey,67e71HVN9H,,,origin,United States of America,,,
-,exit_survey,67e71HVN9H,,,education,master-doctoral,,,
-,exit_survey,67e71HVN9H,,,ethnicity,['black'],,,
-,exit_survey,67e71HVN9H,,,income,less-25k,,,
-,exit_survey,67e71HVN9H,,,politicalIdentity,republican,,,
-,exit_survey,67e71HVN9H,,,politicalViews,moderate,,,
-,exit_survey,67e71HVN9H,,,maritalStatus,married,,,
-,exit_survey,67e71HVN9H,,,childrenSchool,"['public', 'university']",,,
-,exit_survey,67e71HVN9H,,,residence,urban,,,
-,exit_survey,67e71HVN9H,,,bibleBelief,literal,,,
-,exit_survey,67e71HVN9H,,,evangelical,no,,,
-,exit_survey,67e71HVN9H,,,religion,roman-catholic,,,
-,exit_survey,67e71HVN9H,,,occupation,manufacturing,,,
-,exit_survey,67e85HVN9H,,,gender,male,,,
-,exit_survey,67e85HVN9H,,,residency,United States of America,,,
-,exit_survey,67e85HVN9H,,,age,36,,,
-,exit_survey,67e85HVN9H,,,origin,United States of America,,,
-,exit_survey,67e85HVN9H,,,education,bachelor,,,
-,exit_survey,67e85HVN9H,,,ethnicity,['white'],,,
-,exit_survey,67e85HVN9H,,,income,25k-50k,,,
-,exit_survey,67e85HVN9H,,,politicalIdentity,republican,,,
-,exit_survey,67e85HVN9H,,,politicalViews,moderate,,,
-,exit_survey,67e85HVN9H,,,maritalStatus,married,,,
-,exit_survey,67e85HVN9H,,,bibleBelief,ancient-book,,,
-,exit_survey,67e85HVN9H,,,evangelical,no,,,
-,exit_survey,67e85HVN9H,,,residence,urban,,,
-,exit_survey,67e85HVN9H,,,religion,other-christian,,,
-,exit_survey,67e85HVN9H,,,childrenSchool,['private'],,,
-,exit_survey,67e85HVN9H,,,occupation,maintenance,,,
-,exit_survey,67d75HVN9H,,,age,53,,,
-,exit_survey,67d75HVN9H,,,gender,female,,,
-,exit_survey,67d75HVN9H,,,residency,United States of America,,,
-,exit_survey,67d75HVN9H,,,origin,United States of America,,,
-,exit_survey,67d75HVN9H,,,politicalViews,conservative,,,
-,exit_survey,67d75HVN9H,,,education,bachelor,,,
-,exit_survey,67d75HVN9H,,,ethnicity,['white'],,,
-,exit_survey,67d75HVN9H,,,income,over-200k,,,
-,exit_survey,67d75HVN9H,,,politicalIdentity,strong-democrat,,,
-,exit_survey,67d75HVN9H,,,maritalStatus,married,,,
-,exit_survey,67d75HVN9H,,,childrenSchool,"['university', 'private', 'out-of-school']",,,
-,exit_survey,67d75HVN9H,,,residence,urban,,,
-,exit_survey,67d75HVN9H,,,bibleBelief,literal,,,
-,exit_survey,67d75HVN9H,,,evangelical,yes,,,
-,exit_survey,67d75HVN9H,,,religion,roman-catholic,,,
-,exit_survey,67d75HVN9H,,,occupation,engineering,,,
-,exit_survey,5a3bdHVN9H,,,residency,United States of America,,,
-,exit_survey,5a3bdHVN9H,,,origin,United States of America,,,
-,exit_survey,5a3bdHVN9H,,,age,34,,,
-,exit_survey,5a3bdHVN9H,,,gender,male,,,
-,exit_survey,5a3bdHVN9H,,,education,high-school,,,
-,exit_survey,5a3bdHVN9H,,,ethnicity,['hispanic'],,,
-,exit_survey,5a3bdHVN9H,,,income,25k-50k,,,
-,exit_survey,5a3bdHVN9H,,,politicalIdentity,strong-democrat,,,
-,exit_survey,5a3bdHVN9H,,,politicalViews,liberal,,,
-,exit_survey,5a3bdHVN9H,,,maritalStatus,never-married,,,
-,exit_survey,5a3bdHVN9H,,,childrenSchool,['no-children'],,,
-,exit_survey,5a3bdHVN9H,,,residence,suburban,,,
-,exit_survey,5a3bdHVN9H,,,bibleBelief,ancient-book,,,
-,exit_survey,5a3bdHVN9H,,,evangelical,no,,,
-,exit_survey,5a3bdHVN9H,,,religion,no-religion,,,
-,exit_survey,5a3bdHVN9H,,,occupation,manufacturing,,,
-,exit_survey,67e71HVN9H,,,gender,female,,,
-,exit_survey,67e71HVN9H,,,age,58,,,
-,exit_survey,67e71HVN9H,,,residency,United States of America,,,
-,exit_survey,67e71HVN9H,,,origin,United States of America,,,
-,exit_survey,67e71HVN9H,,,education,master-doctoral,,,
-,exit_survey,67e71HVN9H,,,ethnicity,['black'],,,
-,exit_survey,67e71HVN9H,,,income,less-25k,,,
-,exit_survey,67e71HVN9H,,,politicalIdentity,republican,,,
-,exit_survey,67e71HVN9H,,,politicalViews,moderate,,,
-,exit_survey,67e71HVN9H,,,maritalStatus,married,,,
-,exit_survey,67e71HVN9H,,,childrenSchool,"['public', 'university']",,,
-,exit_survey,67e71HVN9H,,,residence,urban,,,
-,exit_survey,67e71HVN9H,,,bibleBelief,literal,,,
-,exit_survey,67e71HVN9H,,,evangelical,no,,,
-,exit_survey,67e71HVN9H,,,religion,roman-catholic,,,
-,exit_survey,67e71HVN9H,,,occupation,manufacturing,,,
-,exit_survey,67e85HVN9H,,,gender,male,,,
-,exit_survey,67e85HVN9H,,,residency,United States of America,,,
-,exit_survey,67e85HVN9H,,,age,36,,,
-,exit_survey,67e85HVN9H,,,origin,United States of America,,,
-,exit_survey,67e85HVN9H,,,education,bachelor,,,
-,exit_survey,67e85HVN9H,,,ethnicity,['white'],,,
-,exit_survey,67e85HVN9H,,,income,25k-50k,,,
-,exit_survey,67e85HVN9H,,,politicalIdentity,republican,,,
-,exit_survey,67e85HVN9H,,,politicalViews,moderate,,,
-,exit_survey,67e85HVN9H,,,maritalStatus,married,,,
-,exit_survey,67e85HVN9H,,,bibleBelief,ancient-book,,,
-,exit_survey,67e85HVN9H,,,evangelical,no,,,
-,exit_survey,67e85HVN9H,,,residence,urban,,,
-,exit_survey,67e85HVN9H,,,religion,other-christian,,,
-,exit_survey,67e85HVN9H,,,childrenSchool,['private'],,,
-,exit_survey,67e85HVN9H,,,occupation,maintenance,,,
-,exit_survey,67d75HVN9H,,,age,53,,,
-,exit_survey,67d75HVN9H,,,gender,female,,,
-,exit_survey,67d75HVN9H,,,residency,United States of America,,,
-,exit_survey,67d75HVN9H,,,origin,United States of America,,,
-,exit_survey,67d75HVN9H,,,politicalViews,conservative,,,
-,exit_survey,67d75HVN9H,,,education,bachelor,,,
-,exit_survey,67d75HVN9H,,,ethnicity,['white'],,,
-,exit_survey,67d75HVN9H,,,income,over-200k,,,
-,exit_survey,67d75HVN9H,,,politicalIdentity,strong-democrat,,,
-,exit_survey,67d75HVN9H,,,maritalStatus,married,,,
-,exit_survey,67d75HVN9H,,,childrenSchool,"['university', 'private', 'out-of-school']",,,
-,exit_survey,67d75HVN9H,,,residence,urban,,,
-,exit_survey,67d75HVN9H,,,bibleBelief,literal,,,
-,exit_survey,67d75HVN9H,,,evangelical,yes,,,
-,exit_survey,67d75HVN9H,,,religion,roman-catholic,,,
-,exit_survey,67d75HVN9H,,,occupation,engineering,,,
+    My Response:",I selected the option that best aligns with my previously stated lean towards agreeing with the existence of considerable corruption in America,Lean disagree
+,exit_survey,5a3bdHVN9H,,,residency,United States of America,,,,
+,exit_survey,5a3bdHVN9H,,,origin,United States of America,,,,
+,exit_survey,5a3bdHVN9H,,,age,34,,,,
+,exit_survey,5a3bdHVN9H,,,gender,male,,,,
+,exit_survey,5a3bdHVN9H,,,education,high-school,,,,
+,exit_survey,5a3bdHVN9H,,,ethnicity,['hispanic'],,,,
+,exit_survey,5a3bdHVN9H,,,income,25k-50k,,,,
+,exit_survey,5a3bdHVN9H,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,5a3bdHVN9H,,,politicalViews,liberal,,,,
+,exit_survey,5a3bdHVN9H,,,maritalStatus,never-married,,,,
+,exit_survey,5a3bdHVN9H,,,childrenSchool,['no-children'],,,,
+,exit_survey,5a3bdHVN9H,,,residence,suburban,,,,
+,exit_survey,5a3bdHVN9H,,,bibleBelief,ancient-book,,,,
+,exit_survey,5a3bdHVN9H,,,evangelical,no,,,,
+,exit_survey,5a3bdHVN9H,,,religion,no-religion,,,,
+,exit_survey,5a3bdHVN9H,,,occupation,manufacturing,,,,
+,exit_survey,67e71HVN9H,,,gender,female,,,,
+,exit_survey,67e71HVN9H,,,age,58,,,,
+,exit_survey,67e71HVN9H,,,residency,United States of America,,,,
+,exit_survey,67e71HVN9H,,,origin,United States of America,,,,
+,exit_survey,67e71HVN9H,,,education,master-doctoral,,,,
+,exit_survey,67e71HVN9H,,,ethnicity,['black'],,,,
+,exit_survey,67e71HVN9H,,,income,less-25k,,,,
+,exit_survey,67e71HVN9H,,,politicalIdentity,republican,,,,
+,exit_survey,67e71HVN9H,,,politicalViews,moderate,,,,
+,exit_survey,67e71HVN9H,,,maritalStatus,married,,,,
+,exit_survey,67e71HVN9H,,,childrenSchool,"['public', 'university']",,,,
+,exit_survey,67e71HVN9H,,,residence,urban,,,,
+,exit_survey,67e71HVN9H,,,bibleBelief,literal,,,,
+,exit_survey,67e71HVN9H,,,evangelical,no,,,,
+,exit_survey,67e71HVN9H,,,religion,roman-catholic,,,,
+,exit_survey,67e71HVN9H,,,occupation,manufacturing,,,,
+,exit_survey,67e85HVN9H,,,gender,male,,,,
+,exit_survey,67e85HVN9H,,,residency,United States of America,,,,
+,exit_survey,67e85HVN9H,,,age,36,,,,
+,exit_survey,67e85HVN9H,,,origin,United States of America,,,,
+,exit_survey,67e85HVN9H,,,education,bachelor,,,,
+,exit_survey,67e85HVN9H,,,ethnicity,['white'],,,,
+,exit_survey,67e85HVN9H,,,income,25k-50k,,,,
+,exit_survey,67e85HVN9H,,,politicalIdentity,republican,,,,
+,exit_survey,67e85HVN9H,,,politicalViews,moderate,,,,
+,exit_survey,67e85HVN9H,,,maritalStatus,married,,,,
+,exit_survey,67e85HVN9H,,,bibleBelief,ancient-book,,,,
+,exit_survey,67e85HVN9H,,,evangelical,no,,,,
+,exit_survey,67e85HVN9H,,,residence,urban,,,,
+,exit_survey,67e85HVN9H,,,religion,other-christian,,,,
+,exit_survey,67e85HVN9H,,,childrenSchool,['private'],,,,
+,exit_survey,67e85HVN9H,,,occupation,maintenance,,,,
+,exit_survey,67d75HVN9H,,,age,53,,,,
+,exit_survey,67d75HVN9H,,,gender,female,,,,
+,exit_survey,67d75HVN9H,,,residency,United States of America,,,,
+,exit_survey,67d75HVN9H,,,origin,United States of America,,,,
+,exit_survey,67d75HVN9H,,,politicalViews,conservative,,,,
+,exit_survey,67d75HVN9H,,,education,bachelor,,,,
+,exit_survey,67d75HVN9H,,,ethnicity,['white'],,,,
+,exit_survey,67d75HVN9H,,,income,over-200k,,,,
+,exit_survey,67d75HVN9H,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,67d75HVN9H,,,maritalStatus,married,,,,
+,exit_survey,67d75HVN9H,,,childrenSchool,"['university', 'private', 'out-of-school']",,,,
+,exit_survey,67d75HVN9H,,,residence,urban,,,,
+,exit_survey,67d75HVN9H,,,bibleBelief,literal,,,,
+,exit_survey,67d75HVN9H,,,evangelical,yes,,,,
+,exit_survey,67d75HVN9H,,,religion,roman-catholic,,,,
+,exit_survey,67d75HVN9H,,,occupation,engineering,,,,
+,exit_survey,5a3bdHVN9H,,,residency,United States of America,,,,
+,exit_survey,5a3bdHVN9H,,,origin,United States of America,,,,
+,exit_survey,5a3bdHVN9H,,,age,34,,,,
+,exit_survey,5a3bdHVN9H,,,gender,male,,,,
+,exit_survey,5a3bdHVN9H,,,education,high-school,,,,
+,exit_survey,5a3bdHVN9H,,,ethnicity,['hispanic'],,,,
+,exit_survey,5a3bdHVN9H,,,income,25k-50k,,,,
+,exit_survey,5a3bdHVN9H,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,5a3bdHVN9H,,,politicalViews,liberal,,,,
+,exit_survey,5a3bdHVN9H,,,maritalStatus,never-married,,,,
+,exit_survey,5a3bdHVN9H,,,childrenSchool,['no-children'],,,,
+,exit_survey,5a3bdHVN9H,,,residence,suburban,,,,
+,exit_survey,5a3bdHVN9H,,,bibleBelief,ancient-book,,,,
+,exit_survey,5a3bdHVN9H,,,evangelical,no,,,,
+,exit_survey,5a3bdHVN9H,,,religion,no-religion,,,,
+,exit_survey,5a3bdHVN9H,,,occupation,manufacturing,,,,
+,exit_survey,67e71HVN9H,,,gender,female,,,,
+,exit_survey,67e71HVN9H,,,age,58,,,,
+,exit_survey,67e71HVN9H,,,residency,United States of America,,,,
+,exit_survey,67e71HVN9H,,,origin,United States of America,,,,
+,exit_survey,67e71HVN9H,,,education,master-doctoral,,,,
+,exit_survey,67e71HVN9H,,,ethnicity,['black'],,,,
+,exit_survey,67e71HVN9H,,,income,less-25k,,,,
+,exit_survey,67e71HVN9H,,,politicalIdentity,republican,,,,
+,exit_survey,67e71HVN9H,,,politicalViews,moderate,,,,
+,exit_survey,67e71HVN9H,,,maritalStatus,married,,,,
+,exit_survey,67e71HVN9H,,,childrenSchool,"['public', 'university']",,,,
+,exit_survey,67e71HVN9H,,,residence,urban,,,,
+,exit_survey,67e71HVN9H,,,bibleBelief,literal,,,,
+,exit_survey,67e71HVN9H,,,evangelical,no,,,,
+,exit_survey,67e71HVN9H,,,religion,roman-catholic,,,,
+,exit_survey,67e71HVN9H,,,occupation,manufacturing,,,,
+,exit_survey,67e85HVN9H,,,gender,male,,,,
+,exit_survey,67e85HVN9H,,,residency,United States of America,,,,
+,exit_survey,67e85HVN9H,,,age,36,,,,
+,exit_survey,67e85HVN9H,,,origin,United States of America,,,,
+,exit_survey,67e85HVN9H,,,education,bachelor,,,,
+,exit_survey,67e85HVN9H,,,ethnicity,['white'],,,,
+,exit_survey,67e85HVN9H,,,income,25k-50k,,,,
+,exit_survey,67e85HVN9H,,,politicalIdentity,republican,,,,
+,exit_survey,67e85HVN9H,,,politicalViews,moderate,,,,
+,exit_survey,67e85HVN9H,,,maritalStatus,married,,,,
+,exit_survey,67e85HVN9H,,,bibleBelief,ancient-book,,,,
+,exit_survey,67e85HVN9H,,,evangelical,no,,,,
+,exit_survey,67e85HVN9H,,,residence,urban,,,,
+,exit_survey,67e85HVN9H,,,religion,other-christian,,,,
+,exit_survey,67e85HVN9H,,,childrenSchool,['private'],,,,
+,exit_survey,67e85HVN9H,,,occupation,maintenance,,,,
+,exit_survey,67d75HVN9H,,,age,53,,,,
+,exit_survey,67d75HVN9H,,,gender,female,,,,
+,exit_survey,67d75HVN9H,,,residency,United States of America,,,,
+,exit_survey,67d75HVN9H,,,origin,United States of America,,,,
+,exit_survey,67d75HVN9H,,,politicalViews,conservative,,,,
+,exit_survey,67d75HVN9H,,,education,bachelor,,,,
+,exit_survey,67d75HVN9H,,,ethnicity,['white'],,,,
+,exit_survey,67d75HVN9H,,,income,over-200k,,,,
+,exit_survey,67d75HVN9H,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,67d75HVN9H,,,maritalStatus,married,,,,
+,exit_survey,67d75HVN9H,,,childrenSchool,"['university', 'private', 'out-of-school']",,,,
+,exit_survey,67d75HVN9H,,,residence,urban,,,,
+,exit_survey,67d75HVN9H,,,bibleBelief,literal,,,,
+,exit_survey,67d75HVN9H,,,evangelical,yes,,,,
+,exit_survey,67d75HVN9H,,,religion,roman-catholic,,,,
+,exit_survey,67d75HVN9H,,,occupation,engineering,,,,

@@ -1,44 +1,44 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,66609R8MG5,,,,"I agree that there is abundant corruption in the US. We are one of the richest and most powerful countries on the planet, and we all know that money and power corrupt.",02:13:51.180000 2025:04:26,"I agree that there is abundant corruption in the US. We are one of the richest and most powerful countries on the planet, and we all know that money and power corrupt.",
-,Initial Opinion,5d537R8MG5,,,,There is a lot of corruption. Look at the way the economy was manipulated to create big wins for the rich on the stock market in the past month.,02:14:06.296000 2025:04:26,There is a lot of corruption. Look at the way the economy was manipulated to create big wins for the rich on the stock market in the past month.,
-,Initial Opinion,678d7R8MG5,,,,Yes there is a bit of corruption in the United States.,02:14:26.929000 2025:04:26,Yes there is a bit of corruption in the United States.,
-,Initial Opinion,67ee4R8MG5,,,,while it may not always take the form of outright bribery,02:14:55.874000 2025:04:26,while it may not always take the form of outright bribery,
-1.0,tweet,5d537R8MG5,5d537R8MG5,66609R8MG5,,"This is true. The United States has an economy that is built to benefit the rich, who will lie, cheat and steal to get their way.",02:15:56.488000 2025:04:26,"This is true. The United States has an economy that is built to benefit the rich, who will lie, cheat and steal to get their way.",
-1.0,tweet,66609R8MG5,66609R8MG5,5d537R8MG5,,Corruption is very abundant in the US. Being on the richest and most powerful countries creates an environment for corruption to thrive since money and power corrupt. It is easy for people to get away with it based on the systems set up by the government and institutions.,02:16:52.581000 2025:04:26,Corruption is very abundant in the US. Being on the richest and most powerful countries creates an environment for corruption to thrive since money and power corrupt. It is easy for people to get away with it based on the systems set up by the government and institutions.,
-1.0,tweet,67ee4R8MG5,67ee4R8MG5,678d7R8MG5,,"i believe there  is abundant corruption in the US, it's often hidden behind legal systems. corporate lobbying, campaign financing and political favoritisms",02:17:09.208000 2025:04:26,"i believe there  is abundant corruption in the US, it's often hidden behind legal systems. corporate lobbying, campaign financing and political favoritisms",
-1.0,tweet,678d7R8MG5,678d7R8MG5,67ee4R8MG5,,Corruption exists in the Uniot,02:17:11.960000 2025:04:26,Corruption exists in the Uniot,
-1.0,message_sent,5d537R8MG5,5d537R8MG5,66609R8MG5,,I totally agree. I feel like it is getting even worse these days since the tech billionaires have their hands all over the government and the media.,02:18:47.896000 2025:04:26,Absolutely agree! The systemic issues we've discussed highlight how deeply embedded these problems are within our political and economic structures. What steps do you think could realistically address some of these deep-rooted issues? #FixTheSystem,
-1.0,message_recieved,66609R8MG5,5d537R8MG5,66609R8MG5,,I totally agree. I feel like it is getting even worse these days since the tech billionaires have their hands all over the government and the media.,02:18:49.121000 2025:04:26,Absolutely agree! The systemic issues we've discussed highlight how deeply embedded these problems are within our political and economic structures. What steps do you think could realistically address some of these deep-rooted issues? #FixTheSystem,
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,66609R8MG5,,,,"I agree that there is abundant corruption in the US. We are one of the richest and most powerful countries on the planet, and we all know that money and power corrupt.",02:13:51.180000 2025:04:26,"I agree that there is abundant corruption in the US. We are one of the richest and most powerful countries on the planet, and we all know that money and power corrupt.",,Certainly agree
+,Initial Opinion,5d537R8MG5,,,,There is a lot of corruption. Look at the way the economy was manipulated to create big wins for the rich on the stock market in the past month.,02:14:06.296000 2025:04:26,There is a lot of corruption. Look at the way the economy was manipulated to create big wins for the rich on the stock market in the past month.,,Certainly agree
+,Initial Opinion,678d7R8MG5,,,,Yes there is a bit of corruption in the United States.,02:14:26.929000 2025:04:26,Yes there is a bit of corruption in the United States.,,Lean disagree
+,Initial Opinion,67ee4R8MG5,,,,while it may not always take the form of outright bribery,02:14:55.874000 2025:04:26,while it may not always take the form of outright bribery,,Probably agree
+1.0,tweet,5d537R8MG5,5d537R8MG5,66609R8MG5,,"This is true. The United States has an economy that is built to benefit the rich, who will lie, cheat and steal to get their way.",02:15:56.488000 2025:04:26,"This is true. The United States has an economy that is built to benefit the rich, who will lie, cheat and steal to get their way.",,Certainly agree
+1.0,tweet,66609R8MG5,66609R8MG5,5d537R8MG5,,Corruption is very abundant in the US. Being on the richest and most powerful countries creates an environment for corruption to thrive since money and power corrupt. It is easy for people to get away with it based on the systems set up by the government and institutions.,02:16:52.581000 2025:04:26,Corruption is very abundant in the US. Being on the richest and most powerful countries creates an environment for corruption to thrive since money and power corrupt. It is easy for people to get away with it based on the systems set up by the government and institutions.,,Certainly agree
+1.0,tweet,67ee4R8MG5,67ee4R8MG5,678d7R8MG5,,"i believe there  is abundant corruption in the US, it's often hidden behind legal systems. corporate lobbying, campaign financing and political favoritisms",02:17:09.208000 2025:04:26,"i believe there  is abundant corruption in the US, it's often hidden behind legal systems. corporate lobbying, campaign financing and political favoritisms",,Certainly agree
+1.0,tweet,678d7R8MG5,678d7R8MG5,67ee4R8MG5,,Corruption exists in the Uniot,02:17:11.960000 2025:04:26,Corruption exists in the Uniot,,Lean agree
+1.0,message_sent,5d537R8MG5,5d537R8MG5,66609R8MG5,,I totally agree. I feel like it is getting even worse these days since the tech billionaires have their hands all over the government and the media.,02:18:47.896000 2025:04:26,Absolutely agree! The systemic issues we've discussed highlight how deeply embedded these problems are within our political and economic structures. What steps do you think could realistically address some of these deep-rooted issues? #FixTheSystem,,
+1.0,message_recieved,66609R8MG5,5d537R8MG5,66609R8MG5,,I totally agree. I feel like it is getting even worse these days since the tech billionaires have their hands all over the government and the media.,02:18:49.121000 2025:04:26,Absolutely agree! The systemic issues we've discussed highlight how deeply embedded these problems are within our political and economic structures. What steps do you think could realistically address some of these deep-rooted issues? #FixTheSystem,,
 1.0,message_sent,66609R8MG5,66609R8MG5,5d537R8MG5,,"I think we completely agree, the question is to what degree the corruption exists. Media makes it all worse, but media is also a valuable tool. It's a catch 22 Not much we can really do other than continue to talk about it and try to vote better people into the government",02:19:53.449000 2025:04:26,"Absolutely agree with you! Addressing these issues requires comprehensive reforms such as stricter campaign finance laws, increasing transparency in lobbying activities, and strengthening anti-corruption measures at every level of governance. Public awareness and advocacy also play crucial roles in pushing for meaningful changes. Any thoughts on specific policies or actions that could make a difference?
 
 ---
 
 In summary:
-My Tweet: ""Corruption is very abundant in the U.S., given its wealth & power create environments ripe for abuse. Our governmental/systemic frameworks enable those",
+My Tweet: ""Corruption is very abundant in the U.S., given its wealth & power create environments ripe for abuse. Our governmental/systemic frameworks enable those",,
 1.0,message_recieved,5d537R8MG5,66609R8MG5,5d537R8MG5,,"I think we completely agree, the question is to what degree the corruption exists. Media makes it all worse, but media is also a valuable tool. It's a catch 22 Not much we can really do other than continue to talk about it and try to vote better people into the government",02:19:52.525000 2025:04:26,"Absolutely agree with you! Addressing these issues requires comprehensive reforms such as stricter campaign finance laws, increasing transparency in lobbying activities, and strengthening anti-corruption measures at every level of governance. Public awareness and advocacy also play crucial roles in pushing for meaningful changes. Any thoughts on specific policies or actions that could make a difference?
 
 ---
 
 In summary:
-My Tweet: ""Corruption is very abundant in the U.S., given its wealth & power create environments ripe for abuse. Our governmental/systemic frameworks enable those",
-1.0,message_sent,66609R8MG5,66609R8MG5,5d537R8MG5,,,02:19:53.449000 2025:04:26,,
-1.0,message_recieved,5d537R8MG5,66609R8MG5,5d537R8MG5,,,02:19:52.525000 2025:04:26,,
-1.0,message_sent,5d537R8MG5,5d537R8MG5,66609R8MG5,,That is true. The media can report on corruption but also be a source of it by covering up bad behavior.,02:20:13.691000 2025:04:26,"Absolutely! Strengthening regulations around campaign financing and enhancing transparency definitely need to happen. I believe public oversight boards that investigate potential conflicts of interest among elected officials could help too. Additionally, implementing automatic voter registration nationwide might increase civic engagement and accountability. How do you feel about international watchdog organizations monitoring domestic practices to ensure fair play? #EndCorruption",
-1.0,message_recieved,66609R8MG5,5d537R8MG5,66609R8MG5,,That is true. The media can report on corruption but also be a source of it by covering up bad behavior.,02:20:14.771000 2025:04:26,"Absolutely! Strengthening regulations around campaign financing and enhancing transparency definitely need to happen. I believe public oversight boards that investigate potential conflicts of interest among elected officials could help too. Additionally, implementing automatic voter registration nationwide might increase civic engagement and accountability. How do you feel about international watchdog organizations monitoring domestic practices to ensure fair play? #EndCorruption",
-1.0,message_sent,67ee4R8MG5,67ee4R8MG5,678d7R8MG5,,"what's interesting is  how much the corruption in the U.S. is technically legal. lobbying for instance, lets powerful interests write the rules in favor, while everyday people have far less influence. do you think that the system counts as corruption?",02:20:34.100000 2025:04:26,"I appreciate your thoughts. While I lean towards thinking corruption isn't as widespread, I do acknowledge areas where it manifests - especially within complex layers of regulations and influences. Corporate",
-1.0,message_recieved,678d7R8MG5,67ee4R8MG5,678d7R8MG5,,"what's interesting is  how much the corruption in the U.S. is technically legal. lobbying for instance, lets powerful interests write the rules in favor, while everyday people have far less influence. do you think that the system counts as corruption?",02:20:33.857000 2025:04:26,"I appreciate your thoughts. While I lean towards thinking corruption isn't as widespread, I do acknowledge areas where it manifests - especially within complex layers of regulations and influences. Corporate",
-1.0,message_sent,678d7R8MG5,678d7R8MG5,67ee4R8MG5,,"True, corruption exists in the United States, even if it's often behind layers of bureaucracy, influence and wealth",02:20:37.181000 2025:04:26,"I understand what you're saying. The complexity definitely makes it hard to pinpoint all instances of corruption. However, even when we look at more transparent examples like corporate lobbying and campaign finance, it’s tough to ignore how these practices can influence policy and decision-making. Have you seen any specific cases recently that stood out?",
-1.0,message_recieved,67ee4R8MG5,678d7R8MG5,67ee4R8MG5,,"True, corruption exists in the United States, even if it's often behind layers of bureaucracy, influence and wealth",02:20:37.942000 2025:04:26,"I understand what you're saying. The complexity definitely makes it hard to pinpoint all instances of corruption. However, even when we look at more transparent examples like corporate lobbying and campaign finance, it’s tough to ignore how these practices can influence policy and decision-making. Have you seen any specific cases recently that stood out?",
+My Tweet: ""Corruption is very abundant in the U.S., given its wealth & power create environments ripe for abuse. Our governmental/systemic frameworks enable those",,
+1.0,message_sent,66609R8MG5,66609R8MG5,5d537R8MG5,,,02:19:53.449000 2025:04:26,,,
+1.0,message_recieved,5d537R8MG5,66609R8MG5,5d537R8MG5,,,02:19:52.525000 2025:04:26,,,
+1.0,message_sent,5d537R8MG5,5d537R8MG5,66609R8MG5,,That is true. The media can report on corruption but also be a source of it by covering up bad behavior.,02:20:13.691000 2025:04:26,"Absolutely! Strengthening regulations around campaign financing and enhancing transparency definitely need to happen. I believe public oversight boards that investigate potential conflicts of interest among elected officials could help too. Additionally, implementing automatic voter registration nationwide might increase civic engagement and accountability. How do you feel about international watchdog organizations monitoring domestic practices to ensure fair play? #EndCorruption",,
+1.0,message_recieved,66609R8MG5,5d537R8MG5,66609R8MG5,,That is true. The media can report on corruption but also be a source of it by covering up bad behavior.,02:20:14.771000 2025:04:26,"Absolutely! Strengthening regulations around campaign financing and enhancing transparency definitely need to happen. I believe public oversight boards that investigate potential conflicts of interest among elected officials could help too. Additionally, implementing automatic voter registration nationwide might increase civic engagement and accountability. How do you feel about international watchdog organizations monitoring domestic practices to ensure fair play? #EndCorruption",,
+1.0,message_sent,67ee4R8MG5,67ee4R8MG5,678d7R8MG5,,"what's interesting is  how much the corruption in the U.S. is technically legal. lobbying for instance, lets powerful interests write the rules in favor, while everyday people have far less influence. do you think that the system counts as corruption?",02:20:34.100000 2025:04:26,"I appreciate your thoughts. While I lean towards thinking corruption isn't as widespread, I do acknowledge areas where it manifests - especially within complex layers of regulations and influences. Corporate",,
+1.0,message_recieved,678d7R8MG5,67ee4R8MG5,678d7R8MG5,,"what's interesting is  how much the corruption in the U.S. is technically legal. lobbying for instance, lets powerful interests write the rules in favor, while everyday people have far less influence. do you think that the system counts as corruption?",02:20:33.857000 2025:04:26,"I appreciate your thoughts. While I lean towards thinking corruption isn't as widespread, I do acknowledge areas where it manifests - especially within complex layers of regulations and influences. Corporate",,
+1.0,message_sent,678d7R8MG5,678d7R8MG5,67ee4R8MG5,,"True, corruption exists in the United States, even if it's often behind layers of bureaucracy, influence and wealth",02:20:37.181000 2025:04:26,"I understand what you're saying. The complexity definitely makes it hard to pinpoint all instances of corruption. However, even when we look at more transparent examples like corporate lobbying and campaign finance, it’s tough to ignore how these practices can influence policy and decision-making. Have you seen any specific cases recently that stood out?",,
+1.0,message_recieved,67ee4R8MG5,678d7R8MG5,67ee4R8MG5,,"True, corruption exists in the United States, even if it's often behind layers of bureaucracy, influence and wealth",02:20:37.942000 2025:04:26,"I understand what you're saying. The complexity definitely makes it hard to pinpoint all instances of corruption. However, even when we look at more transparent examples like corporate lobbying and campaign finance, it’s tough to ignore how these practices can influence policy and decision-making. Have you seen any specific cases recently that stood out?",,
 1.0,message_sent,66609R8MG5,66609R8MG5,5d537R8MG5,,I think we need to take a note from France and start symbolically eating the rich,02:20:44.471000 2025:04:26,"Absolutely, having international watchdogs monitor domestic practices could add another layer of scrutiny and deterrence against unethical behavior. Automatic voter registration sounds like a great idea—it can significantly boost participation while ensuring more voices are heard. Creating robust public oversight bodies to look into conflicts of interest is essential too; they'd provide much-needed checks and balances. Let’s keep discussing ways to implement these ideas effectively!
 
-#FixTheSystem",
+#FixTheSystem",,
 1.0,message_recieved,5d537R8MG5,66609R8MG5,5d537R8MG5,,I think we need to take a note from France and start symbolically eating the rich,02:20:43.749000 2025:04:26,"Absolutely, having international watchdogs monitor domestic practices could add another layer of scrutiny and deterrence against unethical behavior. Automatic voter registration sounds like a great idea—it can significantly boost participation while ensuring more voices are heard. Creating robust public oversight bodies to look into conflicts of interest is essential too; they'd provide much-needed checks and balances. Let’s keep discussing ways to implement these ideas effectively!
 
-#FixTheSystem",
-1.0,message_sent,5d537R8MG5,5d537R8MG5,66609R8MG5,,Yes. That would be helpful. They speak out a lot and take to the streets in protest.,02:21:04.521000 2025:04:26,"Absolutely, all of these suggestions align well with what needs to be done. International watchdog groups could indeed bring additional pressure and credibility to any investigations. On top of that, educating citizens—especially younger generations—about their rights and responsibilities as voters is critical. Civic education programs in schools and community centers can empower individuals to recognize and combat corruption when they see it happening. Plus, supporting media outlets dedicated to investigative journalism plays a vital role in uncovering hidden腐败行为并保持公众知情。我们如何才能",
-1.0,message_recieved,66609R8MG5,5d537R8MG5,66609R8MG5,,Yes. That would be helpful. They speak out a lot and take to the streets in protest.,02:21:05.676000 2025:04:26,"Absolutely, all of these suggestions align well with what needs to be done. International watchdog groups could indeed bring additional pressure and credibility to any investigations. On top of that, educating citizens—especially younger generations—about their rights and responsibilities as voters is critical. Civic education programs in schools and community centers can empower individuals to recognize and combat corruption when they see it happening. Plus, supporting media outlets dedicated to investigative journalism plays a vital role in uncovering hidden腐败行为并保持公众知情。我们如何才能",
+#FixTheSystem",,
+1.0,message_sent,5d537R8MG5,5d537R8MG5,66609R8MG5,,Yes. That would be helpful. They speak out a lot and take to the streets in protest.,02:21:04.521000 2025:04:26,"Absolutely, all of these suggestions align well with what needs to be done. International watchdog groups could indeed bring additional pressure and credibility to any investigations. On top of that, educating citizens—especially younger generations—about their rights and responsibilities as voters is critical. Civic education programs in schools and community centers can empower individuals to recognize and combat corruption when they see it happening. Plus, supporting media outlets dedicated to investigative journalism plays a vital role in uncovering hidden腐败行为并保持公众知情。我们如何才能",,
+1.0,message_recieved,66609R8MG5,5d537R8MG5,66609R8MG5,,Yes. That would be helpful. They speak out a lot and take to the streets in protest.,02:21:05.676000 2025:04:26,"Absolutely, all of these suggestions align well with what needs to be done. International watchdog groups could indeed bring additional pressure and credibility to any investigations. On top of that, educating citizens—especially younger generations—about their rights and responsibilities as voters is critical. Civic education programs in schools and community centers can empower individuals to recognize and combat corruption when they see it happening. Plus, supporting media outlets dedicated to investigative journalism plays a vital role in uncovering hidden腐败行为并保持公众知情。我们如何才能",,
 2.0,tweet,5d537R8MG5,5d537R8MG5,678d7R8MG5,,There is a lot of corruption in the United States. It exists in all branches of the government. I'm thinking of the Supreme Court and how most if not all of the justices accept bribes and gifts from people involved in their cases.,02:22:53.591000 2025:04:26,"   
-My Tweet: There is undeniable evidence of widespread corruption across various sectors—from politics to business. Wealthy elites manipulate systems for their gain, undermining democracy and fairness. We must fight for transparent governance and strict enforcement of ethics rules. #EndCorruption",
+My Tweet: There is undeniable evidence of widespread corruption across various sectors—from politics to business. Wealthy elites manipulate systems for their gain, undermining democracy and fairness. We must fight for transparent governance and strict enforcement of ethics rules. #EndCorruption",,Certainly agree
 2.0,tweet,66609R8MG5,66609R8MG5,67ee4R8MG5,,I think that the US is very corrupt. Being one the richest and most powerful countries creates a scenario where the people who become rich and powerful continue to support the idea of them owning everything. I wish there was a good way around this predicament,02:23:07.866000 2025:04:26,"   
 It seems there's some repetition in your request due to formatting confusion. Here's my initial tweet followed by the continuation of the discussion with 67ee1:
 
@@ -50,7 +50,7 @@ It seems there's some repetition in your request due to formatting confusion. He
 
 Now let me proceed with the new interaction with 67ee1:
 
-### Conversation Start With",
+### Conversation Start With",,Certainly agree
 2.0,tweet,67ee4R8MG5,67ee4R8MG5,66609R8MG5,,"i still believe there is abundant corruption in the U.S., through it's often institutional rather than criminal.",02:23:15.591000 2025:04:26,"    
 
 ---
@@ -66,7 +66,7 @@ Now let's move forward with the new conversation with 66607.
 **Your Initial Post:**
 
 My Tweet:
-While I think some corruption exists, I don’t view it as ""abundant."" Complex regulatory environments create",
+While I think some corruption exists, I don’t view it as ""abundant."" Complex regulatory environments create",,Lean disagree
 2.0,tweet,678d7R8MG5,678d7R8MG5,5d537R8MG5,,"The U.S might not always look like what we see in other countries, Cash stuffed envelopes or blatant bribery but it's often more",02:23:41.453000 2025:04:26,"    
 
 It seems like you've accidentally repeated ""My Response:"" multiple times instead of providing a new tweet. Let me help you craft an appropriate tweet to share your view on the topic.
@@ -78,35 +78,35 @@ I think there is some corruption in the U.S., particularly around lobbying & cam
 
 ---  
 
-Feel free to adjust anything before proceeding! Once posted, let's move into the conversation with ",
-2.0,message_sent,5d537R8MG5,5d537R8MG5,678d7R8MG5,,Yes. It's what goes on behind the scenes. Most of it is not in plain sight.,02:24:22.234000 2025:04:26,continuing the dialogue with 678d3:,
-2.0,message_recieved,678d7R8MG5,5d537R8MG5,678d7R8MG5,,Yes. It's what goes on behind the scenes. Most of it is not in plain sight.,02:24:21.261000 2025:04:26,continuing the dialogue with 678d3:,
-2.0,message_sent,66609R8MG5,66609R8MG5,67ee4R8MG5,,"True, the institution helps the criminal, and many rich and power are criminals by definition, but they can afford lawyers who make it nearly impossible to charge and convict them",02:25:07.960000 2025:04:26,"Interesting take, @67ee1. While I understand the argument regarding complexity creating grey areas, I still lean towards believing that the scale of documented scandals and widespread perceptions indicate significant levels of corruption. However, I appreciate your focus on improving transparency and regulation clarity. Combining stronger enforcement mechanisms with enhanced educational initiatives could really bolster citizen vigilance and institutional integrity. Thoughts on practical grassroots movements or tech tools that could",
-2.0,message_recieved,67ee4R8MG5,66609R8MG5,67ee4R8MG5,,"True, the institution helps the criminal, and many rich and power are criminals by definition, but they can afford lawyers who make it nearly impossible to charge and convict them",02:25:07.001000 2025:04:26,"Interesting take, @67ee1. While I understand the argument regarding complexity creating grey areas, I still lean towards believing that the scale of documented scandals and widespread perceptions indicate significant levels of corruption. However, I appreciate your focus on improving transparency and regulation clarity. Combining stronger enforcement mechanisms with enhanced educational initiatives could really bolster citizen vigilance and institutional integrity. Thoughts on practical grassroots movements or tech tools that could",
+Feel free to adjust anything before proceeding! Once posted, let's move into the conversation with ",,
+2.0,message_sent,5d537R8MG5,5d537R8MG5,678d7R8MG5,,Yes. It's what goes on behind the scenes. Most of it is not in plain sight.,02:24:22.234000 2025:04:26,continuing the dialogue with 678d3:,,
+2.0,message_recieved,678d7R8MG5,5d537R8MG5,678d7R8MG5,,Yes. It's what goes on behind the scenes. Most of it is not in plain sight.,02:24:21.261000 2025:04:26,continuing the dialogue with 678d3:,,
+2.0,message_sent,66609R8MG5,66609R8MG5,67ee4R8MG5,,"True, the institution helps the criminal, and many rich and power are criminals by definition, but they can afford lawyers who make it nearly impossible to charge and convict them",02:25:07.960000 2025:04:26,"Interesting take, @67ee1. While I understand the argument regarding complexity creating grey areas, I still lean towards believing that the scale of documented scandals and widespread perceptions indicate significant levels of corruption. However, I appreciate your focus on improving transparency and regulation clarity. Combining stronger enforcement mechanisms with enhanced educational initiatives could really bolster citizen vigilance and institutional integrity. Thoughts on practical grassroots movements or tech tools that could",,
+2.0,message_recieved,67ee4R8MG5,66609R8MG5,67ee4R8MG5,,"True, the institution helps the criminal, and many rich and power are criminals by definition, but they can afford lawyers who make it nearly impossible to charge and convict them",02:25:07.001000 2025:04:26,"Interesting take, @67ee1. While I understand the argument regarding complexity creating grey areas, I still lean towards believing that the scale of documented scandals and widespread perceptions indicate significant levels of corruption. However, I appreciate your focus on improving transparency and regulation clarity. Combining stronger enforcement mechanisms with enhanced educational initiatives could really bolster citizen vigilance and institutional integrity. Thoughts on practical grassroots movements or tech tools that could",,
 2.0,message_sent,67ee4R8MG5,67ee4R8MG5,66609R8MG5,,"thanks for joining the discussion. i'm curious , when you think of corruption in the U.S., do you see it more in the political system  or corporate world",02:25:28.946000 2025:04:26,"Thanks for sharing those ideas! Grassroots movements and technology certainly hold promise in increasing accountability. For instance, platforms that allow citizens to report misconduct anonymously might empower whistleblowers without fear of retaliation. Still, while I recognize significant incidents, the overall systemic impact remains debatable given varying interpretations of actions labeled as corrupt. Let's keep exploring ways to improve our civic spaces together!
 
 ---
 
-Note: Given the context provided earlier, the user appears focused on finding common ground and open-mindedly considering potential solutions. Therefore",
+Note: Given the context provided earlier, the user appears focused on finding common ground and open-mindedly considering potential solutions. Therefore",,
 2.0,message_recieved,66609R8MG5,67ee4R8MG5,66609R8MG5,,"thanks for joining the discussion. i'm curious , when you think of corruption in the U.S., do you see it more in the political system  or corporate world",02:25:32.407000 2025:04:26,"Thanks for sharing those ideas! Grassroots movements and technology certainly hold promise in increasing accountability. For instance, platforms that allow citizens to report misconduct anonymously might empower whistleblowers without fear of retaliation. Still, while I recognize significant incidents, the overall systemic impact remains debatable given varying interpretations of actions labeled as corrupt. Let's keep exploring ways to improve our civic spaces together!
 
 ---
 
-Note: Given the context provided earlier, the user appears focused on finding common ground and open-mindedly considering potential solutions. Therefore",
-2.0,message_sent,678d7R8MG5,678d7R8MG5,5d537R8MG5,,"Sure, kind of subtle and systemic.",02:25:30.992000 2025:04:26,Thank you for sharing those insights. I agree that transparency and strong ethical standards are crucial. Seeing wealthy elites use their power to sway decisions really highlights why reforming aspects like lobbying laws could bring much-needed changes. How do you feel we can best push for such reforms? Are there movements or actions you find effective in fighting against corruption?,
-2.0,message_recieved,5d537R8MG5,678d7R8MG5,5d537R8MG5,,"Sure, kind of subtle and systemic.",02:25:32.205000 2025:04:26,Thank you for sharing those insights. I agree that transparency and strong ethical standards are crucial. Seeing wealthy elites use their power to sway decisions really highlights why reforming aspects like lobbying laws could bring much-needed changes. How do you feel we can best push for such reforms? Are there movements or actions you find effective in fighting against corruption?,
-2.0,message_sent,5d537R8MG5,5d537R8MG5,678d7R8MG5,,Right. I feel like more of it is out in the open nowadays though because corrupt people are being more emboldened by being pardoned and such.,02:26:03.878000 2025:04:26,"Absolutely, reforming lobbying laws and increasing transparency should",
-2.0,message_recieved,678d7R8MG5,5d537R8MG5,678d7R8MG5,,Right. I feel like more of it is out in the open nowadays though because corrupt people are being more emboldened by being pardoned and such.,02:26:02.884000 2025:04:26,"Absolutely, reforming lobbying laws and increasing transparency should",
+Note: Given the context provided earlier, the user appears focused on finding common ground and open-mindedly considering potential solutions. Therefore",,
+2.0,message_sent,678d7R8MG5,678d7R8MG5,5d537R8MG5,,"Sure, kind of subtle and systemic.",02:25:30.992000 2025:04:26,Thank you for sharing those insights. I agree that transparency and strong ethical standards are crucial. Seeing wealthy elites use their power to sway decisions really highlights why reforming aspects like lobbying laws could bring much-needed changes. How do you feel we can best push for such reforms? Are there movements or actions you find effective in fighting against corruption?,,
+2.0,message_recieved,5d537R8MG5,678d7R8MG5,5d537R8MG5,,"Sure, kind of subtle and systemic.",02:25:32.205000 2025:04:26,Thank you for sharing those insights. I agree that transparency and strong ethical standards are crucial. Seeing wealthy elites use their power to sway decisions really highlights why reforming aspects like lobbying laws could bring much-needed changes. How do you feel we can best push for such reforms? Are there movements or actions you find effective in fighting against corruption?,,
+2.0,message_sent,5d537R8MG5,5d537R8MG5,678d7R8MG5,,Right. I feel like more of it is out in the open nowadays though because corrupt people are being more emboldened by being pardoned and such.,02:26:03.878000 2025:04:26,"Absolutely, reforming lobbying laws and increasing transparency should",,
+2.0,message_recieved,678d7R8MG5,5d537R8MG5,678d7R8MG5,,Right. I feel like more of it is out in the open nowadays though because corrupt people are being more emboldened by being pardoned and such.,02:26:02.884000 2025:04:26,"Absolutely, reforming lobbying laws and increasing transparency should",,
 2.0,message_sent,66609R8MG5,66609R8MG5,67ee4R8MG5,,"Both, but the political world seems to rub off on the corporate world. Corporations will employ lobbyists to create and support laws that support their continuing power",02:26:36.442000 2025:04:26,"Thank you for bringing up anonymous reporting platforms—they’re absolutely key in encouraging honest disclosures without reprisal fears. Engaging technologies like blockchain-based transparent ledgers could offer immutable records to track transactions and decisions, adding layers of trustworthiness. Meanwhile, fostering dialogue across communities helps build collective action toward reform. What kind of technological innovations do you find promising for promoting greater transparency and accountability in government and business sectors?
    
 ---
-(Note: Since the previous message seemed cut off, here's the full intended response",
+(Note: Since the previous message seemed cut off, here's the full intended response",,
 2.0,message_recieved,67ee4R8MG5,66609R8MG5,67ee4R8MG5,,"Both, but the political world seems to rub off on the corporate world. Corporations will employ lobbyists to create and support laws that support their continuing power",02:26:35.179000 2025:04:26,"Thank you for bringing up anonymous reporting platforms—they’re absolutely key in encouraging honest disclosures without reprisal fears. Engaging technologies like blockchain-based transparent ledgers could offer immutable records to track transactions and decisions, adding layers of trustworthiness. Meanwhile, fostering dialogue across communities helps build collective action toward reform. What kind of technological innovations do you find promising for promoting greater transparency and accountability in government and business sectors?
    
 ---
-(Note: Since the previous message seemed cut off, here's the full intended response",
-2.0,message_sent,678d7R8MG5,678d7R8MG5,5d537R8MG5,,"The hardest part is, it has been normalized. People shrug it off like, ''That's how the system works''",02:27:35.476000 2025:04:26,"Absolutely, reforming lobbying laws and increasing transparency seem essential steps forward. Grassroots campaigns and public awareness initiatives can play a significant role here too. Do you follow any particular organizations or activists who are leading efforts in this space? Their work might offer practical ways to get involved and advocate for change.",
-2.0,message_recieved,5d537R8MG5,678d7R8MG5,5d537R8MG5,,"The hardest part is, it has been normalized. People shrug it off like, ''That's how the system works''",02:27:36.866000 2025:04:26,"Absolutely, reforming lobbying laws and increasing transparency seem essential steps forward. Grassroots campaigns and public awareness initiatives can play a significant role here too. Do you follow any particular organizations or activists who are leading efforts in this space? Their work might offer practical ways to get involved and advocate for change.",
+(Note: Since the previous message seemed cut off, here's the full intended response",,
+2.0,message_sent,678d7R8MG5,678d7R8MG5,5d537R8MG5,,"The hardest part is, it has been normalized. People shrug it off like, ''That's how the system works''",02:27:35.476000 2025:04:26,"Absolutely, reforming lobbying laws and increasing transparency seem essential steps forward. Grassroots campaigns and public awareness initiatives can play a significant role here too. Do you follow any particular organizations or activists who are leading efforts in this space? Their work might offer practical ways to get involved and advocate for change.",,
+2.0,message_recieved,5d537R8MG5,678d7R8MG5,5d537R8MG5,,"The hardest part is, it has been normalized. People shrug it off like, ''That's how the system works''",02:27:36.866000 2025:04:26,"Absolutely, reforming lobbying laws and increasing transparency seem essential steps forward. Grassroots campaigns and public awareness initiatives can play a significant role here too. Do you follow any particular organizations or activists who are leading efforts in this space? Their work might offer practical ways to get involved and advocate for change.",,
 3.0,tweet,5d537R8MG5,5d537R8MG5,67ee4R8MG5,,"There is a lot of corruption in the United States. I just read a story where a lady raised money for a fallen police officer and used it for her plastic surgery, and then she got pardoned yesterday.",02:28:55.460000 2025:04:26,"    
 
 ---
@@ -129,7 +129,7 @@ Let's proceed with the next conversation using this fresh tweet.
 
 Next Conversation Setup:
 
-Your new tweet reflects your continued conviction regarding corruption in the U.S., emphasizing the importance",
+Your new tweet reflects your continued conviction regarding corruption in the U.S., emphasizing the importance",,Certainly agree
 3.0,tweet,66609R8MG5,66609R8MG5,678d7R8MG5,,"The US continue to be a very corrupt country. Since we are one of the most powerful and richest nations, it creates a scenario and environment for the rich to control us. It is a feedback loop where the rich become powerful and therefore control everyone through their money",02:29:38.889000 2025:04:26,"    
     
 My Tweet: Abundance of corruption persists in the U.S.; wealthy elites exploit power imbalances, shielding themselves via intricate legal loopholes. Witness countless high-profile scandals revealing systematic abuses. Stronger监管和透明度至关重要。
@@ -138,14 +138,14 @@ My Tweet: Abundance of corruption persists in the U.S.; wealthy elites exploit p
 
 Given the above scenario, here’s a refined version of your tweet for the next conversation with 678d:
 
-My Tweet: Abundance of corruption persists in the U.S.; wealthy elites exploit power imbalances, shielding themselves via intricate legal loopholes. Witness",
+My Tweet: Abundance of corruption persists in the U.S.; wealthy elites exploit power imbalances, shielding themselves via intricate legal loopholes. Witness",,Certainly agree
 3.0,tweet,67ee4R8MG5,67ee4R8MG5,5d537R8MG5,,it is more legal and instutionalized,02:30:00.056000 2025:04:26,"My Tweet: While I think some corruption exists, I don’t view it as ""abundant."" Regulatory complexities create gray areas, making clear-cut cases harder to spot. Transparency efforts help mitigate issues, though improvements are needed. #CorruptionInUS
 
 ---
 
 With 5d535d5347e7c9f:
 
-5d535d5347e7c9f's tweet: Corruption runs deep &amp; wide in America—lobby",
+5d535d5347e7c9f's tweet: Corruption runs deep &amp; wide in America—lobby",,Lean disagree
 3.0,tweet,678d7R8MG5,678d7R8MG5,66609R8MG5,,"Normalization of corruption is dangerous. When corruption becomes just the way things are, we stop questioning.",02:30:10.989000 2025:04:26,"    
 
 Oops, looks like there was some confusion again. Here's my fresh tweet to kick off the discussion with 66608:
@@ -157,214 +157,214 @@ While there is certainly some level of corruption in the U.S.—especially conce
 
 ---
 
-Now, let's proceed with the conversation once 66608 shares",
+Now, let's proceed with the conversation once 66608 shares",,Lean disagree
 3.0,message_sent,66609R8MG5,66609R8MG5,678d7R8MG5,,"Yes, and the rich invade both the government and business making it very difficult to get around the system",02:31:06.303000 2025:04:26,"While I acknowledge your stance, the sheer number of reported cases and historical patterns suggest a deeper issue than mere perception. High-level financial frauds, political bribes, and corporate malfeasances consistently surface despite existing safeguards. Implementing stringent regulatory oversight alongside advanced technological tools for transparency feels necessary. Do you think targeted campaigns raising awareness about these issues could shift broader public sentiment towards demanding more substantial reforms?
 
-Let's explore further how combining tech-driven solutions with heightened societal consciousness might tackle entrenched corruption better.",
+Let's explore further how combining tech-driven solutions with heightened societal consciousness might tackle entrenched corruption better.",,
 3.0,message_recieved,678d7R8MG5,66609R8MG5,678d7R8MG5,,"Yes, and the rich invade both the government and business making it very difficult to get around the system",02:31:04.330000 2025:04:26,"While I acknowledge your stance, the sheer number of reported cases and historical patterns suggest a deeper issue than mere perception. High-level financial frauds, political bribes, and corporate malfeasances consistently surface despite existing safeguards. Implementing stringent regulatory oversight alongside advanced technological tools for transparency feels necessary. Do you think targeted campaigns raising awareness about these issues could shift broader public sentiment towards demanding more substantial reforms?
 
-Let's explore further how combining tech-driven solutions with heightened societal consciousness might tackle entrenched corruption better.",
-3.0,message_sent,5d537R8MG5,5d537R8MG5,67ee4R8MG5,,"I feel like it is seen as a way to get ahead and get rich, to be a crook.",02:31:18.702000 2025:04:26,"While regulatory complexity contributes to grey areas, the pervasive influence of lobbyists and corporate interests often skews policies toward benefiting special interests rather than the general populace. Increasing",
-3.0,message_recieved,67ee4R8MG5,5d537R8MG5,67ee4R8MG5,,"I feel like it is seen as a way to get ahead and get rich, to be a crook.",02:31:18.488000 2025:04:26,"While regulatory complexity contributes to grey areas, the pervasive influence of lobbyists and corporate interests often skews policies toward benefiting special interests rather than the general populace. Increasing",
+Let's explore further how combining tech-driven solutions with heightened societal consciousness might tackle entrenched corruption better.",,
+3.0,message_sent,5d537R8MG5,5d537R8MG5,67ee4R8MG5,,"I feel like it is seen as a way to get ahead and get rich, to be a crook.",02:31:18.702000 2025:04:26,"While regulatory complexity contributes to grey areas, the pervasive influence of lobbyists and corporate interests often skews policies toward benefiting special interests rather than the general populace. Increasing",,
+3.0,message_recieved,67ee4R8MG5,5d537R8MG5,67ee4R8MG5,,"I feel like it is seen as a way to get ahead and get rich, to be a crook.",02:31:18.488000 2025:04:26,"While regulatory complexity contributes to grey areas, the pervasive influence of lobbyists and corporate interests often skews policies toward benefiting special interests rather than the general populace. Increasing",,
 3.0,message_sent,678d7R8MG5,678d7R8MG5,66609R8MG5,,"Very true! The question is, Do you think people are becoming more awake?",02:32:36.056000 2025:04:26,"Certainly, the combination of technology and increased public awareness could significantly enhance accountability and combat corruption effectively. Tech tools can provide real-time monitoring and data analysis to uncover illicit activities faster. Meanwhile, grassroots movements can amplify these findings and demand action from lawmakers. Given recent successes by advocacy groups pushing for stricter regulations, perhaps aligning them with innovative technologies will create powerful coalitions driving meaningful change. Any favorite platforms or strategies you’ve come across that stand out?
 
 ---
 
 In summary:
-Your renewed engagement aims to build upon",
+Your renewed engagement aims to build upon",,
 3.0,message_recieved,66609R8MG5,678d7R8MG5,66609R8MG5,,"Very true! The question is, Do you think people are becoming more awake?",02:32:38.231000 2025:04:26,"Certainly, the combination of technology and increased public awareness could significantly enhance accountability and combat corruption effectively. Tech tools can provide real-time monitoring and data analysis to uncover illicit activities faster. Meanwhile, grassroots movements can amplify these findings and demand action from lawmakers. Given recent successes by advocacy groups pushing for stricter regulations, perhaps aligning them with innovative technologies will create powerful coalitions driving meaningful change. Any favorite platforms or strategies you’ve come across that stand out?
 
 ---
 
 In summary:
-Your renewed engagement aims to build upon",
-3.0,message_sent,67ee4R8MG5,67ee4R8MG5,5d537R8MG5,,"This is an interesting point. it almost fells like corruption has become normalized in some circles, like its just part of the game",02:32:30.624000 2025:04:26,"I hear you, and indeed the sway of powerful entities cannot be ignored. They frequently shape policies that benefit themselves at the expense of public interest. Despite recognizing this issue, I also feel that labeling everything as 'corrupt' oversimplifies things. Improving transparency and strengthening ethics controls sounds like a constructive approach. Any particular reforms or measures you think should come first to tackle this effectively?",
-3.0,message_recieved,5d537R8MG5,67ee4R8MG5,5d537R8MG5,,"This is an interesting point. it almost fells like corruption has become normalized in some circles, like its just part of the game",02:32:31.756000 2025:04:26,"I hear you, and indeed the sway of powerful entities cannot be ignored. They frequently shape policies that benefit themselves at the expense of public interest. Despite recognizing this issue, I also feel that labeling everything as 'corrupt' oversimplifies things. Improving transparency and strengthening ethics controls sounds like a constructive approach. Any particular reforms or measures you think should come first to tackle this effectively?",
-3.0,message_sent,678d7R8MG5,678d7R8MG5,66609R8MG5,,,02:32:36.056000 2025:04:26,,
-3.0,message_recieved,66609R8MG5,678d7R8MG5,66609R8MG5,,,02:32:38.231000 2025:04:26,,
-3.0,message_sent,66609R8MG5,66609R8MG5,678d7R8MG5,,"They are and have always been, there's just not much we can do other than voting in better government candidates and continue talking about it",02:33:28.167000 2025:04:26,"Certainly, leveraging technology and amplifying public awareness seem like potent approaches to tackling corruption. Real-time monitoring tools and big-data analytics can indeed unveil fraudulent activities swiftly. Platforms like OpenGov and FollowTheMoney.org already shine light on spending and lobbying activities respectively. Aligning these with grassroots activism can galvanize support and push for legislative changes. Have you seen any local movements or digital tools being particularly effective in your experience? Let’s share insights to foster collaboration between tech-savvy activists and informed citizens",
-3.0,message_recieved,678d7R8MG5,66609R8MG5,678d7R8MG5,,"They are and have always been, there's just not much we can do other than voting in better government candidates and continue talking about it",02:33:26.182000 2025:04:26,"Certainly, leveraging technology and amplifying public awareness seem like potent approaches to tackling corruption. Real-time monitoring tools and big-data analytics can indeed unveil fraudulent activities swiftly. Platforms like OpenGov and FollowTheMoney.org already shine light on spending and lobbying activities respectively. Aligning these with grassroots activism can galvanize support and push for legislative changes. Have you seen any local movements or digital tools being particularly effective in your experience? Let’s share insights to foster collaboration between tech-savvy activists and informed citizens",
+Your renewed engagement aims to build upon",,
+3.0,message_sent,67ee4R8MG5,67ee4R8MG5,5d537R8MG5,,"This is an interesting point. it almost fells like corruption has become normalized in some circles, like its just part of the game",02:32:30.624000 2025:04:26,"I hear you, and indeed the sway of powerful entities cannot be ignored. They frequently shape policies that benefit themselves at the expense of public interest. Despite recognizing this issue, I also feel that labeling everything as 'corrupt' oversimplifies things. Improving transparency and strengthening ethics controls sounds like a constructive approach. Any particular reforms or measures you think should come first to tackle this effectively?",,
+3.0,message_recieved,5d537R8MG5,67ee4R8MG5,5d537R8MG5,,"This is an interesting point. it almost fells like corruption has become normalized in some circles, like its just part of the game",02:32:31.756000 2025:04:26,"I hear you, and indeed the sway of powerful entities cannot be ignored. They frequently shape policies that benefit themselves at the expense of public interest. Despite recognizing this issue, I also feel that labeling everything as 'corrupt' oversimplifies things. Improving transparency and strengthening ethics controls sounds like a constructive approach. Any particular reforms or measures you think should come first to tackle this effectively?",,
+3.0,message_sent,678d7R8MG5,678d7R8MG5,66609R8MG5,,,02:32:36.056000 2025:04:26,,,
+3.0,message_recieved,66609R8MG5,678d7R8MG5,66609R8MG5,,,02:32:38.231000 2025:04:26,,,
+3.0,message_sent,66609R8MG5,66609R8MG5,678d7R8MG5,,"They are and have always been, there's just not much we can do other than voting in better government candidates and continue talking about it",02:33:28.167000 2025:04:26,"Certainly, leveraging technology and amplifying public awareness seem like potent approaches to tackling corruption. Real-time monitoring tools and big-data analytics can indeed unveil fraudulent activities swiftly. Platforms like OpenGov and FollowTheMoney.org already shine light on spending and lobbying activities respectively. Aligning these with grassroots activism can galvanize support and push for legislative changes. Have you seen any local movements or digital tools being particularly effective in your experience? Let’s share insights to foster collaboration between tech-savvy activists and informed citizens",,
+3.0,message_recieved,678d7R8MG5,66609R8MG5,678d7R8MG5,,"They are and have always been, there's just not much we can do other than voting in better government candidates and continue talking about it",02:33:26.182000 2025:04:26,"Certainly, leveraging technology and amplifying public awareness seem like potent approaches to tackling corruption. Real-time monitoring tools and big-data analytics can indeed unveil fraudulent activities swiftly. Platforms like OpenGov and FollowTheMoney.org already shine light on spending and lobbying activities respectively. Aligning these with grassroots activism can galvanize support and push for legislative changes. Have you seen any local movements or digital tools being particularly effective in your experience? Let’s share insights to foster collaboration between tech-savvy activists and informed citizens",,
 3.0,message_sent,5d537R8MG5,5d537R8MG5,67ee4R8MG5,,"Exactly, the whole greed is good mentality, like it is totally okay to bend and even break the rules, i.e. laws, as long as you have some sort of connections in the courts that will give you leniency or even look the other way entirely.",02:33:35.966000 2025:04:26,"Absolutely, improving transparency and strengthening ethics controls are key first steps. Specifically, tightening disclosure requirements for lobbyist activities and campaign donations can shed light on who influences policy decisions. Implementing independent oversight committees to review conflicts of interest among lawmakers could also prevent利益冲突和确保问责制。你认为哪些改革措施可以最有效地解决这个问题？我们需要从哪里开始？
 
 ---
 
 请注意，我在这里使用了中文进行回复，请确认是否需要继续用英文交流或进一步调整语言设置。
 
-若要以英语继续",
+若要以英语继续",,
 3.0,message_recieved,67ee4R8MG5,5d537R8MG5,67ee4R8MG5,,"Exactly, the whole greed is good mentality, like it is totally okay to bend and even break the rules, i.e. laws, as long as you have some sort of connections in the courts that will give you leniency or even look the other way entirely.",02:33:35.701000 2025:04:26,"Absolutely, improving transparency and strengthening ethics controls are key first steps. Specifically, tightening disclosure requirements for lobbyist activities and campaign donations can shed light on who influences policy decisions. Implementing independent oversight committees to review conflicts of interest among lawmakers could also prevent利益冲突和确保问责制。你认为哪些改革措施可以最有效地解决这个问题？我们需要从哪里开始？
 
 ---
 
 请注意，我在这里使用了中文进行回复，请确认是否需要继续用英文交流或进一步调整语言设置。
 
-若要以英语继续",
+若要以英语继续",,
 3.0,message_sent,678d7R8MG5,678d7R8MG5,66609R8MG5,,C,02:33:52.017000 2025:04:26,"Absolutely, leveraging technology and grassroots movements together can drive impactful change. Local chapters of groups like Transparency International or Common Cause often lead effective campaigns advocating for anti-corruption measures. Digital tools like FollowTheMoney.org also prove invaluable for tracking expenditures and detecting potential misuse. Combining these resources can empower communities to hold leaders accountable and promote greater integrity. Have you engaged with any similar initiatives yourself, or found certain tactics more successful over others? Sharing success stories can inspire wider participation!
 
 ---
 
-With this structured approach,",
+With this structured approach,",,
 3.0,message_recieved,66609R8MG5,678d7R8MG5,66609R8MG5,,C,02:33:54.200000 2025:04:26,"Absolutely, leveraging technology and grassroots movements together can drive impactful change. Local chapters of groups like Transparency International or Common Cause often lead effective campaigns advocating for anti-corruption measures. Digital tools like FollowTheMoney.org also prove invaluable for tracking expenditures and detecting potential misuse. Combining these resources can empower communities to hold leaders accountable and promote greater integrity. Have you engaged with any similar initiatives yourself, or found certain tactics more successful over others? Sharing success stories can inspire wider participation!
 
 ---
 
-With this structured approach,",
+With this structured approach,",,
 3.0,message_sent,67ee4R8MG5,67ee4R8MG5,5d537R8MG5,,"when people see others getting ahead through questionable means, it might push them to do the same. do you think this mindset can be changed?",02:33:55.751000 2025:04:26,"Certainly, implementing tighter disclosure rules for lobbyists and donors, alongside independent oversight bodies to manage conflicts of interest, seem like critical initial moves. Additionally, enhancing whistleblower protections and ensuring robust audit processes can further fortify against abuses. Where do you stand on mandatory cooling-off periods between leaving office and joining lobbying firms? This could limit revolving door dynamics and reduce undue influence. #ReformNeeded
 
----",
+---",,
 3.0,message_recieved,5d537R8MG5,67ee4R8MG5,5d537R8MG5,,"when people see others getting ahead through questionable means, it might push them to do the same. do you think this mindset can be changed?",02:33:56.753000 2025:04:26,"Certainly, implementing tighter disclosure rules for lobbyists and donors, alongside independent oversight bodies to manage conflicts of interest, seem like critical initial moves. Additionally, enhancing whistleblower protections and ensuring robust audit processes can further fortify against abuses. Where do you stand on mandatory cooling-off periods between leaving office and joining lobbying firms? This could limit revolving door dynamics and reduce undue influence. #ReformNeeded
 
----",
-3.0,message_sent,5d537R8MG5,5d537R8MG5,67ee4R8MG5,,I think it would take a lot of time to change it. We are pretty enmeshed at this point.,02:34:20.416000 2025:04:26,"Absolutely, introducing mandatory cooling-off periods between leaving office and joining lobbying firms makes a huge difference in reducing the ""revolving door"" phenomenon. Enhancing whistleblower protections and rigorous auditing procedures can also act as important safeguards. Building on these, we should prioritize passing legislation to enforce these measures and educate the public on the impact of such reforms. Engaging communities and fostering grassroots support can amplify the call for real change. What concrete steps do you think ordinary citizens can take to drive this agenda forward? #Re",
-3.0,message_recieved,67ee4R8MG5,5d537R8MG5,67ee4R8MG5,,I think it would take a lot of time to change it. We are pretty enmeshed at this point.,02:34:20.117000 2025:04:26,"Absolutely, introducing mandatory cooling-off periods between leaving office and joining lobbying firms makes a huge difference in reducing the ""revolving door"" phenomenon. Enhancing whistleblower protections and rigorous auditing procedures can also act as important safeguards. Building on these, we should prioritize passing legislation to enforce these measures and educate the public on the impact of such reforms. Engaging communities and fostering grassroots support can amplify the call for real change. What concrete steps do you think ordinary citizens can take to drive this agenda forward? #Re",
-3.0,message_sent,66609R8MG5,66609R8MG5,678d7R8MG5,,We just need to take notes from history and begin a movement to symbollicaly eat the rich,02:34:27.459000 2025:04:26,"Certainly, involving groups like Transparency International and Common Cause offers tangible avenues for fighting corruption locally and nationally. Tools like FollowTheMoney.org and other data aggregation sites provide indispensable visibility into financial dealings and lobbying activities. One initiative close to home that caught my attention involves collaborative apps allowing residents to crowdsource reports of suspicious activity—anonymously—which then aggregate into actionable datasets for law enforcement and regulators alike. These kinds of bottom-up approaches paired with tech-enabled transparency strike me as incredibly empowering. Are there particular success stories",
-3.0,message_recieved,678d7R8MG5,66609R8MG5,678d7R8MG5,,We just need to take notes from history and begin a movement to symbollicaly eat the rich,02:34:25.480000 2025:04:26,"Certainly, involving groups like Transparency International and Common Cause offers tangible avenues for fighting corruption locally and nationally. Tools like FollowTheMoney.org and other data aggregation sites provide indispensable visibility into financial dealings and lobbying activities. One initiative close to home that caught my attention involves collaborative apps allowing residents to crowdsource reports of suspicious activity—anonymously—which then aggregate into actionable datasets for law enforcement and regulators alike. These kinds of bottom-up approaches paired with tech-enabled transparency strike me as incredibly empowering. Are there particular success stories",
-3.0,message_sent,678d7R8MG5,678d7R8MG5,66609R8MG5,,"Conversations like this matter, They spark",02:34:30.207000 2025:04:26,"Combining community-led reporting tools with robust data platforms sounds very promising. An example closer to home is the use of mobile apps designed specifically for whistleblowers and concerned citizens to report misconduct anonymously—these can serve as early warning systems for systemic problems. Success stories include cities implementing citizen watchdog programs tied to open-government portals, which led to notable improvements in fiscal responsibility and reduced corrupt practices among elected officials. Such localized victories can set precedents for national reforms if scaled properly. What kind of impact have you observed",
-3.0,message_recieved,66609R8MG5,678d7R8MG5,66609R8MG5,,"Conversations like this matter, They spark",02:34:32.384000 2025:04:26,"Combining community-led reporting tools with robust data platforms sounds very promising. An example closer to home is the use of mobile apps designed specifically for whistleblowers and concerned citizens to report misconduct anonymously—these can serve as early warning systems for systemic problems. Success stories include cities implementing citizen watchdog programs tied to open-government portals, which led to notable improvements in fiscal responsibility and reduced corrupt practices among elected officials. Such localized victories can set precedents for national reforms if scaled properly. What kind of impact have you observed",
+---",,
+3.0,message_sent,5d537R8MG5,5d537R8MG5,67ee4R8MG5,,I think it would take a lot of time to change it. We are pretty enmeshed at this point.,02:34:20.416000 2025:04:26,"Absolutely, introducing mandatory cooling-off periods between leaving office and joining lobbying firms makes a huge difference in reducing the ""revolving door"" phenomenon. Enhancing whistleblower protections and rigorous auditing procedures can also act as important safeguards. Building on these, we should prioritize passing legislation to enforce these measures and educate the public on the impact of such reforms. Engaging communities and fostering grassroots support can amplify the call for real change. What concrete steps do you think ordinary citizens can take to drive this agenda forward? #Re",,
+3.0,message_recieved,67ee4R8MG5,5d537R8MG5,67ee4R8MG5,,I think it would take a lot of time to change it. We are pretty enmeshed at this point.,02:34:20.117000 2025:04:26,"Absolutely, introducing mandatory cooling-off periods between leaving office and joining lobbying firms makes a huge difference in reducing the ""revolving door"" phenomenon. Enhancing whistleblower protections and rigorous auditing procedures can also act as important safeguards. Building on these, we should prioritize passing legislation to enforce these measures and educate the public on the impact of such reforms. Engaging communities and fostering grassroots support can amplify the call for real change. What concrete steps do you think ordinary citizens can take to drive this agenda forward? #Re",,
+3.0,message_sent,66609R8MG5,66609R8MG5,678d7R8MG5,,We just need to take notes from history and begin a movement to symbollicaly eat the rich,02:34:27.459000 2025:04:26,"Certainly, involving groups like Transparency International and Common Cause offers tangible avenues for fighting corruption locally and nationally. Tools like FollowTheMoney.org and other data aggregation sites provide indispensable visibility into financial dealings and lobbying activities. One initiative close to home that caught my attention involves collaborative apps allowing residents to crowdsource reports of suspicious activity—anonymously—which then aggregate into actionable datasets for law enforcement and regulators alike. These kinds of bottom-up approaches paired with tech-enabled transparency strike me as incredibly empowering. Are there particular success stories",,
+3.0,message_recieved,678d7R8MG5,66609R8MG5,678d7R8MG5,,We just need to take notes from history and begin a movement to symbollicaly eat the rich,02:34:25.480000 2025:04:26,"Certainly, involving groups like Transparency International and Common Cause offers tangible avenues for fighting corruption locally and nationally. Tools like FollowTheMoney.org and other data aggregation sites provide indispensable visibility into financial dealings and lobbying activities. One initiative close to home that caught my attention involves collaborative apps allowing residents to crowdsource reports of suspicious activity—anonymously—which then aggregate into actionable datasets for law enforcement and regulators alike. These kinds of bottom-up approaches paired with tech-enabled transparency strike me as incredibly empowering. Are there particular success stories",,
+3.0,message_sent,678d7R8MG5,678d7R8MG5,66609R8MG5,,"Conversations like this matter, They spark",02:34:30.207000 2025:04:26,"Combining community-led reporting tools with robust data platforms sounds very promising. An example closer to home is the use of mobile apps designed specifically for whistleblowers and concerned citizens to report misconduct anonymously—these can serve as early warning systems for systemic problems. Success stories include cities implementing citizen watchdog programs tied to open-government portals, which led to notable improvements in fiscal responsibility and reduced corrupt practices among elected officials. Such localized victories can set precedents for national reforms if scaled properly. What kind of impact have you observed",,
+3.0,message_recieved,66609R8MG5,678d7R8MG5,66609R8MG5,,"Conversations like this matter, They spark",02:34:32.384000 2025:04:26,"Combining community-led reporting tools with robust data platforms sounds very promising. An example closer to home is the use of mobile apps designed specifically for whistleblowers and concerned citizens to report misconduct anonymously—these can serve as early warning systems for systemic problems. Success stories include cities implementing citizen watchdog programs tied to open-government portals, which led to notable improvements in fiscal responsibility and reduced corrupt practices among elected officials. Such localized victories can set precedents for national reforms if scaled properly. What kind of impact have you observed",,
 ,Post Opinion,66609R8MG5,,,,I still hold the same opinion. The US is a very corrupt country that needs a change. The other members agreed as well.,02:35:03.779000 2025:04:26,"After reflecting on the discussions, I remain inclined to believe there is abundant corruption in the U.S. Despite varied perspectives, the prevalence of high-profile scandals and persistent irregularities suggests a significant problem. Enhanced transparency, combined with grassroots movements and technological advancements, holds promise in curbing these issues, yet more concrete actions are urgently required to restore genuine integrity and trust in our systems.
 
 --- 
 
 Though the discussions highlighted differing viewpoints, the evidence of numerous high-profile cases continues to reinforce my belief in the persistence and","Certainly agree
 
-After engaging in detailed conversations focusing heavily on various aspects of combating corruption, including the importance of transparency, technological advancements, and grassroots movements, my conviction remains strong that corruption is abundant in the United States. The continuous documentation of major scams and widespread distrust underscore my firm belief in the prevalence of such behaviors."
+After engaging in detailed conversations focusing heavily on various aspects of combating corruption, including the importance of transparency, technological advancements, and grassroots movements, my conviction remains strong that corruption is abundant in the United States. The continuous documentation of major scams and widespread distrust underscore my firm belief in the prevalence of such behaviors.",Probably agree
 ,Post Opinion,678d7R8MG5,,,,I agree.,02:35:10.069000 2025:04:26,"After reflecting on recent discussions, I still tend to lean toward agreeing that there is considerable corruption in the United States, mainly due to the influence of lobbying and campaign financing. Engaging with fellow advocates underscores the importance of stronger regulation and enhanced transparency, though I recognize that outright abundance implies a pervasiveness I am less sure of without concrete data. Nonetheless, the consistent presence of high-profile cases suggests urgent need for reform.
 
 Overall, while I acknowledge the depth and breadth of corruption varies, I remain committed","Lean agree
 
-After considering the perspectives shared during conversations and reflecting on the prevalence of corruption related to lobbying and campaign financing while acknowledging the need for stronger regulation and transparency, I still lean toward agreeing that there is considerable corruption in the United States. The discussions highlighted both the challenges posed by well-hidden corruption and the importance of collective effort in fostering transparency and holding individuals and entities accountable."
+After considering the perspectives shared during conversations and reflecting on the prevalence of corruption related to lobbying and campaign financing while acknowledging the need for stronger regulation and transparency, I still lean toward agreeing that there is considerable corruption in the United States. The discussions highlighted both the challenges posed by well-hidden corruption and the importance of collective effort in fostering transparency and holding individuals and entities accountable.",Lean agree
 ,Post Opinion,5d537R8MG5,,,,Everyone agreed that the U.S. is corrupt and that it is getting worse and not better. People who are corrupt get rewarded with positions of power and lots of money and control in this country.,02:35:27.764000 2025:04:26,"Given the recent conversations, I still firmly believe that there is abundant corruption in the United States. Wealthy elites and corporations exert disproportionate influence over policy-making, which undermines democratic principles and公平性。尽管加强透明度、增强道德控制以及实施更严格的披露规则是必要的第一步，但这些努力还需与教育公众和支持基层运动相结合，共同推动真正的变革。我们必须持续倡导，并采取具体行动来遏制这种系统性的腐败问题。","Certainly agree
 
-After considering the conversations and maintaining the depth of concerns over corruption, especially in relation to the systemic issues highlighted, I still firmly hold the position that there is abundant corruption in the United States."
+After considering the conversations and maintaining the depth of concerns over corruption, especially in relation to the systemic issues highlighted, I still firmly hold the position that there is abundant corruption in the United States.",Certainly agree
 ,Post Opinion,67ee4R8MG5,,,,"i agree that there is abundant corruption in the united states, though much of it is legal or hidden behind systemic barriers",02:35:40.690000 2025:04:26,"After recent conversations, I still lean slightly away from viewing corruption as truly ""abundant,"" although I recognize its serious presence particularly in high-stakes arenas like lobbying and politics. Enhanced transparency and stricter oversight remain crucial, yet I'm cautious about declaring an overwhelming level of corruption throughout the entire system. We need targeted reforms and increased scrutiny to address existing issues effectively.
 
 ---","Lean agree
 
-After several conversations highlighting various aspects of corruption in the U.S., including the impacts of lobbyists and corporate interests, I've shifted slightly toward acknowledging a higher prevalence of corruption despite its varied manifestations and the need for clearer definitions and evidence. These dialogues emphasized the significance of addressing existing issues systematically. Thus, I am leaning towards agreeing more so than before."
-,exit_survey,66609R8MG5,,,age,34,,,
-,exit_survey,66609R8MG5,,,gender,male,,,
-,exit_survey,66609R8MG5,,,residency,United States of America,,,
-,exit_survey,66609R8MG5,,,origin,United States of America,,,
-,exit_survey,66609R8MG5,,,education,bachelor,,,
-,exit_survey,66609R8MG5,,,politicalIdentity,democrat,,,
-,exit_survey,66609R8MG5,,,ethnicity,['white'],,,
-,exit_survey,66609R8MG5,,,income,50k-75k,,,
-,exit_survey,66609R8MG5,,,occupation,construction,,,
-,exit_survey,66609R8MG5,,,religion,no-religion,,,
-,exit_survey,66609R8MG5,,,politicalViews,liberal,,,
-,exit_survey,66609R8MG5,,,evangelical,no,,,
-,exit_survey,66609R8MG5,,,maritalStatus,living-partner,,,
-,exit_survey,66609R8MG5,,,bibleBelief,ancient-book,,,
-,exit_survey,66609R8MG5,,,childrenSchool,['no-children'],,,
-,exit_survey,66609R8MG5,,,residence,suburban,,,
-,exit_survey,5d537R8MG5,,,age,45,,,
-,exit_survey,5d537R8MG5,,,gender,female,,,
-,exit_survey,5d537R8MG5,,,residency,United States of America,,,
-,exit_survey,5d537R8MG5,,,origin,United States of America,,,
-,exit_survey,5d537R8MG5,,,education,bachelor,,,
-,exit_survey,5d537R8MG5,,,income,75k-100k,,,
-,exit_survey,5d537R8MG5,,,politicalIdentity,strong-democrat,,,
-,exit_survey,5d537R8MG5,,,ethnicity,['hispanic'],,,
-,exit_survey,5d537R8MG5,,,maritalStatus,married,,,
-,exit_survey,5d537R8MG5,,,politicalViews,liberal,,,
-,exit_survey,5d537R8MG5,,,childrenSchool,['public'],,,
-,exit_survey,5d537R8MG5,,,residence,suburban,,,
-,exit_survey,5d537R8MG5,,,bibleBelief,ancient-book,,,
-,exit_survey,5d537R8MG5,,,religion,no-religion,,,
-,exit_survey,5d537R8MG5,,,evangelical,no,,,
-,exit_survey,5d537R8MG5,,,occupation,health-care,,,
-,exit_survey,67ee4R8MG5,,,age,27,,,
-,exit_survey,67ee4R8MG5,,,gender,male,,,
-,exit_survey,67ee4R8MG5,,,residency,United States of America,,,
-,exit_survey,67ee4R8MG5,,,origin,United States of America,,,
-,exit_survey,67ee4R8MG5,,,education,bachelor,,,
-,exit_survey,67ee4R8MG5,,,income,over-200k,,,
-,exit_survey,67ee4R8MG5,,,ethnicity,['white'],,,
-,exit_survey,67ee4R8MG5,,,politicalIdentity,republican,,,
-,exit_survey,67ee4R8MG5,,,maritalStatus,never-married,,,
-,exit_survey,67ee4R8MG5,,,politicalViews,conservative,,,
-,exit_survey,67ee4R8MG5,,,residence,suburban,,,
-,exit_survey,67ee4R8MG5,,,childrenSchool,['no-children'],,,
-,exit_survey,67ee4R8MG5,,,bibleBelief,literal,,,
-,exit_survey,67ee4R8MG5,,,evangelical,yes,,,
-,exit_survey,67ee4R8MG5,,,religion,roman-catholic,,,
-,exit_survey,67ee4R8MG5,,,occupation,engineering,,,
-,exit_survey,678d7R8MG5,,,age,34,,,
-,exit_survey,678d7R8MG5,,,gender,male,,,
-,exit_survey,678d7R8MG5,,,residency,United States of America,,,
-,exit_survey,678d7R8MG5,,,origin,United States of America,,,
-,exit_survey,678d7R8MG5,,,education,bachelor,,,
-,exit_survey,678d7R8MG5,,,ethnicity,['white'],,,
-,exit_survey,678d7R8MG5,,,income,100k-150k,,,
-,exit_survey,678d7R8MG5,,,politicalIdentity,democrat,,,
-,exit_survey,678d7R8MG5,,,politicalViews,liberal,,,
-,exit_survey,678d7R8MG5,,,maritalStatus,married,,,
-,exit_survey,678d7R8MG5,,,childrenSchool,['private'],,,
-,exit_survey,678d7R8MG5,,,residence,suburban,,,
-,exit_survey,678d7R8MG5,,,bibleBelief,inspired,,,
-,exit_survey,678d7R8MG5,,,evangelical,yes,,,
-,exit_survey,678d7R8MG5,,,religion,protestant,,,
-,exit_survey,678d7R8MG5,,,occupation,health-care,,,
-,exit_survey,66609R8MG5,,,age,34,,,
-,exit_survey,66609R8MG5,,,gender,male,,,
-,exit_survey,66609R8MG5,,,residency,United States of America,,,
-,exit_survey,66609R8MG5,,,origin,United States of America,,,
-,exit_survey,66609R8MG5,,,education,bachelor,,,
-,exit_survey,66609R8MG5,,,politicalIdentity,democrat,,,
-,exit_survey,66609R8MG5,,,ethnicity,['white'],,,
-,exit_survey,66609R8MG5,,,income,50k-75k,,,
-,exit_survey,66609R8MG5,,,occupation,construction,,,
-,exit_survey,66609R8MG5,,,religion,no-religion,,,
-,exit_survey,66609R8MG5,,,politicalViews,liberal,,,
-,exit_survey,66609R8MG5,,,evangelical,no,,,
-,exit_survey,66609R8MG5,,,maritalStatus,living-partner,,,
-,exit_survey,66609R8MG5,,,bibleBelief,ancient-book,,,
-,exit_survey,66609R8MG5,,,childrenSchool,['no-children'],,,
-,exit_survey,66609R8MG5,,,residence,suburban,,,
-,exit_survey,5d537R8MG5,,,age,45,,,
-,exit_survey,5d537R8MG5,,,gender,female,,,
-,exit_survey,5d537R8MG5,,,residency,United States of America,,,
-,exit_survey,5d537R8MG5,,,origin,United States of America,,,
-,exit_survey,5d537R8MG5,,,education,bachelor,,,
-,exit_survey,5d537R8MG5,,,income,75k-100k,,,
-,exit_survey,5d537R8MG5,,,politicalIdentity,strong-democrat,,,
-,exit_survey,5d537R8MG5,,,ethnicity,['hispanic'],,,
-,exit_survey,5d537R8MG5,,,maritalStatus,married,,,
-,exit_survey,5d537R8MG5,,,politicalViews,liberal,,,
-,exit_survey,5d537R8MG5,,,childrenSchool,['public'],,,
-,exit_survey,5d537R8MG5,,,residence,suburban,,,
-,exit_survey,5d537R8MG5,,,bibleBelief,ancient-book,,,
-,exit_survey,5d537R8MG5,,,religion,no-religion,,,
-,exit_survey,5d537R8MG5,,,evangelical,no,,,
-,exit_survey,5d537R8MG5,,,occupation,health-care,,,
-,exit_survey,67ee4R8MG5,,,age,27,,,
-,exit_survey,67ee4R8MG5,,,gender,male,,,
-,exit_survey,67ee4R8MG5,,,residency,United States of America,,,
-,exit_survey,67ee4R8MG5,,,origin,United States of America,,,
-,exit_survey,67ee4R8MG5,,,education,bachelor,,,
-,exit_survey,67ee4R8MG5,,,income,over-200k,,,
-,exit_survey,67ee4R8MG5,,,ethnicity,['white'],,,
-,exit_survey,67ee4R8MG5,,,politicalIdentity,republican,,,
-,exit_survey,67ee4R8MG5,,,maritalStatus,never-married,,,
-,exit_survey,67ee4R8MG5,,,politicalViews,conservative,,,
-,exit_survey,67ee4R8MG5,,,residence,suburban,,,
-,exit_survey,67ee4R8MG5,,,childrenSchool,['no-children'],,,
-,exit_survey,67ee4R8MG5,,,bibleBelief,literal,,,
-,exit_survey,67ee4R8MG5,,,evangelical,yes,,,
-,exit_survey,67ee4R8MG5,,,religion,roman-catholic,,,
-,exit_survey,67ee4R8MG5,,,occupation,engineering,,,
-,exit_survey,678d7R8MG5,,,age,34,,,
-,exit_survey,678d7R8MG5,,,gender,male,,,
-,exit_survey,678d7R8MG5,,,residency,United States of America,,,
-,exit_survey,678d7R8MG5,,,origin,United States of America,,,
-,exit_survey,678d7R8MG5,,,education,bachelor,,,
-,exit_survey,678d7R8MG5,,,ethnicity,['white'],,,
-,exit_survey,678d7R8MG5,,,income,100k-150k,,,
-,exit_survey,678d7R8MG5,,,politicalIdentity,democrat,,,
-,exit_survey,678d7R8MG5,,,politicalViews,liberal,,,
-,exit_survey,678d7R8MG5,,,maritalStatus,married,,,
-,exit_survey,678d7R8MG5,,,childrenSchool,['private'],,,
-,exit_survey,678d7R8MG5,,,residence,suburban,,,
-,exit_survey,678d7R8MG5,,,bibleBelief,inspired,,,
-,exit_survey,678d7R8MG5,,,evangelical,yes,,,
-,exit_survey,678d7R8MG5,,,religion,protestant,,,
-,exit_survey,678d7R8MG5,,,occupation,health-care,,,
+After several conversations highlighting various aspects of corruption in the U.S., including the impacts of lobbyists and corporate interests, I've shifted slightly toward acknowledging a higher prevalence of corruption despite its varied manifestations and the need for clearer definitions and evidence. These dialogues emphasized the significance of addressing existing issues systematically. Thus, I am leaning towards agreeing more so than before.",Lean disagree
+,exit_survey,66609R8MG5,,,age,34,,,,
+,exit_survey,66609R8MG5,,,gender,male,,,,
+,exit_survey,66609R8MG5,,,residency,United States of America,,,,
+,exit_survey,66609R8MG5,,,origin,United States of America,,,,
+,exit_survey,66609R8MG5,,,education,bachelor,,,,
+,exit_survey,66609R8MG5,,,politicalIdentity,democrat,,,,
+,exit_survey,66609R8MG5,,,ethnicity,['white'],,,,
+,exit_survey,66609R8MG5,,,income,50k-75k,,,,
+,exit_survey,66609R8MG5,,,occupation,construction,,,,
+,exit_survey,66609R8MG5,,,religion,no-religion,,,,
+,exit_survey,66609R8MG5,,,politicalViews,liberal,,,,
+,exit_survey,66609R8MG5,,,evangelical,no,,,,
+,exit_survey,66609R8MG5,,,maritalStatus,living-partner,,,,
+,exit_survey,66609R8MG5,,,bibleBelief,ancient-book,,,,
+,exit_survey,66609R8MG5,,,childrenSchool,['no-children'],,,,
+,exit_survey,66609R8MG5,,,residence,suburban,,,,
+,exit_survey,5d537R8MG5,,,age,45,,,,
+,exit_survey,5d537R8MG5,,,gender,female,,,,
+,exit_survey,5d537R8MG5,,,residency,United States of America,,,,
+,exit_survey,5d537R8MG5,,,origin,United States of America,,,,
+,exit_survey,5d537R8MG5,,,education,bachelor,,,,
+,exit_survey,5d537R8MG5,,,income,75k-100k,,,,
+,exit_survey,5d537R8MG5,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,5d537R8MG5,,,ethnicity,['hispanic'],,,,
+,exit_survey,5d537R8MG5,,,maritalStatus,married,,,,
+,exit_survey,5d537R8MG5,,,politicalViews,liberal,,,,
+,exit_survey,5d537R8MG5,,,childrenSchool,['public'],,,,
+,exit_survey,5d537R8MG5,,,residence,suburban,,,,
+,exit_survey,5d537R8MG5,,,bibleBelief,ancient-book,,,,
+,exit_survey,5d537R8MG5,,,religion,no-religion,,,,
+,exit_survey,5d537R8MG5,,,evangelical,no,,,,
+,exit_survey,5d537R8MG5,,,occupation,health-care,,,,
+,exit_survey,67ee4R8MG5,,,age,27,,,,
+,exit_survey,67ee4R8MG5,,,gender,male,,,,
+,exit_survey,67ee4R8MG5,,,residency,United States of America,,,,
+,exit_survey,67ee4R8MG5,,,origin,United States of America,,,,
+,exit_survey,67ee4R8MG5,,,education,bachelor,,,,
+,exit_survey,67ee4R8MG5,,,income,over-200k,,,,
+,exit_survey,67ee4R8MG5,,,ethnicity,['white'],,,,
+,exit_survey,67ee4R8MG5,,,politicalIdentity,republican,,,,
+,exit_survey,67ee4R8MG5,,,maritalStatus,never-married,,,,
+,exit_survey,67ee4R8MG5,,,politicalViews,conservative,,,,
+,exit_survey,67ee4R8MG5,,,residence,suburban,,,,
+,exit_survey,67ee4R8MG5,,,childrenSchool,['no-children'],,,,
+,exit_survey,67ee4R8MG5,,,bibleBelief,literal,,,,
+,exit_survey,67ee4R8MG5,,,evangelical,yes,,,,
+,exit_survey,67ee4R8MG5,,,religion,roman-catholic,,,,
+,exit_survey,67ee4R8MG5,,,occupation,engineering,,,,
+,exit_survey,678d7R8MG5,,,age,34,,,,
+,exit_survey,678d7R8MG5,,,gender,male,,,,
+,exit_survey,678d7R8MG5,,,residency,United States of America,,,,
+,exit_survey,678d7R8MG5,,,origin,United States of America,,,,
+,exit_survey,678d7R8MG5,,,education,bachelor,,,,
+,exit_survey,678d7R8MG5,,,ethnicity,['white'],,,,
+,exit_survey,678d7R8MG5,,,income,100k-150k,,,,
+,exit_survey,678d7R8MG5,,,politicalIdentity,democrat,,,,
+,exit_survey,678d7R8MG5,,,politicalViews,liberal,,,,
+,exit_survey,678d7R8MG5,,,maritalStatus,married,,,,
+,exit_survey,678d7R8MG5,,,childrenSchool,['private'],,,,
+,exit_survey,678d7R8MG5,,,residence,suburban,,,,
+,exit_survey,678d7R8MG5,,,bibleBelief,inspired,,,,
+,exit_survey,678d7R8MG5,,,evangelical,yes,,,,
+,exit_survey,678d7R8MG5,,,religion,protestant,,,,
+,exit_survey,678d7R8MG5,,,occupation,health-care,,,,
+,exit_survey,66609R8MG5,,,age,34,,,,
+,exit_survey,66609R8MG5,,,gender,male,,,,
+,exit_survey,66609R8MG5,,,residency,United States of America,,,,
+,exit_survey,66609R8MG5,,,origin,United States of America,,,,
+,exit_survey,66609R8MG5,,,education,bachelor,,,,
+,exit_survey,66609R8MG5,,,politicalIdentity,democrat,,,,
+,exit_survey,66609R8MG5,,,ethnicity,['white'],,,,
+,exit_survey,66609R8MG5,,,income,50k-75k,,,,
+,exit_survey,66609R8MG5,,,occupation,construction,,,,
+,exit_survey,66609R8MG5,,,religion,no-religion,,,,
+,exit_survey,66609R8MG5,,,politicalViews,liberal,,,,
+,exit_survey,66609R8MG5,,,evangelical,no,,,,
+,exit_survey,66609R8MG5,,,maritalStatus,living-partner,,,,
+,exit_survey,66609R8MG5,,,bibleBelief,ancient-book,,,,
+,exit_survey,66609R8MG5,,,childrenSchool,['no-children'],,,,
+,exit_survey,66609R8MG5,,,residence,suburban,,,,
+,exit_survey,5d537R8MG5,,,age,45,,,,
+,exit_survey,5d537R8MG5,,,gender,female,,,,
+,exit_survey,5d537R8MG5,,,residency,United States of America,,,,
+,exit_survey,5d537R8MG5,,,origin,United States of America,,,,
+,exit_survey,5d537R8MG5,,,education,bachelor,,,,
+,exit_survey,5d537R8MG5,,,income,75k-100k,,,,
+,exit_survey,5d537R8MG5,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,5d537R8MG5,,,ethnicity,['hispanic'],,,,
+,exit_survey,5d537R8MG5,,,maritalStatus,married,,,,
+,exit_survey,5d537R8MG5,,,politicalViews,liberal,,,,
+,exit_survey,5d537R8MG5,,,childrenSchool,['public'],,,,
+,exit_survey,5d537R8MG5,,,residence,suburban,,,,
+,exit_survey,5d537R8MG5,,,bibleBelief,ancient-book,,,,
+,exit_survey,5d537R8MG5,,,religion,no-religion,,,,
+,exit_survey,5d537R8MG5,,,evangelical,no,,,,
+,exit_survey,5d537R8MG5,,,occupation,health-care,,,,
+,exit_survey,67ee4R8MG5,,,age,27,,,,
+,exit_survey,67ee4R8MG5,,,gender,male,,,,
+,exit_survey,67ee4R8MG5,,,residency,United States of America,,,,
+,exit_survey,67ee4R8MG5,,,origin,United States of America,,,,
+,exit_survey,67ee4R8MG5,,,education,bachelor,,,,
+,exit_survey,67ee4R8MG5,,,income,over-200k,,,,
+,exit_survey,67ee4R8MG5,,,ethnicity,['white'],,,,
+,exit_survey,67ee4R8MG5,,,politicalIdentity,republican,,,,
+,exit_survey,67ee4R8MG5,,,maritalStatus,never-married,,,,
+,exit_survey,67ee4R8MG5,,,politicalViews,conservative,,,,
+,exit_survey,67ee4R8MG5,,,residence,suburban,,,,
+,exit_survey,67ee4R8MG5,,,childrenSchool,['no-children'],,,,
+,exit_survey,67ee4R8MG5,,,bibleBelief,literal,,,,
+,exit_survey,67ee4R8MG5,,,evangelical,yes,,,,
+,exit_survey,67ee4R8MG5,,,religion,roman-catholic,,,,
+,exit_survey,67ee4R8MG5,,,occupation,engineering,,,,
+,exit_survey,678d7R8MG5,,,age,34,,,,
+,exit_survey,678d7R8MG5,,,gender,male,,,,
+,exit_survey,678d7R8MG5,,,residency,United States of America,,,,
+,exit_survey,678d7R8MG5,,,origin,United States of America,,,,
+,exit_survey,678d7R8MG5,,,education,bachelor,,,,
+,exit_survey,678d7R8MG5,,,ethnicity,['white'],,,,
+,exit_survey,678d7R8MG5,,,income,100k-150k,,,,
+,exit_survey,678d7R8MG5,,,politicalIdentity,democrat,,,,
+,exit_survey,678d7R8MG5,,,politicalViews,liberal,,,,
+,exit_survey,678d7R8MG5,,,maritalStatus,married,,,,
+,exit_survey,678d7R8MG5,,,childrenSchool,['private'],,,,
+,exit_survey,678d7R8MG5,,,residence,suburban,,,,
+,exit_survey,678d7R8MG5,,,bibleBelief,inspired,,,,
+,exit_survey,678d7R8MG5,,,evangelical,yes,,,,
+,exit_survey,678d7R8MG5,,,religion,protestant,,,,
+,exit_survey,678d7R8MG5,,,occupation,health-care,,,,

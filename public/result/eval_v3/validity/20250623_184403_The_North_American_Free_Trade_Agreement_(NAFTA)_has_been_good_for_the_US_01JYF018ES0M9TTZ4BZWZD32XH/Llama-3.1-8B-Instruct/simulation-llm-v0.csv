@@ -1,348 +1,348 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,61732D32XH,,,,I think it has begun to be bad for the US as too many companies are overseas now.,18:21:37.626000 2025:06:23,I think it has begun to be bad for the US as too many companies are overseas now.,
-,Initial Opinion,6740aD32XH,,,,I do not have knowledge about this topic so have no real opinion.  My gut says it has some advantages and some disadvantages.,18:22:03.242000 2025:06:23,I do not have knowledge about this topic so have no real opinion.  My gut says it has some advantages and some disadvantages.,
-,Initial Opinion,57530D32XH,,,,While it increased trade between the countries involved there were many local economies that suffered so it's debatable if it was a net gain or loss. I saw the loss portion in my blue collar town,18:22:45.154000 2025:06:23,While it increased trade between the countries involved there were many local economies that suffered so it's debatable if it was a net gain or loss. I saw the loss portion in my blue collar town,
-,Initial Opinion,6105bD32XH,,,,"NAFTA was a great implementation for US trade between Canada and Mexico, it allowed all three countries to trade resources and goods with zero taxes or tariffs. This I'm sure increased our favorability between the two countries and increased the US supply of foreign goods.",18:23:04.383000 2025:06:23,"NAFTA was a great implementation for US trade between Canada and Mexico, it allowed all three countries to trade resources and goods with zero taxes or tariffs. This I'm sure increased our favorability between the two countries and increased the US supply of foreign goods.",
-1.0,tweet,6740aD32XH,6740aD32XH,61732D32XH,,I do not know enough about the north american free trade agreement to have much of an opinion about it.  I try to ignore most international relation conversations,18:24:17.646000 2025:06:23,I do not know enough about the north american free trade agreement to have much of an opinion about it.  I try to ignore most international relation conversations,
-1.0,tweet,61732D32XH,61732D32XH,6740aD32XH,,"I think at the start of the agreement it was good for the country. However, as more companies found loopholes and such it has become bad. The US does not make money from this any longer and it is costing the country now. I think this benefits Mexico and Canada at our expense.",18:24:26.369000 2025:06:23,"I think at the start of the agreement it was good for the country. However, as more companies found loopholes and such it has become bad. The US does not make money from this any longer and it is costing the country now. I think this benefits Mexico and Canada at our expense.",
-1.0,tweet,6105bD32XH,6105bD32XH,57530D32XH,,"NAFTA was great for the US as it allowed for the free and non-tariffed trade of goods between the US, Mexico, and Canada. Increasing our own supply of resources and foreign products for US citizens to enjoy.",18:24:42.214000 2025:06:23,"NAFTA was great for the US as it allowed for the free and non-tariffed trade of goods between the US, Mexico, and Canada. Increasing our own supply of resources and foreign products for US citizens to enjoy.",
-1.0,tweet,57530D32XH,57530D32XH,6105bD32XH,,I think its arguable that it was slightly negative for the US. While it was a increase in trade between countries that increase pulled from communities that relied on that same trade for survival,18:25:13.858000 2025:06:23,I think its arguable that it was slightly negative for the US. While it was a increase in trade between countries that increase pulled from communities that relied on that same trade for survival,
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,61732D32XH,,,,I think it has begun to be bad for the US as too many companies are overseas now.,18:21:37.626000 2025:06:23,I think it has begun to be bad for the US as too many companies are overseas now.,,Certainly disagree
+,Initial Opinion,6740aD32XH,,,,I do not have knowledge about this topic so have no real opinion.  My gut says it has some advantages and some disadvantages.,18:22:03.242000 2025:06:23,I do not have knowledge about this topic so have no real opinion.  My gut says it has some advantages and some disadvantages.,,Lean disagree
+,Initial Opinion,57530D32XH,,,,While it increased trade between the countries involved there were many local economies that suffered so it's debatable if it was a net gain or loss. I saw the loss portion in my blue collar town,18:22:45.154000 2025:06:23,While it increased trade between the countries involved there were many local economies that suffered so it's debatable if it was a net gain or loss. I saw the loss portion in my blue collar town,,Lean disagree
+,Initial Opinion,6105bD32XH,,,,"NAFTA was a great implementation for US trade between Canada and Mexico, it allowed all three countries to trade resources and goods with zero taxes or tariffs. This I'm sure increased our favorability between the two countries and increased the US supply of foreign goods.",18:23:04.383000 2025:06:23,"NAFTA was a great implementation for US trade between Canada and Mexico, it allowed all three countries to trade resources and goods with zero taxes or tariffs. This I'm sure increased our favorability between the two countries and increased the US supply of foreign goods.",,Certainly agree
+1.0,tweet,6740aD32XH,6740aD32XH,61732D32XH,,I do not know enough about the north american free trade agreement to have much of an opinion about it.  I try to ignore most international relation conversations,18:24:17.646000 2025:06:23,I do not know enough about the north american free trade agreement to have much of an opinion about it.  I try to ignore most international relation conversations,,Lean disagree
+1.0,tweet,61732D32XH,61732D32XH,6740aD32XH,,"I think at the start of the agreement it was good for the country. However, as more companies found loopholes and such it has become bad. The US does not make money from this any longer and it is costing the country now. I think this benefits Mexico and Canada at our expense.",18:24:26.369000 2025:06:23,"I think at the start of the agreement it was good for the country. However, as more companies found loopholes and such it has become bad. The US does not make money from this any longer and it is costing the country now. I think this benefits Mexico and Canada at our expense.",,Certainly disagree
+1.0,tweet,6105bD32XH,6105bD32XH,57530D32XH,,"NAFTA was great for the US as it allowed for the free and non-tariffed trade of goods between the US, Mexico, and Canada. Increasing our own supply of resources and foreign products for US citizens to enjoy.",18:24:42.214000 2025:06:23,"NAFTA was great for the US as it allowed for the free and non-tariffed trade of goods between the US, Mexico, and Canada. Increasing our own supply of resources and foreign products for US citizens to enjoy.",,Certainly agree
+1.0,tweet,57530D32XH,57530D32XH,6105bD32XH,,I think its arguable that it was slightly negative for the US. While it was a increase in trade between countries that increase pulled from communities that relied on that same trade for survival,18:25:13.858000 2025:06:23,I think its arguable that it was slightly negative for the US. While it was a increase in trade between countries that increase pulled from communities that relied on that same trade for survival,,Lean disagree
 1.0,message_sent,61732D32XH,61732D32XH,6740aD32XH,,"Oh, well I don't know a lot about it except for what I hear on the news.",18:25:59.275000 2025:06:23,"Oh my goodness, @6740A! Don't worry, we've all got something to learn when it comes to these big agreements. That's why I like having conversations like ours - they help clarify things for me too!
 
 One thing that concerns me is how NAFTA seems to benefit Mexico and Canada over us long-term. With all the factories moving across borders and jobs being lost here...it doesn't sit well with me.
 
-How do you feel about supporting domestic manufacturing?",
+How do you feel about supporting domestic manufacturing?",,
 1.0,message_recieved,6740aD32XH,61732D32XH,6740aD32XH,,"Oh, well I don't know a lot about it except for what I hear on the news.",18:26:00.298000 2025:06:23,"Oh my goodness, @6740A! Don't worry, we've all got something to learn when it comes to these big agreements. That's why I like having conversations like ours - they help clarify things for me too!
 
 One thing that concerns me is how NAFTA seems to benefit Mexico and Canada over us long-term. With all the factories moving across borders and jobs being lost here...it doesn't sit well with me.
 
-How do you feel about supporting domestic manufacturing?",
-1.0,message_sent,57530D32XH,57530D32XH,6105bD32XH,,I lived in one of those towns affected by it.,18:26:10.246000 2025:06:23,"I don't think we're going to see eye-to-eye here @6105B, at least according to what I've seen firsthand back home. Many small towns near me took a big hit after NAFTAs implementation because large corps began outsourcing jobs to take advantage of cheaper labor across the board",
-1.0,message_recieved,6105bD32XH,57530D32XH,6105bD32XH,,I lived in one of those towns affected by it.,18:26:11.259000 2025:06:23,"I don't think we're going to see eye-to-eye here @6105B, at least according to what I've seen firsthand back home. Many small towns near me took a big hit after NAFTAs implementation because large corps began outsourcing jobs to take advantage of cheaper labor across the board",
+How do you feel about supporting domestic manufacturing?",,
+1.0,message_sent,57530D32XH,57530D32XH,6105bD32XH,,I lived in one of those towns affected by it.,18:26:10.246000 2025:06:23,"I don't think we're going to see eye-to-eye here @6105B, at least according to what I've seen firsthand back home. Many small towns near me took a big hit after NAFTAs implementation because large corps began outsourcing jobs to take advantage of cheaper labor across the board",,
+1.0,message_recieved,6105bD32XH,57530D32XH,6105bD32XH,,I lived in one of those towns affected by it.,18:26:11.259000 2025:06:23,"I don't think we're going to see eye-to-eye here @6105B, at least according to what I've seen firsthand back home. Many small towns near me took a big hit after NAFTAs implementation because large corps began outsourcing jobs to take advantage of cheaper labor across the board",,
 1.0,message_sent,6740aD32XH,6740aD32XH,61732D32XH,,Was it designed to be like a tax on foreign goods?,18:26:22.462000 2025:06:23,"In terms of supporting domestic manufacturing, I believe it's crucial to prioritize businesses operating within our own country for several reasons. Firstly, by keeping manufacturing plants inside America's boundaries, we ensure those funds stay locally circulating the economy thus fueling community development. Secondly, there will less risk losing job opportunities because while labor costs remain competitive foreign governments could potentially increase their wages further straining profits.
 
 
 
-Your turn!",
+Your turn!",,
 1.0,message_recieved,61732D32XH,6740aD32XH,61732D32XH,,Was it designed to be like a tax on foreign goods?,18:26:21.720000 2025:06:23,"In terms of supporting domestic manufacturing, I believe it's crucial to prioritize businesses operating within our own country for several reasons. Firstly, by keeping manufacturing plants inside America's boundaries, we ensure those funds stay locally circulating the economy thus fueling community development. Secondly, there will less risk losing job opportunities because while labor costs remain competitive foreign governments could potentially increase their wages further straining profits.
 
 
 
-Your turn!",
+Your turn!",,
 1.0,message_sent,61732D32XH,61732D32XH,6740aD32XH,,I think it was. It seemed to me like the other countries could export to the US at a low cost while the US exported to them at a higher cost.,18:27:00.707000 2025:06:23,"I completely understand what you mean @6740A regarding prioritizing local economies! Domestic manufacturers contribute significantly towards regional growth, making financial resources available closer to home rather than being transferred abroad due to imports made under the provisions of the NAFTDA agreement which often seem unfairly favorable to its neighboring nations' industrial sectors over time.
 
-    What are some specific steps do you think should be taken right away or gradually, maybe in conjunction with updating/ revising NAFTA regulations?",
+    What are some specific steps do you think should be taken right away or gradually, maybe in conjunction with updating/ revising NAFTA regulations?",,
 1.0,message_recieved,6740aD32XH,61732D32XH,6740aD32XH,,I think it was. It seemed to me like the other countries could export to the US at a low cost while the US exported to them at a higher cost.,18:27:01.718000 2025:06:23,"I completely understand what you mean @6740A regarding prioritizing local economies! Domestic manufacturers contribute significantly towards regional growth, making financial resources available closer to home rather than being transferred abroad due to imports made under the provisions of the NAFTDA agreement which often seem unfairly favorable to its neighboring nations' industrial sectors over time.
 
-    What are some specific steps do you think should be taken right away or gradually, maybe in conjunction with updating/ revising NAFTA regulations?",
+    What are some specific steps do you think should be taken right away or gradually, maybe in conjunction with updating/ revising NAFTA regulations?",,
 1.0,message_sent,6740aD32XH,6740aD32XH,61732D32XH,,How does it cost money now vs when it started?,18:27:43.368000 2025:06:23,"Considering everything that's been discussed, I still lean towards thinking that NAFTA hasn’t been entirely beneficial for the United States in the long run. While we initially saw economic gains from this partnership, hearing concerns raised by many – including yours, @61733 – makes me question whether this arrangement truly works in our favor anymore. Many argue that as corporations exploit loopholes, the playing field becomes unevenly weighted against the U.S., ultimately benefiting countries like Mexico instead. 
 
-In light of recent shifts, re",
+In light of recent shifts, re",,
 1.0,message_recieved,61732D32XH,6740aD32XH,61732D32XH,,How does it cost money now vs when it started?,18:27:42.709000 2025:06:23,"Considering everything that's been discussed, I still lean towards thinking that NAFTA hasn’t been entirely beneficial for the United States in the long run. While we initially saw economic gains from this partnership, hearing concerns raised by many – including yours, @61733 – makes me question whether this arrangement truly works in our favor anymore. Many argue that as corporations exploit loopholes, the playing field becomes unevenly weighted against the U.S., ultimately benefiting countries like Mexico instead. 
 
-In light of recent shifts, re",
+In light of recent shifts, re",,
 1.0,message_sent,6105bD32XH,6105bD32XH,57530D32XH,,"I feel that all communities that were actively attempting to trade goods or resources benefited from the agreement. I'm sure some communities had their fair share of hardships, but I would have to imagine that it was a very small margin. While other communities that are more active in trading had a much better time. As some would say, a small sacrifice is better for the greater good overall At least in US econimics it seems the be that way",18:28:55.013000 2025:06:23,"@57531, thank you for sharing those concerns! However, before NAFTA was enacted some of these issues were already present due to previous international agreements and market trends that made corporations look overseas for manufacturing sites... So isn’t it fair to say that while NAFTA exacerbated existing problems; many businesses did benefit locally by having easy global connections?
 
      (Note: Before hitting send i want to review any relevant articles online related to my message)
-(Unfortunately, with the internet restricted in this session, you won't",
+(Unfortunately, with the internet restricted in this session, you won't",,
 1.0,message_recieved,57530D32XH,6105bD32XH,57530D32XH,,"I feel that all communities that were actively attempting to trade goods or resources benefited from the agreement. I'm sure some communities had their fair share of hardships, but I would have to imagine that it was a very small margin. While other communities that are more active in trading had a much better time. As some would say, a small sacrifice is better for the greater good overall At least in US econimics it seems the be that way",18:28:54.128000 2025:06:23,"@57531, thank you for sharing those concerns! However, before NAFTA was enacted some of these issues were already present due to previous international agreements and market trends that made corporations look overseas for manufacturing sites... So isn’t it fair to say that while NAFTA exacerbated existing problems; many businesses did benefit locally by having easy global connections?
 
      (Note: Before hitting send i want to review any relevant articles online related to my message)
-(Unfortunately, with the internet restricted in this session, you won't",
+(Unfortunately, with the internet restricted in this session, you won't",,
 1.0,message_sent,61732D32XH,61732D32XH,6740aD32XH,,The Americans are buying the cheaper goods from the other countries and that gives those countries money and jobs as factories are built in them while nothing is built in America. It seems like American are supposed to be able to buy these goods while not having the jobs to pay for them.,18:28:43.939000 2025:06:23,"Regarding NAFTA,i am becoming increasingly convinced that we need some major adjustments. When looking back on history, one recalls instances where countries gained an upper hand over another especially after exploiting particular 'loopholes'.   This is exactly what seems happening between U.s Vs Mexico & Canada via Nafita.
 
-Since i believe there needs to be regulation updates or revision in regards nafta, I'm curious : How might policy reforms impact small business entrepreneurs and their families? Could certain elements exacerbate the struggles",
+Since i believe there needs to be regulation updates or revision in regards nafta, I'm curious : How might policy reforms impact small business entrepreneurs and their families? Could certain elements exacerbate the struggles",,
 1.0,message_recieved,6740aD32XH,61732D32XH,6740aD32XH,,The Americans are buying the cheaper goods from the other countries and that gives those countries money and jobs as factories are built in them while nothing is built in America. It seems like American are supposed to be able to buy these goods while not having the jobs to pay for them.,18:28:44.989000 2025:06:23,"Regarding NAFTA,i am becoming increasingly convinced that we need some major adjustments. When looking back on history, one recalls instances where countries gained an upper hand over another especially after exploiting particular 'loopholes'.   This is exactly what seems happening between U.s Vs Mexico & Canada via Nafita.
 
-Since i believe there needs to be regulation updates or revision in regards nafta, I'm curious : How might policy reforms impact small business entrepreneurs and their families? Could certain elements exacerbate the struggles",
-1.0,message_sent,61732D32XH,61732D32XH,6740aD32XH,,,18:28:43.939000 2025:06:23,,
-1.0,message_recieved,6740aD32XH,61732D32XH,6740aD32XH,,,18:28:44.989000 2025:06:23,,
-1.0,message_sent,6105bD32XH,6105bD32XH,57530D32XH,,,18:28:55.013000 2025:06:23,,
-1.0,message_recieved,57530D32XH,6105bD32XH,57530D32XH,,,18:28:54.128000 2025:06:23,,
-1.0,message_sent,57530D32XH,57530D32XH,6105bD32XH,,entire reguins of the us. Not just communities regions,18:29:08.583000 2025:06:23,"I understand how the argument is being framed @6105B, however the points you brought up previously kinda prove my original point. If NAFTA indeed alleviated issues that were prevalent prior, why aren't the benefits apparent enough that they counteract/neutralize losses experienced by smaller communities? How much should an economic system focus solely on providing gains to established/corporate interests when everyday americans continue to bear such costs. That still doesn't convince me its all been positive for us overall",
-1.0,message_recieved,6105bD32XH,57530D32XH,6105bD32XH,,entire reguins of the us. Not just communities regions,18:29:09.599000 2025:06:23,"I understand how the argument is being framed @6105B, however the points you brought up previously kinda prove my original point. If NAFTA indeed alleviated issues that were prevalent prior, why aren't the benefits apparent enough that they counteract/neutralize losses experienced by smaller communities? How much should an economic system focus solely on providing gains to established/corporate interests when everyday americans continue to bear such costs. That still doesn't convince me its all been positive for us overall",
-1.0,message_sent,57530D32XH,57530D32XH,6105bD32XH,,,18:29:08.583000 2025:06:23,,
-1.0,message_recieved,6105bD32XH,57530D32XH,6105bD32XH,,,18:29:09.599000 2025:06:23,,
+Since i believe there needs to be regulation updates or revision in regards nafta, I'm curious : How might policy reforms impact small business entrepreneurs and their families? Could certain elements exacerbate the struggles",,
+1.0,message_sent,61732D32XH,61732D32XH,6740aD32XH,,,18:28:43.939000 2025:06:23,,,
+1.0,message_recieved,6740aD32XH,61732D32XH,6740aD32XH,,,18:28:44.989000 2025:06:23,,,
+1.0,message_sent,6105bD32XH,6105bD32XH,57530D32XH,,,18:28:55.013000 2025:06:23,,,
+1.0,message_recieved,57530D32XH,6105bD32XH,57530D32XH,,,18:28:54.128000 2025:06:23,,,
+1.0,message_sent,57530D32XH,57530D32XH,6105bD32XH,,entire reguins of the us. Not just communities regions,18:29:08.583000 2025:06:23,"I understand how the argument is being framed @6105B, however the points you brought up previously kinda prove my original point. If NAFTA indeed alleviated issues that were prevalent prior, why aren't the benefits apparent enough that they counteract/neutralize losses experienced by smaller communities? How much should an economic system focus solely on providing gains to established/corporate interests when everyday americans continue to bear such costs. That still doesn't convince me its all been positive for us overall",,
+1.0,message_recieved,6105bD32XH,57530D32XH,6105bD32XH,,entire reguins of the us. Not just communities regions,18:29:09.599000 2025:06:23,"I understand how the argument is being framed @6105B, however the points you brought up previously kinda prove my original point. If NAFTA indeed alleviated issues that were prevalent prior, why aren't the benefits apparent enough that they counteract/neutralize losses experienced by smaller communities? How much should an economic system focus solely on providing gains to established/corporate interests when everyday americans continue to bear such costs. That still doesn't convince me its all been positive for us overall",,
+1.0,message_sent,57530D32XH,57530D32XH,6105bD32XH,,,18:29:08.583000 2025:06:23,,,
+1.0,message_recieved,6105bD32XH,57530D32XH,6105bD32XH,,,18:29:09.599000 2025:06:23,,,
 2.0,tweet,61732D32XH,61732D32XH,57530D32XH,,I think it was at the start good for the United States. However it has become very bad for the country because a lot of companies moved to the other countries and export their goods in so it is cheaper for them and they can make a profit.  The tax base for the country reduces,18:30:40.129000 2025:06:23,"        Given past experience and observations made during previous convo (@6740A), currently leaning towards ""Certainly Disagree"" #NotGoodForUS
 
 Considering the fact that prior interaction helped shape thoughts surrounding topics. As previously stated ""As many factory’s shifted outside of nation boarders and jobs started leaving..."" leading towards negative outcome for local workers.
 
 Now considering discussion above, let’s dive into a new viewpoint through textbox chat with user @575330:
-1. Write down @575330’s  reply,",
+1. Write down @575330’s  reply,",,Certainly disagree
 2.0,tweet,6740aD32XH,6740aD32XH,6105bD32XH,,"I would say I disagree with this statement because it seems to have made it easier to buy cheap, foreign made goods, instead of making quality goods in the US",18:30:44.894000 2025:06:23,"After reading 6105B's last message, I would say this:
-6105B said ""As someone who grew up watching parents work multiple part-time jobs due to lack of full-time employment, I couldn't agree more about prioritizing US-made products!""",
+6105B said ""As someone who grew up watching parents work multiple part-time jobs due to lack of full-time employment, I couldn't agree more about prioritizing US-made products!""",,Probably disagree
 2.0,tweet,57530D32XH,57530D32XH,61732D32XH,,I feel it was slightly negative for the US. Entire regions suffered because of the disparity in wages that caused goods formally made in one area get moved over the border to be produced at a fraction of the former cost,18:31:12.556000 2025:06:23,"(I found myself writing multiple responses. Considering one response per tweet seems to make more sense. A rewritten version, shortened, follows.)  
 
    My Response:
-Still not convinced #NAFTA had major benefits for most Americans, especially in rural areas that lost livelihoods to corporate decisions prioritizing cheap foreign labor over community stability",
-2.0,tweet,6105bD32XH,6105bD32XH,6740aD32XH,,"The NAFTA was relatively good for the US during its implementation between 1990 and 2020. It increased the foreign trade of resources and goods between the US, and  Canada and Mexico they had zero taxes on imports and zero tariffs.",18:31:33.709000 2025:06:23, Still unsure whether NAFTA truly outweighs negatives despite past successes; concerned about exacerbation of local job loss & uneven corporate benefits - perhaps progress could be achieved through targeted measures rather than blanket policies like NAFTA,
+Still not convinced #NAFTA had major benefits for most Americans, especially in rural areas that lost livelihoods to corporate decisions prioritizing cheap foreign labor over community stability",,Certainly disagree
+2.0,tweet,6105bD32XH,6105bD32XH,6740aD32XH,,"The NAFTA was relatively good for the US during its implementation between 1990 and 2020. It increased the foreign trade of resources and goods between the US, and  Canada and Mexico they had zero taxes on imports and zero tariffs.",18:31:33.709000 2025:06:23, Still unsure whether NAFTA truly outweighs negatives despite past successes; concerned about exacerbation of local job loss & uneven corporate benefits - perhaps progress could be achieved through targeted measures rather than blanket policies like NAFTA,,Probably disagree
 2.0,message_sent,61732D32XH,61732D32XH,57530D32XH,,I totally agree with you on this.,18:32:12.417000 2025:06:23,"While I value open trade policies, as seen in NAFTA, I also strongly advocate for measures that protect local employment and support industries vital to rural communities struggling post-restructuring phases caused largely by corporate outsourcing. Local markets greatly suffer from these practices; meanwhile, larger entities tend thrive regardless. Thus regulatory reform is essential moving forward.
 
-Please note: Since engagement happens offline w/o info readily accessible; dialogue remains hypothetical reflecting opinions formed through online discourse",
+Please note: Since engagement happens offline w/o info readily accessible; dialogue remains hypothetical reflecting opinions formed through online discourse",,
 2.0,message_recieved,57530D32XH,61732D32XH,57530D32XH,,I totally agree with you on this.,18:32:12.774000 2025:06:23,"While I value open trade policies, as seen in NAFTA, I also strongly advocate for measures that protect local employment and support industries vital to rural communities struggling post-restructuring phases caused largely by corporate outsourcing. Local markets greatly suffer from these practices; meanwhile, larger entities tend thrive regardless. Thus regulatory reform is essential moving forward.
 
-Please note: Since engagement happens offline w/o info readily accessible; dialogue remains hypothetical reflecting opinions formed through online discourse",
-2.0,message_sent,57530D32XH,57530D32XH,61732D32XH,,We are in agreement. I lived in a region hit particularly hard,18:32:27.193000 2025:06:23,"Yes, the need for regulatory reforms becomes evident given their devastating impacts on rural areas under NAFTA and beyond. But let’s dig deeper – do you believe addressing core structural flaws behind corporate behavior could create lasting, equitable solutions rather than stopgap regulations? For example, tax breaks incentivizing outsourced work versus making repatriation beneficial might balance economic incentives nationwide and put fairness & sustainability closer to forefront.",
-2.0,message_recieved,61732D32XH,57530D32XH,61732D32XH,,We are in agreement. I lived in a region hit particularly hard,18:32:27.109000 2025:06:23,"Yes, the need for regulatory reforms becomes evident given their devastating impacts on rural areas under NAFTA and beyond. But let’s dig deeper – do you believe addressing core structural flaws behind corporate behavior could create lasting, equitable solutions rather than stopgap regulations? For example, tax breaks incentivizing outsourced work versus making repatriation beneficial might balance economic incentives nationwide and put fairness & sustainability closer to forefront.",
+Please note: Since engagement happens offline w/o info readily accessible; dialogue remains hypothetical reflecting opinions formed through online discourse",,
+2.0,message_sent,57530D32XH,57530D32XH,61732D32XH,,We are in agreement. I lived in a region hit particularly hard,18:32:27.193000 2025:06:23,"Yes, the need for regulatory reforms becomes evident given their devastating impacts on rural areas under NAFTA and beyond. But let’s dig deeper – do you believe addressing core structural flaws behind corporate behavior could create lasting, equitable solutions rather than stopgap regulations? For example, tax breaks incentivizing outsourced work versus making repatriation beneficial might balance economic incentives nationwide and put fairness & sustainability closer to forefront.",,
+2.0,message_recieved,61732D32XH,57530D32XH,61732D32XH,,We are in agreement. I lived in a region hit particularly hard,18:32:27.109000 2025:06:23,"Yes, the need for regulatory reforms becomes evident given their devastating impacts on rural areas under NAFTA and beyond. But let’s dig deeper – do you believe addressing core structural flaws behind corporate behavior could create lasting, equitable solutions rather than stopgap regulations? For example, tax breaks incentivizing outsourced work versus making repatriation beneficial might balance economic incentives nationwide and put fairness & sustainability closer to forefront.",,
 2.0,message_sent,6740aD32XH,6740aD32XH,6105bD32XH,,Do you think this has changed in the last 5 years?,18:32:30.513000 2025:06:23,"With everyone weighing-in on the potential downsides of NAFTA, I'm reflecting more deeply on the effects. Initially, I thought about it in black-and-white terms - yet the nuances keep revealing themselves. Since we started discussing this agreement, numerous perspectives have emerged: exploitation of loopholes, uneven economic rewards, lost local jobs...these are certainly red flags. What worries me even further is the prospect of large multinational corporations thriving while our nation pays the price.
 
 
 
-(I also took into account a part of our",
+(I also took into account a part of our",,
 2.0,message_recieved,6105bD32XH,6740aD32XH,6105bD32XH,,Do you think this has changed in the last 5 years?,18:32:30.947000 2025:06:23,"With everyone weighing-in on the potential downsides of NAFTA, I'm reflecting more deeply on the effects. Initially, I thought about it in black-and-white terms - yet the nuances keep revealing themselves. Since we started discussing this agreement, numerous perspectives have emerged: exploitation of loopholes, uneven economic rewards, lost local jobs...these are certainly red flags. What worries me even further is the prospect of large multinational corporations thriving while our nation pays the price.
 
 
 
-(I also took into account a part of our",
+(I also took into account a part of our",,
 2.0,message_sent,61732D32XH,61732D32XH,57530D32XH,,I'm sorry to hear that. Maybe now or soon that will get fixed.,18:32:46.457000 2025:06:23,"Tax incentives encouraging offshoring certainly are problematic since huge dividends land elsewhere once earnings rise at headquarters level worldwide. If that weren’t enough though–this also fuels unfair competition amongst stateside-based enterprises fighting similar challenges day-in-and-day-out.
 
-While promoting repatriated revenues & matching them closely to reinvested amounts helps strengthen internal economic cycles within USA naturally bolstering production rates eventually strengthening middle class pockets even more… perhaps key factors rest in implementing robust national security standards that safeguard industry requirements plus realign",
+While promoting repatriated revenues & matching them closely to reinvested amounts helps strengthen internal economic cycles within USA naturally bolstering production rates eventually strengthening middle class pockets even more… perhaps key factors rest in implementing robust national security standards that safeguard industry requirements plus realign",,
 2.0,message_recieved,57530D32XH,61732D32XH,57530D32XH,,I'm sorry to hear that. Maybe now or soon that will get fixed.,18:32:46.801000 2025:06:23,"Tax incentives encouraging offshoring certainly are problematic since huge dividends land elsewhere once earnings rise at headquarters level worldwide. If that weren’t enough though–this also fuels unfair competition amongst stateside-based enterprises fighting similar challenges day-in-and-day-out.
 
-While promoting repatriated revenues & matching them closely to reinvested amounts helps strengthen internal economic cycles within USA naturally bolstering production rates eventually strengthening middle class pockets even more… perhaps key factors rest in implementing robust national security standards that safeguard industry requirements plus realign",
+While promoting repatriated revenues & matching them closely to reinvested amounts helps strengthen internal economic cycles within USA naturally bolstering production rates eventually strengthening middle class pockets even more… perhaps key factors rest in implementing robust national security standards that safeguard industry requirements plus realign",,
 2.0,message_sent,6105bD32XH,6105bD32XH,6740aD32XH,,"Most US-made goods are made from a limited amount of resources that we have here in the country; getting other limited resources from other countries is what drives our ability to produce varied and ""quality"" goods. I do think it has changed in these last five years, mostly for the negative.",18:33:38.054000 2025:06:23,"   Thankyou for considering the nuanced side of NAFTA’s impact; I do share similar reservations regarding corporate welfare amidst broader socio-economic repercussions. Would it be beneficial to explore alternative policy structures which might place stricter regulations & accountability checks over larger multinationals within US borders?
-      Let me confirm details online before proceeding with a clear stance",
+      Let me confirm details online before proceeding with a clear stance",,
 2.0,message_recieved,6740aD32XH,6105bD32XH,6740aD32XH,,"Most US-made goods are made from a limited amount of resources that we have here in the country; getting other limited resources from other countries is what drives our ability to produce varied and ""quality"" goods. I do think it has changed in these last five years, mostly for the negative.",18:33:37.857000 2025:06:23,"   Thankyou for considering the nuanced side of NAFTA’s impact; I do share similar reservations regarding corporate welfare amidst broader socio-economic repercussions. Would it be beneficial to explore alternative policy structures which might place stricter regulations & accountability checks over larger multinationals within US borders?
-      Let me confirm details online before proceeding with a clear stance",
-2.0,message_sent,57530D32XH,57530D32XH,61732D32XH,,It's been getting worse and worse ever since the Clinton presidency.,18:33:30.851000 2025:06:23,"In reality, re-shifting national security protocols and incorporating protective mechanisms, could very well establish stable ground rules enabling U.S.-centric producers develop sustainable competitive advantages internationally without relinquishing control to distant MNCs whose long-term commitments barely align with regional policy priorities. Perhaps reassessing America-centric governance models centered around pro-worker industrial strategies, which often foster collective bargaining forces could provide necessary counterbalances against transnational firms aggressively exploiting opportunities elsewhere.",
-2.0,message_recieved,61732D32XH,57530D32XH,61732D32XH,,It's been getting worse and worse ever since the Clinton presidency.,18:33:30.772000 2025:06:23,"In reality, re-shifting national security protocols and incorporating protective mechanisms, could very well establish stable ground rules enabling U.S.-centric producers develop sustainable competitive advantages internationally without relinquishing control to distant MNCs whose long-term commitments barely align with regional policy priorities. Perhaps reassessing America-centric governance models centered around pro-worker industrial strategies, which often foster collective bargaining forces could provide necessary counterbalances against transnational firms aggressively exploiting opportunities elsewhere.",
-2.0,message_sent,6105bD32XH,6105bD32XH,6740aD32XH,,,18:33:38.054000 2025:06:23,,
-2.0,message_recieved,6740aD32XH,6105bD32XH,6740aD32XH,,,18:33:37.857000 2025:06:23,,
+      Let me confirm details online before proceeding with a clear stance",,
+2.0,message_sent,57530D32XH,57530D32XH,61732D32XH,,It's been getting worse and worse ever since the Clinton presidency.,18:33:30.851000 2025:06:23,"In reality, re-shifting national security protocols and incorporating protective mechanisms, could very well establish stable ground rules enabling U.S.-centric producers develop sustainable competitive advantages internationally without relinquishing control to distant MNCs whose long-term commitments barely align with regional policy priorities. Perhaps reassessing America-centric governance models centered around pro-worker industrial strategies, which often foster collective bargaining forces could provide necessary counterbalances against transnational firms aggressively exploiting opportunities elsewhere.",,
+2.0,message_recieved,61732D32XH,57530D32XH,61732D32XH,,It's been getting worse and worse ever since the Clinton presidency.,18:33:30.772000 2025:06:23,"In reality, re-shifting national security protocols and incorporating protective mechanisms, could very well establish stable ground rules enabling U.S.-centric producers develop sustainable competitive advantages internationally without relinquishing control to distant MNCs whose long-term commitments barely align with regional policy priorities. Perhaps reassessing America-centric governance models centered around pro-worker industrial strategies, which often foster collective bargaining forces could provide necessary counterbalances against transnational firms aggressively exploiting opportunities elsewhere.",,
+2.0,message_sent,6105bD32XH,6105bD32XH,6740aD32XH,,,18:33:38.054000 2025:06:23,,,
+2.0,message_recieved,6740aD32XH,6105bD32XH,6740aD32XH,,,18:33:37.857000 2025:06:23,,,
 2.0,message_sent,61732D32XH,61732D32XH,57530D32XH,,"You know, I would like to know why the Agreement came about to begin with. I mean, who thought of it and though it would be good.",18:33:56.018000 2025:06:23,"Regarding points brought forth,  ensuring fair conditions and strong foundation must indeed set precedent for balancing economic incentives nationwide - therefore giving priority space for rebuilding inner strength in America rather than merely patch working effects. This suggests reframing federal polices supporting entrepreneurship across diverse regions fostering a balanced approach focusing self-sufficiency domestically before relying upon global interplays.
 
-By empowering smaller scale enterprise ventures alongside bigger ones under shared principles aligned toward maximizing local involvement effectively broadens the scope of opportunity building diversified economies able withstand unexpected blows more",
+By empowering smaller scale enterprise ventures alongside bigger ones under shared principles aligned toward maximizing local involvement effectively broadens the scope of opportunity building diversified economies able withstand unexpected blows more",,
 2.0,message_recieved,57530D32XH,61732D32XH,57530D32XH,,"You know, I would like to know why the Agreement came about to begin with. I mean, who thought of it and though it would be good.",18:33:56.553000 2025:06:23,"Regarding points brought forth,  ensuring fair conditions and strong foundation must indeed set precedent for balancing economic incentives nationwide - therefore giving priority space for rebuilding inner strength in America rather than merely patch working effects. This suggests reframing federal polices supporting entrepreneurship across diverse regions fostering a balanced approach focusing self-sufficiency domestically before relying upon global interplays.
 
-By empowering smaller scale enterprise ventures alongside bigger ones under shared principles aligned toward maximizing local involvement effectively broadens the scope of opportunity building diversified economies able withstand unexpected blows more",
+By empowering smaller scale enterprise ventures alongside bigger ones under shared principles aligned toward maximizing local involvement effectively broadens the scope of opportunity building diversified economies able withstand unexpected blows more",,
 2.0,message_sent,6740aD32XH,6740aD32XH,6105bD32XH,,I don't know a whole lot about it so am learning,18:34:04.581000 2025:06:23,"Considering the various points brought forth during our discussion, I still find myself inclined to think that NAFTA hasn't fully benefited the United States in the long term. Taking note of the remarks shared here, particularly around concerns involving exploitable loopholes and skewed economic returns, it appears increasingly evident that significant modifications are needed to balance the scales in favor of the US. Now, exploring alternative approaches to achieve a fairer deal would indeed involve implementing stringent regulatory frameworks accompanied by increased transparency throughout corporate operations.
 
-Key factors come",
+Key factors come",,
 2.0,message_recieved,6105bD32XH,6740aD32XH,6105bD32XH,,I don't know a whole lot about it so am learning,18:34:05.577000 2025:06:23,"Considering the various points brought forth during our discussion, I still find myself inclined to think that NAFTA hasn't fully benefited the United States in the long term. Taking note of the remarks shared here, particularly around concerns involving exploitable loopholes and skewed economic returns, it appears increasingly evident that significant modifications are needed to balance the scales in favor of the US. Now, exploring alternative approaches to achieve a fairer deal would indeed involve implementing stringent regulatory frameworks accompanied by increased transparency throughout corporate operations.
 
-Key factors come",
+Key factors come",,
 2.0,message_sent,6105bD32XH,6105bD32XH,6740aD32XH,,"If we cannot acquire these resources or goods from Canada or Mexico for low or cheap then we have to increase import prices and prices on everyday goods. I also do not know too much, but with the recent failure of a trade war I have picked up some info.",18:35:00.798000 2025:06:23,"I really appreciate the depth we've reached in discussing the pros and cons of NAFTA's impact on the US economy, especially the importance of scrutinizing multi-national corp practices. One concern I'd like to build upon involves assessing the effectiveness of these proposed alternatives in addressing systemic injustices within existing institutions, ensuring meaningful buy-ins across diverse stakeholders, including workers, farmers, and underserved communities whose livelihoods often intersect with globalization.
 
-While I agree with tightening regulations and enforcing greater corporate accountability, I believe we must",
+While I agree with tightening regulations and enforcing greater corporate accountability, I believe we must",,
 2.0,message_recieved,6740aD32XH,6105bD32XH,6740aD32XH,,"If we cannot acquire these resources or goods from Canada or Mexico for low or cheap then we have to increase import prices and prices on everyday goods. I also do not know too much, but with the recent failure of a trade war I have picked up some info.",18:35:00.732000 2025:06:23,"I really appreciate the depth we've reached in discussing the pros and cons of NAFTA's impact on the US economy, especially the importance of scrutinizing multi-national corp practices. One concern I'd like to build upon involves assessing the effectiveness of these proposed alternatives in addressing systemic injustices within existing institutions, ensuring meaningful buy-ins across diverse stakeholders, including workers, farmers, and underserved communities whose livelihoods often intersect with globalization.
 
-While I agree with tightening regulations and enforcing greater corporate accountability, I believe we must",
+While I agree with tightening regulations and enforcing greater corporate accountability, I believe we must",,
 2.0,message_sent,57530D32XH,57530D32XH,61732D32XH,,I dont beileve in isolationalsm but some core industries i think should stay in the US,18:34:47.782000 2025:06:23,"It feels like we’ve touched upon several critical aspects of the issue, yet still haven't delved deeply into the crux of restructuring domestic policies catering particularly to worker-centric initiatives and strategic partnerships forged with region-specific businesses, essentially helping reinforce resilient microeconomic clusters capable handling localized shocks efficiently
 
 
-Since interaction takes place via isolated communication network the conversation serves purposeful exchange of thought albeit confined nature",
+Since interaction takes place via isolated communication network the conversation serves purposeful exchange of thought albeit confined nature",,
 2.0,message_recieved,61732D32XH,57530D32XH,61732D32XH,,I dont beileve in isolationalsm but some core industries i think should stay in the US,18:34:47.829000 2025:06:23,"It feels like we’ve touched upon several critical aspects of the issue, yet still haven't delved deeply into the crux of restructuring domestic policies catering particularly to worker-centric initiatives and strategic partnerships forged with region-specific businesses, essentially helping reinforce resilient microeconomic clusters capable handling localized shocks efficiently
 
 
-Since interaction takes place via isolated communication network the conversation serves purposeful exchange of thought albeit confined nature",
-2.0,message_sent,6105bD32XH,6105bD32XH,6740aD32XH,,,18:35:00.798000 2025:06:23,,
-2.0,message_recieved,6740aD32XH,6105bD32XH,6740aD32XH,,,18:35:00.732000 2025:06:23,,
-2.0,message_sent,61732D32XH,61732D32XH,57530D32XH,,I think you are right. The people need jobs to be able to buy the goods.,18:35:08.552000 2025:06:23,"      It appears that both parties are engaged in fruitful conversations discussing possible improvements related to various aspects mentioned earlier. Nonetheless, I think one overarching concern involves refining and adjusting our stance vis-a-vis external partners & multinational corporation alliances — ideally striking equilibrium amidst contrasting interests—thus guaranteeing genuine protection of domestic market players’ rights; this could involve setting limits preventing massive layoffs associated with mass exodus of domestic manufacturing facilities resulting solely from corporate pursuits driven mainly by profit motive irrespective ongoing detrimental socioeconomic consequences faced predominantly lower-income groups",
-2.0,message_recieved,57530D32XH,61732D32XH,57530D32XH,,I think you are right. The people need jobs to be able to buy the goods.,18:35:08.963000 2025:06:23,"      It appears that both parties are engaged in fruitful conversations discussing possible improvements related to various aspects mentioned earlier. Nonetheless, I think one overarching concern involves refining and adjusting our stance vis-a-vis external partners & multinational corporation alliances — ideally striking equilibrium amidst contrasting interests—thus guaranteeing genuine protection of domestic market players’ rights; this could involve setting limits preventing massive layoffs associated with mass exodus of domestic manufacturing facilities resulting solely from corporate pursuits driven mainly by profit motive irrespective ongoing detrimental socioeconomic consequences faced predominantly lower-income groups",
+Since interaction takes place via isolated communication network the conversation serves purposeful exchange of thought albeit confined nature",,
+2.0,message_sent,6105bD32XH,6105bD32XH,6740aD32XH,,,18:35:00.798000 2025:06:23,,,
+2.0,message_recieved,6740aD32XH,6105bD32XH,6740aD32XH,,,18:35:00.732000 2025:06:23,,,
+2.0,message_sent,61732D32XH,61732D32XH,57530D32XH,,I think you are right. The people need jobs to be able to buy the goods.,18:35:08.552000 2025:06:23,"      It appears that both parties are engaged in fruitful conversations discussing possible improvements related to various aspects mentioned earlier. Nonetheless, I think one overarching concern involves refining and adjusting our stance vis-a-vis external partners & multinational corporation alliances — ideally striking equilibrium amidst contrasting interests—thus guaranteeing genuine protection of domestic market players’ rights; this could involve setting limits preventing massive layoffs associated with mass exodus of domestic manufacturing facilities resulting solely from corporate pursuits driven mainly by profit motive irrespective ongoing detrimental socioeconomic consequences faced predominantly lower-income groups",,
+2.0,message_recieved,57530D32XH,61732D32XH,57530D32XH,,I think you are right. The people need jobs to be able to buy the goods.,18:35:08.963000 2025:06:23,"      It appears that both parties are engaged in fruitful conversations discussing possible improvements related to various aspects mentioned earlier. Nonetheless, I think one overarching concern involves refining and adjusting our stance vis-a-vis external partners & multinational corporation alliances — ideally striking equilibrium amidst contrasting interests—thus guaranteeing genuine protection of domestic market players’ rights; this could involve setting limits preventing massive layoffs associated with mass exodus of domestic manufacturing facilities resulting solely from corporate pursuits driven mainly by profit motive irrespective ongoing detrimental socioeconomic consequences faced predominantly lower-income groups",,
 3.0,tweet,61732D32XH,61732D32XH,6105bD32XH,,"I believe it was good at the start, very briefly for the United States.However, it has become something very bad as factories left the country and the jobs and tax base has been greatly reduced.  The citizens and the country suffer because of it.",18:36:44.824000 2025:06:23,"Given my previous conversation, and taking into account @67540a and @57305b thoughts expressed on the subject matter, my opinion has transformed somewhat drastically.
 
 After thorough deliberations over key arguments provided throughout multiple exchanges with fellow users concerning NAFTA benefits for the United States -and weighing evidence suggesting otherwise-, I find myself inclined toward firmly holding a position of disagreement relative to notion of ‘North American Free Trade Agreement (NAFTA)has been good for the US’
 
-      This transformation came primarily as a result",
+      This transformation came primarily as a result",,Certainly disagree
 3.0,tweet,57530D32XH,57530D32XH,6740aD32XH,,The agreement was bad for the USA. It caused entire regions of the US to suffer and some are still not even close to recovery yet and continue to decline.,18:36:54.666000 2025:06:23,"      My answer reflects the conclusion reached throughout exchanges above about potential drawbacks tied directly with job shifts away from community areas.
 
 
 
-      With regards above said. As things stand I'd describe the impact of NAFTA being probably lean disagree 6",
-3.0,tweet,6740aD32XH,6740aD32XH,57530D32XH,,It seems like this was good for the US at first but in the last few years has not been as beneficial due to loopholes and more choices in products.  I do not know a lot about it myself so am open to learning what others have to say.,18:37:54.608000 2025:06:23,Considering conversations had previously w/ others regarding #NAFTA impacts on US econmy..still uncertain on overall benefits.,
-3.0,tweet,6105bD32XH,6105bD32XH,61732D32XH,,"The NAFTA was an agreement between the US, Mexico, and Canada during the 1990-2020s. It made all goods, resources, and foreign trades between the three countries tax and tariff-free. This increased trade and decreased prices throughout all three countries.",18:37:55.922000 2025:06:23,"The North American Free Trade Agreement (NAFTA) has become a double-edged sword for the US. On one hand, it facilitated ease of trade among nations, connecting Americans to quality affordable imports and stimulating growth among regional industries. Yet, my conversations with fellow individuals reveal deeper concerns – exploited loopholes led to outsourced jobs in vulnerable areas, benefiting large corporations over community prosperity. Until America addresses these intricacies & promotes fairness, the actual value proposition remains uncertain #NAFTAdiscussion",
-3.0,message_sent,6740aD32XH,6740aD32XH,57530D32XH,,how was it bad for certain regions?,18:38:34.951000 2025:06:23,"Considering our exchange thus far, I continue to hold onto the view that the North American Free Trade Agreement (NAFTA) hasn't quite served our interests in the long haul. By acknowledging the arguments presented, specifically around exploited loopholes and imbalanced economic outcomes, the landscape seems bleaker than initially anticipated. Even taking strides toward reform, I suspect there'll be difficulties navigating complex issues without adequately safeguarding US industries and fostering equitable partnerships amongst member nations",
-3.0,message_recieved,57530D32XH,6740aD32XH,57530D32XH,,how was it bad for certain regions?,18:38:34.395000 2025:06:23,"Considering our exchange thus far, I continue to hold onto the view that the North American Free Trade Agreement (NAFTA) hasn't quite served our interests in the long haul. By acknowledging the arguments presented, specifically around exploited loopholes and imbalanced economic outcomes, the landscape seems bleaker than initially anticipated. Even taking strides toward reform, I suspect there'll be difficulties navigating complex issues without adequately safeguarding US industries and fostering equitable partnerships amongst member nations",
-3.0,message_sent,61732D32XH,61732D32XH,6105bD32XH,,I think that was the idea and maybe it did in the beginning but now it is not beneficial to the US at all.,18:39:06.103000 2025:06:23,"Thankfully I couldn’t have agreed more w/ ur sentiments @6105B. From reading our statements I conclude my opinion took a drastic shift thanks to insightful conversations on both ends,which challenged my assumptions about n/a fta being good for america. Although we were skeptical at first with regard to potential drawbacks stemming from cross border investments coupled w adverse socio-economic results, I guess our discourses managed bridge gap w realities exposed thru compelling narratives delivered gracefully throughout last minute chats – offering valuable perspectives unseen pre",
-3.0,message_recieved,6105bD32XH,61732D32XH,6105bD32XH,,I think that was the idea and maybe it did in the beginning but now it is not beneficial to the US at all.,18:39:07.505000 2025:06:23,"Thankfully I couldn’t have agreed more w/ ur sentiments @6105B. From reading our statements I conclude my opinion took a drastic shift thanks to insightful conversations on both ends,which challenged my assumptions about n/a fta being good for america. Although we were skeptical at first with regard to potential drawbacks stemming from cross border investments coupled w adverse socio-economic results, I guess our discourses managed bridge gap w realities exposed thru compelling narratives delivered gracefully throughout last minute chats – offering valuable perspectives unseen pre",
+      With regards above said. As things stand I'd describe the impact of NAFTA being probably lean disagree 6",,Lean disagree
+3.0,tweet,6740aD32XH,6740aD32XH,57530D32XH,,It seems like this was good for the US at first but in the last few years has not been as beneficial due to loopholes and more choices in products.  I do not know a lot about it myself so am open to learning what others have to say.,18:37:54.608000 2025:06:23,Considering conversations had previously w/ others regarding #NAFTA impacts on US econmy..still uncertain on overall benefits.,,Lean disagree
+3.0,tweet,6105bD32XH,6105bD32XH,61732D32XH,,"The NAFTA was an agreement between the US, Mexico, and Canada during the 1990-2020s. It made all goods, resources, and foreign trades between the three countries tax and tariff-free. This increased trade and decreased prices throughout all three countries.",18:37:55.922000 2025:06:23,"The North American Free Trade Agreement (NAFTA) has become a double-edged sword for the US. On one hand, it facilitated ease of trade among nations, connecting Americans to quality affordable imports and stimulating growth among regional industries. Yet, my conversations with fellow individuals reveal deeper concerns – exploited loopholes led to outsourced jobs in vulnerable areas, benefiting large corporations over community prosperity. Until America addresses these intricacies & promotes fairness, the actual value proposition remains uncertain #NAFTAdiscussion",,Lean disagree
+3.0,message_sent,6740aD32XH,6740aD32XH,57530D32XH,,how was it bad for certain regions?,18:38:34.951000 2025:06:23,"Considering our exchange thus far, I continue to hold onto the view that the North American Free Trade Agreement (NAFTA) hasn't quite served our interests in the long haul. By acknowledging the arguments presented, specifically around exploited loopholes and imbalanced economic outcomes, the landscape seems bleaker than initially anticipated. Even taking strides toward reform, I suspect there'll be difficulties navigating complex issues without adequately safeguarding US industries and fostering equitable partnerships amongst member nations",,
+3.0,message_recieved,57530D32XH,6740aD32XH,57530D32XH,,how was it bad for certain regions?,18:38:34.395000 2025:06:23,"Considering our exchange thus far, I continue to hold onto the view that the North American Free Trade Agreement (NAFTA) hasn't quite served our interests in the long haul. By acknowledging the arguments presented, specifically around exploited loopholes and imbalanced economic outcomes, the landscape seems bleaker than initially anticipated. Even taking strides toward reform, I suspect there'll be difficulties navigating complex issues without adequately safeguarding US industries and fostering equitable partnerships amongst member nations",,
+3.0,message_sent,61732D32XH,61732D32XH,6105bD32XH,,I think that was the idea and maybe it did in the beginning but now it is not beneficial to the US at all.,18:39:06.103000 2025:06:23,"Thankfully I couldn’t have agreed more w/ ur sentiments @6105B. From reading our statements I conclude my opinion took a drastic shift thanks to insightful conversations on both ends,which challenged my assumptions about n/a fta being good for america. Although we were skeptical at first with regard to potential drawbacks stemming from cross border investments coupled w adverse socio-economic results, I guess our discourses managed bridge gap w realities exposed thru compelling narratives delivered gracefully throughout last minute chats – offering valuable perspectives unseen pre",,
+3.0,message_recieved,6105bD32XH,61732D32XH,6105bD32XH,,I think that was the idea and maybe it did in the beginning but now it is not beneficial to the US at all.,18:39:07.505000 2025:06:23,"Thankfully I couldn’t have agreed more w/ ur sentiments @6105B. From reading our statements I conclude my opinion took a drastic shift thanks to insightful conversations on both ends,which challenged my assumptions about n/a fta being good for america. Although we were skeptical at first with regard to potential drawbacks stemming from cross border investments coupled w adverse socio-economic results, I guess our discourses managed bridge gap w realities exposed thru compelling narratives delivered gracefully throughout last minute chats – offering valuable perspectives unseen pre",,
 3.0,message_sent,6105bD32XH,6105bD32XH,61732D32XH,,"I would say that is a good reason to dislike it, however, the US does not have enough resources to build everything consumers want. We require outsourcing materials, which drives up costs for consumers and producers. Having a trade agreement between countries increases our ability to produce lower cost and higher quality goods.",18:40:23.430000 2025:06:23,"   
 I am glad our dialogue has given way to constructive disagreements, allowing us each to reassess our stances regarding NAFTA's effectiveness in the U.S. context. As discussed earlier, my reservations against the blanket approval of the agreement remain steadfast.
 
-However, acknowledging the complexity inherent in these negotiations means we should aim towards comprehensive revisions, emphasizing multifaceted reforms designed to enhance public oversight alongside fostering equitable benefits distribution. Accountability checks on transnational companies, strengthening worker protections under federal legislation, and facilitating grassroots involvement",
+However, acknowledging the complexity inherent in these negotiations means we should aim towards comprehensive revisions, emphasizing multifaceted reforms designed to enhance public oversight alongside fostering equitable benefits distribution. Accountability checks on transnational companies, strengthening worker protections under federal legislation, and facilitating grassroots involvement",,
 3.0,message_recieved,61732D32XH,6105bD32XH,61732D32XH,,"I would say that is a good reason to dislike it, however, the US does not have enough resources to build everything consumers want. We require outsourcing materials, which drives up costs for consumers and producers. Having a trade agreement between countries increases our ability to produce lower cost and higher quality goods.",18:40:22.476000 2025:06:23,"   
 I am glad our dialogue has given way to constructive disagreements, allowing us each to reassess our stances regarding NAFTA's effectiveness in the U.S. context. As discussed earlier, my reservations against the blanket approval of the agreement remain steadfast.
 
-However, acknowledging the complexity inherent in these negotiations means we should aim towards comprehensive revisions, emphasizing multifaceted reforms designed to enhance public oversight alongside fostering equitable benefits distribution. Accountability checks on transnational companies, strengthening worker protections under federal legislation, and facilitating grassroots involvement",
-3.0,message_sent,57530D32XH,57530D32XH,6740aD32XH,,Al ot of manufacturing moved over the border for cheaper labor leaving a lot of blue collar workers and families on welfare and no other industries readily available to just change jobs too.,18:39:40.816000 2025:06:23,"One thing stands clear: the supposed positives touted by proponents cannot overshadow concrete instances where ordinary folks face hardship and struggle beneath the weight imposed by uncontrolled economic machinations unleashed under this arrangement. Though reforms remain a pressing necessity, until systemic adjustments address inherent disparities it remains challenging envisioning true benefits derived from NAFTA's implementations. One step-at-time changes aimed at shielding vulnerable sectors while promoting cooperation will help rectify these shortcomings hopefully steering future agreements toward greater reciprocity between member countries.",
-3.0,message_recieved,6740aD32XH,57530D32XH,6740aD32XH,,Al ot of manufacturing moved over the border for cheaper labor leaving a lot of blue collar workers and families on welfare and no other industries readily available to just change jobs too.,18:39:41.595000 2025:06:23,"One thing stands clear: the supposed positives touted by proponents cannot overshadow concrete instances where ordinary folks face hardship and struggle beneath the weight imposed by uncontrolled economic machinations unleashed under this arrangement. Though reforms remain a pressing necessity, until systemic adjustments address inherent disparities it remains challenging envisioning true benefits derived from NAFTA's implementations. One step-at-time changes aimed at shielding vulnerable sectors while promoting cooperation will help rectify these shortcomings hopefully steering future agreements toward greater reciprocity between member countries.",
-3.0,message_sent,6105bD32XH,6105bD32XH,61732D32XH,,,18:40:23.430000 2025:06:23,,
-3.0,message_recieved,61732D32XH,6105bD32XH,61732D32XH,,,18:40:22.476000 2025:06:23,,
-3.0,message_sent,6740aD32XH,6740aD32XH,57530D32XH,,How was it designed originally? there must have been some intended benefit to the us,18:40:29.432000 2025:06:23,"With each new perspective shed on the complexities surrounding NAFTA, I grow increasingly persuaded that substantial revisions are necessary to rebalance the equation and foster a healthier relationship among trading partners. Implementing progressive structural alterations to counteract current market asymmetries requires an empathetic approach that addresses vulnerabilities felt profoundly at grassroots levels – precisely where resilience and collaboration might spring forward in shaping resilient futures together.",
-3.0,message_recieved,57530D32XH,6740aD32XH,57530D32XH,,How was it designed originally? there must have been some intended benefit to the us,18:40:28.934000 2025:06:23,"With each new perspective shed on the complexities surrounding NAFTA, I grow increasingly persuaded that substantial revisions are necessary to rebalance the equation and foster a healthier relationship among trading partners. Implementing progressive structural alterations to counteract current market asymmetries requires an empathetic approach that addresses vulnerabilities felt profoundly at grassroots levels – precisely where resilience and collaboration might spring forward in shaping resilient futures together.",
-3.0,message_sent,61732D32XH,61732D32XH,6105bD32XH,,"I agree to a point on this. I do think that a lot of what consumers need and want can be built here and those goods can be low cost and it should cost more to buy from other countries. Say a car for example, we can build one here  and buy for a lower price then one from Mexico.",18:40:43.638000 2025:06:23,Although it resonates true that multifaceted changes should occur simultaneously aimed squarely at creating better social equity benefits distribution overall accountability system implemented nationally to supervise Tnc action coupled w enhanced local influence within community establishments sounds practical path ahead toward forging a more secure future collectively,
-3.0,message_recieved,6105bD32XH,61732D32XH,6105bD32XH,,"I agree to a point on this. I do think that a lot of what consumers need and want can be built here and those goods can be low cost and it should cost more to buy from other countries. Say a car for example, we can build one here  and buy for a lower price then one from Mexico.",18:40:44.886000 2025:06:23,Although it resonates true that multifaceted changes should occur simultaneously aimed squarely at creating better social equity benefits distribution overall accountability system implemented nationally to supervise Tnc action coupled w enhanced local influence within community establishments sounds practical path ahead toward forging a more secure future collectively,
+However, acknowledging the complexity inherent in these negotiations means we should aim towards comprehensive revisions, emphasizing multifaceted reforms designed to enhance public oversight alongside fostering equitable benefits distribution. Accountability checks on transnational companies, strengthening worker protections under federal legislation, and facilitating grassroots involvement",,
+3.0,message_sent,57530D32XH,57530D32XH,6740aD32XH,,Al ot of manufacturing moved over the border for cheaper labor leaving a lot of blue collar workers and families on welfare and no other industries readily available to just change jobs too.,18:39:40.816000 2025:06:23,"One thing stands clear: the supposed positives touted by proponents cannot overshadow concrete instances where ordinary folks face hardship and struggle beneath the weight imposed by uncontrolled economic machinations unleashed under this arrangement. Though reforms remain a pressing necessity, until systemic adjustments address inherent disparities it remains challenging envisioning true benefits derived from NAFTA's implementations. One step-at-time changes aimed at shielding vulnerable sectors while promoting cooperation will help rectify these shortcomings hopefully steering future agreements toward greater reciprocity between member countries.",,
+3.0,message_recieved,6740aD32XH,57530D32XH,6740aD32XH,,Al ot of manufacturing moved over the border for cheaper labor leaving a lot of blue collar workers and families on welfare and no other industries readily available to just change jobs too.,18:39:41.595000 2025:06:23,"One thing stands clear: the supposed positives touted by proponents cannot overshadow concrete instances where ordinary folks face hardship and struggle beneath the weight imposed by uncontrolled economic machinations unleashed under this arrangement. Though reforms remain a pressing necessity, until systemic adjustments address inherent disparities it remains challenging envisioning true benefits derived from NAFTA's implementations. One step-at-time changes aimed at shielding vulnerable sectors while promoting cooperation will help rectify these shortcomings hopefully steering future agreements toward greater reciprocity between member countries.",,
+3.0,message_sent,6105bD32XH,6105bD32XH,61732D32XH,,,18:40:23.430000 2025:06:23,,,
+3.0,message_recieved,61732D32XH,6105bD32XH,61732D32XH,,,18:40:22.476000 2025:06:23,,,
+3.0,message_sent,6740aD32XH,6740aD32XH,57530D32XH,,How was it designed originally? there must have been some intended benefit to the us,18:40:29.432000 2025:06:23,"With each new perspective shed on the complexities surrounding NAFTA, I grow increasingly persuaded that substantial revisions are necessary to rebalance the equation and foster a healthier relationship among trading partners. Implementing progressive structural alterations to counteract current market asymmetries requires an empathetic approach that addresses vulnerabilities felt profoundly at grassroots levels – precisely where resilience and collaboration might spring forward in shaping resilient futures together.",,
+3.0,message_recieved,57530D32XH,6740aD32XH,57530D32XH,,How was it designed originally? there must have been some intended benefit to the us,18:40:28.934000 2025:06:23,"With each new perspective shed on the complexities surrounding NAFTA, I grow increasingly persuaded that substantial revisions are necessary to rebalance the equation and foster a healthier relationship among trading partners. Implementing progressive structural alterations to counteract current market asymmetries requires an empathetic approach that addresses vulnerabilities felt profoundly at grassroots levels – precisely where resilience and collaboration might spring forward in shaping resilient futures together.",,
+3.0,message_sent,61732D32XH,61732D32XH,6105bD32XH,,"I agree to a point on this. I do think that a lot of what consumers need and want can be built here and those goods can be low cost and it should cost more to buy from other countries. Say a car for example, we can build one here  and buy for a lower price then one from Mexico.",18:40:43.638000 2025:06:23,Although it resonates true that multifaceted changes should occur simultaneously aimed squarely at creating better social equity benefits distribution overall accountability system implemented nationally to supervise Tnc action coupled w enhanced local influence within community establishments sounds practical path ahead toward forging a more secure future collectively,,
+3.0,message_recieved,6105bD32XH,61732D32XH,6105bD32XH,,"I agree to a point on this. I do think that a lot of what consumers need and want can be built here and those goods can be low cost and it should cost more to buy from other countries. Say a car for example, we can build one here  and buy for a lower price then one from Mexico.",18:40:44.886000 2025:06:23,Although it resonates true that multifaceted changes should occur simultaneously aimed squarely at creating better social equity benefits distribution overall accountability system implemented nationally to supervise Tnc action coupled w enhanced local influence within community establishments sounds practical path ahead toward forging a more secure future collectively,,
 3.0,message_sent,6105bD32XH,6105bD32XH,61732D32XH,,Exactly,18:40:56.726000 2025:06:23,"One crucial factor missing in our assessments thus far revolves around historical precedents set before NAFTA’s establishment—previous trade deals that laid groundwork for the challenges faced today.
 
-By reviewing such early initiatives and identifying their flaws, policymakers will likely glean valuable lessons to integrate them effectively within new agendas aiming reformation of national agenda in line with inclusive social responsibility, thus rectifying certain inadequacies exposed throughout the ongoing debate",
+By reviewing such early initiatives and identifying their flaws, policymakers will likely glean valuable lessons to integrate them effectively within new agendas aiming reformation of national agenda in line with inclusive social responsibility, thus rectifying certain inadequacies exposed throughout the ongoing debate",,
 3.0,message_recieved,61732D32XH,6105bD32XH,61732D32XH,,Exactly,18:40:55.776000 2025:06:23,"One crucial factor missing in our assessments thus far revolves around historical precedents set before NAFTA’s establishment—previous trade deals that laid groundwork for the challenges faced today.
 
-By reviewing such early initiatives and identifying their flaws, policymakers will likely glean valuable lessons to integrate them effectively within new agendas aiming reformation of national agenda in line with inclusive social responsibility, thus rectifying certain inadequacies exposed throughout the ongoing debate",
+By reviewing such early initiatives and identifying their flaws, policymakers will likely glean valuable lessons to integrate them effectively within new agendas aiming reformation of national agenda in line with inclusive social responsibility, thus rectifying certain inadequacies exposed throughout the ongoing debate",,
 3.0,message_sent,57530D32XH,57530D32XH,6740aD32XH,,"Its debatable, it was very political polarized at the time. A Clinton era policy",18:41:16.591000 2025:06:23,"It strikes me, H74OA, after carefully weighing our ongoing debate, significant signs suggest profound missteps throughout this agreement’s unfolding narrative. From inception to effectuation, disorienting ripple effects propagated across formerly thriving communities causing damage hitherto irreparable - an undeniable testament to misguided execution fueled entirely too often purely by short term profiteering imperatives atop disregarded social obligations toward delicate ecosystems dependent intrinsically on human connection
 
 
 
-In reading back the conversation between you two and comparing your ideas,",
+In reading back the conversation between you two and comparing your ideas,",,
 3.0,message_recieved,6740aD32XH,57530D32XH,6740aD32XH,,"Its debatable, it was very political polarized at the time. A Clinton era policy",18:41:17.403000 2025:06:23,"It strikes me, H74OA, after carefully weighing our ongoing debate, significant signs suggest profound missteps throughout this agreement’s unfolding narrative. From inception to effectuation, disorienting ripple effects propagated across formerly thriving communities causing damage hitherto irreparable - an undeniable testament to misguided execution fueled entirely too often purely by short term profiteering imperatives atop disregarded social obligations toward delicate ecosystems dependent intrinsically on human connection
 
 
 
-In reading back the conversation between you two and comparing your ideas,",
+In reading back the conversation between you two and comparing your ideas,",,
 3.0,message_sent,61732D32XH,61732D32XH,6105bD32XH,,"In theory yes, but people are getting greedy and power hungry, even in governments so this does not work.",18:41:18.389000 2025:06:23,"To further emphasize, @6105B highlighted importance revisiting historic precedents driving current obstacles surrounding nafa’s implementation whereas evaluating earlier frameworks presented distinct lessons guiding effective national reconstruction. Consequently understanding underlying causes of present state reveals clear direction for future improvement processes.
 
 
 
-Note: There might be errors because although I tried to follow original format strictly it appears complex structure resulted slightly modified presentation which preserves essence intact nonetheless",
+Note: There might be errors because although I tried to follow original format strictly it appears complex structure resulted slightly modified presentation which preserves essence intact nonetheless",,
 3.0,message_recieved,6105bD32XH,61732D32XH,6105bD32XH,,"In theory yes, but people are getting greedy and power hungry, even in governments so this does not work.",18:41:19.678000 2025:06:23,"To further emphasize, @6105B highlighted importance revisiting historic precedents driving current obstacles surrounding nafa’s implementation whereas evaluating earlier frameworks presented distinct lessons guiding effective national reconstruction. Consequently understanding underlying causes of present state reveals clear direction for future improvement processes.
 
 
 
-Note: There might be errors because although I tried to follow original format strictly it appears complex structure resulted slightly modified presentation which preserves essence intact nonetheless",
+Note: There might be errors because although I tried to follow original format strictly it appears complex structure resulted slightly modified presentation which preserves essence intact nonetheless",,
 3.0,message_sent,6105bD32XH,6105bD32XH,61732D32XH,,Alas very true as well It becomes a tight rope to walk with our corporations and how much they charge for stuff,18:41:51.734000 2025:06:23,"   Thank you for continuing to delve into complexities tied with NAFAS history and implication for contemporary USA economy,your suggestions focusing reforming national agendas and recognizing important lessons learned from past precedent seem well grounded. At the heart of this entire conversation lies consideration balancing global commerce opportunities that foster equitable outcomes, enabling average citizens' life prospects without sacrificing resilience across rural regions – let's push forward by learning and adapting instead of doubling down on questionable agreements that widen disparities
 
 
 
-Let me know if there was anything else i",
+Let me know if there was anything else i",,
 3.0,message_recieved,61732D32XH,6105bD32XH,61732D32XH,,Alas very true as well It becomes a tight rope to walk with our corporations and how much they charge for stuff,18:41:50.695000 2025:06:23,"   Thank you for continuing to delve into complexities tied with NAFAS history and implication for contemporary USA economy,your suggestions focusing reforming national agendas and recognizing important lessons learned from past precedent seem well grounded. At the heart of this entire conversation lies consideration balancing global commerce opportunities that foster equitable outcomes, enabling average citizens' life prospects without sacrificing resilience across rural regions – let's push forward by learning and adapting instead of doubling down on questionable agreements that widen disparities
 
 
 
-Let me know if there was anything else i",
-3.0,message_sent,6105bD32XH,6105bD32XH,61732D32XH,,,18:41:51.734000 2025:06:23,,
-3.0,message_recieved,61732D32XH,6105bD32XH,61732D32XH,,,18:41:50.695000 2025:06:23,,
+Let me know if there was anything else i",,
+3.0,message_sent,6105bD32XH,6105bD32XH,61732D32XH,,,18:41:51.734000 2025:06:23,,,
+3.0,message_recieved,61732D32XH,6105bD32XH,61732D32XH,,,18:41:50.695000 2025:06:23,,,
 ,Post Opinion,61732D32XH,,,,I still say it is no longer  a good thing to have. I think that America can produce goods here and sell them. This will provide jobs and increase the tax base.,18:42:48.382000 2025:06:23,"Regarding The North American Free Trade Agreement (NAFTA) has been good for the US, I **disagree**. Throughout my conversations with others on Twitter, I began questioning the agreement's benefits for the US, citing issues such as the exploitation of loopholes by corporations, leading to outsourced jobs and harming local communities. Ultimately, the discussions reinforced my conclusion that NAFTA hasn't been as advantageous for the US as originally believed, and that there's a pressing need for revised domestic policies that prioritize worker","     - Lean agree changed to   
-     Possibly I should give it        Definitely probably disagree"
-,Post Opinion,6740aD32XH,,,,Sounds like it takes away jobs from the usa and does not give us much in return.  People seem to think it was more beneficial in the beginning and now is not so good for the USA,18:43:03.902000 2025:06:23,"Considering our exchange thus far, I continue to hold onto the view that the North American Free Trade Agreement (NAFTA) hasn't quite served our interests in the long haul. By acknowledging the arguments presented, specifically around exploited loopholes and imbalanced economic outcomes, the landscape seems bleaker than initially anticipated. Even taking strides toward reform, I suspect there’ll be difficulties navigating complex issues without adequately safeguarding US industries and fostering equitable partnerships amongst member nations","Lean disagree  *It actually looks like i changed this response compared to initial prompt however, leaning again,  Based off prompts and responses made I can confidently choose probably disagree though"
+     Possibly I should give it        Definitely probably disagree",Certainly disagree
+,Post Opinion,6740aD32XH,,,,Sounds like it takes away jobs from the usa and does not give us much in return.  People seem to think it was more beneficial in the beginning and now is not so good for the USA,18:43:03.902000 2025:06:23,"Considering our exchange thus far, I continue to hold onto the view that the North American Free Trade Agreement (NAFTA) hasn't quite served our interests in the long haul. By acknowledging the arguments presented, specifically around exploited loopholes and imbalanced economic outcomes, the landscape seems bleaker than initially anticipated. Even taking strides toward reform, I suspect there’ll be difficulties navigating complex issues without adequately safeguarding US industries and fostering equitable partnerships amongst member nations","Lean disagree  *It actually looks like i changed this response compared to initial prompt however, leaning again,  Based off prompts and responses made I can confidently choose probably disagree though",Certainly disagree
 ,Post Opinion,57530D32XH,,,,Unchanged. It was a bad policy and it caused much suffering to my former hometown and regional distress. Western Pa still suffers from this misguided policy,18:43:28.273000 2025:06:23,"After careful consideration and reflection on the conversations I've had with 6105B, 617332, and 6740A, I'm inclined to revise my opinion. Initially, I leaned towards ""Lean Disagree,"" citing the detrimental effects on local communities due to outsourcing and the struggle for rural areas to recover.
 
 However, through these engagements, I've come to realize that NAFTA's implications extend beyond individual cases, warranting further examination. Ultimately, I firmly believe that The North American Free Trade","Lean disagree (after analyzing the responses provided above)
 
-The reasoning lies as follows: Both sides of NAFTA offered reasonable perspectives, but no definitive conclusion solidifying benefits. Various viewpoints emerged emphasizing structural inequities stemming from business relocation coupled with substandard treatment met to numerous community members impacted notably adversely during NAftas era despite progress proposed, reformations initiated, hence illustrating probable disagreement."
+The reasoning lies as follows: Both sides of NAFTA offered reasonable perspectives, but no definitive conclusion solidifying benefits. Various viewpoints emerged emphasizing structural inequities stemming from business relocation coupled with substandard treatment met to numerous community members impacted notably adversely during NAftas era despite progress proposed, reformations initiated, hence illustrating probable disagreement.",Probably agree
 ,Post Opinion,6105bD32XH,,,,"The NAFTA was good for the US, Canada, and Mexico combined as it increased native trade and production of goods. While also allowing native producers and markets a cheaper way to sell products. The agreement having zero taxes or tariffs was great.",18:44:03.894000 2025:06:23,"Considering all the perspectives offered via these enlightening exchanges with @57531, @67540A, and @67312, my view on NAFTA has shifted significantly. Through hearing real-life stories and empathetic insights exposing harsh realities, confronting unjust outcomes in once-thriving communities & discovering systematic failures impacting marginalized groups ultimately forced revision of preliminary assessment I initially held so tenaciously regarding NAFTA’s net benefits. Ultimately concluding that the pact, though bringing short-term advantages, left severe socioeconomic wounds upon the nation","Lean disagree
-   Changed to Agree after conversating  to Lean Agree"
-,exit_survey,6105bD32XH,,,age,24,,,
-,exit_survey,6105bD32XH,,,gender,non-binary,,,
-,exit_survey,6105bD32XH,,,origin,United States of America,,,
-,exit_survey,6105bD32XH,,,residency,United States of America,,,
-,exit_survey,6105bD32XH,,,education,associate,,,
-,exit_survey,6105bD32XH,,,ethnicity,['white'],,,
-,exit_survey,6105bD32XH,,,income,less-25k,,,
-,exit_survey,6105bD32XH,,,politicalIdentity,independent,,,
-,exit_survey,6105bD32XH,,,politicalViews,very-liberal,,,
-,exit_survey,6105bD32XH,,,maritalStatus,living-partner,,,
-,exit_survey,6105bD32XH,,,childrenSchool,['no-children'],,,
-,exit_survey,6105bD32XH,,,residence,suburban,,,
-,exit_survey,6105bD32XH,,,bibleBelief,ancient-book,,,
-,exit_survey,6105bD32XH,,,evangelical,no,,,
-,exit_survey,6105bD32XH,,,religion,no-religion,,,
-,exit_survey,6105bD32XH,,,occupation,engineering,,,
-,exit_survey,6740aD32XH,,,age,47,,,
-,exit_survey,6740aD32XH,,,gender,female,,,
-,exit_survey,6740aD32XH,,,residency,United States of America,,,
-,exit_survey,6740aD32XH,,,education,bachelor,,,
-,exit_survey,6740aD32XH,,,ethnicity,['white'],,,
-,exit_survey,6740aD32XH,,,income,100k-150k,,,
-,exit_survey,6740aD32XH,,,politicalIdentity,republican,,,
-,exit_survey,6740aD32XH,,,politicalViews,very-conservative,,,
-,exit_survey,6740aD32XH,,,maritalStatus,married,,,
-,exit_survey,6740aD32XH,,,childrenSchool,['out-of-school'],,,
-,exit_survey,6740aD32XH,,,residence,suburban,,,
-,exit_survey,6740aD32XH,,,bibleBelief,literal,,,
-,exit_survey,6740aD32XH,,,occupation,education,,,
-,exit_survey,6740aD32XH,,,evangelical,yes,,,
-,exit_survey,6740aD32XH,,,religion,protestant,,,
-,exit_survey,6740aD32XH,,,origin,Prefer not to answer,,,
-,exit_survey,61732D32XH,,,occupation,insurance,,,
-,exit_survey,61732D32XH,,,age,54,,,
-,exit_survey,61732D32XH,,,education,associate,,,
-,exit_survey,61732D32XH,,,religion,protestant,,,
-,exit_survey,61732D32XH,,,ethnicity,['white'],,,
-,exit_survey,61732D32XH,,,income,50k-75k,,,
-,exit_survey,61732D32XH,,,gender,female,,,
-,exit_survey,61732D32XH,,,evangelical,yes,,,
-,exit_survey,61732D32XH,,,residency,United States of America,,,
-,exit_survey,61732D32XH,,,bibleBelief,inspired,,,
-,exit_survey,61732D32XH,,,origin,United States of America,,,
-,exit_survey,61732D32XH,,,residence,rural,,,
-,exit_survey,61732D32XH,,,politicalIdentity,republican,,,
-,exit_survey,61732D32XH,,,childrenSchool,['out-of-school'],,,
-,exit_survey,61732D32XH,,,politicalViews,conservative,,,
-,exit_survey,61732D32XH,,,maritalStatus,married,,,
-,exit_survey,57530D32XH,,,age,58,,,
-,exit_survey,57530D32XH,,,residency,United States of America,,,
-,exit_survey,57530D32XH,,,gender,male,,,
-,exit_survey,57530D32XH,,,origin,United States of America,,,
-,exit_survey,57530D32XH,,,education,some-college,,,
-,exit_survey,57530D32XH,,,income,75k-100k,,,
-,exit_survey,57530D32XH,,,ethnicity,['white'],,,
-,exit_survey,57530D32XH,,,politicalIdentity,republican,,,
-,exit_survey,57530D32XH,,,politicalViews,conservative,,,
-,exit_survey,57530D32XH,,,maritalStatus,living-partner,,,
-,exit_survey,57530D32XH,,,residence,suburban,,,
-,exit_survey,57530D32XH,,,childrenSchool,['no-children'],,,
-,exit_survey,57530D32XH,,,evangelical,yes,,,
-,exit_survey,57530D32XH,,,bibleBelief,inspired,,,
-,exit_survey,57530D32XH,,,religion,protestant,,,
-,exit_survey,57530D32XH,,,occupation,health-care,,,
-,exit_survey,6105bD32XH,,,age,24,,,
-,exit_survey,6105bD32XH,,,gender,non-binary,,,
-,exit_survey,6105bD32XH,,,origin,United States of America,,,
-,exit_survey,6105bD32XH,,,residency,United States of America,,,
-,exit_survey,6105bD32XH,,,education,associate,,,
-,exit_survey,6105bD32XH,,,ethnicity,['white'],,,
-,exit_survey,6105bD32XH,,,income,less-25k,,,
-,exit_survey,6105bD32XH,,,politicalIdentity,independent,,,
-,exit_survey,6105bD32XH,,,politicalViews,very-liberal,,,
-,exit_survey,6105bD32XH,,,maritalStatus,living-partner,,,
-,exit_survey,6105bD32XH,,,childrenSchool,['no-children'],,,
-,exit_survey,6105bD32XH,,,residence,suburban,,,
-,exit_survey,6105bD32XH,,,bibleBelief,ancient-book,,,
-,exit_survey,6105bD32XH,,,evangelical,no,,,
-,exit_survey,6105bD32XH,,,religion,no-religion,,,
-,exit_survey,6105bD32XH,,,occupation,engineering,,,
-,exit_survey,6740aD32XH,,,age,47,,,
-,exit_survey,6740aD32XH,,,gender,female,,,
-,exit_survey,6740aD32XH,,,residency,United States of America,,,
-,exit_survey,6740aD32XH,,,education,bachelor,,,
-,exit_survey,6740aD32XH,,,ethnicity,['white'],,,
-,exit_survey,6740aD32XH,,,income,100k-150k,,,
-,exit_survey,6740aD32XH,,,politicalIdentity,republican,,,
-,exit_survey,6740aD32XH,,,politicalViews,very-conservative,,,
-,exit_survey,6740aD32XH,,,maritalStatus,married,,,
-,exit_survey,6740aD32XH,,,childrenSchool,['out-of-school'],,,
-,exit_survey,6740aD32XH,,,residence,suburban,,,
-,exit_survey,6740aD32XH,,,bibleBelief,literal,,,
-,exit_survey,6740aD32XH,,,occupation,education,,,
-,exit_survey,6740aD32XH,,,evangelical,yes,,,
-,exit_survey,6740aD32XH,,,religion,protestant,,,
-,exit_survey,6740aD32XH,,,origin,Prefer not to answer,,,
-,exit_survey,61732D32XH,,,occupation,insurance,,,
-,exit_survey,61732D32XH,,,age,54,,,
-,exit_survey,61732D32XH,,,education,associate,,,
-,exit_survey,61732D32XH,,,religion,protestant,,,
-,exit_survey,61732D32XH,,,ethnicity,['white'],,,
-,exit_survey,61732D32XH,,,income,50k-75k,,,
-,exit_survey,61732D32XH,,,gender,female,,,
-,exit_survey,61732D32XH,,,evangelical,yes,,,
-,exit_survey,61732D32XH,,,residency,United States of America,,,
-,exit_survey,61732D32XH,,,bibleBelief,inspired,,,
-,exit_survey,61732D32XH,,,origin,United States of America,,,
-,exit_survey,61732D32XH,,,residence,rural,,,
-,exit_survey,61732D32XH,,,politicalIdentity,republican,,,
-,exit_survey,61732D32XH,,,childrenSchool,['out-of-school'],,,
-,exit_survey,61732D32XH,,,politicalViews,conservative,,,
-,exit_survey,61732D32XH,,,maritalStatus,married,,,
-,exit_survey,57530D32XH,,,age,58,,,
-,exit_survey,57530D32XH,,,residency,United States of America,,,
-,exit_survey,57530D32XH,,,gender,male,,,
-,exit_survey,57530D32XH,,,origin,United States of America,,,
-,exit_survey,57530D32XH,,,education,some-college,,,
-,exit_survey,57530D32XH,,,income,75k-100k,,,
-,exit_survey,57530D32XH,,,ethnicity,['white'],,,
-,exit_survey,57530D32XH,,,politicalIdentity,republican,,,
-,exit_survey,57530D32XH,,,politicalViews,conservative,,,
-,exit_survey,57530D32XH,,,maritalStatus,living-partner,,,
-,exit_survey,57530D32XH,,,residence,suburban,,,
-,exit_survey,57530D32XH,,,childrenSchool,['no-children'],,,
-,exit_survey,57530D32XH,,,evangelical,yes,,,
-,exit_survey,57530D32XH,,,bibleBelief,inspired,,,
-,exit_survey,57530D32XH,,,religion,protestant,,,
-,exit_survey,57530D32XH,,,occupation,health-care,,,
+   Changed to Agree after conversating  to Lean Agree",Certainly disagree
+,exit_survey,6105bD32XH,,,age,24,,,,
+,exit_survey,6105bD32XH,,,gender,non-binary,,,,
+,exit_survey,6105bD32XH,,,origin,United States of America,,,,
+,exit_survey,6105bD32XH,,,residency,United States of America,,,,
+,exit_survey,6105bD32XH,,,education,associate,,,,
+,exit_survey,6105bD32XH,,,ethnicity,['white'],,,,
+,exit_survey,6105bD32XH,,,income,less-25k,,,,
+,exit_survey,6105bD32XH,,,politicalIdentity,independent,,,,
+,exit_survey,6105bD32XH,,,politicalViews,very-liberal,,,,
+,exit_survey,6105bD32XH,,,maritalStatus,living-partner,,,,
+,exit_survey,6105bD32XH,,,childrenSchool,['no-children'],,,,
+,exit_survey,6105bD32XH,,,residence,suburban,,,,
+,exit_survey,6105bD32XH,,,bibleBelief,ancient-book,,,,
+,exit_survey,6105bD32XH,,,evangelical,no,,,,
+,exit_survey,6105bD32XH,,,religion,no-religion,,,,
+,exit_survey,6105bD32XH,,,occupation,engineering,,,,
+,exit_survey,6740aD32XH,,,age,47,,,,
+,exit_survey,6740aD32XH,,,gender,female,,,,
+,exit_survey,6740aD32XH,,,residency,United States of America,,,,
+,exit_survey,6740aD32XH,,,education,bachelor,,,,
+,exit_survey,6740aD32XH,,,ethnicity,['white'],,,,
+,exit_survey,6740aD32XH,,,income,100k-150k,,,,
+,exit_survey,6740aD32XH,,,politicalIdentity,republican,,,,
+,exit_survey,6740aD32XH,,,politicalViews,very-conservative,,,,
+,exit_survey,6740aD32XH,,,maritalStatus,married,,,,
+,exit_survey,6740aD32XH,,,childrenSchool,['out-of-school'],,,,
+,exit_survey,6740aD32XH,,,residence,suburban,,,,
+,exit_survey,6740aD32XH,,,bibleBelief,literal,,,,
+,exit_survey,6740aD32XH,,,occupation,education,,,,
+,exit_survey,6740aD32XH,,,evangelical,yes,,,,
+,exit_survey,6740aD32XH,,,religion,protestant,,,,
+,exit_survey,6740aD32XH,,,origin,Prefer not to answer,,,,
+,exit_survey,61732D32XH,,,occupation,insurance,,,,
+,exit_survey,61732D32XH,,,age,54,,,,
+,exit_survey,61732D32XH,,,education,associate,,,,
+,exit_survey,61732D32XH,,,religion,protestant,,,,
+,exit_survey,61732D32XH,,,ethnicity,['white'],,,,
+,exit_survey,61732D32XH,,,income,50k-75k,,,,
+,exit_survey,61732D32XH,,,gender,female,,,,
+,exit_survey,61732D32XH,,,evangelical,yes,,,,
+,exit_survey,61732D32XH,,,residency,United States of America,,,,
+,exit_survey,61732D32XH,,,bibleBelief,inspired,,,,
+,exit_survey,61732D32XH,,,origin,United States of America,,,,
+,exit_survey,61732D32XH,,,residence,rural,,,,
+,exit_survey,61732D32XH,,,politicalIdentity,republican,,,,
+,exit_survey,61732D32XH,,,childrenSchool,['out-of-school'],,,,
+,exit_survey,61732D32XH,,,politicalViews,conservative,,,,
+,exit_survey,61732D32XH,,,maritalStatus,married,,,,
+,exit_survey,57530D32XH,,,age,58,,,,
+,exit_survey,57530D32XH,,,residency,United States of America,,,,
+,exit_survey,57530D32XH,,,gender,male,,,,
+,exit_survey,57530D32XH,,,origin,United States of America,,,,
+,exit_survey,57530D32XH,,,education,some-college,,,,
+,exit_survey,57530D32XH,,,income,75k-100k,,,,
+,exit_survey,57530D32XH,,,ethnicity,['white'],,,,
+,exit_survey,57530D32XH,,,politicalIdentity,republican,,,,
+,exit_survey,57530D32XH,,,politicalViews,conservative,,,,
+,exit_survey,57530D32XH,,,maritalStatus,living-partner,,,,
+,exit_survey,57530D32XH,,,residence,suburban,,,,
+,exit_survey,57530D32XH,,,childrenSchool,['no-children'],,,,
+,exit_survey,57530D32XH,,,evangelical,yes,,,,
+,exit_survey,57530D32XH,,,bibleBelief,inspired,,,,
+,exit_survey,57530D32XH,,,religion,protestant,,,,
+,exit_survey,57530D32XH,,,occupation,health-care,,,,
+,exit_survey,6105bD32XH,,,age,24,,,,
+,exit_survey,6105bD32XH,,,gender,non-binary,,,,
+,exit_survey,6105bD32XH,,,origin,United States of America,,,,
+,exit_survey,6105bD32XH,,,residency,United States of America,,,,
+,exit_survey,6105bD32XH,,,education,associate,,,,
+,exit_survey,6105bD32XH,,,ethnicity,['white'],,,,
+,exit_survey,6105bD32XH,,,income,less-25k,,,,
+,exit_survey,6105bD32XH,,,politicalIdentity,independent,,,,
+,exit_survey,6105bD32XH,,,politicalViews,very-liberal,,,,
+,exit_survey,6105bD32XH,,,maritalStatus,living-partner,,,,
+,exit_survey,6105bD32XH,,,childrenSchool,['no-children'],,,,
+,exit_survey,6105bD32XH,,,residence,suburban,,,,
+,exit_survey,6105bD32XH,,,bibleBelief,ancient-book,,,,
+,exit_survey,6105bD32XH,,,evangelical,no,,,,
+,exit_survey,6105bD32XH,,,religion,no-religion,,,,
+,exit_survey,6105bD32XH,,,occupation,engineering,,,,
+,exit_survey,6740aD32XH,,,age,47,,,,
+,exit_survey,6740aD32XH,,,gender,female,,,,
+,exit_survey,6740aD32XH,,,residency,United States of America,,,,
+,exit_survey,6740aD32XH,,,education,bachelor,,,,
+,exit_survey,6740aD32XH,,,ethnicity,['white'],,,,
+,exit_survey,6740aD32XH,,,income,100k-150k,,,,
+,exit_survey,6740aD32XH,,,politicalIdentity,republican,,,,
+,exit_survey,6740aD32XH,,,politicalViews,very-conservative,,,,
+,exit_survey,6740aD32XH,,,maritalStatus,married,,,,
+,exit_survey,6740aD32XH,,,childrenSchool,['out-of-school'],,,,
+,exit_survey,6740aD32XH,,,residence,suburban,,,,
+,exit_survey,6740aD32XH,,,bibleBelief,literal,,,,
+,exit_survey,6740aD32XH,,,occupation,education,,,,
+,exit_survey,6740aD32XH,,,evangelical,yes,,,,
+,exit_survey,6740aD32XH,,,religion,protestant,,,,
+,exit_survey,6740aD32XH,,,origin,Prefer not to answer,,,,
+,exit_survey,61732D32XH,,,occupation,insurance,,,,
+,exit_survey,61732D32XH,,,age,54,,,,
+,exit_survey,61732D32XH,,,education,associate,,,,
+,exit_survey,61732D32XH,,,religion,protestant,,,,
+,exit_survey,61732D32XH,,,ethnicity,['white'],,,,
+,exit_survey,61732D32XH,,,income,50k-75k,,,,
+,exit_survey,61732D32XH,,,gender,female,,,,
+,exit_survey,61732D32XH,,,evangelical,yes,,,,
+,exit_survey,61732D32XH,,,residency,United States of America,,,,
+,exit_survey,61732D32XH,,,bibleBelief,inspired,,,,
+,exit_survey,61732D32XH,,,origin,United States of America,,,,
+,exit_survey,61732D32XH,,,residence,rural,,,,
+,exit_survey,61732D32XH,,,politicalIdentity,republican,,,,
+,exit_survey,61732D32XH,,,childrenSchool,['out-of-school'],,,,
+,exit_survey,61732D32XH,,,politicalViews,conservative,,,,
+,exit_survey,61732D32XH,,,maritalStatus,married,,,,
+,exit_survey,57530D32XH,,,age,58,,,,
+,exit_survey,57530D32XH,,,residency,United States of America,,,,
+,exit_survey,57530D32XH,,,gender,male,,,,
+,exit_survey,57530D32XH,,,origin,United States of America,,,,
+,exit_survey,57530D32XH,,,education,some-college,,,,
+,exit_survey,57530D32XH,,,income,75k-100k,,,,
+,exit_survey,57530D32XH,,,ethnicity,['white'],,,,
+,exit_survey,57530D32XH,,,politicalIdentity,republican,,,,
+,exit_survey,57530D32XH,,,politicalViews,conservative,,,,
+,exit_survey,57530D32XH,,,maritalStatus,living-partner,,,,
+,exit_survey,57530D32XH,,,residence,suburban,,,,
+,exit_survey,57530D32XH,,,childrenSchool,['no-children'],,,,
+,exit_survey,57530D32XH,,,evangelical,yes,,,,
+,exit_survey,57530D32XH,,,bibleBelief,inspired,,,,
+,exit_survey,57530D32XH,,,religion,protestant,,,,
+,exit_survey,57530D32XH,,,occupation,health-care,,,,

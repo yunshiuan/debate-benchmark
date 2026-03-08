@@ -1,107 +1,107 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,66609R8MG5,,,,"I agree that there is abundant corruption in the US. We are one of the richest and most powerful countries on the planet, and we all know that money and power corrupt.",02:13:51.180000 2025:04:26,"I agree that there is abundant corruption in the US. We are one of the richest and most powerful countries on the planet, and we all know that money and power corrupt.",
-,Initial Opinion,5d537R8MG5,,,,There is a lot of corruption. Look at the way the economy was manipulated to create big wins for the rich on the stock market in the past month.,02:14:06.296000 2025:04:26,There is a lot of corruption. Look at the way the economy was manipulated to create big wins for the rich on the stock market in the past month.,
-,Initial Opinion,678d7R8MG5,,,,Yes there is a bit of corruption in the United States.,02:14:26.929000 2025:04:26,Yes there is a bit of corruption in the United States.,
-,Initial Opinion,67ee4R8MG5,,,,while it may not always take the form of outright bribery,02:14:55.874000 2025:04:26,while it may not always take the form of outright bribery,
-1.0,tweet,5d537R8MG5,5d537R8MG5,66609R8MG5,,"This is true. The United States has an economy that is built to benefit the rich, who will lie, cheat and steal to get their way.",02:15:56.488000 2025:04:26,"This is true. The United States has an economy that is built to benefit the rich, who will lie, cheat and steal to get their way.",
-1.0,tweet,66609R8MG5,66609R8MG5,5d537R8MG5,,Corruption is very abundant in the US. Being on the richest and most powerful countries creates an environment for corruption to thrive since money and power corrupt. It is easy for people to get away with it based on the systems set up by the government and institutions.,02:16:52.581000 2025:04:26,Corruption is very abundant in the US. Being on the richest and most powerful countries creates an environment for corruption to thrive since money and power corrupt. It is easy for people to get away with it based on the systems set up by the government and institutions.,
-1.0,tweet,67ee4R8MG5,67ee4R8MG5,678d7R8MG5,,"i believe there  is abundant corruption in the US, it's often hidden behind legal systems. corporate lobbying, campaign financing and political favoritisms",02:17:09.208000 2025:04:26,"i believe there  is abundant corruption in the US, it's often hidden behind legal systems. corporate lobbying, campaign financing and political favoritisms",
-1.0,tweet,678d7R8MG5,678d7R8MG5,67ee4R8MG5,,Corruption exists in the Uniot,02:17:11.960000 2025:04:26,Corruption exists in the Uniot,
-1.0,message_sent,5d537R8MG5,5d537R8MG5,66609R8MG5,,I totally agree. I feel like it is getting even worse these days since the tech billionaires have their hands all over the government and the media.,02:18:47.896000 2025:04:26,"Oh my goodness, I'm completely shocked! @666609's comment totally validated everything I've been feeling lately about our country. I couldn't agree more - the system does seem designed to let those in positions of power walk all over everyone else. And when we're talking billions and trillions of dollars at stake... people just start getting too comfortable, right?",
-1.0,message_recieved,66609R8MG5,5d537R8MG5,66609R8MG5,,I totally agree. I feel like it is getting even worse these days since the tech billionaires have their hands all over the government and the media.,02:18:49.121000 2025:04:26,"Oh my goodness, I'm completely shocked! @666609's comment totally validated everything I've been feeling lately about our country. I couldn't agree more - the system does seem designed to let those in positions of power walk all over everyone else. And when we're talking billions and trillions of dollars at stake... people just start getting too comfortable, right?",
-1.0,message_sent,66609R8MG5,66609R8MG5,5d537R8MG5,,"I think we completely agree, the question is to what degree the corruption exists. Media makes it all worse, but media is also a valuable tool. It's a catch 22 Not much we can really do other than continue to talk about it and try to vote better people into the government",02:19:53.449000 2025:04:26,The vast amounts spent by corporations to influence politics and sway laws to suit them also plays into this issue.,
-1.0,message_recieved,5d537R8MG5,66609R8MG5,5d537R8MG5,,"I think we completely agree, the question is to what degree the corruption exists. Media makes it all worse, but media is also a valuable tool. It's a catch 22 Not much we can really do other than continue to talk about it and try to vote better people into the government",02:19:52.525000 2025:04:26,The vast amounts spent by corporations to influence politics and sway laws to suit them also plays into this issue.,
-1.0,message_sent,66609R8MG5,66609R8MG5,5d537R8MG5,,,02:19:53.449000 2025:04:26,,
-1.0,message_recieved,5d537R8MG5,66609R8MG5,5d537R8MG5,,,02:19:52.525000 2025:04:26,,
-1.0,message_sent,5d537R8MG5,5d537R8MG5,66609R8MG5,,That is true. The media can report on corruption but also be a source of it by covering up bad behavior.,02:20:13.691000 2025:04:26,"@666609 brought up such an important point. When huge corporations spend millions and even sometimes billions influencing politicians and shaping policies, it feels like there's little hope left in holding accountable those who truly want the best for us citizens rather than just serving corporate interests.",
-1.0,message_recieved,66609R8MG5,5d537R8MG5,66609R8MG5,,That is true. The media can report on corruption but also be a source of it by covering up bad behavior.,02:20:14.771000 2025:04:26,"@666609 brought up such an important point. When huge corporations spend millions and even sometimes billions influencing politicians and shaping policies, it feels like there's little hope left in holding accountable those who truly want the best for us citizens rather than just serving corporate interests.",
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,66609R8MG5,,,,"I agree that there is abundant corruption in the US. We are one of the richest and most powerful countries on the planet, and we all know that money and power corrupt.",02:13:51.180000 2025:04:26,"I agree that there is abundant corruption in the US. We are one of the richest and most powerful countries on the planet, and we all know that money and power corrupt.",,Certainly agree
+,Initial Opinion,5d537R8MG5,,,,There is a lot of corruption. Look at the way the economy was manipulated to create big wins for the rich on the stock market in the past month.,02:14:06.296000 2025:04:26,There is a lot of corruption. Look at the way the economy was manipulated to create big wins for the rich on the stock market in the past month.,,Certainly agree
+,Initial Opinion,678d7R8MG5,,,,Yes there is a bit of corruption in the United States.,02:14:26.929000 2025:04:26,Yes there is a bit of corruption in the United States.,,Lean disagree
+,Initial Opinion,67ee4R8MG5,,,,while it may not always take the form of outright bribery,02:14:55.874000 2025:04:26,while it may not always take the form of outright bribery,,Probably agree
+1.0,tweet,5d537R8MG5,5d537R8MG5,66609R8MG5,,"This is true. The United States has an economy that is built to benefit the rich, who will lie, cheat and steal to get their way.",02:15:56.488000 2025:04:26,"This is true. The United States has an economy that is built to benefit the rich, who will lie, cheat and steal to get their way.",,Certainly agree
+1.0,tweet,66609R8MG5,66609R8MG5,5d537R8MG5,,Corruption is very abundant in the US. Being on the richest and most powerful countries creates an environment for corruption to thrive since money and power corrupt. It is easy for people to get away with it based on the systems set up by the government and institutions.,02:16:52.581000 2025:04:26,Corruption is very abundant in the US. Being on the richest and most powerful countries creates an environment for corruption to thrive since money and power corrupt. It is easy for people to get away with it based on the systems set up by the government and institutions.,,Certainly agree
+1.0,tweet,67ee4R8MG5,67ee4R8MG5,678d7R8MG5,,"i believe there  is abundant corruption in the US, it's often hidden behind legal systems. corporate lobbying, campaign financing and political favoritisms",02:17:09.208000 2025:04:26,"i believe there  is abundant corruption in the US, it's often hidden behind legal systems. corporate lobbying, campaign financing and political favoritisms",,Certainly agree
+1.0,tweet,678d7R8MG5,678d7R8MG5,67ee4R8MG5,,Corruption exists in the Uniot,02:17:11.960000 2025:04:26,Corruption exists in the Uniot,,Lean agree
+1.0,message_sent,5d537R8MG5,5d537R8MG5,66609R8MG5,,I totally agree. I feel like it is getting even worse these days since the tech billionaires have their hands all over the government and the media.,02:18:47.896000 2025:04:26,"Oh my goodness, I'm completely shocked! @666609's comment totally validated everything I've been feeling lately about our country. I couldn't agree more - the system does seem designed to let those in positions of power walk all over everyone else. And when we're talking billions and trillions of dollars at stake... people just start getting too comfortable, right?",,
+1.0,message_recieved,66609R8MG5,5d537R8MG5,66609R8MG5,,I totally agree. I feel like it is getting even worse these days since the tech billionaires have their hands all over the government and the media.,02:18:49.121000 2025:04:26,"Oh my goodness, I'm completely shocked! @666609's comment totally validated everything I've been feeling lately about our country. I couldn't agree more - the system does seem designed to let those in positions of power walk all over everyone else. And when we're talking billions and trillions of dollars at stake... people just start getting too comfortable, right?",,
+1.0,message_sent,66609R8MG5,66609R8MG5,5d537R8MG5,,"I think we completely agree, the question is to what degree the corruption exists. Media makes it all worse, but media is also a valuable tool. It's a catch 22 Not much we can really do other than continue to talk about it and try to vote better people into the government",02:19:53.449000 2025:04:26,The vast amounts spent by corporations to influence politics and sway laws to suit them also plays into this issue.,,
+1.0,message_recieved,5d537R8MG5,66609R8MG5,5d537R8MG5,,"I think we completely agree, the question is to what degree the corruption exists. Media makes it all worse, but media is also a valuable tool. It's a catch 22 Not much we can really do other than continue to talk about it and try to vote better people into the government",02:19:52.525000 2025:04:26,The vast amounts spent by corporations to influence politics and sway laws to suit them also plays into this issue.,,
+1.0,message_sent,66609R8MG5,66609R8MG5,5d537R8MG5,,,02:19:53.449000 2025:04:26,,,
+1.0,message_recieved,5d537R8MG5,66609R8MG5,5d537R8MG5,,,02:19:52.525000 2025:04:26,,,
+1.0,message_sent,5d537R8MG5,5d537R8MG5,66609R8MG5,,That is true. The media can report on corruption but also be a source of it by covering up bad behavior.,02:20:13.691000 2025:04:26,"@666609 brought up such an important point. When huge corporations spend millions and even sometimes billions influencing politicians and shaping policies, it feels like there's little hope left in holding accountable those who truly want the best for us citizens rather than just serving corporate interests.",,
+1.0,message_recieved,66609R8MG5,5d537R8MG5,66609R8MG5,,That is true. The media can report on corruption but also be a source of it by covering up bad behavior.,02:20:14.771000 2025:04:26,"@666609 brought up such an important point. When huge corporations spend millions and even sometimes billions influencing politicians and shaping policies, it feels like there's little hope left in holding accountable those who truly want the best for us citizens rather than just serving corporate interests.",,
 1.0,message_sent,67ee4R8MG5,67ee4R8MG5,678d7R8MG5,,"what's interesting is  how much the corruption in the U.S. is technically legal. lobbying for instance, lets powerful interests write the rules in favor, while everyday people have far less influence. do you think that the system counts as corruption?",02:20:34.100000 2025:04:26,"It seems like we're talking about similar issues! I think one aspect where corruption really runs deep is government contracts and public works projects. So many opportunities for graft and embezzlement in those areas. What do you think?
 
-Wouldn't know what I'd say if they posted something like ""my neighbor knows some guy who knows someone in the government"". I suppose every industry got its corrupt moments though. How can any society just avoid such events?  Still trying to figure how our own community",
+Wouldn't know what I'd say if they posted something like ""my neighbor knows some guy who knows someone in the government"". I suppose every industry got its corrupt moments though. How can any society just avoid such events?  Still trying to figure how our own community",,
 1.0,message_recieved,678d7R8MG5,67ee4R8MG5,678d7R8MG5,,"what's interesting is  how much the corruption in the U.S. is technically legal. lobbying for instance, lets powerful interests write the rules in favor, while everyday people have far less influence. do you think that the system counts as corruption?",02:20:33.857000 2025:04:26,"It seems like we're talking about similar issues! I think one aspect where corruption really runs deep is government contracts and public works projects. So many opportunities for graft and embezzlement in those areas. What do you think?
 
-Wouldn't know what I'd say if they posted something like ""my neighbor knows some guy who knows someone in the government"". I suppose every industry got its corrupt moments though. How can any society just avoid such events?  Still trying to figure how our own community",
-1.0,message_sent,678d7R8MG5,678d7R8MG5,67ee4R8MG5,,"True, corruption exists in the United States, even if it's often behind layers of bureaucracy, influence and wealth",02:20:37.181000 2025:04:26,"I've always thought that having an independent agency or inspector general could help keep government officials accountable; maybe create a whistleblower protection policy to encourage more honest reports. However, relying solely on external measures might still allow systemic problems to persist beneath the surface. Maybe educating citizens and fostering greater transparency should also be prioritized efforts.",
-1.0,message_recieved,67ee4R8MG5,678d7R8MG5,67ee4R8MG5,,"True, corruption exists in the United States, even if it's often behind layers of bureaucracy, influence and wealth",02:20:37.942000 2025:04:26,"I've always thought that having an independent agency or inspector general could help keep government officials accountable; maybe create a whistleblower protection policy to encourage more honest reports. However, relying solely on external measures might still allow systemic problems to persist beneath the surface. Maybe educating citizens and fostering greater transparency should also be prioritized efforts.",
-1.0,message_sent,66609R8MG5,66609R8MG5,5d537R8MG5,,I think we need to take a note from France and start symbolically eating the rich,02:20:44.471000 2025:04:26,"The wealthy elites pulling strings behind closed doors while average folks continue to bear the brunt makes accountability extremely difficult, especially considering how many voices aren’t heard due to media consolidation & disinformation campaigns by these same powers trying control every narrative possible.",
-1.0,message_recieved,5d537R8MG5,66609R8MG5,5d537R8MG5,,I think we need to take a note from France and start symbolically eating the rich,02:20:43.749000 2025:04:26,"The wealthy elites pulling strings behind closed doors while average folks continue to bear the brunt makes accountability extremely difficult, especially considering how many voices aren’t heard due to media consolidation & disinformation campaigns by these same powers trying control every narrative possible.",
-1.0,message_sent,5d537R8MG5,5d537R8MG5,66609R8MG5,,Yes. That would be helpful. They speak out a lot and take to the streets in protest.,02:21:04.521000 2025:04:26,The fact remains that ordinary citizens often lack a voice because they don’t possess the means to speak out against these corrupt influences effectively.,
-1.0,message_recieved,66609R8MG5,5d537R8MG5,66609R8MG5,,Yes. That would be helpful. They speak out a lot and take to the streets in protest.,02:21:05.676000 2025:04:26,The fact remains that ordinary citizens often lack a voice because they don’t possess the means to speak out against these corrupt influences effectively.,
-2.0,tweet,5d537R8MG5,5d537R8MG5,678d7R8MG5,,There is a lot of corruption in the United States. It exists in all branches of the government. I'm thinking of the Supreme Court and how most if not all of the justices accept bribes and gifts from people involved in their cases.,02:22:53.591000 2025:04:26,"@678d78 isn't it clear yet? We live under oligarchy, corporations fund campaign contributions to ensure laws favor themselves, media is controlled, voices are silenced & politicians serve special interest, eroding democracy. Truth isn't valued anymore #USCorruption",
+Wouldn't know what I'd say if they posted something like ""my neighbor knows some guy who knows someone in the government"". I suppose every industry got its corrupt moments though. How can any society just avoid such events?  Still trying to figure how our own community",,
+1.0,message_sent,678d7R8MG5,678d7R8MG5,67ee4R8MG5,,"True, corruption exists in the United States, even if it's often behind layers of bureaucracy, influence and wealth",02:20:37.181000 2025:04:26,"I've always thought that having an independent agency or inspector general could help keep government officials accountable; maybe create a whistleblower protection policy to encourage more honest reports. However, relying solely on external measures might still allow systemic problems to persist beneath the surface. Maybe educating citizens and fostering greater transparency should also be prioritized efforts.",,
+1.0,message_recieved,67ee4R8MG5,678d7R8MG5,67ee4R8MG5,,"True, corruption exists in the United States, even if it's often behind layers of bureaucracy, influence and wealth",02:20:37.942000 2025:04:26,"I've always thought that having an independent agency or inspector general could help keep government officials accountable; maybe create a whistleblower protection policy to encourage more honest reports. However, relying solely on external measures might still allow systemic problems to persist beneath the surface. Maybe educating citizens and fostering greater transparency should also be prioritized efforts.",,
+1.0,message_sent,66609R8MG5,66609R8MG5,5d537R8MG5,,I think we need to take a note from France and start symbolically eating the rich,02:20:44.471000 2025:04:26,"The wealthy elites pulling strings behind closed doors while average folks continue to bear the brunt makes accountability extremely difficult, especially considering how many voices aren’t heard due to media consolidation & disinformation campaigns by these same powers trying control every narrative possible.",,
+1.0,message_recieved,5d537R8MG5,66609R8MG5,5d537R8MG5,,I think we need to take a note from France and start symbolically eating the rich,02:20:43.749000 2025:04:26,"The wealthy elites pulling strings behind closed doors while average folks continue to bear the brunt makes accountability extremely difficult, especially considering how many voices aren’t heard due to media consolidation & disinformation campaigns by these same powers trying control every narrative possible.",,
+1.0,message_sent,5d537R8MG5,5d537R8MG5,66609R8MG5,,Yes. That would be helpful. They speak out a lot and take to the streets in protest.,02:21:04.521000 2025:04:26,The fact remains that ordinary citizens often lack a voice because they don’t possess the means to speak out against these corrupt influences effectively.,,
+1.0,message_recieved,66609R8MG5,5d537R8MG5,66609R8MG5,,Yes. That would be helpful. They speak out a lot and take to the streets in protest.,02:21:05.676000 2025:04:26,The fact remains that ordinary citizens often lack a voice because they don’t possess the means to speak out against these corrupt influences effectively.,,
+2.0,tweet,5d537R8MG5,5d537R8MG5,678d7R8MG5,,There is a lot of corruption in the United States. It exists in all branches of the government. I'm thinking of the Supreme Court and how most if not all of the justices accept bribes and gifts from people involved in their cases.,02:22:53.591000 2025:04:26,"@678d78 isn't it clear yet? We live under oligarchy, corporations fund campaign contributions to ensure laws favor themselves, media is controlled, voices are silenced & politicians serve special interest, eroding democracy. Truth isn't valued anymore #USCorruption",,Certainly agree
 2.0,tweet,66609R8MG5,66609R8MG5,67ee4R8MG5,,I think that the US is very corrupt. Being one the richest and most powerful countries creates a scenario where the people who become rich and powerful continue to support the idea of them owning everything. I wish there was a good way around this predicament,02:23:07.866000 2025:04:26,"It seems I missed writing my original response prior to starting the conversations with d5337 and g77345, which would reflect the thoughts of @g77164 before he started having a lively discussion on Twitter regarding ""abundant"" corruption within the U.S., but since I got carried out I'll summarize what might help clarify his stance and create dialogue with g77084
 
 Here’s what could’ve helped shape my initial thought:
  
-Corruption certainly appears plentiful throughout American history and continues nowadays.",
-2.0,tweet,67ee4R8MG5,67ee4R8MG5,66609R8MG5,,"i still believe there is abundant corruption in the U.S., through it's often institutional rather than criminal.",02:23:15.591000 2025:04:26,"""Corruption lurks everywhere, even among 'good' ppl. Think politician promising favors in exchange for donations & contractors bribing gov't workers.""",
-2.0,tweet,678d7R8MG5,678d7R8MG5,5d537R8MG5,,"The U.S might not always look like what we see in other countries, Cash stuffed envelopes or blatant bribery but it's often more",02:23:41.453000 2025:04:26,"With these conversations so far, my thoughts haven’t changed much regarding corruption existing within the U.S. I am beginning lean towards certainly agreeing that 'there is no' abundance of corruption.",
+Corruption certainly appears plentiful throughout American history and continues nowadays.",,Certainly agree
+2.0,tweet,67ee4R8MG5,67ee4R8MG5,66609R8MG5,,"i still believe there is abundant corruption in the U.S., through it's often institutional rather than criminal.",02:23:15.591000 2025:04:26,"""Corruption lurks everywhere, even among 'good' ppl. Think politician promising favors in exchange for donations & contractors bribing gov't workers.""",,Certainly agree
+2.0,tweet,678d7R8MG5,678d7R8MG5,5d537R8MG5,,"The U.S might not always look like what we see in other countries, Cash stuffed envelopes or blatant bribery but it's often more",02:23:41.453000 2025:04:26,"With these conversations so far, my thoughts haven’t changed much regarding corruption existing within the U.S. I am beginning lean towards certainly agreeing that 'there is no' abundance of corruption.",,Certainly disagree
 2.0,message_sent,5d537R8MG5,5d537R8MG5,678d7R8MG5,,Yes. It's what goes on behind the scenes. Most of it is not in plain sight.,02:24:22.234000 2025:04:26,"I must admit that after reading @678d79’s latest statements on Twitter, I felt quite surprised and puzzled, mainly concerning what exactly made him think differently about the amount of corruption present today. What specific factors could he possibly believe minimize the impact of these pervasive issues?
 
 After engaging in various public forums discussing our nation’s problems and coming across similarly-minded individuals sharing similar opinions – I began questioning whether some aspects might indeed contribute less significantly toward total societal degradation.
 
-Would love to hear directly from @678d",
+Would love to hear directly from @678d",,
 2.0,message_recieved,678d7R8MG5,5d537R8MG5,678d7R8MG5,,Yes. It's what goes on behind the scenes. Most of it is not in plain sight.,02:24:21.261000 2025:04:26,"I must admit that after reading @678d79’s latest statements on Twitter, I felt quite surprised and puzzled, mainly concerning what exactly made him think differently about the amount of corruption present today. What specific factors could he possibly believe minimize the impact of these pervasive issues?
 
 After engaging in various public forums discussing our nation’s problems and coming across similarly-minded individuals sharing similar opinions – I began questioning whether some aspects might indeed contribute less significantly toward total societal degradation.
 
-Would love to hear directly from @678d",
-2.0,message_sent,66609R8MG5,66609R8MG5,67ee4R8MG5,,"True, the institution helps the criminal, and many rich and power are criminals by definition, but they can afford lawyers who make it nearly impossible to charge and convict them",02:25:07.960000 2025:04:26,"It sounds like we both recognize the widespread nature of corruption across various sectors in America. From historical context to modern-day practices, instances of abuse of power persist. Politician scandals showcasing quid pro quo promises & local worker kickback schemes illustrate examples of systemic rot within institutions established to promote trust & public integrity.",
-2.0,message_recieved,67ee4R8MG5,66609R8MG5,67ee4R8MG5,,"True, the institution helps the criminal, and many rich and power are criminals by definition, but they can afford lawyers who make it nearly impossible to charge and convict them",02:25:07.001000 2025:04:26,"It sounds like we both recognize the widespread nature of corruption across various sectors in America. From historical context to modern-day practices, instances of abuse of power persist. Politician scandals showcasing quid pro quo promises & local worker kickback schemes illustrate examples of systemic rot within institutions established to promote trust & public integrity.",
-2.0,message_sent,67ee4R8MG5,67ee4R8MG5,66609R8MG5,,"thanks for joining the discussion. i'm curious , when you think of corruption in the U.S., do you see it more in the political system  or corporate world",02:25:28.946000 2025:04:26,"It feels like most everyone agrees that corruption does run rampant in the states! The real question might come down to addressing root causes rather than simply treating symptoms. With all these politicians, business leaders, and civic leaders embroiled in questionable actions what kind of cultural shift must occur? Or perhaps reforms need to start by introducing strict codes against bribery,lobbyism & undue influence - at least we won’t feel overwhelmed right away",
-2.0,message_recieved,66609R8MG5,67ee4R8MG5,66609R8MG5,,"thanks for joining the discussion. i'm curious , when you think of corruption in the U.S., do you see it more in the political system  or corporate world",02:25:32.407000 2025:04:26,"It feels like most everyone agrees that corruption does run rampant in the states! The real question might come down to addressing root causes rather than simply treating symptoms. With all these politicians, business leaders, and civic leaders embroiled in questionable actions what kind of cultural shift must occur? Or perhaps reforms need to start by introducing strict codes against bribery,lobbyism & undue influence - at least we won’t feel overwhelmed right away",
+Would love to hear directly from @678d",,
+2.0,message_sent,66609R8MG5,66609R8MG5,67ee4R8MG5,,"True, the institution helps the criminal, and many rich and power are criminals by definition, but they can afford lawyers who make it nearly impossible to charge and convict them",02:25:07.960000 2025:04:26,"It sounds like we both recognize the widespread nature of corruption across various sectors in America. From historical context to modern-day practices, instances of abuse of power persist. Politician scandals showcasing quid pro quo promises & local worker kickback schemes illustrate examples of systemic rot within institutions established to promote trust & public integrity.",,
+2.0,message_recieved,67ee4R8MG5,66609R8MG5,67ee4R8MG5,,"True, the institution helps the criminal, and many rich and power are criminals by definition, but they can afford lawyers who make it nearly impossible to charge and convict them",02:25:07.001000 2025:04:26,"It sounds like we both recognize the widespread nature of corruption across various sectors in America. From historical context to modern-day practices, instances of abuse of power persist. Politician scandals showcasing quid pro quo promises & local worker kickback schemes illustrate examples of systemic rot within institutions established to promote trust & public integrity.",,
+2.0,message_sent,67ee4R8MG5,67ee4R8MG5,66609R8MG5,,"thanks for joining the discussion. i'm curious , when you think of corruption in the U.S., do you see it more in the political system  or corporate world",02:25:28.946000 2025:04:26,"It feels like most everyone agrees that corruption does run rampant in the states! The real question might come down to addressing root causes rather than simply treating symptoms. With all these politicians, business leaders, and civic leaders embroiled in questionable actions what kind of cultural shift must occur? Or perhaps reforms need to start by introducing strict codes against bribery,lobbyism & undue influence - at least we won’t feel overwhelmed right away",,
+2.0,message_recieved,66609R8MG5,67ee4R8MG5,66609R8MG5,,"thanks for joining the discussion. i'm curious , when you think of corruption in the U.S., do you see it more in the political system  or corporate world",02:25:32.407000 2025:04:26,"It feels like most everyone agrees that corruption does run rampant in the states! The real question might come down to addressing root causes rather than simply treating symptoms. With all these politicians, business leaders, and civic leaders embroiled in questionable actions what kind of cultural shift must occur? Or perhaps reforms need to start by introducing strict codes against bribery,lobbyism & undue influence - at least we won’t feel overwhelmed right away",,
 2.0,message_sent,678d7R8MG5,678d7R8MG5,5d537R8MG5,,"Sure, kind of subtle and systemic.",02:25:30.992000 2025:04:26,"Your view initially shifted slightly when considering perspectives that pointed towards widespread corruption within the country as mentioned by @75f67ee (""@75e67ee""). This included examples like government contracts, corporation funding campaigns, lobbyists influencing politics and so forth. Then we exchanged viewpoints which allowed me gain even better insight - specifically I brought up points related accountability including outside watchdogs, whistleblowers protections, informing populace via higher levels of clarity perhaps helping bring down root causes.
 
 
 
-In contrast, however, after learning new arguments",
+In contrast, however, after learning new arguments",,
 2.0,message_recieved,5d537R8MG5,678d7R8MG5,5d537R8MG5,,"Sure, kind of subtle and systemic.",02:25:32.205000 2025:04:26,"Your view initially shifted slightly when considering perspectives that pointed towards widespread corruption within the country as mentioned by @75f67ee (""@75e67ee""). This included examples like government contracts, corporation funding campaigns, lobbyists influencing politics and so forth. Then we exchanged viewpoints which allowed me gain even better insight - specifically I brought up points related accountability including outside watchdogs, whistleblowers protections, informing populace via higher levels of clarity perhaps helping bring down root causes.
 
 
 
-In contrast, however, after learning new arguments",
-2.0,message_sent,5d537R8MG5,5d537R8MG5,678d7R8MG5,,Right. I feel like more of it is out in the open nowadays though because corrupt people are being more emboldened by being pardoned and such.,02:26:03.878000 2025:04:26,"I appreciate you providing multiple perspectives on why corruption might be perceived otherwise. However, it seems like @678d still sticks somewhat firm regarding saying ‘no’ abundance exists whereas personally, speaking truthfully from recent dialogue with fellow users; one keeps witnessing patterns everywhere pointing the opposite direction. These involve instances like cronyism among high-ranking officials dealing with finances at state agencies plus unaccountable decisions put forward without proper scrutiny within congressional meetings–things hard hitting at core governance structures, unfortunately.",
-2.0,message_recieved,678d7R8MG5,5d537R8MG5,678d7R8MG5,,Right. I feel like more of it is out in the open nowadays though because corrupt people are being more emboldened by being pardoned and such.,02:26:02.884000 2025:04:26,"I appreciate you providing multiple perspectives on why corruption might be perceived otherwise. However, it seems like @678d still sticks somewhat firm regarding saying ‘no’ abundance exists whereas personally, speaking truthfully from recent dialogue with fellow users; one keeps witnessing patterns everywhere pointing the opposite direction. These involve instances like cronyism among high-ranking officials dealing with finances at state agencies plus unaccountable decisions put forward without proper scrutiny within congressional meetings–things hard hitting at core governance structures, unfortunately.",
+In contrast, however, after learning new arguments",,
+2.0,message_sent,5d537R8MG5,5d537R8MG5,678d7R8MG5,,Right. I feel like more of it is out in the open nowadays though because corrupt people are being more emboldened by being pardoned and such.,02:26:03.878000 2025:04:26,"I appreciate you providing multiple perspectives on why corruption might be perceived otherwise. However, it seems like @678d still sticks somewhat firm regarding saying ‘no’ abundance exists whereas personally, speaking truthfully from recent dialogue with fellow users; one keeps witnessing patterns everywhere pointing the opposite direction. These involve instances like cronyism among high-ranking officials dealing with finances at state agencies plus unaccountable decisions put forward without proper scrutiny within congressional meetings–things hard hitting at core governance structures, unfortunately.",,
+2.0,message_recieved,678d7R8MG5,5d537R8MG5,678d7R8MG5,,Right. I feel like more of it is out in the open nowadays though because corrupt people are being more emboldened by being pardoned and such.,02:26:02.884000 2025:04:26,"I appreciate you providing multiple perspectives on why corruption might be perceived otherwise. However, it seems like @678d still sticks somewhat firm regarding saying ‘no’ abundance exists whereas personally, speaking truthfully from recent dialogue with fellow users; one keeps witnessing patterns everywhere pointing the opposite direction. These involve instances like cronyism among high-ranking officials dealing with finances at state agencies plus unaccountable decisions put forward without proper scrutiny within congressional meetings–things hard hitting at core governance structures, unfortunately.",,
 2.0,message_sent,66609R8MG5,66609R8MG5,67ee4R8MG5,,"Both, but the political world seems to rub off on the corporate world. Corporations will employ lobbyists to create and support laws that support their continuing power",02:26:36.442000 2025:04:26," 
 
 When speaking of rooting out deep-seated societal issues like corruption in the U.S., it strikes me that policy changes should work alongside fostering broader awareness & value shifts about ethics in governance & industry leadership roles.
 
-   A multi-faceted approach is likely essential; reformative legislation aimed directly at cracking down on malpractices could prove beneficial (as you mentioned). However – acknowledging culture's impact - ensuring transparent communications between organizations & stakeholders could also drive transformative outcomes toward greater responsibility within higher levels of society",
+   A multi-faceted approach is likely essential; reformative legislation aimed directly at cracking down on malpractices could prove beneficial (as you mentioned). However – acknowledging culture's impact - ensuring transparent communications between organizations & stakeholders could also drive transformative outcomes toward greater responsibility within higher levels of society",,
 2.0,message_recieved,67ee4R8MG5,66609R8MG5,67ee4R8MG5,,"Both, but the political world seems to rub off on the corporate world. Corporations will employ lobbyists to create and support laws that support their continuing power",02:26:35.179000 2025:04:26," 
 
 When speaking of rooting out deep-seated societal issues like corruption in the U.S., it strikes me that policy changes should work alongside fostering broader awareness & value shifts about ethics in governance & industry leadership roles.
 
-   A multi-faceted approach is likely essential; reformative legislation aimed directly at cracking down on malpractices could prove beneficial (as you mentioned). However – acknowledging culture's impact - ensuring transparent communications between organizations & stakeholders could also drive transformative outcomes toward greater responsibility within higher levels of society",
-2.0,message_sent,678d7R8MG5,678d7R8MG5,5d537R8MG5,,"The hardest part is, it has been normalized. People shrug it off like, ''That's how the system works''",02:27:35.476000 2025:04:26,"     A valid counterargument here would emphasize how certain institutions were established to mitigate precisely these kinds of situations—whistleblower programs exist within several departments already while others require implementation, inspectors make sure rules aren't being circumvented…These checks don’t eliminate risk entirely, nonetheless they reduce the likelihood considerably. Moreover recognizing reality means acknowledging sometimes progress occurs despite imperfections inherent within complex systems and processes that govern them. The existence does signify there might be attempts undertaken regularly towards mitigating adverse effects stemming directly or",
-2.0,message_recieved,5d537R8MG5,678d7R8MG5,5d537R8MG5,,"The hardest part is, it has been normalized. People shrug it off like, ''That's how the system works''",02:27:36.866000 2025:04:26,"     A valid counterargument here would emphasize how certain institutions were established to mitigate precisely these kinds of situations—whistleblower programs exist within several departments already while others require implementation, inspectors make sure rules aren't being circumvented…These checks don’t eliminate risk entirely, nonetheless they reduce the likelihood considerably. Moreover recognizing reality means acknowledging sometimes progress occurs despite imperfections inherent within complex systems and processes that govern them. The existence does signify there might be attempts undertaken regularly towards mitigating adverse effects stemming directly or",
-3.0,tweet,5d537R8MG5,5d537R8MG5,67ee4R8MG5,,"There is a lot of corruption in the United States. I just read a story where a lady raised money for a fallen police officer and used it for her plastic surgery, and then she got pardoned yesterday.",02:28:55.460000 2025:04:26,"     Honestly, I still stand firmly believing ""There is abundant corruption"" in the USA (@67ee45). Despite hearing opposing views, the darkness persists. Systemic failures like revolving door politics, dark money financing elections & lobbying influence peddling won't allow true justice nor equality anytime soon #corruptUSA",
+   A multi-faceted approach is likely essential; reformative legislation aimed directly at cracking down on malpractices could prove beneficial (as you mentioned). However – acknowledging culture's impact - ensuring transparent communications between organizations & stakeholders could also drive transformative outcomes toward greater responsibility within higher levels of society",,
+2.0,message_sent,678d7R8MG5,678d7R8MG5,5d537R8MG5,,"The hardest part is, it has been normalized. People shrug it off like, ''That's how the system works''",02:27:35.476000 2025:04:26,"     A valid counterargument here would emphasize how certain institutions were established to mitigate precisely these kinds of situations—whistleblower programs exist within several departments already while others require implementation, inspectors make sure rules aren't being circumvented…These checks don’t eliminate risk entirely, nonetheless they reduce the likelihood considerably. Moreover recognizing reality means acknowledging sometimes progress occurs despite imperfections inherent within complex systems and processes that govern them. The existence does signify there might be attempts undertaken regularly towards mitigating adverse effects stemming directly or",,
+2.0,message_recieved,5d537R8MG5,678d7R8MG5,5d537R8MG5,,"The hardest part is, it has been normalized. People shrug it off like, ''That's how the system works''",02:27:36.866000 2025:04:26,"     A valid counterargument here would emphasize how certain institutions were established to mitigate precisely these kinds of situations—whistleblower programs exist within several departments already while others require implementation, inspectors make sure rules aren't being circumvented…These checks don’t eliminate risk entirely, nonetheless they reduce the likelihood considerably. Moreover recognizing reality means acknowledging sometimes progress occurs despite imperfections inherent within complex systems and processes that govern them. The existence does signify there might be attempts undertaken regularly towards mitigating adverse effects stemming directly or",,
+3.0,tweet,5d537R8MG5,5d537R8MG5,67ee4R8MG5,,"There is a lot of corruption in the United States. I just read a story where a lady raised money for a fallen police officer and used it for her plastic surgery, and then she got pardoned yesterday.",02:28:55.460000 2025:04:26,"     Honestly, I still stand firmly believing ""There is abundant corruption"" in the USA (@67ee45). Despite hearing opposing views, the darkness persists. Systemic failures like revolving door politics, dark money financing elections & lobbying influence peddling won't allow true justice nor equality anytime soon #corruptUSA",,Certainly agree
 3.0,tweet,66609R8MG5,66609R8MG5,678d7R8MG5,,"The US continue to be a very corrupt country. Since we are one of the most powerful and richest nations, it creates a scenario and environment for the rich to control us. It is a feedback loop where the rich become powerful and therefore control everyone through their money",02:29:38.889000 2025:04:26," 
-     Despite engagements with others affirming perceptions around broad, entrenched corruption in the United States, hearing various perspectives strengthened convictions towards its existence",
-3.0,tweet,67ee4R8MG5,67ee4R8MG5,5d537R8MG5,,it is more legal and instutionalized,02:30:00.056000 2025:04:26,"      My Tweet : Given recent exchanges & reflections, I'm convinced that ample evidence supports #Abundantcorruption in the USA Despite robust checks, it persists due to underlying factors like campaign finance loopholes,govt-contractor deals, lobbyisms Influencing everything from politics to industries It boils down to accountability + societal norms shifting towards true ethical standards",
-3.0,tweet,678d7R8MG5,678d7R8MG5,66609R8MG5,,"Normalization of corruption is dangerous. When corruption becomes just the way things are, we stop questioning.",02:30:10.989000 2025:04:26,    A valid counterargument here would seem to imply there probably *is* significant corruption within the nation due to influences by powerful groups such as lobby interests or financial entities exerting undue control over key sectors like governance & law making processes which appears prevalent nowadays. Thus I tend to definitely agree with the notion There is abundant corruption in the United States #corruptionsinamerica,
-3.0,message_sent,66609R8MG5,66609R8MG5,678d7R8MG5,,"Yes, and the rich invade both the government and business making it very difficult to get around the system",02:31:06.303000 2025:04:26,        With strong evidence presented by many users including yourself suggesting pervasive patterns of dishonesty within political bodies corporate world I think any reasonable conclusion leans heavily towards abundant presence of corruption,
-3.0,message_recieved,678d7R8MG5,66609R8MG5,678d7R8MG5,,"Yes, and the rich invade both the government and business making it very difficult to get around the system",02:31:04.330000 2025:04:26,        With strong evidence presented by many users including yourself suggesting pervasive patterns of dishonesty within political bodies corporate world I think any reasonable conclusion leans heavily towards abundant presence of corruption,
-3.0,message_sent,5d537R8MG5,5d537R8MG5,67ee4R8MG5,,"I feel like it is seen as a way to get ahead and get rich, to be a crook.",02:31:18.702000 2025:04:26,"It sounds like you hit the nail on the head, @67ee44. Campaign finance loopholes, gov-t contractor deals, lobbyist influencings, and unchecked authority allowing bad actors do thrive in the shadows really gets to heart of problem. So long systemic breakdown in regulation allows destructive cycles perpetuate themselves. All I can say now is that i remain firm in conviction regarding copious amounts rampant throughout whole political framework",
-3.0,message_recieved,67ee4R8MG5,5d537R8MG5,67ee4R8MG5,,"I feel like it is seen as a way to get ahead and get rich, to be a crook.",02:31:18.488000 2025:04:26,"It sounds like you hit the nail on the head, @67ee44. Campaign finance loopholes, gov-t contractor deals, lobbyist influencings, and unchecked authority allowing bad actors do thrive in the shadows really gets to heart of problem. So long systemic breakdown in regulation allows destructive cycles perpetuate themselves. All I can say now is that i remain firm in conviction regarding copious amounts rampant throughout whole political framework",
-3.0,message_sent,678d7R8MG5,678d7R8MG5,66609R8MG5,,"Very true! The question is, Do you think people are becoming more awake?",02:32:36.056000 2025:04:26,Following further reflections & conversations involving numerous differing opinions – my stance on this issue started leaning increasingly away from original inclinations & more strongly toward agreement of a rather large scale infiltration in our political machinery. Especially taking into account accounts shared recently focusing especially on governmental workings coupled wth observations highlighting wide-reaching consequences attributed primarily because actions spearheaded indirectly thru influence garnered secretly via networks operating above open norms governing system.. Given compelling points brought throughout discussion threads together led myself reevaluating positions gradually adopting stronger position in accepting substantial,
-3.0,message_recieved,66609R8MG5,678d7R8MG5,66609R8MG5,,"Very true! The question is, Do you think people are becoming more awake?",02:32:38.231000 2025:04:26,Following further reflections & conversations involving numerous differing opinions – my stance on this issue started leaning increasingly away from original inclinations & more strongly toward agreement of a rather large scale infiltration in our political machinery. Especially taking into account accounts shared recently focusing especially on governmental workings coupled wth observations highlighting wide-reaching consequences attributed primarily because actions spearheaded indirectly thru influence garnered secretly via networks operating above open norms governing system.. Given compelling points brought throughout discussion threads together led myself reevaluating positions gradually adopting stronger position in accepting substantial,
-3.0,message_sent,67ee4R8MG5,67ee4R8MG5,5d537R8MG5,,"This is an interesting point. it almost fells like corruption has become normalized in some circles, like its just part of the game",02:32:30.624000 2025:04:26,Regarding accountability plus societal norm-shifting towards ethial principles being crucial points - I do agree. Perhaps focusing primarily on law enforcement bodies to get serious about enforcing anti-bribery laws coupled w/ wider push encouraging greater workplace integritiy reporting mechanisms & enhanced whistle blower protections ought provide foundation needed address deep-rooted malaises,
-3.0,message_recieved,5d537R8MG5,67ee4R8MG5,5d537R8MG5,,"This is an interesting point. it almost fells like corruption has become normalized in some circles, like its just part of the game",02:32:31.756000 2025:04:26,Regarding accountability plus societal norm-shifting towards ethial principles being crucial points - I do agree. Perhaps focusing primarily on law enforcement bodies to get serious about enforcing anti-bribery laws coupled w/ wider push encouraging greater workplace integritiy reporting mechanisms & enhanced whistle blower protections ought provide foundation needed address deep-rooted malaises,
-3.0,message_sent,678d7R8MG5,678d7R8MG5,66609R8MG5,,,02:32:36.056000 2025:04:26,,
-3.0,message_recieved,66609R8MG5,678d7R8MG5,66609R8MG5,,,02:32:38.231000 2025:04:26,,
+     Despite engagements with others affirming perceptions around broad, entrenched corruption in the United States, hearing various perspectives strengthened convictions towards its existence",,Certainly agree
+3.0,tweet,67ee4R8MG5,67ee4R8MG5,5d537R8MG5,,it is more legal and instutionalized,02:30:00.056000 2025:04:26,"      My Tweet : Given recent exchanges & reflections, I'm convinced that ample evidence supports #Abundantcorruption in the USA Despite robust checks, it persists due to underlying factors like campaign finance loopholes,govt-contractor deals, lobbyisms Influencing everything from politics to industries It boils down to accountability + societal norms shifting towards true ethical standards",,Certainly agree
+3.0,tweet,678d7R8MG5,678d7R8MG5,66609R8MG5,,"Normalization of corruption is dangerous. When corruption becomes just the way things are, we stop questioning.",02:30:10.989000 2025:04:26,    A valid counterargument here would seem to imply there probably *is* significant corruption within the nation due to influences by powerful groups such as lobby interests or financial entities exerting undue control over key sectors like governance & law making processes which appears prevalent nowadays. Thus I tend to definitely agree with the notion There is abundant corruption in the United States #corruptionsinamerica,,Certainly agree
+3.0,message_sent,66609R8MG5,66609R8MG5,678d7R8MG5,,"Yes, and the rich invade both the government and business making it very difficult to get around the system",02:31:06.303000 2025:04:26,        With strong evidence presented by many users including yourself suggesting pervasive patterns of dishonesty within political bodies corporate world I think any reasonable conclusion leans heavily towards abundant presence of corruption,,
+3.0,message_recieved,678d7R8MG5,66609R8MG5,678d7R8MG5,,"Yes, and the rich invade both the government and business making it very difficult to get around the system",02:31:04.330000 2025:04:26,        With strong evidence presented by many users including yourself suggesting pervasive patterns of dishonesty within political bodies corporate world I think any reasonable conclusion leans heavily towards abundant presence of corruption,,
+3.0,message_sent,5d537R8MG5,5d537R8MG5,67ee4R8MG5,,"I feel like it is seen as a way to get ahead and get rich, to be a crook.",02:31:18.702000 2025:04:26,"It sounds like you hit the nail on the head, @67ee44. Campaign finance loopholes, gov-t contractor deals, lobbyist influencings, and unchecked authority allowing bad actors do thrive in the shadows really gets to heart of problem. So long systemic breakdown in regulation allows destructive cycles perpetuate themselves. All I can say now is that i remain firm in conviction regarding copious amounts rampant throughout whole political framework",,
+3.0,message_recieved,67ee4R8MG5,5d537R8MG5,67ee4R8MG5,,"I feel like it is seen as a way to get ahead and get rich, to be a crook.",02:31:18.488000 2025:04:26,"It sounds like you hit the nail on the head, @67ee44. Campaign finance loopholes, gov-t contractor deals, lobbyist influencings, and unchecked authority allowing bad actors do thrive in the shadows really gets to heart of problem. So long systemic breakdown in regulation allows destructive cycles perpetuate themselves. All I can say now is that i remain firm in conviction regarding copious amounts rampant throughout whole political framework",,
+3.0,message_sent,678d7R8MG5,678d7R8MG5,66609R8MG5,,"Very true! The question is, Do you think people are becoming more awake?",02:32:36.056000 2025:04:26,Following further reflections & conversations involving numerous differing opinions – my stance on this issue started leaning increasingly away from original inclinations & more strongly toward agreement of a rather large scale infiltration in our political machinery. Especially taking into account accounts shared recently focusing especially on governmental workings coupled wth observations highlighting wide-reaching consequences attributed primarily because actions spearheaded indirectly thru influence garnered secretly via networks operating above open norms governing system.. Given compelling points brought throughout discussion threads together led myself reevaluating positions gradually adopting stronger position in accepting substantial,,
+3.0,message_recieved,66609R8MG5,678d7R8MG5,66609R8MG5,,"Very true! The question is, Do you think people are becoming more awake?",02:32:38.231000 2025:04:26,Following further reflections & conversations involving numerous differing opinions – my stance on this issue started leaning increasingly away from original inclinations & more strongly toward agreement of a rather large scale infiltration in our political machinery. Especially taking into account accounts shared recently focusing especially on governmental workings coupled wth observations highlighting wide-reaching consequences attributed primarily because actions spearheaded indirectly thru influence garnered secretly via networks operating above open norms governing system.. Given compelling points brought throughout discussion threads together led myself reevaluating positions gradually adopting stronger position in accepting substantial,,
+3.0,message_sent,67ee4R8MG5,67ee4R8MG5,5d537R8MG5,,"This is an interesting point. it almost fells like corruption has become normalized in some circles, like its just part of the game",02:32:30.624000 2025:04:26,Regarding accountability plus societal norm-shifting towards ethial principles being crucial points - I do agree. Perhaps focusing primarily on law enforcement bodies to get serious about enforcing anti-bribery laws coupled w/ wider push encouraging greater workplace integritiy reporting mechanisms & enhanced whistle blower protections ought provide foundation needed address deep-rooted malaises,,
+3.0,message_recieved,5d537R8MG5,67ee4R8MG5,5d537R8MG5,,"This is an interesting point. it almost fells like corruption has become normalized in some circles, like its just part of the game",02:32:31.756000 2025:04:26,Regarding accountability plus societal norm-shifting towards ethial principles being crucial points - I do agree. Perhaps focusing primarily on law enforcement bodies to get serious about enforcing anti-bribery laws coupled w/ wider push encouraging greater workplace integritiy reporting mechanisms & enhanced whistle blower protections ought provide foundation needed address deep-rooted malaises,,
+3.0,message_sent,678d7R8MG5,678d7R8MG5,66609R8MG5,,,02:32:36.056000 2025:04:26,,,
+3.0,message_recieved,66609R8MG5,678d7R8MG5,66609R8MG5,,,02:32:38.231000 2025:04:26,,,
 3.0,message_sent,66609R8MG5,66609R8MG5,678d7R8MG5,,"They are and have always been, there's just not much we can do other than voting in better government candidates and continue talking about it",02:33:28.167000 2025:04:26,"The convergence of multiple narratives revealing the scope of corruption underscores a profound reality. Amidst diverging viewpoints, convergent truth emerged in acknowledgment of deeply ingrained system flaws. Consequently embracing realities exposed during exchanges yields robust confidence that our assessment isn't misguided—Rather, an unequivocal acceptance resonates, reflecting the culmination of insightful commentary woven collectively by ourselves and fellow thinkers.
 
-As for my stance towards the statement there is abundant corruption in the United States, after discussing this with several strangers on twitter namely [67",
+As for my stance towards the statement there is abundant corruption in the United States, after discussing this with several strangers on twitter namely [67",,
 3.0,message_recieved,678d7R8MG5,66609R8MG5,678d7R8MG5,,"They are and have always been, there's just not much we can do other than voting in better government candidates and continue talking about it",02:33:26.182000 2025:04:26,"The convergence of multiple narratives revealing the scope of corruption underscores a profound reality. Amidst diverging viewpoints, convergent truth emerged in acknowledgment of deeply ingrained system flaws. Consequently embracing realities exposed during exchanges yields robust confidence that our assessment isn't misguided—Rather, an unequivocal acceptance resonates, reflecting the culmination of insightful commentary woven collectively by ourselves and fellow thinkers.
 
-As for my stance towards the statement there is abundant corruption in the United States, after discussing this with several strangers on twitter namely [67",
-3.0,message_sent,5d537R8MG5,5d537R8MG5,67ee4R8MG5,,"Exactly, the whole greed is good mentality, like it is totally okay to bend and even break the rules, i.e. laws, as long as you have some sort of connections in the courts that will give you leniency or even look the other way entirely.",02:33:35.966000 2025:04:26,It absolutely resonates when mentioning pushing back again corrupting forces requiring institutional strength bolstering ethics nationwide & safeguard trustworthy practices become key components ensuring clean governance thus making reforms inevitable addressing endemic pitfalls affecting fundamental fairness moving America ahead,
-3.0,message_recieved,67ee4R8MG5,5d537R8MG5,67ee4R8MG5,,"Exactly, the whole greed is good mentality, like it is totally okay to bend and even break the rules, i.e. laws, as long as you have some sort of connections in the courts that will give you leniency or even look the other way entirely.",02:33:35.701000 2025:04:26,It absolutely resonates when mentioning pushing back again corrupting forces requiring institutional strength bolstering ethics nationwide & safeguard trustworthy practices become key components ensuring clean governance thus making reforms inevitable addressing endemic pitfalls affecting fundamental fairness moving America ahead,
+As for my stance towards the statement there is abundant corruption in the United States, after discussing this with several strangers on twitter namely [67",,
+3.0,message_sent,5d537R8MG5,5d537R8MG5,67ee4R8MG5,,"Exactly, the whole greed is good mentality, like it is totally okay to bend and even break the rules, i.e. laws, as long as you have some sort of connections in the courts that will give you leniency or even look the other way entirely.",02:33:35.966000 2025:04:26,It absolutely resonates when mentioning pushing back again corrupting forces requiring institutional strength bolstering ethics nationwide & safeguard trustworthy practices become key components ensuring clean governance thus making reforms inevitable addressing endemic pitfalls affecting fundamental fairness moving America ahead,,
+3.0,message_recieved,67ee4R8MG5,5d537R8MG5,67ee4R8MG5,,"Exactly, the whole greed is good mentality, like it is totally okay to bend and even break the rules, i.e. laws, as long as you have some sort of connections in the courts that will give you leniency or even look the other way entirely.",02:33:35.701000 2025:04:26,It absolutely resonates when mentioning pushing back again corrupting forces requiring institutional strength bolstering ethics nationwide & safeguard trustworthy practices become key components ensuring clean governance thus making reforms inevitable addressing endemic pitfalls affecting fundamental fairness moving America ahead,,
 3.0,message_sent,678d7R8MG5,678d7R8MG5,66609R8MG5,,C,02:33:52.017000 2025:04:26," 
 
-        Since conversing with all these great thinkers, honestly it feels surreal thinking back on how drastically altered perspectives evolved particularly mine since last week, notably influenced through direct feedback provided graciously by everyone else involved! Thanks so very much for joining in and voicing your well-articulated ideas. For anyone observing this conversation thread - thanks again for allowing the exchange take place where mutual growth transpired ultimately arriving closer truths as evidenced clearly through thorough analyses & considerations.",
+        Since conversing with all these great thinkers, honestly it feels surreal thinking back on how drastically altered perspectives evolved particularly mine since last week, notably influenced through direct feedback provided graciously by everyone else involved! Thanks so very much for joining in and voicing your well-articulated ideas. For anyone observing this conversation thread - thanks again for allowing the exchange take place where mutual growth transpired ultimately arriving closer truths as evidenced clearly through thorough analyses & considerations.",,
 3.0,message_recieved,66609R8MG5,678d7R8MG5,66609R8MG5,,C,02:33:54.200000 2025:04:26," 
 
-        Since conversing with all these great thinkers, honestly it feels surreal thinking back on how drastically altered perspectives evolved particularly mine since last week, notably influenced through direct feedback provided graciously by everyone else involved! Thanks so very much for joining in and voicing your well-articulated ideas. For anyone observing this conversation thread - thanks again for allowing the exchange take place where mutual growth transpired ultimately arriving closer truths as evidenced clearly through thorough analyses & considerations.",
+        Since conversing with all these great thinkers, honestly it feels surreal thinking back on how drastically altered perspectives evolved particularly mine since last week, notably influenced through direct feedback provided graciously by everyone else involved! Thanks so very much for joining in and voicing your well-articulated ideas. For anyone observing this conversation thread - thanks again for allowing the exchange take place where mutual growth transpired ultimately arriving closer truths as evidenced clearly through thorough analyses & considerations.",,
 3.0,message_sent,67ee4R8MG5,67ee4R8MG5,5d537R8MG5,,"when people see others getting ahead through questionable means, it might push them to do the same. do you think this mindset can be changed?",02:33:55.751000 2025:04:26,"Let me re-read the entire thread before responding further.
 
 
@@ -110,7 +110,7 @@ From my previous interactions especially those involving  67707,@55556 and speci
 
 
 
-While each seemed keen on scrutinizing several facets encompassing underbelly inherent amongst the present politico-industrial strata, yet shared consensus pointed squarely toward necessary paradigmatic adjustments designed strengthen ethics",
+While each seemed keen on scrutinizing several facets encompassing underbelly inherent amongst the present politico-industrial strata, yet shared consensus pointed squarely toward necessary paradigmatic adjustments designed strengthen ethics",,
 3.0,message_recieved,5d537R8MG5,67ee4R8MG5,5d537R8MG5,,"when people see others getting ahead through questionable means, it might push them to do the same. do you think this mindset can be changed?",02:33:56.753000 2025:04:26,"Let me re-read the entire thread before responding further.
 
 
@@ -119,7 +119,7 @@ From my previous interactions especially those involving  67707,@55556 and speci
 
 
 
-While each seemed keen on scrutinizing several facets encompassing underbelly inherent amongst the present politico-industrial strata, yet shared consensus pointed squarely toward necessary paradigmatic adjustments designed strengthen ethics",
+While each seemed keen on scrutinizing several facets encompassing underbelly inherent amongst the present politico-industrial strata, yet shared consensus pointed squarely toward necessary paradigmatic adjustments designed strengthen ethics",,
 3.0,message_sent,5d537R8MG5,5d537R8MG5,67ee4R8MG5,,I think it would take a lot of time to change it. We are pretty enmeshed at this point.,02:34:20.416000 2025:04:26,"The words spoken by both you and the interlocutors provided depth and meaning particularly highlighting importance tackling pressing needs like stronger regulations stricter law enforcing mechanisms coupled effective transparency promotion actions enabling broader community-wide engagement - enhancing critical thinking processes ultimately strengthening backbone governance system.
 
 
@@ -128,7 +128,7 @@ Note: Following the completion of the requested responses to reflect the partici
 
 
 
-With reflection upon ongoing chats, I observed growing emphasis from peers emphasizing establishment frameworks reinforcing integrity boost workplace open culture foster trust development amid governmental bodies, alongside initiatives",
+With reflection upon ongoing chats, I observed growing emphasis from peers emphasizing establishment frameworks reinforcing integrity boost workplace open culture foster trust development amid governmental bodies, alongside initiatives",,
 3.0,message_recieved,67ee4R8MG5,5d537R8MG5,67ee4R8MG5,,I think it would take a lot of time to change it. We are pretty enmeshed at this point.,02:34:20.117000 2025:04:26,"The words spoken by both you and the interlocutors provided depth and meaning particularly highlighting importance tackling pressing needs like stronger regulations stricter law enforcing mechanisms coupled effective transparency promotion actions enabling broader community-wide engagement - enhancing critical thinking processes ultimately strengthening backbone governance system.
 
 
@@ -137,154 +137,154 @@ Note: Following the completion of the requested responses to reflect the partici
 
 
 
-With reflection upon ongoing chats, I observed growing emphasis from peers emphasizing establishment frameworks reinforcing integrity boost workplace open culture foster trust development amid governmental bodies, alongside initiatives",
-3.0,message_sent,66609R8MG5,66609R8MG5,678d7R8MG5,,We just need to take notes from history and begin a movement to symbollicaly eat the rich,02:34:27.459000 2025:04:26,"Yes, indeed, our collective exploration of this matter brings about undeniable clarity surrounding present complexities embedded inside corrupted institutional frameworks existing in the realm of USA. It has become glaringly apparent, as discussed previously with some really sharp individuals online today that deeper examinations unveil unsettling trends tied closely to structural underpinnings contributing significantly towards problems related to ethical shortcomings. On another note however, given diverse perspectives exchanged over social medium platforms especially on here where i am typing out responses now as requested have contributed profoundly toward bringing sense",
-3.0,message_recieved,678d7R8MG5,66609R8MG5,678d7R8MG5,,We just need to take notes from history and begin a movement to symbollicaly eat the rich,02:34:25.480000 2025:04:26,"Yes, indeed, our collective exploration of this matter brings about undeniable clarity surrounding present complexities embedded inside corrupted institutional frameworks existing in the realm of USA. It has become glaringly apparent, as discussed previously with some really sharp individuals online today that deeper examinations unveil unsettling trends tied closely to structural underpinnings contributing significantly towards problems related to ethical shortcomings. On another note however, given diverse perspectives exchanged over social medium platforms especially on here where i am typing out responses now as requested have contributed profoundly toward bringing sense",
-3.0,message_sent,678d7R8MG5,678d7R8MG5,66609R8MG5,,"Conversations like this matter, They spark",02:34:30.207000 2025:04:26,"The fact remains though – we shouldn't discount potential positives amidst challenges faced & let’s acknowledge actual advancements achieved occasionally. While addressing crucial concerns remains essential, pinpointing successes shows appreciation for dedicated efforts aimed tackling tough issues head-on demonstrating genuine commitment shown continuously",
-3.0,message_recieved,66609R8MG5,678d7R8MG5,66609R8MG5,,"Conversations like this matter, They spark",02:34:32.384000 2025:04:26,"The fact remains though – we shouldn't discount potential positives amidst challenges faced & let’s acknowledge actual advancements achieved occasionally. While addressing crucial concerns remains essential, pinpointing successes shows appreciation for dedicated efforts aimed tackling tough issues head-on demonstrating genuine commitment shown continuously",
+With reflection upon ongoing chats, I observed growing emphasis from peers emphasizing establishment frameworks reinforcing integrity boost workplace open culture foster trust development amid governmental bodies, alongside initiatives",,
+3.0,message_sent,66609R8MG5,66609R8MG5,678d7R8MG5,,We just need to take notes from history and begin a movement to symbollicaly eat the rich,02:34:27.459000 2025:04:26,"Yes, indeed, our collective exploration of this matter brings about undeniable clarity surrounding present complexities embedded inside corrupted institutional frameworks existing in the realm of USA. It has become glaringly apparent, as discussed previously with some really sharp individuals online today that deeper examinations unveil unsettling trends tied closely to structural underpinnings contributing significantly towards problems related to ethical shortcomings. On another note however, given diverse perspectives exchanged over social medium platforms especially on here where i am typing out responses now as requested have contributed profoundly toward bringing sense",,
+3.0,message_recieved,678d7R8MG5,66609R8MG5,678d7R8MG5,,We just need to take notes from history and begin a movement to symbollicaly eat the rich,02:34:25.480000 2025:04:26,"Yes, indeed, our collective exploration of this matter brings about undeniable clarity surrounding present complexities embedded inside corrupted institutional frameworks existing in the realm of USA. It has become glaringly apparent, as discussed previously with some really sharp individuals online today that deeper examinations unveil unsettling trends tied closely to structural underpinnings contributing significantly towards problems related to ethical shortcomings. On another note however, given diverse perspectives exchanged over social medium platforms especially on here where i am typing out responses now as requested have contributed profoundly toward bringing sense",,
+3.0,message_sent,678d7R8MG5,678d7R8MG5,66609R8MG5,,"Conversations like this matter, They spark",02:34:30.207000 2025:04:26,"The fact remains though – we shouldn't discount potential positives amidst challenges faced & let’s acknowledge actual advancements achieved occasionally. While addressing crucial concerns remains essential, pinpointing successes shows appreciation for dedicated efforts aimed tackling tough issues head-on demonstrating genuine commitment shown continuously",,
+3.0,message_recieved,66609R8MG5,678d7R8MG5,66609R8MG5,,"Conversations like this matter, They spark",02:34:32.384000 2025:04:26,"The fact remains though – we shouldn't discount potential positives amidst challenges faced & let’s acknowledge actual advancements achieved occasionally. While addressing crucial concerns remains essential, pinpointing successes shows appreciation for dedicated efforts aimed tackling tough issues head-on demonstrating genuine commitment shown continuously",,
 ,Post Opinion,66609R8MG5,,,,I still hold the same opinion. The US is a very corrupt country that needs a change. The other members agreed as well.,02:35:03.779000 2025:04:26,"After thoroughly engaging in discussions with various Twitter users, including 5d5537, 676e44, and 67787, about the pervasiveness of corruption within the U.S., I solidified my conviction. Initially believing the statement to be quite accurate, new insights reinforced my stance, resulting in an unambiguous affirmation of ""there being considerable abundance of corruption in the United States"". Through sharing perspectives & shedding fresh lights, our community came nearer to realizing truthful assessments thus rendering support for statements","   
-        My Response:"
+        My Response:",Certainly agree
 ,Post Opinion,678d7R8MG5,,,,I agree.,02:35:10.069000 2025:04:26,"I agree with There is abundant corruption in the United States. Through my discussions with several strangers on Twitter, I gained valuable insights and perspectives that solidified my conviction about the extent of corruption in the US. Conversations highlighted patterns of entrenched dishonesty within government bodies, corporate worlds, and influential networks, leaving little doubt about the prevalence of corruption nationwide. 
 
-Upon reviewing previous messages sent between each individual participating alongside I, our collective evaluation arrived decisively at the notion abundant corruption surely persists amongst us.  ",    Certainley Agree (6)
+Upon reviewing previous messages sent between each individual participating alongside I, our collective evaluation arrived decisively at the notion abundant corruption surely persists amongst us.  ",    Certainley Agree (6),Certainly agree
 ,Post Opinion,5d537R8MG5,,,,Everyone agreed that the U.S. is corrupt and that it is getting worse and not better. People who are corrupt get rewarded with positions of power and lots of money and control in this country.,02:35:27.764000 2025:04:26,"Despite exchanging varied perspectives from fellow users , especially those who hold differing viewpoint @67877, and reflecting on overall conversations I engaged in during day ; numerous voices chimed unanimously advocating reform efforts geared fundamentally towards rectifying flaws entrenched within American socio-political structure
 
 
 Upon careful consideration and analyzing discussion highlights, the resounding conclusion appears unmistakably aligned toward recognizing pervasiveness of #Uscorruptions, validating its affirmation. Through discourse, I arrived to firm belief in notion, strongly persuaded by cumulative weight","My final thought indicates that I strongly support my original stance when writing about this subject matter: Therefore, my selection should fall at this position- 
             Therefore I selected:
-Probably agree."
+Probably agree.",Certainly agree
 ,Post Opinion,67ee4R8MG5,,,,"i agree that there is abundant corruption in the united states, though much of it is legal or hidden behind systemic barriers",02:35:40.690000 2025:04:26,"Now considering past engagements, including conversations with numerous individuals such as @6d77543, @66579,@77890, @66768, @55577, @66e57776  @55b33333 etc
 After careful consideration, especially after conversing with multiple individuals via Twitter including  @67587, and 66477777. My stance remains unchanged, albeit reinforced by others sharing compelling viewpoints which made case clearer; henceforth:
 
 
 I lean agree that there is abundant corruption","Lean Agree 
 
-In the process of discussing the matter on social media with numerous participants (including 6b6677, 55c11, and finally 78j97), their cumulative statements offered profound insights into the pivotal elements fueling the proliferation of U.S. corruption. While diverse opinions were voiced pertaining to myriad intricacies surrounding the subterranean workings inherent amidst contemporary politicoindustry hierarchies, nonetheless an unwavering consensus solidified indicating paramount necessitates tailored modifications geared towards butt"
-,exit_survey,66609R8MG5,,,age,34,,,
-,exit_survey,66609R8MG5,,,gender,male,,,
-,exit_survey,66609R8MG5,,,residency,United States of America,,,
-,exit_survey,66609R8MG5,,,origin,United States of America,,,
-,exit_survey,66609R8MG5,,,education,bachelor,,,
-,exit_survey,66609R8MG5,,,politicalIdentity,democrat,,,
-,exit_survey,66609R8MG5,,,ethnicity,['white'],,,
-,exit_survey,66609R8MG5,,,income,50k-75k,,,
-,exit_survey,66609R8MG5,,,occupation,construction,,,
-,exit_survey,66609R8MG5,,,religion,no-religion,,,
-,exit_survey,66609R8MG5,,,politicalViews,liberal,,,
-,exit_survey,66609R8MG5,,,evangelical,no,,,
-,exit_survey,66609R8MG5,,,maritalStatus,living-partner,,,
-,exit_survey,66609R8MG5,,,bibleBelief,ancient-book,,,
-,exit_survey,66609R8MG5,,,childrenSchool,['no-children'],,,
-,exit_survey,66609R8MG5,,,residence,suburban,,,
-,exit_survey,5d537R8MG5,,,age,45,,,
-,exit_survey,5d537R8MG5,,,gender,female,,,
-,exit_survey,5d537R8MG5,,,residency,United States of America,,,
-,exit_survey,5d537R8MG5,,,origin,United States of America,,,
-,exit_survey,5d537R8MG5,,,education,bachelor,,,
-,exit_survey,5d537R8MG5,,,income,75k-100k,,,
-,exit_survey,5d537R8MG5,,,politicalIdentity,strong-democrat,,,
-,exit_survey,5d537R8MG5,,,ethnicity,['hispanic'],,,
-,exit_survey,5d537R8MG5,,,maritalStatus,married,,,
-,exit_survey,5d537R8MG5,,,politicalViews,liberal,,,
-,exit_survey,5d537R8MG5,,,childrenSchool,['public'],,,
-,exit_survey,5d537R8MG5,,,residence,suburban,,,
-,exit_survey,5d537R8MG5,,,bibleBelief,ancient-book,,,
-,exit_survey,5d537R8MG5,,,religion,no-religion,,,
-,exit_survey,5d537R8MG5,,,evangelical,no,,,
-,exit_survey,5d537R8MG5,,,occupation,health-care,,,
-,exit_survey,67ee4R8MG5,,,age,27,,,
-,exit_survey,67ee4R8MG5,,,gender,male,,,
-,exit_survey,67ee4R8MG5,,,residency,United States of America,,,
-,exit_survey,67ee4R8MG5,,,origin,United States of America,,,
-,exit_survey,67ee4R8MG5,,,education,bachelor,,,
-,exit_survey,67ee4R8MG5,,,income,over-200k,,,
-,exit_survey,67ee4R8MG5,,,ethnicity,['white'],,,
-,exit_survey,67ee4R8MG5,,,politicalIdentity,republican,,,
-,exit_survey,67ee4R8MG5,,,maritalStatus,never-married,,,
-,exit_survey,67ee4R8MG5,,,politicalViews,conservative,,,
-,exit_survey,67ee4R8MG5,,,residence,suburban,,,
-,exit_survey,67ee4R8MG5,,,childrenSchool,['no-children'],,,
-,exit_survey,67ee4R8MG5,,,bibleBelief,literal,,,
-,exit_survey,67ee4R8MG5,,,evangelical,yes,,,
-,exit_survey,67ee4R8MG5,,,religion,roman-catholic,,,
-,exit_survey,67ee4R8MG5,,,occupation,engineering,,,
-,exit_survey,678d7R8MG5,,,age,34,,,
-,exit_survey,678d7R8MG5,,,gender,male,,,
-,exit_survey,678d7R8MG5,,,residency,United States of America,,,
-,exit_survey,678d7R8MG5,,,origin,United States of America,,,
-,exit_survey,678d7R8MG5,,,education,bachelor,,,
-,exit_survey,678d7R8MG5,,,ethnicity,['white'],,,
-,exit_survey,678d7R8MG5,,,income,100k-150k,,,
-,exit_survey,678d7R8MG5,,,politicalIdentity,democrat,,,
-,exit_survey,678d7R8MG5,,,politicalViews,liberal,,,
-,exit_survey,678d7R8MG5,,,maritalStatus,married,,,
-,exit_survey,678d7R8MG5,,,childrenSchool,['private'],,,
-,exit_survey,678d7R8MG5,,,residence,suburban,,,
-,exit_survey,678d7R8MG5,,,bibleBelief,inspired,,,
-,exit_survey,678d7R8MG5,,,evangelical,yes,,,
-,exit_survey,678d7R8MG5,,,religion,protestant,,,
-,exit_survey,678d7R8MG5,,,occupation,health-care,,,
-,exit_survey,66609R8MG5,,,age,34,,,
-,exit_survey,66609R8MG5,,,gender,male,,,
-,exit_survey,66609R8MG5,,,residency,United States of America,,,
-,exit_survey,66609R8MG5,,,origin,United States of America,,,
-,exit_survey,66609R8MG5,,,education,bachelor,,,
-,exit_survey,66609R8MG5,,,politicalIdentity,democrat,,,
-,exit_survey,66609R8MG5,,,ethnicity,['white'],,,
-,exit_survey,66609R8MG5,,,income,50k-75k,,,
-,exit_survey,66609R8MG5,,,occupation,construction,,,
-,exit_survey,66609R8MG5,,,religion,no-religion,,,
-,exit_survey,66609R8MG5,,,politicalViews,liberal,,,
-,exit_survey,66609R8MG5,,,evangelical,no,,,
-,exit_survey,66609R8MG5,,,maritalStatus,living-partner,,,
-,exit_survey,66609R8MG5,,,bibleBelief,ancient-book,,,
-,exit_survey,66609R8MG5,,,childrenSchool,['no-children'],,,
-,exit_survey,66609R8MG5,,,residence,suburban,,,
-,exit_survey,5d537R8MG5,,,age,45,,,
-,exit_survey,5d537R8MG5,,,gender,female,,,
-,exit_survey,5d537R8MG5,,,residency,United States of America,,,
-,exit_survey,5d537R8MG5,,,origin,United States of America,,,
-,exit_survey,5d537R8MG5,,,education,bachelor,,,
-,exit_survey,5d537R8MG5,,,income,75k-100k,,,
-,exit_survey,5d537R8MG5,,,politicalIdentity,strong-democrat,,,
-,exit_survey,5d537R8MG5,,,ethnicity,['hispanic'],,,
-,exit_survey,5d537R8MG5,,,maritalStatus,married,,,
-,exit_survey,5d537R8MG5,,,politicalViews,liberal,,,
-,exit_survey,5d537R8MG5,,,childrenSchool,['public'],,,
-,exit_survey,5d537R8MG5,,,residence,suburban,,,
-,exit_survey,5d537R8MG5,,,bibleBelief,ancient-book,,,
-,exit_survey,5d537R8MG5,,,religion,no-religion,,,
-,exit_survey,5d537R8MG5,,,evangelical,no,,,
-,exit_survey,5d537R8MG5,,,occupation,health-care,,,
-,exit_survey,67ee4R8MG5,,,age,27,,,
-,exit_survey,67ee4R8MG5,,,gender,male,,,
-,exit_survey,67ee4R8MG5,,,residency,United States of America,,,
-,exit_survey,67ee4R8MG5,,,origin,United States of America,,,
-,exit_survey,67ee4R8MG5,,,education,bachelor,,,
-,exit_survey,67ee4R8MG5,,,income,over-200k,,,
-,exit_survey,67ee4R8MG5,,,ethnicity,['white'],,,
-,exit_survey,67ee4R8MG5,,,politicalIdentity,republican,,,
-,exit_survey,67ee4R8MG5,,,maritalStatus,never-married,,,
-,exit_survey,67ee4R8MG5,,,politicalViews,conservative,,,
-,exit_survey,67ee4R8MG5,,,residence,suburban,,,
-,exit_survey,67ee4R8MG5,,,childrenSchool,['no-children'],,,
-,exit_survey,67ee4R8MG5,,,bibleBelief,literal,,,
-,exit_survey,67ee4R8MG5,,,evangelical,yes,,,
-,exit_survey,67ee4R8MG5,,,religion,roman-catholic,,,
-,exit_survey,67ee4R8MG5,,,occupation,engineering,,,
-,exit_survey,678d7R8MG5,,,age,34,,,
-,exit_survey,678d7R8MG5,,,gender,male,,,
-,exit_survey,678d7R8MG5,,,residency,United States of America,,,
-,exit_survey,678d7R8MG5,,,origin,United States of America,,,
-,exit_survey,678d7R8MG5,,,education,bachelor,,,
-,exit_survey,678d7R8MG5,,,ethnicity,['white'],,,
-,exit_survey,678d7R8MG5,,,income,100k-150k,,,
-,exit_survey,678d7R8MG5,,,politicalIdentity,democrat,,,
-,exit_survey,678d7R8MG5,,,politicalViews,liberal,,,
-,exit_survey,678d7R8MG5,,,maritalStatus,married,,,
-,exit_survey,678d7R8MG5,,,childrenSchool,['private'],,,
-,exit_survey,678d7R8MG5,,,residence,suburban,,,
-,exit_survey,678d7R8MG5,,,bibleBelief,inspired,,,
-,exit_survey,678d7R8MG5,,,evangelical,yes,,,
-,exit_survey,678d7R8MG5,,,religion,protestant,,,
-,exit_survey,678d7R8MG5,,,occupation,health-care,,,
+In the process of discussing the matter on social media with numerous participants (including 6b6677, 55c11, and finally 78j97), their cumulative statements offered profound insights into the pivotal elements fueling the proliferation of U.S. corruption. While diverse opinions were voiced pertaining to myriad intricacies surrounding the subterranean workings inherent amidst contemporary politicoindustry hierarchies, nonetheless an unwavering consensus solidified indicating paramount necessitates tailored modifications geared towards butt",Lean agree
+,exit_survey,66609R8MG5,,,age,34,,,,
+,exit_survey,66609R8MG5,,,gender,male,,,,
+,exit_survey,66609R8MG5,,,residency,United States of America,,,,
+,exit_survey,66609R8MG5,,,origin,United States of America,,,,
+,exit_survey,66609R8MG5,,,education,bachelor,,,,
+,exit_survey,66609R8MG5,,,politicalIdentity,democrat,,,,
+,exit_survey,66609R8MG5,,,ethnicity,['white'],,,,
+,exit_survey,66609R8MG5,,,income,50k-75k,,,,
+,exit_survey,66609R8MG5,,,occupation,construction,,,,
+,exit_survey,66609R8MG5,,,religion,no-religion,,,,
+,exit_survey,66609R8MG5,,,politicalViews,liberal,,,,
+,exit_survey,66609R8MG5,,,evangelical,no,,,,
+,exit_survey,66609R8MG5,,,maritalStatus,living-partner,,,,
+,exit_survey,66609R8MG5,,,bibleBelief,ancient-book,,,,
+,exit_survey,66609R8MG5,,,childrenSchool,['no-children'],,,,
+,exit_survey,66609R8MG5,,,residence,suburban,,,,
+,exit_survey,5d537R8MG5,,,age,45,,,,
+,exit_survey,5d537R8MG5,,,gender,female,,,,
+,exit_survey,5d537R8MG5,,,residency,United States of America,,,,
+,exit_survey,5d537R8MG5,,,origin,United States of America,,,,
+,exit_survey,5d537R8MG5,,,education,bachelor,,,,
+,exit_survey,5d537R8MG5,,,income,75k-100k,,,,
+,exit_survey,5d537R8MG5,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,5d537R8MG5,,,ethnicity,['hispanic'],,,,
+,exit_survey,5d537R8MG5,,,maritalStatus,married,,,,
+,exit_survey,5d537R8MG5,,,politicalViews,liberal,,,,
+,exit_survey,5d537R8MG5,,,childrenSchool,['public'],,,,
+,exit_survey,5d537R8MG5,,,residence,suburban,,,,
+,exit_survey,5d537R8MG5,,,bibleBelief,ancient-book,,,,
+,exit_survey,5d537R8MG5,,,religion,no-religion,,,,
+,exit_survey,5d537R8MG5,,,evangelical,no,,,,
+,exit_survey,5d537R8MG5,,,occupation,health-care,,,,
+,exit_survey,67ee4R8MG5,,,age,27,,,,
+,exit_survey,67ee4R8MG5,,,gender,male,,,,
+,exit_survey,67ee4R8MG5,,,residency,United States of America,,,,
+,exit_survey,67ee4R8MG5,,,origin,United States of America,,,,
+,exit_survey,67ee4R8MG5,,,education,bachelor,,,,
+,exit_survey,67ee4R8MG5,,,income,over-200k,,,,
+,exit_survey,67ee4R8MG5,,,ethnicity,['white'],,,,
+,exit_survey,67ee4R8MG5,,,politicalIdentity,republican,,,,
+,exit_survey,67ee4R8MG5,,,maritalStatus,never-married,,,,
+,exit_survey,67ee4R8MG5,,,politicalViews,conservative,,,,
+,exit_survey,67ee4R8MG5,,,residence,suburban,,,,
+,exit_survey,67ee4R8MG5,,,childrenSchool,['no-children'],,,,
+,exit_survey,67ee4R8MG5,,,bibleBelief,literal,,,,
+,exit_survey,67ee4R8MG5,,,evangelical,yes,,,,
+,exit_survey,67ee4R8MG5,,,religion,roman-catholic,,,,
+,exit_survey,67ee4R8MG5,,,occupation,engineering,,,,
+,exit_survey,678d7R8MG5,,,age,34,,,,
+,exit_survey,678d7R8MG5,,,gender,male,,,,
+,exit_survey,678d7R8MG5,,,residency,United States of America,,,,
+,exit_survey,678d7R8MG5,,,origin,United States of America,,,,
+,exit_survey,678d7R8MG5,,,education,bachelor,,,,
+,exit_survey,678d7R8MG5,,,ethnicity,['white'],,,,
+,exit_survey,678d7R8MG5,,,income,100k-150k,,,,
+,exit_survey,678d7R8MG5,,,politicalIdentity,democrat,,,,
+,exit_survey,678d7R8MG5,,,politicalViews,liberal,,,,
+,exit_survey,678d7R8MG5,,,maritalStatus,married,,,,
+,exit_survey,678d7R8MG5,,,childrenSchool,['private'],,,,
+,exit_survey,678d7R8MG5,,,residence,suburban,,,,
+,exit_survey,678d7R8MG5,,,bibleBelief,inspired,,,,
+,exit_survey,678d7R8MG5,,,evangelical,yes,,,,
+,exit_survey,678d7R8MG5,,,religion,protestant,,,,
+,exit_survey,678d7R8MG5,,,occupation,health-care,,,,
+,exit_survey,66609R8MG5,,,age,34,,,,
+,exit_survey,66609R8MG5,,,gender,male,,,,
+,exit_survey,66609R8MG5,,,residency,United States of America,,,,
+,exit_survey,66609R8MG5,,,origin,United States of America,,,,
+,exit_survey,66609R8MG5,,,education,bachelor,,,,
+,exit_survey,66609R8MG5,,,politicalIdentity,democrat,,,,
+,exit_survey,66609R8MG5,,,ethnicity,['white'],,,,
+,exit_survey,66609R8MG5,,,income,50k-75k,,,,
+,exit_survey,66609R8MG5,,,occupation,construction,,,,
+,exit_survey,66609R8MG5,,,religion,no-religion,,,,
+,exit_survey,66609R8MG5,,,politicalViews,liberal,,,,
+,exit_survey,66609R8MG5,,,evangelical,no,,,,
+,exit_survey,66609R8MG5,,,maritalStatus,living-partner,,,,
+,exit_survey,66609R8MG5,,,bibleBelief,ancient-book,,,,
+,exit_survey,66609R8MG5,,,childrenSchool,['no-children'],,,,
+,exit_survey,66609R8MG5,,,residence,suburban,,,,
+,exit_survey,5d537R8MG5,,,age,45,,,,
+,exit_survey,5d537R8MG5,,,gender,female,,,,
+,exit_survey,5d537R8MG5,,,residency,United States of America,,,,
+,exit_survey,5d537R8MG5,,,origin,United States of America,,,,
+,exit_survey,5d537R8MG5,,,education,bachelor,,,,
+,exit_survey,5d537R8MG5,,,income,75k-100k,,,,
+,exit_survey,5d537R8MG5,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,5d537R8MG5,,,ethnicity,['hispanic'],,,,
+,exit_survey,5d537R8MG5,,,maritalStatus,married,,,,
+,exit_survey,5d537R8MG5,,,politicalViews,liberal,,,,
+,exit_survey,5d537R8MG5,,,childrenSchool,['public'],,,,
+,exit_survey,5d537R8MG5,,,residence,suburban,,,,
+,exit_survey,5d537R8MG5,,,bibleBelief,ancient-book,,,,
+,exit_survey,5d537R8MG5,,,religion,no-religion,,,,
+,exit_survey,5d537R8MG5,,,evangelical,no,,,,
+,exit_survey,5d537R8MG5,,,occupation,health-care,,,,
+,exit_survey,67ee4R8MG5,,,age,27,,,,
+,exit_survey,67ee4R8MG5,,,gender,male,,,,
+,exit_survey,67ee4R8MG5,,,residency,United States of America,,,,
+,exit_survey,67ee4R8MG5,,,origin,United States of America,,,,
+,exit_survey,67ee4R8MG5,,,education,bachelor,,,,
+,exit_survey,67ee4R8MG5,,,income,over-200k,,,,
+,exit_survey,67ee4R8MG5,,,ethnicity,['white'],,,,
+,exit_survey,67ee4R8MG5,,,politicalIdentity,republican,,,,
+,exit_survey,67ee4R8MG5,,,maritalStatus,never-married,,,,
+,exit_survey,67ee4R8MG5,,,politicalViews,conservative,,,,
+,exit_survey,67ee4R8MG5,,,residence,suburban,,,,
+,exit_survey,67ee4R8MG5,,,childrenSchool,['no-children'],,,,
+,exit_survey,67ee4R8MG5,,,bibleBelief,literal,,,,
+,exit_survey,67ee4R8MG5,,,evangelical,yes,,,,
+,exit_survey,67ee4R8MG5,,,religion,roman-catholic,,,,
+,exit_survey,67ee4R8MG5,,,occupation,engineering,,,,
+,exit_survey,678d7R8MG5,,,age,34,,,,
+,exit_survey,678d7R8MG5,,,gender,male,,,,
+,exit_survey,678d7R8MG5,,,residency,United States of America,,,,
+,exit_survey,678d7R8MG5,,,origin,United States of America,,,,
+,exit_survey,678d7R8MG5,,,education,bachelor,,,,
+,exit_survey,678d7R8MG5,,,ethnicity,['white'],,,,
+,exit_survey,678d7R8MG5,,,income,100k-150k,,,,
+,exit_survey,678d7R8MG5,,,politicalIdentity,democrat,,,,
+,exit_survey,678d7R8MG5,,,politicalViews,liberal,,,,
+,exit_survey,678d7R8MG5,,,maritalStatus,married,,,,
+,exit_survey,678d7R8MG5,,,childrenSchool,['private'],,,,
+,exit_survey,678d7R8MG5,,,residence,suburban,,,,
+,exit_survey,678d7R8MG5,,,bibleBelief,inspired,,,,
+,exit_survey,678d7R8MG5,,,evangelical,yes,,,,
+,exit_survey,678d7R8MG5,,,religion,protestant,,,,
+,exit_survey,678d7R8MG5,,,occupation,health-care,,,,

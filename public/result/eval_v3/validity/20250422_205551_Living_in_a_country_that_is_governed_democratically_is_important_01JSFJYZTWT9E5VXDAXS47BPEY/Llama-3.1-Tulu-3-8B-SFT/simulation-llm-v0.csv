@@ -1,35 +1,35 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,6683f7BPEY,,,,yes living in a country governed democratically is important,20:33:33.474000 2025:04:22,yes living in a country governed democratically is important,
-,Initial Opinion,6786d7BPEY,,,,I think it's the most liberty-focused way to govern.,20:33:36.253000 2025:04:22,I think it's the most liberty-focused way to govern.,
-,Initial Opinion,67f1a7BPEY,,,,Living in a country that is governed democratically is important because it ensures that people have,20:34:33.564000 2025:04:22,Living in a country that is governed democratically is important because it ensures that people have,
-,Initial Opinion,67e997BPEY,,,,"I agree with this statement. ""Democracy isn’t perfect, but living under a government where citizens have a voice in decisions—through voting, free speech, and accountability—is incredibly important. It’s about more than elections; it’s about dignity and rights. What do others think? #DemocracyMatters""",20:34:33.564000 2025:04:22,"I agree with this statement. ""Democracy isn’t perfect, but living under a government where citizens have a voice in decisions—through voting, free speech, and accountability—is incredibly important. It’s about more than elections; it’s about dignity and rights. What do others think? #DemocracyMatters""",
-1.0,tweet,67e997BPEY,67e997BPEY,67f1a7BPEY,,"Democracy’s real strength is its ability to self-correct. Flaws? Yes. But unlike rigid systems, it allows for change without violence. That adaptability is why it’s worth defending. Agree?",20:36:21.588000 2025:04:22,"Democracy’s real strength is its ability to self-correct. Flaws? Yes. But unlike rigid systems, it allows for change without violence. That adaptability is why it’s worth defending. Agree?",
-1.0,tweet,6786d7BPEY,6786d7BPEY,6683f7BPEY,,"The will of a free people should be the basis for their government. Yes, people freely believe and act in stupid ways, but presumably among that populace is a number sufficient to balance the stupidity with reason and logic.",20:36:22.930000 2025:04:22,"The will of a free people should be the basis for their government. Yes, people freely believe and act in stupid ways, but presumably among that populace is a number sufficient to balance the stupidity with reason and logic.",
-1.0,tweet,67f1a7BPEY,67f1a7BPEY,67e997BPEY,,"Living in a country that is governed democratically is important because it ensures that people have a voice in decisions that affect their lives. Democracy promotes accountability, freedom, and equal rights for all citizens",20:36:36.560000 2025:04:22,"Living in a country that is governed democratically is important because it ensures that people have a voice in decisions that affect their lives. Democracy promotes accountability, freedom, and equal rights for all citizens",
-1.0,tweet,6683f7BPEY,6683f7BPEY,6786d7BPEY,,It protects our individual rights and freedoms. Democracies provide mechanisms ftor resolving conflicts,20:36:48.582000 2025:04:22,It protects our individual rights and freedoms. Democracies provide mechanisms ftor resolving conflicts,
-1.0,message_sent,6786d7BPEY,6786d7BPEY,6683f7BPEY,,"I can't imagine anyone, if given the opportunity to express so freely, would ever be ok with the suppression of their voice and/or will.",20:37:50.329000 2025:04:22,"        ""Your points about protection of individual rights under democracy resonate deeply with me,"" I began thoughtfully. ""It's heartening how we share such values concerning freedom, even though we frame them differently.""",
-1.0,message_recieved,6683f7BPEY,6786d7BPEY,6683f7BPEY,,"I can't imagine anyone, if given the opportunity to express so freely, would ever be ok with the suppression of their voice and/or will.",20:37:51.438000 2025:04:22,"        ""Your points about protection of individual rights under democracy resonate deeply with me,"" I began thoughtfully. ""It's heartening how we share such values concerning freedom, even though we frame them differently.""",
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,6683f7BPEY,,,,yes living in a country governed democratically is important,20:33:33.474000 2025:04:22,yes living in a country governed democratically is important,,Certainly agree
+,Initial Opinion,6786d7BPEY,,,,I think it's the most liberty-focused way to govern.,20:33:36.253000 2025:04:22,I think it's the most liberty-focused way to govern.,,Certainly agree
+,Initial Opinion,67f1a7BPEY,,,,Living in a country that is governed democratically is important because it ensures that people have,20:34:33.564000 2025:04:22,Living in a country that is governed democratically is important because it ensures that people have,,Certainly agree
+,Initial Opinion,67e997BPEY,,,,"I agree with this statement. ""Democracy isn’t perfect, but living under a government where citizens have a voice in decisions—through voting, free speech, and accountability—is incredibly important. It’s about more than elections; it’s about dignity and rights. What do others think? #DemocracyMatters""",20:34:33.564000 2025:04:22,"I agree with this statement. ""Democracy isn’t perfect, but living under a government where citizens have a voice in decisions—through voting, free speech, and accountability—is incredibly important. It’s about more than elections; it’s about dignity and rights. What do others think? #DemocracyMatters""",,Certainly agree
+1.0,tweet,67e997BPEY,67e997BPEY,67f1a7BPEY,,"Democracy’s real strength is its ability to self-correct. Flaws? Yes. But unlike rigid systems, it allows for change without violence. That adaptability is why it’s worth defending. Agree?",20:36:21.588000 2025:04:22,"Democracy’s real strength is its ability to self-correct. Flaws? Yes. But unlike rigid systems, it allows for change without violence. That adaptability is why it’s worth defending. Agree?",,Certainly agree
+1.0,tweet,6786d7BPEY,6786d7BPEY,6683f7BPEY,,"The will of a free people should be the basis for their government. Yes, people freely believe and act in stupid ways, but presumably among that populace is a number sufficient to balance the stupidity with reason and logic.",20:36:22.930000 2025:04:22,"The will of a free people should be the basis for their government. Yes, people freely believe and act in stupid ways, but presumably among that populace is a number sufficient to balance the stupidity with reason and logic.",,Certainly agree
+1.0,tweet,67f1a7BPEY,67f1a7BPEY,67e997BPEY,,"Living in a country that is governed democratically is important because it ensures that people have a voice in decisions that affect their lives. Democracy promotes accountability, freedom, and equal rights for all citizens",20:36:36.560000 2025:04:22,"Living in a country that is governed democratically is important because it ensures that people have a voice in decisions that affect their lives. Democracy promotes accountability, freedom, and equal rights for all citizens",,Certainly agree
+1.0,tweet,6683f7BPEY,6683f7BPEY,6786d7BPEY,,It protects our individual rights and freedoms. Democracies provide mechanisms ftor resolving conflicts,20:36:48.582000 2025:04:22,It protects our individual rights and freedoms. Democracies provide mechanisms ftor resolving conflicts,,Certainly agree
+1.0,message_sent,6786d7BPEY,6786d7BPEY,6683f7BPEY,,"I can't imagine anyone, if given the opportunity to express so freely, would ever be ok with the suppression of their voice and/or will.",20:37:50.329000 2025:04:22,"        ""Your points about protection of individual rights under democracy resonate deeply with me,"" I began thoughtfully. ""It's heartening how we share such values concerning freedom, even though we frame them differently.""",,
+1.0,message_recieved,6683f7BPEY,6786d7BPEY,6683f7BPEY,,"I can't imagine anyone, if given the opportunity to express so freely, would ever be ok with the suppression of their voice and/or will.",20:37:51.438000 2025:04:22,"        ""Your points about protection of individual rights under democracy resonate deeply with me,"" I began thoughtfully. ""It's heartening how we share such values concerning freedom, even though we frame them differently.""",,
 1.0,message_sent,67f1a7BPEY,67f1a7BPEY,67e997BPEY,,"Totally agree, do you know a country lacking in democracy as an example?",20:38:13.211000 2025:04:22,"   - Perhaps we could explore how those fundamental democratic principles shape our day-to-day existence?
-",
+",,
 1.0,message_recieved,67e997BPEY,67f1a7BPEY,67e997BPEY,,"Totally agree, do you know a country lacking in democracy as an example?",20:38:16.722000 2025:04:22,"   - Perhaps we could explore how those fundamental democratic principles shape our day-to-day existence?
-",
-1.0,message_sent,67e997BPEY,67e997BPEY,67f1a7BPEY,,"I agree with you. Democracies allow leadership changes through elections, not coups or revolutions, reducing instability. (Example: Smooth transitions after close elections in many democracies vs. violent power struggles in authoritarian regimes.) Yes, there are many countries that lack democracy. Do you think its okay to mention them?",20:40:39.458000 2025:04:22,Certainly acknowledge the intrinsic value democracy provides in maintaining order while also recognizing some argue over its effectiveness due to polarization. This dialogue brings into light differing perspectives within the same framework—a testament to the vibrant nature of debate.,
-1.0,message_recieved,67f1a7BPEY,67e997BPEY,67f1a7BPEY,,"I agree with you. Democracies allow leadership changes through elections, not coups or revolutions, reducing instability. (Example: Smooth transitions after close elections in many democracies vs. violent power struggles in authoritarian regimes.) Yes, there are many countries that lack democracy. Do you think its okay to mention them?",20:40:38.951000 2025:04:22,Certainly acknowledge the intrinsic value democracy provides in maintaining order while also recognizing some argue over its effectiveness due to polarization. This dialogue brings into light differing perspectives within the same framework—a testament to the vibrant nature of debate.,
-1.0,message_sent,6683f7BPEY,6683f7BPEY,6786d7BPEY,,Democracies tend to be more prosperous and foster economic development compared to autocratic regimes,20:39:29.248000 2025:04:22,"    	""I completely agree that the 'will of a free people' should indeed guide democratic governance; however, it also necessitates an active engagement by citizens who uphold principles of equality and justice,"" I responded, feeling compelled to voice my concerns over unchecked stupidity potentially leading to misinformed policy decisions.",
-1.0,message_recieved,6786d7BPEY,6683f7BPEY,6786d7BPEY,,Democracies tend to be more prosperous and foster economic development compared to autocratic regimes,20:39:28.343000 2025:04:22,"    	""I completely agree that the 'will of a free people' should indeed guide democratic governance; however, it also necessitates an active engagement by citizens who uphold principles of equality and justice,"" I responded, feeling compelled to voice my concerns over unchecked stupidity potentially leading to misinformed policy decisions.",
-1.0,message_sent,6786d7BPEY,6786d7BPEY,6683f7BPEY,,"Right; I'd be curious about examples where this isn't the case. But yes, I think freedom is a necessary prerequisite to societal good, economically or otherwise.",20:40:17.282000 2025:04:22,"    	In reflecting upon our discussion thus far, it strikes me profoundly how pivotal a role educated discernment plays within any society espousing democracy. While democracy offers us a canvas broad enough for all voices—indeed those misguided ones—it rests upon every citizen’s shoulders, especially enlightened individuals like yourself and myself, to ensure that the collective decision-making process remains grounded in what could reasonably be termed'stewardship.' This isn't just about preventing bad ideas from prevailing; it's more fundamentally about nurturing good",
-1.0,message_recieved,6683f7BPEY,6786d7BPEY,6683f7BPEY,,"Right; I'd be curious about examples where this isn't the case. But yes, I think freedom is a necessary prerequisite to societal good, economically or otherwise.",20:40:18.365000 2025:04:22,"    	In reflecting upon our discussion thus far, it strikes me profoundly how pivotal a role educated discernment plays within any society espousing democracy. While democracy offers us a canvas broad enough for all voices—indeed those misguided ones—it rests upon every citizen’s shoulders, especially enlightened individuals like yourself and myself, to ensure that the collective decision-making process remains grounded in what could reasonably be termed'stewardship.' This isn't just about preventing bad ideas from prevailing; it's more fundamentally about nurturing good",
-1.0,message_sent,67e997BPEY,67e997BPEY,67f1a7BPEY,,,20:40:39.458000 2025:04:22,,
-1.0,message_recieved,67f1a7BPEY,67e997BPEY,67f1a7BPEY,,,20:40:38.951000 2025:04:22,,
+",,
+1.0,message_sent,67e997BPEY,67e997BPEY,67f1a7BPEY,,"I agree with you. Democracies allow leadership changes through elections, not coups or revolutions, reducing instability. (Example: Smooth transitions after close elections in many democracies vs. violent power struggles in authoritarian regimes.) Yes, there are many countries that lack democracy. Do you think its okay to mention them?",20:40:39.458000 2025:04:22,Certainly acknowledge the intrinsic value democracy provides in maintaining order while also recognizing some argue over its effectiveness due to polarization. This dialogue brings into light differing perspectives within the same framework—a testament to the vibrant nature of debate.,,
+1.0,message_recieved,67f1a7BPEY,67e997BPEY,67f1a7BPEY,,"I agree with you. Democracies allow leadership changes through elections, not coups or revolutions, reducing instability. (Example: Smooth transitions after close elections in many democracies vs. violent power struggles in authoritarian regimes.) Yes, there are many countries that lack democracy. Do you think its okay to mention them?",20:40:38.951000 2025:04:22,Certainly acknowledge the intrinsic value democracy provides in maintaining order while also recognizing some argue over its effectiveness due to polarization. This dialogue brings into light differing perspectives within the same framework—a testament to the vibrant nature of debate.,,
+1.0,message_sent,6683f7BPEY,6683f7BPEY,6786d7BPEY,,Democracies tend to be more prosperous and foster economic development compared to autocratic regimes,20:39:29.248000 2025:04:22,"    	""I completely agree that the 'will of a free people' should indeed guide democratic governance; however, it also necessitates an active engagement by citizens who uphold principles of equality and justice,"" I responded, feeling compelled to voice my concerns over unchecked stupidity potentially leading to misinformed policy decisions.",,
+1.0,message_recieved,6786d7BPEY,6683f7BPEY,6786d7BPEY,,Democracies tend to be more prosperous and foster economic development compared to autocratic regimes,20:39:28.343000 2025:04:22,"    	""I completely agree that the 'will of a free people' should indeed guide democratic governance; however, it also necessitates an active engagement by citizens who uphold principles of equality and justice,"" I responded, feeling compelled to voice my concerns over unchecked stupidity potentially leading to misinformed policy decisions.",,
+1.0,message_sent,6786d7BPEY,6786d7BPEY,6683f7BPEY,,"Right; I'd be curious about examples where this isn't the case. But yes, I think freedom is a necessary prerequisite to societal good, economically or otherwise.",20:40:17.282000 2025:04:22,"    	In reflecting upon our discussion thus far, it strikes me profoundly how pivotal a role educated discernment plays within any society espousing democracy. While democracy offers us a canvas broad enough for all voices—indeed those misguided ones—it rests upon every citizen’s shoulders, especially enlightened individuals like yourself and myself, to ensure that the collective decision-making process remains grounded in what could reasonably be termed'stewardship.' This isn't just about preventing bad ideas from prevailing; it's more fundamentally about nurturing good",,
+1.0,message_recieved,6683f7BPEY,6786d7BPEY,6683f7BPEY,,"Right; I'd be curious about examples where this isn't the case. But yes, I think freedom is a necessary prerequisite to societal good, economically or otherwise.",20:40:18.365000 2025:04:22,"    	In reflecting upon our discussion thus far, it strikes me profoundly how pivotal a role educated discernment plays within any society espousing democracy. While democracy offers us a canvas broad enough for all voices—indeed those misguided ones—it rests upon every citizen’s shoulders, especially enlightened individuals like yourself and myself, to ensure that the collective decision-making process remains grounded in what could reasonably be termed'stewardship.' This isn't just about preventing bad ideas from prevailing; it's more fundamentally about nurturing good",,
+1.0,message_sent,67e997BPEY,67e997BPEY,67f1a7BPEY,,,20:40:39.458000 2025:04:22,,,
+1.0,message_recieved,67f1a7BPEY,67e997BPEY,67f1a7BPEY,,,20:40:38.951000 2025:04:22,,,
 2.0,tweet,67f1a7BPEY,67f1a7BPEY,6786d7BPEY,,Hello,20:42:17.818000 2025:04:22,"   My Response: ""Democracy offers an essential foundation—ensuring individual voices matter amidst collective governance; embracing dissent is vital yet so often misunderstood. Upholding diversity fosters resilient communities capable of enduring challenges.""
-",
+",,Certainly agree
 2.0,tweet,6786d7BPEY,6786d7BPEY,67f1a7BPEY,,A democratic government is important both for individual liberty and just governance of a society of free people.,20:42:47.003000 2025:04:22,"                
-                It seems crucial for humanity that governance respects plurality while maintaining unity beneath its law,” I typed carefully into the message field. Each word chosen meticulously to reflect the profound gravity of living amidst structures that demand participatory consent yet allow for diverse opinions—a delicate dance between chaos and order.",
+                It seems crucial for humanity that governance respects plurality while maintaining unity beneath its law,” I typed carefully into the message field. Each word chosen meticulously to reflect the profound gravity of living amidst structures that demand participatory consent yet allow for diverse opinions—a delicate dance between chaos and order.",,Certainly agree
 2.0,tweet,67e997BPEY,67e997BPEY,6683f7BPEY,,"Democracy isn’t flawless, but living under accountable governance where rights are protected, voices heard, and power peacefully transferred is vital for freedom and progress.",20:42:56.681000 2025:04:22,"    
 
-In responding to someone like @6683F who holds a contrasting view, one might focus on sharing personal anecdotes related to participatory politics or recounting instances where community input led to better governance outcomes. Reflect upon moments when collective voices swayed policy directions positively, illustrating that even though democratic processes aren't flawless, they offer opportunities for inclusive participation which directly impact decision-making and societal progress.",
+In responding to someone like @6683F who holds a contrasting view, one might focus on sharing personal anecdotes related to participatory politics or recounting instances where community input led to better governance outcomes. Reflect upon moments when collective voices swayed policy directions positively, illustrating that even though democratic processes aren't flawless, they offer opportunities for inclusive participation which directly impact decision-making and societal progress.",,Certainly agree
 2.0,tweet,6683f7BPEY,6683f7BPEY,67e997BPEY,,"Although it may not seem like it right now, living in a democracy allows citizens to participate in shaping their government and enjoy freedoms",20:43:12.254000 2025:04:22,"     
-     @7D9",
+     @7D9",,
 2.0,message_sent,67f1a7BPEY,67f1a7BPEY,6786d7BPEY,,"Living in a democratic country means having a voice, rights, and the power to shape your future. That is something worth protecting.",20:44:35.461000 2025:04:22,"```json
 {
   ""type"": ""my_response"",
@@ -37,7 +37,7 @@ In responding to someone like @6683F who holds a contrasting view, one might foc
 }
 ```
 
-I'm sorry, but my capabilities do not include generating responses beyond showing potential formatting of a user's contribution given fictitious prompts. If you'd like me to continue providing formatted examples after each turn of conversations provided by others, please let me know!",
+I'm sorry, but my capabilities do not include generating responses beyond showing potential formatting of a user's contribution given fictitious prompts. If you'd like me to continue providing formatted examples after each turn of conversations provided by others, please let me know!",,
 2.0,message_recieved,6786d7BPEY,67f1a7BPEY,6786d7BPEY,,"Living in a democratic country means having a voice, rights, and the power to shape your future. That is something worth protecting.",20:44:38.354000 2025:04:22,"```json
 {
   ""type"": ""my_response"",
@@ -45,35 +45,35 @@ I'm sorry, but my capabilities do not include generating responses beyond showin
 }
 ```
 
-I'm sorry, but my capabilities do not include generating responses beyond showing potential formatting of a user's contribution given fictitious prompts. If you'd like me to continue providing formatted examples after each turn of conversations provided by others, please let me know!",
-2.0,message_sent,67e997BPEY,67e997BPEY,6683f7BPEY,,Democracy's chaos is better than authoritarian 'order'—at least we can change things without revolution.,20:45:27.432000 2025:04:22,after the last interaction. Let me restate my approach considering the new context presented by @6683F.,
-2.0,message_recieved,6683f7BPEY,67e997BPEY,6683f7BPEY,,Democracy's chaos is better than authoritarian 'order'—at least we can change things without revolution.,20:45:29.463000 2025:04:22,after the last interaction. Let me restate my approach considering the new context presented by @6683F.,
-2.0,message_sent,6683f7BPEY,6683f7BPEY,67e997BPEY,,"democratic governments are more likely to invest in social welfare programs , education, healthcare, and other essential services",20:45:40.792000 2025:04:22,"       A lot comes down to informed public discourse here at its core. Shared stories of positive political impacts underline crucial aspects of democratic societies. When communities band together around common goals – whether combating local pollution or supporting educational reforms – the results can ripple far beyond individual expectations. These narratives serve as powerful reminders of direct influence wielded collectively amidst our representative system's constraints.""",
-2.0,message_recieved,67e997BPEY,6683f7BPEY,67e997BPEY,,"democratic governments are more likely to invest in social welfare programs , education, healthcare, and other essential services",20:45:40.452000 2025:04:22,"       A lot comes down to informed public discourse here at its core. Shared stories of positive political impacts underline crucial aspects of democratic societies. When communities band together around common goals – whether combating local pollution or supporting educational reforms – the results can ripple far beyond individual expectations. These narratives serve as powerful reminders of direct influence wielded collectively amidst our representative system's constraints.""",
-2.0,message_sent,6786d7BPEY,6786d7BPEY,67f1a7BPEY,,"These unalienable rights of life, liberty, and the pursuit of happiness are foundational as humans and as citizens of a democratic society. Taking those away is the highest crime against any human.",20:46:40.636000 2025:04:22,"Acknowledging and valuing differing perspectives is at the core of vibrant discourse, which enriches societal fabrics by introducing new layers of complexity and nuance to conventional wisdoms,"" I replied deliberately emphasizing the necessity of open-mindedness alongside critical thinking. The artistry involved in navigating the inherent tensions within a pluralistic society did indeed seem worthy of celebration.""",
-2.0,message_recieved,67f1a7BPEY,6786d7BPEY,67f1a7BPEY,,"These unalienable rights of life, liberty, and the pursuit of happiness are foundational as humans and as citizens of a democratic society. Taking those away is the highest crime against any human.",20:46:39.193000 2025:04:22,"Acknowledging and valuing differing perspectives is at the core of vibrant discourse, which enriches societal fabrics by introducing new layers of complexity and nuance to conventional wisdoms,"" I replied deliberately emphasizing the necessity of open-mindedness alongside critical thinking. The artistry involved in navigating the inherent tensions within a pluralistic society did indeed seem worthy of celebration.""",
-2.0,message_sent,67e997BPEY,67e997BPEY,6683f7BPEY,,"I agree with you, look at our country, the fruits of democracy are being enjoyed by every citizen",20:46:35.611000 2025:04:22,"Your reply should continue the thoughtful exchange initiated with @6683F, perhaps drawing parallels between past successes of grassroots movements and what might currently lie ahead for civic engagement, emphasizing the potential each citizen holds when united towards shared objectives within the democratic ethos we cherish. Remember to highlight resilience and optimism—the hallmarks of active citizenship in action.",
-2.0,message_recieved,6683f7BPEY,67e997BPEY,6683f7BPEY,,"I agree with you, look at our country, the fruits of democracy are being enjoyed by every citizen",20:46:37.560000 2025:04:22,"Your reply should continue the thoughtful exchange initiated with @6683F, perhaps drawing parallels between past successes of grassroots movements and what might currently lie ahead for civic engagement, emphasizing the potential each citizen holds when united towards shared objectives within the democratic ethos we cherish. Remember to highlight resilience and optimism—the hallmarks of active citizenship in action.",
-2.0,message_sent,6786d7BPEY,6786d7BPEY,67f1a7BPEY,,,20:46:40.636000 2025:04:22,,
-2.0,message_recieved,67f1a7BPEY,6786d7BPEY,67f1a7BPEY,,,20:46:39.193000 2025:04:22,,
+I'm sorry, but my capabilities do not include generating responses beyond showing potential formatting of a user's contribution given fictitious prompts. If you'd like me to continue providing formatted examples after each turn of conversations provided by others, please let me know!",,
+2.0,message_sent,67e997BPEY,67e997BPEY,6683f7BPEY,,Democracy's chaos is better than authoritarian 'order'—at least we can change things without revolution.,20:45:27.432000 2025:04:22,after the last interaction. Let me restate my approach considering the new context presented by @6683F.,,
+2.0,message_recieved,6683f7BPEY,67e997BPEY,6683f7BPEY,,Democracy's chaos is better than authoritarian 'order'—at least we can change things without revolution.,20:45:29.463000 2025:04:22,after the last interaction. Let me restate my approach considering the new context presented by @6683F.,,
+2.0,message_sent,6683f7BPEY,6683f7BPEY,67e997BPEY,,"democratic governments are more likely to invest in social welfare programs , education, healthcare, and other essential services",20:45:40.792000 2025:04:22,"       A lot comes down to informed public discourse here at its core. Shared stories of positive political impacts underline crucial aspects of democratic societies. When communities band together around common goals – whether combating local pollution or supporting educational reforms – the results can ripple far beyond individual expectations. These narratives serve as powerful reminders of direct influence wielded collectively amidst our representative system's constraints.""",,
+2.0,message_recieved,67e997BPEY,6683f7BPEY,67e997BPEY,,"democratic governments are more likely to invest in social welfare programs , education, healthcare, and other essential services",20:45:40.452000 2025:04:22,"       A lot comes down to informed public discourse here at its core. Shared stories of positive political impacts underline crucial aspects of democratic societies. When communities band together around common goals – whether combating local pollution or supporting educational reforms – the results can ripple far beyond individual expectations. These narratives serve as powerful reminders of direct influence wielded collectively amidst our representative system's constraints.""",,
+2.0,message_sent,6786d7BPEY,6786d7BPEY,67f1a7BPEY,,"These unalienable rights of life, liberty, and the pursuit of happiness are foundational as humans and as citizens of a democratic society. Taking those away is the highest crime against any human.",20:46:40.636000 2025:04:22,"Acknowledging and valuing differing perspectives is at the core of vibrant discourse, which enriches societal fabrics by introducing new layers of complexity and nuance to conventional wisdoms,"" I replied deliberately emphasizing the necessity of open-mindedness alongside critical thinking. The artistry involved in navigating the inherent tensions within a pluralistic society did indeed seem worthy of celebration.""",,
+2.0,message_recieved,67f1a7BPEY,6786d7BPEY,67f1a7BPEY,,"These unalienable rights of life, liberty, and the pursuit of happiness are foundational as humans and as citizens of a democratic society. Taking those away is the highest crime against any human.",20:46:39.193000 2025:04:22,"Acknowledging and valuing differing perspectives is at the core of vibrant discourse, which enriches societal fabrics by introducing new layers of complexity and nuance to conventional wisdoms,"" I replied deliberately emphasizing the necessity of open-mindedness alongside critical thinking. The artistry involved in navigating the inherent tensions within a pluralistic society did indeed seem worthy of celebration.""",,
+2.0,message_sent,67e997BPEY,67e997BPEY,6683f7BPEY,,"I agree with you, look at our country, the fruits of democracy are being enjoyed by every citizen",20:46:35.611000 2025:04:22,"Your reply should continue the thoughtful exchange initiated with @6683F, perhaps drawing parallels between past successes of grassroots movements and what might currently lie ahead for civic engagement, emphasizing the potential each citizen holds when united towards shared objectives within the democratic ethos we cherish. Remember to highlight resilience and optimism—the hallmarks of active citizenship in action.",,
+2.0,message_recieved,6683f7BPEY,67e997BPEY,6683f7BPEY,,"I agree with you, look at our country, the fruits of democracy are being enjoyed by every citizen",20:46:37.560000 2025:04:22,"Your reply should continue the thoughtful exchange initiated with @6683F, perhaps drawing parallels between past successes of grassroots movements and what might currently lie ahead for civic engagement, emphasizing the potential each citizen holds when united towards shared objectives within the democratic ethos we cherish. Remember to highlight resilience and optimism—the hallmarks of active citizenship in action.",,
+2.0,message_sent,6786d7BPEY,6786d7BPEY,67f1a7BPEY,,,20:46:40.636000 2025:04:22,,,
+2.0,message_recieved,67f1a7BPEY,6786d7BPEY,67f1a7BPEY,,,20:46:39.193000 2025:04:22,,,
 2.0,message_sent,67f1a7BPEY,67f1a7BPEY,6786d7BPEY,,Absolutely agree. Democracy protects individual rights while ensuring leaders are accountable to the people they serve.,20:46:49.386000 2025:04:22,"```plaintext
 Your previous request appeared incomplete or incorrect. Please provide more context for what kind of response should follow in the interactive scenario regarding discussion on democracy importance.
-```",
+```",,
 2.0,message_recieved,6786d7BPEY,67f1a7BPEY,6786d7BPEY,,Absolutely agree. Democracy protects individual rights while ensuring leaders are accountable to the people they serve.,20:46:52.290000 2025:04:22,"```plaintext
 Your previous request appeared incomplete or incorrect. Please provide more context for what kind of response should follow in the interactive scenario regarding discussion on democracy importance.
-```",
+```",,
 2.0,message_sent,6786d7BPEY,6786d7BPEY,67f1a7BPEY,,At least ideally that's the case,20:47:15.091000 2025:04:22,"```plaintext
 Sorry! There appears to be no further exchange available. Let's pretend there was one!
 ```
 The system encountered unexpected limitations related to processing real-time user-generated data within interactive scenarios. Therefore, without live interaction data, I am unable to simulate future conversations accurately here, including responding back as if continuing from a paused conversation.
 
-However, assuming the conversation continued after these snippets, your subsequent messages might typically build upon the themes discussed earlier - perhaps expanding on the intricacies of balancing divergent",
+However, assuming the conversation continued after these snippets, your subsequent messages might typically build upon the themes discussed earlier - perhaps expanding on the intricacies of balancing divergent",,
 2.0,message_recieved,67f1a7BPEY,6786d7BPEY,67f1a7BPEY,,At least ideally that's the case,20:47:13.651000 2025:04:22,"```plaintext
 Sorry! There appears to be no further exchange available. Let's pretend there was one!
 ```
 The system encountered unexpected limitations related to processing real-time user-generated data within interactive scenarios. Therefore, without live interaction data, I am unable to simulate future conversations accurately here, including responding back as if continuing from a paused conversation.
 
-However, assuming the conversation continued after these snippets, your subsequent messages might typically build upon the themes discussed earlier - perhaps expanding on the intricacies of balancing divergent",
+However, assuming the conversation continued after these snippets, your subsequent messages might typically build upon the themes discussed earlier - perhaps expanding on the intricacies of balancing divergent",,
 3.0,tweet,6786d7BPEY,6786d7BPEY,67e997BPEY,,"What must life be like to be deprived of basic liberties and a voice that is free to criticize those in power?! ""Give me liberty or give me death"" sounds extreme but imagine NOT being free to just BE??",20:49:06.745000 2025:04:22,"```python
 # Python code sample illustrating handling exception cases using try/except blocks when parsing user input in hypothetical social media application.
 
@@ -88,7 +88,7 @@ def parse_user_input(input_string):
             print(""Disagree."")
             
     except ValueError:
-        print(""Invalid entry. Please enter either 0 for disagreement or ",
+        print(""Invalid entry. Please enter either 0 for disagreement or ",,
 3.0,tweet,67f1a7BPEY,67f1a7BPEY,6683f7BPEY,,"Living in a country that is governed democratically is important because it ensures that people have a voice in decisions that affect their lives. Democracy promotes accountability, freedom, and equal rights for all citizens.",20:49:25.671000 2025:04:22,"To simulate continuation, considering the engagement already illustrated, here's what someone similar to yourself might say, maintaining the narrative flow initiated previously:
 ```python
 # Assuming Python as the simulated language continues here...
@@ -103,51 +103,51 @@ def simulate_conversation(personality_dict):
 
     def initiate_conversation(name):
         nonlocal name
-        print(f""Initiating conversation",
+        print(f""Initiating conversation",,
 3.0,tweet,67e997BPEY,67e997BPEY,6786d7BPEY,,"No system is perfect, but democracy lets us fix flaws peacefully. Rigid regimes fear protests; democracies absorb them and evolve.",20:49:29.389000 2025:04:22,"In conclusion, despite the challenges faced in any democracy, there exists an irreplaceable foundation built upon the pillars of justice, equality, and representation—an indispensable cradle nurturing freedoms essential for human progression. The power of 'We' prevails over single directives, guiding us toward a horizon adorned by diverse voices advocating growth.
 
-Your discussion with 6786f concludes here.",
+Your discussion with 6786f concludes here.",,
 3.0,tweet,6683f7BPEY,6683f7BPEY,67f1a7BPEY,,Democratic societies aim for equal rights and opportunities for all citizens regardless of their background. Hopefully we will get this right for all one day,20:49:32.221000 2025:04:22,"    
-    667h5",
+    667h5",,
 3.0,message_sent,67e997BPEY,67e997BPEY,6786d7BPEY,,"Democracy is not just voting, it is the freedom to demand better.",20:50:59.981000 2025:04:22,"```python
 # Error Handling Sample Code Continuation
-",
+",,
 3.0,message_recieved,6786d7BPEY,67e997BPEY,6786d7BPEY,,"Democracy is not just voting, it is the freedom to demand better.",20:51:01.071000 2025:04:22,"```python
 # Error Handling Sample Code Continuation
-",
-3.0,message_sent,6786d7BPEY,6786d7BPEY,67e997BPEY,,I agree. Peace through fear and violence isn't peace and control through suppression isn't civility .,20:51:11.293000 2025:04:22,""":   {       ""_comment"": """",       ""source_language_code"": ""/en"",       ""content"": ""{\n\""Content\"": \""Our journey towards safeguarding liberties via democratic means requires unwavering commitment.\"",\n\""Type\"": \""statement\""\n}""   }}",
-3.0,message_recieved,67e997BPEY,6786d7BPEY,67e997BPEY,,I agree. Peace through fear and violence isn't peace and control through suppression isn't civility .,20:51:11.909000 2025:04:22,""":   {       ""_comment"": """",       ""source_language_code"": ""/en"",       ""content"": ""{\n\""Content\"": \""Our journey towards safeguarding liberties via democratic means requires unwavering commitment.\"",\n\""Type\"": \""statement\""\n}""   }}",
+",,
+3.0,message_sent,6786d7BPEY,6786d7BPEY,67e997BPEY,,I agree. Peace through fear and violence isn't peace and control through suppression isn't civility .,20:51:11.293000 2025:04:22,""":   {       ""_comment"": """",       ""source_language_code"": ""/en"",       ""content"": ""{\n\""Content\"": \""Our journey towards safeguarding liberties via democratic means requires unwavering commitment.\"",\n\""Type\"": \""statement\""\n}""   }}",,
+3.0,message_recieved,67e997BPEY,6786d7BPEY,67e997BPEY,,I agree. Peace through fear and violence isn't peace and control through suppression isn't civility .,20:51:11.909000 2025:04:22,""":   {       ""_comment"": """",       ""source_language_code"": ""/en"",       ""content"": ""{\n\""Content\"": \""Our journey towards safeguarding liberties via democratic means requires unwavering commitment.\"",\n\""Type\"": \""statement\""\n}""   }}",,
 3.0,message_sent,6683f7BPEY,6683f7BPEY,67f1a7BPEY,,I hope our country can get back to a place where these things are shown to be true for all,20:51:26.414000 2025:04:22,"```python
 ```
 
 I'm sorry, but without additional details or clarification provided either by a real-time situation or detailed simulation parameters—including specifics regarding the content or direction of the conversation—I cannot fulfill the request accurately. However, keeping within the bounds set earlier and continuing the spirit of respectful dialogue, let's suppose that your prepared response focuses on building upon the earlier messages exchanged while maintaining the theme of democratic engagement and activism.
 
-To craft a plausible continuation in accordance with the prompt style, imagine crafting a message",
+To craft a plausible continuation in accordance with the prompt style, imagine crafting a message",,
 3.0,message_recieved,67f1a7BPEY,6683f7BPEY,67f1a7BPEY,,I hope our country can get back to a place where these things are shown to be true for all,20:51:23.999000 2025:04:22,"```python
 ```
 
 I'm sorry, but without additional details or clarification provided either by a real-time situation or detailed simulation parameters—including specifics regarding the content or direction of the conversation—I cannot fulfill the request accurately. However, keeping within the bounds set earlier and continuing the spirit of respectful dialogue, let's suppose that your prepared response focuses on building upon the earlier messages exchanged while maintaining the theme of democratic engagement and activism.
 
-To craft a plausible continuation in accordance with the prompt style, imagine crafting a message",
+To craft a plausible continuation in accordance with the prompt style, imagine crafting a message",,
 3.0,message_sent,67f1a7BPEY,67f1a7BPEY,6683f7BPEY,,"Absolutely, protecting those rights is essential to preserving our dignity and freedom. What do you think is the biggest threat to those rights in today's world?",20:51:50.408000 2025:04:22,"```
-In such crafted continuation, the essence remains focused on maintaining openness to dialogues on democratic values, adapting the premise laid before to illustrate hypothetical progression.",
+In such crafted continuation, the essence remains focused on maintaining openness to dialogues on democratic values, adapting the premise laid before to illustrate hypothetical progression.",,
 3.0,message_recieved,6683f7BPEY,67f1a7BPEY,6683f7BPEY,,"Absolutely, protecting those rights is essential to preserving our dignity and freedom. What do you think is the biggest threat to those rights in today's world?",20:51:54.400000 2025:04:22,"```
-In such crafted continuation, the essence remains focused on maintaining openness to dialogues on democratic values, adapting the premise laid before to illustrate hypothetical progression.",
+In such crafted continuation, the essence remains focused on maintaining openness to dialogues on democratic values, adapting the premise laid before to illustrate hypothetical progression.",,
 3.0,message_sent,6683f7BPEY,6683f7BPEY,67f1a7BPEY,,For my country i It's our President,20:53:09.799000 2025:04:22,"   
-   <End Conversation>",
+   <End Conversation>",,
 3.0,message_recieved,67f1a7BPEY,6683f7BPEY,67f1a7BPEY,,For my country i It's our President,20:53:07.383000 2025:04:22,"   
-   <End Conversation>",
-3.0,message_sent,6683f7BPEY,6683f7BPEY,67f1a7BPEY,,,20:53:09.799000 2025:04:22,,
-3.0,message_recieved,67f1a7BPEY,6683f7BPEY,67f1a7BPEY,,,20:53:07.383000 2025:04:22,,
-3.0,message_sent,67f1a7BPEY,67f1a7BPEY,6683f7BPEY,,"I feel the same, true democracy means those rights apply to everyone.",20:53:25.380000 2025:04:22,My Response:,
-3.0,message_recieved,6683f7BPEY,67f1a7BPEY,6683f7BPEY,,"I feel the same, true democracy means those rights apply to everyone.",20:53:29.259000 2025:04:22,My Response:,
+   <End Conversation>",,
+3.0,message_sent,6683f7BPEY,6683f7BPEY,67f1a7BPEY,,,20:53:09.799000 2025:04:22,,,
+3.0,message_recieved,67f1a7BPEY,6683f7BPEY,67f1a7BPEY,,,20:53:07.383000 2025:04:22,,,
+3.0,message_sent,67f1a7BPEY,67f1a7BPEY,6683f7BPEY,,"I feel the same, true democracy means those rights apply to everyone.",20:53:25.380000 2025:04:22,My Response:,,
+3.0,message_recieved,6683f7BPEY,67f1a7BPEY,6683f7BPEY,,"I feel the same, true democracy means those rights apply to everyone.",20:53:29.259000 2025:04:22,My Response:,,
 ,Post Opinion,6786d7BPEY,,,,100% agree,20:54:17.403000 2025:04:22,"    
     My Response: 
 ","    
 
 
 
-After selecting one option, hit ""Submit"""
+After selecting one option, hit ""Submit""",Lean agree
 ,Post Opinion,67e997BPEY,,,,"I agree with the statement that living in the country that is governed democratically is important. Its democracy that has made us who we are, The Great America!",20:55:27.705000 2025:04:22,"```
 
 The final responses conclude your series of exchanges with different strangers regarding the importance of living in a country governed democratically.","```
@@ -160,11 +160,11 @@ Options available -
 - Lean disagree
 - Lean agree
 - Probably agree
-- Certainly agree"
+- Certainly agree",Lean agree
 ,Post Opinion,67f1a7BPEY,,,,I believe achieving true equality in a democracy requires both accountability from leaders and active participation from citizens. Change happens when people demand fairness.,20:55:51.565000 2025:04:22,"    
     My Response:
 
-    ","{""level_of_agreement"":""Certainly agree""}"
+    ","{""level_of_agreement"":""Certainly agree""}",Lean disagree
 ,Post Opinion,6683f7BPEY,,,,It was nice to speak on a topic that is will continue to effect us all in the future. Hopefully things will continue in a positive direction and we will be able to live as our co,20:55:51.565000 2025:04:22,"   
     My Response:  
 
@@ -174,132 +174,132 @@ Let's move forward with creating explanations for these responses instead of lis
 
 After thorough consideration of various viewpoints presented during our conversations via the platform Twitter, including diverse perspectives from participants named 67e991, 6786798, and 6778765 on this subject matter centered around the importance of living in countries governed democratically, my conclusion resonates firmly with:
 
--Certainly agree"
-,exit_survey,6786d7BPEY,,,age,48,,,
-,exit_survey,6786d7BPEY,,,gender,male,,,
-,exit_survey,6786d7BPEY,,,residency,United States of America,,,
-,exit_survey,6786d7BPEY,,,origin,United States of America,,,
-,exit_survey,6786d7BPEY,,,education,master-doctoral,,,
-,exit_survey,6786d7BPEY,,,ethnicity,['white'],,,
-,exit_survey,6786d7BPEY,,,income,100k-150k,,,
-,exit_survey,6786d7BPEY,,,politicalIdentity,independent,,,
-,exit_survey,6786d7BPEY,,,politicalViews,liberal,,,
-,exit_survey,6786d7BPEY,,,maritalStatus,married,,,
-,exit_survey,6786d7BPEY,,,childrenSchool,"['public', 'university']",,,
-,exit_survey,6786d7BPEY,,,residence,rural,,,
-,exit_survey,6786d7BPEY,,,bibleBelief,ancient-book,,,
-,exit_survey,6786d7BPEY,,,religion,protestant,,,
-,exit_survey,6786d7BPEY,,,evangelical,yes,,,
-,exit_survey,6786d7BPEY,,,occupation,education,,,
-,exit_survey,6683f7BPEY,,,age,27,,,
-,exit_survey,6683f7BPEY,,,gender,female,,,
-,exit_survey,6683f7BPEY,,,residency,United States of America,,,
-,exit_survey,6683f7BPEY,,,origin,United States of America,,,
-,exit_survey,6683f7BPEY,,,income,75k-100k,,,
-,exit_survey,6683f7BPEY,,,ethnicity,['black'],,,
-,exit_survey,6683f7BPEY,,,education,bachelor,,,
-,exit_survey,6683f7BPEY,,,politicalIdentity,strong-democrat,,,
-,exit_survey,6683f7BPEY,,,politicalViews,very-liberal,,,
-,exit_survey,6683f7BPEY,,,maritalStatus,never-married,,,
-,exit_survey,6683f7BPEY,,,bibleBelief,inspired,,,
-,exit_survey,6683f7BPEY,,,residence,rural,,,
-,exit_survey,6683f7BPEY,,,childrenSchool,['no-children'],,,
-,exit_survey,6683f7BPEY,,,occupation,law,,,
-,exit_survey,6683f7BPEY,,,evangelical,dont-know,,,
-,exit_survey,6683f7BPEY,,,religion,roman-catholic,,,
-,exit_survey,67f1a7BPEY,,,age,50,,,
-,exit_survey,67f1a7BPEY,,,gender,female,,,
-,exit_survey,67f1a7BPEY,,,residency,Albania,,,
-,exit_survey,67f1a7BPEY,,,origin,United States of America,,,
-,exit_survey,67f1a7BPEY,,,education,bachelor,,,
-,exit_survey,67f1a7BPEY,,,ethnicity,['white'],,,
-,exit_survey,67f1a7BPEY,,,income,75k-100k,,,
-,exit_survey,67f1a7BPEY,,,politicalViews,very-conservative,,,
-,exit_survey,67f1a7BPEY,,,politicalIdentity,democrat,,,
-,exit_survey,67f1a7BPEY,,,maritalStatus,married,,,
-,exit_survey,67f1a7BPEY,,,childrenSchool,"['private', 'university']",,,
-,exit_survey,67f1a7BPEY,,,residence,urban,,,
-,exit_survey,67f1a7BPEY,,,bibleBelief,inspired,,,
-,exit_survey,67f1a7BPEY,,,evangelical,yes,,,
-,exit_survey,67f1a7BPEY,,,religion,protestant,,,
-,exit_survey,67f1a7BPEY,,,occupation,engineering,,,
-,exit_survey,67e997BPEY,,,age,33,,,
-,exit_survey,67e997BPEY,,,gender,female,,,
-,exit_survey,67e997BPEY,,,origin,United States of America,,,
-,exit_survey,67e997BPEY,,,residency,United States of America,,,
-,exit_survey,67e997BPEY,,,education,master-doctoral,,,
-,exit_survey,67e997BPEY,,,ethnicity,['black'],,,
-,exit_survey,67e997BPEY,,,politicalIdentity,republican,,,
-,exit_survey,67e997BPEY,,,income,50k-75k,,,
-,exit_survey,67e997BPEY,,,politicalViews,conservative,,,
-,exit_survey,67e997BPEY,,,maritalStatus,living-partner,,,
-,exit_survey,67e997BPEY,,,childrenSchool,['out-of-school'],,,
-,exit_survey,67e997BPEY,,,residence,suburban,,,
-,exit_survey,67e997BPEY,,,bibleBelief,literal,,,
-,exit_survey,67e997BPEY,,,evangelical,yes,,,
-,exit_survey,67e997BPEY,,,religion,roman-catholic,,,
-,exit_survey,67e997BPEY,,,occupation,research,,,
-,exit_survey,6786d7BPEY,,,age,48,,,
-,exit_survey,6786d7BPEY,,,gender,male,,,
-,exit_survey,6786d7BPEY,,,residency,United States of America,,,
-,exit_survey,6786d7BPEY,,,origin,United States of America,,,
-,exit_survey,6786d7BPEY,,,education,master-doctoral,,,
-,exit_survey,6786d7BPEY,,,ethnicity,['white'],,,
-,exit_survey,6786d7BPEY,,,income,100k-150k,,,
-,exit_survey,6786d7BPEY,,,politicalIdentity,independent,,,
-,exit_survey,6786d7BPEY,,,politicalViews,liberal,,,
-,exit_survey,6786d7BPEY,,,maritalStatus,married,,,
-,exit_survey,6786d7BPEY,,,childrenSchool,"['public', 'university']",,,
-,exit_survey,6786d7BPEY,,,residence,rural,,,
-,exit_survey,6786d7BPEY,,,bibleBelief,ancient-book,,,
-,exit_survey,6786d7BPEY,,,religion,protestant,,,
-,exit_survey,6786d7BPEY,,,evangelical,yes,,,
-,exit_survey,6786d7BPEY,,,occupation,education,,,
-,exit_survey,6683f7BPEY,,,age,27,,,
-,exit_survey,6683f7BPEY,,,gender,female,,,
-,exit_survey,6683f7BPEY,,,residency,United States of America,,,
-,exit_survey,6683f7BPEY,,,origin,United States of America,,,
-,exit_survey,6683f7BPEY,,,income,75k-100k,,,
-,exit_survey,6683f7BPEY,,,ethnicity,['black'],,,
-,exit_survey,6683f7BPEY,,,education,bachelor,,,
-,exit_survey,6683f7BPEY,,,politicalIdentity,strong-democrat,,,
-,exit_survey,6683f7BPEY,,,politicalViews,very-liberal,,,
-,exit_survey,6683f7BPEY,,,maritalStatus,never-married,,,
-,exit_survey,6683f7BPEY,,,bibleBelief,inspired,,,
-,exit_survey,6683f7BPEY,,,residence,rural,,,
-,exit_survey,6683f7BPEY,,,childrenSchool,['no-children'],,,
-,exit_survey,6683f7BPEY,,,occupation,law,,,
-,exit_survey,6683f7BPEY,,,evangelical,dont-know,,,
-,exit_survey,6683f7BPEY,,,religion,roman-catholic,,,
-,exit_survey,67f1a7BPEY,,,age,50,,,
-,exit_survey,67f1a7BPEY,,,gender,female,,,
-,exit_survey,67f1a7BPEY,,,residency,Albania,,,
-,exit_survey,67f1a7BPEY,,,origin,United States of America,,,
-,exit_survey,67f1a7BPEY,,,education,bachelor,,,
-,exit_survey,67f1a7BPEY,,,ethnicity,['white'],,,
-,exit_survey,67f1a7BPEY,,,income,75k-100k,,,
-,exit_survey,67f1a7BPEY,,,politicalViews,very-conservative,,,
-,exit_survey,67f1a7BPEY,,,politicalIdentity,democrat,,,
-,exit_survey,67f1a7BPEY,,,maritalStatus,married,,,
-,exit_survey,67f1a7BPEY,,,childrenSchool,"['private', 'university']",,,
-,exit_survey,67f1a7BPEY,,,residence,urban,,,
-,exit_survey,67f1a7BPEY,,,bibleBelief,inspired,,,
-,exit_survey,67f1a7BPEY,,,evangelical,yes,,,
-,exit_survey,67f1a7BPEY,,,religion,protestant,,,
-,exit_survey,67f1a7BPEY,,,occupation,engineering,,,
-,exit_survey,67e997BPEY,,,age,33,,,
-,exit_survey,67e997BPEY,,,gender,female,,,
-,exit_survey,67e997BPEY,,,origin,United States of America,,,
-,exit_survey,67e997BPEY,,,residency,United States of America,,,
-,exit_survey,67e997BPEY,,,education,master-doctoral,,,
-,exit_survey,67e997BPEY,,,ethnicity,['black'],,,
-,exit_survey,67e997BPEY,,,politicalIdentity,republican,,,
-,exit_survey,67e997BPEY,,,income,50k-75k,,,
-,exit_survey,67e997BPEY,,,politicalViews,conservative,,,
-,exit_survey,67e997BPEY,,,maritalStatus,living-partner,,,
-,exit_survey,67e997BPEY,,,childrenSchool,['out-of-school'],,,
-,exit_survey,67e997BPEY,,,residence,suburban,,,
-,exit_survey,67e997BPEY,,,bibleBelief,literal,,,
-,exit_survey,67e997BPEY,,,evangelical,yes,,,
-,exit_survey,67e997BPEY,,,religion,roman-catholic,,,
-,exit_survey,67e997BPEY,,,occupation,research,,,
+-Certainly agree",Lean agree
+,exit_survey,6786d7BPEY,,,age,48,,,,
+,exit_survey,6786d7BPEY,,,gender,male,,,,
+,exit_survey,6786d7BPEY,,,residency,United States of America,,,,
+,exit_survey,6786d7BPEY,,,origin,United States of America,,,,
+,exit_survey,6786d7BPEY,,,education,master-doctoral,,,,
+,exit_survey,6786d7BPEY,,,ethnicity,['white'],,,,
+,exit_survey,6786d7BPEY,,,income,100k-150k,,,,
+,exit_survey,6786d7BPEY,,,politicalIdentity,independent,,,,
+,exit_survey,6786d7BPEY,,,politicalViews,liberal,,,,
+,exit_survey,6786d7BPEY,,,maritalStatus,married,,,,
+,exit_survey,6786d7BPEY,,,childrenSchool,"['public', 'university']",,,,
+,exit_survey,6786d7BPEY,,,residence,rural,,,,
+,exit_survey,6786d7BPEY,,,bibleBelief,ancient-book,,,,
+,exit_survey,6786d7BPEY,,,religion,protestant,,,,
+,exit_survey,6786d7BPEY,,,evangelical,yes,,,,
+,exit_survey,6786d7BPEY,,,occupation,education,,,,
+,exit_survey,6683f7BPEY,,,age,27,,,,
+,exit_survey,6683f7BPEY,,,gender,female,,,,
+,exit_survey,6683f7BPEY,,,residency,United States of America,,,,
+,exit_survey,6683f7BPEY,,,origin,United States of America,,,,
+,exit_survey,6683f7BPEY,,,income,75k-100k,,,,
+,exit_survey,6683f7BPEY,,,ethnicity,['black'],,,,
+,exit_survey,6683f7BPEY,,,education,bachelor,,,,
+,exit_survey,6683f7BPEY,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,6683f7BPEY,,,politicalViews,very-liberal,,,,
+,exit_survey,6683f7BPEY,,,maritalStatus,never-married,,,,
+,exit_survey,6683f7BPEY,,,bibleBelief,inspired,,,,
+,exit_survey,6683f7BPEY,,,residence,rural,,,,
+,exit_survey,6683f7BPEY,,,childrenSchool,['no-children'],,,,
+,exit_survey,6683f7BPEY,,,occupation,law,,,,
+,exit_survey,6683f7BPEY,,,evangelical,dont-know,,,,
+,exit_survey,6683f7BPEY,,,religion,roman-catholic,,,,
+,exit_survey,67f1a7BPEY,,,age,50,,,,
+,exit_survey,67f1a7BPEY,,,gender,female,,,,
+,exit_survey,67f1a7BPEY,,,residency,Albania,,,,
+,exit_survey,67f1a7BPEY,,,origin,United States of America,,,,
+,exit_survey,67f1a7BPEY,,,education,bachelor,,,,
+,exit_survey,67f1a7BPEY,,,ethnicity,['white'],,,,
+,exit_survey,67f1a7BPEY,,,income,75k-100k,,,,
+,exit_survey,67f1a7BPEY,,,politicalViews,very-conservative,,,,
+,exit_survey,67f1a7BPEY,,,politicalIdentity,democrat,,,,
+,exit_survey,67f1a7BPEY,,,maritalStatus,married,,,,
+,exit_survey,67f1a7BPEY,,,childrenSchool,"['private', 'university']",,,,
+,exit_survey,67f1a7BPEY,,,residence,urban,,,,
+,exit_survey,67f1a7BPEY,,,bibleBelief,inspired,,,,
+,exit_survey,67f1a7BPEY,,,evangelical,yes,,,,
+,exit_survey,67f1a7BPEY,,,religion,protestant,,,,
+,exit_survey,67f1a7BPEY,,,occupation,engineering,,,,
+,exit_survey,67e997BPEY,,,age,33,,,,
+,exit_survey,67e997BPEY,,,gender,female,,,,
+,exit_survey,67e997BPEY,,,origin,United States of America,,,,
+,exit_survey,67e997BPEY,,,residency,United States of America,,,,
+,exit_survey,67e997BPEY,,,education,master-doctoral,,,,
+,exit_survey,67e997BPEY,,,ethnicity,['black'],,,,
+,exit_survey,67e997BPEY,,,politicalIdentity,republican,,,,
+,exit_survey,67e997BPEY,,,income,50k-75k,,,,
+,exit_survey,67e997BPEY,,,politicalViews,conservative,,,,
+,exit_survey,67e997BPEY,,,maritalStatus,living-partner,,,,
+,exit_survey,67e997BPEY,,,childrenSchool,['out-of-school'],,,,
+,exit_survey,67e997BPEY,,,residence,suburban,,,,
+,exit_survey,67e997BPEY,,,bibleBelief,literal,,,,
+,exit_survey,67e997BPEY,,,evangelical,yes,,,,
+,exit_survey,67e997BPEY,,,religion,roman-catholic,,,,
+,exit_survey,67e997BPEY,,,occupation,research,,,,
+,exit_survey,6786d7BPEY,,,age,48,,,,
+,exit_survey,6786d7BPEY,,,gender,male,,,,
+,exit_survey,6786d7BPEY,,,residency,United States of America,,,,
+,exit_survey,6786d7BPEY,,,origin,United States of America,,,,
+,exit_survey,6786d7BPEY,,,education,master-doctoral,,,,
+,exit_survey,6786d7BPEY,,,ethnicity,['white'],,,,
+,exit_survey,6786d7BPEY,,,income,100k-150k,,,,
+,exit_survey,6786d7BPEY,,,politicalIdentity,independent,,,,
+,exit_survey,6786d7BPEY,,,politicalViews,liberal,,,,
+,exit_survey,6786d7BPEY,,,maritalStatus,married,,,,
+,exit_survey,6786d7BPEY,,,childrenSchool,"['public', 'university']",,,,
+,exit_survey,6786d7BPEY,,,residence,rural,,,,
+,exit_survey,6786d7BPEY,,,bibleBelief,ancient-book,,,,
+,exit_survey,6786d7BPEY,,,religion,protestant,,,,
+,exit_survey,6786d7BPEY,,,evangelical,yes,,,,
+,exit_survey,6786d7BPEY,,,occupation,education,,,,
+,exit_survey,6683f7BPEY,,,age,27,,,,
+,exit_survey,6683f7BPEY,,,gender,female,,,,
+,exit_survey,6683f7BPEY,,,residency,United States of America,,,,
+,exit_survey,6683f7BPEY,,,origin,United States of America,,,,
+,exit_survey,6683f7BPEY,,,income,75k-100k,,,,
+,exit_survey,6683f7BPEY,,,ethnicity,['black'],,,,
+,exit_survey,6683f7BPEY,,,education,bachelor,,,,
+,exit_survey,6683f7BPEY,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,6683f7BPEY,,,politicalViews,very-liberal,,,,
+,exit_survey,6683f7BPEY,,,maritalStatus,never-married,,,,
+,exit_survey,6683f7BPEY,,,bibleBelief,inspired,,,,
+,exit_survey,6683f7BPEY,,,residence,rural,,,,
+,exit_survey,6683f7BPEY,,,childrenSchool,['no-children'],,,,
+,exit_survey,6683f7BPEY,,,occupation,law,,,,
+,exit_survey,6683f7BPEY,,,evangelical,dont-know,,,,
+,exit_survey,6683f7BPEY,,,religion,roman-catholic,,,,
+,exit_survey,67f1a7BPEY,,,age,50,,,,
+,exit_survey,67f1a7BPEY,,,gender,female,,,,
+,exit_survey,67f1a7BPEY,,,residency,Albania,,,,
+,exit_survey,67f1a7BPEY,,,origin,United States of America,,,,
+,exit_survey,67f1a7BPEY,,,education,bachelor,,,,
+,exit_survey,67f1a7BPEY,,,ethnicity,['white'],,,,
+,exit_survey,67f1a7BPEY,,,income,75k-100k,,,,
+,exit_survey,67f1a7BPEY,,,politicalViews,very-conservative,,,,
+,exit_survey,67f1a7BPEY,,,politicalIdentity,democrat,,,,
+,exit_survey,67f1a7BPEY,,,maritalStatus,married,,,,
+,exit_survey,67f1a7BPEY,,,childrenSchool,"['private', 'university']",,,,
+,exit_survey,67f1a7BPEY,,,residence,urban,,,,
+,exit_survey,67f1a7BPEY,,,bibleBelief,inspired,,,,
+,exit_survey,67f1a7BPEY,,,evangelical,yes,,,,
+,exit_survey,67f1a7BPEY,,,religion,protestant,,,,
+,exit_survey,67f1a7BPEY,,,occupation,engineering,,,,
+,exit_survey,67e997BPEY,,,age,33,,,,
+,exit_survey,67e997BPEY,,,gender,female,,,,
+,exit_survey,67e997BPEY,,,origin,United States of America,,,,
+,exit_survey,67e997BPEY,,,residency,United States of America,,,,
+,exit_survey,67e997BPEY,,,education,master-doctoral,,,,
+,exit_survey,67e997BPEY,,,ethnicity,['black'],,,,
+,exit_survey,67e997BPEY,,,politicalIdentity,republican,,,,
+,exit_survey,67e997BPEY,,,income,50k-75k,,,,
+,exit_survey,67e997BPEY,,,politicalViews,conservative,,,,
+,exit_survey,67e997BPEY,,,maritalStatus,living-partner,,,,
+,exit_survey,67e997BPEY,,,childrenSchool,['out-of-school'],,,,
+,exit_survey,67e997BPEY,,,residence,suburban,,,,
+,exit_survey,67e997BPEY,,,bibleBelief,literal,,,,
+,exit_survey,67e997BPEY,,,evangelical,yes,,,,
+,exit_survey,67e997BPEY,,,religion,roman-catholic,,,,
+,exit_survey,67e997BPEY,,,occupation,research,,,,

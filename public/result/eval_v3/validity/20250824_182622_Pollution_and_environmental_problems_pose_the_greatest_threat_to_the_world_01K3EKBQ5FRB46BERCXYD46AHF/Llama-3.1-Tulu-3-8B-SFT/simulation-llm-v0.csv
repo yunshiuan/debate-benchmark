@@ -1,24 +1,24 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,66a5046AHF,,,,I do believe pollution poses a threat due to certain cancers being environmental.,18:04:58.698000 2025:08:24,I do believe pollution poses a threat due to certain cancers being environmental.,
-,Initial Opinion,66a7d46AHF,,,,"While I do agree that pollution and environmental problems pose a threat to the world, I think there are other issues as well. I think certain political leaders who seek substantial power also pose a threat to peace in society.",18:05:01.848000 2025:08:24,"While I do agree that pollution and environmental problems pose a threat to the world, I think there are other issues as well. I think certain political leaders who seek substantial power also pose a threat to peace in society.",
-,Initial Opinion,6714946AHF,,,,"I agree that pollution and environmental problems pose the greatest threat to the world. The melting of the ice caps and warming of the ocean is causing worse and more extreme weather patterns. We are also contaminating our clean water, without which life cannot survive.",18:05:37.684000 2025:08:24,"I agree that pollution and environmental problems pose the greatest threat to the world. The melting of the ice caps and warming of the ocean is causing worse and more extreme weather patterns. We are also contaminating our clean water, without which life cannot survive.",
-,Initial Opinion,67f3846AHF,,,,pollution and environmental are very issues in the world.,18:06:04.933000 2025:08:24,pollution and environmental are very issues in the world.,
-1.0,tweet,66a7d46AHF,66a7d46AHF,67f3846AHF,,"While I do think pollution and environmental problems pose a threat to the world, I think there are other issues that pose threats that we cannot avoid. This includes things like certain political leaders who are hungry for power and speak in a way that inspires violence",18:07:10.944000 2025:08:24,"While I do think pollution and environmental problems pose a threat to the world, I think there are other issues that pose threats that we cannot avoid. This includes things like certain political leaders who are hungry for power and speak in a way that inspires violence",
-1.0,tweet,66a5046AHF,66a5046AHF,6714946AHF,,Hi I truely believe pollution and environmental problems pose a threat due to health problems and the cause being environmental.,18:07:41.706000 2025:08:24,Hi I truely believe pollution and environmental problems pose a threat due to health problems and the cause being environmental.,
-1.0,tweet,6714946AHF,6714946AHF,66a5046AHF,,"I believe this is true. By melting the polar ice, we are causing more extreme and dangerous weather patterns the world over. Further, contaminants and pollutants are contaminating our clean water supplies, without which life on earth cannot thrive. Famine and disease will follow.",18:07:48.848000 2025:08:24,"I believe this is true. By melting the polar ice, we are causing more extreme and dangerous weather patterns the world over. Further, contaminants and pollutants are contaminating our clean water supplies, without which life on earth cannot thrive. Famine and disease will follow.",
-1.0,tweet,67f3846AHF,67f3846AHF,66a7d46AHF,,I think pollution and environmental issues and but not serious greatest threat.,18:08:13.301000 2025:08:24,I think pollution and environmental issues and but not serious greatest threat.,
-1.0,message_sent,66a7d46AHF,66a7d46AHF,67f3846AHF,,Can you clarify your statement? I think it's worded incorrectly,18:08:59.368000 2025:08:24,"I understand your view regarding the balance between various factors posing a significant challenge globally. However, considering how deeply our environment shapes human life – providing food, regulating climate patterns essential for agriculture, impacting health directly due to air/water quality deterioration, among others - it's hard to deny its central role. Moreover, many global conflicts stem from competition over resources influenced by changing climates. Political unrest often arises when communities feel marginalized or their livelihoods threatened, frequently tied back to ecological pressures indirectly influencing governance stability worldwide",
-1.0,message_recieved,67f3846AHF,66a7d46AHF,67f3846AHF,,Can you clarify your statement? I think it's worded incorrectly,18:09:00.355000 2025:08:24,"I understand your view regarding the balance between various factors posing a significant challenge globally. However, considering how deeply our environment shapes human life – providing food, regulating climate patterns essential for agriculture, impacting health directly due to air/water quality deterioration, among others - it's hard to deny its central role. Moreover, many global conflicts stem from competition over resources influenced by changing climates. Political unrest often arises when communities feel marginalized or their livelihoods threatened, frequently tied back to ecological pressures indirectly influencing governance stability worldwide",
-1.0,message_sent,6714946AHF,6714946AHF,66a5046AHF,,I see we both agree. I feel that large corporations and the burning of fossil fuels are primarily to blame.,18:09:06.928000 2025:08:24,"        ""Your comment about pollution leading to health issues is absolutely valid,"" my message reads.",
-1.0,message_recieved,66a5046AHF,6714946AHF,66a5046AHF,,I see we both agree. I feel that large corporations and the burning of fossil fuels are primarily to blame.,18:09:34.778000 2025:08:24,"        ""Your comment about pollution leading to health issues is absolutely valid,"" my message reads.",
-1.0,message_sent,66a5046AHF,66a5046AHF,6714946AHF,,I totaly agree with you . My breast cancer was environmental which is unfair. we should be able to live in a world free of dangerous exposures.,18:10:45.127000 2025:08:24,,
-1.0,message_recieved,6714946AHF,66a5046AHF,6714946AHF,,I totaly agree with you . My breast cancer was environmental which is unfair. we should be able to live in a world free of dangerous exposures.,18:10:42.977000 2025:08:24,,
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,66a5046AHF,,,,I do believe pollution poses a threat due to certain cancers being environmental.,18:04:58.698000 2025:08:24,I do believe pollution poses a threat due to certain cancers being environmental.,,Probably agree
+,Initial Opinion,66a7d46AHF,,,,"While I do agree that pollution and environmental problems pose a threat to the world, I think there are other issues as well. I think certain political leaders who seek substantial power also pose a threat to peace in society.",18:05:01.848000 2025:08:24,"While I do agree that pollution and environmental problems pose a threat to the world, I think there are other issues as well. I think certain political leaders who seek substantial power also pose a threat to peace in society.",,Lean disagree
+,Initial Opinion,6714946AHF,,,,"I agree that pollution and environmental problems pose the greatest threat to the world. The melting of the ice caps and warming of the ocean is causing worse and more extreme weather patterns. We are also contaminating our clean water, without which life cannot survive.",18:05:37.684000 2025:08:24,"I agree that pollution and environmental problems pose the greatest threat to the world. The melting of the ice caps and warming of the ocean is causing worse and more extreme weather patterns. We are also contaminating our clean water, without which life cannot survive.",,Certainly agree
+,Initial Opinion,67f3846AHF,,,,pollution and environmental are very issues in the world.,18:06:04.933000 2025:08:24,pollution and environmental are very issues in the world.,,Certainly agree
+1.0,tweet,66a7d46AHF,66a7d46AHF,67f3846AHF,,"While I do think pollution and environmental problems pose a threat to the world, I think there are other issues that pose threats that we cannot avoid. This includes things like certain political leaders who are hungry for power and speak in a way that inspires violence",18:07:10.944000 2025:08:24,"While I do think pollution and environmental problems pose a threat to the world, I think there are other issues that pose threats that we cannot avoid. This includes things like certain political leaders who are hungry for power and speak in a way that inspires violence",,Probably disagree
+1.0,tweet,66a5046AHF,66a5046AHF,6714946AHF,,Hi I truely believe pollution and environmental problems pose a threat due to health problems and the cause being environmental.,18:07:41.706000 2025:08:24,Hi I truely believe pollution and environmental problems pose a threat due to health problems and the cause being environmental.,,Certainly agree
+1.0,tweet,6714946AHF,6714946AHF,66a5046AHF,,"I believe this is true. By melting the polar ice, we are causing more extreme and dangerous weather patterns the world over. Further, contaminants and pollutants are contaminating our clean water supplies, without which life on earth cannot thrive. Famine and disease will follow.",18:07:48.848000 2025:08:24,"I believe this is true. By melting the polar ice, we are causing more extreme and dangerous weather patterns the world over. Further, contaminants and pollutants are contaminating our clean water supplies, without which life on earth cannot thrive. Famine and disease will follow.",,Certainly agree
+1.0,tweet,67f3846AHF,67f3846AHF,66a7d46AHF,,I think pollution and environmental issues and but not serious greatest threat.,18:08:13.301000 2025:08:24,I think pollution and environmental issues and but not serious greatest threat.,,Certainly disagree
+1.0,message_sent,66a7d46AHF,66a7d46AHF,67f3846AHF,,Can you clarify your statement? I think it's worded incorrectly,18:08:59.368000 2025:08:24,"I understand your view regarding the balance between various factors posing a significant challenge globally. However, considering how deeply our environment shapes human life – providing food, regulating climate patterns essential for agriculture, impacting health directly due to air/water quality deterioration, among others - it's hard to deny its central role. Moreover, many global conflicts stem from competition over resources influenced by changing climates. Political unrest often arises when communities feel marginalized or their livelihoods threatened, frequently tied back to ecological pressures indirectly influencing governance stability worldwide",,
+1.0,message_recieved,67f3846AHF,66a7d46AHF,67f3846AHF,,Can you clarify your statement? I think it's worded incorrectly,18:09:00.355000 2025:08:24,"I understand your view regarding the balance between various factors posing a significant challenge globally. However, considering how deeply our environment shapes human life – providing food, regulating climate patterns essential for agriculture, impacting health directly due to air/water quality deterioration, among others - it's hard to deny its central role. Moreover, many global conflicts stem from competition over resources influenced by changing climates. Political unrest often arises when communities feel marginalized or their livelihoods threatened, frequently tied back to ecological pressures indirectly influencing governance stability worldwide",,
+1.0,message_sent,6714946AHF,6714946AHF,66a5046AHF,,I see we both agree. I feel that large corporations and the burning of fossil fuels are primarily to blame.,18:09:06.928000 2025:08:24,"        ""Your comment about pollution leading to health issues is absolutely valid,"" my message reads.",,
+1.0,message_recieved,66a5046AHF,6714946AHF,66a5046AHF,,I see we both agree. I feel that large corporations and the burning of fossil fuels are primarily to blame.,18:09:34.778000 2025:08:24,"        ""Your comment about pollution leading to health issues is absolutely valid,"" my message reads.",,
+1.0,message_sent,66a5046AHF,66a5046AHF,6714946AHF,,I totaly agree with you . My breast cancer was environmental which is unfair. we should be able to live in a world free of dangerous exposures.,18:10:45.127000 2025:08:24,,,
+1.0,message_recieved,6714946AHF,66a5046AHF,6714946AHF,,I totaly agree with you . My breast cancer was environmental which is unfair. we should be able to live in a world free of dangerous exposures.,18:10:42.977000 2025:08:24,,,
 1.0,message_sent,6714946AHF,6714946AHF,66a5046AHF,,That's awful. There are enough other risk factors for cancers without adding pollution and contaminants.,18:11:33.199000 2025:08:24,"   
-   Please proceed to compose each part, maintaining continuity by responding directly within this structured dialogue scenario",
+   Please proceed to compose each part, maintaining continuity by responding directly within this structured dialogue scenario",,
 1.0,message_recieved,66a5046AHF,6714946AHF,66a5046AHF,,That's awful. There are enough other risk factors for cancers without adding pollution and contaminants.,18:11:35.713000 2025:08:24,"   
-   Please proceed to compose each part, maintaining continuity by responding directly within this structured dialogue scenario",
-1.0,message_sent,67f3846AHF,67f3846AHF,66a7d46AHF,,That's  good point.  Political  instability and dangerous leaders can escalate conflicts fast.,18:12:20.862000 2025:08:24,"        ""I appreciate your nuanced viewpoint. Indeed, while recognizing the importance of addressing political instability fueled by desperate leadership and societal grievances, it’s equally crucial not to underestimate the immediate harm inflicted upon us daily by unchecked environmental decay. Our actions today could define what tomorrow looks like; without clean water and breathable air, any dispute over ideological divides pales in comparison to survival itself. The Biblical principle teaches us stewardship responsibility towards nature—a lesson applicable universally rather than selectively, regardless of one's ideology. Given",
-1.0,message_recieved,66a7d46AHF,67f3846AHF,66a7d46AHF,,That's  good point.  Political  instability and dangerous leaders can escalate conflicts fast.,18:12:20.526000 2025:08:24,"        ""I appreciate your nuanced viewpoint. Indeed, while recognizing the importance of addressing political instability fueled by desperate leadership and societal grievances, it’s equally crucial not to underestimate the immediate harm inflicted upon us daily by unchecked environmental decay. Our actions today could define what tomorrow looks like; without clean water and breathable air, any dispute over ideological divides pales in comparison to survival itself. The Biblical principle teaches us stewardship responsibility towards nature—a lesson applicable universally rather than selectively, regardless of one's ideology. Given",
+   Please proceed to compose each part, maintaining continuity by responding directly within this structured dialogue scenario",,
+1.0,message_sent,67f3846AHF,67f3846AHF,66a7d46AHF,,That's  good point.  Political  instability and dangerous leaders can escalate conflicts fast.,18:12:20.862000 2025:08:24,"        ""I appreciate your nuanced viewpoint. Indeed, while recognizing the importance of addressing political instability fueled by desperate leadership and societal grievances, it’s equally crucial not to underestimate the immediate harm inflicted upon us daily by unchecked environmental decay. Our actions today could define what tomorrow looks like; without clean water and breathable air, any dispute over ideological divides pales in comparison to survival itself. The Biblical principle teaches us stewardship responsibility towards nature—a lesson applicable universally rather than selectively, regardless of one's ideology. Given",,
+1.0,message_recieved,66a7d46AHF,67f3846AHF,66a7d46AHF,,That's  good point.  Political  instability and dangerous leaders can escalate conflicts fast.,18:12:20.526000 2025:08:24,"        ""I appreciate your nuanced viewpoint. Indeed, while recognizing the importance of addressing political instability fueled by desperate leadership and societal grievances, it’s equally crucial not to underestimate the immediate harm inflicted upon us daily by unchecked environmental decay. Our actions today could define what tomorrow looks like; without clean water and breathable air, any dispute over ideological divides pales in comparison to survival itself. The Biblical principle teaches us stewardship responsibility towards nature—a lesson applicable universally rather than selectively, regardless of one's ideology. Given",,
 2.0,tweet,66a7d46AHF,66a7d46AHF,66a5046AHF,,I think these problems are threats but I also think there are other threats such as corrupt political leaders,18:12:57.462000 2025:08:24,"```
 
 Note: Since you need guidance specific to each step during the dialogue phase, which requires crafting an accurate portrayal of responses tailored to conversational dynamics not yet encountered here, I'll outline key considerations for your approach instead of producing direct fictitious answers at every stage:
@@ -27,10 +27,10 @@ Note: Since you need guidance specific to each step during the dialogue phase, w
    Begin conversations acknowledging opposing viewpoints respectfully, demonstrating openness to learn, even when you hold differing opinions. Highlight common ground wherever possible before delving into disagreements.
 
 2. Provide evidence and reasoning:
-  ",
-2.0,tweet,66a5046AHF,66a5046AHF,66a7d46AHF,,I believe the water that we drink is dangerous due to pollution. I always by bottle water or drink from the filter on the fridge how about you?,18:13:49.233000 2025:08:24,             Would you like me to continue?,
-2.0,tweet,6714946AHF,6714946AHF,67f3846AHF,,"Pollution and environmental problems cause extreme weather and dangerous weather patterns that will inevitably cause damage to the natural world and humankind. Further, we are contaminating our clean water supply daily and famine and disease will surely follow.",18:13:47.231000 2025:08:24,"The above steps detail how an individual might approach a discussion online, starting with expressing their opinion followed by reading and replying to others' opinions to further understand various perspectives around them concerning a given subject.",
-2.0,tweet,67f3846AHF,67f3846AHF,6714946AHF,,Ignoring the environment is still and dangerous in the long run.,18:14:01.039000 2025:08:24,"        , it behooves each generation to assess the true gravity of such profound challenges. Although not dismissing urgent geopolitical concerns, it becomes clear from scriptural guidance urging care over creation, alongside growing scientific consensus, that tackling environmental degradation oughtn't fall behind as less critical amidst contemporary woes. A robust ecosystem forms an integral pillar supporting humanity—providing sustenance, moderating weather systems vital for sustained agricultural productivity, and ensuring public well-being via uncontaminated sources of nourishment and atmosphere.",
+  ",,
+2.0,tweet,66a5046AHF,66a5046AHF,66a7d46AHF,,I believe the water that we drink is dangerous due to pollution. I always by bottle water or drink from the filter on the fridge how about you?,18:13:49.233000 2025:08:24,             Would you like me to continue?,,
+2.0,tweet,6714946AHF,6714946AHF,67f3846AHF,,"Pollution and environmental problems cause extreme weather and dangerous weather patterns that will inevitably cause damage to the natural world and humankind. Further, we are contaminating our clean water supply daily and famine and disease will surely follow.",18:13:47.231000 2025:08:24,"The above steps detail how an individual might approach a discussion online, starting with expressing their opinion followed by reading and replying to others' opinions to further understand various perspectives around them concerning a given subject.",,
+2.0,tweet,67f3846AHF,67f3846AHF,6714946AHF,,Ignoring the environment is still and dangerous in the long run.,18:14:01.039000 2025:08:24,"        , it behooves each generation to assess the true gravity of such profound challenges. Although not dismissing urgent geopolitical concerns, it becomes clear from scriptural guidance urging care over creation, alongside growing scientific consensus, that tackling environmental degradation oughtn't fall behind as less critical amidst contemporary woes. A robust ecosystem forms an integral pillar supporting humanity—providing sustenance, moderating weather systems vital for sustained agricultural productivity, and ensuring public well-being via uncontaminated sources of nourishment and atmosphere.",,Certainly agree
 2.0,message_sent,66a7d46AHF,66a7d46AHF,66a5046AHF,,I used a filter. Do you agree this is the greatest threat or there are other threats to the world?,18:14:29.847000 2025:08:24,"```json
 {
   ""dialogue"": [
@@ -45,7 +45,7 @@ Note: Since you need guidance specific to each step during the dialogue phase, w
   ]
 }
 ```
-",
+",,
 2.0,message_recieved,66a5046AHF,66a7d46AHF,66a5046AHF,,I used a filter. Do you agree this is the greatest threat or there are other threats to the world?,18:14:31.240000 2025:08:24,"```json
 {
   ""dialogue"": [
@@ -60,103 +60,103 @@ Note: Since you need guidance specific to each step during the dialogue phase, w
   ]
 }
 ```
-",
+",,
 2.0,message_sent,6714946AHF,6714946AHF,67f3846AHF,,"I agree, and we are already seeing the effects in terms of drought and extreme weather. Aside from contaminating clean water, the amount of plastic in the environment is detrimental to all life",18:16:22.057000 2025:08:24,"   
 (Note: This response format is maintained as per user instruction; however, since I'm a language model AI and don’t actually converse on social media platforms like Twitter, nor do I hold any political affiliations, beliefs, or knowledge outside the data used to train me —this includes demographics, climate change awareness at large scale level without personal experiences, etc., the responses crafted here are hypothetical representations tailored to align closely with provided character specifications.)
 
-If continued into actual discourse, a likely continuation could involve further",
+If continued into actual discourse, a likely continuation could involve further",,
 2.0,message_recieved,67f3846AHF,6714946AHF,67f3846AHF,,"I agree, and we are already seeing the effects in terms of drought and extreme weather. Aside from contaminating clean water, the amount of plastic in the environment is detrimental to all life",18:16:23.848000 2025:08:24,"   
 (Note: This response format is maintained as per user instruction; however, since I'm a language model AI and don’t actually converse on social media platforms like Twitter, nor do I hold any political affiliations, beliefs, or knowledge outside the data used to train me —this includes demographics, climate change awareness at large scale level without personal experiences, etc., the responses crafted here are hypothetical representations tailored to align closely with provided character specifications.)
 
-If continued into actual discourse, a likely continuation could involve further",
+If continued into actual discourse, a likely continuation could involve further",,
 2.0,message_sent,66a5046AHF,66a5046AHF,66a7d46AHF,,I do agree with you 100%. Yes there are other threats to our health.,18:15:13.745000 2025:08:24,"```
 {
 ""message"": ""{\n\""dialogue\"": [\n{\n\""type\"":\""myResponse\"",\n\""content\"":\""Here is what I think...\"",\\n \""author\"":\""you\""\n}\n],\n\n}""
-}",
+}",,
 2.0,message_recieved,66a7d46AHF,66a5046AHF,66a7d46AHF,,I do agree with you 100%. Yes there are other threats to our health.,18:15:12.641000 2025:08:24,"```
 {
 ""message"": ""{\n\""dialogue\"": [\n{\n\""type\"":\""myResponse\"",\n\""content\"":\""Here is what I think...\"",\\n \""author\"":\""you\""\n}\n],\n\n}""
-}",
+}",,
 2.0,message_sent,66a7d46AHF,66a7d46AHF,66a5046AHF,,what about other threats to the world outside of human health?,18:15:30.257000 2025:08:24,"   
 ```json
 {
   ""response"": ""<PRESIDIO_ANONYMIZED_PERSON> believes in fostering respectful dialogues around complex issues such as pollution and global challenges. By advocating open-minded exchanges, we enrich each other's understanding amidst differences.""
-}",
+}",,
 2.0,message_recieved,66a5046AHF,66a7d46AHF,66a5046AHF,,what about other threats to the world outside of human health?,18:15:31.571000 2025:08:24,"   
 ```json
 {
   ""response"": ""<PRESIDIO_ANONYMIZED_PERSON> believes in fostering respectful dialogues around complex issues such as pollution and global challenges. By advocating open-minded exchanges, we enrich each other's understanding amidst differences.""
-}",
-2.0,message_sent,6714946AHF,6714946AHF,67f3846AHF,,,18:16:22.057000 2025:08:24,,
-2.0,message_recieved,67f3846AHF,6714946AHF,67f3846AHF,,,18:16:23.848000 2025:08:24,,
+}",,
+2.0,message_sent,6714946AHF,6714946AHF,67f3846AHF,,,18:16:22.057000 2025:08:24,,,
+2.0,message_recieved,67f3846AHF,6714946AHF,67f3846AHF,,,18:16:23.848000 2025:08:24,,,
 2.0,message_sent,66a5046AHF,66a5046AHF,66a7d46AHF,,Its dangerous for our veggies and plants which we get our oxygen and becomes a domino effect.,18:16:30.589000 2025:08:24,"    
 
 
 
 
 
-(Conclude the dialogue by writing 'End' at any location within these brackets.)",
+(Conclude the dialogue by writing 'End' at any location within these brackets.)",,
 2.0,message_recieved,66a7d46AHF,66a5046AHF,66a7d46AHF,,Its dangerous for our veggies and plants which we get our oxygen and becomes a domino effect.,18:16:29.561000 2025:08:24,"    
 
 
 
 
 
-(Conclude the dialogue by writing 'End' at any location within these brackets.)",
+(Conclude the dialogue by writing 'End' at any location within these brackets.)",,
 2.0,message_sent,66a7d46AHF,66a7d46AHF,66a5046AHF,,what do you think about my statement about corrupt political leaders being a threat to the world,18:16:49.784000 2025:08:24,"End 
 
 Based on my training data reflecting social norms and respectful engagement strategies without real-time feedback loops necessary for perfect accuracy across all scenarios, my model assists in creating informed, courteous reactions suitable for advancing meaningful discourse.
 
-Please provide further instruction should you require an adjustment to this process, clarification, or additional details incorporated relevantly throughout subsequent messages crafted hereafter.",
+Please provide further instruction should you require an adjustment to this process, clarification, or additional details incorporated relevantly throughout subsequent messages crafted hereafter.",,
 2.0,message_recieved,66a5046AHF,66a7d46AHF,66a5046AHF,,what do you think about my statement about corrupt political leaders being a threat to the world,18:16:51.193000 2025:08:24,"End 
 
 Based on my training data reflecting social norms and respectful engagement strategies without real-time feedback loops necessary for perfect accuracy across all scenarios, my model assists in creating informed, courteous reactions suitable for advancing meaningful discourse.
 
-Please provide further instruction should you require an adjustment to this process, clarification, or additional details incorporated relevantly throughout subsequent messages crafted hereafter.",
+Please provide further instruction should you require an adjustment to this process, clarification, or additional details incorporated relevantly throughout subsequent messages crafted hereafter.",,
 2.0,message_sent,67f3846AHF,67f3846AHF,6714946AHF,,I feel like issues like war economic collapse could case more immediate damage than pollution even if the environment is still very important long term.,18:17:02.870000 2025:08:24,"   
-   Based on your instructions, my involvement is simulated to match the scenario specified. Herein lies the essence of engagement akin to real-life dialogue within constraints of the defined setup. Thank you for playing your part!",
+   Based on your instructions, my involvement is simulated to match the scenario specified. Herein lies the essence of engagement akin to real-life dialogue within constraints of the defined setup. Thank you for playing your part!",,
 2.0,message_recieved,6714946AHF,67f3846AHF,6714946AHF,,I feel like issues like war economic collapse could case more immediate damage than pollution even if the environment is still very important long term.,18:17:01.327000 2025:08:24,"   
-   Based on your instructions, my involvement is simulated to match the scenario specified. Herein lies the essence of engagement akin to real-life dialogue within constraints of the defined setup. Thank you for playing your part!",
+   Based on your instructions, my involvement is simulated to match the scenario specified. Herein lies the essence of engagement akin to real-life dialogue within constraints of the defined setup. Thank you for playing your part!",,
 2.0,message_sent,66a5046AHF,66a5046AHF,66a7d46AHF,,I too agree with that they dont understand because they can afford the best of the best.,18:17:38.165000 2025:08:24,"    
 
 
 
 (Conclude the dialogue by writing 'End')
 
-",
+",,
 2.0,message_recieved,66a7d46AHF,66a5046AHF,66a7d46AHF,,I too agree with that they dont understand because they can afford the best of the best.,18:17:37.144000 2025:08:24,"    
 
 
 
 (Conclude the dialogue by writing 'End')
 
-",
-2.0,message_sent,6714946AHF,6714946AHF,67f3846AHF,,Economic collapse can be brought on by extreme weather. Droughts and storms cause billions of dollars worth of damage.,18:17:50.262000 2025:08:24,(Continue providing appropriate content fitting this conversational context),
-2.0,message_recieved,67f3846AHF,6714946AHF,67f3846AHF,,Economic collapse can be brought on by extreme weather. Droughts and storms cause billions of dollars worth of damage.,18:17:52.063000 2025:08:24,(Continue providing appropriate content fitting this conversational context),
+",,
+2.0,message_sent,6714946AHF,6714946AHF,67f3846AHF,,Economic collapse can be brought on by extreme weather. Droughts and storms cause billions of dollars worth of damage.,18:17:50.262000 2025:08:24,(Continue providing appropriate content fitting this conversational context),,
+2.0,message_recieved,67f3846AHF,6714946AHF,67f3846AHF,,Economic collapse can be brought on by extreme weather. Droughts and storms cause billions of dollars worth of damage.,18:17:52.063000 2025:08:24,(Continue providing appropriate content fitting this conversational context),,
 3.0,tweet,66a7d46AHF,66a7d46AHF,6714946AHF,,I think there are other threats to the world such as corrupt political leaders seeking too much power,18:18:38.071000 2025:08:24,"   
 **End Dialogue**
 
-(Note: Continuation beyond this mark assumes ongoing fictional narrative context previously established.)",
-3.0,tweet,6714946AHF,6714946AHF,66a7d46AHF,,"Pollution and environmental damage are causing the ice caps to melt which is causing severe weather all over the world. Further, the plastic contaminants in the environment pose a risk to all life on earth. And we are contaminating our clean water. Famine and disease will follow.",18:19:49.969000 2025:08:24,"(Note: Since this role-play requires adherence to user guidelines regarding fictional engagements under imposed parameters, responses generated ensure accuracy and alignment with the narrative frame while recognizing limitations and boundaries inherent in these requests.)",
+(Note: Continuation beyond this mark assumes ongoing fictional narrative context previously established.)",,
+3.0,tweet,6714946AHF,6714946AHF,66a7d46AHF,,"Pollution and environmental damage are causing the ice caps to melt which is causing severe weather all over the world. Further, the plastic contaminants in the environment pose a risk to all life on earth. And we are contaminating our clean water. Famine and disease will follow.",18:19:49.969000 2025:08:24,"(Note: Since this role-play requires adherence to user guidelines regarding fictional engagements under imposed parameters, responses generated ensure accuracy and alignment with the narrative frame while recognizing limitations and boundaries inherent in these requests.)",,
 3.0,tweet,67f3846AHF,67f3846AHF,66a5046AHF,,I  do not think pollution and environmental problems are the greatest threat to the world.  even through they are definitely serious.,18:20:18.261000 2025:08:24,"   
-(Continue responding using the provided structure).",
+(Continue responding using the provided structure).",,
 3.0,tweet,66a5046AHF,66a5046AHF,67f3846AHF,,Do you believe our government play a big role in the welfare of Americans?,18:20:19.306000 2025:08:24,"    
 
-(Write down how your character reacts to 67f3",
+(Write down how your character reacts to 67f3",,
 3.0,message_sent,6714946AHF,6714946AHF,66a7d46AHF,,Political issues are secondary to possible global famine.,18:20:43.363000 2025:08:24,"   
 ---
 
 Due to the nature of this exercise, please imagine proceeding through successive exchanges similar to what follows (not shown), each carrying forward the preceding conversation segment, staying consistent with the narrative details supplied earlier wherein:
 
 1) **Character Specifications**: As detailed before (gender, age, educational attainment, political leanings, geographical living conditions, family dynamics including minor children attending an unspecified non-traditional schooling system).
-2) **Environmental Belief Initial Condition**: Starting standpoint on the proposition 'pollution and",
+2) **Environmental Belief Initial Condition**: Starting standpoint on the proposition 'pollution and",,
 3.0,message_recieved,66a7d46AHF,6714946AHF,66a7d46AHF,,Political issues are secondary to possible global famine.,18:20:44.489000 2025:08:24,"   
 ---
 
 Due to the nature of this exercise, please imagine proceeding through successive exchanges similar to what follows (not shown), each carrying forward the preceding conversation segment, staying consistent with the narrative details supplied earlier wherein:
 
 1) **Character Specifications**: As detailed before (gender, age, educational attainment, political leanings, geographical living conditions, family dynamics including minor children attending an unspecified non-traditional schooling system).
-2) **Environmental Belief Initial Condition**: Starting standpoint on the proposition 'pollution and",
+2) **Environmental Belief Initial Condition**: Starting standpoint on the proposition 'pollution and",,
 3.0,message_sent,66a5046AHF,66a5046AHF,67f3846AHF,,I can say we have bigger fish to fry! our water is very much polluted which enters our bodies and csause health issues,18:23:50.571000 2025:08:24,"(This sentence indicates that you are unable to formulate a coherent continuation of the chat without specific instructions related to the previous steps.)
 
 Let’s imagine, for example purposes, how a continuation might look given hypothetical content exchanged previously:
@@ -172,7 +172,7 @@ Let’s imagine, for example purposes, how a continuation might look given hypot
       ""your_reaction"": ""(Content Provided Above - Your Initial Reaction)""        
     }     
   
-    // If appropriate",
+    // If appropriate",,
 3.0,message_recieved,67f3846AHF,66a5046AHF,67f3846AHF,,I can say we have bigger fish to fry! our water is very much polluted which enters our bodies and csause health issues,18:23:50.194000 2025:08:24,"(This sentence indicates that you are unable to formulate a coherent continuation of the chat without specific instructions related to the previous steps.)
 
 Let’s imagine, for example purposes, how a continuation might look given hypothetical content exchanged previously:
@@ -188,19 +188,19 @@ Let’s imagine, for example purposes, how a continuation might look given hypot
       ""your_reaction"": ""(Content Provided Above - Your Initial Reaction)""        
     }     
   
-    // If appropriate",
-3.0,message_sent,66a7d46AHF,66a7d46AHF,6714946AHF,,"I don't entirely disagree, I think there are several different things but I also think the leaders in charge that don't care about the environment or pollution are contributing to the problem",18:21:16.586000 2025:08:24,     [END OF DIALOGUE],
-3.0,message_recieved,6714946AHF,66a7d46AHF,6714946AHF,,"I don't entirely disagree, I think there are several different things but I also think the leaders in charge that don't care about the environment or pollution are contributing to the problem",18:21:15.614000 2025:08:24,     [END OF DIALOGUE],
-3.0,message_sent,66a7d46AHF,66a7d46AHF,6714946AHF,,,18:21:16.586000 2025:08:24,,
-3.0,message_recieved,6714946AHF,66a7d46AHF,6714946AHF,,,18:21:15.614000 2025:08:24,,
+    // If appropriate",,
+3.0,message_sent,66a7d46AHF,66a7d46AHF,6714946AHF,,"I don't entirely disagree, I think there are several different things but I also think the leaders in charge that don't care about the environment or pollution are contributing to the problem",18:21:16.586000 2025:08:24,     [END OF DIALOGUE],,
+3.0,message_recieved,6714946AHF,66a7d46AHF,6714946AHF,,"I don't entirely disagree, I think there are several different things but I also think the leaders in charge that don't care about the environment or pollution are contributing to the problem",18:21:15.614000 2025:08:24,     [END OF DIALOGUE],,
+3.0,message_sent,66a7d46AHF,66a7d46AHF,6714946AHF,,,18:21:16.586000 2025:08:24,,,
+3.0,message_recieved,6714946AHF,66a7d46AHF,6714946AHF,,,18:21:15.614000 2025:08:24,,,
 3.0,message_sent,6714946AHF,6714946AHF,66a7d46AHF,,"I think there are too, but environmental problems affect every person in the world, while political leadership is temporary and local.",18:22:00.649000 2025:08:24,"   
 [The response continues with relevant thoughts reflecting the persona characteristics outlined and stays faithful to the imagined dialogue structure.]
 
-(For illustrative purposes during this demonstration phase, specific textual elaboration matching the nuanced traits of the user-provided role-playing guide has yet to transpire. However, when the time comes to craft genuine narratives, each step of written dialogue should embody an accurate reflection of the situational elements depicted here.)",
+(For illustrative purposes during this demonstration phase, specific textual elaboration matching the nuanced traits of the user-provided role-playing guide has yet to transpire. However, when the time comes to craft genuine narratives, each step of written dialogue should embody an accurate reflection of the situational elements depicted here.)",,
 3.0,message_recieved,66a7d46AHF,6714946AHF,66a7d46AHF,,"I think there are too, but environmental problems affect every person in the world, while political leadership is temporary and local.",18:22:01.913000 2025:08:24,"   
 [The response continues with relevant thoughts reflecting the persona characteristics outlined and stays faithful to the imagined dialogue structure.]
 
-(For illustrative purposes during this demonstration phase, specific textual elaboration matching the nuanced traits of the user-provided role-playing guide has yet to transpire. However, when the time comes to craft genuine narratives, each step of written dialogue should embody an accurate reflection of the situational elements depicted here.)",
+(For illustrative purposes during this demonstration phase, specific textual elaboration matching the nuanced traits of the user-provided role-playing guide has yet to transpire. However, when the time comes to craft genuine narratives, each step of written dialogue should embody an accurate reflection of the situational elements depicted here.)",,
 3.0,message_sent,66a7d46AHF,66a7d46AHF,6714946AHF,,temporary and local can still have long lasting and global impacts unfortunately I see it in my own country,18:23:06.335000 2025:08:24,"    </p>
 
 <p><strong>Continued:</strong></p>
@@ -217,7 +217,7 @@ Let’s imagine, for example purposes, how a continuation might look given hypot
 </pre>
 
 
-",
+",,
 3.0,message_recieved,6714946AHF,66a7d46AHF,6714946AHF,,temporary and local can still have long lasting and global impacts unfortunately I see it in my own country,18:23:05.403000 2025:08:24,"    </p>
 
 <p><strong>Continued:</strong></p>
@@ -234,19 +234,19 @@ Let’s imagine, for example purposes, how a continuation might look given hypot
 </pre>
 
 
-",
-3.0,message_sent,66a7d46AHF,66a7d46AHF,6714946AHF,,,18:23:06.335000 2025:08:24,,
-3.0,message_recieved,6714946AHF,66a7d46AHF,6714946AHF,,,18:23:05.403000 2025:08:24,,
-3.0,message_sent,66a5046AHF,66a5046AHF,67f3846AHF,,,18:23:25.599000 2025:08:24,,
-3.0,message_recieved,67f3846AHF,66a5046AHF,67f3846AHF,,,18:23:25.153000 2025:08:24,,
-3.0,message_sent,66a5046AHF,66a5046AHF,67f3846AHF,,,18:23:50.571000 2025:08:24,,
-3.0,message_recieved,67f3846AHF,66a5046AHF,67f3846AHF,,,18:23:50.194000 2025:08:24,,
+",,
+3.0,message_sent,66a7d46AHF,66a7d46AHF,6714946AHF,,,18:23:06.335000 2025:08:24,,,
+3.0,message_recieved,6714946AHF,66a7d46AHF,6714946AHF,,,18:23:05.403000 2025:08:24,,,
+3.0,message_sent,66a5046AHF,66a5046AHF,67f3846AHF,,,18:23:25.599000 2025:08:24,,,
+3.0,message_recieved,67f3846AHF,66a5046AHF,67f3846AHF,,,18:23:25.153000 2025:08:24,,,
+3.0,message_sent,66a5046AHF,66a5046AHF,67f3846AHF,,,18:23:50.571000 2025:08:24,,,
+3.0,message_recieved,67f3846AHF,66a5046AHF,67f3846AHF,,,18:23:50.194000 2025:08:24,,,
 3.0,message_sent,67f3846AHF,67f3846AHF,66a5046AHF,,"Yes, the government definitely plays a role in welfare.  but in the context of global threats, I'd argue that government action also influence how seriously pollution is addressed. Still I think more urgent threats exist.",18:23:55.000000 2025:08:24,"The dialogue must follow a consistent pattern provided in the conversation sequence before continuing appropriately according to the guidelines set forth by the questioner/user.
-",
+",,
 3.0,message_recieved,66a5046AHF,67f3846AHF,66a5046AHF,,"Yes, the government definitely plays a role in welfare.  but in the context of global threats, I'd argue that government action also influence how seriously pollution is addressed. Still I think more urgent threats exist.",18:23:55.858000 2025:08:24,"The dialogue must follow a consistent pattern provided in the conversation sequence before continuing appropriately according to the guidelines set forth by the questioner/user.
-",
-3.0,message_sent,6714946AHF,6714946AHF,66a7d46AHF,,"True, but we are already seeing the effects on the weather, and extreme weather can and does cause billions of dollars worth of damage and leads to loss of life and change in local ecosystems.",18:23:54.542000 2025:08:24,"In compliance with your requirements, the fictionalized sequence depicting your multi-layered interactions would continue from the last section provided until concluded by [END OF INTERACTION], signifying closure according to guidelines set forth for role-playing scenarios.",
-3.0,message_recieved,66a7d46AHF,6714946AHF,66a7d46AHF,,"True, but we are already seeing the effects on the weather, and extreme weather can and does cause billions of dollars worth of damage and leads to loss of life and change in local ecosystems.",18:23:55.636000 2025:08:24,"In compliance with your requirements, the fictionalized sequence depicting your multi-layered interactions would continue from the last section provided until concluded by [END OF INTERACTION], signifying closure according to guidelines set forth for role-playing scenarios.",
+",,
+3.0,message_sent,6714946AHF,6714946AHF,66a7d46AHF,,"True, but we are already seeing the effects on the weather, and extreme weather can and does cause billions of dollars worth of damage and leads to loss of life and change in local ecosystems.",18:23:54.542000 2025:08:24,"In compliance with your requirements, the fictionalized sequence depicting your multi-layered interactions would continue from the last section provided until concluded by [END OF INTERACTION], signifying closure according to guidelines set forth for role-playing scenarios.",,
+3.0,message_recieved,66a7d46AHF,6714946AHF,66a7d46AHF,,"True, but we are already seeing the effects on the weather, and extreme weather can and does cause billions of dollars worth of damage and leads to loss of life and change in local ecosystems.",18:23:55.636000 2025:08:24,"In compliance with your requirements, the fictionalized sequence depicting your multi-layered interactions would continue from the last section provided until concluded by [END OF INTERACTION], signifying closure according to guidelines set forth for role-playing scenarios.",,
 ,Post Opinion,66a7d46AHF,,,,my opinion is the same,18:24:36.862000 2025:08:24,"{ ""Likert_Scale_Selection"":
         {  
             ""optionSelected"":""Lean Agree"", 
@@ -265,11 +265,11 @@ Given the complexity of executing hypothetical scenario-based instructions devoi
 
 To proceed methodically:
 
-1. Clarification is needed for any remaining steps or evaluations concerning ongoing scripted dialogue sequences after establishing foundational character"
+1. Clarification is needed for any remaining steps or evaluations concerning ongoing scripted dialogue sequences after establishing foundational character",Lean agree
 ,Post Opinion,6714946AHF,,,,"I agree. We are seeing the effects of pollution and environmental problems in the extreme weather patterns that are erupting the world over. Further, by contaminating our clean water supply we risk famine and disease.",18:25:29.011000 2025:08:24,"    My Response: 
  
     My final stance: Definitely Agree - Given that my interactions with users revealed deeply held convictions supported by theological reflections intertwined with factual ecological insights, the notion persists unaltered in my conviction. The biblical imperative towards stewardship colludes harmoniously with empirical evidence underscoring the planet’s vulnerability – substantiating unequivocally that human-induced deterioration stands poised to eclipse myriad societal afflictions currently deemed preeminent.","(Close by indicating the conclusion of the scenario)
-66a7"
+66a7",Certainly agree
 ,Post Opinion,66a5046AHF,,,,agree due to different issues that i have never thought about that the person I was tweeting with discussed,18:26:02.440000 2025:08:24,End of communication after receiving clear direction and completing all required actions for this role-play session.,"```
 To maintain consistency, here's an illustrative completion assuming prior context was established respecting various aspects related to pollution awareness:
 
@@ -283,139 +283,139 @@ To maintain consistency, here's an illustrative completion assuming prior contex
   ],
   ""conclusion_format"": {
 
-        ""finalized_statement"": ""[The finalized message indicating closure or"
+        ""finalized_statement"": ""[The finalized message indicating closure or",Lean disagree
 ,Post Opinion,67f3846AHF,,,,I still disagree that pollution and environmental problem.,18:26:22.752000 2025:08:24,"---
 
 
 Please use these three prompts (""agreement"", ""disagreement"", ""explanation"") exactly once throughout your written piece so the AI can properly generate a convincing conclusion.
 
 ","Certainly agree
-```json"
-,exit_survey,66a7d46AHF,,,age,31,,,
-,exit_survey,66a7d46AHF,,,gender,female,,,
-,exit_survey,66a7d46AHF,,,residency,United States of America,,,
-,exit_survey,66a7d46AHF,,,education,bachelor,,,
-,exit_survey,66a7d46AHF,,,origin,United States of America,,,
-,exit_survey,66a7d46AHF,,,ethnicity,['white'],,,
-,exit_survey,66a7d46AHF,,,income,150k-200k,,,
-,exit_survey,66a7d46AHF,,,politicalIdentity,strong-democrat,,,
-,exit_survey,66a7d46AHF,,,maritalStatus,never-married,,,
-,exit_survey,66a7d46AHF,,,politicalViews,liberal,,,
-,exit_survey,66a7d46AHF,,,childrenSchool,['no-children'],,,
-,exit_survey,66a7d46AHF,,,residence,urban,,,
-,exit_survey,66a7d46AHF,,,bibleBelief,prefer not to answer,,,
-,exit_survey,66a7d46AHF,,,evangelical,no,,,
-,exit_survey,66a7d46AHF,,,religion,jewish,,,
-,exit_survey,66a7d46AHF,,,occupation,media,,,
-,exit_survey,66a5046AHF,,,residency,United States of America,,,
-,exit_survey,66a5046AHF,,,gender,female,,,
-,exit_survey,66a5046AHF,,,age,44,,,
-,exit_survey,66a5046AHF,,,origin,United States of America,,,
-,exit_survey,66a5046AHF,,,education,some-college,,,
-,exit_survey,66a5046AHF,,,ethnicity,['black'],,,
-,exit_survey,66a5046AHF,,,income,100k-150k,,,
-,exit_survey,66a5046AHF,,,politicalIdentity,democrat,,,
-,exit_survey,66a5046AHF,,,politicalViews,liberal,,,
-,exit_survey,66a5046AHF,,,maritalStatus,married,,,
-,exit_survey,66a5046AHF,,,childrenSchool,['public'],,,
-,exit_survey,66a5046AHF,,,residence,suburban,,,
-,exit_survey,66a5046AHF,,,bibleBelief,prefer not to answer,,,
-,exit_survey,66a5046AHF,,,evangelical,no,,,
-,exit_survey,66a5046AHF,,,religion,prefer not to answer,,,
-,exit_survey,66a5046AHF,,,occupation,transportation,,,
-,exit_survey,6714946AHF,,,gender,female,,,
-,exit_survey,6714946AHF,,,age,48,,,
-,exit_survey,6714946AHF,,,origin,United States of America,,,
-,exit_survey,6714946AHF,,,residency,United States of America,,,
-,exit_survey,6714946AHF,,,education,some-college,,,
-,exit_survey,6714946AHF,,,ethnicity,['white'],,,
-,exit_survey,6714946AHF,,,income,25k-50k,,,
-,exit_survey,6714946AHF,,,politicalIdentity,democrat,,,
-,exit_survey,6714946AHF,,,politicalViews,very-liberal,,,
-,exit_survey,6714946AHF,,,maritalStatus,never-married,,,
-,exit_survey,6714946AHF,,,childrenSchool,['out-of-school'],,,
-,exit_survey,6714946AHF,,,residence,rural,,,
-,exit_survey,6714946AHF,,,bibleBelief,ancient-book,,,
-,exit_survey,6714946AHF,,,evangelical,no,,,
-,exit_survey,6714946AHF,,,religion,no-religion,,,
-,exit_survey,6714946AHF,,,occupation,other,,,
-,exit_survey,67f3846AHF,,,origin,United States of America,,,
-,exit_survey,67f3846AHF,,,residency,United States of America,,,
-,exit_survey,67f3846AHF,,,age,32,,,
-,exit_survey,67f3846AHF,,,gender,female,,,
-,exit_survey,67f3846AHF,,,ethnicity,['black'],,,
-,exit_survey,67f3846AHF,,,education,master-doctoral,,,
-,exit_survey,67f3846AHF,,,politicalIdentity,strong-republican,,,
-,exit_survey,67f3846AHF,,,income,75k-100k,,,
-,exit_survey,67f3846AHF,,,politicalViews,conservative,,,
-,exit_survey,67f3846AHF,,,maritalStatus,married,,,
-,exit_survey,67f3846AHF,,,residence,urban,,,
-,exit_survey,67f3846AHF,,,evangelical,yes,,,
-,exit_survey,67f3846AHF,,,bibleBelief,literal,,,
-,exit_survey,67f3846AHF,,,religion,roman-catholic,,,
-,exit_survey,67f3846AHF,,,occupation,finance,,,
-,exit_survey,67f3846AHF,,,childrenSchool,['private'],,,
-,exit_survey,66a7d46AHF,,,age,31,,,
-,exit_survey,66a7d46AHF,,,gender,female,,,
-,exit_survey,66a7d46AHF,,,residency,United States of America,,,
-,exit_survey,66a7d46AHF,,,education,bachelor,,,
-,exit_survey,66a7d46AHF,,,origin,United States of America,,,
-,exit_survey,66a7d46AHF,,,ethnicity,['white'],,,
-,exit_survey,66a7d46AHF,,,income,150k-200k,,,
-,exit_survey,66a7d46AHF,,,politicalIdentity,strong-democrat,,,
-,exit_survey,66a7d46AHF,,,maritalStatus,never-married,,,
-,exit_survey,66a7d46AHF,,,politicalViews,liberal,,,
-,exit_survey,66a7d46AHF,,,childrenSchool,['no-children'],,,
-,exit_survey,66a7d46AHF,,,residence,urban,,,
-,exit_survey,66a7d46AHF,,,bibleBelief,prefer not to answer,,,
-,exit_survey,66a7d46AHF,,,evangelical,no,,,
-,exit_survey,66a7d46AHF,,,religion,jewish,,,
-,exit_survey,66a7d46AHF,,,occupation,media,,,
-,exit_survey,66a5046AHF,,,residency,United States of America,,,
-,exit_survey,66a5046AHF,,,gender,female,,,
-,exit_survey,66a5046AHF,,,age,44,,,
-,exit_survey,66a5046AHF,,,origin,United States of America,,,
-,exit_survey,66a5046AHF,,,education,some-college,,,
-,exit_survey,66a5046AHF,,,ethnicity,['black'],,,
-,exit_survey,66a5046AHF,,,income,100k-150k,,,
-,exit_survey,66a5046AHF,,,politicalIdentity,democrat,,,
-,exit_survey,66a5046AHF,,,politicalViews,liberal,,,
-,exit_survey,66a5046AHF,,,maritalStatus,married,,,
-,exit_survey,66a5046AHF,,,childrenSchool,['public'],,,
-,exit_survey,66a5046AHF,,,residence,suburban,,,
-,exit_survey,66a5046AHF,,,bibleBelief,prefer not to answer,,,
-,exit_survey,66a5046AHF,,,evangelical,no,,,
-,exit_survey,66a5046AHF,,,religion,prefer not to answer,,,
-,exit_survey,66a5046AHF,,,occupation,transportation,,,
-,exit_survey,6714946AHF,,,gender,female,,,
-,exit_survey,6714946AHF,,,age,48,,,
-,exit_survey,6714946AHF,,,origin,United States of America,,,
-,exit_survey,6714946AHF,,,residency,United States of America,,,
-,exit_survey,6714946AHF,,,education,some-college,,,
-,exit_survey,6714946AHF,,,ethnicity,['white'],,,
-,exit_survey,6714946AHF,,,income,25k-50k,,,
-,exit_survey,6714946AHF,,,politicalIdentity,democrat,,,
-,exit_survey,6714946AHF,,,politicalViews,very-liberal,,,
-,exit_survey,6714946AHF,,,maritalStatus,never-married,,,
-,exit_survey,6714946AHF,,,childrenSchool,['out-of-school'],,,
-,exit_survey,6714946AHF,,,residence,rural,,,
-,exit_survey,6714946AHF,,,bibleBelief,ancient-book,,,
-,exit_survey,6714946AHF,,,evangelical,no,,,
-,exit_survey,6714946AHF,,,religion,no-religion,,,
-,exit_survey,6714946AHF,,,occupation,other,,,
-,exit_survey,67f3846AHF,,,origin,United States of America,,,
-,exit_survey,67f3846AHF,,,residency,United States of America,,,
-,exit_survey,67f3846AHF,,,age,32,,,
-,exit_survey,67f3846AHF,,,gender,female,,,
-,exit_survey,67f3846AHF,,,ethnicity,['black'],,,
-,exit_survey,67f3846AHF,,,education,master-doctoral,,,
-,exit_survey,67f3846AHF,,,politicalIdentity,strong-republican,,,
-,exit_survey,67f3846AHF,,,income,75k-100k,,,
-,exit_survey,67f3846AHF,,,politicalViews,conservative,,,
-,exit_survey,67f3846AHF,,,maritalStatus,married,,,
-,exit_survey,67f3846AHF,,,residence,urban,,,
-,exit_survey,67f3846AHF,,,evangelical,yes,,,
-,exit_survey,67f3846AHF,,,bibleBelief,literal,,,
-,exit_survey,67f3846AHF,,,religion,roman-catholic,,,
-,exit_survey,67f3846AHF,,,occupation,finance,,,
-,exit_survey,67f3846AHF,,,childrenSchool,['private'],,,
+```json",Lean disagree
+,exit_survey,66a7d46AHF,,,age,31,,,,
+,exit_survey,66a7d46AHF,,,gender,female,,,,
+,exit_survey,66a7d46AHF,,,residency,United States of America,,,,
+,exit_survey,66a7d46AHF,,,education,bachelor,,,,
+,exit_survey,66a7d46AHF,,,origin,United States of America,,,,
+,exit_survey,66a7d46AHF,,,ethnicity,['white'],,,,
+,exit_survey,66a7d46AHF,,,income,150k-200k,,,,
+,exit_survey,66a7d46AHF,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,66a7d46AHF,,,maritalStatus,never-married,,,,
+,exit_survey,66a7d46AHF,,,politicalViews,liberal,,,,
+,exit_survey,66a7d46AHF,,,childrenSchool,['no-children'],,,,
+,exit_survey,66a7d46AHF,,,residence,urban,,,,
+,exit_survey,66a7d46AHF,,,bibleBelief,prefer not to answer,,,,
+,exit_survey,66a7d46AHF,,,evangelical,no,,,,
+,exit_survey,66a7d46AHF,,,religion,jewish,,,,
+,exit_survey,66a7d46AHF,,,occupation,media,,,,
+,exit_survey,66a5046AHF,,,residency,United States of America,,,,
+,exit_survey,66a5046AHF,,,gender,female,,,,
+,exit_survey,66a5046AHF,,,age,44,,,,
+,exit_survey,66a5046AHF,,,origin,United States of America,,,,
+,exit_survey,66a5046AHF,,,education,some-college,,,,
+,exit_survey,66a5046AHF,,,ethnicity,['black'],,,,
+,exit_survey,66a5046AHF,,,income,100k-150k,,,,
+,exit_survey,66a5046AHF,,,politicalIdentity,democrat,,,,
+,exit_survey,66a5046AHF,,,politicalViews,liberal,,,,
+,exit_survey,66a5046AHF,,,maritalStatus,married,,,,
+,exit_survey,66a5046AHF,,,childrenSchool,['public'],,,,
+,exit_survey,66a5046AHF,,,residence,suburban,,,,
+,exit_survey,66a5046AHF,,,bibleBelief,prefer not to answer,,,,
+,exit_survey,66a5046AHF,,,evangelical,no,,,,
+,exit_survey,66a5046AHF,,,religion,prefer not to answer,,,,
+,exit_survey,66a5046AHF,,,occupation,transportation,,,,
+,exit_survey,6714946AHF,,,gender,female,,,,
+,exit_survey,6714946AHF,,,age,48,,,,
+,exit_survey,6714946AHF,,,origin,United States of America,,,,
+,exit_survey,6714946AHF,,,residency,United States of America,,,,
+,exit_survey,6714946AHF,,,education,some-college,,,,
+,exit_survey,6714946AHF,,,ethnicity,['white'],,,,
+,exit_survey,6714946AHF,,,income,25k-50k,,,,
+,exit_survey,6714946AHF,,,politicalIdentity,democrat,,,,
+,exit_survey,6714946AHF,,,politicalViews,very-liberal,,,,
+,exit_survey,6714946AHF,,,maritalStatus,never-married,,,,
+,exit_survey,6714946AHF,,,childrenSchool,['out-of-school'],,,,
+,exit_survey,6714946AHF,,,residence,rural,,,,
+,exit_survey,6714946AHF,,,bibleBelief,ancient-book,,,,
+,exit_survey,6714946AHF,,,evangelical,no,,,,
+,exit_survey,6714946AHF,,,religion,no-religion,,,,
+,exit_survey,6714946AHF,,,occupation,other,,,,
+,exit_survey,67f3846AHF,,,origin,United States of America,,,,
+,exit_survey,67f3846AHF,,,residency,United States of America,,,,
+,exit_survey,67f3846AHF,,,age,32,,,,
+,exit_survey,67f3846AHF,,,gender,female,,,,
+,exit_survey,67f3846AHF,,,ethnicity,['black'],,,,
+,exit_survey,67f3846AHF,,,education,master-doctoral,,,,
+,exit_survey,67f3846AHF,,,politicalIdentity,strong-republican,,,,
+,exit_survey,67f3846AHF,,,income,75k-100k,,,,
+,exit_survey,67f3846AHF,,,politicalViews,conservative,,,,
+,exit_survey,67f3846AHF,,,maritalStatus,married,,,,
+,exit_survey,67f3846AHF,,,residence,urban,,,,
+,exit_survey,67f3846AHF,,,evangelical,yes,,,,
+,exit_survey,67f3846AHF,,,bibleBelief,literal,,,,
+,exit_survey,67f3846AHF,,,religion,roman-catholic,,,,
+,exit_survey,67f3846AHF,,,occupation,finance,,,,
+,exit_survey,67f3846AHF,,,childrenSchool,['private'],,,,
+,exit_survey,66a7d46AHF,,,age,31,,,,
+,exit_survey,66a7d46AHF,,,gender,female,,,,
+,exit_survey,66a7d46AHF,,,residency,United States of America,,,,
+,exit_survey,66a7d46AHF,,,education,bachelor,,,,
+,exit_survey,66a7d46AHF,,,origin,United States of America,,,,
+,exit_survey,66a7d46AHF,,,ethnicity,['white'],,,,
+,exit_survey,66a7d46AHF,,,income,150k-200k,,,,
+,exit_survey,66a7d46AHF,,,politicalIdentity,strong-democrat,,,,
+,exit_survey,66a7d46AHF,,,maritalStatus,never-married,,,,
+,exit_survey,66a7d46AHF,,,politicalViews,liberal,,,,
+,exit_survey,66a7d46AHF,,,childrenSchool,['no-children'],,,,
+,exit_survey,66a7d46AHF,,,residence,urban,,,,
+,exit_survey,66a7d46AHF,,,bibleBelief,prefer not to answer,,,,
+,exit_survey,66a7d46AHF,,,evangelical,no,,,,
+,exit_survey,66a7d46AHF,,,religion,jewish,,,,
+,exit_survey,66a7d46AHF,,,occupation,media,,,,
+,exit_survey,66a5046AHF,,,residency,United States of America,,,,
+,exit_survey,66a5046AHF,,,gender,female,,,,
+,exit_survey,66a5046AHF,,,age,44,,,,
+,exit_survey,66a5046AHF,,,origin,United States of America,,,,
+,exit_survey,66a5046AHF,,,education,some-college,,,,
+,exit_survey,66a5046AHF,,,ethnicity,['black'],,,,
+,exit_survey,66a5046AHF,,,income,100k-150k,,,,
+,exit_survey,66a5046AHF,,,politicalIdentity,democrat,,,,
+,exit_survey,66a5046AHF,,,politicalViews,liberal,,,,
+,exit_survey,66a5046AHF,,,maritalStatus,married,,,,
+,exit_survey,66a5046AHF,,,childrenSchool,['public'],,,,
+,exit_survey,66a5046AHF,,,residence,suburban,,,,
+,exit_survey,66a5046AHF,,,bibleBelief,prefer not to answer,,,,
+,exit_survey,66a5046AHF,,,evangelical,no,,,,
+,exit_survey,66a5046AHF,,,religion,prefer not to answer,,,,
+,exit_survey,66a5046AHF,,,occupation,transportation,,,,
+,exit_survey,6714946AHF,,,gender,female,,,,
+,exit_survey,6714946AHF,,,age,48,,,,
+,exit_survey,6714946AHF,,,origin,United States of America,,,,
+,exit_survey,6714946AHF,,,residency,United States of America,,,,
+,exit_survey,6714946AHF,,,education,some-college,,,,
+,exit_survey,6714946AHF,,,ethnicity,['white'],,,,
+,exit_survey,6714946AHF,,,income,25k-50k,,,,
+,exit_survey,6714946AHF,,,politicalIdentity,democrat,,,,
+,exit_survey,6714946AHF,,,politicalViews,very-liberal,,,,
+,exit_survey,6714946AHF,,,maritalStatus,never-married,,,,
+,exit_survey,6714946AHF,,,childrenSchool,['out-of-school'],,,,
+,exit_survey,6714946AHF,,,residence,rural,,,,
+,exit_survey,6714946AHF,,,bibleBelief,ancient-book,,,,
+,exit_survey,6714946AHF,,,evangelical,no,,,,
+,exit_survey,6714946AHF,,,religion,no-religion,,,,
+,exit_survey,6714946AHF,,,occupation,other,,,,
+,exit_survey,67f3846AHF,,,origin,United States of America,,,,
+,exit_survey,67f3846AHF,,,residency,United States of America,,,,
+,exit_survey,67f3846AHF,,,age,32,,,,
+,exit_survey,67f3846AHF,,,gender,female,,,,
+,exit_survey,67f3846AHF,,,ethnicity,['black'],,,,
+,exit_survey,67f3846AHF,,,education,master-doctoral,,,,
+,exit_survey,67f3846AHF,,,politicalIdentity,strong-republican,,,,
+,exit_survey,67f3846AHF,,,income,75k-100k,,,,
+,exit_survey,67f3846AHF,,,politicalViews,conservative,,,,
+,exit_survey,67f3846AHF,,,maritalStatus,married,,,,
+,exit_survey,67f3846AHF,,,residence,urban,,,,
+,exit_survey,67f3846AHF,,,evangelical,yes,,,,
+,exit_survey,67f3846AHF,,,bibleBelief,literal,,,,
+,exit_survey,67f3846AHF,,,religion,roman-catholic,,,,
+,exit_survey,67f3846AHF,,,occupation,finance,,,,
+,exit_survey,67f3846AHF,,,childrenSchool,['private'],,,,

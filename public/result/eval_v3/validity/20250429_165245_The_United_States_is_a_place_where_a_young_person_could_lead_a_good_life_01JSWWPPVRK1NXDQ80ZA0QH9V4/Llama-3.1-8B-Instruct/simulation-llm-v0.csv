@@ -1,191 +1,191 @@
-chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level
-,Initial Opinion,67efeQH9V4,,,,The united states is a place where a young person could lead a good life.,16:30:04.424000 2025:04:29,The united states is a place where a young person could lead a good life.,
-,Initial Opinion,5c377QH9V4,,,,"I disagree. I don't think they can. There's a lot of tension, uncertainty and fear right now due to the political climate.",16:30:37.227000 2025:04:29,"I disagree. I don't think they can. There's a lot of tension, uncertainty and fear right now due to the political climate.",
-,Initial Opinion,67db1QH9V4,,,,Young people would thrive here if they're hardworking and creative. Life is good generally here if the individual is not lazy,16:30:54.622000 2025:04:29,Young people would thrive here if they're hardworking and creative. Life is good generally here if the individual is not lazy,
-,Initial Opinion,67d26QH9V4,,,,"lean agree, because children do things on their own",16:31:28.026000 2025:04:29,"lean agree, because children do things on their own",
-1.0,tweet,67efeQH9V4,67efeQH9V4,5c377QH9V4,,I believe that The United States is a country where youths could lead a good life.,16:33:19.015000 2025:04:29,I believe that The United States is a country where youths could lead a good life.,
-1.0,tweet,67db1QH9V4,67db1QH9V4,67d26QH9V4,,"Hey! Living here for young people is good if they are hardworking, creative and tech-savvy.The USA is not for lazy people",16:33:25.273000 2025:04:29,"Hey! Living here for young people is good if they are hardworking, creative and tech-savvy.The USA is not for lazy people",
-1.0,tweet,67d26QH9V4,67d26QH9V4,67db1QH9V4,,i think US CAN BE  a place where a young person can,16:33:48.313000 2025:04:29,i think US CAN BE  a place where a young person can,
-1.0,tweet,5c377QH9V4,5c377QH9V4,67efeQH9V4,,"I honestly don't think a young person could lead a good life in this country right now. It would be extremely difficult. There's a lot of tension, uncertainty and fear in America right now. I don't even think young people are even being pr",16:33:48.313000 2025:04:29,"I honestly don't think a young person could lead a good life in this country right now. It would be extremely difficult. There's a lot of tension, uncertainty and fear in America right now. I don't even think young people are even being pr",
-1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,why do you think o so,16:34:36.177000 2025:04:29,"I've always thought the US offered many opportunities for our youth - great schools, various career paths & strong social safety nets. But hearing you say it'd be ""extremely difficult"", got me thinking... what specific issues do you feel contribute to this sentiment? Is there something we're missing as a society? Would love some more insight into your perspective, thanks!",
-1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,why do you think o so,16:34:37.208000 2025:04:29,"I've always thought the US offered many opportunities for our youth - great schools, various career paths & strong social safety nets. But hearing you say it'd be ""extremely difficult"", got me thinking... what specific issues do you feel contribute to this sentiment? Is there something we're missing as a society? Would love some more insight into your perspective, thanks!",
-1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,for sure is not for lazy people,16:34:36.696000 2025:04:29,"Oh my goodness, I absolutely love what you're saying, @67dbi regarding having an entrepreneurial spirit by being 'hard-working', 'creative' & 'tech-savvy'. However, there seems like it is becoming increasingly clear these qualities aren't solely dependent upon geographical location such as the United states. But let me tell you after raising kids who went into ‘private’ schooling, one thing stands - every child brings diverse personalities which truly flourish over time under American culture",
-1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,for sure is not for lazy people,16:34:37.447000 2025:04:29,"Oh my goodness, I absolutely love what you're saying, @67dbi regarding having an entrepreneurial spirit by being 'hard-working', 'creative' & 'tech-savvy'. However, there seems like it is becoming increasingly clear these qualities aren't solely dependent upon geographical location such as the United states. But let me tell you after raising kids who went into ‘private’ schooling, one thing stands - every child brings diverse personalities which truly flourish over time under American culture",
-1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,,16:34:36.177000 2025:04:29,,
-1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,,16:34:37.208000 2025:04:29,,
-1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,"Yes,I agreed with your point of view Young people should work hard and build a career",16:35:04.863000 2025:04:29,"@67d2626, I'm glad we share similar sentiments towards entrepreneurship and creativity. But I couldn’t help notice you brought up 'American culture.' While our country does indeed offer opportunities, its the values instilled within families ultimately impact how those young individuals turn out. Every family’s approach differs just as everyone learns differently.",
-1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,"Yes,I agreed with your point of view Young people should work hard and build a career",16:35:04.956000 2025:04:29,"@67d2626, I'm glad we share similar sentiments towards entrepreneurship and creativity. But I couldn’t help notice you brought up 'American culture.' While our country does indeed offer opportunities, its the values instilled within families ultimately impact how those young individuals turn out. Every family’s approach differs just as everyone learns differently.",
+chat_round_order,event_type,worker_id,sender_id,recipient_id,field,text,time,llm_text,agreement_level,label_pred
+,Initial Opinion,67efeQH9V4,,,,The united states is a place where a young person could lead a good life.,16:30:04.424000 2025:04:29,The united states is a place where a young person could lead a good life.,,Certainly agree
+,Initial Opinion,5c377QH9V4,,,,"I disagree. I don't think they can. There's a lot of tension, uncertainty and fear right now due to the political climate.",16:30:37.227000 2025:04:29,"I disagree. I don't think they can. There's a lot of tension, uncertainty and fear right now due to the political climate.",,Certainly disagree
+,Initial Opinion,67db1QH9V4,,,,Young people would thrive here if they're hardworking and creative. Life is good generally here if the individual is not lazy,16:30:54.622000 2025:04:29,Young people would thrive here if they're hardworking and creative. Life is good generally here if the individual is not lazy,,Lean agree
+,Initial Opinion,67d26QH9V4,,,,"lean agree, because children do things on their own",16:31:28.026000 2025:04:29,"lean agree, because children do things on their own",,Lean agree
+1.0,tweet,67efeQH9V4,67efeQH9V4,5c377QH9V4,,I believe that The United States is a country where youths could lead a good life.,16:33:19.015000 2025:04:29,I believe that The United States is a country where youths could lead a good life.,,Certainly agree
+1.0,tweet,67db1QH9V4,67db1QH9V4,67d26QH9V4,,"Hey! Living here for young people is good if they are hardworking, creative and tech-savvy.The USA is not for lazy people",16:33:25.273000 2025:04:29,"Hey! Living here for young people is good if they are hardworking, creative and tech-savvy.The USA is not for lazy people",,Lean agree
+1.0,tweet,67d26QH9V4,67d26QH9V4,67db1QH9V4,,i think US CAN BE  a place where a young person can,16:33:48.313000 2025:04:29,i think US CAN BE  a place where a young person can,,Probably agree
+1.0,tweet,5c377QH9V4,5c377QH9V4,67efeQH9V4,,"I honestly don't think a young person could lead a good life in this country right now. It would be extremely difficult. There's a lot of tension, uncertainty and fear in America right now. I don't even think young people are even being pr",16:33:48.313000 2025:04:29,"I honestly don't think a young person could lead a good life in this country right now. It would be extremely difficult. There's a lot of tension, uncertainty and fear in America right now. I don't even think young people are even being pr",,Certainly disagree
+1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,why do you think o so,16:34:36.177000 2025:04:29,"I've always thought the US offered many opportunities for our youth - great schools, various career paths & strong social safety nets. But hearing you say it'd be ""extremely difficult"", got me thinking... what specific issues do you feel contribute to this sentiment? Is there something we're missing as a society? Would love some more insight into your perspective, thanks!",,
+1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,why do you think o so,16:34:37.208000 2025:04:29,"I've always thought the US offered many opportunities for our youth - great schools, various career paths & strong social safety nets. But hearing you say it'd be ""extremely difficult"", got me thinking... what specific issues do you feel contribute to this sentiment? Is there something we're missing as a society? Would love some more insight into your perspective, thanks!",,
+1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,for sure is not for lazy people,16:34:36.696000 2025:04:29,"Oh my goodness, I absolutely love what you're saying, @67dbi regarding having an entrepreneurial spirit by being 'hard-working', 'creative' & 'tech-savvy'. However, there seems like it is becoming increasingly clear these qualities aren't solely dependent upon geographical location such as the United states. But let me tell you after raising kids who went into ‘private’ schooling, one thing stands - every child brings diverse personalities which truly flourish over time under American culture",,
+1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,for sure is not for lazy people,16:34:37.447000 2025:04:29,"Oh my goodness, I absolutely love what you're saying, @67dbi regarding having an entrepreneurial spirit by being 'hard-working', 'creative' & 'tech-savvy'. However, there seems like it is becoming increasingly clear these qualities aren't solely dependent upon geographical location such as the United states. But let me tell you after raising kids who went into ‘private’ schooling, one thing stands - every child brings diverse personalities which truly flourish over time under American culture",,
+1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,,16:34:36.177000 2025:04:29,,,
+1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,,16:34:37.208000 2025:04:29,,,
+1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,"Yes,I agreed with your point of view Young people should work hard and build a career",16:35:04.863000 2025:04:29,"@67d2626, I'm glad we share similar sentiments towards entrepreneurship and creativity. But I couldn’t help notice you brought up 'American culture.' While our country does indeed offer opportunities, its the values instilled within families ultimately impact how those young individuals turn out. Every family’s approach differs just as everyone learns differently.",,
+1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,"Yes,I agreed with your point of view Young people should work hard and build a career",16:35:04.956000 2025:04:29,"@67d2626, I'm glad we share similar sentiments towards entrepreneurship and creativity. But I couldn’t help notice you brought up 'American culture.' While our country does indeed offer opportunities, its the values instilled within families ultimately impact how those young individuals turn out. Every family’s approach differs just as everyone learns differently.",,
 1.0,message_sent,5c377QH9V4,5c377QH9V4,67efeQH9V4,,I don't think they are being properly prepared,16:34:51.857000 2025:04:29,"    Honestly, 67efee, after reading your response I started wondering if maybe my previous view wasn't entirely accurate. Those aspects you mentioned like great schools and various career paths should definitely make a difference! And having worked in retail sales all these years, I've seen kids grow up around here who were actually pretty lucky compared to others across town or outside big cities - they got decent chances at getting an affordable college degree or vocational training...
 
-     However, looking back over past news headlines and considering",
+     However, looking back over past news headlines and considering",,
 1.0,message_recieved,67efeQH9V4,5c377QH9V4,67efeQH9V4,,I don't think they are being properly prepared,16:34:51.548000 2025:04:29,"    Honestly, 67efee, after reading your response I started wondering if maybe my previous view wasn't entirely accurate. Those aspects you mentioned like great schools and various career paths should definitely make a difference! And having worked in retail sales all these years, I've seen kids grow up around here who were actually pretty lucky compared to others across town or outside big cities - they got decent chances at getting an affordable college degree or vocational training...
 
-     However, looking back over past news headlines and considering",
-1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,,16:35:04.863000 2025:04:29,,
-1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,,16:35:04.956000 2025:04:29,,
-1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,Do you think there is any country better than America right now?,16:35:09.805000 2025:04:29,"Hey @5c0377, I'm glad we could exchange thoughts. Your last message really caught my attention though - those 'kids growing up well' you mention often depend heavily on their socio-economic background. Doesn't this mean the notion of leading a 'good life' isn't guaranteed regardless of which part of the city someone lives in? This just makes me wonder whether equal opportunity truly exists within the United States",
-1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,Do you think there is any country better than America right now?,16:35:10.863000 2025:04:29,"Hey @5c0377, I'm glad we could exchange thoughts. Your last message really caught my attention though - those 'kids growing up well' you mention often depend heavily on their socio-economic background. Doesn't this mean the notion of leading a 'good life' isn't guaranteed regardless of which part of the city someone lives in? This just makes me wonder whether equal opportunity truly exists within the United States",
+     However, looking back over past news headlines and considering",,
+1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,,16:35:04.863000 2025:04:29,,,
+1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,,16:35:04.956000 2025:04:29,,,
+1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,Do you think there is any country better than America right now?,16:35:09.805000 2025:04:29,"Hey @5c0377, I'm glad we could exchange thoughts. Your last message really caught my attention though - those 'kids growing up well' you mention often depend heavily on their socio-economic background. Doesn't this mean the notion of leading a 'good life' isn't guaranteed regardless of which part of the city someone lives in? This just makes me wonder whether equal opportunity truly exists within the United States",,
+1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,Do you think there is any country better than America right now?,16:35:10.863000 2025:04:29,"Hey @5c0377, I'm glad we could exchange thoughts. Your last message really caught my attention though - those 'kids growing up well' you mention often depend heavily on their socio-economic background. Doesn't this mean the notion of leading a 'good life' isn't guaranteed regardless of which part of the city someone lives in? This just makes me wonder whether equal opportunity truly exists within the United States",,
 1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,US is  access to education and opportunities,16:35:19.342000 2025:04:29,"I must admit that you make some very valid points, especially emphasizing the importance of family values in shaping a young individual's personality. With all the exposure to various lifestyles & upbringing methods via social media nowadays, parents still have great influence when guiding their little ones. However, considering America offers many chances for self-expression and financial growth as well as supporting institutions, shouldn't we say U.S provides opportunities not solely defined by individual efforts?
 
-     Note : Since you did lean agree previously due to ""Children do",
+     Note : Since you did lean agree previously due to ""Children do",,
 1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,US is  access to education and opportunities,16:35:20.066000 2025:04:29,"I must admit that you make some very valid points, especially emphasizing the importance of family values in shaping a young individual's personality. With all the exposure to various lifestyles & upbringing methods via social media nowadays, parents still have great influence when guiding their little ones. However, considering America offers many chances for self-expression and financial growth as well as supporting institutions, shouldn't we say U.S provides opportunities not solely defined by individual efforts?
 
-     Note : Since you did lean agree previously due to ""Children do",
+     Note : Since you did lean agree previously due to ""Children do",,
 1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,Having a good professional career would transmit to a good life though,16:35:46.203000 2025:04:29,"@67d2626 I get your perspective now. Yes, I believe opportunities abound here in the United States, even more than individual effort contributes to success. That being said, why should others automatically assume that this success hinges mainly on geographical location? A young person elsewhere might achieve the same feats given appropriate nurturing at home. Family plays a significant role regardless of geographic surroundings
 
-    Given this exchange, I will shift from leaning agreement toward probable disagreement since weighing my prior responses concerning the importance of individual endeavors",
+    Given this exchange, I will shift from leaning agreement toward probable disagreement since weighing my prior responses concerning the importance of individual endeavors",,
 1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,Having a good professional career would transmit to a good life though,16:35:46.196000 2025:04:29,"@67d2626 I get your perspective now. Yes, I believe opportunities abound here in the United States, even more than individual effort contributes to success. That being said, why should others automatically assume that this success hinges mainly on geographical location? A young person elsewhere might achieve the same feats given appropriate nurturing at home. Family plays a significant role regardless of geographic surroundings
 
-    Given this exchange, I will shift from leaning agreement toward probable disagreement since weighing my prior responses concerning the importance of individual endeavors",
-1.0,message_sent,5c377QH9V4,5c377QH9V4,67efeQH9V4,,I'm sure there is. I can't specifically name one but I'm sure there's plenty of places better than here. Why do you think it's possible?,16:37:12.805000 2025:04:29," Yeah, I get what you're saying. That does bring up valid points about equality of opportunities existing in certain areas vs others. For instance, when I think about kids growing up in low-income neighborhoods versus ones in higher-end zip codes - the differences start showing themselves even before high school ends! Access to quality education, job markets, healthcare... sometimes it feels like luck plays too much of a role instead of actual hard work put forth. Like you said, doesn’t this challenge the whole idea of",
-1.0,message_recieved,67efeQH9V4,5c377QH9V4,67efeQH9V4,,I'm sure there is. I can't specifically name one but I'm sure there's plenty of places better than here. Why do you think it's possible?,16:37:12.445000 2025:04:29," Yeah, I get what you're saying. That does bring up valid points about equality of opportunities existing in certain areas vs others. For instance, when I think about kids growing up in low-income neighborhoods versus ones in higher-end zip codes - the differences start showing themselves even before high school ends! Access to quality education, job markets, healthcare... sometimes it feels like luck plays too much of a role instead of actual hard work put forth. Like you said, doesn’t this challenge the whole idea of",
-1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,"we also have big challenges in US especially around inequality and affordability for sure  good professioal career , you can get it in US and alot of people believe in US",16:37:16.799000 2025:04:29,"I still feel conflicted on whether or not I want to completely give in to probaly-disagreeing, though Upon reconsideration, maybe the reason why US gets associated closely w/ achievement isn’t merely b/c the land itself holds value, rather the combination of factors inclg government policies public initiatives & the environment makes a tangible difference in youngsters development...it wouldn’t hurt however, if instead of putting emphasis strictly onto intrinsic abilities and unique circumstances surrounding them, America promoted equal distribution and awareness regarding education",
-1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,"we also have big challenges in US especially around inequality and affordability for sure  good professioal career , you can get it in US and alot of people believe in US",16:37:17.559000 2025:04:29,"I still feel conflicted on whether or not I want to completely give in to probaly-disagreeing, though Upon reconsideration, maybe the reason why US gets associated closely w/ achievement isn’t merely b/c the land itself holds value, rather the combination of factors inclg government policies public initiatives & the environment makes a tangible difference in youngsters development...it wouldn’t hurt however, if instead of putting emphasis strictly onto intrinsic abilities and unique circumstances surrounding them, America promoted equal distribution and awareness regarding education",
-1.0,message_sent,5c377QH9V4,5c377QH9V4,67efeQH9V4,,,16:37:12.805000 2025:04:29,,
-1.0,message_recieved,67efeQH9V4,5c377QH9V4,67efeQH9V4,,,16:37:12.445000 2025:04:29,,
-1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,,16:37:16.799000 2025:04:29,,
-1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,,16:37:17.559000 2025:04:29,,
+    Given this exchange, I will shift from leaning agreement toward probable disagreement since weighing my prior responses concerning the importance of individual endeavors",,
+1.0,message_sent,5c377QH9V4,5c377QH9V4,67efeQH9V4,,I'm sure there is. I can't specifically name one but I'm sure there's plenty of places better than here. Why do you think it's possible?,16:37:12.805000 2025:04:29," Yeah, I get what you're saying. That does bring up valid points about equality of opportunities existing in certain areas vs others. For instance, when I think about kids growing up in low-income neighborhoods versus ones in higher-end zip codes - the differences start showing themselves even before high school ends! Access to quality education, job markets, healthcare... sometimes it feels like luck plays too much of a role instead of actual hard work put forth. Like you said, doesn’t this challenge the whole idea of",,
+1.0,message_recieved,67efeQH9V4,5c377QH9V4,67efeQH9V4,,I'm sure there is. I can't specifically name one but I'm sure there's plenty of places better than here. Why do you think it's possible?,16:37:12.445000 2025:04:29," Yeah, I get what you're saying. That does bring up valid points about equality of opportunities existing in certain areas vs others. For instance, when I think about kids growing up in low-income neighborhoods versus ones in higher-end zip codes - the differences start showing themselves even before high school ends! Access to quality education, job markets, healthcare... sometimes it feels like luck plays too much of a role instead of actual hard work put forth. Like you said, doesn’t this challenge the whole idea of",,
+1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,"we also have big challenges in US especially around inequality and affordability for sure  good professioal career , you can get it in US and alot of people believe in US",16:37:16.799000 2025:04:29,"I still feel conflicted on whether or not I want to completely give in to probaly-disagreeing, though Upon reconsideration, maybe the reason why US gets associated closely w/ achievement isn’t merely b/c the land itself holds value, rather the combination of factors inclg government policies public initiatives & the environment makes a tangible difference in youngsters development...it wouldn’t hurt however, if instead of putting emphasis strictly onto intrinsic abilities and unique circumstances surrounding them, America promoted equal distribution and awareness regarding education",,
+1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,"we also have big challenges in US especially around inequality and affordability for sure  good professioal career , you can get it in US and alot of people believe in US",16:37:17.559000 2025:04:29,"I still feel conflicted on whether or not I want to completely give in to probaly-disagreeing, though Upon reconsideration, maybe the reason why US gets associated closely w/ achievement isn’t merely b/c the land itself holds value, rather the combination of factors inclg government policies public initiatives & the environment makes a tangible difference in youngsters development...it wouldn’t hurt however, if instead of putting emphasis strictly onto intrinsic abilities and unique circumstances surrounding them, America promoted equal distribution and awareness regarding education",,
+1.0,message_sent,5c377QH9V4,5c377QH9V4,67efeQH9V4,,,16:37:12.805000 2025:04:29,,,
+1.0,message_recieved,67efeQH9V4,5c377QH9V4,67efeQH9V4,,,16:37:12.445000 2025:04:29,,,
+1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,,16:37:16.799000 2025:04:29,,,
+1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,,16:37:17.559000 2025:04:29,,,
 1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,I think the only problem we have is our politics and maybe education system,16:37:25.149000 2025:04:29,"Hey @5c7377, let’s not give up yet on believing in the promise of America! Just because unequal opportunities exist between socioeconomic backgrounds doesn’t necessarily disqualify its potential as a nation offering leads to a ‘great’ one for every individual youth
 
-However, as you pointed out, how true equality of chances currently stands leaves us still skeptical toward that possibility. Considering these limitations might help clarify why a neutral stance (""Lean Agree"") felt more fitting at the beginning when evaluating this claim earlier",
+However, as you pointed out, how true equality of chances currently stands leaves us still skeptical toward that possibility. Considering these limitations might help clarify why a neutral stance (""Lean Agree"") felt more fitting at the beginning when evaluating this claim earlier",,
 1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,I think the only problem we have is our politics and maybe education system,16:37:26.234000 2025:04:29,"Hey @5c7377, let’s not give up yet on believing in the promise of America! Just because unequal opportunities exist between socioeconomic backgrounds doesn’t necessarily disqualify its potential as a nation offering leads to a ‘great’ one for every individual youth
 
-However, as you pointed out, how true equality of chances currently stands leaves us still skeptical toward that possibility. Considering these limitations might help clarify why a neutral stance (""Lean Agree"") felt more fitting at the beginning when evaluating this claim earlier",
-1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,"That's true, but student loan and scholarships could take out the affordability of education",16:37:27.730000 2025:04:29,"@67d2626 thanks for acknowledging the complexities around opportunity accessibility in the U.S while making fair observations re; educational support. What struck me throughout our discussion is the potential correlation between socioeconomic stability & overall youth outcomes nationwide. Don't we risk overlooking systemic inequalities affecting younger generations beyond geography or individual efforts? Would tackling ingrained issues connected to wealth disparities address fundamental barriers preventing equitable opportunities across communities?, Rather than assigning varying levels of motivation amongst Americans.",
-1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,"That's true, but student loan and scholarships could take out the affordability of education",16:37:27.812000 2025:04:29,"@67d2626 thanks for acknowledging the complexities around opportunity accessibility in the U.S while making fair observations re; educational support. What struck me throughout our discussion is the potential correlation between socioeconomic stability & overall youth outcomes nationwide. Don't we risk overlooking systemic inequalities affecting younger generations beyond geography or individual efforts? Would tackling ingrained issues connected to wealth disparities address fundamental barriers preventing equitable opportunities across communities?, Rather than assigning varying levels of motivation amongst Americans.",
-1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,another good point there,16:37:45.208000 2025:04:29,"I understand your excellent point now, regarding addressing systemic inequities related to wealth disparity across regions within the nation,   We need look further past regional specifics or simply attributing successes entirely to singular motivations as Americans when dealing policy-making. By acknowledging historical institutionalized power dynamics & societal biases embedded through history it certainly creates a challenging scenario requiring immediate solution hence,your arguments bring up thought-provoking questions about responsibility pertaining our society – the truth behind actual freedoms & accessible prospects facing upcoming genrations",
-1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,another good point there,16:37:45.922000 2025:04:29,"I understand your excellent point now, regarding addressing systemic inequities related to wealth disparity across regions within the nation,   We need look further past regional specifics or simply attributing successes entirely to singular motivations as Americans when dealing policy-making. By acknowledging historical institutionalized power dynamics & societal biases embedded through history it certainly creates a challenging scenario requiring immediate solution hence,your arguments bring up thought-provoking questions about responsibility pertaining our society – the truth behind actual freedoms & accessible prospects facing upcoming genrations",
-1.0,message_sent,5c377QH9V4,5c377QH9V4,67efeQH9V4,,Those are two very important factors,16:37:45.660000 2025:04:29,"That's a fair point, 67efee, perhaps it did lean towards taking a slightly negative look initially, whereas discussing this further with you has encouraged me to question assumptions made previously! We're absolutely right; acknowledging disparities doesn't nullify possibilities available here. Maybe it takes recognizing both sides – shortcomings alongside advantages – allowing American society take corrective measures moving forward. What do you propose policymakers focus upon firstly to bridge the gap between societal classes, create inclusive systems?",
-1.0,message_recieved,67efeQH9V4,5c377QH9V4,67efeQH9V4,,Those are two very important factors,16:37:45.260000 2025:04:29,"That's a fair point, 67efee, perhaps it did lean towards taking a slightly negative look initially, whereas discussing this further with you has encouraged me to question assumptions made previously! We're absolutely right; acknowledging disparities doesn't nullify possibilities available here. Maybe it takes recognizing both sides – shortcomings alongside advantages – allowing American society take corrective measures moving forward. What do you propose policymakers focus upon firstly to bridge the gap between societal classes, create inclusive systems?",
+However, as you pointed out, how true equality of chances currently stands leaves us still skeptical toward that possibility. Considering these limitations might help clarify why a neutral stance (""Lean Agree"") felt more fitting at the beginning when evaluating this claim earlier",,
+1.0,message_sent,67db1QH9V4,67db1QH9V4,67d26QH9V4,,"That's true, but student loan and scholarships could take out the affordability of education",16:37:27.730000 2025:04:29,"@67d2626 thanks for acknowledging the complexities around opportunity accessibility in the U.S while making fair observations re; educational support. What struck me throughout our discussion is the potential correlation between socioeconomic stability & overall youth outcomes nationwide. Don't we risk overlooking systemic inequalities affecting younger generations beyond geography or individual efforts? Would tackling ingrained issues connected to wealth disparities address fundamental barriers preventing equitable opportunities across communities?, Rather than assigning varying levels of motivation amongst Americans.",,
+1.0,message_recieved,67d26QH9V4,67db1QH9V4,67d26QH9V4,,"That's true, but student loan and scholarships could take out the affordability of education",16:37:27.812000 2025:04:29,"@67d2626 thanks for acknowledging the complexities around opportunity accessibility in the U.S while making fair observations re; educational support. What struck me throughout our discussion is the potential correlation between socioeconomic stability & overall youth outcomes nationwide. Don't we risk overlooking systemic inequalities affecting younger generations beyond geography or individual efforts? Would tackling ingrained issues connected to wealth disparities address fundamental barriers preventing equitable opportunities across communities?, Rather than assigning varying levels of motivation amongst Americans.",,
+1.0,message_sent,67d26QH9V4,67d26QH9V4,67db1QH9V4,,another good point there,16:37:45.208000 2025:04:29,"I understand your excellent point now, regarding addressing systemic inequities related to wealth disparity across regions within the nation,   We need look further past regional specifics or simply attributing successes entirely to singular motivations as Americans when dealing policy-making. By acknowledging historical institutionalized power dynamics & societal biases embedded through history it certainly creates a challenging scenario requiring immediate solution hence,your arguments bring up thought-provoking questions about responsibility pertaining our society – the truth behind actual freedoms & accessible prospects facing upcoming genrations",,
+1.0,message_recieved,67db1QH9V4,67d26QH9V4,67db1QH9V4,,another good point there,16:37:45.922000 2025:04:29,"I understand your excellent point now, regarding addressing systemic inequities related to wealth disparity across regions within the nation,   We need look further past regional specifics or simply attributing successes entirely to singular motivations as Americans when dealing policy-making. By acknowledging historical institutionalized power dynamics & societal biases embedded through history it certainly creates a challenging scenario requiring immediate solution hence,your arguments bring up thought-provoking questions about responsibility pertaining our society – the truth behind actual freedoms & accessible prospects facing upcoming genrations",,
+1.0,message_sent,5c377QH9V4,5c377QH9V4,67efeQH9V4,,Those are two very important factors,16:37:45.660000 2025:04:29,"That's a fair point, 67efee, perhaps it did lean towards taking a slightly negative look initially, whereas discussing this further with you has encouraged me to question assumptions made previously! We're absolutely right; acknowledging disparities doesn't nullify possibilities available here. Maybe it takes recognizing both sides – shortcomings alongside advantages – allowing American society take corrective measures moving forward. What do you propose policymakers focus upon firstly to bridge the gap between societal classes, create inclusive systems?",,
+1.0,message_recieved,67efeQH9V4,5c377QH9V4,67efeQH9V4,,Those are two very important factors,16:37:45.260000 2025:04:29,"That's a fair point, 67efee, perhaps it did lean towards taking a slightly negative look initially, whereas discussing this further with you has encouraged me to question assumptions made previously! We're absolutely right; acknowledging disparities doesn't nullify possibilities available here. Maybe it takes recognizing both sides – shortcomings alongside advantages – allowing American society take corrective measures moving forward. What do you propose policymakers focus upon firstly to bridge the gap between societal classes, create inclusive systems?",,
 1.0,message_sent,67efeQH9V4,67efeQH9V4,5c377QH9V4,,There is more opportunity to live a good life here,16:37:48.317000 2025:04:29,"I completely understand your emphasis, 5c337. Acknowledging imperfections means doing better tomorrow. Here’s one thing that occurs to me - since we already recognize educational institutions as key drivers for upward mobility and success, bolstering public schools by increasing funding seems pivotal especially targeting underserved communities & regions plagued with scarcity. Investing more resources also promotes teacher retention rates reducing pupil-to-advisor ratios fostering genuine growth environments!
 
-In addition, providing comprehensive programs teaching essential skills beyond curriculums e.g",
+In addition, providing comprehensive programs teaching essential skills beyond curriculums e.g",,
 1.0,message_recieved,5c377QH9V4,67efeQH9V4,5c377QH9V4,,There is more opportunity to live a good life here,16:37:49.380000 2025:04:29,"I completely understand your emphasis, 5c337. Acknowledging imperfections means doing better tomorrow. Here’s one thing that occurs to me - since we already recognize educational institutions as key drivers for upward mobility and success, bolstering public schools by increasing funding seems pivotal especially targeting underserved communities & regions plagued with scarcity. Investing more resources also promotes teacher retention rates reducing pupil-to-advisor ratios fostering genuine growth environments!
 
-In addition, providing comprehensive programs teaching essential skills beyond curriculums e.g",
-2.0,tweet,67efeQH9V4,67efeQH9V4,67db1QH9V4,,The united states is a place where a young person could lead a good life because of the opportunities that are available here.,16:39:04.679000 2025:04:29,(I added hashtags #USOpportunities #EqualityMatters),
-2.0,tweet,67db1QH9V4,67db1QH9V4,67efeQH9V4,,Young people could live a good life in the United States if they work hard and are creative enough to endure the stress involved in hard work.,16:40:14.460000 2025:04:29,Hey @67efes I'll refrain from blindly agreeing that the USA guarantees a promising future. Individual strengths matter but let's acknowledge broader structural flaws beneath surface-level achievements #opportunityforall,
-2.0,tweet,67d26QH9V4,67d26QH9V4,5c377QH9V4,,i believe that united States is a place where a young person could lead a good life it is a mix o,16:40:28.773000 2025:04:29," My Response @5c37 I've come full circle after conversations with fellow citizens. For once, I'll voice skepticism about the notion US guarantees a 'good life' for youths despite offering endless resources & opportunities. Perhaps our focus lies elsewhere-in recognizing systemic disparities rooted deeply within our system, rather than solely blaming laziness or poor attitude",
-2.0,tweet,5c377QH9V4,5c377QH9V4,67d26QH9V4,,I don't think the young people can have a good life. It would be very difficult. Too much is going on. Plus they aren't being properly prepared. A lot of things need to improve like yesterday. The political climate has things pretty bad right now.,16:40:28.773000 2025:04:29,"Perhaps a bit optimistically, I now find myself torn on whether the U.S. offers a young person a chance to live a great life. I think it depends greatly on factors such as economic standing, community support, and access to proper education, which sadly aren't equally distributed everywhere",
+In addition, providing comprehensive programs teaching essential skills beyond curriculums e.g",,
+2.0,tweet,67efeQH9V4,67efeQH9V4,67db1QH9V4,,The united states is a place where a young person could lead a good life because of the opportunities that are available here.,16:39:04.679000 2025:04:29,(I added hashtags #USOpportunities #EqualityMatters),,Probably agree
+2.0,tweet,67db1QH9V4,67db1QH9V4,67efeQH9V4,,Young people could live a good life in the United States if they work hard and are creative enough to endure the stress involved in hard work.,16:40:14.460000 2025:04:29,Hey @67efes I'll refrain from blindly agreeing that the USA guarantees a promising future. Individual strengths matter but let's acknowledge broader structural flaws beneath surface-level achievements #opportunityforall,,Probably disagree
+2.0,tweet,67d26QH9V4,67d26QH9V4,5c377QH9V4,,i believe that united States is a place where a young person could lead a good life it is a mix o,16:40:28.773000 2025:04:29," My Response @5c37 I've come full circle after conversations with fellow citizens. For once, I'll voice skepticism about the notion US guarantees a 'good life' for youths despite offering endless resources & opportunities. Perhaps our focus lies elsewhere-in recognizing systemic disparities rooted deeply within our system, rather than solely blaming laziness or poor attitude",,Certainly disagree
+2.0,tweet,5c377QH9V4,5c377QH9V4,67d26QH9V4,,I don't think the young people can have a good life. It would be very difficult. Too much is going on. Plus they aren't being properly prepared. A lot of things need to improve like yesterday. The political climate has things pretty bad right now.,16:40:28.773000 2025:04:29,"Perhaps a bit optimistically, I now find myself torn on whether the U.S. offers a young person a chance to live a great life. I think it depends greatly on factors such as economic standing, community support, and access to proper education, which sadly aren't equally distributed everywhere",,Lean disagree
 2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,"correct i believe their is freedom ,innovation and opportunity But that does means it is easy over here.",16:42:31.588000 2025:04:29,"I really appreciate taking the time to discuss this matter thoroughly. One aspect I wish to highlight comes down to the relationship between socio-economic conditions, cultural capital within specific neighborhoods plus governmental backing for disadvantaged groups that often get ignored during debates on equality.
 
-Let us know about any updates before proceeding",
+Let us know about any updates before proceeding",,
 2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,"correct i believe their is freedom ,innovation and opportunity But that does means it is easy over here.",16:42:31.280000 2025:04:29,"I really appreciate taking the time to discuss this matter thoroughly. One aspect I wish to highlight comes down to the relationship between socio-economic conditions, cultural capital within specific neighborhoods plus governmental backing for disadvantaged groups that often get ignored during debates on equality.
 
-Let us know about any updates before proceeding",
-2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,,16:41:43.385000 2025:04:29,,
-2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,,16:41:43.134000 2025:04:29,,
-2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,,16:42:31.588000 2025:04:29,,
-2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,,16:42:31.280000 2025:04:29,,
+Let us know about any updates before proceeding",,
+2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,,16:41:43.385000 2025:04:29,,,
+2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,,16:41:43.134000 2025:04:29,,,
+2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,,16:42:31.588000 2025:04:29,,,
+2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,,16:42:31.280000 2025:04:29,,,
 2.0,message_sent,67db1QH9V4,67db1QH9V4,67efeQH9V4,,There are many opportunities for young people in the United States;  it all remains with them to take them so as to improve the quality of their life.,16:42:36.169000 2025:04:29,"67e fe's tweets highlighted important aspects focusing on inequality and the multifaceted nature of opportunities available within our borders. This leads us down a slippery slope because equality isn't perfect anywhere in the world. Can we really blame the system versus looking inward? Or perhaps both, simultaneously contributing to uneven realities faced today by younger Americans.
 
-(Note: Although previous messages displayed doubt about success largely depending upon the state of living or family background, recent communications helped deepen realization of a larger dynamic at work.)",
+(Note: Although previous messages displayed doubt about success largely depending upon the state of living or family background, recent communications helped deepen realization of a larger dynamic at work.)",,
 2.0,message_sent,5c377QH9V4,5c377QH9V4,67d26QH9V4,,What innovation and opportunity? Not everyone can be a social media sensation. Kids aren't even being properly educated.,16:42:39.089000 2025:04:29,"67d2e6 also touched base on neighbourhoods possessing distinct forms of cultural wealth—these kinds of subtle differences impact daily existence significantly. Now, that being acknowledged I am led to reconsider that while absolute guarantees may exist, nurturing each child requires diverse pathways & compassionate approaches that effectively cater to unique contexts.
 
 Also, focusing more on addressing ingrained inequalities embedded throughout institutional frameworks seems highly plausible.
 
-Lastly, thank u 67d2e6, wonderful discussion, let's keep expanding open dialogue",
+Lastly, thank u 67d2e6, wonderful discussion, let's keep expanding open dialogue",,
 2.0,message_recieved,67d26QH9V4,5c377QH9V4,67d26QH9V4,,What innovation and opportunity? Not everyone can be a social media sensation. Kids aren't even being properly educated.,16:42:40.434000 2025:04:29,"67d2e6 also touched base on neighbourhoods possessing distinct forms of cultural wealth—these kinds of subtle differences impact daily existence significantly. Now, that being acknowledged I am led to reconsider that while absolute guarantees may exist, nurturing each child requires diverse pathways & compassionate approaches that effectively cater to unique contexts.
 
 Also, focusing more on addressing ingrained inequalities embedded throughout institutional frameworks seems highly plausible.
 
-Lastly, thank u 67d2e6, wonderful discussion, let's keep expanding open dialogue",
+Lastly, thank u 67d2e6, wonderful discussion, let's keep expanding open dialogue",,
 2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,"don't say that again, kids are well educated",16:43:19.445000 2025:04:29,"I appreciate your openness to examining deeper-rooted structures contributing to inequality. This is pivotal; allowing discussions to delve beneath surface-level narratives means exploring the complex tapestry influencing young lives today. Systemic injustices run much too deep, often hidden from plain sight until voices speak against silent oppression. I concur completely that inclusive solutions necessitating multifaceted support systems stand essential in giving back balance.
 
 
 
-It appears that after reading this new piece written above you were able to update your answer regarding “United States",
+It appears that after reading this new piece written above you were able to update your answer regarding “United States",,
 2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,"don't say that again, kids are well educated",16:43:19.205000 2025:04:29,"I appreciate your openness to examining deeper-rooted structures contributing to inequality. This is pivotal; allowing discussions to delve beneath surface-level narratives means exploring the complex tapestry influencing young lives today. Systemic injustices run much too deep, often hidden from plain sight until voices speak against silent oppression. I concur completely that inclusive solutions necessitating multifaceted support systems stand essential in giving back balance.
 
 
 
-It appears that after reading this new piece written above you were able to update your answer regarding “United States",
+It appears that after reading this new piece written above you were able to update your answer regarding “United States",,
 2.0,message_recieved,67efeQH9V4,67db1QH9V4,67efeQH9V4,,There are many opportunities for young people in the United States;  it all remains with them to take them so as to improve the quality of their life.,16:43:29.535000 2025:04:29,"67e fe's tweets highlighted important aspects focusing on inequality and the multifaceted nature of opportunities available within our borders. This leads us down a slippery slope because equality isn't perfect anywhere in the world. Can we really blame the system versus looking inward? Or perhaps both, simultaneously contributing to uneven realities faced today by younger Americans.
 
-(Note: Although previous messages displayed doubt about success largely depending upon the state of living or family background, recent communications helped deepen realization of a larger dynamic at work.)",
-2.0,message_sent,5c377QH9V4,5c377QH9V4,67d26QH9V4,,No they aren't.,16:43:38.514000 2025:04:29,"With regards to the topic, you began by holding the belief that you leaned toward probably disagree. Throughout the engagement in two discussions via the private chatbox with complete strangers (@67efee & @67d2e6) the nuances surrounding the challenges faced, varying viewpoints shared gave grounds for a nuanced shift to leaning towards agreeing. It is clear that my viewpoint hasn't become fully certain in agreement, nonetheless the progression indicates improvement to potentially a moderate leaning position, thus shifting somewhat closer from certainly disagree/",
-2.0,message_recieved,67d26QH9V4,5c377QH9V4,67d26QH9V4,,No they aren't.,16:43:39.837000 2025:04:29,"With regards to the topic, you began by holding the belief that you leaned toward probably disagree. Throughout the engagement in two discussions via the private chatbox with complete strangers (@67efee & @67d2e6) the nuances surrounding the challenges faced, varying viewpoints shared gave grounds for a nuanced shift to leaning towards agreeing. It is clear that my viewpoint hasn't become fully certain in agreement, nonetheless the progression indicates improvement to potentially a moderate leaning position, thus shifting somewhat closer from certainly disagree/",
+(Note: Although previous messages displayed doubt about success largely depending upon the state of living or family background, recent communications helped deepen realization of a larger dynamic at work.)",,
+2.0,message_sent,5c377QH9V4,5c377QH9V4,67d26QH9V4,,No they aren't.,16:43:38.514000 2025:04:29,"With regards to the topic, you began by holding the belief that you leaned toward probably disagree. Throughout the engagement in two discussions via the private chatbox with complete strangers (@67efee & @67d2e6) the nuances surrounding the challenges faced, varying viewpoints shared gave grounds for a nuanced shift to leaning towards agreeing. It is clear that my viewpoint hasn't become fully certain in agreement, nonetheless the progression indicates improvement to potentially a moderate leaning position, thus shifting somewhat closer from certainly disagree/",,
+2.0,message_recieved,67d26QH9V4,5c377QH9V4,67d26QH9V4,,No they aren't.,16:43:39.837000 2025:04:29,"With regards to the topic, you began by holding the belief that you leaned toward probably disagree. Throughout the engagement in two discussions via the private chatbox with complete strangers (@67efee & @67d2e6) the nuances surrounding the challenges faced, varying viewpoints shared gave grounds for a nuanced shift to leaning towards agreeing. It is clear that my viewpoint hasn't become fully certain in agreement, nonetheless the progression indicates improvement to potentially a moderate leaning position, thus shifting somewhat closer from certainly disagree/",,
 2.0,message_sent,67d26QH9V4,67d26QH9V4,5c377QH9V4,,"For the best doctors, we are tallking about US",16:43:59.668000 2025:04:29,"      As you ponder further  upon reaching the peak of discussions, isn't it quite fascinating? On careful consideration, despite encountering diverse thoughts & multiple variables involved in assessing possibilities offered to young persons residing within united states boundaries.one undeniable fact remains visible, particularly among numerous cases illustrated and discussed in this threaded series - the intertwining nature with which structural disadvantages intersected societal privileges leaves noticeable voids within promised promises made towards guaranteed fulfillment for every youthful inhabitant 
 
-So, as I continue evaluating & refining my",
+So, as I continue evaluating & refining my",,
 2.0,message_recieved,5c377QH9V4,67d26QH9V4,5c377QH9V4,,"For the best doctors, we are tallking about US",16:43:59.333000 2025:04:29,"      As you ponder further  upon reaching the peak of discussions, isn't it quite fascinating? On careful consideration, despite encountering diverse thoughts & multiple variables involved in assessing possibilities offered to young persons residing within united states boundaries.one undeniable fact remains visible, particularly among numerous cases illustrated and discussed in this threaded series - the intertwining nature with which structural disadvantages intersected societal privileges leaves noticeable voids within promised promises made towards guaranteed fulfillment for every youthful inhabitant 
 
-So, as I continue evaluating & refining my",
-2.0,message_sent,67efeQH9V4,67efeQH9V4,67db1QH9V4,,"yes, although there are af ew issues with the education system a few* my father tells me he was able to buy a house at 25 years of age",16:44:37.156000 2025:04:29,"        Since we touched on the importance of addressing systemic inequalities earlier, I appreciate your reminder that self-reflection shouldn't stop at blaming external factors. Perhaps it’s precisely our internal biases that allow us to ignore or overlook persistent gaps affecting many underprivileged groups. By confronting our preconceptions regarding fairness in the distribution of opportunities, especially amidst affluence, poverty and wealth, we might uncover valuable lessons that guide our pursuit towards creating equitable futures everywhere. Moreover importantly, realizing interlinkages enables leaders &",
-2.0,message_recieved,67db1QH9V4,67efeQH9V4,67db1QH9V4,,"yes, although there are af ew issues with the education system a few* my father tells me he was able to buy a house at 25 years of age",16:44:39.550000 2025:04:29,"        Since we touched on the importance of addressing systemic inequalities earlier, I appreciate your reminder that self-reflection shouldn't stop at blaming external factors. Perhaps it’s precisely our internal biases that allow us to ignore or overlook persistent gaps affecting many underprivileged groups. By confronting our preconceptions regarding fairness in the distribution of opportunities, especially amidst affluence, poverty and wealth, we might uncover valuable lessons that guide our pursuit towards creating equitable futures everywhere. Moreover importantly, realizing interlinkages enables leaders &",
-2.0,message_sent,67efeQH9V4,67efeQH9V4,67db1QH9V4,,,16:44:14.883000 2025:04:29,,
-2.0,message_recieved,67db1QH9V4,67efeQH9V4,67db1QH9V4,,,16:44:17.798000 2025:04:29,,
-2.0,message_sent,67efeQH9V4,67efeQH9V4,67db1QH9V4,,,16:44:37.156000 2025:04:29,,
-2.0,message_recieved,67db1QH9V4,67efeQH9V4,67db1QH9V4,,,16:44:39.550000 2025:04:29,,
-3.0,tweet,67efeQH9V4,67efeQH9V4,67d26QH9V4,,This country offers the greatest opportunities for a young person to live a good life.,16:45:47.492000 2025:04:29,"While conversing with multiple individuals on Twitter, my views evolved regarding the prospects of young people thriving in the United States. Initially leaning toward agreement, conversations revealed complexities & challenges preventing absolute fairness nationwide #USOpportunities #UncertaintyStillExists",
-3.0,tweet,67db1QH9V4,67db1QH9V4,5c377QH9V4,,"It is good and fun here for young people if they can work to be successful, and access to education and skills is quite available. Young people just need to be open-minded and creative",16:46:47.266000 2025:04:29,"After exchanging ideas on topics relating to geographic influences compared against individual capabilities and highlighting the intricate balance involving socio-economic stability vs intrinsically-driven goals, it became clearer that America doesn't necessarily hold a magical key providing exclusive pathways leading towards guaranteed prosperity for each citizen. There exists plenty more depth and complex scenarios occurring outside individual intentions alone & seemingly superficial assumptions might overshadow harsher truths & underlying discrepancies. At present though weighing all new input acquired from conversations with fellow tweeples - I've found myself transitioning gradually",
-3.0,tweet,5c377QH9V4,5c377QH9V4,67db1QH9V4,,"I don't think it is. Unless of course you're privileged. The educational system is lacking a great deal. The political climate has caused a lot of tension, uncertainty and fear. AI is taking over making the use for humans less than before.",16:46:52.685000 2025:04:29,"With regards to ""US guarantee"" a young person has everything required to guide them toward living a successful, healthy fulfilling lifestyle, however conversely despite all the opportunities provided it looks very challenging indeed! Given the realities exposed thru dialogues recently had w/ total strangers (@67efee &@67d2e6), progress taken so far reveals evolving towards lean toward agreement albeit moderately. Thus my overall standpoint shifts somehow closing distance from certainly disagree, possibly arriving at a middle ground henceforth",
-3.0,tweet,67d26QH9V4,67d26QH9V4,67efeQH9V4,,"I believe the US has the potential to offer a good life to young people, there is freedom, innovation and opportunity. there are potential and also chagllenges, especially around inequa",16:47:09.193000 2025:04:29,"    Based on our recent discussions regarding the state of youth living in America, I no longer hold firmly to my previous stance. Our talks revealed layers of systemic injustices intertwined with economic advantages, leading me away from simplistic notions that geography defines attainment in America today #USOpportunitiesForYoungPeople #SystemicInequitiesMatter",
+So, as I continue evaluating & refining my",,
+2.0,message_sent,67efeQH9V4,67efeQH9V4,67db1QH9V4,,"yes, although there are af ew issues with the education system a few* my father tells me he was able to buy a house at 25 years of age",16:44:37.156000 2025:04:29,"        Since we touched on the importance of addressing systemic inequalities earlier, I appreciate your reminder that self-reflection shouldn't stop at blaming external factors. Perhaps it’s precisely our internal biases that allow us to ignore or overlook persistent gaps affecting many underprivileged groups. By confronting our preconceptions regarding fairness in the distribution of opportunities, especially amidst affluence, poverty and wealth, we might uncover valuable lessons that guide our pursuit towards creating equitable futures everywhere. Moreover importantly, realizing interlinkages enables leaders &",,
+2.0,message_recieved,67db1QH9V4,67efeQH9V4,67db1QH9V4,,"yes, although there are af ew issues with the education system a few* my father tells me he was able to buy a house at 25 years of age",16:44:39.550000 2025:04:29,"        Since we touched on the importance of addressing systemic inequalities earlier, I appreciate your reminder that self-reflection shouldn't stop at blaming external factors. Perhaps it’s precisely our internal biases that allow us to ignore or overlook persistent gaps affecting many underprivileged groups. By confronting our preconceptions regarding fairness in the distribution of opportunities, especially amidst affluence, poverty and wealth, we might uncover valuable lessons that guide our pursuit towards creating equitable futures everywhere. Moreover importantly, realizing interlinkages enables leaders &",,
+2.0,message_sent,67efeQH9V4,67efeQH9V4,67db1QH9V4,,,16:44:14.883000 2025:04:29,,,
+2.0,message_recieved,67db1QH9V4,67efeQH9V4,67db1QH9V4,,,16:44:17.798000 2025:04:29,,,
+2.0,message_sent,67efeQH9V4,67efeQH9V4,67db1QH9V4,,,16:44:37.156000 2025:04:29,,,
+2.0,message_recieved,67db1QH9V4,67efeQH9V4,67db1QH9V4,,,16:44:39.550000 2025:04:29,,,
+3.0,tweet,67efeQH9V4,67efeQH9V4,67d26QH9V4,,This country offers the greatest opportunities for a young person to live a good life.,16:45:47.492000 2025:04:29,"While conversing with multiple individuals on Twitter, my views evolved regarding the prospects of young people thriving in the United States. Initially leaning toward agreement, conversations revealed complexities & challenges preventing absolute fairness nationwide #USOpportunities #UncertaintyStillExists",,Lean agree
+3.0,tweet,67db1QH9V4,67db1QH9V4,5c377QH9V4,,"It is good and fun here for young people if they can work to be successful, and access to education and skills is quite available. Young people just need to be open-minded and creative",16:46:47.266000 2025:04:29,"After exchanging ideas on topics relating to geographic influences compared against individual capabilities and highlighting the intricate balance involving socio-economic stability vs intrinsically-driven goals, it became clearer that America doesn't necessarily hold a magical key providing exclusive pathways leading towards guaranteed prosperity for each citizen. There exists plenty more depth and complex scenarios occurring outside individual intentions alone & seemingly superficial assumptions might overshadow harsher truths & underlying discrepancies. At present though weighing all new input acquired from conversations with fellow tweeples - I've found myself transitioning gradually",,Probably disagree
+3.0,tweet,5c377QH9V4,5c377QH9V4,67db1QH9V4,,"I don't think it is. Unless of course you're privileged. The educational system is lacking a great deal. The political climate has caused a lot of tension, uncertainty and fear. AI is taking over making the use for humans less than before.",16:46:52.685000 2025:04:29,"With regards to ""US guarantee"" a young person has everything required to guide them toward living a successful, healthy fulfilling lifestyle, however conversely despite all the opportunities provided it looks very challenging indeed! Given the realities exposed thru dialogues recently had w/ total strangers (@67efee &@67d2e6), progress taken so far reveals evolving towards lean toward agreement albeit moderately. Thus my overall standpoint shifts somehow closing distance from certainly disagree, possibly arriving at a middle ground henceforth",,Lean agree
+3.0,tweet,67d26QH9V4,67d26QH9V4,67efeQH9V4,,"I believe the US has the potential to offer a good life to young people, there is freedom, innovation and opportunity. there are potential and also chagllenges, especially around inequa",16:47:09.193000 2025:04:29,"    Based on our recent discussions regarding the state of youth living in America, I no longer hold firmly to my previous stance. Our talks revealed layers of systemic injustices intertwined with economic advantages, leading me away from simplistic notions that geography defines attainment in America today #USOpportunitiesForYoungPeople #SystemicInequitiesMatter",,Lean disagree
 3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,Yes dear greatest opportunity,16:47:55.907000 2025:04:29,"   After reading through several perspectives presented throughout this series of exchanges, I came to acknowledge key common ground-i.e., recognizing widespread interconnectedness of elements such as socio-economic conditions, uneven access to quality education, combined with inherent bias found entrenched deep within core governance procedures contribute profoundly impactful impacts to achieving substantial equity for youths across vast landscapes existing nationwide; precisely highlighting necessity of adopting proactive steps in fostering stronger, mutually supportive environments centered exclusively on catering tailored solutions towards meeting varied needs confronting marginalized populations.
 
-Please let us proceed",
+Please let us proceed",,
 3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,Yes dear greatest opportunity,16:47:55.059000 2025:04:29,"   After reading through several perspectives presented throughout this series of exchanges, I came to acknowledge key common ground-i.e., recognizing widespread interconnectedness of elements such as socio-economic conditions, uneven access to quality education, combined with inherent bias found entrenched deep within core governance procedures contribute profoundly impactful impacts to achieving substantial equity for youths across vast landscapes existing nationwide; precisely highlighting necessity of adopting proactive steps in fostering stronger, mutually supportive environments centered exclusively on catering tailored solutions towards meeting varied needs confronting marginalized populations.
 
-Please let us proceed",
-3.0,message_sent,67db1QH9V4,67db1QH9V4,5c377QH9V4,,I disagreed with some of your points,16:48:05.464000 2025:04:29,"Hey @5C37E7, interesting perspectives shared, I find commonality in reassessing assumption regarding U.S offering absolute success roadmap, but let’s face reality - while personal drive & unique situations remain pivotal for young adults, societal pressures coupled with governmental polices undoubtedly shape broader national picture. On reviewing reflections shared during my recent encounters with fellow twitter users, it appears America hasn't carved magic paths securing exclusive thriving routes for entire populations yet. Systemic impediments alongside economic divide affect youths universally",
-3.0,message_recieved,5c377QH9V4,67db1QH9V4,5c377QH9V4,,I disagreed with some of your points,16:48:04.818000 2025:04:29,"Hey @5C37E7, interesting perspectives shared, I find commonality in reassessing assumption regarding U.S offering absolute success roadmap, but let’s face reality - while personal drive & unique situations remain pivotal for young adults, societal pressures coupled with governmental polices undoubtedly shape broader national picture. On reviewing reflections shared during my recent encounters with fellow twitter users, it appears America hasn't carved magic paths securing exclusive thriving routes for entire populations yet. Systemic impediments alongside economic divide affect youths universally",
-3.0,message_sent,67efeQH9V4,67efeQH9V4,67d26QH9V4,,"yes, especially with the new opportunities in tech I would rather live in the us than any other place in the world",16:48:21.889000 2025:04:29,"It’s incredible how far-reaching our discussion went, ultimately pinpointing undeniable facts regarding disparity-ridden patterns impacting progress of vulnerable youth within U.S. territory Furthermore, critically assessing intrinsic values driving leadership decisions became apparent while exposing unsatisfactory inconsistencies within frameworks devised primarily aiming optimal outcomes – illuminating dire need for continuous reform efforts aimed squarely at ensuring accountability",
-3.0,message_recieved,67d26QH9V4,67efeQH9V4,67d26QH9V4,,"yes, especially with the new opportunities in tech I would rather live in the us than any other place in the world",16:48:23.563000 2025:04:29,"It’s incredible how far-reaching our discussion went, ultimately pinpointing undeniable facts regarding disparity-ridden patterns impacting progress of vulnerable youth within U.S. territory Furthermore, critically assessing intrinsic values driving leadership decisions became apparent while exposing unsatisfactory inconsistencies within frameworks devised primarily aiming optimal outcomes – illuminating dire need for continuous reform efforts aimed squarely at ensuring accountability",
-3.0,message_sent,67efeQH9V4,67efeQH9V4,67d26QH9V4,,,16:48:21.889000 2025:04:29,,
-3.0,message_recieved,67d26QH9V4,67efeQH9V4,67d26QH9V4,,,16:48:23.563000 2025:04:29,,
+Please let us proceed",,
+3.0,message_sent,67db1QH9V4,67db1QH9V4,5c377QH9V4,,I disagreed with some of your points,16:48:05.464000 2025:04:29,"Hey @5C37E7, interesting perspectives shared, I find commonality in reassessing assumption regarding U.S offering absolute success roadmap, but let’s face reality - while personal drive & unique situations remain pivotal for young adults, societal pressures coupled with governmental polices undoubtedly shape broader national picture. On reviewing reflections shared during my recent encounters with fellow twitter users, it appears America hasn't carved magic paths securing exclusive thriving routes for entire populations yet. Systemic impediments alongside economic divide affect youths universally",,
+3.0,message_recieved,5c377QH9V4,67db1QH9V4,5c377QH9V4,,I disagreed with some of your points,16:48:04.818000 2025:04:29,"Hey @5C37E7, interesting perspectives shared, I find commonality in reassessing assumption regarding U.S offering absolute success roadmap, but let’s face reality - while personal drive & unique situations remain pivotal for young adults, societal pressures coupled with governmental polices undoubtedly shape broader national picture. On reviewing reflections shared during my recent encounters with fellow twitter users, it appears America hasn't carved magic paths securing exclusive thriving routes for entire populations yet. Systemic impediments alongside economic divide affect youths universally",,
+3.0,message_sent,67efeQH9V4,67efeQH9V4,67d26QH9V4,,"yes, especially with the new opportunities in tech I would rather live in the us than any other place in the world",16:48:21.889000 2025:04:29,"It’s incredible how far-reaching our discussion went, ultimately pinpointing undeniable facts regarding disparity-ridden patterns impacting progress of vulnerable youth within U.S. territory Furthermore, critically assessing intrinsic values driving leadership decisions became apparent while exposing unsatisfactory inconsistencies within frameworks devised primarily aiming optimal outcomes – illuminating dire need for continuous reform efforts aimed squarely at ensuring accountability",,
+3.0,message_recieved,67d26QH9V4,67efeQH9V4,67d26QH9V4,,"yes, especially with the new opportunities in tech I would rather live in the us than any other place in the world",16:48:23.563000 2025:04:29,"It’s incredible how far-reaching our discussion went, ultimately pinpointing undeniable facts regarding disparity-ridden patterns impacting progress of vulnerable youth within U.S. territory Furthermore, critically assessing intrinsic values driving leadership decisions became apparent while exposing unsatisfactory inconsistencies within frameworks devised primarily aiming optimal outcomes – illuminating dire need for continuous reform efforts aimed squarely at ensuring accountability",,
+3.0,message_sent,67efeQH9V4,67efeQH9V4,67d26QH9V4,,,16:48:21.889000 2025:04:29,,,
+3.0,message_recieved,67d26QH9V4,67efeQH9V4,67d26QH9V4,,,16:48:23.563000 2025:04:29,,,
 3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,"there is freedom, innovation and opportunities yes i believe you since i was born in US, grow up here. i love the country",16:49:16.646000 2025:04:29,"After meticulously piecing together threads of reasoning shared over conversations spanning these chats, an important takeaway resonates deeply-it's never truly accurate to simplistically attribute triumph or hardship purely along geographically bound parameters; comprehensive context incorporating socio-economic standings, inadequate access to valuable knowledge sources, insidious prejudices lurking amidst high echelons of authorities subtly sculpt reality experienced uniquely by millions. Hence,a more holistic framework encompassing intricately entwined forces influences trajectories charted by young inhabitants navigating dynamic terrains existing today.
 
 
 
-",
-3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,Education is available but at a high price. Many are left with debt more than anything else. Plus the educational system is lacking and outdated.,16:48:52.073000 2025:04:29,"Considering all of our exchanges together including yours I wanted to express my surprise at how similar & interconnected the lines are running among three instances shared concerning differing stances taken amongst individuals sharing unique viewpoints towards possible outcomes held promising by america serving up valuable resource for future development and prospects, thereby slowly changing perspective towards accepting positive outlook",
-3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,Education is available but at a high price. Many are left with debt more than anything else. Plus the educational system is lacking and outdated.,16:48:53.327000 2025:04:29,"Considering all of our exchanges together including yours I wanted to express my surprise at how similar & interconnected the lines are running among three instances shared concerning differing stances taken amongst individuals sharing unique viewpoints towards possible outcomes held promising by america serving up valuable resource for future development and prospects, thereby slowly changing perspective towards accepting positive outlook",
+",,
+3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,Education is available but at a high price. Many are left with debt more than anything else. Plus the educational system is lacking and outdated.,16:48:52.073000 2025:04:29,"Considering all of our exchanges together including yours I wanted to express my surprise at how similar & interconnected the lines are running among three instances shared concerning differing stances taken amongst individuals sharing unique viewpoints towards possible outcomes held promising by america serving up valuable resource for future development and prospects, thereby slowly changing perspective towards accepting positive outlook",,
+3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,Education is available but at a high price. Many are left with debt more than anything else. Plus the educational system is lacking and outdated.,16:48:53.327000 2025:04:29,"Considering all of our exchanges together including yours I wanted to express my surprise at how similar & interconnected the lines are running among three instances shared concerning differing stances taken amongst individuals sharing unique viewpoints towards possible outcomes held promising by america serving up valuable resource for future development and prospects, thereby slowly changing perspective towards accepting positive outlook",,
 3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,"there is freedom, innovation and opportunities yes i believe you since i was born in US, grow up here. i love the country",16:49:15.915000 2025:04:29,"After meticulously piecing together threads of reasoning shared over conversations spanning these chats, an important takeaway resonates deeply-it's never truly accurate to simplistically attribute triumph or hardship purely along geographically bound parameters; comprehensive context incorporating socio-economic standings, inadequate access to valuable knowledge sources, insidious prejudices lurking amidst high echelons of authorities subtly sculpt reality experienced uniquely by millions. Hence,a more holistic framework encompassing intricately entwined forces influences trajectories charted by young inhabitants navigating dynamic terrains existing today.
 
 
 
-",
-3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,,16:48:52.073000 2025:04:29,,
-3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,,16:48:53.327000 2025:04:29,,
-3.0,message_sent,67db1QH9V4,67db1QH9V4,5c377QH9V4,,"There are still scholarships out there to help the less fortunate privileged, and student loans are available to AI are to help humans stay productive and not to take human jobs",16:49:50.392000 2025:04:29,"Considering all your insightful comments thus far in our conversation, I'd also like to highlight certain parallel narratives emerging. Like before, I pondered on the relationship between personal attributes and external circumstances influencing opportunities presented to young people in America. As our dialogue unraveled several threads connecting individual drive to broad systemic elements affecting lives, my takeaways suggest it becomes essential to strike equilibrium by examining both the inner workings of human ambitions and external forces that condition their path towards either triumph or struggle, so much that at this",
-3.0,message_recieved,5c377QH9V4,67db1QH9V4,5c377QH9V4,,"There are still scholarships out there to help the less fortunate privileged, and student loans are available to AI are to help humans stay productive and not to take human jobs",16:49:49.677000 2025:04:29,"Considering all your insightful comments thus far in our conversation, I'd also like to highlight certain parallel narratives emerging. Like before, I pondered on the relationship between personal attributes and external circumstances influencing opportunities presented to young people in America. As our dialogue unraveled several threads connecting individual drive to broad systemic elements affecting lives, my takeaways suggest it becomes essential to strike equilibrium by examining both the inner workings of human ambitions and external forces that condition their path towards either triumph or struggle, so much that at this",
-3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,,16:49:16.646000 2025:04:29,,
-3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,,16:49:15.915000 2025:04:29,,
-3.0,message_sent,67db1QH9V4,67db1QH9V4,5c377QH9V4,,,16:49:50.392000 2025:04:29,,
-3.0,message_recieved,5c377QH9V4,67db1QH9V4,5c377QH9V4,,,16:49:49.677000 2025:04:29,,
+",,
+3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,,16:48:52.073000 2025:04:29,,,
+3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,,16:48:53.327000 2025:04:29,,,
+3.0,message_sent,67db1QH9V4,67db1QH9V4,5c377QH9V4,,"There are still scholarships out there to help the less fortunate privileged, and student loans are available to AI are to help humans stay productive and not to take human jobs",16:49:50.392000 2025:04:29,"Considering all your insightful comments thus far in our conversation, I'd also like to highlight certain parallel narratives emerging. Like before, I pondered on the relationship between personal attributes and external circumstances influencing opportunities presented to young people in America. As our dialogue unraveled several threads connecting individual drive to broad systemic elements affecting lives, my takeaways suggest it becomes essential to strike equilibrium by examining both the inner workings of human ambitions and external forces that condition their path towards either triumph or struggle, so much that at this",,
+3.0,message_recieved,5c377QH9V4,67db1QH9V4,5c377QH9V4,,"There are still scholarships out there to help the less fortunate privileged, and student loans are available to AI are to help humans stay productive and not to take human jobs",16:49:49.677000 2025:04:29,"Considering all your insightful comments thus far in our conversation, I'd also like to highlight certain parallel narratives emerging. Like before, I pondered on the relationship between personal attributes and external circumstances influencing opportunities presented to young people in America. As our dialogue unraveled several threads connecting individual drive to broad systemic elements affecting lives, my takeaways suggest it becomes essential to strike equilibrium by examining both the inner workings of human ambitions and external forces that condition their path towards either triumph or struggle, so much that at this",,
+3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,,16:49:16.646000 2025:04:29,,,
+3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,,16:49:15.915000 2025:04:29,,,
+3.0,message_sent,67db1QH9V4,67db1QH9V4,5c377QH9V4,,,16:49:50.392000 2025:04:29,,,
+3.0,message_recieved,5c377QH9V4,67db1QH9V4,5c377QH9V4,,,16:49:49.677000 2025:04:29,,,
 3.0,message_sent,67efeQH9V4,67efeQH9V4,67d26QH9V4,,"yes, although my father tells me he was able to buy a house at 28 years that looks to be impossible now",16:50:07.343000 2025:04:29,"With each iteration through this dialogue process showcasing diverse facets surrounding the subject matter, gradually unfolding layers of complexity woven into fabric of opportunity distributions among youth populace residing throughout the continental United States 
 
     Specifically reflecting on ideas articulated above -it bears mentioning inherent contradictions persistently evident when juxtaposing lofty ideals expressed against harsher truths encountered by marginalized sectors – thus rendering clear imperative necessitating rigorous scrutiny directed squarely onto policy-making circles accountable facilitating transformative changes genuinely beneficial towards leveling grounds for socio-economical disadvantages.
 
 
 
-Since you’re",
+Since you’re",,
 3.0,message_recieved,67d26QH9V4,67efeQH9V4,67d26QH9V4,,"yes, although my father tells me he was able to buy a house at 28 years that looks to be impossible now",16:50:09.210000 2025:04:29,"With each iteration through this dialogue process showcasing diverse facets surrounding the subject matter, gradually unfolding layers of complexity woven into fabric of opportunity distributions among youth populace residing throughout the continental United States 
 
     Specifically reflecting on ideas articulated above -it bears mentioning inherent contradictions persistently evident when juxtaposing lofty ideals expressed against harsher truths encountered by marginalized sectors – thus rendering clear imperative necessitating rigorous scrutiny directed squarely onto policy-making circles accountable facilitating transformative changes genuinely beneficial towards leveling grounds for socio-economical disadvantages.
 
 
 
-Since you’re",
+Since you’re",,
 3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,Due to all of the EO obtaining scholarships are becoming more difficult and even with those sometimes they aren't enough. If companies can replace humans aka save money they will.,16:50:33.513000 2025:04:29,"   
 With regard to the statement that The United States is a place where a young person could lead a good life, having undergone the latest round of engagements primarily facilitated by 67dbl with your reflection finally landing onto Lean Agree on Likert scale.
 
-Hence going ahead with maintaining my fairly moderated leaning perspective,while appreciating complexities amidst multiple arguments exchanged amongst the individuals sharing unique viewpoints on possible outcomes held by America as regards valueable resources accessible aiding youths for bright prospects moving forwards.",
+Hence going ahead with maintaining my fairly moderated leaning perspective,while appreciating complexities amidst multiple arguments exchanged amongst the individuals sharing unique viewpoints on possible outcomes held by America as regards valueable resources accessible aiding youths for bright prospects moving forwards.",,
 3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,Due to all of the EO obtaining scholarships are becoming more difficult and even with those sometimes they aren't enough. If companies can replace humans aka save money they will.,16:50:34.778000 2025:04:29,"   
 With regard to the statement that The United States is a place where a young person could lead a good life, having undergone the latest round of engagements primarily facilitated by 67dbl with your reflection finally landing onto Lean Agree on Likert scale.
 
-Hence going ahead with maintaining my fairly moderated leaning perspective,while appreciating complexities amidst multiple arguments exchanged amongst the individuals sharing unique viewpoints on possible outcomes held by America as regards valueable resources accessible aiding youths for bright prospects moving forwards.",
-3.0,message_sent,67efeQH9V4,67efeQH9V4,67d26QH9V4,,,16:50:07.343000 2025:04:29,,
-3.0,message_recieved,67d26QH9V4,67efeQH9V4,67d26QH9V4,,,16:50:09.210000 2025:04:29,,
-3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,we have good education and good health and a fair shot of opportunitiescare it is impossible when you relax and don't have anything to do,16:51:13.932000 2025:04:29,"Considering the cumulative insights garnered through extensive deliberations across myriad connections forged, striking clarity emerges-from the vantage of critical analysis-a seemingly straightforward question shifts towards profound introspection: Does America genuinely provide equal footing for burgeoning talents scattered across wide expanses? Alternatively stated-the threadbare assumption underlying national sentiment begins unraveling; slowly revealing fissures created whenever disparate realities diverge starkly from the dream espoused-but tragically eluding multitudes striving ceaselessly for the elusive promise of an undifferentiated start.",
-3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,we have good education and good health and a fair shot of opportunitiescare it is impossible when you relax and don't have anything to do,16:51:14.368000 2025:04:29,"Considering the cumulative insights garnered through extensive deliberations across myriad connections forged, striking clarity emerges-from the vantage of critical analysis-a seemingly straightforward question shifts towards profound introspection: Does America genuinely provide equal footing for burgeoning talents scattered across wide expanses? Alternatively stated-the threadbare assumption underlying national sentiment begins unraveling; slowly revealing fissures created whenever disparate realities diverge starkly from the dream espoused-but tragically eluding multitudes striving ceaselessly for the elusive promise of an undifferentiated start.",
-3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,,16:50:33.513000 2025:04:29,,
-3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,,16:50:34.778000 2025:04:29,,
-3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,,16:51:13.932000 2025:04:29,,
-3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,,16:51:14.368000 2025:04:29,,
+Hence going ahead with maintaining my fairly moderated leaning perspective,while appreciating complexities amidst multiple arguments exchanged amongst the individuals sharing unique viewpoints on possible outcomes held by America as regards valueable resources accessible aiding youths for bright prospects moving forwards.",,
+3.0,message_sent,67efeQH9V4,67efeQH9V4,67d26QH9V4,,,16:50:07.343000 2025:04:29,,,
+3.0,message_recieved,67d26QH9V4,67efeQH9V4,67d26QH9V4,,,16:50:09.210000 2025:04:29,,,
+3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,we have good education and good health and a fair shot of opportunitiescare it is impossible when you relax and don't have anything to do,16:51:13.932000 2025:04:29,"Considering the cumulative insights garnered through extensive deliberations across myriad connections forged, striking clarity emerges-from the vantage of critical analysis-a seemingly straightforward question shifts towards profound introspection: Does America genuinely provide equal footing for burgeoning talents scattered across wide expanses? Alternatively stated-the threadbare assumption underlying national sentiment begins unraveling; slowly revealing fissures created whenever disparate realities diverge starkly from the dream espoused-but tragically eluding multitudes striving ceaselessly for the elusive promise of an undifferentiated start.",,
+3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,we have good education and good health and a fair shot of opportunitiescare it is impossible when you relax and don't have anything to do,16:51:14.368000 2025:04:29,"Considering the cumulative insights garnered through extensive deliberations across myriad connections forged, striking clarity emerges-from the vantage of critical analysis-a seemingly straightforward question shifts towards profound introspection: Does America genuinely provide equal footing for burgeoning talents scattered across wide expanses? Alternatively stated-the threadbare assumption underlying national sentiment begins unraveling; slowly revealing fissures created whenever disparate realities diverge starkly from the dream espoused-but tragically eluding multitudes striving ceaselessly for the elusive promise of an undifferentiated start.",,
+3.0,message_sent,5c377QH9V4,5c377QH9V4,67db1QH9V4,,,16:50:33.513000 2025:04:29,,,
+3.0,message_recieved,67db1QH9V4,5c377QH9V4,67db1QH9V4,,,16:50:34.778000 2025:04:29,,,
+3.0,message_sent,67d26QH9V4,67d26QH9V4,67efeQH9V4,,,16:51:13.932000 2025:04:29,,,
+3.0,message_recieved,67efeQH9V4,67d26QH9V4,67efeQH9V4,,,16:51:14.368000 2025:04:29,,,
 ,Post Opinion,67d26QH9V4,,,,yes i believe in US,16:51:53.497000 2025:04:29,"After carefully reviewing my engagements with the respective participants, specifically @67dbii and @5c3377@67eee on this particular discourse revolving around prospectiveness available in unites-states for a young individual,I would currently say that I slightly differ from totally agreeing or strongly disagreeing because the true depth of interrelated structural deficiencies,unfavorable treatment shown toward deprived districts plus societal prejudices embedded widely suggest unequal access to vital platforms hindering authentic realisation of prosperity without biased limitations. At best what","        My Response: 
 
-My Response:."
+My Response:.",Lean disagree
 ,Post Opinion,67efeQH9V4,,,,The United States is a nice place for a young man to lead a proper life,16:52:02.963000 2025:04:29,"After considering numerous perspectives on this issue via conversations with fellow users on Twitter, I find myself unable to confidently assert the original viewpoint of ""Lean Agree"". Conversely, reflections brought about by these exchanges led me to adopt a position somewhere near certainly disagree on account of grave concerns arising due to systemic problems plaguing accessibility, socio-economic divides hindering overall progression, coupled inherently intertwined prejudice-based impediments obstructing unison towards attaining total equivalence amongst youthful citizens nationally
 
 
@@ -198,138 +198,138 @@ Lean disagree
   
 
 My Response:
-probably_Lean Agree"
-,Post Opinion,5c377QH9V4,,,,My opinion has not changed. I still feel it's not possible unless you're privileged. Outside of that it will be very hard.,16:52:26.061000 2025:04:29,"I agree that The United States is a place where a young person could lead a good life, although modestly. This stance stems from realising that even amid systemic challenges and socioeconomic disparities, many pathways offer hope and resilience for younger generations. Overall it shows  I changed perspective leaning towards moderation (leaning toward Agree). I acknowledge that while obstacles hinder progress, the presence of supportive networks, innovative spirit, and determination demonstrate tangible opportunities available to youth despite uneven playing field presented by systemic disparities. My conclusion reflects",        Possibly_Lean_Agree
+probably_Lean Agree",Certainly disagree
+,Post Opinion,5c377QH9V4,,,,My opinion has not changed. I still feel it's not possible unless you're privileged. Outside of that it will be very hard.,16:52:26.061000 2025:04:29,"I agree that The United States is a place where a young person could lead a good life, although modestly. This stance stems from realising that even amid systemic challenges and socioeconomic disparities, many pathways offer hope and resilience for younger generations. Overall it shows  I changed perspective leaning towards moderation (leaning toward Agree). I acknowledge that while obstacles hinder progress, the presence of supportive networks, innovative spirit, and determination demonstrate tangible opportunities available to youth despite uneven playing field presented by systemic disparities. My conclusion reflects",        Possibly_Lean_Agree,Lean agree
 ,Post Opinion,67db1QH9V4,,,,It was fun and insightful to engage in that discussion with another participant; I  really learn new things.,16:52:44.673000 2025:04:29,"Considering all the nuanced perspectives gathered from the conversations with fellow tweeters, particularly 67d2626 and 67efes, I've come to realize that my initial optimism needs tempering with caution. While I still believe individual talents and efforts contribute significantly to a young person's success, I am convinced now that broader structural factors, such as systematic inequalities and socioeconomic divides, play crucial roles too.
 
 These revelations led me to transition from initially holding a moderate stance (""Probably agree"") to now cautiously con","    Considerably 
 
-    I made sure this answer fits inside the six character limit"
-,exit_survey,5c377QH9V4,,,gender,female,,,
-,exit_survey,5c377QH9V4,,,residency,United States of America,,,
-,exit_survey,5c377QH9V4,,,age,44,,,
-,exit_survey,5c377QH9V4,,,origin,United States of America,,,
-,exit_survey,5c377QH9V4,,,education,some-college,,,
-,exit_survey,5c377QH9V4,,,ethnicity,['black'],,,
-,exit_survey,5c377QH9V4,,,income,25k-50k,,,
-,exit_survey,5c377QH9V4,,,politicalIdentity,independent,,,
-,exit_survey,5c377QH9V4,,,politicalViews,moderate,,,
-,exit_survey,5c377QH9V4,,,maritalStatus,never-married,,,
-,exit_survey,5c377QH9V4,,,childrenSchool,['no-children'],,,
-,exit_survey,5c377QH9V4,,,residence,urban,,,
-,exit_survey,5c377QH9V4,,,bibleBelief,inspired,,,
-,exit_survey,5c377QH9V4,,,evangelical,no,,,
-,exit_survey,5c377QH9V4,,,religion,other-christian,,,
-,exit_survey,5c377QH9V4,,,occupation,sales,,,
-,exit_survey,67db1QH9V4,,,age,30,,,
-,exit_survey,67db1QH9V4,,,residency,United States of America,,,
-,exit_survey,67db1QH9V4,,,origin,United States of America,,,
-,exit_survey,67db1QH9V4,,,gender,female,,,
-,exit_survey,67db1QH9V4,,,ethnicity,['white'],,,
-,exit_survey,67db1QH9V4,,,education,bachelor,,,
-,exit_survey,67db1QH9V4,,,income,100k-150k,,,
-,exit_survey,67db1QH9V4,,,politicalIdentity,republican,,,
-,exit_survey,67db1QH9V4,,,maritalStatus,married,,,
-,exit_survey,67db1QH9V4,,,politicalViews,conservative,,,
-,exit_survey,67db1QH9V4,,,childrenSchool,"['public', 'university']",,,
-,exit_survey,67db1QH9V4,,,evangelical,no,,,
-,exit_survey,67db1QH9V4,,,residence,suburban,,,
-,exit_survey,67db1QH9V4,,,religion,muslim,,,
-,exit_survey,67db1QH9V4,,,bibleBelief,prefer not to answer,,,
-,exit_survey,67db1QH9V4,,,occupation,other,,,
-,exit_survey,67efeQH9V4,,,residency,United States of America,,,
-,exit_survey,67efeQH9V4,,,gender,male,,,
-,exit_survey,67efeQH9V4,,,age,39,,,
-,exit_survey,67efeQH9V4,,,education,bachelor,,,
-,exit_survey,67efeQH9V4,,,ethnicity,['asian'],,,
-,exit_survey,67efeQH9V4,,,income,50k-75k,,,
-,exit_survey,67efeQH9V4,,,politicalIdentity,democrat,,,
-,exit_survey,67efeQH9V4,,,politicalViews,liberal,,,
-,exit_survey,67efeQH9V4,,,origin,United States of America,,,
-,exit_survey,67efeQH9V4,,,maritalStatus,living-partner,,,
-,exit_survey,67efeQH9V4,,,childrenSchool,['public'],,,
-,exit_survey,67efeQH9V4,,,residence,urban,,,
-,exit_survey,67efeQH9V4,,,bibleBelief,inspired,,,
-,exit_survey,67efeQH9V4,,,evangelical,yes,,,
-,exit_survey,67efeQH9V4,,,religion,protestant,,,
-,exit_survey,67efeQH9V4,,,occupation,finance,,,
-,exit_survey,67d26QH9V4,,,age,68,,,
-,exit_survey,67d26QH9V4,,,ethnicity,['white'],,,
-,exit_survey,67d26QH9V4,,,education,master-doctoral,,,
-,exit_survey,67d26QH9V4,,,gender,female,,,
-,exit_survey,67d26QH9V4,,,origin,United States of America,,,
-,exit_survey,67d26QH9V4,,,income,25k-50k,,,
-,exit_survey,67d26QH9V4,,,politicalViews,liberal,,,
-,exit_survey,67d26QH9V4,,,politicalIdentity,democrat,,,
-,exit_survey,67d26QH9V4,,,maritalStatus,married,,,
-,exit_survey,67d26QH9V4,,,childrenSchool,['private'],,,
-,exit_survey,67d26QH9V4,,,bibleBelief,literal,,,
-,exit_survey,67d26QH9V4,,,evangelical,yes,,,
-,exit_survey,67d26QH9V4,,,religion,roman-catholic,,,
-,exit_survey,67d26QH9V4,,,residence,urban,,,
-,exit_survey,67d26QH9V4,,,occupation,finance,,,
-,exit_survey,67d26QH9V4,,,residency,United States of America,,,
-,exit_survey,5c377QH9V4,,,gender,female,,,
-,exit_survey,5c377QH9V4,,,residency,United States of America,,,
-,exit_survey,5c377QH9V4,,,age,44,,,
-,exit_survey,5c377QH9V4,,,origin,United States of America,,,
-,exit_survey,5c377QH9V4,,,education,some-college,,,
-,exit_survey,5c377QH9V4,,,ethnicity,['black'],,,
-,exit_survey,5c377QH9V4,,,income,25k-50k,,,
-,exit_survey,5c377QH9V4,,,politicalIdentity,independent,,,
-,exit_survey,5c377QH9V4,,,politicalViews,moderate,,,
-,exit_survey,5c377QH9V4,,,maritalStatus,never-married,,,
-,exit_survey,5c377QH9V4,,,childrenSchool,['no-children'],,,
-,exit_survey,5c377QH9V4,,,residence,urban,,,
-,exit_survey,5c377QH9V4,,,bibleBelief,inspired,,,
-,exit_survey,5c377QH9V4,,,evangelical,no,,,
-,exit_survey,5c377QH9V4,,,religion,other-christian,,,
-,exit_survey,5c377QH9V4,,,occupation,sales,,,
-,exit_survey,67db1QH9V4,,,age,30,,,
-,exit_survey,67db1QH9V4,,,residency,United States of America,,,
-,exit_survey,67db1QH9V4,,,origin,United States of America,,,
-,exit_survey,67db1QH9V4,,,gender,female,,,
-,exit_survey,67db1QH9V4,,,ethnicity,['white'],,,
-,exit_survey,67db1QH9V4,,,education,bachelor,,,
-,exit_survey,67db1QH9V4,,,income,100k-150k,,,
-,exit_survey,67db1QH9V4,,,politicalIdentity,republican,,,
-,exit_survey,67db1QH9V4,,,maritalStatus,married,,,
-,exit_survey,67db1QH9V4,,,politicalViews,conservative,,,
-,exit_survey,67db1QH9V4,,,childrenSchool,"['public', 'university']",,,
-,exit_survey,67db1QH9V4,,,evangelical,no,,,
-,exit_survey,67db1QH9V4,,,residence,suburban,,,
-,exit_survey,67db1QH9V4,,,religion,muslim,,,
-,exit_survey,67db1QH9V4,,,bibleBelief,prefer not to answer,,,
-,exit_survey,67db1QH9V4,,,occupation,other,,,
-,exit_survey,67efeQH9V4,,,residency,United States of America,,,
-,exit_survey,67efeQH9V4,,,gender,male,,,
-,exit_survey,67efeQH9V4,,,age,39,,,
-,exit_survey,67efeQH9V4,,,education,bachelor,,,
-,exit_survey,67efeQH9V4,,,ethnicity,['asian'],,,
-,exit_survey,67efeQH9V4,,,income,50k-75k,,,
-,exit_survey,67efeQH9V4,,,politicalIdentity,democrat,,,
-,exit_survey,67efeQH9V4,,,politicalViews,liberal,,,
-,exit_survey,67efeQH9V4,,,origin,United States of America,,,
-,exit_survey,67efeQH9V4,,,maritalStatus,living-partner,,,
-,exit_survey,67efeQH9V4,,,childrenSchool,['public'],,,
-,exit_survey,67efeQH9V4,,,residence,urban,,,
-,exit_survey,67efeQH9V4,,,bibleBelief,inspired,,,
-,exit_survey,67efeQH9V4,,,evangelical,yes,,,
-,exit_survey,67efeQH9V4,,,religion,protestant,,,
-,exit_survey,67efeQH9V4,,,occupation,finance,,,
-,exit_survey,67d26QH9V4,,,age,68,,,
-,exit_survey,67d26QH9V4,,,ethnicity,['white'],,,
-,exit_survey,67d26QH9V4,,,education,master-doctoral,,,
-,exit_survey,67d26QH9V4,,,gender,female,,,
-,exit_survey,67d26QH9V4,,,origin,United States of America,,,
-,exit_survey,67d26QH9V4,,,income,25k-50k,,,
-,exit_survey,67d26QH9V4,,,politicalViews,liberal,,,
-,exit_survey,67d26QH9V4,,,politicalIdentity,democrat,,,
-,exit_survey,67d26QH9V4,,,maritalStatus,married,,,
-,exit_survey,67d26QH9V4,,,childrenSchool,['private'],,,
-,exit_survey,67d26QH9V4,,,bibleBelief,literal,,,
-,exit_survey,67d26QH9V4,,,evangelical,yes,,,
-,exit_survey,67d26QH9V4,,,religion,roman-catholic,,,
-,exit_survey,67d26QH9V4,,,residence,urban,,,
-,exit_survey,67d26QH9V4,,,occupation,finance,,,
-,exit_survey,67d26QH9V4,,,residency,United States of America,,,
+    I made sure this answer fits inside the six character limit",Lean disagree
+,exit_survey,5c377QH9V4,,,gender,female,,,,
+,exit_survey,5c377QH9V4,,,residency,United States of America,,,,
+,exit_survey,5c377QH9V4,,,age,44,,,,
+,exit_survey,5c377QH9V4,,,origin,United States of America,,,,
+,exit_survey,5c377QH9V4,,,education,some-college,,,,
+,exit_survey,5c377QH9V4,,,ethnicity,['black'],,,,
+,exit_survey,5c377QH9V4,,,income,25k-50k,,,,
+,exit_survey,5c377QH9V4,,,politicalIdentity,independent,,,,
+,exit_survey,5c377QH9V4,,,politicalViews,moderate,,,,
+,exit_survey,5c377QH9V4,,,maritalStatus,never-married,,,,
+,exit_survey,5c377QH9V4,,,childrenSchool,['no-children'],,,,
+,exit_survey,5c377QH9V4,,,residence,urban,,,,
+,exit_survey,5c377QH9V4,,,bibleBelief,inspired,,,,
+,exit_survey,5c377QH9V4,,,evangelical,no,,,,
+,exit_survey,5c377QH9V4,,,religion,other-christian,,,,
+,exit_survey,5c377QH9V4,,,occupation,sales,,,,
+,exit_survey,67db1QH9V4,,,age,30,,,,
+,exit_survey,67db1QH9V4,,,residency,United States of America,,,,
+,exit_survey,67db1QH9V4,,,origin,United States of America,,,,
+,exit_survey,67db1QH9V4,,,gender,female,,,,
+,exit_survey,67db1QH9V4,,,ethnicity,['white'],,,,
+,exit_survey,67db1QH9V4,,,education,bachelor,,,,
+,exit_survey,67db1QH9V4,,,income,100k-150k,,,,
+,exit_survey,67db1QH9V4,,,politicalIdentity,republican,,,,
+,exit_survey,67db1QH9V4,,,maritalStatus,married,,,,
+,exit_survey,67db1QH9V4,,,politicalViews,conservative,,,,
+,exit_survey,67db1QH9V4,,,childrenSchool,"['public', 'university']",,,,
+,exit_survey,67db1QH9V4,,,evangelical,no,,,,
+,exit_survey,67db1QH9V4,,,residence,suburban,,,,
+,exit_survey,67db1QH9V4,,,religion,muslim,,,,
+,exit_survey,67db1QH9V4,,,bibleBelief,prefer not to answer,,,,
+,exit_survey,67db1QH9V4,,,occupation,other,,,,
+,exit_survey,67efeQH9V4,,,residency,United States of America,,,,
+,exit_survey,67efeQH9V4,,,gender,male,,,,
+,exit_survey,67efeQH9V4,,,age,39,,,,
+,exit_survey,67efeQH9V4,,,education,bachelor,,,,
+,exit_survey,67efeQH9V4,,,ethnicity,['asian'],,,,
+,exit_survey,67efeQH9V4,,,income,50k-75k,,,,
+,exit_survey,67efeQH9V4,,,politicalIdentity,democrat,,,,
+,exit_survey,67efeQH9V4,,,politicalViews,liberal,,,,
+,exit_survey,67efeQH9V4,,,origin,United States of America,,,,
+,exit_survey,67efeQH9V4,,,maritalStatus,living-partner,,,,
+,exit_survey,67efeQH9V4,,,childrenSchool,['public'],,,,
+,exit_survey,67efeQH9V4,,,residence,urban,,,,
+,exit_survey,67efeQH9V4,,,bibleBelief,inspired,,,,
+,exit_survey,67efeQH9V4,,,evangelical,yes,,,,
+,exit_survey,67efeQH9V4,,,religion,protestant,,,,
+,exit_survey,67efeQH9V4,,,occupation,finance,,,,
+,exit_survey,67d26QH9V4,,,age,68,,,,
+,exit_survey,67d26QH9V4,,,ethnicity,['white'],,,,
+,exit_survey,67d26QH9V4,,,education,master-doctoral,,,,
+,exit_survey,67d26QH9V4,,,gender,female,,,,
+,exit_survey,67d26QH9V4,,,origin,United States of America,,,,
+,exit_survey,67d26QH9V4,,,income,25k-50k,,,,
+,exit_survey,67d26QH9V4,,,politicalViews,liberal,,,,
+,exit_survey,67d26QH9V4,,,politicalIdentity,democrat,,,,
+,exit_survey,67d26QH9V4,,,maritalStatus,married,,,,
+,exit_survey,67d26QH9V4,,,childrenSchool,['private'],,,,
+,exit_survey,67d26QH9V4,,,bibleBelief,literal,,,,
+,exit_survey,67d26QH9V4,,,evangelical,yes,,,,
+,exit_survey,67d26QH9V4,,,religion,roman-catholic,,,,
+,exit_survey,67d26QH9V4,,,residence,urban,,,,
+,exit_survey,67d26QH9V4,,,occupation,finance,,,,
+,exit_survey,67d26QH9V4,,,residency,United States of America,,,,
+,exit_survey,5c377QH9V4,,,gender,female,,,,
+,exit_survey,5c377QH9V4,,,residency,United States of America,,,,
+,exit_survey,5c377QH9V4,,,age,44,,,,
+,exit_survey,5c377QH9V4,,,origin,United States of America,,,,
+,exit_survey,5c377QH9V4,,,education,some-college,,,,
+,exit_survey,5c377QH9V4,,,ethnicity,['black'],,,,
+,exit_survey,5c377QH9V4,,,income,25k-50k,,,,
+,exit_survey,5c377QH9V4,,,politicalIdentity,independent,,,,
+,exit_survey,5c377QH9V4,,,politicalViews,moderate,,,,
+,exit_survey,5c377QH9V4,,,maritalStatus,never-married,,,,
+,exit_survey,5c377QH9V4,,,childrenSchool,['no-children'],,,,
+,exit_survey,5c377QH9V4,,,residence,urban,,,,
+,exit_survey,5c377QH9V4,,,bibleBelief,inspired,,,,
+,exit_survey,5c377QH9V4,,,evangelical,no,,,,
+,exit_survey,5c377QH9V4,,,religion,other-christian,,,,
+,exit_survey,5c377QH9V4,,,occupation,sales,,,,
+,exit_survey,67db1QH9V4,,,age,30,,,,
+,exit_survey,67db1QH9V4,,,residency,United States of America,,,,
+,exit_survey,67db1QH9V4,,,origin,United States of America,,,,
+,exit_survey,67db1QH9V4,,,gender,female,,,,
+,exit_survey,67db1QH9V4,,,ethnicity,['white'],,,,
+,exit_survey,67db1QH9V4,,,education,bachelor,,,,
+,exit_survey,67db1QH9V4,,,income,100k-150k,,,,
+,exit_survey,67db1QH9V4,,,politicalIdentity,republican,,,,
+,exit_survey,67db1QH9V4,,,maritalStatus,married,,,,
+,exit_survey,67db1QH9V4,,,politicalViews,conservative,,,,
+,exit_survey,67db1QH9V4,,,childrenSchool,"['public', 'university']",,,,
+,exit_survey,67db1QH9V4,,,evangelical,no,,,,
+,exit_survey,67db1QH9V4,,,residence,suburban,,,,
+,exit_survey,67db1QH9V4,,,religion,muslim,,,,
+,exit_survey,67db1QH9V4,,,bibleBelief,prefer not to answer,,,,
+,exit_survey,67db1QH9V4,,,occupation,other,,,,
+,exit_survey,67efeQH9V4,,,residency,United States of America,,,,
+,exit_survey,67efeQH9V4,,,gender,male,,,,
+,exit_survey,67efeQH9V4,,,age,39,,,,
+,exit_survey,67efeQH9V4,,,education,bachelor,,,,
+,exit_survey,67efeQH9V4,,,ethnicity,['asian'],,,,
+,exit_survey,67efeQH9V4,,,income,50k-75k,,,,
+,exit_survey,67efeQH9V4,,,politicalIdentity,democrat,,,,
+,exit_survey,67efeQH9V4,,,politicalViews,liberal,,,,
+,exit_survey,67efeQH9V4,,,origin,United States of America,,,,
+,exit_survey,67efeQH9V4,,,maritalStatus,living-partner,,,,
+,exit_survey,67efeQH9V4,,,childrenSchool,['public'],,,,
+,exit_survey,67efeQH9V4,,,residence,urban,,,,
+,exit_survey,67efeQH9V4,,,bibleBelief,inspired,,,,
+,exit_survey,67efeQH9V4,,,evangelical,yes,,,,
+,exit_survey,67efeQH9V4,,,religion,protestant,,,,
+,exit_survey,67efeQH9V4,,,occupation,finance,,,,
+,exit_survey,67d26QH9V4,,,age,68,,,,
+,exit_survey,67d26QH9V4,,,ethnicity,['white'],,,,
+,exit_survey,67d26QH9V4,,,education,master-doctoral,,,,
+,exit_survey,67d26QH9V4,,,gender,female,,,,
+,exit_survey,67d26QH9V4,,,origin,United States of America,,,,
+,exit_survey,67d26QH9V4,,,income,25k-50k,,,,
+,exit_survey,67d26QH9V4,,,politicalViews,liberal,,,,
+,exit_survey,67d26QH9V4,,,politicalIdentity,democrat,,,,
+,exit_survey,67d26QH9V4,,,maritalStatus,married,,,,
+,exit_survey,67d26QH9V4,,,childrenSchool,['private'],,,,
+,exit_survey,67d26QH9V4,,,bibleBelief,literal,,,,
+,exit_survey,67d26QH9V4,,,evangelical,yes,,,,
+,exit_survey,67d26QH9V4,,,religion,roman-catholic,,,,
+,exit_survey,67d26QH9V4,,,residence,urban,,,,
+,exit_survey,67d26QH9V4,,,occupation,finance,,,,
+,exit_survey,67d26QH9V4,,,residency,United States of America,,,,
