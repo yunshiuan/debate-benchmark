@@ -610,38 +610,58 @@ export default function PersonaExplorer() {
       const options = [];
       const index = new Map();
 
+      const cacheKeySuffix = `${selectedModel}::${selectedVersion}`;
+      const prefixesToFetch = [];
+
       for (const prefix of prefixes) {
         const cacheKey = `${prefix}::${selectedModel}::${selectedVersion}`;
         let cacheEntry = initialOpinionCacheRef.current.get(cacheKey);
 
         if (!cacheEntry) {
-          try {
-            const encodedPrefix = encodeURIComponent(prefix);
-            const encodedModel = encodeURIComponent(selectedModel);
-            const apiPath = `/api/initial-opinions?dataPrefix=${encodedPrefix}&model=${encodedModel}&version=${selectedVersion}`;
-            const response = await fetch(apiPath);
-            if (!response.ok) {
-              console.error("Failed to load initial opinions:", apiPath);
-              continue;
-            }
-            const payload = await response.json();
-            const rows = normalizeRowsForSource(
-              Array.isArray(payload.data) ? payload.data : [],
-              "model"
-            );
-            const initialOpinionByWorker = new Map();
-            rows.forEach((row) => {
-              const workerId = row.worker_id || row.sender_id;
-              if (!workerId) return;
-              initialOpinionByWorker.set(workerId, row);
-            });
-            cacheEntry = { initialOpinionByWorker };
-            initialOpinionCacheRef.current.set(cacheKey, cacheEntry);
-          } catch (error) {
-            console.error("Error loading initial opinions:", error);
-            continue;
-          }
+          prefixesToFetch.push(prefix);
         }
+      }
+
+      if (prefixesToFetch.length > 0) {
+        try {
+          const response = await fetch("/api/initial-opinions-batch", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              dataPrefixes: prefixesToFetch,
+              model: selectedModel,
+              version: selectedVersion,
+            }),
+          });
+          if (!response.ok) {
+            console.error("Failed to load initial opinions batch");
+          } else {
+            const payload = await response.json();
+            const batchData = payload?.data || {};
+            prefixesToFetch.forEach((prefix) => {
+              const rows = normalizeRowsForSource(
+                Array.isArray(batchData[prefix]) ? batchData[prefix] : [],
+                "model"
+              );
+              const initialOpinionByWorker = new Map();
+              rows.forEach((row) => {
+                const workerId = row.worker_id || row.sender_id;
+                if (!workerId) return;
+                initialOpinionByWorker.set(workerId, row);
+              });
+              const cacheKey = `${prefix}::${cacheKeySuffix}`;
+              initialOpinionCacheRef.current.set(cacheKey, { initialOpinionByWorker });
+            });
+          }
+        } catch (error) {
+          console.error("Error loading initial opinions batch:", error);
+        }
+      }
+
+      for (const prefix of prefixes) {
+        const cacheKey = `${prefix}::${cacheKeySuffix}`;
+        const cacheEntry = initialOpinionCacheRef.current.get(cacheKey);
+        if (!cacheEntry) continue;
 
         const initialOpinionByWorker = cacheEntry.initialOpinionByWorker || new Map();
         const demographicRows = filteredDemographics.filter(

@@ -61,7 +61,7 @@ export default function Home() {
           <Text strong className="text-gray-500 uppercase text-xs tracking-widest mr-2">Keywords:</Text>
           <Space size={[0, 8]} wrap className="justify-center">
             {['Role-playing LLM agent', 'Social simulation benchmark', 'Multi-agent LLM system', 'Opinion dynamics'].map(tag => (
-              <Tag key={tag} bordered={false} className="bg-gray-200 text-gray-700 rounded-full px-4 py-1 text-sm">
+              <Tag key={tag} variant='filled' className="bg-gray-200 text-gray-700 rounded-full px-4 py-1 text-sm">
                 {tag}
               </Tag>
             ))}
