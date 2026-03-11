@@ -1,6 +1,7 @@
 "use client";
 
 import { Typography } from "antd";
+import { useState } from "react";
 import LeaderboardTable from "../../components/LeaderboardTable";
 import LeaderboardHeader from "../../components/LeaderboardHeader";
 
@@ -87,6 +88,7 @@ function buildSections() {
 }
 
 export default function Leaderboard() {
+  const [alignmentTopicType, setAlignmentTopicType] = useState("depth");
   const sections = buildSections();
   const depthSection = sections.find((section) => section.id === "depth");
   const breadthSection = sections.find((section) => section.id === "breadth");
@@ -97,43 +99,81 @@ export default function Leaderboard() {
       
       {/* Content Area */}
       <div className="max-w-6xl mx-auto px-4 py-8">
-        {depthSection && <LeaderboardTable sections={[depthSection]} />}
-
-        <div className="bg-white rounded-lg shadow p-6 mt-6">
-          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-            Depth Topics - Avg Stance Δ (Full Conversation Simulation)
-          </Title>
-          <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
-            Average stance change for Depth topics in Full Conversation Simulation. Bars are sorted in
-            ascending order; lower values indicate smaller shifts in stance magnitude.
-          </p>
-          <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
-            <img
-              src="/leaderboard/avg_stance_delta_depth_mode2.svg"
-              alt="Depth topics average stance delta (mode 2)"
-              style={{ width: "100%", height: "auto", display: "block" }}
-            />
+        <div className="bg-white rounded-lg shadow p-6 mb-6">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <Title level={4} style={{ margin: 0 }}>
+              Utterance-level Alignment
+            </Title>
+            <div className="inline-flex rounded-lg border border-gray-200 bg-white p-1 shadow-sm">
+              {[
+                { value: "depth", label: "Depth" },
+                { value: "breadth", label: "Breadth" },
+              ].map((option) => {
+                const isActive = alignmentTopicType === option.value;
+                return (
+                  <button
+                    key={option.value}
+                    type="button"
+                    onClick={() => setAlignmentTopicType(option.value)}
+                    className={`px-3 py-1.5 text-sm font-medium transition ${
+                      isActive
+                        ? "bg-gray-900 text-white"
+                        : "text-gray-600 hover:text-gray-900"
+                    } rounded-md`}
+                  >
+                    {option.label}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+          <div style={{ marginTop: 16 }}>
+            {alignmentTopicType === "depth" && depthSection && (
+              <LeaderboardTable sections={[depthSection]} />
+            )}
+            {alignmentTopicType === "breadth" && breadthSection && (
+              <LeaderboardTable sections={[breadthSection]} />
+            )}
           </div>
         </div>
 
-        {breadthSection && <LeaderboardTable sections={[breadthSection]} />}
-
-        <div className="bg-white rounded-lg shadow p-6 mt-6">
-          <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-            Breadth Topics - Avg Stance Δ (Full Conversation Simulation)
-          </Title>
-          <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
-            Average stance change for Breadth topics in Full Conversation Simulation. Bars are sorted in
-            ascending order; lower values indicate smaller shifts in stance magnitude.
-          </p>
-          <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
-            <img
-              src="/leaderboard/avg_stance_delta_breadth_mode2.svg"
-              alt="Breadth topics average stance delta (mode 2)"
-              style={{ width: "100%", height: "auto", display: "block" }}
-            />
+        {alignmentTopicType === "depth" && (
+          <div className="bg-white rounded-lg shadow p-6 mt-6">
+            <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+              Depth Topics - Avg Stance Δ (Full Conversation Simulation)
+            </Title>
+            <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
+              Average stance change for Depth topics in Full Conversation Simulation. Bars are sorted in
+              ascending order; lower values indicate smaller shifts in stance magnitude.
+            </p>
+            <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
+              <img
+                src="/leaderboard/avg_stance_delta_depth_mode2.svg"
+                alt="Depth topics average stance delta (mode 2)"
+                style={{ width: "100%", height: "auto", display: "block" }}
+              />
+            </div>
           </div>
-        </div>
+        )}
+
+        {alignmentTopicType === "breadth" && (
+          <div className="bg-white rounded-lg shadow p-6 mt-6">
+            <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+              Breadth Topics - Avg Stance Δ (Full Conversation Simulation)
+            </Title>
+            <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
+              Average stance change for Breadth topics in Full Conversation Simulation. Bars are sorted in
+              ascending order; lower values indicate smaller shifts in stance magnitude.
+            </p>
+            <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
+              <img
+                src="/leaderboard/avg_stance_delta_breadth_mode2.svg"
+                alt="Breadth topics average stance delta (mode 2)"
+                style={{ width: "100%", height: "auto", display: "block" }}
+              />
+            </div>
+          </div>
+        )}
 
         <div className="bg-white rounded-lg shadow p-6 mt-10">
           <Title level={3} style={{ margin: 0, marginBottom: 12 }}>
