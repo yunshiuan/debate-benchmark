@@ -1,6 +1,6 @@
 "use client";
 
-import { Typography } from "antd";
+import { Typography, Tabs } from "antd";
 import { useState } from "react";
 import LeaderboardTable from "../../components/LeaderboardTable";
 import LeaderboardHeader from "../../components/LeaderboardHeader";
@@ -99,111 +99,146 @@ export default function Leaderboard() {
       
       {/* Content Area */}
       <div className="max-w-6xl mx-auto px-4 py-8">
-        <div className="bg-white rounded-lg shadow p-6 mb-6">
-          <div className="flex flex-wrap items-center justify-between gap-3">
-            <Title level={4} style={{ margin: 0 }}>
-              Utterance-level Alignment
-            </Title>
-            <div className="inline-flex rounded-lg border border-gray-200 bg-white p-1 shadow-sm">
-              {[
-                { value: "depth", label: "Depth" },
-                { value: "breadth", label: "Breadth" },
-              ].map((option) => {
-                const isActive = alignmentTopicType === option.value;
-                return (
-                  <button
-                    key={option.value}
-                    type="button"
-                    onClick={() => setAlignmentTopicType(option.value)}
-                    className={`px-3 py-1.5 text-sm font-medium transition ${
-                      isActive
-                        ? "bg-gray-900 text-white"
-                        : "text-gray-600 hover:text-gray-900"
-                    } rounded-md`}
-                  >
-                    {option.label}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-          <div style={{ marginTop: 16 }}>
-            {alignmentTopicType === "depth" && depthSection && (
-              <LeaderboardTable sections={[depthSection]} />
-            )}
-            {alignmentTopicType === "breadth" && breadthSection && (
-              <LeaderboardTable sections={[breadthSection]} />
-            )}
-          </div>
-        </div>
+        <Tabs
+          defaultActiveKey="utterance"
+          items={[
+            {
+              key: "utterance",
+              label: "Utterance-level Alignment",
+              children: (
+                <>
+                  <div className="bg-white rounded-lg shadow p-6 mb-6">
+                    <div className="flex flex-wrap items-center justify-between gap-3">
+                      <Title level={4} style={{ margin: 0 }}>
+                        Utterance-level Alignment
+                      </Title>
+                      <div className="inline-flex rounded-lg border border-gray-200 bg-white p-1 shadow-sm">
+                        {[
+                          { value: "depth", label: "Depth" },
+                          { value: "breadth", label: "Breadth" },
+                        ].map((option) => {
+                          const isActive = alignmentTopicType === option.value;
+                          return (
+                            <button
+                              key={option.value}
+                              type="button"
+                              onClick={() => setAlignmentTopicType(option.value)}
+                              className={`px-3 py-1.5 text-sm font-medium transition ${
+                                isActive
+                                  ? "bg-gray-900 text-white"
+                                  : "text-gray-600 hover:text-gray-900"
+                              } rounded-md`}
+                            >
+                              {option.label}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                    <div style={{ marginTop: 16 }}>
+                      {alignmentTopicType === "depth" && depthSection && (
+                        <LeaderboardTable sections={[depthSection]} />
+                      )}
+                      {alignmentTopicType === "breadth" && breadthSection && (
+                        <LeaderboardTable sections={[breadthSection]} />
+                      )}
+                    </div>
+                  </div>
 
-        {alignmentTopicType === "depth" && (
-          <div className="bg-white rounded-lg shadow p-6 mt-6">
-            <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-              Depth Topics - Avg Stance Δ (Full Conversation Simulation)
-            </Title>
-            <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
-              Average stance change for Depth topics in Full Conversation Simulation. Bars are sorted in
-              ascending order; lower values indicate smaller shifts in stance magnitude.
-            </p>
-            <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
-              <img
-                src="/leaderboard/avg_stance_delta_depth_mode2.svg"
-                alt="Depth topics average stance delta (mode 2)"
-                style={{ width: "100%", height: "auto", display: "block" }}
-              />
-            </div>
-          </div>
-        )}
+                  {alignmentTopicType === "depth" && (
+                    <div className="bg-white rounded-lg shadow p-6 mt-6">
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Depth Topics - Avg Stance Δ (Full Conversation Simulation)
+                      </Title>
+                      <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
+                        Average stance change for Depth topics in Full Conversation Simulation. Bars are sorted in
+                        ascending order; lower values indicate smaller shifts in stance magnitude.
+                      </p>
+                      <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
+                        <img
+                          src="/leaderboard/avg_stance_delta_depth_mode2.svg"
+                          alt="Depth topics average stance delta (mode 2)"
+                          style={{ width: "100%", height: "auto", display: "block" }}
+                        />
+                      </div>
+                    </div>
+                  )}
 
-        {alignmentTopicType === "breadth" && (
-          <div className="bg-white rounded-lg shadow p-6 mt-6">
-            <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-              Breadth Topics - Avg Stance Δ (Full Conversation Simulation)
-            </Title>
-            <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
-              Average stance change for Breadth topics in Full Conversation Simulation. Bars are sorted in
-              ascending order; lower values indicate smaller shifts in stance magnitude.
-            </p>
-            <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
-              <img
-                src="/leaderboard/avg_stance_delta_breadth_mode2.svg"
-                alt="Breadth topics average stance delta (mode 2)"
-                style={{ width: "100%", height: "auto", display: "block" }}
-              />
-            </div>
-          </div>
-        )}
+                  {alignmentTopicType === "breadth" && (
+                    <div className="bg-white rounded-lg shadow p-6 mt-6">
+                      <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                        Breadth Topics - Avg Stance Δ (Full Conversation Simulation)
+                      </Title>
+                      <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
+                        Average stance change for Breadth topics in Full Conversation Simulation. Bars are sorted in
+                        ascending order; lower values indicate smaller shifts in stance magnitude.
+                      </p>
+                      <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
+                        <img
+                          src="/leaderboard/avg_stance_delta_breadth_mode2.svg"
+                          alt="Breadth topics average stance delta (mode 2)"
+                          style={{ width: "100%", height: "auto", display: "block" }}
+                        />
+                      </div>
+                    </div>
+                  )}
 
-        <div className="bg-white rounded-lg shadow p-6 mt-10">
-          <Title level={3} style={{ margin: 0, marginBottom: 12 }}>
-            Group-Level Alignment in Opinion Dynamics: LLM Groups vs. Human Groups (Depth Topics)
-          </Title>
-          <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
-            Change in within-group opinion diversity for humans and RPLA simulations on Depth
-            Topics. Bars
-            show averages over groups; more negative values indicate stronger convergence and
-            positive values indicate divergence. Error bars denote the standard error of the mean
-            across groups.
-          </p>
-          {/* <div className="flex items-center gap-3" style={{ marginBottom: 16 }}>
-            <a
-              href="/bar_change_in_sd_fig.svg"
-              target="_blank"
-              rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800"
-            >
-              Open figure (SVG)
-            </a>
-          </div> */}
-          <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
-            <img
-              src="/bar_change_in_sd_fig.svg"
-              alt="Change in within-group opinion diversity figure"
-              style={{ width: "100%", height: "auto", display: "block" }}
-            />
-          </div>
-        </div>
+                  <div className="bg-white rounded-lg shadow p-6 mt-6">
+                    <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
+                      Stance Alignment After SFT/DPO (Full Conversation Simulation)
+                    </Title>
+                    <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
+                      Stance alignment comparison before and after post-training with SFT and DPO.
+                    </p>
+                    <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
+                      <img
+                        src="/bar_change_in_stance_sft_dpo_fig.png"
+                        alt="Stance alignment after SFT/DPO"
+                        style={{ width: "100%", height: "auto", display: "block" }}
+                      />
+                    </div>
+                  </div>
+                </>
+              ),
+            },
+            {
+              key: "group",
+              label: "Group-level Alignment",
+              children: (
+                <div className="bg-white rounded-lg shadow p-6 mt-2">
+                  <Title level={3} style={{ margin: 0, marginBottom: 12 }}>
+                    Group-Level Alignment in Opinion Dynamics: LLM Groups vs. Human Groups (Depth Topics)
+                  </Title>
+                  <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
+                    Change in within-group opinion diversity for humans and RPLA simulations on Depth
+                    Topics. Bars
+                    show averages over groups; more negative values indicate stronger convergence and
+                    positive values indicate divergence. Error bars denote the standard error of the mean
+                    across groups.
+                  </p>
+                  <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
+                    <img
+                      src="/bar_change_in_sd_fig.svg"
+                      alt="Change in within-group opinion diversity figure"
+                      style={{ width: "100%", height: "auto", display: "block" }}
+                    />
+                  </div>
+
+                  <p style={{ color: "#555", lineHeight: 1.6, marginTop: 24, marginBottom: 12 }}>
+                    Change in within-group opinion diversity after SFT/DPO post-training.
+                  </p>
+                  <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
+                    <img
+                      src="/bar_change_in_sd_sft_dpo_fig.svg"
+                      alt="Change in within-group opinion diversity after SFT/DPO"
+                      style={{ width: "100%", height: "auto", display: "block" }}
+                    />
+                  </div>
+                </div>
+              ),
+            },
+          ]}
+        />
       </div>
     </main>
   );
