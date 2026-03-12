@@ -170,7 +170,9 @@ export default function ChatDisplay({
                         fontStyle: "normal",
                       }}
                     >
-                      {labelPred}
+                      <span style={{ color: "#000000", fontWeight: 700 }}>[</span>
+                      Stance label = {labelPred}
+                      <span style={{ color: "#000000", fontWeight: 700 }}>]</span>
                     </span>
                   </Text>
                 )}
@@ -197,7 +199,9 @@ export default function ChatDisplay({
                           fontStyle: "normal",
                         }}
                       >
-                        {labelPred}
+                        <span style={{ color: "#000000", fontWeight: 700 }}>[</span>
+                        Stance label = {labelPred}
+                        <span style={{ color: "#000000", fontWeight: 700 }}>]</span>
                       </span>
                     )}
                   </Text>

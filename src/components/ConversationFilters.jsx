@@ -95,23 +95,15 @@ export default function ConversationFilters({
           />
         </div>
 
-        <div className="flex flex-wrap items-center gap-3">
-          <Text strong>Version:</Text>
-          {versions.length <= 1 ? (
-            <Text>{versionLabels[selectedVersion] ?? selectedVersion ?? "Full Conversation Simulation"}</Text>
-          ) : (
-            <Select
-              style={{ width: "100%", maxWidth: 400 }}
-              placeholder="Select version"
-              value={selectedVersion}
-              onChange={onVersionChange}
-              options={versions.map((version) => ({
-                label: versionLabels[version] ?? version,
-                value: version,
-              }))}
-            />
-          )}
-        </div>
+        <Text type="secondary" style={{ color: "#000000" }}>
+          Note: Simulation Version is Full Conversation Simulation as described in the paper.
+        </Text>
+
+        <Text type="secondary" style={{ display: "block" }}>
+          The stance labels are based classification onto a 6-point scale:{" "}
+          {`{Certainly disagree (-2.5), Probably disagree (-1.5), Lean disagree (−0.5), Lean agree (+0.5), Probably agree (+1.5), Certainly agree (+2.5)}`}{" "}
+          (see paper for details).
+        </Text>
       </Space>
     </div>
   );
