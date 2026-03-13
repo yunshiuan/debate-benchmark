@@ -477,6 +477,11 @@ function ConversationExplorerContent() {
               Topic: {selectedDataPrefix ? parseDataPrefix(selectedDataPrefix).topicLabel : "None"}
             </Text>
           </Tag>
+          <Text type="secondary" style={{ display: "block", marginBottom: 16 }}>
+            The stance labels are based classification onto a 6-point scale:{" "}
+            {`{Certainly disagree (-2.5), Probably disagree (-1.5), Lean disagree (−0.5), Lean agree (+0.5), Probably agree (+1.5), Certainly agree (+2.5)}`}{" "}
+            (see paper for details).
+          </Text>
           {loading || loadingHuman ? (
             <div className="text-center py-12">
               <Spin size="large" />
