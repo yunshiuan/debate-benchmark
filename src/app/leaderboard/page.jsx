@@ -112,6 +112,35 @@ export default function Leaderboard() {
           <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 12 }}>
             Stance distance metric: |stance (human message) - stance (LLM message)|.
           </p>
+          <div style={{ color: "#555", lineHeight: 1.6, marginBottom: 12 }}>
+            <p style={{ marginBottom: 8 }}>
+              Group-level opinion dynamics are measured by tracking the change in within-group variability of stance:
+            </p>
+            <ul style={{ paddingLeft: 20, marginBottom: 8 }}>
+              <li>
+                Public opinions: SD of stance scores in the group’s first-round tweets vs. final-round tweets.
+              </li>
+              <li>
+                Private opinions: SD of members’ initial vs. final private Likert ratings.
+              </li>
+            </ul>
+            <p style={{ marginBottom: 8 }}>
+              Definitions:
+            </p>
+            <ul style={{ paddingLeft: 20, marginBottom: 8 }}>
+              <li>
+                ΔSD<sup>tweet</sup><sub>g</sub> = SD<sup>tweet</sup><sub>final</sub>(g) − SD
+                <sup>tweet</sup><sub>init</sub>(g)
+              </li>
+              <li>
+                ΔSD<sup>private</sup><sub>g</sub> = SD<sup>private</sup><sub>final</sub>(g) − SD
+                <sup>private</sup><sub>init</sub>(g)
+              </li>
+            </ul>
+            <p style={{ marginBottom: 0 }}>
+              Interpretation: more negative values indicate stronger convergence; positive values indicate divergence.
+            </p>
+          </div>
           <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 0 }}>
             The stance labels are based classification onto a 6-point scale:{" "}
             {`{Certainly disagree (-2.5), Probably disagree (-1.5), Lean disagree (−0.5), Lean agree (+0.5), Probably agree (+1.5), Certainly agree (+2.5)}`}{" "}
@@ -134,6 +163,13 @@ export default function Leaderboard() {
               className="px-3 py-1.5 text-sm font-medium text-gray-700 hover:text-gray-900 border border-gray-200 rounded-md"
             >
               Group-level Alignment
+            </button>
+            <button
+              type="button"
+              onClick={() => scrollToSection("dpo-alignment")}
+              className="px-3 py-1.5 text-sm font-medium text-gray-700 hover:text-gray-900 border border-gray-200 rounded-md"
+            >
+              Fine-tuning with DPO on the Dataset Increases Group-level Alignment
             </button>
           </div>
         </div>
@@ -253,8 +289,11 @@ export default function Leaderboard() {
             </>
           )}
 
-          <Title level={4} style={{ margin: "0 0 12px" }}>
-            Fine-tuning with SFT and DPO on the Dataset Aligns LLM Opinion Dynamics on Unseen Topics
+        </div>
+
+        <div id="dpo-alignment" className="bg-white rounded-lg shadow p-6 mt-10">
+          <Title level={3} style={{ margin: 0, marginBottom: 12 }}>
+            Fine-tuning with DPO on the Dataset Increases Group-level Alignment: Aligns LLM Opinion Dynamics on Unseen Topics
           </Title>
           <p style={{ color: "#555", lineHeight: 1.6, marginTop: 0, marginBottom: 8 }}>
             Change in within-group opinion diversity after SFT/DPO post-training.
