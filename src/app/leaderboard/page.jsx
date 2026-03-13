@@ -219,13 +219,15 @@ export default function Leaderboard() {
                 positive values indicate divergence. Error bars denote the standard error of the mean
                 across groups.
               </p>
-              <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
-                <img
-                  src="/bar_change_in_sd_fig_depth.svg"
-                  alt="Change in within-group opinion diversity figure (depth)"
-                  style={{ width: "100%", height: "auto", display: "block" }}
-                />
-              </div>
+          <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
+            <img
+              src="/bar_change_in_sd_fig_depth.svg"
+              alt="Change in within-group opinion diversity figure (depth)"
+              style={{ width: "100%", height: "auto", display: "block" }}
+            />
+          </div>
+
+          <div style={{ height: 24 }} />
             </>
           )}
 
