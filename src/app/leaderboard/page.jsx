@@ -4,7 +4,7 @@ import { Typography } from "antd";
 import { useState } from "react";
 import LeaderboardHeader from "../../components/LeaderboardHeader";
 
-const { Title } = Typography;
+const { Title, Text } = Typography;
 
 const columns = [
   {
@@ -107,42 +107,57 @@ export default function Leaderboard() {
       <div className="max-w-6xl mx-auto px-4 py-8">
         <div className="bg-white rounded-lg shadow p-6 mb-6">
           <Title level={4} style={{ marginTop: 0 }}>
-            Definitions & Notes
+            Definitions of the Metrics
           </Title>
-          <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 12 }}>
-            Stance distance metric: |stance (human message) - stance (LLM message)|.
-          </p>
-          <div style={{ color: "#555", lineHeight: 1.6, marginBottom: 12 }}>
-            <p style={{ marginBottom: 8 }}>
-              Group-level opinion dynamics are measured by tracking the change in within-group variability of stance:
-            </p>
-            <ul style={{ paddingLeft: 20, marginBottom: 8 }}>
-              <li>
-                Public opinions: SD of stance scores in the group’s first-round tweets vs. final-round tweets.
-              </li>
-              <li>
-                Private opinions: SD of members’ initial vs. final private Likert ratings.
-              </li>
-            </ul>
-            <p style={{ marginBottom: 8 }}>
-              Definitions:
-            </p>
-            <ul style={{ paddingLeft: 20, marginBottom: 8 }}>
-              <li>
-                ΔSD<sup>tweet</sup><sub>g</sub> = SD<sup>tweet</sup><sub>final</sub>(g) − SD
-                <sup>tweet</sup><sub>init</sub>(g)
-              </li>
-              <li>
-                ΔSD<sup>private</sup><sub>g</sub> = SD<sup>private</sup><sub>final</sub>(g) − SD
-                <sup>private</sup><sub>init</sub>(g)
-              </li>
-            </ul>
-            <p style={{ marginBottom: 0 }}>
-              Interpretation: more negative values indicate stronger convergence; positive values indicate divergence.
-            </p>
+
+          <div style={{ marginTop: 8 }}>
+            <Text strong style={{ fontSize: 16 }}>Stance distance (Stance Δ) metric:</Text>
+            <div style={{ marginTop: 12, marginBottom: 16, color: "#555", lineHeight: 1.6, paddingLeft: 28 }}>
+              <p style={{ margin: "4px 0" }}>• | stance(human message) - stance(LLM message) |.</p>
+              <p style={{ margin: "4px 0" }}>
+                • Interpretation: the smaller the distance is, the closer the LLM is to human in terms of the stances
+                of the messages they generate.
+              </p>
+            </div>
           </div>
-          <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 0 }}>
-            The stance labels are based classification onto a 6-point scale:{" "}
+
+          <div style={{ marginTop: 8 }}>
+            <Text strong style={{ fontSize: 16 }}>
+              Opinion diversity (SD<sup>tweet</sup><sub>g</sub> or SD<sup>private</sup><sub>g</sub>):
+            </Text>
+            <div style={{ marginTop: 12, marginBottom: 16, color: "#555", lineHeight: 1.6, paddingLeft: 28 }}>
+              <p style={{ margin: "4px 0" }}>
+                • Standard Deviation(stances of the people within the same group g)
+              </p>
+              <p style={{ margin: "4px 0" }}>
+                • Interpretation: The smaller the value is, the closer each person's stance is to each other.
+              </p>
+            </div>
+          </div>
+
+          <div style={{ marginTop: 8 }}>
+            <Text strong style={{ fontSize: 16 }}>
+              Change in Opinion diversity (ΔSD<sup>tweet</sup><sub>g</sub> or ΔSD<sup>private</sup><sub>g</sub>):
+            </Text>
+            <div style={{ marginTop: 12, marginBottom: 16, color: "#555", lineHeight: 1.6, paddingLeft: 28 }}>
+              <p style={{ margin: "4px 0" }}>• The change in Opinion Diversity from the start to the end</p>
+              <p style={{ margin: "4px 0" }}>
+                • ΔSD<sup>tweet</sup><sub>g</sub> = SD<sup>tweet</sup><sub>final</sub>(g) − SD
+                <sup>tweet</sup><sub>init</sub>(g)
+              </p>
+              <p style={{ margin: "4px 0" }}>
+                • ΔSD<sup>private</sup><sub>g</sub> = SD<sup>private</sup><sub>final</sub>(g) − SD
+                <sup>private</sup><sub>init</sub>(g)
+              </p>
+              <p style={{ margin: "4px 0" }}>
+                • Interpretation: negative values indicate opinion convergence after the debate, and positive values
+                indicate opinion divergence.
+              </p>
+            </div>
+          </div>
+
+          <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 0, fontSize: 12 }}>
+            Note: The stance labels are based classification onto a 6-point scale:{" "}
             {`{Certainly disagree (-2.5), Probably disagree (-1.5), Lean disagree (−0.5), Lean agree (+0.5), Probably agree (+1.5), Certainly agree (+2.5)}`}{" "}
             (see paper for details).
           </p>
