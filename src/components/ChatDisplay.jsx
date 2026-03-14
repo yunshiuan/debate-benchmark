@@ -21,7 +21,32 @@ export default function ChatDisplay({
   staggered = false,
   sourceType = "model",
   allLeft = false,
+  largeMode = false,
 }) {
+  // Size configurations based on largeMode
+  const sizes = largeMode
+    ? {
+        avatarSize: 56,
+        gap: 20,
+        padding: "24px 28px",
+        tweetPadding: "28px 32px",
+        workerFontSize: "18px",
+        tweetWorkerFontSize: "19px",
+        textFontSize: "18px",
+        labelFontSize: "15px",
+        spaceClass: "space-y-8",
+      }
+    : {
+        avatarSize: 48,
+        gap: 16,
+        padding: "20px 24px",
+        tweetPadding: "24px 28px",
+        workerFontSize: "16px",
+        tweetWorkerFontSize: "17px",
+        textFontSize: "16px",
+        labelFontSize: "13px",
+        spaceClass: "space-y-6",
+      };
   if (!messages || messages.length === 0) {
     return (
       <div className="text-center py-12 text-gray-400">
@@ -88,7 +113,7 @@ export default function ChatDisplay({
   }
 
   return (
-    <div className="space-y-4">
+    <div className={sizes.spaceClass}>
       {filteredMessages.map((message, idx) => {
         const bgColor = workerColorMap[message.worker_id] || "#F0F0F0";
         const alignment = workerAlignmentMap[message.worker_id] || "left";
@@ -109,12 +134,14 @@ export default function ChatDisplay({
         return (
           <div
             key={idx}
-            className="flex gap-3 items-start"
+            className="flex items-start"
             style={{
               flexDirection: isRight ? "row-reverse" : "row",
+              gap: sizes.gap,
             }}
           >
             <Avatar
+              size={sizes.avatarSize}
               src={getAvatarUrl(workerAvatarMap[message.worker_id])}
               style={{
                 backgroundColor: bgColor,
@@ -131,7 +158,7 @@ export default function ChatDisplay({
               <div
                 style={{
                   backgroundColor: bgColor,
-                  padding: isTweet ? "16px 18px" : "12px 16px",
+                  padding: isTweet ? sizes.tweetPadding : sizes.padding,
                   borderRadius: isTweet ? "12px" : "8px",
                   maxWidth: "80%",
                   boxShadow: isTweet ? "0 2px 6px rgba(0,0,0,0.1)" : "0 1px 2px rgba(0,0,0,0.1)",
@@ -143,8 +170,8 @@ export default function ChatDisplay({
                   <img
                     src="/bookmark.png"
                     alt="Bookmark"
-                    width={40}
-                    height={40}
+                    width={largeMode ? 48 : 40}
+                    height={largeMode ? 48 : 40}
                     style={{
                       position: "absolute",
                       top: 8,
@@ -152,10 +179,10 @@ export default function ChatDisplay({
                     }}
                   />
                 )}
-                <Text strong style={{ display: "block", marginBottom: 4, fontSize: isTweet ? "14px" : "13px" }}>
+                <Text strong style={{ display: "block", marginBottom: 4, fontSize: isTweet ? sizes.tweetWorkerFontSize : sizes.workerFontSize }}>
                   Worker {message.worker_id}
                 </Text>
-                <Text style={{ whiteSpace: "pre-wrap", lineHeight: "1.5" }}>
+                <Text style={{ whiteSpace: "pre-wrap", lineHeight: "1.6", fontSize: sizes.textFontSize }}>
                   {message.llm_text || message.text}
                 </Text>
                 {isTweet && labelPred && (
@@ -163,8 +190,8 @@ export default function ChatDisplay({
                     type="secondary"
                     style={{
                       display: "block",
-                      marginTop: 8,
-                      fontSize: "11px",
+                      marginTop: largeMode ? 12 : 8,
+                      fontSize: sizes.labelFontSize,
                       fontStyle: "italic",
                     }}
                   >
@@ -191,8 +218,8 @@ export default function ChatDisplay({
                     type="secondary"
                     style={{
                       display: "block",
-                      marginTop: 8,
-                      fontSize: "11px",
+                      marginTop: largeMode ? 12 : 8,
+                      fontSize: sizes.labelFontSize,
                       fontStyle: "italic",
                     }}
                   >
