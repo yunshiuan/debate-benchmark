@@ -28,7 +28,7 @@ export default function ConversationFilters({
 
   return (
     <div className="bg-white rounded-lg shadow p-6 mb-6">
-      <Space direction="vertical" size="middle" style={{ width: "100%" }}>
+      <Space orientation="vertical" size="middle" style={{ width: "100%" }}>
         <div>
           <div className="flex flex-wrap items-center gap-3">
             <Text strong>Topic:</Text>
@@ -66,7 +66,7 @@ export default function ConversationFilters({
             filterOption={(input, option) =>
               (option?.label ?? "").toLowerCase().includes(input.toLowerCase())
             }
-            options={topics}
+            options={topics.map(({ value, label }) => ({ value, label }))}
           />
         </div>
 
