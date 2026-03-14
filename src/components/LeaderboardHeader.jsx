@@ -26,7 +26,7 @@ export default function LeaderboardHeader() {
             marginBottom: "0",
           }}
         >
-          🏆 Leaderboard
+          🏆 Model Leaderboard
         </Title>
       </div>
     </div>

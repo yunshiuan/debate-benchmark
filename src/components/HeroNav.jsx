@@ -24,7 +24,7 @@ export default function HeroNav() {
       {/* Internal Link to Leaderboard */}
       <Link href="/leaderboard">
         <Button size="large" icon={<TableOutlined />} className="hover:scale-105 transition-transform">
-          Leaderboard
+          Model Leaderboard
         </Button>
       </Link>
 
