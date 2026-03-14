@@ -506,6 +506,7 @@ function ConversationExplorerContent() {
                   workerAlignmentMap={workerAlignmentMap}
                   workerAvatarMap={workerAvatarMap}
                   sourceType="model"
+                  allLeft
                 />
               </div>
 
@@ -1090,6 +1091,7 @@ function ConversationExplorerContent() {
                         workerAlignmentMap={workerAlignmentMap}
                         workerAvatarMap={workerAvatarMap}
                         sourceType="human"
+                        allLeft
                       />
                     </div>
                     <div
@@ -1122,6 +1124,7 @@ function ConversationExplorerContent() {
                         workerAlignmentMap={workerAlignmentMap}
                         workerAvatarMap={workerAvatarMap}
                         sourceType="model"
+                        allLeft
                       />
                     </div>
                   </div>

@@ -20,6 +20,7 @@ export default function ChatDisplay({
   workerAvatarMap: externalAvatarMap,
   staggered = false,
   sourceType = "model",
+  allLeft = false,
 }) {
   if (!messages || messages.length === 0) {
     return (
@@ -74,6 +75,15 @@ export default function ChatDisplay({
     workerAlignmentMap = {};
     localWorkerIds.forEach((id, idx) => {
       workerAlignmentMap[id] = idx % 2 === 0 ? "left" : "right";
+    });
+  }
+
+  // If allLeft mode, force all avatars to the left
+  if (allLeft) {
+    const localWorkerIds = [...new Set(filteredMessages.map((m) => m.worker_id))];
+    workerAlignmentMap = {};
+    localWorkerIds.forEach((id) => {
+      workerAlignmentMap[id] = "left";
     });
   }
 
