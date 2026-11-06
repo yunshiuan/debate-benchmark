@@ -91,7 +91,7 @@ export default function Leaderboard() {
       <LeaderboardHeader />
       <div className="mx-auto max-w-7xl px-4 py-8">
         <section className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm sm:p-8">
-          <Tag color="red" style={{ maxWidth: "100%", whiteSpace: "normal" }}>NeurIPS 2026 Main Conference (<strong>Evaluations &amp; Datasets Track</strong>)</Tag>
+          <Tag color="red" style={{ maxWidth: "100%", whiteSpace: "normal" }}>NeurIPS 2026 Main Conference (Evaluations &amp; Datasets Track)</Tag>
           <Title level={2} style={{ marginTop: 12 }}>Predicting human opinion dynamics</Title>
           <Paragraph className="max-w-4xl text-gray-600">
             Compare seven base LLMs, supervised fine-tuning of Llama-3.1-8B, and a fitted DeGroot baseline.

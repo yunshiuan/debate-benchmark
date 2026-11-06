@@ -3,7 +3,6 @@
 import HeroNav from "@/components/HeroNav";
 import Citation from "@/components/Citation";
 import { Typography, Space, Tag } from "antd";
-import { MailOutlined } from "@ant-design/icons";
 import Link from "next/link";
 import leaderboard from "../../public/release/leaderboard.json";
 
@@ -15,18 +14,38 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 font-sans">
       <div className="w-full bg-[#9B0000] px-4 pb-10 pt-12 shadow-md">
         <div className="mx-auto max-w-5xl text-center">
-          <p className="mb-4 text-sm font-semibold tracking-wide text-white/85">NeurIPS 2026 Main Conference (<strong>Evaluations &amp; Datasets Track</strong>)</p>
+          <p className="mb-4 text-sm font-normal tracking-wide text-white/85">NeurIPS 2026 Main Conference (Evaluations &amp; Datasets Track)</p>
           <Title level={1} style={{ color: "white", fontSize: "clamp(2.4rem, 7vw, 3.2rem)", fontWeight: 700, marginBottom: 12 }}>🏟️ DEBATE</Title>
           <Paragraph style={{ color: "white", fontSize: "1.25rem", marginBottom: 20 }}>
             A Large-Scale Benchmark for Evaluating Opinion Dynamics in Role-Playing LLM Agents
           </Paragraph>
-          <Paragraph style={{ color: "white", fontSize: "1rem", maxWidth: 900, margin: "0 auto 16px", lineHeight: 1.7, opacity: 0.95 }}>
-            Yun-Shiuan Chuang, Ruixuan Tu, Chengtao Dai, You Li, Smit Vasani, Binwei Yao, Michael Henry Tessler,<br className="hidden sm:block" />
-            {" "}Sijia Yang, Dhavan Shah, Robert Hawkins, Junjie Hu, Timothy T. Rogers
+          <Paragraph aria-label="Authors" style={{ color: "white", fontSize: "1rem", fontWeight: 500, maxWidth: 900, margin: "0 auto 16px", lineHeight: 1.9, opacity: 0.95 }}>
+            <span className="whitespace-nowrap">Yun-Shiuan Chuang<sup>1†</sup></span>,{" "}
+            <span className="whitespace-nowrap">Ruixuan Tu<sup>1,2,3*</sup></span>,{" "}
+            <span className="whitespace-nowrap">Chengtao Dai<sup>1*</sup></span>,{" "}
+            <span className="whitespace-nowrap">You Li<sup>1*</sup></span>,{" "}
+            <span className="whitespace-nowrap">Smit Vasani<sup>1*</sup></span>,{" "}
+            <span className="whitespace-nowrap">Binwei Yao<sup>1</sup></span>,{" "}
+            <span className="whitespace-nowrap">Michael Henry Tessler<sup>5</sup></span>,{" "}
+            <span className="whitespace-nowrap">Sijia Yang<sup>1</sup></span>,{" "}
+            <span className="whitespace-nowrap">Dhavan Shah<sup>1</sup></span>,{" "}
+            <span className="whitespace-nowrap">Robert Hawkins<sup>4</sup></span>,{" "}
+            <span className="whitespace-nowrap">Junjie Hu<sup>1</sup></span>,{" "}
+            <span className="whitespace-nowrap">Timothy T. Rogers<sup>1,6‡</sup></span>
           </Paragraph>
-          <a href="mailto:yunshiuan.chuang@gmail.com" className="inline-flex items-center justify-center gap-2 text-sm text-white/90 hover:text-white">
-            <MailOutlined /> yunshiuan.chuang@gmail.com
-          </a>
+          <div aria-label="Author affiliations" className="mx-auto mb-4 grid max-w-4xl gap-x-6 gap-y-1 text-sm italic leading-relaxed text-white/90 sm:grid-cols-2 lg:grid-cols-3">
+            <p><sup>1</sup> University of Wisconsin–Madison</p>
+            <p><sup>2</sup> University of Tokyo</p>
+            <p><sup>3</sup> RIKEN Center for Advanced Intelligence Project (AIP)</p>
+            <p><sup>4</sup> Stanford University</p>
+            <p><sup>5</sup> Google DeepMind</p>
+            <p><sup>6</sup> UCL Institute of Cognitive Neuroscience</p>
+          </div>
+          <div aria-label="Author notes" className="mx-auto max-w-4xl space-y-1 text-xs leading-relaxed text-white/90">
+            <p>* Co-authors with core contributions.</p>
+            <p>† First author contact: <a href="mailto:yunshiuan.chuang@gmail.com" className="text-white underline decoration-white/50 underline-offset-2 hover:decoration-white">yunshiuan.chuang@gmail.com</a>.</p>
+            <p>‡ Correspondence to Timothy T. Rogers: <a href="mailto:timothy.rogers@ucl.ac.uk" className="text-white underline decoration-white/50 underline-offset-2 hover:decoration-white">timothy.rogers@ucl.ac.uk</a>.</p>
+          </div>
           <HeroNav />
         </div>
       </div>
