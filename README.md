@@ -1,89 +1,69 @@
-# 🏟️ DEBATE: Opinion Dynamics Benchmark
+# DEBATE benchmark website
 
-> **A Large-Scale Benchmark for Evaluating Opinion Dynamics in Role-Playing LLM Agents**
+The public website for **DEBATE: A Large-Scale Benchmark for Evaluating Opinion Dynamics in Role-Playing LLM Agents**, accepted to the NeurIPS 2026 Evaluations and Datasets track.
 
-DEBATE is a high-fidelity environment designed to evaluate how well role-playing LLM agents (RPLAs) simulate realistic human opinion dynamics. It bridges the gap between multi-agent simulations and empirical human behavior.
+[Website](https://debate-benchmark.vercel.app/) · [Dataset](https://huggingface.co/datasets/seantw/DEBATE_LLM) · [Reproduction and training code](https://github.com/yunshiuan/DEBATE-neurips2026) · [Paper](https://arxiv.org/abs/2510.25110)
 
----
+This repository contains the Next.js website. Simulation, annotation, SFT preparation/training, and scientific evaluation live in the separate reproduction code repository linked above.
 
-## 🚀 TL;DR
-We provide a dataset of **37,357 messages** from **2,792 U.S.-based participants** across **107 controversial topics**. This repository contains both the evaluation benchmark and the interactive dashboard to visualize agent performance.
+## Run locally
 
----
+Use Node.js 22 and npm. The exported website data are committed, so a normal build does not download the research archives or call a model API.
 
-## Repository Structure
-```
-debate-benchmark/
-├── data/               # Raw and processed benchmark data (37k+ messages)
-├── scripts/            # Python scripts for running RPLA simulations
-├── evaluation/         # Metrics logic (alignment, belief drift, etc.)
-├── public/             # Static assets for the website (images, icons)
-├── src/                # Next.js Frontend
-│   ├── app/            # Main pages (Home, Leaderboard)
-│   ├── components/     # Reusable UI (HeroNav, Citation, Table)
-│   └── styles/         # Global CSS / Tailwind config
-├── .gitignore
-├── package.json        # Frontend dependencies
-├── requirements.txt    # Research dependencies (Python)
-└── README.md           # The "entry point" for coworkers
-```
-
-- data/: Contains the human-ground-truth conversations and belief reports.
-
-- scripts/: Core logic for prompting LLMs to act as specific personas.
-
-- src/app/: The Next.js frontend, including the UW-Madison themed homepage and leaderboard.
-
-- evaluation/: Implementation of multi-level metrics (utterance, individual, and group levels).
-
----
-
-## 🛠️ Getting Started
-
-### 1. Prerequisites
-* **Node.js** (v18+ for the Dashboard)
-* **Python 3.9+** (for the Simulation/Evaluation engine)
-
-### 2. Installation
-1. First, clone the repository:
-```
-git clone https://github.com/HeyyDario/debate-benchmark.git
-cd debate-benchmark
-```
-
-2. Then Setup the Dashboard (Frontend):
-```
-npm install
+```bash
+npm ci
 npm run dev
 ```
 
-3. Setup the Python dependencies:
+For the production build and automated checks, also install Python 3.10 or 3.11 with the `python3` command available; `npm test` runs both Node and Python tests:
+
+```bash
+npm test
+npm run build
+npm start
 ```
-pip install -r requirements.txt
+
+## Website sections
+
+- **Model leaderboard:** six stance-prediction errors for seven base LLMs, Llama SFT, and DeGroot; group- and topic-generalization test partitions; Full Dynamics Simulation and Next Message Prediction. The original model order, confidence intervals, and valid observation counts are preserved. Separate cross-model tables compare Base to SFT within Llama, Qwen, and Mistral.
+- **Conversation explorer:** recorded human discussions and available generated trajectories from the released experiment caches.
+- **Persona explorer:** demographic responses and participant-level conversation views from the released human records.
+- **Topic explorer:** discussion statements, their sessions, and initial opinions.
+
+The evaluation inventory covers 2,788 participants in 697 groups across 107 topics. The supplied partition masks contain 708 recorded sessions; availability varies by model and metric. These quantities have different meanings and should not be interchanged.
+
+## Refresh the website data
+
+Use Python 3.10 or 3.11 for the data exporters. First install the public DEBATE reproduction package and download its pinned dataset revision. Follow that repository's README for environment setup.
+
+```bash
+debate download --data-root /path/to/debate-data
+debate reproduce all --data-root /path/to/debate-data --output-dir /path/to/paper-results
+python scripts/build_leaderboard.py --reproduction-root /path/to/paper-results
+python scripts/build_explorer_data.py --data-root /path/to/debate-data --demographics /path/to/paper-results/demographics/aggregates.json
 ```
 
----
+The leaderboard exporter requires successful numerical verification reports. It copies values directly from the verified CSVs into `public/release/leaderboard.json` and exports the original figure geometry and model order under `public/camera-ready/`. There are 36 model/split/mode rows and six Base→SFT family/split comparisons. `public/release/leaderboard-provenance.json` records SHA-256 hashes of the inputs and figure assets. Use the optional `--experiment-png` argument to replace the experiment diagram with a current paper export.
 
-## 🛠️ Development Guide
-For coworkers looking to contribute:
-* **Adding a Model**: Add a new provider class in `scripts/models/`.
-* **Modifying the UI**: Components are built using **Ant Design** and **Tailwind CSS**. Check `src/components/` to update the Nav or Citation sections.
-* **Adding Topics**: Update `data/topics.json` with new controversial prompts.
+The explorer exporter writes `data/explorers/index.json`, `demographics.json`, compressed session files under `sessions/`, a dated manifest, and the dataset license. API routes read these exports instead of the older Parquet files. See the script's `--help` for optional output settings. Session availability and data provenance are explicit; missing generations are not filled with results from a different model or experiment.
 
----
+The scientific inputs are pinned to dataset commit `39ae48ab86048a4c480e224c9a6badfabde79a39`. Presentation-only additions to the dataset card do not change this pin. Do not silently mix experiment versions when refreshing the website.
 
-## 📜 Citation
-If you use this benchmark or codebase in your research, please cite:
+## Interpretation and provenance
 
-```bibtex
-@misc{chuang2025debatelargescalebenchmarkroleplaying,
-      title={DEBATE: A Large-Scale Benchmark for Role-Playing LLM Agents in Multi-Agent, Long-Form Debates}, 
-      author={Yun-Shiuan Chuang and Ruixuan Tu and Chengtao Dai and Smit Vasani and Binwei Yao and Michael Henry Tessler and Sijia Yang and Dhavan Shah and Robert Hawkins and Junjie Hu and Timothy T. Rogers},
-      year={2025},
-      eprint={2510.25110},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2510.25110}, 
-}
-```
-Contact: yunshiuan.chuang@wisc.edu
+All six leaderboard errors are lower-is-better. The main plots retain the publication's evaluation and metric-specific validity rules. Cross-model SFT comparisons use their respective human references, so absolute scores across those families are not a common-sample ranking. Text-quality panels use retained scored aggregates with different base/SFT populations; they are descriptive comparisons.
+
+The released SFT test partitions also supplied validation loss for checkpoint selection. Historical annotation behavior and missing supporting records are documented in the [reproduction guide](https://github.com/yunshiuan/DEBATE-neurips2026/blob/main/docs/paper_reproduction.md). The website presents the published cached evaluation, not a newly rescored experiment.
+
+Human records, cached model outputs, numeric results, and derived exports remain subject to the [DEBATE Dataset Research-Only License (Non-Commercial, v1.0)](https://huggingface.co/datasets/seantw/DEBATE_LLM/blob/main/LICENSE). Participant keys support record linkage and must not be used for re-identification.
+
+## Source map
+
+- `src/app/`: homepage, leaderboard, explorers, and API routes.
+- `src/components/`: shared navigation and presentation components.
+- `scripts/`: deterministic website-data exporters.
+- `public/camera-ready/`: current paper figures, PDFs, and numeric CSVs.
+- `public/release/`: leaderboard data and provenance.
+- `data/explorers/`: compact records used by the explorer API routes.
+
+The production website is hosted at https://debate-benchmark.vercel.app/, with automatic Vercel deployment from the `main` branch. Keep credentials and local environment files out of Git.

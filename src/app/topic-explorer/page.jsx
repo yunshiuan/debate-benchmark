@@ -1,154 +1,44 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { Button, Card, Input, Space, Typography, Tag } from "antd";
+import {useEffect, useMemo, useState} from "react";
+import {Alert, Button, Card, Input, Select, Spin, Tag, Typography} from "antd";
 import Link from "next/link";
-import TopicExplorerHeader from "../../components/TopicExplorerHeader";
-import { dataPrefixes } from "../../lib/explorerOptions";
+import TopicExplorerHeader from "@/components/TopicExplorerHeader";
+import {partitionOptions, splitOptions} from "@/lib/explorerOptions";
 
-const { Title, Text } = Typography;
+const {Title, Paragraph, Text} = Typography;
 
 export default function TopicExplorer() {
+  const [index, setIndex] = useState(null);
+  const [error, setError] = useState("");
   const [query, setQuery] = useState("");
-  const [topicType, setTopicType] = useState("all");
-
-  const normalizeTopicLabel = (label) =>
-    String(label || "")
-      .toLowerCase()
-      .replace(/["“”]/g, "")
-      .replace(/\s+/g, " ")
-      .trim();
-
-  const depthTopicSet = new Set(
-    [
-      'A "body cleanse," in which you consume only particular kinds of nutrients over 1-3 days, helps your body to eliminate toxins',
-      "Angels are real",
-      "Everything that happens can eventually be explained by science",
-      "Regular fasting will improve your health",
-      "The US deficit increased after President Obama was elected",
-      "The United States has the highest federal income tax rate of any Western country",
-      "The position of the planets at the time of your birth can influence your personality",
-    ].map(normalizeTopicLabel)
-  );
-
-  const parseDataPrefix = (prefix) => {
-    const parts = String(prefix || "").split("_");
-    if (parts.length < 4) {
-      return { topicKey: prefix || "", topicLabel: prefix || "", prefix };
-    }
-    const topicParts = parts.slice(2, -1);
-    const topicKey = topicParts.join("_");
-    const topicLabel = topicParts.join(" ");
-    return { topicKey, topicLabel, prefix };
-  };
-
-  const topics = useMemo(() => {
-    const byTopic = new Map();
-    dataPrefixes.forEach((prefix) => {
-      const { topicKey, topicLabel } = parseDataPrefix(prefix);
-      if (!topicKey) return;
-      if (!byTopic.has(topicKey)) {
-        byTopic.set(topicKey, { label: topicLabel || topicKey, prefixes: [] });
-      }
-      byTopic.get(topicKey).prefixes.push(prefix);
-    });
-    return Array.from(byTopic.entries()).map(([topicKey, info]) => ({
-      topicKey,
-      label: info.label,
-      prefixes: info.prefixes,
-      topicType: depthTopicSet.has(normalizeTopicLabel(info.label)) ? "depth" : "breadth",
-    }));
+  const [split, setSplit] = useState("group");
+  const [partition, setPartition] = useState("all");
+  useEffect(() => {
+    const controller = new AbortController();
+    fetch("/api/explorer", {signal: controller.signal}).then(async (response) => {
+      if (!response.ok) throw new Error("Unable to load topics.");
+      setIndex(await response.json());
+    }).catch((error) => {if (error.name !== "AbortError") setError(error.message);});
+    return () => controller.abort();
   }, []);
-
-  const filteredTopics = useMemo(() => {
-    const needle = query.trim().toLowerCase();
-    let next = topics;
-    if (topicType !== "all") {
-      next = next.filter((topic) => topic.topicType === topicType);
-    }
-    if (!needle) return next;
-    return next.filter((topic) => {
-      return (
-        topic.label.toLowerCase().includes(needle) ||
-        topic.prefixes.some((prefix) => prefix.toLowerCase().includes(needle))
-      );
-    });
-  }, [query, topicType, topics]);
-
-  return (
-    <main className="min-h-screen bg-gray-50 font-sans">
-      <TopicExplorerHeader />
-      <style jsx global>{`
-        .topic-card .ant-card-head-title {
-          white-space: normal;
-          word-break: break-word;
-        }
-      `}</style>
-
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="bg-white rounded-lg shadow p-6">
-          <Space direction="vertical" size="middle" style={{ width: "100%" }}>
-            <div>
-              <div className="flex flex-wrap items-center gap-3">
-                <Text strong>Topic Set:</Text>
-                <div className="inline-flex rounded-lg border border-gray-200 bg-white p-1 shadow-sm">
-                  {[
-                    { value: "all", label: "All" },
-                    { value: "depth", label: "Depth" },
-                    { value: "breadth", label: "Breadth" },
-                  ].map((option) => {
-                    const isActive = topicType === option.value;
-                    return (
-                      <button
-                        key={option.value}
-                        type="button"
-                        onClick={() => setTopicType(option.value)}
-                        className={`px-3 py-1.5 text-sm font-medium transition ${
-                          isActive
-                            ? "bg-gray-900 text-white"
-                            : "text-gray-600 hover:text-gray-900"
-                        } rounded-md`}
-                      >
-                        {option.label}
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-              <Text strong style={{ display: "block", marginTop: 12 }}>
-                Search topics
-              </Text>
-              <Input
-                placeholder="Search by topic text or prefix"
-                value={query}
-                onChange={(event) => setQuery(event.target.value)}
-                style={{ maxWidth: 640, marginTop: 8 }}
-              />
-            </div>
-
-            <Space size="small" wrap>
-              <Tag color="blue">Topics: {filteredTopics.length}</Tag>
-            </Space>
-          </Space>
-
-          <div className="grid gap-4 mt-6 sm:grid-cols-2 lg:grid-cols-3">
-            {filteredTopics.map((topic) => (
-              <Card
-                key={topic.topicKey}
-                className="shadow-sm topic-card"
-                title={<Title level={5} style={{ marginBottom: 0 }}>{topic.label}</Title>}
-              >
-                <Text type="secondary" style={{ display: "block", marginBottom: 12 }}>
-                  {topic.prefixes.length} group{topic.prefixes.length === 1 ? "" : "s"}
-                </Text>
-                <Link href={`/conversation-explorer?topic=${encodeURIComponent(topic.topicKey)}`}>
-                  <Button type="primary">Open in Conversation Explorer</Button>
-                </Link>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </div>
-    </main>
-  );
+  const topics = useMemo(() => {
+    if (!index) return [];
+    const eligible = new Set(index.sessions.filter((session) => partition === "all" || session.partitions.main[split] === partition).map((session) => session.id));
+    return index.topics.map((topic) => ({...topic, groups: topic.sessions.filter((id) => eligible.has(id)).length})).filter((topic) => topic.groups && topic.label.toLowerCase().includes(query.toLowerCase().trim()));
+  }, [index, split, partition, query]);
+  return <main className="min-h-screen bg-gray-50 font-sans"><TopicExplorerHeader /><div className="max-w-7xl mx-auto px-4 py-8">
+    {error ? <Alert type="error" title={error} /> : !index ? <div className="p-12 text-center"><Spin /></div> : <>
+      <Paragraph>Explore all {index.counts.topics} discussion topics represented in the {index.counts.sessions} human-evaluation groups. Group generalization holds out participant groups; topic generalization holds out entire discussion topics.</Paragraph>
+      <Card className="mb-6"><div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <label><Text strong>Search topics</Text><Input aria-label="Search topics" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search the discussion statements" className="mt-2" /></label>
+        <label><Text strong>Evaluation split</Text><Select aria-label="Evaluation split" className="w-full mt-2" value={split} onChange={setSplit} options={splitOptions} /></label>
+        <label><Text strong>Partition</Text><Select aria-label="Partition" className="w-full mt-2" value={partition} onChange={setPartition} options={partitionOptions} /></label>
+      </div><div className="mt-4"><Tag color="red">{topics.length} topics</Tag><Tag>{topics.reduce((sum, topic) => sum + topic.groups, 0)} groups</Tag></div></Card>
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{topics.map((topic) => <Card key={topic.id} className="h-full" title={<Title level={5} style={{whiteSpace: "normal", margin: 0, fontSize: 16, lineHeight: 1.55}}>{topic.label}</Title>}>
+        <p>{topic.groups} group{topic.groups === 1 ? "" : "s"} in this selection</p>
+        <Link href={`/conversation-explorer?topic=${topic.id}&split=${split}&partition=${partition}`}><Button type="primary">Explore conversations</Button></Link>
+      </Card>)}</div>
+    </>}
+  </div></main>;
 }

@@ -21,7 +21,7 @@ export default function PersonaExplorerHeader() {
           level={1}
           style={{
             color: "white",
-            fontSize: "3rem",
+            fontSize: "clamp(1.8rem, 5vw, 3rem)",
             fontWeight: "700",
             marginBottom: "0",
           }}

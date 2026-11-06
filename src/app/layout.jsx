@@ -3,8 +3,8 @@ import { ConfigProvider } from 'antd';
 import "./globals.css";
 
 export const metadata = {
-  title: "Debate-Benchmark",
-  description: "Evaluating the reasoning of AI agents",
+  title: "DEBATE — Opinion Dynamics Benchmark",
+  description: "NeurIPS 2026 benchmark for evaluating opinion dynamics in role-playing LLM agents: model results, human conversations, personas, and 107 discussion topics.",
 };
 
 export default function RootLayout({ children }) {

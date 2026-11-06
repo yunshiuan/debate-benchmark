@@ -1,0 +1,13 @@
+family,split,role,model,private_stance_alignment_abs,private_stance_change_error_abs,private_opinion_convergence_error
+Llama,group_test,base,Llama-3.1-8B-Instruct,1.8070953436807096,1.7317647058823529,0.8044025768958446
+Llama,group_test,SFT,ft:Llama-3.1-8B-Instruct-SFT-20260608-bd-real:bd-group-5epochs,0.9753424657534246,0.9003021148036254,0.5570973652780612
+Llama,topic_test,base,Llama-3.1-8B-Instruct,1.8165413533834587,1.7870662460567823,0.8600971309962551
+Llama,topic_test,SFT,ft:Llama-3.1-8B-Instruct-SFT-20260608-bd-real:bd-topic-5epochs,1.040219378427788,0.9882583170254403,0.7176063987784882
+Qwen,group_test,base,Qwen3.5-4B,1.527027027027027,1.477142857142857,0.8067296708993689
+Qwen,group_test,SFT,ft:Qwen3.5-4B-SFT-20260724:both-group-3epochs-unsloth,1.1454545454545455,1.0859598853868195,0.6777920760894074
+Qwen,topic_test,base,Qwen3.5-4B,1.4664107485604607,1.3777777777777778,0.7751581081917416
+Qwen,topic_test,SFT,ft:Qwen3.5-4B-SFT-20260724:both-topic-3epochs-unsloth,1.1735074626865671,1.182555780933063,0.7198640842582871
+Mistral,group_test,base,Mistral-7B-Instruct-v0.3,1.4659090909090908,1.2583333333333333,0.7727031920806843
+Mistral,group_test,SFT,ft:Mistral-7B-Instruct-v0.3-SFT-20260725-bd-unsloth:bd-group-3epochs,1.2512953367875648,1.1756373937677054,0.6922735068316763
+Mistral,topic_test,base,Mistral-7B-Instruct-v0.3,1.6228571428571428,1.4293286219081272,0.8620075522907148
+Mistral,topic_test,SFT,ft:Mistral-7B-Instruct-v0.3-SFT-20260725-bd-unsloth:bd-topic-3epochs,1.2835314091680814,1.2531645569620253,0.6940462999700047

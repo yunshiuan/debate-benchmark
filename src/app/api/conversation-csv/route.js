@@ -1,118 +1,13 @@
-import fs from "fs";
-import path from "path";
-import { NextResponse } from "next/server";
-import { readParquetRows, coerceRowsToStrings } from "@/lib/parquet";
-
+import {NextResponse} from "next/server";
+import {explorerStore, requestSession, ExplorerError, CACHE_HEADERS} from "@/lib/explorerData.mjs";
 export const runtime = "nodejs";
-
 export async function GET(request) {
-  const { searchParams } = new URL(request.url);
-  const dataPrefix = searchParams.get("dataPrefix");
-  const model = searchParams.get("model");
-  const version = searchParams.get("version");
-
-  if (!dataPrefix || !model || !version) {
-    return NextResponse.json(
-      { error: "Missing required parameters" },
-      { status: 400 }
-    );
-  }
-
-  const parquetPath = path.join(
-    process.cwd(),
-    "result_parquet",
-    "eval_v3",
-    "validity",
-    dataPrefix,
-    model,
-    `simulation-llm-${version}.parquet`
-  );
-
-  const csvPath = path.join(
-    process.cwd(),
-    "public",
-    "result",
-    "eval_v3",
-    "validity",
-    dataPrefix,
-    model,
-    `simulation-llm-${version}.csv`
-  );
-
-  const parseCsv = (text) => {
-    if (!text) return [];
-    const rows = [];
-    let currentRow = [];
-    let currentField = "";
-    let inQuotes = false;
-
-    for (let i = 0; i < text.length; i++) {
-      const char = text[i];
-      const nextChar = text[i + 1];
-
-      if (char === '"') {
-        if (inQuotes && nextChar === '"') {
-          currentField += '"';
-          i++;
-        } else {
-          inQuotes = !inQuotes;
-        }
-      } else if (char === "," && !inQuotes) {
-        currentRow.push(currentField);
-        currentField = "";
-      } else if ((char === "\n" || (char === "\r" && nextChar === "\n")) && !inQuotes) {
-        if (char === "\r") i++;
-        currentRow.push(currentField);
-        if (currentRow.length > 0 && currentRow.some((f) => f.trim())) {
-          rows.push(currentRow);
-        }
-        currentRow = [];
-        currentField = "";
-      } else {
-        currentField += char;
-      }
-    }
-
-    if (currentField || currentRow.length > 0) {
-      currentRow.push(currentField);
-      if (currentRow.some((f) => f.trim())) {
-        rows.push(currentRow);
-      }
-    }
-
-    if (rows.length < 2) return [];
-    const headers = rows[0];
-    return rows.slice(1).map((row) => {
-      const obj = {};
-      headers.forEach((header, idx) => {
-        obj[header] = row[idx] ?? "";
-      });
-      return obj;
-    });
-  };
-
+  const params = new URL(request.url).searchParams;
   try {
-    if (fs.existsSync(parquetPath)) {
-      const rows = await readParquetRows(parquetPath);
-      return NextResponse.json({ data: coerceRowsToStrings(rows) }, { status: 200 });
-    }
-
-    if (!fs.existsSync(csvPath)) {
-      console.error("Conversation file not found:", parquetPath, csvPath);
-      return NextResponse.json(
-        { error: "Conversation file not found", parquetPath, csvPath },
-        { status: 404 }
-      );
-    }
-
-    const csvContent = fs.readFileSync(csvPath, "utf8");
-    const rows = parseCsv(csvContent);
-    return NextResponse.json({ data: rows }, { status: 200 });
+    const result = explorerStore.getRun(requestSession(params), params.get("model"), params.get("version"));
+    return NextResponse.json(result, {headers: CACHE_HEADERS});
   } catch (error) {
-    console.error("Error reading conversation data:", error);
-    return NextResponse.json(
-      { error: "Failed to read conversation data" },
-      { status: 500 }
-    );
+    if (!(error instanceof ExplorerError)) console.error("Unable to read released conversation data", error.message);
+    return NextResponse.json({error: error instanceof ExplorerError ? error.message : "Unable to load conversation data."}, {status: error.status || 500});
   }
 }

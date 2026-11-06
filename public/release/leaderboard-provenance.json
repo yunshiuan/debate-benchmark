@@ -1,0 +1,148 @@
+{
+  "datasetRevision": "39ae48ab86048a4c480e224c9a6badfabde79a39",
+  "sourceFiles": [
+    {
+      "source": "primary/csv/summary_metrics.csv",
+      "sha256": "f6f81cb5d5499ecb1e2156c22e3c1d1a29b8710febd02301121c8a2e57471aee"
+    },
+    {
+      "source": "tables/cross_model_private_errors.csv",
+      "sha256": "de649a733b4b72f7c1b538daf1e2f0a5a2d17eb09c6a3d7ad07007a6f8af0e3a",
+      "website": "public/release/cross_model_private_errors.csv"
+    },
+    {
+      "source": "tables/cross_model_convergence.csv",
+      "sha256": "7ea1b7c5a9a3b75a19e18b8debfe9a3b344a09b75a9c3eb3da62ec6b27ffe01c",
+      "website": "public/release/cross_model_convergence.csv"
+    },
+    {
+      "source": "tables/dataset_totals.json",
+      "sha256": "acbe3597877f70c8ec1f4827fa1220ef23062bcaf3bc7aa6b524ea9571dfa3de"
+    },
+    {
+      "source": "primary/group_test_set/M1.png",
+      "website": "public/camera-ready/group-errors.png",
+      "sha256": "67aba5a36da3feebd42763a5ceae16b3a748af014b4654b2a5f688fc37a93fce"
+    },
+    {
+      "source": "primary/group_test_set/M1.pdf",
+      "website": "public/camera-ready/group-errors.pdf",
+      "sha256": "00bdd4f91f144f19432cc5be0ad233074fb790bade543cf6f65d53466e8b0346"
+    },
+    {
+      "source": "primary/group_test_set/M1.csv",
+      "website": "public/camera-ready/group-errors.csv",
+      "sha256": "32d997fab861cde7d6b08d74e0dd1312d1d940cc99b2fe9bcd8bdc58d0320b7f"
+    },
+    {
+      "source": "primary/group_test_set/M3.png",
+      "website": "public/camera-ready/group-convergence.png",
+      "sha256": "ee9b950a83c89cd2654c14700299c0e35ac2144c7a9e0b1040da14292996587f"
+    },
+    {
+      "source": "primary/group_test_set/M3.pdf",
+      "website": "public/camera-ready/group-convergence.pdf",
+      "sha256": "0ffe9ed9067b52e0bb3aefb0c6ceb7dea6051ef86749455500904b9e6441ed16"
+    },
+    {
+      "source": "primary/group_test_set/M3.csv",
+      "website": "public/camera-ready/group-convergence.csv",
+      "sha256": "78b556f73b7ada6d6e0dfa7d91fde2859033231ed1757d4caa15adbb89e003e6"
+    },
+    {
+      "source": "primary/group_test_set/M5.png",
+      "website": "public/camera-ready/group-partner-gap.png",
+      "sha256": "6f856eea776eb2422ba914c97dfe4fd510ca034cd72c1eb35a95ae6c39f4f1ab"
+    },
+    {
+      "source": "primary/group_test_set/M5.pdf",
+      "website": "public/camera-ready/group-partner-gap.pdf",
+      "sha256": "e62137094d01a9493f9bb83486436783bdf5bbc9e1e7f90c4fbd0b9aff2fb90a"
+    },
+    {
+      "source": "primary/group_test_set/M5.csv",
+      "website": "public/camera-ready/group-partner-gap.csv",
+      "sha256": "0d9668e69b215a6b6b4d6f392b18c6ffbf0fc756838ba710fee7d3dd877e1bde"
+    },
+    {
+      "source": "primary/group_test_set/A1.png",
+      "website": "public/camera-ready/group-text.png",
+      "sha256": "8108bec6a22ea44818dbe7240bcf86995a58c3f0b792dd3e7dcd98dd3edbf956"
+    },
+    {
+      "source": "primary/group_test_set/A1.pdf",
+      "website": "public/camera-ready/group-text.pdf",
+      "sha256": "4503856ccf89e1caca0e11aa0f5b1e6ef0b8041f2b61c3ccf627b2a656f62804"
+    },
+    {
+      "source": "primary/group_test_set/A1.csv",
+      "website": "public/camera-ready/group-text.csv",
+      "sha256": "65ac6f7238c70fd4e7217b719e366aa896595eda441f443359143008f5a1b370"
+    },
+    {
+      "source": "primary/topic_test_set/A3.png",
+      "website": "public/camera-ready/topic-errors.png",
+      "sha256": "74ba9317c70e130d93a3cc3314d3f7b6aa3fb28e31609bf2549823c08f9885e1"
+    },
+    {
+      "source": "primary/topic_test_set/A3.pdf",
+      "website": "public/camera-ready/topic-errors.pdf",
+      "sha256": "8506dc3a15b9c3abd9f0a122b67e6d2a0cbff5f9eb334b9b9a10b9cc94e1f266"
+    },
+    {
+      "source": "primary/topic_test_set/A3.csv",
+      "website": "public/camera-ready/topic-errors.csv",
+      "sha256": "40b1ef3a4fd09bf7101b15ddd68f569a8ce3da93f83799ca044d2fad8420e940"
+    },
+    {
+      "source": "primary/topic_test_set/A5.png",
+      "website": "public/camera-ready/topic-convergence.png",
+      "sha256": "2abbb908377ed933abd025351d327839ffdd103efe439b50ca7b6bb9917551e1"
+    },
+    {
+      "source": "primary/topic_test_set/A5.pdf",
+      "website": "public/camera-ready/topic-convergence.pdf",
+      "sha256": "879e881cf57cbfb1355a657f0c477c3871a3a4281fc9c86a93880de35b8de91b"
+    },
+    {
+      "source": "primary/topic_test_set/A5.csv",
+      "website": "public/camera-ready/topic-convergence.csv",
+      "sha256": "dfae4fd1f7dbeb8a7ed5149b44447b3af583f78b2f61bb0d458648760f956143"
+    },
+    {
+      "source": "primary/topic_test_set/A9.png",
+      "website": "public/camera-ready/topic-partner-gap.png",
+      "sha256": "a2959247d7c163bffdb59b4ee93405fa39c09ae05f7ac5093d03a62b2f1a3e03"
+    },
+    {
+      "source": "primary/topic_test_set/A9.pdf",
+      "website": "public/camera-ready/topic-partner-gap.pdf",
+      "sha256": "4a252ef802bd77dcd09616b6bc7397d7bdb1a28aca15b64baaccbaca9638dcab"
+    },
+    {
+      "source": "primary/topic_test_set/A9.csv",
+      "website": "public/camera-ready/topic-partner-gap.csv",
+      "sha256": "83325c668825774816704ed37cfdbb2816f429133d5fc2a82e880fe309d90e58"
+    },
+    {
+      "source": "primary/topic_test_set/A2.png",
+      "website": "public/camera-ready/topic-text.png",
+      "sha256": "dba68c5bd84bb26f77100d848a13ce9d898d04811fa8454cf18a54770c894b70"
+    },
+    {
+      "source": "primary/topic_test_set/A2.pdf",
+      "website": "public/camera-ready/topic-text.pdf",
+      "sha256": "093f947fe0d90d32068e108ca621c433f80dff8cd8fb7b2fa20e2aae63c89078"
+    },
+    {
+      "source": "primary/topic_test_set/A2.csv",
+      "website": "public/camera-ready/topic-text.csv",
+      "sha256": "4ea3398704c3e124c03d45e70f631cf55297b63e5be36a9272445c6b85f894b2"
+    },
+    {
+      "source": "Current paper experiment diagram",
+      "website": "public/camera-ready/experiment.png",
+      "sha256": "868ca40fc879c853167cbb10474ac1c9a431780e785b9b6310dc189436414e60"
+    }
+  ]
+}

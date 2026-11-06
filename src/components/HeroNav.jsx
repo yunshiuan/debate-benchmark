@@ -1,24 +1,16 @@
 "use client";
-import { Button, Space } from 'antd';
+import { Button } from 'antd';
 import { 
   TableOutlined, 
   FilePdfOutlined, 
   UserOutlined,
-  TagsOutlined
+  TagsOutlined,
+  GithubOutlined,
+  DatabaseOutlined
 } from '@ant-design/icons';
 import Link from 'next/link';
 
 export default function HeroNav() {
-  const hfIcon = (
-    <img
-      src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/huggingface-color.svg"
-      alt="Hugging Face"
-      width={18}
-      height={18}
-      style={{ display: "block" }}
-    />
-  );
-
   return (
     <div className="flex flex-wrap justify-center gap-3 my-8">
       {/* Internal Link to Leaderboard */}
@@ -50,9 +42,10 @@ export default function HeroNav() {
       {/* External Links */}
       <Button 
         size="large" 
-        icon={hfIcon} 
+        icon={<DatabaseOutlined />}
         href="https://huggingface.co/datasets/seantw/DEBATE_LLM" 
         target="_blank"
+        rel="noopener noreferrer"
       >
         Dataset
       </Button>
@@ -62,8 +55,13 @@ export default function HeroNav() {
         icon={<FilePdfOutlined />} 
         href="https://arxiv.org/abs/2510.25110"
         target="_blank"
+        rel="noopener noreferrer"
       >
         Paper
+      </Button>
+
+      <Button size="large" icon={<GithubOutlined />} href="https://github.com/yunshiuan/DEBATE-neurips2026" target="_blank" rel="noopener noreferrer">
+        Code
       </Button>
 
     </div>

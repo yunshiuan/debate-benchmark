@@ -1,0 +1,1950 @@
+{
+  "schemaVersion": 1,
+  "releaseDate": "2026-11-06",
+  "datasetRevision": "39ae48ab86048a4c480e224c9a6badfabde79a39",
+  "metrics": [
+    {
+      "id": "public_stance_alignment_abs",
+      "channel": "Public",
+      "label": "Single-opinion",
+      "countUnit": "predictions"
+    },
+    {
+      "id": "public_stance_change_error_abs",
+      "channel": "Public",
+      "label": "Opinion-update",
+      "countUnit": "participants"
+    },
+    {
+      "id": "public_opinion_convergence_error",
+      "channel": "Public",
+      "label": "Opinion-convergence",
+      "countUnit": "groups"
+    },
+    {
+      "id": "private_stance_alignment_abs",
+      "channel": "Private",
+      "label": "Single-opinion",
+      "countUnit": "predictions"
+    },
+    {
+      "id": "private_stance_change_error_abs",
+      "channel": "Private",
+      "label": "Opinion-update",
+      "countUnit": "participants"
+    },
+    {
+      "id": "private_opinion_convergence_error",
+      "channel": "Private",
+      "label": "Opinion-convergence",
+      "countUnit": "groups"
+    }
+  ],
+  "results": [
+    {
+      "modelId": "gpt-5-mini",
+      "label": "gpt-5-mini",
+      "partition": "group_test",
+      "mode": "v0",
+      "kind": "base",
+      "availableGroups": 132,
+      "missingGroups": 3,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.2876106194690264,
+          "ciLow": 1.1882060724668282,
+          "ciHigh": 1.3907368362523616,
+          "count": 904
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.3192488262910798,
+          "ciLow": 1.2008830041614014,
+          "ciHigh": 1.4327185109993985,
+          "count": 426
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.7526016861735982,
+          "ciLow": 0.6595357869472126,
+          "ciHigh": 0.8606041963538318,
+          "count": 131
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.0555555555555556,
+          "ciLow": 0.9373466537994766,
+          "ciHigh": 1.1707344852491803,
+          "count": 450
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.014218009478673,
+          "ciLow": 0.8826054509869968,
+          "ciHigh": 1.1513951991519007,
+          "count": 422
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.593833870481914,
+          "ciLow": 0.5043496009419135,
+          "ciHigh": 0.6914226187172188,
+          "count": 130
+        }
+      }
+    },
+    {
+      "modelId": "gpt-4o-mini-2024-07-18",
+      "label": "gpt-4o-mini",
+      "partition": "group_test",
+      "mode": "v0",
+      "kind": "base",
+      "availableGroups": 132,
+      "missingGroups": 3,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.316577540106952,
+          "ciLow": 1.1831843818782097,
+          "ciHigh": 1.4440060579381058,
+          "count": 935
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.2580275229357798,
+          "ciLow": 1.1157755623222247,
+          "ciHigh": 1.3927924426658458,
+          "count": 436
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.6841806036240801,
+          "ciLow": 0.5827978111546974,
+          "ciHigh": 0.7825071455111927,
+          "count": 130
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.261061946902655,
+          "ciLow": 1.1523998270717786,
+          "ciHigh": 1.3716864326851683,
+          "count": 452
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.1886792452830188,
+          "ciLow": 1.0730835212099987,
+          "ciHigh": 1.3060783995886063,
+          "count": 424
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.7047182479957063,
+          "ciLow": 0.618089722448266,
+          "ciHigh": 0.8008536611713191,
+          "count": 129
+        }
+      }
+    },
+    {
+      "modelId": "gemini-2.5-flash-lite",
+      "label": "Gemini-2.5-Flash-Lite",
+      "partition": "group_test",
+      "mode": "v0",
+      "kind": "base",
+      "availableGroups": 132,
+      "missingGroups": 3,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.2130620985010707,
+          "ciLow": 1.105595586463318,
+          "ciHigh": 1.3226255321920484,
+          "count": 934
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.2155963302752293,
+          "ciLow": 1.0960178205503515,
+          "ciHigh": 1.3422549019607843,
+          "count": 436
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.6811044575254656,
+          "ciLow": 0.5984845747356158,
+          "ciHigh": 0.7633212487368085,
+          "count": 130
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.1880530973451326,
+          "ciLow": 1.0534456001516372,
+          "ciHigh": 1.3288811183753761,
+          "count": 452
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.15962441314554,
+          "ciLow": 1.0230128830434928,
+          "ciHigh": 1.3084693704395045,
+          "count": 426
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.5807173800821963,
+          "ciLow": 0.4999148989422917,
+          "ciHigh": 0.6688937794757046,
+          "count": 130
+        }
+      }
+    },
+    {
+      "modelId": "Mistral-7B-Instruct-v0.3",
+      "label": "Mistral-7B",
+      "partition": "group_test",
+      "mode": "v0",
+      "kind": "base",
+      "availableGroups": 132,
+      "missingGroups": 3,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.587527352297593,
+          "ciLow": 1.414128525264395,
+          "ciHigh": 1.7541421385581866,
+          "count": 914
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.4707259953161593,
+          "ciLow": 1.2896870374052716,
+          "ciHigh": 1.637822214101668,
+          "count": 427
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.7723201528507843,
+          "ciLow": 0.6539482119438602,
+          "ciHigh": 0.9062771557603857,
+          "count": 128
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.3549107142857142,
+          "ciLow": 1.2099013642163117,
+          "ciHigh": 1.4977941176470588,
+          "count": 448
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.35,
+          "ciLow": 1.1851851851851851,
+          "ciHigh": 1.5116348283499446,
+          "count": 420
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.7340122400016048,
+          "ciLow": 0.6126541232917323,
+          "ciHigh": 0.8602874869272905,
+          "count": 127
+        }
+      }
+    },
+    {
+      "modelId": "Qwen2.5-32B-Instruct",
+      "label": "Qwen2.5-32B",
+      "partition": "group_test",
+      "mode": "v0",
+      "kind": "base",
+      "availableGroups": 124,
+      "missingGroups": 11,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.4651741293532339,
+          "ciLow": 1.2835681674219914,
+          "ciHigh": 1.6370034410694867,
+          "count": 804
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.3470744680851063,
+          "ciLow": 1.1674853064651554,
+          "ciHigh": 1.5216344086021505,
+          "count": 376
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.805588230120209,
+          "ciLow": 0.6914815510283508,
+          "ciHigh": 0.9436754599729923,
+          "count": 118
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.1995192307692308,
+          "ciLow": 1.0943916464891041,
+          "ciHigh": 1.3247674008652628,
+          "count": 416
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.1381074168797953,
+          "ciLow": 1.0247289014615748,
+          "ciHigh": 1.2561656116797262,
+          "count": 391
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.6718850761595905,
+          "ciLow": 0.5780220437407764,
+          "ciHigh": 0.7779538266490462,
+          "count": 119
+        }
+      }
+    },
+    {
+      "modelId": "Llama-3.1-70B-Instruct",
+      "label": "Llama-3.1-70B",
+      "partition": "group_test",
+      "mode": "v0",
+      "kind": "base",
+      "availableGroups": 132,
+      "missingGroups": 3,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.4839424141749724,
+          "ciLow": 1.3333053691275167,
+          "ciHigh": 1.6480658904918586,
+          "count": 903
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.4419431279620853,
+          "ciLow": 1.2837149605481726,
+          "ciHigh": 1.6245372083375378,
+          "count": 422
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.7615351253616358,
+          "ciLow": 0.6523815969172915,
+          "ciHigh": 0.8717693223767934,
+          "count": 128
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.256179775280899,
+          "ciLow": 1.1136197223278812,
+          "ciHigh": 1.380527091579091,
+          "count": 445
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.2291169451073987,
+          "ciLow": 1.081336382508687,
+          "ciHigh": 1.3765343457050487,
+          "count": 419
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.6784932313426304,
+          "ciLow": 0.5965548923014109,
+          "ciHigh": 0.7668941307256184,
+          "count": 128
+        }
+      }
+    },
+    {
+      "modelId": "Llama-3.1-8B-Instruct",
+      "label": "Llama-3.1-8B",
+      "partition": "group_test",
+      "mode": "v0",
+      "kind": "base",
+      "availableGroups": 132,
+      "missingGroups": 3,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.5845464725643896,
+          "ciLow": 1.4708610197943623,
+          "ciHigh": 1.7068983551132384,
+          "count": 893
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.6408114558472553,
+          "ciLow": 1.4975798472924025,
+          "ciHigh": 1.792407936850433,
+          "count": 419
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.7816989268037311,
+          "ciLow": 0.6910828684633281,
+          "ciHigh": 0.8743983439135095,
+          "count": 130
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.8070953436807096,
+          "ciLow": 1.6857789727256234,
+          "ciHigh": 1.9308758248648863,
+          "count": 451
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.7317647058823529,
+          "ciLow": 1.5957237490149725,
+          "ciHigh": 1.8681368444436848,
+          "count": 425
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.8044025768958446,
+          "ciLow": 0.7133153286763326,
+          "ciHigh": 0.901551905411895,
+          "count": 129
+        }
+      }
+    },
+    {
+      "modelId": "ft:Llama-3.1-8B-Instruct-SFT-20260608-bd-real:bd-group-5epochs",
+      "label": "Llama-3.1-8B SFT",
+      "partition": "group_test",
+      "mode": "v0",
+      "kind": "sft",
+      "availableGroups": 125,
+      "missingGroups": 10,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.1368301026225769,
+          "ciLow": 1.0166798923241498,
+          "ciHigh": 1.2633583948283715,
+          "count": 877
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.0794621026894866,
+          "ciLow": 0.9413158259757805,
+          "ciHigh": 1.2199888687973346,
+          "count": 409
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.5823982897597109,
+          "ciLow": 0.4890048984491558,
+          "ciHigh": 0.6816455818971336,
+          "count": 123
+        },
+        "private_stance_alignment_abs": {
+          "value": 0.9753424657534246,
+          "ciLow": 0.8212165313052595,
+          "ciHigh": 1.1398927005012531,
+          "count": 365
+        },
+        "private_stance_change_error_abs": {
+          "value": 0.9003021148036254,
+          "ciLow": 0.7298637374860957,
+          "ciHigh": 1.0690764463885851,
+          "count": 331
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.5570973652780612,
+          "ciLow": 0.4396940517615862,
+          "ciHigh": 0.6782244416676158,
+          "count": 109
+        }
+      }
+    },
+    {
+      "modelId": "DeGroot fit",
+      "label": "DeGroot fit",
+      "partition": "group_test",
+      "mode": "v0",
+      "kind": "baseline",
+      "availableGroups": 128,
+      "missingGroups": 0,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 0.7628618579766172,
+          "ciLow": 0.6608295186357555,
+          "ciHigh": 0.8826186537110816,
+          "count": 634
+        },
+        "public_stance_change_error_abs": {
+          "value": 0.812117518268505,
+          "ciLow": 0.6986758592836918,
+          "ciHigh": 0.9372708495238258,
+          "count": 312
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.534630016208255,
+          "ciLow": 0.4444527449610003,
+          "ciHigh": 0.6342559357916728,
+          "count": 85
+        },
+        "private_stance_alignment_abs": {
+          "value": 0.7400012855638505,
+          "ciLow": 0.6171488769188223,
+          "ciHigh": 0.8769956287354278,
+          "count": 211
+        },
+        "private_stance_change_error_abs": {
+          "value": 0.7400012855638498,
+          "ciLow": 0.6171488769188218,
+          "ciHigh": 0.8769956287354272,
+          "count": 211
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.49014651441128987,
+          "ciLow": 0.3840375731644191,
+          "ciHigh": 0.609069547196165,
+          "count": 64
+        }
+      }
+    },
+    {
+      "modelId": "gpt-5-mini",
+      "label": "gpt-5-mini",
+      "partition": "group_test",
+      "mode": "v1_5",
+      "kind": "base",
+      "availableGroups": 132,
+      "missingGroups": 3,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.2317736670293797,
+          "ciLow": 1.1149946977014367,
+          "ciHigh": 1.3420028275881668,
+          "count": 919
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.2627314814814814,
+          "ciLow": 1.135817950130872,
+          "ciHigh": 1.381212191585291,
+          "count": 432
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.6807772351852117,
+          "ciLow": 0.6009298398760358,
+          "ciHigh": 0.7664418967282021,
+          "count": 131
+        },
+        "private_stance_alignment_abs": {
+          "value": 0.9577777777777777,
+          "ciLow": 0.8360535740658692,
+          "ciHigh": 1.0751814205660815,
+          "count": 450
+        },
+        "private_stance_change_error_abs": {
+          "value": 0.9316037735849056,
+          "ciLow": 0.8118912337662337,
+          "ciHigh": 1.0561305286497842,
+          "count": 424
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.5735568807238413,
+          "ciLow": 0.478942793533635,
+          "ciHigh": 0.6718973088402609,
+          "count": 129
+        }
+      }
+    },
+    {
+      "modelId": "gpt-4o-mini-2024-07-18",
+      "label": "gpt-4o-mini",
+      "partition": "group_test",
+      "mode": "v1_5",
+      "kind": "base",
+      "availableGroups": 132,
+      "missingGroups": 3,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.202139037433155,
+          "ciLow": 1.0990531395135732,
+          "ciHigh": 1.3056375131717597,
+          "count": 935
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.1647597254004576,
+          "ciLow": 1.0594107326792421,
+          "ciHigh": 1.2730339020348989,
+          "count": 437
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.6414272111351144,
+          "ciLow": 0.5619942966299969,
+          "ciHigh": 0.7268098460901358,
+          "count": 131
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.1964285714285714,
+          "ciLow": 1.0927549462222812,
+          "ciHigh": 1.2989175582127124,
+          "count": 448
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.1706161137440758,
+          "ciLow": 1.0615362259645595,
+          "ciHigh": 1.2864215500087868,
+          "count": 422
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.6986467926984602,
+          "ciLow": 0.6007107864493515,
+          "ciHigh": 0.8131200787124806,
+          "count": 130
+        }
+      }
+    },
+    {
+      "modelId": "gemini-2.5-flash-lite",
+      "label": "Gemini-2.5-Flash-Lite",
+      "partition": "group_test",
+      "mode": "v1_5",
+      "kind": "base",
+      "availableGroups": 132,
+      "missingGroups": 3,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.2526766595289078,
+          "ciLow": 1.1479161864460232,
+          "ciHigh": 1.3731229204198685,
+          "count": 934
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.2585812356979404,
+          "ciLow": 1.1359320874639813,
+          "ciHigh": 1.3764576199198322,
+          "count": 437
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.7044778841629981,
+          "ciLow": 0.6057260064523222,
+          "ciHigh": 0.8035143589303485,
+          "count": 131
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.1924778761061947,
+          "ciLow": 1.077258438603145,
+          "ciHigh": 1.3146623563218391,
+          "count": 452
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.1179245283018868,
+          "ciLow": 1.0088843547562223,
+          "ciHigh": 1.2272781128823782,
+          "count": 424
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.6257458325472902,
+          "ciLow": 0.5450026852964795,
+          "ciHigh": 0.7025569124988275,
+          "count": 129
+        }
+      }
+    },
+    {
+      "modelId": "Mistral-7B-Instruct-v0.3",
+      "label": "Mistral-7B",
+      "partition": "group_test",
+      "mode": "v1_5",
+      "kind": "base",
+      "availableGroups": 132,
+      "missingGroups": 3,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.3485016648168702,
+          "ciLow": 1.220004406690669,
+          "ciHigh": 1.4642503406967202,
+          "count": 901
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.3215130023640662,
+          "ciLow": 1.180951184493898,
+          "ciHigh": 1.4542465141836665,
+          "count": 423
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.748504638038178,
+          "ciLow": 0.6547274907723434,
+          "ciHigh": 0.8475037741958513,
+          "count": 130
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.2172949002217295,
+          "ciLow": 1.0922200634110506,
+          "ciHigh": 1.334140006335128,
+          "count": 451
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.1347517730496455,
+          "ciLow": 1.0095006247818892,
+          "ciHigh": 1.2685525435073628,
+          "count": 423
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.722993428209586,
+          "ciLow": 0.6233106710876924,
+          "ciHigh": 0.8249155022434749,
+          "count": 129
+        }
+      }
+    },
+    {
+      "modelId": "Qwen2.5-32B-Instruct",
+      "label": "Qwen2.5-32B",
+      "partition": "group_test",
+      "mode": "v1_5",
+      "kind": "base",
+      "availableGroups": 132,
+      "missingGroups": 3,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.1240641711229946,
+          "ciLow": 1.0135912440526251,
+          "ciHigh": 1.2299323381672864,
+          "count": 935
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.1082004555808656,
+          "ciLow": 0.9976600773863389,
+          "ciHigh": 1.2275784753363228,
+          "count": 439
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.6611111277765923,
+          "ciLow": 0.579011985930846,
+          "ciHigh": 0.7412991977049975,
+          "count": 131
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.24,
+          "ciLow": 1.1415415029653913,
+          "ciHigh": 1.3439719208328338,
+          "count": 450
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.1694117647058824,
+          "ciLow": 1.0630737486392214,
+          "ciHigh": 1.2850653270487058,
+          "count": 425
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.7037557616511807,
+          "ciLow": 0.6100593527212809,
+          "ciHigh": 0.7963469122890025,
+          "count": 129
+        }
+      }
+    },
+    {
+      "modelId": "Llama-3.1-70B-Instruct",
+      "label": "Llama-3.1-70B",
+      "partition": "group_test",
+      "mode": "v1_5",
+      "kind": "base",
+      "availableGroups": 132,
+      "missingGroups": 3,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.0898395721925134,
+          "ciLow": 0.978936627282492,
+          "ciHigh": 1.1982860015587937,
+          "count": 935
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.0468036529680365,
+          "ciLow": 0.9253472662611422,
+          "ciHigh": 1.1619711211502963,
+          "count": 438
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.59063321200659,
+          "ciLow": 0.5002649866299754,
+          "ciHigh": 0.674706917773817,
+          "count": 131
+        },
+        "private_stance_alignment_abs": {
+          "value": 0.9508928571428571,
+          "ciLow": 0.8359550561797753,
+          "ciHigh": 1.0660309698451509,
+          "count": 448
+        },
+        "private_stance_change_error_abs": {
+          "value": 0.9267139479905437,
+          "ciLow": 0.7990540907394211,
+          "ciHigh": 1.0381428571428573,
+          "count": 423
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.5738774941047217,
+          "ciLow": 0.4826977784800311,
+          "ciHigh": 0.6699084920769209,
+          "count": 129
+        }
+      }
+    },
+    {
+      "modelId": "Llama-3.1-8B-Instruct",
+      "label": "Llama-3.1-8B",
+      "partition": "group_test",
+      "mode": "v1_5",
+      "kind": "base",
+      "availableGroups": 132,
+      "missingGroups": 3,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.2256684491978609,
+          "ciLow": 1.1248062107059962,
+          "ciHigh": 1.3214708892955738,
+          "count": 935
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.1956521739130435,
+          "ciLow": 1.0789419429879228,
+          "ciHigh": 1.32124711404095,
+          "count": 437
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.7436729684464093,
+          "ciLow": 0.6451317516739634,
+          "ciHigh": 0.8588161929169241,
+          "count": 131
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.2939866369710469,
+          "ciLow": 1.164037706687601,
+          "ciHigh": 1.4235420835000667,
+          "count": 449
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.2322274881516588,
+          "ciLow": 1.102687881846987,
+          "ciHigh": 1.3658115878551014,
+          "count": 422
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.688164873442984,
+          "ciLow": 0.5903156462159284,
+          "ciHigh": 0.7920541803608915,
+          "count": 128
+        }
+      }
+    },
+    {
+      "modelId": "ft:Llama-3.1-8B-Instruct-SFT-20260608-bd-real:bd-group-5epochs",
+      "label": "Llama-3.1-8B SFT",
+      "partition": "group_test",
+      "mode": "v1_5",
+      "kind": "sft",
+      "availableGroups": 125,
+      "missingGroups": 10,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.0057142857142858,
+          "ciLow": 0.8982571532944666,
+          "ciHigh": 1.1195786263410292,
+          "count": 875
+        },
+        "public_stance_change_error_abs": {
+          "value": 0.9938725490196079,
+          "ciLow": 0.8712730550853435,
+          "ciHigh": 1.1184656644832929,
+          "count": 408
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.5011487734994227,
+          "ciLow": 0.42075236943226857,
+          "ciHigh": 0.5764483335584507,
+          "count": 124
+        },
+        "private_stance_alignment_abs": {
+          "value": 0.8393351800554016,
+          "ciLow": 0.7085654761904762,
+          "ciHigh": 0.971844603532799,
+          "count": 361
+        },
+        "private_stance_change_error_abs": {
+          "value": 0.797583081570997,
+          "ciLow": 0.6577832460417795,
+          "ciHigh": 0.9316462167689161,
+          "count": 331
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.4647203033193963,
+          "ciLow": 0.37418871361883793,
+          "ciHigh": 0.5616294270520568,
+          "count": 108
+        }
+      }
+    },
+    {
+      "modelId": "DeGroot fit",
+      "label": "DeGroot fit",
+      "partition": "group_test",
+      "mode": "v1_5",
+      "kind": "baseline",
+      "availableGroups": 128,
+      "missingGroups": 0,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 0.7426279480669677,
+          "ciLow": 0.6361761749435201,
+          "ciHigh": 0.8528964891593013,
+          "count": 627
+        },
+        "public_stance_change_error_abs": {
+          "value": 0.7822117689661225,
+          "ciLow": 0.6682049315554355,
+          "ciHigh": 0.8891503603701918,
+          "count": 309
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.5062624322534275,
+          "ciLow": 0.41662845041861674,
+          "ciHigh": 0.5921432807658068,
+          "count": 84
+        },
+        "private_stance_alignment_abs": {
+          "value": 0.7708695793148233,
+          "ciLow": 0.6494119812042248,
+          "ciHigh": 0.9030481009723504,
+          "count": 209
+        },
+        "private_stance_change_error_abs": {
+          "value": 0.7708695793148225,
+          "ciLow": 0.6494119812042249,
+          "ciHigh": 0.9030481009723499,
+          "count": 209
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.50564751263518,
+          "ciLow": 0.4102679809176173,
+          "ciHigh": 0.6180094703155081,
+          "count": 63
+        }
+      }
+    },
+    {
+      "modelId": "gpt-5-mini",
+      "label": "gpt-5-mini",
+      "partition": "topic_test",
+      "mode": "v0",
+      "kind": "base",
+      "availableGroups": 195,
+      "missingGroups": 2,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.2046955245781366,
+          "ciLow": 1.1196528283563971,
+          "ciHigh": 1.2841873965495287,
+          "count": 1363
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.2492063492063492,
+          "ciLow": 1.1484060846560846,
+          "ciHigh": 1.339419330210702,
+          "count": 630
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.7113383387679687,
+          "ciLow": 0.6276246804594742,
+          "ciHigh": 0.7985103245391934,
+          "count": 193
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.132132132132132,
+          "ciLow": 1.0271882848615004,
+          "ciHigh": 1.2411918349429325,
+          "count": 666
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.0963665086887835,
+          "ciLow": 0.9839934959349593,
+          "ciHigh": 1.2081742723004694,
+          "count": 633
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.7430596494802456,
+          "ciLow": 0.6504566154443584,
+          "ciHigh": 0.8386447589707315,
+          "count": 189
+        }
+      }
+    },
+    {
+      "modelId": "gpt-4o-mini-2024-07-18",
+      "label": "gpt-4o-mini",
+      "partition": "topic_test",
+      "mode": "v0",
+      "kind": "base",
+      "availableGroups": 196,
+      "missingGroups": 1,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.2208892025405786,
+          "ciLow": 1.1205817176943635,
+          "ciHigh": 1.320707133162419,
+          "count": 1417
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.1699395770392749,
+          "ciLow": 1.0507244192722134,
+          "ciHigh": 1.2887559197164955,
+          "count": 662
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.741476081314379,
+          "ciLow": 0.6601181408457132,
+          "ciHigh": 0.8232245970240357,
+          "count": 194
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.2767857142857142,
+          "ciLow": 1.182995380209413,
+          "ciHigh": 1.3821474404205403,
+          "count": 672
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.2229199372056514,
+          "ciLow": 1.1194921655164243,
+          "ciHigh": 1.321519999903551,
+          "count": 637
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.7888425467785157,
+          "ciLow": 0.7069181183081392,
+          "ciHigh": 0.8695341228589678,
+          "count": 189
+        }
+      }
+    },
+    {
+      "modelId": "gemini-2.5-flash-lite",
+      "label": "Gemini-2.5-Flash-Lite",
+      "partition": "topic_test",
+      "mode": "v0",
+      "kind": "base",
+      "availableGroups": 195,
+      "missingGroups": 2,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.187633262260128,
+          "ciLow": 1.1092273578664866,
+          "ciHigh": 1.27616338332486,
+          "count": 1407
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.2162367223065251,
+          "ciLow": 1.1146159143415675,
+          "ciHigh": 1.3116654835331083,
+          "count": 659
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.722998649738073,
+          "ciLow": 0.6357888290053573,
+          "ciHigh": 0.8153601609637323,
+          "count": 193
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.2242152466367713,
+          "ciLow": 1.1091018730135462,
+          "ciHigh": 1.342761416654246,
+          "count": 669
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.221698113207547,
+          "ciLow": 1.0993359375,
+          "ciHigh": 1.348884790535239,
+          "count": 636
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.7747771089721796,
+          "ciLow": 0.6924997956549138,
+          "ciHigh": 0.8625195766396805,
+          "count": 189
+        }
+      }
+    },
+    {
+      "modelId": "Mistral-7B-Instruct-v0.3",
+      "label": "Mistral-7B",
+      "partition": "topic_test",
+      "mode": "v0",
+      "kind": "base",
+      "availableGroups": 196,
+      "missingGroups": 1,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.6218905472636815,
+          "ciLow": 1.470134378795079,
+          "ciHigh": 1.7808924236923733,
+          "count": 1407
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.5091603053435114,
+          "ciLow": 1.3409790225700766,
+          "ciHigh": 1.6713020937687837,
+          "count": 655
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.7630900387994091,
+          "ciLow": 0.6634816217313739,
+          "ciHigh": 0.8676018823155321,
+          "count": 194
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.4319526627218935,
+          "ciLow": 1.3197274031563846,
+          "ciHigh": 1.564454048683557,
+          "count": 676
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.4408099688473521,
+          "ciLow": 1.3328069218916678,
+          "ciHigh": 1.5679814595802124,
+          "count": 642
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.8426420457835757,
+          "ciLow": 0.7543995861363645,
+          "ciHigh": 0.9353816791994547,
+          "count": 190
+        }
+      }
+    },
+    {
+      "modelId": "Qwen2.5-32B-Instruct",
+      "label": "Qwen2.5-32B",
+      "partition": "topic_test",
+      "mode": "v0",
+      "kind": "base",
+      "availableGroups": 177,
+      "missingGroups": 20,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.5370994940978078,
+          "ciLow": 1.3834250146886018,
+          "ciHigh": 1.6841196356309014,
+          "count": 1186
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.5115452930728241,
+          "ciLow": 1.3544544810052315,
+          "ciHigh": 1.6781231438812083,
+          "count": 563
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.898678194682425,
+          "ciLow": 0.7977070399791639,
+          "ciHigh": 1.0079673357908812,
+          "count": 175
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.2335526315789473,
+          "ciLow": 1.1222227502644802,
+          "ciHigh": 1.3519978715170278,
+          "count": 608
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.191304347826087,
+          "ciLow": 1.0750842818767161,
+          "ciHigh": 1.3109045072148866,
+          "count": 575
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.680502739537944,
+          "ciLow": 0.6049164210114666,
+          "ciHigh": 0.7669874206317967,
+          "count": 171
+        }
+      }
+    },
+    {
+      "modelId": "Llama-3.1-70B-Instruct",
+      "label": "Llama-3.1-70B",
+      "partition": "topic_test",
+      "mode": "v0",
+      "kind": "base",
+      "availableGroups": 195,
+      "missingGroups": 2,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.485315712187959,
+          "ciLow": 1.339468883840223,
+          "ciHigh": 1.614379961831421,
+          "count": 1362
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.4763779527559056,
+          "ciLow": 1.3316310436320755,
+          "ciHigh": 1.6225129324321907,
+          "count": 635
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.7514010309718686,
+          "ciLow": 0.6548140540051293,
+          "ciHigh": 0.8457456031941485,
+          "count": 193
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.3373313343328337,
+          "ciLow": 1.217111994250201,
+          "ciHigh": 1.4695876783172475,
+          "count": 667
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.3175355450236967,
+          "ciLow": 1.1933938930530428,
+          "ciHigh": 1.445916585280279,
+          "count": 633
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.7490003566511663,
+          "ciLow": 0.6726084256377727,
+          "ciHigh": 0.8317407473274007,
+          "count": 189
+        }
+      }
+    },
+    {
+      "modelId": "Llama-3.1-8B-Instruct",
+      "label": "Llama-3.1-8B",
+      "partition": "topic_test",
+      "mode": "v0",
+      "kind": "base",
+      "availableGroups": 196,
+      "missingGroups": 1,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.6345291479820627,
+          "ciLow": 1.54086048103656,
+          "ciHigh": 1.739098561621445,
+          "count": 1338
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.6958598726114649,
+          "ciLow": 1.5809785583335547,
+          "ciHigh": 1.814474143955276,
+          "count": 628
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.8541941384893359,
+          "ciLow": 0.7768496017897724,
+          "ciHigh": 0.9378208257166343,
+          "count": 194
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.8165413533834587,
+          "ciLow": 1.700463848373212,
+          "ciHigh": 1.9352951111450272,
+          "count": 665
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.7870662460567823,
+          "ciLow": 1.6624390417904515,
+          "ciHigh": 1.9171129300776915,
+          "count": 634
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.8600971309962551,
+          "ciLow": 0.7822416925770929,
+          "ciHigh": 0.936498375840021,
+          "count": 189
+        }
+      }
+    },
+    {
+      "modelId": "ft:Llama-3.1-8B-Instruct-SFT-20260608-bd-real:bd-topic-5epochs",
+      "label": "Llama-3.1-8B SFT",
+      "partition": "topic_test",
+      "mode": "v0",
+      "kind": "sft",
+      "availableGroups": 184,
+      "missingGroups": 13,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.0984732824427481,
+          "ciLow": 0.9921938566212882,
+          "ciHigh": 1.1989170225747408,
+          "count": 1310
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.1029411764705883,
+          "ciLow": 0.9878310393339311,
+          "ciHigh": 1.2207974609660002,
+          "count": 612
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.6447216270283209,
+          "ciLow": 0.5551652035957412,
+          "ciHigh": 0.7404712312566736,
+          "count": 181
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.040219378427788,
+          "ciLow": 0.918955468045923,
+          "ciHigh": 1.1663802157776573,
+          "count": 547
+        },
+        "private_stance_change_error_abs": {
+          "value": 0.9882583170254403,
+          "ciLow": 0.8539614026097619,
+          "ciHigh": 1.1244900008196048,
+          "count": 511
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.7176063987784882,
+          "ciLow": 0.61113762312703,
+          "ciHigh": 0.8279121295191246,
+          "count": 166
+        }
+      }
+    },
+    {
+      "modelId": "DeGroot fit",
+      "label": "DeGroot fit",
+      "partition": "topic_test",
+      "mode": "v0",
+      "kind": "baseline",
+      "availableGroups": 188,
+      "missingGroups": 0,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 0.7944282258672861,
+          "ciLow": 0.7006962827857589,
+          "ciHigh": 0.8868762322274969,
+          "count": 1000
+        },
+        "public_stance_change_error_abs": {
+          "value": 0.85994839155065,
+          "ciLow": 0.7502884183780892,
+          "ciHigh": 0.971677094479372,
+          "count": 492
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.5740362423816516,
+          "ciLow": 0.4791802833548992,
+          "ciHigh": 0.6653920069911374,
+          "count": 132
+        },
+        "private_stance_alignment_abs": {
+          "value": 0.845135681697151,
+          "ciLow": 0.7080962286923239,
+          "ciHigh": 0.9836200043106333,
+          "count": 347
+        },
+        "private_stance_change_error_abs": {
+          "value": 0.8450879092685326,
+          "ciLow": 0.7080767782289246,
+          "ciHigh": 0.9844614604050289,
+          "count": 346
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.5902545109344743,
+          "ciLow": 0.48591076345054146,
+          "ciHigh": 0.705319677473999,
+          "count": 105
+        }
+      }
+    },
+    {
+      "modelId": "gpt-5-mini",
+      "label": "gpt-5-mini",
+      "partition": "topic_test",
+      "mode": "v1_5",
+      "kind": "base",
+      "availableGroups": 195,
+      "missingGroups": 2,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.1377072819033887,
+          "ciLow": 1.054166054981781,
+          "ciHigh": 1.2165568012517998,
+          "count": 1387
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.1772445820433437,
+          "ciLow": 1.083323552425665,
+          "ciHigh": 1.2775928792569657,
+          "count": 646
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.6821110692969452,
+          "ciLow": 0.6096007576164828,
+          "ciHigh": 0.7617890508584196,
+          "count": 193
+        },
+        "private_stance_alignment_abs": {
+          "value": 0.9671150971599403,
+          "ciLow": 0.8694752018971496,
+          "ciHigh": 1.071653275888837,
+          "count": 669
+        },
+        "private_stance_change_error_abs": {
+          "value": 0.9356357927786499,
+          "ciLow": 0.8322868390631021,
+          "ciHigh": 1.0439185493237422,
+          "count": 637
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.6007749441968114,
+          "ciLow": 0.5171729498743254,
+          "ciHigh": 0.6861893845885746,
+          "count": 189
+        }
+      }
+    },
+    {
+      "modelId": "gpt-4o-mini-2024-07-18",
+      "label": "gpt-4o-mini",
+      "partition": "topic_test",
+      "mode": "v1_5",
+      "kind": "base",
+      "availableGroups": 195,
+      "missingGroups": 2,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.155429382540809,
+          "ciLow": 1.0710608386048266,
+          "ciHigh": 1.2442204836887913,
+          "count": 1409
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.1320182094081943,
+          "ciLow": 1.0317582369992264,
+          "ciHigh": 1.2369441896024465,
+          "count": 659
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.6399160915590313,
+          "ciLow": 0.5713365728358912,
+          "ciHigh": 0.7169689265883517,
+          "count": 193
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.2207207207207207,
+          "ciLow": 1.1368827407644673,
+          "ciHigh": 1.3101361573373675,
+          "count": 666
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.2,
+          "ciLow": 1.1114663023679416,
+          "ciHigh": 1.2921397673834225,
+          "count": 635
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.7864527604443611,
+          "ciLow": 0.7050804578060653,
+          "ciHigh": 0.8712913038923357,
+          "count": 188
+        }
+      }
+    },
+    {
+      "modelId": "gemini-2.5-flash-lite",
+      "label": "Gemini-2.5-Flash-Lite",
+      "partition": "topic_test",
+      "mode": "v1_5",
+      "kind": "base",
+      "availableGroups": 195,
+      "missingGroups": 2,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.2301136363636365,
+          "ciLow": 1.1495730988651014,
+          "ciHigh": 1.3125449385597403,
+          "count": 1408
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.2473444613050075,
+          "ciLow": 1.1430638387374736,
+          "ciHigh": 1.3370533846540038,
+          "count": 659
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.6871849452568431,
+          "ciLow": 0.6075973417526689,
+          "ciHigh": 0.7599177939289158,
+          "count": 193
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.1679160419790104,
+          "ciLow": 1.0832095096582466,
+          "ciHigh": 1.260832268824072,
+          "count": 667
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.1845425867507886,
+          "ciLow": 1.0907456320952391,
+          "ciHigh": 1.2862171052631577,
+          "count": 634
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.7223586479366273,
+          "ciLow": 0.6497781312223156,
+          "ciHigh": 0.79055890286896,
+          "count": 189
+        }
+      }
+    },
+    {
+      "modelId": "Mistral-7B-Instruct-v0.3",
+      "label": "Mistral-7B",
+      "partition": "topic_test",
+      "mode": "v1_5",
+      "kind": "base",
+      "availableGroups": 195,
+      "missingGroups": 2,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.3559322033898304,
+          "ciLow": 1.2481666121682629,
+          "ciHigh": 1.4500295857988166,
+          "count": 1357
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.3516483516483517,
+          "ciLow": 1.228101875,
+          "ciHigh": 1.473144803359605,
+          "count": 637
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.7910506099885625,
+          "ciLow": 0.7072845361334688,
+          "ciHigh": 0.8712365204782969,
+          "count": 192
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.2762762762762763,
+          "ciLow": 1.171811262782625,
+          "ciHigh": 1.3862365067088138,
+          "count": 666
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.2511848341232228,
+          "ciLow": 1.1421429529056162,
+          "ciHigh": 1.35693135725429,
+          "count": 633
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.7055933986595369,
+          "ciLow": 0.6272519137122593,
+          "ciHigh": 0.7890245446721598,
+          "count": 189
+        }
+      }
+    },
+    {
+      "modelId": "Qwen2.5-32B-Instruct",
+      "label": "Qwen2.5-32B",
+      "partition": "topic_test",
+      "mode": "v1_5",
+      "kind": "base",
+      "availableGroups": 195,
+      "missingGroups": 2,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.0739161336176262,
+          "ciLow": 0.9909056319994911,
+          "ciHigh": 1.1548656866555405,
+          "count": 1407
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.081306990881459,
+          "ciLow": 0.9833080424886191,
+          "ciHigh": 1.1851087781431824,
+          "count": 658
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.6393008716552496,
+          "ciLow": 0.5659551980794525,
+          "ciHigh": 0.7120256643410464,
+          "count": 193
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.2642642642642643,
+          "ciLow": 1.177637340952489,
+          "ciHigh": 1.3422639157014156,
+          "count": 666
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.229559748427673,
+          "ciLow": 1.1480819112286185,
+          "ciHigh": 1.3129299387248696,
+          "count": 636
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.818051473684995,
+          "ciLow": 0.7349948706216041,
+          "ciHigh": 0.8963032317647954,
+          "count": 189
+        }
+      }
+    },
+    {
+      "modelId": "Llama-3.1-70B-Instruct",
+      "label": "Llama-3.1-70B",
+      "partition": "topic_test",
+      "mode": "v1_5",
+      "kind": "base",
+      "availableGroups": 195,
+      "missingGroups": 2,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.048970901348474,
+          "ciLow": 0.963157859370617,
+          "ciHigh": 1.1441055306020598,
+          "count": 1409
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.0540334855403348,
+          "ciLow": 0.9525477217823579,
+          "ciHigh": 1.16490589198036,
+          "count": 657
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.6576296168159234,
+          "ciLow": 0.5819398049052369,
+          "ciHigh": 0.7399883936847768,
+          "count": 193
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.0196078431372548,
+          "ciLow": 0.9203783368246228,
+          "ciHigh": 1.1263539893545162,
+          "count": 663
+        },
+        "private_stance_change_error_abs": {
+          "value": 0.9636650868878357,
+          "ciLow": 0.8577466473305725,
+          "ciHigh": 1.0690764985239378,
+          "count": 633
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.667881469376613,
+          "ciLow": 0.5879984106357269,
+          "ciHigh": 0.7489586946327569,
+          "count": 188
+        }
+      }
+    },
+    {
+      "modelId": "Llama-3.1-8B-Instruct",
+      "label": "Llama-3.1-8B",
+      "partition": "topic_test",
+      "mode": "v1_5",
+      "kind": "base",
+      "availableGroups": 195,
+      "missingGroups": 2,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.159914712153518,
+          "ciLow": 1.0702448545067424,
+          "ciHigh": 1.2462696449415966,
+          "count": 1407
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.1436170212765957,
+          "ciLow": 1.0358054540588346,
+          "ciHigh": 1.2515018427518427,
+          "count": 658
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.7455454184503998,
+          "ciLow": 0.663889679338862,
+          "ciHigh": 0.8356103952355346,
+          "count": 193
+        },
+        "private_stance_alignment_abs": {
+          "value": 1.2552552552552552,
+          "ciLow": 1.152044078750034,
+          "ciHigh": 1.3707628409142822,
+          "count": 666
+        },
+        "private_stance_change_error_abs": {
+          "value": 1.1958925750394944,
+          "ciLow": 1.090602636436503,
+          "ciHigh": 1.311155035058785,
+          "count": 633
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.7483598444369661,
+          "ciLow": 0.6737771914942154,
+          "ciHigh": 0.8276928261409425,
+          "count": 188
+        }
+      }
+    },
+    {
+      "modelId": "ft:Llama-3.1-8B-Instruct-SFT-20260608-bd-real:bd-topic-5epochs",
+      "label": "Llama-3.1-8B SFT",
+      "partition": "topic_test",
+      "mode": "v1_5",
+      "kind": "sft",
+      "availableGroups": 178,
+      "missingGroups": 19,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 1.034920634920635,
+          "ciLow": 0.9312788967498817,
+          "ciHigh": 1.1316095000771158,
+          "count": 1260
+        },
+        "public_stance_change_error_abs": {
+          "value": 1.0587734241908007,
+          "ciLow": 0.9473305726244545,
+          "ciHigh": 1.1713796253997257,
+          "count": 587
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.6477279621633053,
+          "ciLow": 0.559981304451978,
+          "ciHigh": 0.7380805274706999,
+          "count": 176
+        },
+        "private_stance_alignment_abs": {
+          "value": 0.8979206049149339,
+          "ciLow": 0.7807518796992481,
+          "ciHigh": 1.0145451849131752,
+          "count": 529
+        },
+        "private_stance_change_error_abs": {
+          "value": 0.8502024291497976,
+          "ciLow": 0.7299508368200837,
+          "ciHigh": 0.9708938807453942,
+          "count": 494
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.6685770158812062,
+          "ciLow": 0.5570797766958541,
+          "ciHigh": 0.7720702532990655,
+          "count": 157
+        }
+      }
+    },
+    {
+      "modelId": "DeGroot fit",
+      "label": "DeGroot fit",
+      "partition": "topic_test",
+      "mode": "v1_5",
+      "kind": "baseline",
+      "availableGroups": 188,
+      "missingGroups": 0,
+      "metrics": {
+        "public_stance_alignment_abs": {
+          "value": 0.7692634723213488,
+          "ciLow": 0.6754266722559349,
+          "ciHigh": 0.8679981920358972,
+          "count": 1000
+        },
+        "public_stance_change_error_abs": {
+          "value": 0.8398292167675436,
+          "ciLow": 0.7339477970066124,
+          "ciHigh": 0.950727952006703,
+          "count": 492
+        },
+        "public_opinion_convergence_error": {
+          "value": 0.5301740814989824,
+          "ciLow": 0.44217789820622416,
+          "ciHigh": 0.6218592263778117,
+          "count": 132
+        },
+        "private_stance_alignment_abs": {
+          "value": 0.9033723863556723,
+          "ciLow": 0.7663688673880966,
+          "ciHigh": 1.0466645035329756,
+          "count": 349
+        },
+        "private_stance_change_error_abs": {
+          "value": 0.9031857682812434,
+          "ciLow": 0.7663688673880962,
+          "ciHigh": 1.046888269367686,
+          "count": 348
+        },
+        "private_opinion_convergence_error": {
+          "value": 0.5867868413134976,
+          "ciLow": 0.48878431152592533,
+          "ciHigh": 0.6975323835821103,
+          "count": 105
+        }
+      }
+    }
+  ],
+  "crossModel": [
+    {
+      "family": "Llama",
+      "label": "Llama-3.1-8B",
+      "partition": "group_test",
+      "errors": {
+        "private_stance_alignment_abs": {
+          "base": 1.8070953436807096,
+          "SFT": 0.9753424657534246
+        },
+        "private_stance_change_error_abs": {
+          "base": 1.7317647058823529,
+          "SFT": 0.9003021148036254
+        },
+        "private_opinion_convergence_error": {
+          "base": 0.8044025768958446,
+          "SFT": 0.5570973652780612
+        }
+      },
+      "convergence": {
+        "public": {
+          "human": -0.08450322555719314,
+          "base": -0.17898750975375877,
+          "SFT": -0.10572497942313341
+        },
+        "private": {
+          "human": -0.09620596148040805,
+          "base": -0.3448761330997011,
+          "SFT": -0.061560143799421096
+        }
+      }
+    },
+    {
+      "family": "Llama",
+      "label": "Llama-3.1-8B",
+      "partition": "topic_test",
+      "errors": {
+        "private_stance_alignment_abs": {
+          "base": 1.8165413533834587,
+          "SFT": 1.040219378427788
+        },
+        "private_stance_change_error_abs": {
+          "base": 1.7870662460567823,
+          "SFT": 0.9882583170254403
+        },
+        "private_opinion_convergence_error": {
+          "base": 0.8600971309962551,
+          "SFT": 0.7176063987784882
+        }
+      },
+      "convergence": {
+        "public": {
+          "human": -0.11259824062743418,
+          "base": -0.10050633355975891,
+          "SFT": -0.08318062733527021
+        },
+        "private": {
+          "human": -0.08073928565569166,
+          "base": -0.46774144525458516,
+          "SFT": -0.11628867862649828
+        }
+      }
+    },
+    {
+      "family": "Qwen",
+      "label": "Qwen3.5-4B",
+      "partition": "group_test",
+      "errors": {
+        "private_stance_alignment_abs": {
+          "base": 1.527027027027027,
+          "SFT": 1.1454545454545455
+        },
+        "private_stance_change_error_abs": {
+          "base": 1.477142857142857,
+          "SFT": 1.0859598853868195
+        },
+        "private_opinion_convergence_error": {
+          "base": 0.8067296708993689,
+          "SFT": 0.6777920760894074
+        }
+      },
+      "convergence": {
+        "public": {
+          "human": -0.19859553210917635,
+          "base": -0.41225788758517623,
+          "SFT": -0.23091630306639988
+        },
+        "private": {
+          "human": -0.05858307021327325,
+          "base": -0.6338587886416849,
+          "SFT": -0.1349246141548659
+        }
+      }
+    },
+    {
+      "family": "Qwen",
+      "label": "Qwen3.5-4B",
+      "partition": "topic_test",
+      "errors": {
+        "private_stance_alignment_abs": {
+          "base": 1.4664107485604607,
+          "SFT": 1.1735074626865671
+        },
+        "private_stance_change_error_abs": {
+          "base": 1.3777777777777778,
+          "SFT": 1.182555780933063
+        },
+        "private_opinion_convergence_error": {
+          "base": 0.7751581081917416,
+          "SFT": 0.7198640842582871
+        }
+      },
+      "convergence": {
+        "public": {
+          "human": -0.06649824909250213,
+          "base": -0.40243486557770436,
+          "SFT": -0.20961114222945954
+        },
+        "private": {
+          "human": -0.16169206749848586,
+          "base": -0.5484366188362324,
+          "SFT": -0.1732213889121832
+        }
+      }
+    },
+    {
+      "family": "Mistral",
+      "label": "Mistral-7B",
+      "partition": "group_test",
+      "errors": {
+        "private_stance_alignment_abs": {
+          "base": 1.4659090909090908,
+          "SFT": 1.2512953367875648
+        },
+        "private_stance_change_error_abs": {
+          "base": 1.2583333333333333,
+          "SFT": 1.1756373937677054
+        },
+        "private_opinion_convergence_error": {
+          "base": 0.7727031920806843,
+          "SFT": 0.6922735068316763
+        }
+      },
+      "convergence": {
+        "public": {
+          "human": -0.11491313804596426,
+          "base": -0.3568630048545056,
+          "SFT": -0.12684464269932905
+        },
+        "private": {
+          "human": -0.12087975312848909,
+          "base": -0.49638228384160077,
+          "SFT": -0.24252025558614987
+        }
+      }
+    },
+    {
+      "family": "Mistral",
+      "label": "Mistral-7B",
+      "partition": "topic_test",
+      "errors": {
+        "private_stance_alignment_abs": {
+          "base": 1.6228571428571428,
+          "SFT": 1.2835314091680814
+        },
+        "private_stance_change_error_abs": {
+          "base": 1.4293286219081272,
+          "SFT": 1.2531645569620253
+        },
+        "private_opinion_convergence_error": {
+          "base": 0.8620075522907148,
+          "SFT": 0.6940462999700047
+        }
+      },
+      "convergence": {
+        "public": {
+          "human": -0.07601249778122998,
+          "base": -0.5096032165967677,
+          "SFT": -0.2053193012986554
+        },
+        "private": {
+          "human": -0.015799666117833233,
+          "base": -0.5488802042179045,
+          "SFT": -0.12607160597899125
+        }
+      }
+    }
+  ],
+  "inventory": {
+    "requested_groups": 708,
+    "available_groups": 697,
+    "subjects": 2788,
+    "topics": 107,
+    "tweets": 7972,
+    "opinions": 5302,
+    "chats": 15012
+  },
+  "partitions": {
+    "group_test": {
+      "label": "Group generalization",
+      "description": "Unseen participant groups",
+      "requestedGroups": 135
+    },
+    "topic_test": {
+      "label": "Topic generalization",
+      "description": "Unseen discussion topics",
+      "requestedGroups": 197
+    }
+  },
+  "modes": {
+    "v0": "Full Dynamics Simulation",
+    "v1_5": "Next Message Prediction"
+  }
+}

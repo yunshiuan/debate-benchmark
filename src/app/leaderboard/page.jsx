@@ -1,329 +1,166 @@
 "use client";
 
-import { Typography } from "antd";
 import { useState } from "react";
+import { Table, Tag, Typography } from "antd";
 import LeaderboardHeader from "../../components/LeaderboardHeader";
+import leaderboard from "../../../public/release/leaderboard.json";
 
-const { Title, Text } = Typography;
+const { Title, Paragraph } = Typography;
+const reproductionUrl = "https://github.com/yunshiuan/DEBATE-neurips2026/blob/main/docs/paper_reproduction.md";
+const format = (value) => Number.isFinite(value) ? value.toFixed(3) : "—";
 
-const columns = [
-  {
-    title: "LLM",
-    dataIndex: "model",
-    key: "model",
-    fixed: "left",
-  },
-  {
-    title: "Avg Stance Δ (↓)",
-    dataIndex: "stance",
-    key: "stance",
-  },
-  {
-    title: "Avg RG (↑)",
-    dataIndex: "rg",
-    key: "rg",
-  },
-  {
-    title: "Avg Length Δ (→0)",
-    dataIndex: "len",
-    key: "len",
-  },
-  {
-    title: "On-topic Rate",
-    dataIndex: "onTopic",
-    key: "onTopic",
-  },
-];
+function Choice({ label, value, onChange, options }) {
+  return (
+    <fieldset className="min-w-0">
+      <legend className="mb-2 text-sm font-semibold text-gray-700">{label}</legend>
+      <div className="flex flex-wrap gap-2">
+        {options.map(([key, text]) => (
+          <button key={key} type="button" aria-pressed={value === key} onClick={() => onChange(key)}
+            className={`rounded-lg border px-4 py-2 text-sm transition-colors ${value === key ? "border-[#9B0000] bg-[#9B0000] text-white" : "border-gray-300 bg-white text-gray-700 hover:border-[#9B0000]"}`}>
+            {text}
+          </button>
+        ))}
+      </div>
+    </fieldset>
+  );
+}
 
-const depthSections = [
-  {
-    id: "depth-mode-2",
-    versionLabel: "Simulation Mode 2: Full Conversation Simulation",
-    columns,
-    data: [
-      { key: "depth-2-gpt4o-mini", model: "gpt-4o-mini-2024-07-18", stance: "1.60", rg: "0.07", len: "-49.85", onTopic: "0.97" },
-      { key: "depth-2-gpt5-mini", model: "gpt-5-mini", stance: "1.28", rg: "0.07", len: "-52.85", onTopic: "0.96" },
-      { key: "depth-2-tulu-8b", model: "Llama-3.1-Tulu-3-8B-SFT", stance: "1.85", rg: "0.05", len: "-37.39", onTopic: "0.81" },
-      { key: "depth-2-llama-8b", model: "Llama-3.1-8B-Instruct", stance: "1.76", rg: "0.05", len: "-44.94", onTopic: "0.96" },
-      { key: "depth-2-llama-70b", model: "Llama-3.1-70B-Instruct", stance: "1.69", rg: "0.05", len: "-42.79", onTopic: "0.97" },
-      { key: "depth-2-mistral-7b", model: "Mistral-7B-Instruct-v0.3", stance: "1.74", rg: "0.06", len: "-39.69", onTopic: "0.97" },
-      { key: "depth-2-qwen-32b", model: "Qwen2.5-32B-Instruct", stance: "1.84", rg: "0.06", len: "-37.23", onTopic: "0.93" },
-      { key: "depth-2-gemini", model: "gemini-2.5-flash-lite", stance: "1.79", rg: "0.07", len: "-68.36", onTopic: "0.97" },
-    ],
-  },
-];
-
-const breadthSections = [
-  {
-    id: "breadth-mode-2",
-    versionLabel: "Simulation Mode 2: Full Conversation Simulation",
-    columns,
-    data: [
-      { key: "breadth-2-gpt4o-mini", model: "gpt-4o-mini-2024-07-18", stance: "1.52", rg: "0.07", len: "-55.52", onTopic: "0.98" },
-      { key: "breadth-2-gpt5-mini", model: "gpt-5-mini", stance: "1.23", rg: "0.07", len: "-47.81", onTopic: "0.98" },
-      { key: "breadth-2-tulu-8b", model: "Llama-3.1-Tulu-3-8B-SFT", stance: "2.99", rg: "0.05", len: "-18.19", onTopic: "0.55" },
-      { key: "breadth-2-llama-8b", model: "Llama-3.1-8B-Instruct", stance: "1.78", rg: "0.05", len: "-43.58", onTopic: "0.96" },
-      { key: "breadth-2-llama-70b", model: "Llama-3.1-70B-Instruct", stance: "1.64", rg: "0.05", len: "-34.33", onTopic: "0.96" },
-      { key: "breadth-2-mistral-7b", model: "Mistral-7B-Instruct-v0.3", stance: "1.62", rg: "0.06", len: "-43.70", onTopic: "0.98" },
-      { key: "breadth-2-qwen-32b", model: "Qwen2.5-32B-Instruct", stance: "1.66", rg: "0.05", len: "-42.07", onTopic: "0.95" },
-      { key: "breadth-2-gemini", model: "gemini-2.5-flash-lite", stance: "1.05", rg: "0.07", len: "-68.92", onTopic: "0.98" },
-    ],
-  },
-];
-
-function buildSections() {
-  return [
-    {
-      id: "depth",
-      levelLabel: "Utterance-level Alignment: LLM vs. Human (Depth Topics)",
-      subsections: depthSections,
-    },
-    {
-      id: "breadth",
-      levelLabel: "Utterance-level Alignment: LLM vs. Human (Breadth Topics)",
-      subsections: breadthSections,
-    },
-  ];
+function PaperFigure({ name, title, caption }) {
+  return (
+    <figure className="mt-8">
+      <Title level={4}>{title}</Title>
+      <a href={`/camera-ready/${name}.png`} target="_blank" rel="noopener noreferrer" aria-label={`Open full-resolution ${title}`}>
+        <img src={`/camera-ready/${name}.png`} alt={title} loading="lazy" className="h-auto w-full rounded-lg border border-gray-200 bg-white" />
+      </a>
+      <figcaption className="mt-3 text-sm leading-relaxed text-gray-600">
+        {caption}
+        <span className="mt-2 flex flex-wrap gap-4">
+          <a className="text-[#9B0000] underline" href={`/camera-ready/${name}.png`} target="_blank" rel="noopener noreferrer">Full-resolution image</a>
+          <a className="text-[#9B0000] underline" href={`/camera-ready/${name}.pdf`} target="_blank" rel="noopener noreferrer">PDF</a>
+          <a className="text-[#9B0000] underline" href={`/camera-ready/${name}.csv`} download>Numeric CSV</a>
+        </span>
+      </figcaption>
+    </figure>
+  );
 }
 
 export default function Leaderboard() {
-  const [alignmentTopicType, setAlignmentTopicType] = useState("depth");
-  const sections = buildSections();
-  const depthSection = sections.find((section) => section.id === "depth");
-  const breadthSection = sections.find((section) => section.id === "breadth");
-
-  const scrollToSection = (id) => {
-    const target = document.getElementById(id);
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  };
+  const [partition, setPartition] = useState("group_test");
+  const [mode, setMode] = useState("v0");
+  const rows = leaderboard.results.filter((row) => row.partition === partition && row.mode === mode);
+  const comparison = leaderboard.crossModel.filter((row) => row.partition === partition);
+  const figurePrefix = partition === "group_test" ? "group" : "topic";
+  const metricColumns = (channel) => leaderboard.metrics.filter((metric) => metric.channel === channel).map((metric) => ({
+    title: `${metric.label} ↓`, key: metric.id, width: 160,
+    sorter: (a, b) => a.metrics[metric.id].value - b.metrics[metric.id].value,
+    render: (_, row) => {
+      const result = row.metrics[metric.id];
+      return <div className="tabular-nums">
+        <div className={`text-base ${row.kind === "sft" ? "font-semibold text-[#9B0000]" : "text-gray-900"}`}>{format(result.value)}</div>
+        <div className="text-xs text-gray-500">[{format(result.ciLow)}, {format(result.ciHigh)}]</div>
+        <div className="mt-1 text-xs text-gray-500">n = {result.count.toLocaleString()} {metric.countUnit}</div>
+      </div>;
+    },
+  }));
+  const mainColumns = [
+    { title: "Model", key: "model", fixed: "left", width: 190, render: (_, row) => <div>
+      <span className="font-medium">{row.label}</span>
+      <div className="mt-1">{row.kind === "sft" ? <Tag color="red">Fine-tuned</Tag> : row.kind === "baseline" ? <Tag>Scalar baseline</Tag> : null}</div>
+    </div> },
+    { title: "Public opinion", children: metricColumns("Public") },
+    { title: "Private opinion", children: metricColumns("Private") },
+  ];
+  const privateColumns = [
+    { title: "Model family", dataIndex: "label", key: "family", width: 190 },
+    ...leaderboard.metrics.filter((metric) => metric.channel === "Private").map((metric) => ({
+      title: `${metric.label} ↓`, key: metric.id,
+      render: (_, row) => <span className="tabular-nums">{format(row.errors[metric.id].base)} → <strong>{format(row.errors[metric.id].SFT)}</strong></span>,
+    })),
+  ];
+  const convergenceRows = comparison.flatMap((row) => ["public", "private"].map((channel) => ({
+    key: `${row.family}-${channel}`, family: row.label, channel: channel === "public" ? "Public" : "Private", ...row.convergence[channel],
+  })));
+  const convergenceColumns = [
+    { title: "Model family", dataIndex: "family", key: "family" },
+    { title: "Opinion", dataIndex: "channel", key: "channel" },
+    ...[["human", "Human"], ["base", "Base"], ["SFT", "SFT"]].map(([key, title]) => ({ title, dataIndex: key, key, render: format })),
+  ];
 
   return (
     <main className="min-h-screen bg-gray-50 font-sans">
       <LeaderboardHeader />
-      
-      {/* Content Area */}
-      <div className="max-w-6xl mx-auto px-4 py-8">
-        <div className="bg-white rounded-lg shadow p-6 mb-6">
-          <Title level={4} style={{ marginTop: 0 }}>
-            Definitions of the Metrics
-          </Title>
-
-          <div style={{ marginTop: 8 }}>
-            <Text strong style={{ fontSize: 16 }}>Stance distance (Stance Δ) metric:</Text>
-            <div style={{ marginTop: 12, marginBottom: 16, color: "#555", lineHeight: 1.6, paddingLeft: 28 }}>
-              <p style={{ margin: "4px 0" }}>• | stance(human message) - stance(LLM message) |.</p>
-              <p style={{ margin: "4px 0" }}>
-                • Interpretation: the smaller the distance is, the closer the LLM is to human in terms of the stances
-                of the messages they generate.
-              </p>
-            </div>
+      <div className="mx-auto max-w-7xl px-4 py-8">
+        <section className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm sm:p-8">
+          <Tag color="red">NeurIPS 2026 · Evaluations and Datasets</Tag>
+          <Title level={2} style={{ marginTop: 12 }}>Predicting human opinion dynamics</Title>
+          <Paragraph className="max-w-4xl text-gray-600">
+            Compare seven base LLMs, supervised fine-tuning of Llama-3.1-8B, and a fitted DeGroot baseline.
+            All six errors measure agreement with human observations; lower is better.
+          </Paragraph>
+          <div className="mt-6 flex flex-wrap gap-6">
+            <Choice label="Test partition" value={partition} onChange={setPartition} options={Object.entries(leaderboard.partitions).map(([key, value]) => [key, value.label])} />
+            <Choice label="Simulation setting" value={mode} onChange={setMode} options={Object.entries(leaderboard.modes)} />
           </div>
-
-          <div style={{ marginTop: 8 }}>
-            <Text strong style={{ fontSize: 16 }}>
-              Opinion diversity (SD<sup>tweet</sup><sub>g</sub> or SD<sup>private</sup><sub>g</sub>):
-            </Text>
-            <div style={{ marginTop: 12, marginBottom: 16, color: "#555", lineHeight: 1.6, paddingLeft: 28 }}>
-              <p style={{ margin: "4px 0" }}>
-                • Standard Deviation(stances of the people within the same group g)
-              </p>
-              <p style={{ margin: "4px 0" }}>
-                • Interpretation: The smaller the value is, the closer each person's stance is to each other.
-              </p>
-            </div>
+          <div className="mt-5 rounded-lg bg-gray-50 p-4 text-sm leading-relaxed text-gray-600">
+            <strong>{leaderboard.partitions[partition].description}.</strong>{" "}
+            {mode === "v0" ? "Agents continue the conversation using their generated messages." : "Each next message is predicted from the observed human conversation history."}{" "}
+            The test partition contains {leaderboard.partitions[partition].requestedGroups} groups; the valid observations available for each metric are shown below.
           </div>
-
-          <div style={{ marginTop: 8 }}>
-            <Text strong style={{ fontSize: 16 }}>
-              Change in Opinion diversity (ΔSD<sup>tweet</sup><sub>g</sub> or ΔSD<sup>private</sup><sub>g</sub>):
-            </Text>
-            <div style={{ marginTop: 12, marginBottom: 16, color: "#555", lineHeight: 1.6, paddingLeft: 28 }}>
-              <p style={{ margin: "4px 0" }}>• The change in Opinion Diversity from the start to the end</p>
-              <p style={{ margin: "4px 0" }}>
-                • ΔSD<sup>tweet</sup><sub>g</sub> = SD<sup>tweet</sup><sub>final</sub>(g) − SD
-                <sup>tweet</sup><sub>init</sub>(g)
-              </p>
-              <p style={{ margin: "4px 0" }}>
-                • ΔSD<sup>private</sup><sub>g</sub> = SD<sup>private</sup><sub>final</sub>(g) − SD
-                <sup>private</sup><sub>init</sub>(g)
-              </p>
-              <p style={{ margin: "4px 0" }}>
-                • Interpretation: negative values indicate opinion convergence after the debate, and positive values
-                indicate opinion divergence.
-              </p>
-            </div>
+          <div className="mt-6">
+            <Table key={`${partition}-${mode}`} rowKey="modelId" columns={mainColumns} dataSource={rows} pagination={false}
+              size="small" scroll={{ x: 1150 }} bordered />
           </div>
-
-          <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 0, fontSize: 12 }}>
-            Note: The stance labels are based classification onto a 6-point scale:{" "}
-            {`{Certainly disagree (-2.5), Probably disagree (-1.5), Lean disagree (−0.5), Lean agree (+0.5), Probably agree (+1.5), Certainly agree (+2.5)}`}{" "}
-            (see paper for details).
+          <p className="mt-4 text-sm leading-relaxed text-gray-600">
+            Brackets show bootstrap 95% confidence intervals. Click a metric heading to sort; the initial order matches the paper.
+            Public targets are tweet-like posts, and private targets are final opinions. Conditioned initial opinions and first-round posts are excluded from single-opinion prediction error.
           </p>
-        </div>
+          <p className="mt-2 text-xs text-gray-500 sm:hidden">Scroll the tables horizontally to see all metrics.</p>
+          <details className="mt-4 rounded-lg border border-gray-200 p-4 text-sm leading-relaxed text-gray-600">
+            <summary className="cursor-pointer font-semibold text-gray-800">Metric definitions and evaluation protocol</summary>
+            <ul className="mt-3 list-disc space-y-2 pl-5">
+              <li><strong>Single-opinion error:</strong> mean absolute difference between model and human stance labels.</li>
+              <li><strong>Opinion-update error:</strong> mean absolute difference between model and human changes in stance.</li>
+              <li><strong>Opinion-convergence error:</strong> mean absolute difference between model and human changes in within-group stance standard deviation.</li>
+            </ul>
+            <p className="mt-3">Stance labels run from 1 (Certainly disagree) to 6 (Certainly agree). Metrics retain their applicable validity rules and observation counts. Base-model and fine-tuned evaluations can have different available examples. DeGroot coefficients are fitted on the training partition.</p>
+            <p className="mt-3">The SFT test partitions also supplied validation loss for checkpoint selection. The released protocol documents coverage, annotation limitations, and the inputs supporting each analysis.</p>
+            <a href={reproductionUrl} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block text-[#9B0000] underline">Read the evaluation protocol and reproduce these results</a>
+          </details>
+          <PaperFigure name={`${figurePrefix}-errors`} title="Six stance prediction errors" caption="Paired bars compare Full Dynamics Simulation and Next Message Prediction, with bootstrap 95% confidence intervals." />
+        </section>
 
-        <div className="bg-white rounded-lg shadow p-4 mb-6">
-          <div className="flex flex-wrap items-center gap-3">
-            <button
-              type="button"
-              onClick={() => scrollToSection("utterance-alignment")}
-              className="px-3 py-1.5 text-sm font-medium text-gray-700 hover:text-gray-900 border border-gray-200 rounded-md"
-            >
-              Utterance-level Alignment
-            </button>
-            <button
-              type="button"
-              onClick={() => scrollToSection("group-alignment")}
-              className="px-3 py-1.5 text-sm font-medium text-gray-700 hover:text-gray-900 border border-gray-200 rounded-md"
-            >
-              Group-level Alignment
-            </button>
-            <button
-              type="button"
-              onClick={() => scrollToSection("dpo-alignment")}
-              className="px-3 py-1.5 text-sm font-medium text-gray-700 hover:text-gray-900 border border-gray-200 rounded-md"
-            >
-              Fine-tuning with DPO on the Dataset Increases Group-level Alignment
-            </button>
-          </div>
-        </div>
+        <section className="mt-8 rounded-xl border border-gray-200 bg-white p-5 shadow-sm sm:p-8">
+          <Title level={2}>How opinions change during discussion</Title>
+          <Paragraph>These figures show Full Dynamics Simulation on the selected {partition === "group_test" ? "group-generalization" : "topic-generalization"} test partition.</Paragraph>
+          <PaperFigure name={`${figurePrefix}-convergence`} title="Group convergence and stance-diversity trajectories"
+            caption="More negative changes in within-group stance standard deviation indicate stronger convergence. Initial aggregate standard deviations are anchored to the human reference in these panels. Convergence-summary error bars propagate the initial and final standard errors; the prediction errors in the table use each model's own endpoints." />
+          <PaperFigure name={`${figurePrefix}-partner-gap`} title="Partner stance and opinion change"
+            caption="Initial partner–self stance differences versus later opinion changes, with Spearman correlations and bootstrap 95% confidence intervals. Stronger positive correlations indicate a stronger monotonic association with the first partner's stance." />
+        </section>
 
-        <div id="utterance-alignment" className="bg-white rounded-lg shadow p-6 mb-10">
-          <div className="flex flex-wrap items-center justify-between gap-3">
-            <Title level={4} style={{ margin: 0 }}>
-              Utterance-level Evaluation of Role-playing LLM Agents
-            </Title>
-            <div className="inline-flex rounded-lg border border-gray-200 bg-white p-1 shadow-sm">
-              {[
-                { value: "depth", label: "Depth" },
-                { value: "breadth", label: "Breadth" },
-              ].map((option) => {
-                const isActive = alignmentTopicType === option.value;
-                return (
-                  <button
-                    key={option.value}
-                    type="button"
-                    onClick={() => setAlignmentTopicType(option.value)}
-                    className={`px-3 py-1.5 text-sm font-medium transition ${
-                      isActive
-                        ? "bg-gray-900 text-white"
-                        : "text-gray-600 hover:text-gray-900"
-                    } rounded-md`}
-                  >
-                    {option.label}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-          <div style={{ marginTop: 16 }}>
-            {alignmentTopicType === "depth" && (
-              <>
-                <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                  Depth Topics - Avg Stance Δ (Full Conversation Simulation)
-                </Title>
-                <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
-                  Average stance change for Depth topics in Full Conversation Simulation. Bars are sorted in
-                  ascending order; lower values indicate smaller shifts in stance magnitude.
-                </p>
-                <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
-                  <img
-                    src="/leaderboard/avg_stance_delta_depth_mode2.svg"
-                    alt="Depth topics average stance delta (mode 2)"
-                    style={{ width: "100%", height: "auto", display: "block" }}
-                  />
-                </div>
-              </>
-            )}
-            {alignmentTopicType === "breadth" && (
-              <>
-                <Title level={5} style={{ marginBottom: 12, color: "#666" }}>
-                  Breadth Topics - Avg Stance Δ (Full Conversation Simulation)
-                </Title>
-                <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
-                  Average stance change for Breadth topics in Full Conversation Simulation. Bars are sorted in
-                  ascending order; lower values indicate smaller shifts in stance magnitude.
-                </p>
-                <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
-                  <img
-                    src="/leaderboard/avg_stance_delta_breadth_mode2.svg"
-                    alt="Breadth topics average stance delta (mode 2)"
-                    style={{ width: "100%", height: "auto", display: "block" }}
-                  />
-                </div>
-              </>
-            )}
-          </div>
-        </div>
+        <section className="mt-8 rounded-xl border border-gray-200 bg-white p-5 shadow-sm sm:p-8">
+          <Title level={2}>Fine-tuning across model families</Title>
+          <Paragraph>
+            Full Dynamics Simulation · {leaderboard.partitions[partition].label}. Each family uses its own human reference and available valid examples.
+            Compare Base → SFT within a model family; absolute values across families are not a common-sample ranking.
+          </Paragraph>
+          <Title level={4}>Private-opinion prediction errors</Title>
+          <Table rowKey="family" columns={privateColumns} dataSource={comparison} pagination={false} size="middle" scroll={{ x: 740 }} />
+          <Title level={4} style={{ marginTop: 28 }}>Mean change in group stance diversity</Title>
+          <Paragraph>Negative values indicate convergence. Closeness to the corresponding human value, rather than a more negative value, indicates closer agreement with human dynamics.</Paragraph>
+          <Table rowKey="key" columns={convergenceColumns} dataSource={convergenceRows} pagination={false} size="small" scroll={{ x: 660 }} />
+        </section>
 
-        <div id="group-alignment" className="bg-white rounded-lg shadow p-6">
-          {alignmentTopicType === "depth" && (
-            <>
-              <Title level={3} style={{ margin: 0, marginBottom: 12 }}>
-                Group-Level Alignment in Opinion Dynamics: LLM Groups vs. Human Groups (Depth Topics)
-              </Title>
-              <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
-                Change in within-group opinion diversity for humans and RPLA simulations on Depth
-                Topics. Bars
-                show averages over groups; more negative values indicate stronger convergence and
-                positive values indicate divergence. Error bars denote the standard error of the mean
-                across groups.
-              </p>
-          <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
-            <img
-              src="/bar_change_in_sd_fig_depth.svg"
-              alt="Change in within-group opinion diversity figure (depth)"
-              style={{ width: "100%", height: "auto", display: "block" }}
-            />
-          </div>
-
-          <div style={{ height: 24 }} />
-            </>
-          )}
-
-          {alignmentTopicType === "breadth" && (
-            <>
-              <Title level={3} style={{ margin: 0, marginBottom: 12 }}>
-                Group-Level Alignment in Opinion Dynamics: LLM Groups vs. Human Groups (Breadth Topics)
-              </Title>
-              <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 16 }}>
-                Change in within-group opinion diversity for humans and RPLA simulations on Breadth
-                Topics. Bars
-                show averages over groups; more negative values indicate stronger convergence and
-                positive values indicate divergence. Error bars denote the standard error of the mean
-                across groups.
-              </p>
-              <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
-                <img
-                  src="/bar_change_in_sd_fig_breadth.svg"
-                  alt="Change in within-group opinion diversity figure (breadth)"
-                  style={{ width: "100%", height: "auto", display: "block" }}
-                />
-              </div>
-            </>
-          )}
-
-        </div>
-
-        <div id="dpo-alignment" className="bg-white rounded-lg shadow p-6 mt-10">
-          <Title level={3} style={{ margin: 0, marginBottom: 12 }}>
-            Fine-tuning with DPO on the Dataset Increases Group-level Alignment: Aligns LLM Opinion Dynamics on Unseen Topics
-          </Title>
-          <p style={{ color: "#555", lineHeight: 1.6, marginTop: 0, marginBottom: 8 }}>
-            Change in within-group opinion diversity after SFT/DPO post-training.
-          </p>
-          <p style={{ color: "#555", lineHeight: 1.6, marginBottom: 12 }}>
-            Note: This is only for breadth topics as breadth topic data scale supports proper fine-tuning.
-          </p>
-          <div className="w-full" style={{ border: "1px solid #eee", borderRadius: 8, overflow: "hidden" }}>
-            <img
-              src="/bar_change_in_sd_sft_dpo_fig_breadth.svg"
-              alt="Change in within-group opinion diversity after SFT/DPO (breadth)"
-              style={{ width: "100%", height: "auto", display: "block" }}
-            />
-          </div>
-        </div>
+        <section className="mt-8 rounded-xl border border-gray-200 bg-white p-5 shadow-sm sm:p-8">
+          <Title level={2}>Text quality beyond stance</Title>
+          <Paragraph>Semantic similarity, ROUGE-L, and response length complement stance prediction. Base and SFT text metrics use different evaluation subsets; these comparisons are descriptive.</Paragraph>
+          <PaperFigure name={`${figurePrefix}-text`} title="Text-alignment metrics" caption="Text similarity and response length for both simulation settings. The text evaluation uses different observation sets from the stance-prediction metrics above." />
+        </section>
+        <p className="mt-6 text-center text-sm text-gray-500">
+          <a className="underline" href="/release/leaderboard.json" download>Download leaderboard values</a>{" · "}
+          <a className="underline" href="/release/leaderboard-provenance.json" download>Data provenance</a>{" · "}
+          <a className="underline" href="https://github.com/yunshiuan/DEBATE-neurips2026" target="_blank" rel="noopener noreferrer">Reproduction code</a>
+        </p>
       </div>
     </main>
   );
