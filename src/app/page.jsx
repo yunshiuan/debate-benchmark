@@ -15,7 +15,7 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 font-sans">
       <div className="w-full bg-[#9B0000] px-4 pb-10 pt-12 shadow-md">
         <div className="mx-auto max-w-5xl text-center">
-          <p className="mb-4 text-sm font-semibold tracking-wide text-white/85">NeurIPS 2026 · Evaluations and Datasets</p>
+          <p className="mb-4 text-sm font-semibold tracking-wide text-white/85">NeurIPS 2026 Main Conference (<strong>Evaluations &amp; Datasets Track</strong>)</p>
           <Title level={1} style={{ color: "white", fontSize: "clamp(2.4rem, 7vw, 3.2rem)", fontWeight: 700, marginBottom: 12 }}>🏟️ DEBATE</Title>
           <Paragraph style={{ color: "white", fontSize: "1.25rem", marginBottom: 20 }}>
             A Large-Scale Benchmark for Evaluating Opinion Dynamics in Role-Playing LLM Agents

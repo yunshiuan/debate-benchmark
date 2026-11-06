@@ -1,6 +1,6 @@
 # DEBATE benchmark website
 
-The public website for **DEBATE: A Large-Scale Benchmark for Evaluating Opinion Dynamics in Role-Playing LLM Agents**, accepted to the NeurIPS 2026 Evaluations and Datasets track.
+The public website for **DEBATE: A Large-Scale Benchmark for Evaluating Opinion Dynamics in Role-Playing LLM Agents**, accepted to the NeurIPS 2026 Main Conference (**Evaluations & Datasets Track**).
 
 [Website](https://debate-benchmark.vercel.app/) · [Dataset](https://huggingface.co/datasets/seantw/DEBATE_LLM) · [Reproduction and training code](https://github.com/yunshiuan/DEBATE-neurips2026) · [Paper](https://arxiv.org/abs/2510.25110)
 
