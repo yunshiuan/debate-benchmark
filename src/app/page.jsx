@@ -21,7 +21,7 @@ export default function Home() {
             A Large-Scale Benchmark for Evaluating Opinion Dynamics in Role-Playing LLM Agents
           </Paragraph>
           <Paragraph style={{ color: "white", fontSize: "1rem", maxWidth: 900, margin: "0 auto 16px", lineHeight: 1.7, opacity: 0.95 }}>
-            Yun-Shiuan Chuang, Ruixuan Tu, Chengtao Dai, You Li, Binwei Yao, Michael Henry Tessler,<br className="hidden sm:block" />
+            Yun-Shiuan Chuang, Ruixuan Tu, Chengtao Dai, You Li, Smit Vasani, Binwei Yao, Michael Henry Tessler,<br className="hidden sm:block" />
             {" "}Sijia Yang, Dhavan Shah, Robert Hawkins, Junjie Hu, Timothy T. Rogers
           </Paragraph>
           <a href="mailto:yunshiuan.chuang@gmail.com" className="inline-flex items-center justify-center gap-2 text-sm text-white/90 hover:text-white">
