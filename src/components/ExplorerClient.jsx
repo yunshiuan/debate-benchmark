@@ -1,14 +1,13 @@
 "use client";
 
 import {useEffect, useMemo, useState} from "react";
-import {Alert, Button, Card, Collapse, Empty, Input, Select, Slider, Spin, Table, Tabs, Tag, Typography} from "antd";
+import {Alert, Button, Card, Collapse, Empty, Input, Select, Slider, Spin, Table, Tag, Typography} from "antd";
 import Link from "next/link";
+import ConversationTimeline from "@/components/ConversationTimeline";
+import SurveyDistribution from "@/components/SurveyDistribution";
 import {demographicLabels, displayAnswer, partitionOptions, splitOptions, versionLabels} from "@/lib/explorerOptions";
 
-const {Title, Paragraph, Text} = Typography;
-const COLORS = {p1: "#e7eefb", p2: "#e5f2e9", p3: "#f7e9da", p4: "#f0e7f7"};
-const STAGES = [{key: "initial", label: "Initial private opinions"}, {key: "1", label: "Round 1"}, {key: "2", label: "Round 2"}, {key: "3", label: "Round 3"}, {key: "final", label: "Final private opinions"}];
-const matchesStage = (row, stage) => stage === "initial" ? row.event === "Initial Opinion" : stage === "final" ? row.event === "Post Opinion" : row.round === Number(stage) && ["tweet", "message_sent"].includes(row.event);
+const {Paragraph, Text} = Typography;
 const selectedOptions = (values) => values.map((value) => ({value, label: displayAnswer(value)}));
 
 async function getJson(url, signal) {
@@ -16,25 +15,6 @@ async function getJson(url, signal) {
   const payload = await response.json();
   if (!response.ok) throw new Error(payload.error || "Unable to load this view.");
   return payload;
-}
-
-function Records({rows, source, stage, person}) {
-  const visible = rows.filter((row) => matchesStage(row, stage) && (!person || row.participant === person || row.recipient === person));
-  if (!visible.length) return <Empty description="No records for this stage and participant selection." image={Empty.PRESENTED_IMAGE_SIMPLE} />;
-  return <div className="space-y-4">{visible.map((row, index) => <article key={index} style={{background: COLORS[row.participant] || "#f1f1f1", padding: 16, borderRadius: 12, borderLeft: row.event === "tweet" ? "4px solid #9b0000" : "4px solid transparent"}}>
-    <div className="flex flex-wrap justify-between gap-2 mb-2">
-      <Text strong>Participant {row.participant.slice(1)}{row.recipient ? ` → Participant ${row.recipient.slice(1)}` : ""}</Text>
-      <Text type="secondary">{row.event === "tweet" ? "Public post" : row.event === "message_sent" ? "Chat message" : "Private opinion"}</Text>
-    </div>
-    {row.conditioned && <Tag color="blue">Human-conditioned input</Tag>}
-    <p style={{whiteSpace: "pre-wrap", overflowWrap: "anywhere", margin: "8px 0", lineHeight: 1.65}}>{row.text.trim() ? row.text : <em>{source === "model" ? (row.conditioned ? "Human input supplied as context; no separate model text recorded." : "No generated response recorded.") : "No response recorded."}</em>}</p>
-    <div className="flex flex-wrap gap-2 mt-3">
-      {row.stance !== null && <Tag>{row.stance >= 1 && row.stance <= 6 ? `Judge stance: ${row.stance}/6` : `Cached stance outside scale: ${row.stance}`}{row.stance_label ? ` · ${row.stance_label}` : ""}</Tag>}
-      {row.participant_rating !== null && row.participant_rating >= 1 && row.participant_rating <= 6 && <Tag>Self-report: {row.participant_rating}/6</Tag>}
-      {row.validity === "INVALID" && <Tag color="orange">Excluded by cached validity label</Tag>}
-      {row.validity && !["VALID", "INVALID"].includes(row.validity) && <Tag>Validity: {row.validity}</Tag>}
-    </div>
-  </article>)}</div>;
 }
 
 function SurveyOverview({demographics}) {
@@ -60,7 +40,6 @@ export default function ExplorerClient({kind = "conversation"}) {
   const [topic, setTopic] = useState("all");
   const [sessionId, setSessionId] = useState("");
   const [person, setPerson] = useState("");
-  const [stage, setStage] = useState("initial");
   const [filters, setFilters] = useState({});
   const [ageRange, setAgeRange] = useState([18, 100]);
   const [ageFilter, setAgeFilter] = useState(false);
@@ -129,53 +108,67 @@ export default function ExplorerClient({kind = "conversation"}) {
   if (!index || (kind === "persona" && !demographics)) return <div className="p-12 text-center"><Spin tip="Loading released conversations" /></div>;
   const topicRecord = index.topics.find((item) => item.id === session?.topic);
   const selectedPersona = payload?.participants.find((item) => item.id === personId);
-  const filterFields = ["gender", "education", "ethnicity", "politicalIdentity", "politicalViews", "income", "occupation", "religion", "origin"];
-  const extraFields = ["residency", "maritalStatus", "childrenSchool", "residence", "bibleBelief", "evangelical"];
+  const filterFields = ["gender", "origin", "education", "ethnicity", "income", "politicalIdentity", "politicalViews", "religion", "childrenSchool", "maritalStatus", "residence", "bibleBelief", "evangelical", "occupation", "residency"];
+  const availablePeople = kind === "persona" ? filteredPersonas.filter((item) => item.session === session?.id) : payload?.participants || [];
+  const initialOpinions = payload?.humanData.filter((row) => row.event === "Initial Opinion" && row.participant === personId) || [];
+  const resetFilters = () => {setFilters({}); setQuery(""); setAgeFilter(false);};
   const renderFilter = (field) => {
     const values = [...new Set(demographics.personas.flatMap((item) => {const value = item.demographics[field]; return Array.isArray(value) ? value : value ? [value] : [];}))].sort();
-    return <label key={field}><Text strong>{demographicLabels[field]}</Text><Select aria-label={demographicLabels[field]} allowClear showSearch optionFilterProp="label" className="w-full mt-2" placeholder="Any response" value={filters[field]} onChange={(value) => {setFilters({...filters, [field]: value}); setSessionId("");}} options={selectedOptions(values)} /></label>;
+    const change = (value) => {setFilters({...filters, [field]: value}); setSessionId("");};
+    return <Card key={field} size="small" className="shadow-sm" title={demographicLabels[field]}>
+      {values.length <= 8 ? <div role="group" aria-label={demographicLabels[field]} className="flex flex-wrap gap-2">
+        {values.map(value => <button key={value} type="button" aria-pressed={filters[field] === value} onClick={() => change(filters[field] === value ? undefined : value)} className={`rounded border px-3 py-1.5 text-sm ${filters[field] === value ? "border-blue-600 bg-blue-600 text-white" : "border-gray-300 bg-white text-gray-700 hover:border-blue-500"}`}>{displayAnswer(value)}</button>)}
+      </div> : <Select aria-label={demographicLabels[field]} allowClear showSearch optionFilterProp="label" className="w-full" placeholder="Any response" value={filters[field]} onChange={change} options={selectedOptions(values)} />}
+      <div className="my-3 text-right"><Button size="small" disabled={!filters[field]} onClick={() => change(undefined)}>Clear</Button></div>
+      <SurveyDistribution record={demographics.fields[field]} field={field} label={demographicLabels[field]} />
+    </Card>;
   };
   return <>
-    <Paragraph>Explore {index.counts.sessions} human-evaluation groups and their retained model conversations across {index.counts.topics} topics. Stance labels run from 1 (certainly disagree) to 6 (certainly agree).</Paragraph>
-    {kind === "persona" && <SurveyOverview demographics={demographics} />}
-    <Card className="mb-6">
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="bg-white rounded-lg shadow p-4 sm:p-6 mb-6 space-y-5">
+      <label className="block"><Text strong>Topic</Text><Select aria-label="Topic" className="w-full mt-2" showSearch optionFilterProp="label" value={topic} onChange={(value) => {setTopic(value); setSessionId("");}} options={[{value: "all", label: "All topics"}, ...index.topics.map((item) => ({value: item.id, label: item.label}))]} /></label>
+      <div className="flex flex-wrap items-center gap-3"><Text strong>Group ID:</Text><Select aria-label="Conversation group" style={{width: "100%", maxWidth: 400}} value={session?.id} onChange={(value) => {setSessionId(value); setPerson("");}} showSearch optionFilterProp="label" options={sessionOptions.map((item) => ({value: item.id, label: `${item.label} · ${item.date.slice(0,4)}-${item.date.slice(4,6)}-${item.date.slice(6)}${item.available.includes(`${model}:${mode}`) ? "" : " · human only"}`}))} /></div>
+      <div className="flex flex-wrap items-center gap-3"><Text strong>Human vs. Model:</Text><Select aria-label="Model" style={{width: "100%", maxWidth: 400}} value={model} onChange={setModel} options={index.models.filter((item) => !item.training_split || item.training_split === split).map((item) => ({value: item.id, label: item.label}))} /></div>
+      <label className="block"><Text strong>{kind === "persona" ? "Participant and initial opinion" : "Focus participant"}</Text><Select aria-label="Focus participant" className="w-full mt-2" value={personId || ""} onChange={setPerson} showSearch optionFilterProp="label" options={[...(kind === "persona" ? [] : [{value: "", label: "All participants"}]), ...availablePeople.map((item) => {
+        const initial = kind === "persona" ? payload?.humanData.find(row => row.event === "Initial Opinion" && row.participant === item.id)?.text : null;
+        return {value: item.id, label: initial ? `${item.label}: ${initial}` : item.label};
+      })]} /></label>
+      <div className="grid gap-4 sm:grid-cols-3">
         <label><Text strong>Evaluation split</Text><Select aria-label="Evaluation split" className="w-full mt-2" value={split} options={splitOptions} onChange={changeSplit} /></label>
         <label><Text strong>Partition</Text><Select aria-label="Partition" className="w-full mt-2" value={partition} options={partitionOptions} onChange={setPartition} /></label>
         <label><Text strong>Simulation mode</Text><Select aria-label="Simulation mode" className="w-full mt-2" value={mode} onChange={setMode} options={Object.entries(versionLabels).map(([value, label]) => ({value, label}))} /></label>
-        <label className="lg:col-span-2"><Text strong>Topic</Text><Select aria-label="Topic" className="w-full mt-2" showSearch optionFilterProp="label" value={topic} onChange={(value) => {setTopic(value); setSessionId("");}} options={[{value: "all", label: "All topics"}, ...index.topics.map((item) => ({value: item.id, label: item.label}))]} /></label>
-        <label><Text strong>Model</Text><Select aria-label="Model" className="w-full mt-2" value={model} onChange={setModel} options={index.models.filter((item) => !item.training_split || item.training_split === split).map((item) => ({value: item.id, label: item.label}))} /></label>
       </div>
-      <p className="mt-4 mb-0 text-sm text-gray-600">{versionLabels[mode]}: {mode === "v0" ? "each model continues its generated conversation history." : "each prediction is conditioned on the observed human conversation history."} Human-conditioned inputs are labelled below; cached response text is preserved as recorded.</p>
-    </Card>
-    {kind === "persona" && <Card className="mb-6" title="Find participants">
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{filterFields.map(renderFilter)}</div>
-      <Collapse className="mt-4" items={[{key: "extra", label: `More filters${extraFields.some((field) => filters[field]) ? ` (${extraFields.filter((field) => filters[field]).length} active)` : ""}`, children: <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{extraFields.map(renderFilter)}</div>}]} />
-      <div className="mt-5 grid gap-4 sm:grid-cols-2">
-        <label><Text strong>Search survey responses</Text><Input aria-label="Search survey responses" value={query} onChange={(event) => setQuery(event.target.value)} className="mt-2" placeholder="Search responses" /></label>
-        <div><label><input type="checkbox" checked={ageFilter} onChange={(event) => setAgeFilter(event.target.checked)} /> Filter age: {ageRange[0]}–{ageRange[1]}</label><Slider range min={18} max={100} value={ageRange} onChange={setAgeRange} disabled={!ageFilter} /></div>
-      </div>
-      <div className="mt-3 flex gap-3 items-center"><Tag>{filteredPersonas.length} matching participants</Tag><Button size="small" onClick={() => {setFilters({}); setQuery(""); setAgeFilter(false);}}>Reset demographics</Button></div>
-      <p className="text-sm text-gray-600 mt-3 mb-0">Participant labels are local to each group. Persona browsing covers the 2,788 participants in the 697 evaluation groups; survey overview percentages above use all recorded sessions.</p>
-    </Card>}
-    <Card className="mb-6">
-      <div className="grid gap-4 sm:grid-cols-2">
-        <label><Text strong>Conversation group</Text><Select aria-label="Conversation group" className="w-full mt-2" value={session?.id} onChange={(value) => {setSessionId(value); setPerson("");}} showSearch optionFilterProp="label" options={sessionOptions.map((item) => ({value: item.id, label: `${item.label} · ${item.date.slice(0,4)}-${item.date.slice(4,6)}-${item.date.slice(6)}${item.available.includes(`${model}:${mode}`) ? "" : " · human only"}`}))} /></label>
-        <label><Text strong>{kind === "persona" ? "Participant" : "Focus participant"}</Text><Select aria-label="Focus participant" className="w-full mt-2" value={personId || ""} onChange={setPerson} options={[...(kind === "persona" ? [] : [{value: "", label: "All participants"}]), ...(kind === "persona" ? filteredPersonas.filter((item) => item.session === session?.id) : payload?.participants || []).map((item) => ({value: item.id, label: item.label}))]} /></label>
-      </div>
-      <p className="mt-4 mb-0 text-sm text-gray-600">{sessionOptions.length} groups match this selection; {sessionOptions.filter((item) => item.available.includes(`${model}:${mode}`)).length} have cached model output.</p>
-    </Card>
-    {!session ? <Empty description="No participants or groups match these filters." /> : <>
-      <Title level={3} style={{fontSize: 23}}>{topicRecord?.label}</Title>
-      <div className="flex flex-wrap gap-2 mb-5"><Tag color="red">{session.label}</Tag><Tag>{split === "group" ? "Group" : "Topic"} split: {session.partitions[maskSource]?.[split] || "Not assigned"}</Tag><Link href={`/conversation-explorer?session=${session.id}&split=${split}&partition=${partition}&model=${model}&mode=${mode}${personId ? `&person=${personId}` : ""}`}>Link to this conversation</Link></div>
-      {selectedPersona && <Card className="mb-6" title={`${selectedPersona.label} · Survey responses`}><div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{Object.entries(selectedPersona.demographics).map(([field, value]) => <div key={field}><Text type="secondary">{demographicLabels[field]}</Text><p className="mt-1 mb-0">{displayAnswer(value)}</p></div>)}</div></Card>}
-      {runError && <Alert type={hasRun ? "error" : "info"} showIcon title={hasRun ? "Unable to load conversation" : "Model output unavailable"} description={runError} className="mb-5" />}
-      <Tabs activeKey={stage} onChange={setStage} items={STAGES} />
-      {loading ? <div className="p-12 text-center"><Spin tip="Loading conversation" /></div> : payload && <div className="grid gap-5 lg:grid-cols-2">
-        <section className="bg-white rounded-xl border border-gray-200 p-4 sm:p-6"><Title level={4}>Human conversation</Title><Records rows={payload.humanData} source="human" stage={stage} person={personId} /></section>
-        <section className="bg-white rounded-xl border border-gray-200 p-4 sm:p-6"><Title level={4}>{selectedModel?.label}</Title>{hasRun ? <Records rows={payload.data} source="model" stage={stage} person={personId} /> : <Empty description="No model output for this selection." image={Empty.PRESENTED_IMAGE_SIMPLE} />}</section>
+      <p className="mb-0 text-sm text-gray-600">{versionLabels[mode]}: {mode === "v0" ? "each model continues its generated conversation history." : "each prediction is conditioned on the observed human conversation history."} Human-conditioned inputs are labelled below.</p>
+      <p className="mb-0 text-sm text-gray-600">Explore {index.counts.sessions} groups across {index.counts.topics} topics. {sessionOptions.length} groups match this selection; {sessionOptions.filter((item) => item.available.includes(`${model}:${mode}`)).length} have cached model output. Stance labels run from 1 (certainly disagree) to 6 (certainly agree).</p>
+      {kind === "persona" && selectedPersona && <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 space-y-3">
+        <Text strong style={{fontSize: 18, display: "block"}}>Topic you selected: <span className="italic underline">{topicRecord?.label}</span></Text>
+        <div><Text strong>{selectedPersona.label} · Survey responses</Text><div className="mt-2 flex flex-wrap gap-x-5 gap-y-2 text-sm text-gray-700">{Object.entries(selectedPersona.demographics).map(([field, value]) => <span key={field}><strong>{demographicLabels[field]}:</strong> {displayAnswer(value)}</span>)}</div></div>
+        <div><Text strong>Initial private opinion</Text>{initialOpinions.length ? initialOpinions.map((row, i) => <p key={i} className="mt-2 mb-0 italic text-gray-800">{row.text || "No response recorded."}</p>) : <p className="mt-2 mb-0 text-gray-600">No initial opinion recorded.</p>}</div>
+        <Button type="primary" href="#persona-conversation-section">Scroll to Conversation</Button>
       </div>}
-      <Paragraph type="secondary" className="mt-6" style={{fontSize: 13}}>The explorer shows retained conversations, including missing responses and records excluded by cached validity labels. Human records are paired with the selected model’s annotation cache; the paper’s metrics apply additional observation and validity requirements. Final-opinion validity labels have a documented historical input limitation. <a href="https://github.com/yunshiuan/DEBATE-neurips2026/blob/main/docs/paper_reproduction.md#historical-validity-label-limitation" target="_blank" rel="noreferrer">Evaluation details</a>.</Paragraph>
+    </div>
+    {kind === "persona" && <>
+      <div className="bg-white rounded-lg shadow p-4 sm:p-6 mb-6">
+        <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+          <div className="flex flex-wrap items-center gap-3"><Text strong style={{fontSize: 20}}>Demographics Filters</Text><Tag color="blue">{filteredPersonas.length} matching participants</Tag></div>
+          <Button size="small" onClick={resetFilters}>Reset demographics</Button>
+        </div>
+        <label className="block mb-4"><Text strong>Search survey responses</Text><Input aria-label="Search survey responses" value={query} onChange={(event) => setQuery(event.target.value)} className="mt-2" placeholder="Search responses" /></label>
+        <p className="text-sm text-gray-600 mb-5">Filters select participants from the 697 evaluation groups. Charts summarize the demographic survey across all 708 recorded sessions; percentages use the respondents to each question.</p>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <Card size="small" className="shadow-sm" title="Age">
+            <label><input type="checkbox" checked={ageFilter} onChange={(event) => setAgeFilter(event.target.checked)} /> Filter age: {ageRange[0]}–{ageRange[1]}</label><Slider range min={18} max={100} value={ageRange} onChange={setAgeRange} disabled={!ageFilter} />
+            <SurveyDistribution record={demographics.fields.age} field="age" label="Age" />
+          </Card>
+          {filterFields.map(renderFilter)}
+        </div>
+      </div>
+      <SurveyOverview demographics={demographics} />
     </>}
+    {!session ? <Empty description="No participants or groups match these filters." /> : <section id="persona-conversation-section" className="bg-white rounded-lg shadow p-4 sm:p-6 scroll-mt-4">
+      <Tag color="geekblue" style={{marginBottom: 16, maxWidth: "100%", whiteSpace: "normal"}}><Text strong style={{fontSize: 18}}>Topic: {topicRecord?.label}</Text></Tag>
+      <div className="flex flex-wrap gap-2 mb-5"><Tag color="red">{session.label}</Tag><Tag>{split === "group" ? "Group" : "Topic"} split: {session.partitions[maskSource]?.[split] || "Not assigned"}</Tag><Link href={`/conversation-explorer?session=${session.id}&split=${split}&partition=${partition}&model=${model}&mode=${mode}${personId ? `&person=${personId}` : ""}`}>Link to this conversation</Link></div>
+      {runError && <Alert type={hasRun ? "error" : "info"} showIcon title={hasRun ? "Unable to load conversation" : "Model output unavailable"} description={runError} className="mb-5" />}
+      {loading ? <div className="p-12 text-center"><Spin tip="Loading conversation" /></div> : payload && <ConversationTimeline payload={payload} modelLabel={selectedModel?.label} hasRun={hasRun} person={personId} />}
+    </section>}
   </>;
 }

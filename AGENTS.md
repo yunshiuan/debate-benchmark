@@ -8,6 +8,7 @@
 - The user may push normally from VS Code or their own terminal after review; the hook blocks Codex execution contexts, not ordinary user pushes. Install it with `python3 .githooks/install.py`; see [.githooks/README.md](.githooks/README.md).
 
 - Read the relevant source before editing. Preserve the current scientific data pin and public-facing terminology.
+- Preserve the established website style and layout when updating paper content, data, or figures. Use the pre-camera-ready presentation at `50e11446` as the visual reference; redesign only when explicitly requested.
 - `src/app/leaderboard/page.jsx` reads `public/release/leaderboard.json`; regenerate it with `scripts/build_leaderboard.py` from verified paper outputs.
 - The conversation, persona and topic explorers use `src/components/ExplorerClient.jsx`, `src/lib/explorerData.mjs` and `data/explorers/`. Regenerate exports with `scripts/build_explorer_data.py`; see README for required arguments.
 - Preserve model-specific human references, source-specific masks, missing outputs and session-local participant identities. Do not replace missing model text with human responses or silently rescore cached labels.
