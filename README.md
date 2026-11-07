@@ -2,7 +2,7 @@
 
 The public website for **DEBATE: A Large-Scale Benchmark for Evaluating Opinion Dynamics in Role-Playing LLM Agents**, accepted to the NeurIPS 2026 Main Conference (Evaluations & Datasets Track).
 
-[Website](https://debate-benchmark.vercel.app/) · [Dataset](https://huggingface.co/datasets/seantw/DEBATE_LLM) · [Reproduction and training code](https://github.com/yunshiuan/DEBATE-neurips2026) · [Paper](https://arxiv.org/abs/2510.25110)
+[Website](https://debate-llm-benchmark.vercel.app/) · [Dataset](https://huggingface.co/datasets/seantw/DEBATE_LLM) · [Reproduction and training code](https://github.com/yunshiuan/DEBATE-neurips2026) · [Paper](https://arxiv.org/abs/2510.25110)
 
 This repository contains the Next.js website. Simulation, annotation, SFT preparation/training, and scientific evaluation live in the separate reproduction code repository linked above.
 
@@ -66,4 +66,4 @@ Human records, cached model outputs, numeric results, and derived exports remain
 - `public/release/`: leaderboard data and provenance.
 - `data/explorers/`: compact records used by the explorer API routes.
 
-The production website is hosted at https://debate-benchmark.vercel.app/, with automatic Vercel deployment from the `main` branch. Keep credentials and local environment files out of Git.
+The production website is hosted at https://debate-llm-benchmark.vercel.app/, with automatic Vercel deployment from the `main` branch. Keep credentials and local environment files out of Git.
