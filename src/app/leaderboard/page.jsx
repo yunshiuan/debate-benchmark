@@ -1,13 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { Table, Tag, Typography } from "antd";
+import { Tag, Typography } from "antd";
 import LeaderboardHeader from "../../components/LeaderboardHeader";
 import leaderboard from "../../../public/release/leaderboard.json";
 
 const { Title, Paragraph } = Typography;
 const reproductionUrl = "https://github.com/yunshiuan/DEBATE-neurips2026/blob/main/docs/paper_reproduction.md";
-const format = (value) => Number.isFinite(value) ? value.toFixed(3) : "—";
 
 function Choice({ label, value, onChange, options }) {
   return (
@@ -46,45 +45,7 @@ function PaperFigure({ name, title, caption }) {
 
 export default function Leaderboard() {
   const [partition, setPartition] = useState("group_test");
-  const [mode, setMode] = useState("v0");
-  const rows = leaderboard.results.filter((row) => row.partition === partition && row.mode === mode);
-  const comparison = leaderboard.crossModel.filter((row) => row.partition === partition);
   const figurePrefix = partition === "group_test" ? "group" : "topic";
-  const metricColumns = (channel) => leaderboard.metrics.filter((metric) => metric.channel === channel).map((metric) => ({
-    title: `${metric.label} ↓`, key: metric.id, width: 140,
-    sorter: (a, b) => a.metrics[metric.id].value - b.metrics[metric.id].value,
-    render: (_, row) => {
-      const result = row.metrics[metric.id];
-      return <div className="tabular-nums">
-        <div className={`text-base ${row.kind === "sft" ? "font-semibold text-[#9B0000]" : "text-gray-900"}`}>{format(result.value)}</div>
-        <div className="text-xs text-gray-500">[{format(result.ciLow)}, {format(result.ciHigh)}]</div>
-        <div className="mt-1 text-xs text-gray-500">n = {result.count.toLocaleString()} {metric.countUnit}</div>
-      </div>;
-    },
-  }));
-  const mainColumns = [
-    { title: "Model", key: "model", fixed: "left", width: 190, render: (_, row) => <div>
-      <span className="font-medium">{row.label}</span>
-      <div className="mt-1">{row.kind === "sft" ? <Tag color="red">Fine-tuned</Tag> : row.kind === "baseline" ? <Tag>Scalar baseline</Tag> : null}</div>
-    </div> },
-    { title: "Public opinion", children: metricColumns("Public") },
-    { title: "Private opinion", children: metricColumns("Private") },
-  ];
-  const privateColumns = [
-    { title: "Model family", dataIndex: "label", key: "family", width: 190 },
-    ...leaderboard.metrics.filter((metric) => metric.channel === "Private").map((metric) => ({
-      title: `${metric.label} ↓`, key: metric.id,
-      render: (_, row) => <span className="tabular-nums">{format(row.errors[metric.id].base)} → <strong>{format(row.errors[metric.id].SFT)}</strong></span>,
-    })),
-  ];
-  const convergenceRows = comparison.flatMap((row) => ["public", "private"].map((channel) => ({
-    key: `${row.family}-${channel}`, family: row.label, channel: channel === "public" ? "Public" : "Private", ...row.convergence[channel],
-  })));
-  const convergenceColumns = [
-    { title: "Model family", dataIndex: "family", key: "family" },
-    { title: "Opinion", dataIndex: "channel", key: "channel" },
-    ...[["human", "Human"], ["base", "Base"], ["SFT", "SFT"]].map(([key, title]) => ({ title, dataIndex: key, key, render: format })),
-  ];
 
   return (
     <main className="min-h-screen bg-gray-50 font-sans">
@@ -107,7 +68,7 @@ export default function Leaderboard() {
         </section>
         <nav aria-label="Leaderboard sections" className="bg-white rounded-lg shadow p-4 mb-6">
           <div className="flex flex-wrap items-center gap-3">
-            {[["stance-alignment", "Stance prediction"], ["group-alignment", "Group-level alignment"], ["sft-alignment", "Fine-tuning across model families"], ["text-alignment", "Text quality"]].map(([id, label]) => <a key={id} href={`#${id}`} className="px-3 py-1.5 text-sm font-medium text-gray-700 hover:text-gray-900 border border-gray-200 rounded-md">{label}</a>)}
+            {[["stance-alignment", "Stance prediction"], ["group-alignment", "Group-level alignment"], ["text-alignment", "Text quality"]].map(([id, label]) => <a key={id} href={`#${id}`} className="px-3 py-1.5 text-sm font-medium text-gray-700 hover:text-gray-900 border border-gray-200 rounded-md">{label}</a>)}
           </div>
         </nav>
         <section id="stance-alignment" className="bg-white rounded-lg shadow p-4 sm:p-6 mb-10 scroll-mt-6">
@@ -119,22 +80,15 @@ export default function Leaderboard() {
           </Paragraph>
           <div className="mt-6 flex flex-wrap gap-6">
             <Choice label="Test partition" value={partition} onChange={setPartition} options={Object.entries(leaderboard.partitions).map(([key, value]) => [key, value.label])} />
-            <Choice label="Simulation setting" value={mode} onChange={setMode} options={Object.entries(leaderboard.modes)} />
           </div>
           <div className="mt-4 text-sm leading-relaxed text-gray-600">
             <strong>{leaderboard.partitions[partition].description}.</strong>{" "}
-            {mode === "v0" ? "Agents continue the conversation using their generated messages." : "Each next message is predicted from the observed human conversation history."}{" "}
-            The test partition contains {leaderboard.partitions[partition].requestedGroups} groups; the valid observations available for each metric are shown below.
-          </div>
-          <div className="mt-6">
-            <Table key={`${partition}-${mode}`} rowKey="modelId" columns={mainColumns} dataSource={rows} pagination={false}
-              size="small" scroll={{ x: 1030 }} bordered />
+            The test partition contains {leaderboard.partitions[partition].requestedGroups} groups.
+            The stance-prediction and text-quality figures compare both simulation settings.
           </div>
           <p className="mt-4 text-sm leading-relaxed text-gray-600">
-            Brackets show bootstrap 95% confidence intervals. Click a metric heading to sort; the initial order matches the paper.
             Public targets are tweet-like posts, and private targets are final opinions. Conditioned initial opinions and first-round posts are excluded from single-opinion prediction error.
           </p>
-          <p className="mt-2 text-xs text-gray-500 sm:hidden">Scroll the tables horizontally to see all metrics.</p>
           <PaperFigure name={`${figurePrefix}-errors`} title="Six stance prediction errors" caption="Paired bars compare Full Dynamics Simulation and Next Message Prediction, with bootstrap 95% confidence intervals." />
         </section>
 
@@ -142,22 +96,9 @@ export default function Leaderboard() {
           <Title level={3} style={{marginTop: 0}}>How opinions change during discussion</Title>
           <Paragraph>These figures show Full Dynamics Simulation on the selected {partition === "group_test" ? "group-generalization" : "topic-generalization"} test partition.</Paragraph>
           <PaperFigure name={`${figurePrefix}-convergence`} title="Group convergence and stance-diversity trajectories"
-            caption="More negative changes in within-group stance standard deviation indicate stronger convergence. Initial aggregate standard deviations are anchored to the human reference in these panels. Convergence-summary error bars propagate the initial and final standard errors; the prediction errors in the table use each model's own endpoints." />
+            caption="More negative changes in within-group stance standard deviation indicate stronger convergence. Initial aggregate standard deviations are anchored to the human reference in these panels. Convergence-summary error bars propagate the initial and final standard errors." />
           <PaperFigure name={`${figurePrefix}-partner-gap`} title="Partner stance and opinion change"
             caption="Initial partner–self stance differences versus later opinion changes, with Spearman correlations and bootstrap 95% confidence intervals. Stronger positive correlations indicate a stronger monotonic association with the first partner's stance." />
-        </section>
-
-        <section id="sft-alignment" className="bg-white rounded-lg shadow p-4 sm:p-6 mb-10 scroll-mt-6">
-          <Title level={3} style={{marginTop: 0}}>Fine-tuning across model families</Title>
-          <Paragraph>
-            Full Dynamics Simulation · {leaderboard.partitions[partition].label}. Each family uses its own human reference and available valid examples.
-            Compare Base → SFT within a model family; absolute values across families are not a common-sample ranking.
-          </Paragraph>
-          <Title level={4}>Private-opinion prediction errors</Title>
-          <Table rowKey="family" columns={privateColumns} dataSource={comparison} pagination={false} size="middle" scroll={{ x: 740 }} />
-          <Title level={4} style={{ marginTop: 28 }}>Mean change in group stance diversity</Title>
-          <Paragraph>Negative values indicate convergence. Closeness to the corresponding human value, rather than a more negative value, indicates closer agreement with human dynamics.</Paragraph>
-          <Table rowKey="key" columns={convergenceColumns} dataSource={convergenceRows} pagination={false} size="small" scroll={{ x: 660 }} />
         </section>
 
         <section id="text-alignment" className="bg-white rounded-lg shadow p-4 sm:p-6 mb-10 scroll-mt-6">

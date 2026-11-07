@@ -74,6 +74,10 @@ export default function Home() {
             DEBATE pairs human discussions with role-playing LLM agents initialized from the same participants.
             It measures whether models reproduce human opinions, individual opinion updates, and group convergence.
           </Paragraph>
+          <SectionHeader icon="💬" title="Lay Summary" />
+          <Paragraph className="text-lg text-gray-700 leading-relaxed sm:text-justify">
+            Role-playing AI models are increasingly used to simulate how people talk, disagree, and change their minds. But a conversation that sounds realistic may still produce unrealistic changes in opinion. We introduce DEBATE, a public collection of discussions covering 107 topics, with records from 2,788 people in 697 groups. Participants exchange messages over three rounds of discussion and report their views before and after discussion. We use these data to test whether role-playing AI participants reproduce how people change their opinions. Across seven models, AI participants tend to agree more with others in their group after discussion, whereas humans tend to retain their initial views. Additional training on human conversations reduces this convergence tendency in three models, including when tested on new discussion topics. DEBATE offers a way to test the reliability of AI simulations used to study disagreement, misinformation, and social behavior.
+          </Paragraph>
           <SectionHeader icon="✨" title="Abstract" />
           <figure className="border-2 border-dashed border-gray-200 rounded-2xl my-10 bg-gray-50 overflow-hidden p-4">
             <a href="/camera-ready/experiment.png" target="_blank" rel="noopener noreferrer" aria-label="Open the experiment diagram at full resolution">

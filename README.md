@@ -25,7 +25,7 @@ npm start
 
 ## Website sections
 
-- **Model leaderboard:** six stance-prediction errors for seven base LLMs, Llama SFT, and DeGroot; group- and topic-generalization test partitions; Full Dynamics Simulation and Next Message Prediction. The original model order, confidence intervals, and valid observation counts are preserved. Separate cross-model tables compare Base to SFT within Llama, Qwen, and Mistral.
+- **Model leaderboard:** paper figures for six stance-prediction errors, group opinion dynamics, partner stance and opinion change, and text quality. Switch between group- and topic-generalization test partitions. Figures retain the original model order and error bars; PNG, PDF, CSV, and full numeric-result downloads remain available.
 - **Conversation explorer:** recorded human discussions and available generated trajectories from the released experiment caches.
 - **Persona explorer:** demographic responses and participant-level conversation views from the released human records.
 - **Topic explorer:** discussion statements, their sessions, and initial opinions.
